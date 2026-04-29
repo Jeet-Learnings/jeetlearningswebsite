@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-slate-900 border-t border-slate-800 py-6 sm:py-8 md:py-12">
@@ -7,17 +9,17 @@ export default function Footer() {
             Copyright © 2026 Jeet Learnings. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 text-xs sm:text-sm">
-            <a href="#" className="text-slate-400 hover:text-white transition">
+            <Link href="/disclaimer" className="text-slate-400 hover:text-white transition">
               Disclaimer
-            </a>
+            </Link>
             <span className="text-slate-600">|</span>
-            <a href="#" className="text-slate-400 hover:text-white transition">
+            <Link href="/privacy-policy" className="text-slate-400 hover:text-white transition">
               Privacy Policy
-            </a>
+            </Link>
             <span className="text-slate-600">|</span>
-            <a href="#" className="text-slate-400 hover:text-white transition">
+            <Link href="/terms-and-conditions" className="text-slate-400 hover:text-white transition">
               Terms & Conditions
-            </a>
+            </Link>
           </div>
         </div>
       </div>

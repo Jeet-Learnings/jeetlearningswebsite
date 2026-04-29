@@ -673,19 +673,19 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
 // ─── SHARED HEADER ────────────────────────────────────────────────
 function SectionHeader({ section, light = false }: { section: CareerGuideSection; light?: boolean }) {
   return (
-    <div className="mb-8 text-center">
-      <div className="flex items-center justify-center gap-3 mb-3">
+    <div className="mb-8 text-center px-2">
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-3">
         <div
-          className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0 shadow-md"
+          className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 shadow-md"
           style={{ background: section.color ?? "#1E40AF" }}
         >
-          <DynamicIcon name={section.icon} className="w-7 h-7 text-white" />
+          <DynamicIcon name={section.icon} className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
         </div>
-        <h2 className={`text-2xl sm:text-3xl md:text-4xl font-black leading-tight whitespace-nowrap ${light ? "text-white" : "text-slate-900"}`}>
+        <h2 className={`text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black leading-tight ${light ? "text-white" : "text-slate-900"}`}>
           {section.title}
         </h2>
       </div>
-      <p className={`text-base md:text-lg leading-relaxed max-w-3xl mx-auto ${light ? "text-white/70" : "text-slate-600"}`}>
+      <p className={`text-sm sm:text-base md:text-lg leading-relaxed max-w-3xl mx-auto px-4 ${light ? "text-white/70" : "text-slate-600"}`}>
         {section.description}
       </p>
     </div>
@@ -755,11 +755,11 @@ export function CareerCompleteGuide({ careerName, sections }: Props) {
     <div className="relative">
       {/* Page header */}
       <section className="py-16 px-4 sm:px-6 bg-gradient-to-b from-blue-50 to-white text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mb-4 leading-tight">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 mb-4 leading-tight">
             Complete Guide to <span style={{ color: BLUE }}>{careerName}</span>
           </h2>
-          <p className="text-slate-500 text-base md:text-xl max-w-2xl mx-auto">
+          <p className="text-slate-500 text-sm sm:text-base md:text-xl max-w-2xl mx-auto">
             Everything you need to know — beautifully broken down, section by section.
           </p>
         </div>

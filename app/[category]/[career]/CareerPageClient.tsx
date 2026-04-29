@@ -108,7 +108,7 @@ export function CareerPageClient({
       <section id="videos" className="py-10 md:py-12 lg:py-16 px-4 sm:px-6 md:px-8 bg-slate-50 border-t border-slate-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-6 md:mb-8 lg:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2 md:mb-4 text-slate-800">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold mb-2 md:mb-4 text-slate-800">
               Learn More Through Videos
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 font-medium px-2">
