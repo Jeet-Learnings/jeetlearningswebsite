@@ -422,7 +422,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Certifications (Post-Joining): Commando Course (NSG Manesar or Greyhounds), Cyber Crime Investigation (Certified by CDTI), Forensic Science (Courses from NFSU), Advanced Investigation Techniques.",
           "Professional Bodies: Indian Police Service Association, State Police Officers' Association.",
           "International Certifications: INTERPOL training, UN Peacekeeping certifications.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -886,7 +886,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Certifications: First Aid & CPR (from St. John Ambulance or Red Cross - mandatory basic skill), GIS/Remote Sensing (highly valued), Incident Command System (ICS) - NIDM offers online certifications.",
           "Professional Bodies: GIDM (Gujarat Institute of Disaster Management) - specialized memberships/training. IUINDRR (National Institute of Disaster Management's university network).",
           "Specialized Training: Drone Pilot Certification, Advanced GIS Training, Psychosocial Care Training, Business Continuity Planning Certification.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {

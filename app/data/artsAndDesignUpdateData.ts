@@ -349,7 +349,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         content: [
           "Certifications: Adobe Certified Professional, Autodesk Certified User, Unreal Engine Academic Partner status.",
           "Memberships: ABAI (Karnataka) and T-AIM (Telangana) provide great networking.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -11175,7 +11175,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Professional Bodies: IEEE (Institute of Electrical and Electronics Engineers) - the world's largest technical society. IETE (Institution of Electronics and Telecommunication Engineers) - the national body in India.",
           "Certifications: Embedded Systems - Certified by CDAC. VLSI Design - Courses from specialized institutes like Maven Silicon or Sandeepani. IoT Certification - from NPTEL or Coursera.",
           "Industry Recognition: Certifications from Cadence, Synopsys, and Mentor Graphics (EDA tool providers) are highly valued.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -11410,7 +11410,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Professional Bodies: Indian Society of Remote Sensing (ISRS) - student membership helps in networking. AGI (Association of Geospatial Industries) - the industry lobby group.",
           "Certifications (Highly Valued): Esri Technical Certification - for ArcGIS software (the industry standard). QGIS Certification - for open-source expertise.",
           "Industry Recognition: GitHub contributions, research publications, and project portfolios showcase your expertise.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -11644,7 +11644,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Certifications (Mandatory/Highly Recommended): Beginner: CompTIA Security+, CEH. Pro: OSCP, CISSP (for management).",
           "Communities: Null and OWASP (Open Web Application Security Project). Joining a local 'Null Chapter' meet-up in your city is the best way to network.",
           "Industry Recognition: Bug bounty platforms like HackerOne and Bugcrowd showcase your skills and reputation.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -11878,7 +11878,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "PMI (Project Management Institute): Offers PBA (Professional in Business Analysis).",
           "Scrum Alliance: For CSM or CSPO certifications (essential for modern agile teams).",
           "Industry Recognition: JIRA expertise, SQL knowledge, and project portfolio showcase your skills.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -12113,7 +12113,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Professional Bodies: IEEE Sensors Council - global body for sensor professionals. IETE (Institution of Electronics and Telecommunication Engineers) - Indian body.",
           "Certifications: AWS Certified IoT Developer - highly valued by companies using cloud. Cisco Certified Network Associate (CCNA) - good for the networking side of IoT. C-DAC Diploma in Embedded Systems - a gold standard for freshers in India.",
           "Industry Recognition: GitHub contributions, hackathon wins, and project portfolios showcase your expertise.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -12348,7 +12348,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Apple Certified iOS Developer: Adds immense value if you want to work abroad.",
           "Meta React Native Specialization: Available on Coursera.",
           "Industry Recognition: GitHub contributions, app portfolio, and hackathon wins showcase your skills.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -12582,7 +12582,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Scrum Alliance: Must-Have: CSM (Certified Scrum Master) – Essential for software jobs.",
           "PRINCE2: Another certification popular in UK/European companies.",
           "Industry Recognition: JIRA expertise, Agile knowledge, and project portfolio showcase your skills.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -12815,7 +12815,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Coding Profiles: A 5-star rating on CodeChef or LeetCode often holds more value than a paper certificate.",
           "Industry Recognition: GitHub contributions, open-source projects, and hackathon wins showcase your skills.",
           "Note: Unlike doctors or lawyers, software engineers do not need a government license to practice. However, certifications validate your skills.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -13045,7 +13045,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         content: [
           "ISTQB (International Software Testing Qualifications Board): The gold standard. Acts like a global passport. Entry Level: ISTQB Foundation Level (CTFL) - highly recommended for freshers. Mid Level: ISTQB Agile Tester, ISTQB Test Analyst. Specialized: Certified Ethical Hacker (CEH) for Security Testing.",
           "Industry Recognition: Selenium certification, Postman certification, and project portfolio showcase your skills.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -13279,7 +13279,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Memberships: IGDA (International Game Developers Association) - the India chapter is very active and great for networking.",
           "Portfolio: No license is required, but a Portfolio is mandatory. Showcase your game designs, prototypes, and level designs.",
           "Industry Recognition: Game jam wins, published games, and community contributions showcase your skills.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -13516,7 +13516,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Certifications: UGC NET (mandatory for teaching), ICSSR Certification, Field Research Certification from universities.",
           "Portfolio: Build a portfolio of research papers, field reports, and publications.",
           "Industry Recognition: Published research, conference presentations, and community contributions showcase expertise.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -13767,7 +13767,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Certifications: PG Diploma in Archaeology from ASI Institute (highly regarded), Certificate courses in Heritage Conservation, Museum Studies, Digital Archaeology and GIS, Archaeological Science.",
           "Specialized Training: Radiocarbon dating techniques, LiDAR and remote sensing, 3D modeling and photogrammetry, Conservation chemistry.",
           "Licensing: No mandatory license required. However, ASI employment requires MA in Archaeology/History and clearing SSC/UPSC exams. Research permits needed from ASI or state archaeology departments.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -14273,7 +14273,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Certifications: Esri GIS Certification, QGIS Certification, Remote Sensing Certification, Urban Planning Certification, Climate Change Adaptation Specialist.",
           "Specialized Training: Advanced GIS and Remote Sensing, Urban Planning and Design, Climate Change Adaptation, Disaster Risk Reduction.",
           "Licensing: Urban Planners can register with Indian Institute of Planners (IIP). Government positions require UPSC/State Civil Services clearance.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -14525,7 +14525,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Certifications: Public Policy Certification, Data Analysis Certification, International Relations Certification, Research Methodology Certification.",
           "Specialized Training: Advanced Research Methods, Policy Analysis, International Relations, Governance Studies.",
           "Licensing: Government positions require UPSC/State Civil Services clearance.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -14777,7 +14777,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Certifications: PG Diploma in Heritage Management, Museum Studies Certification, Archival Studies Certification, Digital Humanities Certification.",
           "Specialized Training: Advanced Research Methodology, Archival Management, Museum Curation, Heritage Conservation, Digital Humanities.",
           "Licensing: No mandatory license required. However, government positions require UPSC/State Civil Services clearance. Museum positions may require specific certifications.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -15031,7 +15031,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Certifications: Social Research Certification, Data Analysis Certification, Program Evaluation Certification, Community Development Certification.",
           "Specialized Training: Advanced Research Methods, Qualitative Analysis, Social Program Evaluation, Community Engagement.",
           "Licensing: Government positions require UPSC/State Civil Services clearance.",
-          "These credentials significantly enhance career prospects and earning potential."
+          "These credentials significantly enhance career prospects and earning potential.:"
         ]
       },
       {
