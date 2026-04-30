@@ -2390,10 +2390,10 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Long Hours: During financial crises, you might work 14-hour days.",
             "The 'Bad News' Bearer: People might get annoyed when you tell them their project is too risky.",
             "Continuous Math: You can never escape spreadsheets and complex statistical models.",
-            "Managing millions of rupees in risk decisions creates intense daily pressure.",
-            "One wrong assessment can cause massive financial losses for the entire company.",
-            "Constantly evolving RBI and SEBI guidelines demand non-stop learning and compliance.",
-            "Global events like pandemics or wars can instantly make risk models outdated."
+            "Managing millions of rupees in risk decisions creates intense daily pressure.:",
+            "One wrong assessment can cause massive financial losses for the entire company.:",
+            "Constantly evolving RBI and SEBI guidelines demand non-stop learning and compliance.:",
+            "Global events like pandemics or wars can instantly make risk models outdated.:"
           ]
         },
         {
