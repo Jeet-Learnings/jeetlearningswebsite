@@ -3885,6 +3885,404 @@ export const biochemistryCosts: CareerCostData = {
   ],
 };
 
+// ─── ENVIRONMENT - FOREST OFFICER - DETAILED COSTS ──────────
+
+export const forestOfficerCosts: CareerCostData = {
+  career: "forest_officer",
+  category: "environment",
+  costs: [
+    {
+      category: "B.Sc. Forestry (Government)",
+      amount: "₹15,000-50,000/year",
+      description: "3-year Bachelor of Science in Forestry",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Forest Research Institute (FRI), Dehradun: ₹20,000-40,000 per year",
+        "State Forestry Universities: ₹15,000-35,000 per year",
+        "Agricultural Universities: ₹15,000-30,000 per year",
+        "Total for 3 years: ₹45,000-1.5L",
+      ],
+    },
+    {
+      category: "B.Sc. Forestry (Private)",
+      amount: "₹1.5L-3L/year",
+      description: "3-year Bachelor of Science in Forestry",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Private Agricultural Universities: ₹1.5L-2.5L per year",
+        "Specialized Forestry Colleges: ₹1.5L-3L per year",
+        "Total for 3 years: ₹4.5L-9L",
+      ],
+    },
+    {
+      category: "UPSC IFoS Coaching",
+      amount: "₹1L-2L",
+      description: "Preparation for Indian Forest Service exam",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "Online Coaching: ₹50,000-1L",
+        "Offline Coaching: ₹1L-2L",
+        "Study Materials & Mock Tests: ₹20,000-40,000",
+        "Many succeed through self-study using free resources",
+      ],
+    },
+    {
+      category: "IGNFA Training",
+      amount: "Fully Funded",
+      description: "2-year training at Indira Gandhi National Forest Academy",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "All training costs covered by government",
+        "Monthly stipend provided during training",
+        "Accommodation and meals provided",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "Living Costs (During Studies)",
+      amount: "₹10,000-20,000/month",
+      description: "Monthly expenses during degree studies",
+      icon: "🏠",
+      color: "#10B981",
+      details: [
+        "Hostel/Rent: ₹5,000-12,000 per month",
+        "Food & Meals: ₹3,000-6,000 per month",
+        "Transport: ₹1,000-2,000 per month",
+        "Books & Study Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+    {
+      category: "Field Equipment",
+      amount: "₹30,000-80,000",
+      description: "One-time investment in field gear",
+      icon: "💻",
+      color: "#3B82F6",
+      details: [
+        "Trekking Gear & Boots: ₹10,000-20,000",
+        "GIS Software & Training: ₹10,000-25,000",
+        "Field Notebook & Documentation Tools: ₹5,000-10,000",
+        "Certifications & Courses: ₹5,000-25,000",
+      ],
+    },
+    {
+      category: "Physical Fitness Preparation",
+      amount: "₹10,000-30,000",
+      description: "Gym membership and fitness training",
+      icon: "💪",
+      color: "#8B5CF6",
+      details: [
+        "Gym Membership: ₹5,000-15,000 per year",
+        "Fitness Coaching: ₹5,000-15,000",
+        "Sports Equipment: ₹5,000-10,000",
+        "Medical Tests & Certifications: ₹2,000-5,000",
+      ],
+    },
+  ],
+};
+
+// ─── ENVIRONMENT - GEOLOGY - DETAILED COSTS ──────────
+
+export const geologyCosts: CareerCostData = {
+  career: "geology",
+  category: "environment",
+  costs: [
+    {
+      category: "B.Sc. Geology (Government)",
+      amount: "₹15,000-80,000",
+      description: "3-year Bachelor of Science in Geology",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "IIT Bombay/Kharagpur: ₹20,000-60,000 total",
+        "Central Universities: ₹25,000-70,000 total",
+        "State Universities: ₹15,000-50,000 total",
+        "Duration: 3 years",
+      ],
+    },
+    {
+      category: "B.Sc. Geology (Private)",
+      amount: "₹3L-8L",
+      description: "3-year Bachelor of Science in Geology",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Private Universities: ₹3L-6L total",
+        "Specialized Geology Colleges: ₹4L-8L total",
+        "Duration: 3 years",
+      ],
+    },
+    {
+      category: "M.Sc./M.Tech (Government)",
+      amount: "₹20,000-1L",
+      description: "2-year Master's degree in Geology",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "IIT/Central Universities: ₹20,000-80,000 total",
+        "State Universities: ₹20,000-60,000 total",
+        "GATE/IIT-JAM supported: ₹15,000-50,000 total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "M.Sc./M.Tech (Private)",
+      amount: "₹1.5L-4L",
+      description: "2-year Master's degree in Geology",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "Private Universities: ₹1.5L-3L total",
+        "Specialized Programs: ₹2L-4L total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "UPSC Geo-Scientist Coaching",
+      amount: "₹80,000-1.5L",
+      description: "Preparation for UPSC Combined Geo-Scientist exam",
+      icon: "📖",
+      color: "#3B82F6",
+      details: [
+        "Online Coaching: ₹50,000-80,000",
+        "Offline Coaching: ₹80,000-1.5L",
+        "Study Materials & Mock Tests: ₹20,000-40,000",
+        "Many succeed through self-study using free resources",
+      ],
+    },
+    {
+      category: "Field Equipment & Tools",
+      amount: "₹15,000-40,000",
+      description: "Geologist's kit and field gear",
+      icon: "💻",
+      color: "#10B981",
+      details: [
+        "Geological Hammer: ₹2,000-5,000",
+        "Hand Lens & Compass: ₹3,000-8,000",
+        "Field Notebook & Mapping Tools: ₹2,000-5,000",
+        "Boots & Field Clothing: ₹5,000-10,000",
+        "GPS Device: ₹3,000-12,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹12,000-20,000/month",
+      description: "Monthly expenses in major cities",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹6,000-12,000 per month",
+        "Food & Meals: ₹3,000-6,000 per month",
+        "Transport: ₹1,000-2,000 per month",
+        "Books & Lab Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+  ],
+};
+
+// ─── ENVIRONMENT - OCEANOGRAPHER - DETAILED COSTS ──────────
+
+export const oceanographerCosts: CareerCostData = {
+  career: "oceanographer",
+  category: "environment",
+  costs: [
+    {
+      category: "B.Sc. Marine Science (Government)",
+      amount: "₹15,000-80,000",
+      description: "3-year Bachelor of Science in Marine Science",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Goa University: ₹20,000-50,000 total",
+        "Cochin University (CUSAT): ₹25,000-60,000 total",
+        "Andhra University: ₹15,000-40,000 total",
+        "Duration: 3 years",
+      ],
+    },
+    {
+      category: "B.Tech Ocean Engineering (Government)",
+      amount: "₹20,000-1L",
+      description: "4-year B.Tech in Ocean/Marine Engineering",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "IIT Madras/Kharagpur: ₹30,000-80,000 total",
+        "Central Universities: ₹25,000-70,000 total",
+        "Duration: 4 years",
+      ],
+    },
+    {
+      category: "B.Sc./B.Tech (Private)",
+      amount: "₹4L-12L",
+      description: "3-4 year degree in Marine Science/Ocean Engineering",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "Amity University: ₹4L-6L total",
+        "SRM Institute: ₹5L-8L total",
+        "VIT Vellore: ₹6L-10L total",
+        "Duration: 3-4 years",
+      ],
+    },
+    {
+      category: "M.Sc./M.Tech (Government)",
+      amount: "₹20,000-1L",
+      description: "2-year Master's degree in Oceanography",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "IIT/Central Universities: ₹20,000-80,000 total",
+        "CUSAT/Goa University: ₹25,000-60,000 total",
+        "GATE/IIT-JAM supported: ₹15,000-50,000 total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "M.Sc./M.Tech (Private)",
+      amount: "₹2L-5L",
+      description: "2-year Master's degree in Oceanography",
+      icon: "🎓",
+      color: "#3B82F6",
+      details: [
+        "Private Universities: ₹2L-4L total",
+        "Specialized Programs: ₹2.5L-5L total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "Scuba Diving Certification",
+      amount: "₹25,000-40,000",
+      description: "PADI/SSI certification for biological oceanographers",
+      icon: "🤿",
+      color: "#10B981",
+      details: [
+        "PADI Open Water: ₹20,000-30,000",
+        "Advanced Certification: ₹10,000-15,000",
+        "Rescue Diver Certification: ₹15,000-25,000",
+        "One-time investment for career advantage",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹10,000-20,000/month",
+      description: "Monthly expenses in coastal cities",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹5,000-12,000 per month",
+        "Food & Meals: ₹3,000-6,000 per month",
+        "Transport: ₹1,000-2,000 per month",
+        "Books & Lab Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+  ],
+};
+
+// ─── ENVIRONMENT - WILDLIFE BIOLOGIST - DETAILED COSTS ──────────
+
+export const wildlifeBiologistCosts: CareerCostData = {
+  career: "wildlife_biologist",
+  category: "environment",
+  costs: [
+    {
+      category: "B.Sc. Zoology (Government)",
+      amount: "₹15,000-80,000",
+      description: "3-year Bachelor of Science in Zoology",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Delhi University: ₹15,000-40,000 total",
+        "State Universities: ₹20,000-60,000 total",
+        "Central Universities: ₹25,000-80,000 total",
+        "Duration: 3 years",
+      ],
+    },
+    {
+      category: "B.Sc. Life Sciences (Government)",
+      amount: "₹15,000-70,000",
+      description: "3-year Bachelor of Science in Life Sciences",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Central Universities: ₹20,000-70,000 total",
+        "State Universities: ₹15,000-50,000 total",
+        "Duration: 3 years",
+      ],
+    },
+    {
+      category: "B.Sc. (Private)",
+      amount: "₹3L-8L",
+      description: "3-year Bachelor of Science in Zoology/Life Sciences",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "Private Universities: ₹3L-6L total",
+        "Specialized Colleges: ₹4L-8L total",
+        "Duration: 3 years",
+      ],
+    },
+    {
+      category: "M.Sc. Wildlife Science (Government)",
+      amount: "₹20,000-1L",
+      description: "2-year Master's degree in Wildlife Science",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "WII Dehradun: ₹30,000-80,000 total (highly competitive)",
+        "NCBS Bengaluru: ₹25,000-70,000 total",
+        "State Universities: ₹20,000-60,000 total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "M.Sc. Wildlife Science (Private)",
+      amount: "₹1.5L-4L",
+      description: "2-year Master's degree in Wildlife Science",
+      icon: "🎓",
+      color: "#3B82F6",
+      details: [
+        "Private Universities: ₹1.5L-3L total",
+        "Specialized Programs: ₹2L-4L total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "Field Equipment & Tools",
+      amount: "₹20,000-50,000",
+      description: "Binoculars, camera traps, GPS, and field gear",
+      icon: "💻",
+      color: "#10B981",
+      details: [
+        "Binoculars & Field Notebook: ₹5,000-10,000",
+        "GPS Device: ₹3,000-8,000",
+        "Camera Trap Setup: ₹5,000-15,000",
+        "Field Clothing & Boots: ₹5,000-10,000",
+        "Sampling Kits: ₹2,000-7,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹10,000-18,000/month",
+      description: "Monthly expenses in education hubs",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹5,000-10,000 per month",
+        "Food & Meals: ₹3,000-6,000 per month",
+        "Transport: ₹1,000-2,000 per month",
+        "Books & Lab Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+  ],
+};
+
 export const physicalTrainerCosts: CareerCostData = {
   career: "physical_trainer",
   category: "sports_and_physical_activities",
@@ -4013,6 +4411,10 @@ allIndividualCareerCosts.clinical_research = clinicalResearchCosts;
 allIndividualCareerCosts.biotechnology = biotechnologyResearchCosts;
 allIndividualCareerCosts.bioinformatics = bioinformaticsCosts;
 allIndividualCareerCosts.biochemistry = biochemistryCosts;
+allIndividualCareerCosts.forest_officer = forestOfficerCosts;
+allIndividualCareerCosts.geology = geologyCosts;
+allIndividualCareerCosts.oceanographer = oceanographerCosts;
+allIndividualCareerCosts.wildlife_biologist = wildlifeBiologistCosts;
 allIndividualCareerCosts.physical_trainer = physicalTrainerCosts;
 allIndividualCareerCosts.sportsperson = sportspersonCosts;
 allIndividualCareerCosts.sports_person = sportspersonCosts;

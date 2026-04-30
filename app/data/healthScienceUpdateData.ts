@@ -3899,9 +3899,9 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
         content: [
-          "After Class 10: Take Physics, Chemistry, and Biology (PCB) in Class 11 & 12. Board Exams (Focus: Science). This is mandatory foundation.",
-          "After Class 12 (Science Stream): Pursue BASLP (Bachelor of Audiology & Speech-Language Pathology). This is a 4-year course (3 years study + 1 year internship). Entrance Exams: NEET, AIISH Entrance, or University Exams.",
-          "After Graduation: Specialized entry for Science grads. Pursue M.Sc. Audiology or MASLP (Master's). Entrance Exam: AIAPGET or University-specific exams.",
+          "After Class 10: Take Physics, Chemistry, and Biology (PCB) in Class 11 & 12. Board Exams (Focus Science). This is mandatory foundation.",
+          "After Class 12 (Science Stream): Pursue BASLP (Bachelor of Audiology & Speech-Language Pathology). This is a 4-year course (3 years study + 1 year internship). Entrance Exams- NEET, AIISH Entrance, or University Exams.",
+          "After Graduation: Specialized entry for Science grads. Pursue M.Sc. Audiology or MASLP (Master's). Entrance Exam- AIAPGET or University-specific exams.",
           "Top Institutions: AIISH (Mysore)—the 'Harvard' of Audiology, AYJNIHH (Mumbai/Kolkata), PGIMER (Chandigarh), Manipal Academy (MAHE), Sri Ramachandra (Chennai), Amity University (Noida).",
           "Specializations: Pediatric Audiology, Cochlear Implant Programming, Tele-audiology, Intraoperative Monitoring, Hearing Aid Fitting."
         ]
