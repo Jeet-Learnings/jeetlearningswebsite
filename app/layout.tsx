@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Inter, Fredoka, Luckiest_Guy, DM_Sans } from "next/font/google";
 import "./globals.css";
+import { TranslationProvider } from "@/app/context/TranslationContext";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -54,7 +55,9 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
       </head>
       <body className={`${poppins.variable} ${inter.variable} ${fredoka.variable} ${luckiestGuy.variable} ${dmSans.variable} antialiased`}>
-        {children}
+        <TranslationProvider>
+          {children}
+        </TranslationProvider>
       </body>
     </html>
   );

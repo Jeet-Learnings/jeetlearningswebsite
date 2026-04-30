@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { formatCareerName, getCategoryBySlug } from "@/app/data/careers";
 import { getCareerDetail } from "@/app/data/careerDetails";
-import { CareerPageClient } from "./CareerPageClient";
+import { CareerPageClientNew } from "./CareerPageClientNew";
+import { getCareerPageData } from "@/app/data/careerPageData";
+import { getCareerVideos } from "@/app/data/careerVideos";
+import { careerImagesMap } from "@/app/data/careerImagesMap.js";
 
 interface PageProps {
   params: Promise<{
@@ -16,6 +19,9 @@ export default async function CareerPage({ params }: PageProps) {
   const careerName = formatCareerName(career);
   const categoryName = categoryData?.name || formatCareerName(category);
   const careerDetail = getCareerDetail(career);
+  const pageData = getCareerPageData(career);
+  const videos = getCareerVideos(career);
+  const imageUrl = careerImagesMap[career as keyof typeof careerImagesMap] || `https://loremflickr.com/600/400/flat,illustration,cartoon,vector,${career}?lock=${career.length}`;
 
   if (!categoryData) {
     return (
@@ -34,13 +40,16 @@ export default async function CareerPage({ params }: PageProps) {
   }
 
   return (
-    <CareerPageClient
+    <CareerPageClientNew
       category={category}
       career={career}
       careerName={careerName}
       categoryName={categoryName}
       careerDetail={careerDetail}
       categoryData={categoryData}
+      pageData={pageData}
+      imageUrl={imageUrl}
+      videos={videos}
     />
   );
 }

@@ -1,10 +1,8 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
-import { careerCategories } from "@/app/data/careers";
+import { useState } from 'react';
+import Link from 'next/link';
+import { careerCategories } from '@/app/data/careers';
 import {
   Search,
   ArrowRight,
@@ -29,7 +27,7 @@ import {
   Shield,
   Zap,
   Trophy,
-} from "lucide-react";
+} from 'lucide-react';
 
 const categoryIcons: { [key: string]: React.ReactNode } = {
   account_and_finance: <DollarSign className="w-8 h-8" />,
@@ -56,8 +54,7 @@ const categoryIcons: { [key: string]: React.ReactNode } = {
 };
 
 export default function CareerPathClient() {
-  const [searchTerm, setSearchTerm] = useState("");
-  const { ref: heroRef, isVisible: heroVisible } = useScrollAnimation();
+  const [searchTerm, setSearchTerm] = useState('');
 
   const categories = Object.entries(careerCategories).map(([slug, data]) => ({
     slug,
@@ -72,175 +69,159 @@ export default function CareerPathClient() {
   });
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white text-slate-900 font-body-md selection:bg-blue-100 selection:text-slate-900 overflow-x-hidden">
       {/* Hero Section */}
-      <section
-        ref={heroRef}
-        className="relative overflow-hidden pt-14 sm:pt-16 md:pt-20 lg:pt-24 pb-10 sm:pb-12 md:pb-16 border-b border-slate-200"
-      >
-        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={heroVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ duration: 0.6 }}
-            className="text-center max-w-4xl mx-auto"
-          >
-            <h1
-              className="font-poppins text-[#505050] font-bold mb-3 sm:mb-4 text-3xl sm:text-4xl md:text-5xl"
-            >
-              Career Path
+      <section className="relative min-h-[70vh] flex items-center pt-20 pb-16 px-4 sm:px-8">
+        <div className="max-w-7xl mx-auto w-full">
+          <div className="space-y-8 animate-fade-in-up">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 text-sm font-medium animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+              <span className="flex h-2 w-2 rounded-full bg-blue-600"></span>
+              Career Exploration
+            </div>
+
+            {/* Main Heading */}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-900 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+              Explore Your <br />
+              <span className="text-blue-600">Career Options.</span>
             </h1>
 
-            <p
-              className="font-poppins text-[#757575] text-sm sm:text-base md:text-lg leading-relaxed"
-            >
-              Explore 21 diverse career categories and discover opportunities that match your interests and skills.
+            {/* Description */}
+            <p className="text-base sm:text-lg text-slate-600 max-w-xl leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+              Browse 21 diverse career categories with 150+ career options. Find the path that matches your interests, skills, and aspirations.
             </p>
-          </motion.div>
+
+            {/* Stats */}
+            <div className="flex flex-wrap gap-8 pt-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+              <div>
+                <div className="text-3xl font-bold text-blue-600">21</div>
+                <div className="text-sm text-slate-600">Career Categories</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-blue-600">150+</div>
+                <div className="text-sm text-slate-600">Career Options</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-blue-600">10K+</div>
+                <div className="text-sm text-slate-600">Students Guided</div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Search Section */}
-      <section className="relative z-10 py-8 sm:py-10 md:py-12 border-b border-slate-200">
-        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12">
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="relative max-w-2xl mx-auto"
-          >
-            <Search className="absolute left-5 top-1/2 -translate-y-1/2 text-[#757575] w-5 h-5" />
-            <input
-              type="text"
-              placeholder="Search career paths..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-14 pr-5 py-3 border border-slate-300 rounded-lg font-poppins text-[#505050] placeholder-[#AAAAAA] focus:outline-none focus:border-[#C20000] focus:ring-1 focus:ring-[#C20000] transition-all text-base"
-            />
-          </motion.div>
+      <section className="py-12 px-4 sm:px-8 bg-slate-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            <div className="relative">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5" />
+              <input
+                type="text"
+                placeholder="Search career paths..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full pl-12 pr-5 py-4 border border-slate-300 rounded-lg text-slate-900 placeholder-slate-400 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all text-base"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Programs Grid */}
-      <section className="relative z-10 py-12 sm:py-16 md:py-20">
-        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12">
+      {/* Categories Grid */}
+      <section className="py-20 px-4 sm:px-8">
+        <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="mb-8 sm:mb-10 md:mb-12"
-          >
-            <h2 className="font-poppins font-bold text-[#333333] text-2xl sm:text-3xl mb-2">
+          <div className="mb-16 animate-fade-in-up">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
               {filteredCategories.length === categories.length
-                ? "All Career Paths"
-                : `${filteredCategories.length} Career Path${filteredCategories.length !== 1 ? "s" : ""} Found`}
+                ? 'All Career Paths'
+                : `${filteredCategories.length} Career Path${filteredCategories.length !== 1 ? 's' : ''} Found`}
             </h2>
-            <p className="font-poppins text-[#757575] text-sm sm:text-base">
+            <p className="text-sm sm:text-base md:text-lg text-slate-600">
               {filteredCategories.length === categories.length
-                ? "Browse all available career categories"
-                : "Showing results for your search"}
+                ? 'Explore all available career categories and find your perfect fit.'
+                : 'Showing results for your search'}
             </p>
-          </motion.div>
+          </div>
 
           {filteredCategories.length === 0 ? (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="text-center py-20"
-            >
-              <p className="font-poppins text-[#757575] text-lg mb-2">
+            <div className="text-center py-20 animate-fade-in-up">
+              <p className="text-lg text-slate-600 mb-2">
                 No career paths found matching your search.
               </p>
-              <p className="font-poppins text-[#AAAAAA] text-base">
+              <p className="text-slate-500">
                 Try searching with different keywords
               </p>
-            </motion.div>
+            </div>
           ) : (
-            <div
-              key={`grid-${filteredCategories.length}`}
-              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6"
-            >
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredCategories.map((category, idx) => (
-                <motion.div
+                <div
                   key={category.slug}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: idx * 0.05, duration: 0.3 }}
-                  className="group h-full"
+                  className="bg-white border border-slate-200 p-6 rounded-xl hover:border-blue-300 hover:shadow-lg transition-all animate-fade-in-up"
+                  style={{ animationDelay: `${0.05 * (idx + 1)}s` }}
                 >
-                  <Link
-                    href={`/${category.slug}`}
-                    className="block h-full bg-white border border-slate-200 rounded-lg overflow-hidden hover:shadow-lg hover:border-slate-300 transition-all duration-300 p-5 sm:p-6 flex flex-col relative group/card"
-                  >
-                    {/* Icon Container */}
-                    <motion.div
-                      whileHover={{ scale: 1.1 }}
-                      transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                      className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-lg bg-slate-50 flex items-center justify-center mb-4 text-[#C20000] relative z-10"
-                    >
-                      {categoryIcons[category.slug] || <Briefcase className="w-8 h-8" />}
-                    </motion.div>
-
-                    {/* Title */}
-                    <h3 className="font-poppins font-semibold text-[#333333] text-sm sm:text-base mb-2 group-hover/card:text-[#C20000] transition-colors line-clamp-2 relative z-10">
-                      {category.name}
-                    </h3>
-
-                    {/* Career Count */}
-                    <p className="font-poppins text-[#757575] text-xs sm:text-sm mb-4 flex-1 relative z-10">
-                      {category.careerCount} career options
-                    </p>
-
-                    {/* Arrow Button */}
-                    <motion.div
-                      whileHover={{ x: 3 }}
-                      transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                      className="inline-flex items-center gap-1 font-poppins font-medium text-xs sm:text-sm text-[#C20000] relative z-10"
-                    >
-                      Explore
-                      <ArrowRight className="w-4 h-4 transition-transform group-hover/card:translate-x-1" />
-                    </motion.div>
-                  </Link>
-                </motion.div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 flex-shrink-0">
+                      {categoryIcons[category.slug] || <Briefcase className="w-6 h-6" />}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-lg font-bold text-slate-900 mb-1">{category.name}</h3>
+                      <p className="text-sm text-slate-600 mb-4">{category.careerCount} career options</p>
+                      <Link
+                        href={`/${category.slug}`}
+                        className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm hover:gap-3 transition-all"
+                      >
+                        Explore
+                        <ArrowRight className="w-4 h-4" />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               ))}
             </div>
           )}
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="relative z-10 py-10 sm:py-12 md:py-16 border-t border-slate-200 bg-slate-50">
-        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12">
-          <div className="grid md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-4xl mx-auto">
-            {[
-              { number: "21", label: "Career Categories" },
-              { number: "150+", label: "Career Options" },
-              { number: "10K+", label: "Success Stories" },
-            ].map((stat, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="text-center p-4 sm:p-6 rounded-lg bg-white border border-slate-200"
-              >
-                <p className="font-poppins font-bold text-3xl sm:text-4xl text-[#C20000] mb-2">
-                  {stat.number}
-                </p>
-                <p className="font-poppins text-[#757575] text-sm sm:text-base">
-                  {stat.label}
-                </p>
-              </motion.div>
-            ))}
+      {/* CTA Section */}
+      <section className="py-20 px-4 sm:px-8 bg-slate-50">
+        <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+            Ready to Explore Your Career Path?
+          </h2>
+          <p className="text-base sm:text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
+            Start your journey today and discover the career that's right for you.
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <button className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              Get Started
+            </button>
+            <button className="border-2 border-slate-300 text-slate-900 px-8 py-4 rounded-lg font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors">
+              Learn More
+            </button>
           </div>
         </div>
       </section>
 
-      
+      <style jsx>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        .animate-fade-in-up {
+          animation: fadeInUp 0.6s ease-out forwards;
+          opacity: 0;
+        }
+      `}</style>
     </div>
   );
 }

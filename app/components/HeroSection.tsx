@@ -4,9 +4,21 @@ import Image from "next/image";
 import Link from "next/link";
 import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
 import { Award, Globe } from "lucide-react";
+import { useTranslatedContent } from "@/app/hooks/useTranslatedContent";
 
 export default function HeroSection() {
   const { ref, isVisible } = useScrollAnimation();
+  
+  const empower = useTranslatedContent("Empower Your Future");
+  const premium = useTranslatedContent("Premium Study Abroad Counselling");
+  const description = useTranslatedContent("From university selection to visa assistance, get expert guidance throughout the application journey. Personalized services for undergrad, master's, PhD, and MBA aspirants.");
+  const bookConsultation = useTranslatedContent("Book Free Consultation");
+  const explorePrograms = useTranslatedContent("Explore Programs");
+  const trusted = useTranslatedContent("Trusted by 10,000+ students globally");
+  const acceptance = useTranslatedContent("Acceptance");
+  const successRate = useTranslatedContent("98% Success Rate");
+  const network = useTranslatedContent("Network");
+  const unis = useTranslatedContent("500+ Top Tier Unis");
 
   return (
     <section
@@ -32,20 +44,18 @@ export default function HeroSection() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[var(--color-canam-red)]"></span>
             </span>
             <span className="font-inter text-slate-700 text-xs sm:text-sm font-semibold tracking-wide uppercase">
-              Empower Your Future
+              {empower}
             </span>
           </div>
 
           {/* Main Heading */}
           <h1 className="font-poppins text-slate-900 mb-5 sm:mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.05] tracking-tight">
-            Premium <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-canam-red)] to-red-500">Study Abroad</span> Counselling
+            {premium}
           </h1>
 
           {/* Description */}
           <p className="font-inter text-slate-600 mb-8 sm:mb-10 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-xl">
-            From university selection to visa assistance, get expert guidance
-            throughout the application journey. Personalized services
-            for undergrad, master's, PhD, and MBA aspirants.
+            {description}
           </p>
 
           {/* CTAs */}
@@ -54,14 +64,14 @@ export default function HeroSection() {
               href="/consultation"
               className="w-full md:w-auto px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-[var(--color-canam-red)] text-white font-inter font-semibold text-base sm:text-lg hover:bg-[var(--color-canam-red-dark)] hover:shadow-xl hover:shadow-red-500/20 transition-all duration-300 transform hover:scale-[1.02] flex items-center justify-center gap-2 group"
             >
-              Book Free Consultation
+              {bookConsultation}
               <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
             <Link
               href="/programs"
               className="w-full md:w-auto px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-slate-700 font-inter font-semibold text-base sm:text-lg border-2 border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-all duration-300 flex items-center justify-center transform hover:scale-[1.02] shadow-sm"
             >
-              Explore Programs
+              {explorePrograms}
             </Link>
           </div>
 
@@ -85,7 +95,7 @@ export default function HeroSection() {
                   <svg key={star} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
                 ))}
               </div>
-              <span className="font-inter text-sm text-slate-600 font-medium">Trusted by <strong className="text-slate-900">10,000+</strong> students globally</span>
+              <span className="font-inter text-sm text-slate-600 font-medium">{trusted}</span>
             </div>
           </div>
         </div>
@@ -120,8 +130,8 @@ export default function HeroSection() {
                   <Award className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
-                  <p className="text-xs text-slate-500 font-semibold tracking-wider uppercase mb-1">Acceptance</p>
-                  <p className="text-base font-bold text-slate-800">98% Success Rate</p>
+                  <p className="text-xs text-slate-500 font-semibold tracking-wider uppercase mb-1">{acceptance}</p>
+                  <p className="text-base font-bold text-slate-800">{successRate}</p>
                 </div>
               </div>
             </div>
@@ -132,8 +142,8 @@ export default function HeroSection() {
                   <Globe className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <p className="text-xs text-slate-500 font-semibold tracking-wider uppercase mb-1">Network</p>
-                  <p className="text-base font-bold text-slate-800">500+ Top Tier Unis</p>
+                  <p className="text-xs text-slate-500 font-semibold tracking-wider uppercase mb-1">{network}</p>
+                  <p className="text-base font-bold text-slate-800">{unis}</p>
                 </div>
               </div>
             </div>

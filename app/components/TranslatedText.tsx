@@ -1,0 +1,57 @@
+"use client";
+
+import { useTranslatedContent } from "@/app/hooks/useTranslatedContent";
+import { ReactNode } from "react";
+
+interface TranslatedTextProps {
+  children: string;
+  className?: string;
+  as?: "span" | "p" | "div" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+}
+
+/**
+ * Wrapper component for automatic text translation
+ * Usage: <TranslatedText>Your text here</TranslatedText>
+ */
+export function TranslatedText({
+  children,
+  className = "",
+  as: Component = "span",
+}: TranslatedTextProps) {
+  const translatedContent = useTranslatedContent(children);
+
+  return (
+    <Component className={className}>
+      {translatedContent}
+    </Component>
+  );
+}
+
+/**
+ * Wrapper for translated headings
+ */
+export function TranslatedHeading({
+  level = 1,
+  children,
+  className = "",
+}: {
+  level?: 1 | 2 | 3 | 4 | 5 | 6;
+  children: string;
+  className?: string;
+}) {
+  const Component = `h${level}` as const;
+  return <TranslatedText as={Component} className={className}>{children}</TranslatedText>;
+}
+
+/**
+ * Wrapper for translated paragraphs
+ */
+export function TranslatedParagraph({
+  children,
+  className = "",
+}: {
+  children: string;
+  className?: string;
+}) {
+  return <TranslatedText as="p" className={className}>{children}</TranslatedText>;
+}
