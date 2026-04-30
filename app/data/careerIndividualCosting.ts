@@ -3132,6 +3132,759 @@ export const historianCosts: CareerCostData = {
   ],
 };
 
+// ─── BIO SCIENCE & RESEARCH - PHYSIOLOGY - DETAILED COSTS ──────────
+
+export const physiologyCosts: CareerCostData = {
+  career: "physiology",
+  category: "bio_science_and_research",
+  costs: [
+    {
+      category: "B.Sc. in Physiology (Government)",
+      amount: "₹5,000-50,000/year",
+      description: "3-year undergraduate program",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "AIIMS and Central Universities: ₹5,000-20,000 per year",
+        "State Universities: ₹15,000-35,000 per year",
+        "Government Medical Colleges: ₹20,000-50,000 per year",
+        "Total for 3 years: ₹15,000-1,50,000",
+      ],
+    },
+    {
+      category: "B.Sc. in Physiology (Private)",
+      amount: "₹1.5L-4.5L/year",
+      description: "3-year undergraduate program",
+      icon: "🎓",
+      color: "#6366F1",
+      details: [
+        "Private Medical Colleges: ₹1.5L-3L per year",
+        "Premium Institutions: ₹3L-4.5L per year",
+        "Kasturba Medical College: ₹2-3L per year",
+        "Total for 3 years: ₹4.5L-13.5L",
+      ],
+    },
+    {
+      category: "M.Sc. in Medical Physiology",
+      amount: "₹10,000-2L/year",
+      description: "2-3 year postgraduate program",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "Government Universities: ₹10,000-50,000 per year",
+        "Private Universities: ₹1L-2L per year",
+        "AIIMS/JNU: ₹10,000-30,000 per year",
+        "Total for 2-3 years: ₹20,000-6L",
+      ],
+    },
+    {
+      category: "MBBS + MD in Physiology",
+      amount: "₹5L-15L total",
+      description: "5.5 years MBBS + 3 years MD",
+      icon: "🏥",
+      color: "#EC4899",
+      details: [
+        "Government MBBS: ₹5,000-50,000 per year (5.5 years)",
+        "Private MBBS: ₹10L-20L per year (5.5 years)",
+        "MD Physiology: ₹10,000-1L per year (3 years)",
+        "Total: ₹5L-15L for combined program",
+      ],
+    },
+    {
+      category: "PhD in Physiology",
+      amount: "₹1L-3L or Fellowship",
+      description: "3-5 years with fellowship options",
+      icon: "🔬",
+      color: "#3B82F6",
+      details: [
+        "UGC/JRF Fellowship: ₹31,000-35,000/month (covers costs)",
+        "CSIR Fellowship: ₹25,000-31,000/month",
+        "Without Fellowship: ₹1L-3L total",
+        "Duration: 3-5 years",
+      ],
+    },
+    {
+      category: "Additional Costs",
+      amount: "₹15,000-25,000/month",
+      description: "Living and research expenses",
+      icon: "💰",
+      color: "#10B981",
+      details: [
+        "Living/Hostel: ₹6,000-15,000 per month",
+        "Lab equipment (stethoscopes, kits): ₹5,000-10,000",
+        "Specialized software training: ₹3,000-8,000",
+        "Research materials and books: ₹5,000-10,000 per year",
+        "Conference participation: ₹10,000-30,000 per year",
+      ],
+    },
+  ],
+};
+
+// ─── BIO SCIENCE & RESEARCH - MICROBIOLOGY - DETAILED COSTS ──────────
+
+export const microbiologyCosts: CareerCostData = {
+  career: "microbiology",
+  category: "bio_science_and_research",
+  costs: [
+    {
+      category: "B.Sc. in Microbiology (Government)",
+      amount: "₹10,000-50,000/year",
+      description: "3-year undergraduate program",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Delhi University: ₹10,000-20,000 per year",
+        "BHU Varanasi: ₹15,000-30,000 per year",
+        "Pune University: ₹20,000-40,000 per year",
+        "Total for 3 years: ₹30,000-1,50,000",
+      ],
+    },
+    {
+      category: "B.Sc. in Microbiology (Private)",
+      amount: "₹1.5L-4.5L/year",
+      description: "3-year undergraduate program",
+      icon: "🎓",
+      color: "#6366F1",
+      details: [
+        "Amity University: ₹1.5L-2.5L per year",
+        "VIT Vellore: ₹2L-3L per year",
+        "LPU Punjab: ₹1.8L-2.8L per year",
+        "Total for 3 years: ₹4.5L-13.5L",
+      ],
+    },
+    {
+      category: "M.Sc. in Microbiology",
+      amount: "₹10,000-2L/year",
+      description: "2-year postgraduate program",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "Government Universities: ₹10,000-50,000 per year",
+        "Private Universities: ₹1L-2L per year",
+        "IISc Bangalore: ₹15,000-30,000 per year",
+        "Total for 2 years: ₹20,000-4L",
+      ],
+    },
+    {
+      category: "B.Tech in Biotechnology",
+      amount: "₹1L-3.5L/year",
+      description: "4-year engineering program",
+      icon: "🔬",
+      color: "#EC4899",
+      details: [
+        "Government Engineering Colleges: ₹1L-2L per year",
+        "Private Engineering Colleges: ₹2L-3.5L per year",
+        "NIT/IIIT: ₹1L-1.5L per year",
+        "Total for 4 years: ₹4L-14L",
+      ],
+    },
+    {
+      category: "PhD in Microbiology",
+      amount: "₹1L-3L or Fellowship",
+      description: "3-5 years with fellowship options",
+      icon: "🧪",
+      color: "#3B82F6",
+      details: [
+        "UGC/JRF Fellowship: ₹31,000-35,000/month (covers costs)",
+        "CSIR Fellowship: ₹25,000-31,000/month",
+        "Without Fellowship: ₹1L-3L total",
+        "Duration: 3-5 years",
+      ],
+    },
+    {
+      category: "Additional Costs",
+      amount: "₹15,000-25,000/month",
+      description: "Living and research expenses",
+      icon: "💰",
+      color: "#10B981",
+      details: [
+        "Living/Hostel: ₹6,000-15,000 per month",
+        "Lab kits and equipment: ₹5,000-10,000",
+        "Certification exams: ₹3,000-8,000",
+        "Research materials and books: ₹5,000-10,000 per year",
+        "Conference participation: ₹10,000-30,000 per year",
+      ],
+    },
+  ],
+};
+
+// ─── BIO SCIENCE & RESEARCH - GENETICS - DETAILED COSTS ──────────
+
+export const geneticsCosts: CareerCostData = {
+  career: "genetics",
+  category: "bio_science_and_research",
+  costs: [
+    {
+      category: "B.Sc. in Genetics (Government)",
+      amount: "₹10,000-50,000/year",
+      description: "3-year undergraduate program",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Delhi University: ₹10,000-20,000 per year",
+        "BHU Varanasi: ₹15,000-30,000 per year",
+        "University of Calcutta: ₹12,000-25,000 per year",
+        "Total for 3 years: ₹30,000-1,50,000",
+      ],
+    },
+    {
+      category: "B.Tech in Genetic Engineering",
+      amount: "₹1L-3.5L/year",
+      description: "4-year engineering program",
+      icon: "🔬",
+      color: "#6366F1",
+      details: [
+        "Government Engineering Colleges: ₹1L-2L per year",
+        "Private Engineering Colleges: ₹2L-3.5L per year",
+        "NIT/IIIT: ₹1L-1.5L per year",
+        "Total for 4 years: ₹4L-14L",
+      ],
+    },
+    {
+      category: "M.Sc. in Human Genetics",
+      amount: "₹10,000-2L/year",
+      description: "2-year postgraduate program",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "Government Universities: ₹10,000-50,000 per year",
+        "Private Universities: ₹1L-2L per year",
+        "IISc Bangalore: ₹15,000-30,000 per year",
+        "Total for 2 years: ₹20,000-4L",
+      ],
+    },
+    {
+      category: "M.Sc. in Bioinformatics",
+      amount: "₹15,000-2.5L/year",
+      description: "2-year postgraduate program",
+      icon: "💻",
+      color: "#EC4899",
+      details: [
+        "Government Universities: ₹15,000-60,000 per year",
+        "Private Universities: ₹1.5L-2.5L per year",
+        "Specialized Institutes: ₹1L-2L per year",
+        "Total for 2 years: ₹30,000-5L",
+      ],
+    },
+    {
+      category: "PhD in Genetics",
+      amount: "₹1L-3L or Fellowship",
+      description: "3-5 years with fellowship options",
+      icon: "🧬",
+      color: "#3B82F6",
+      details: [
+        "UGC/JRF Fellowship: ₹31,000-35,000/month (covers costs)",
+        "DBT-JRF Fellowship: ₹25,000-31,000/month",
+        "Without Fellowship: ₹1L-3L total",
+        "Duration: 3-5 years",
+      ],
+    },
+    {
+      category: "Additional Costs",
+      amount: "₹15,000-25,000/month",
+      description: "Living and research expenses",
+      icon: "💰",
+      color: "#10B981",
+      details: [
+        "Living/Hostel: ₹6,000-15,000 per month",
+        "Lab equipment and software: ₹5,000-10,000",
+        "Certifications (BGC, NGS): ₹5,000-20,000",
+        "Research materials and books: ₹5,000-10,000 per year",
+        "Conference participation: ₹10,000-30,000 per year",
+      ],
+    },
+  ],
+};
+
+// ─── BIO SCIENCE & RESEARCH - FISHERY BIOLOGIST - DETAILED COSTS ──────────
+
+export const fisheryBiologistCosts: CareerCostData = {
+  career: "fishery_biologist",
+  category: "bio_science_and_research",
+  costs: [
+    {
+      category: "B.F.Sc. (Government)",
+      amount: "₹20,000-1.5L/total",
+      description: "4-year Bachelor of Fishery Science",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "CIFE Mumbai: ₹5,000-10,000 per year",
+        "KUFOS Kochi: ₹6,000-12,000 per year",
+        "College of Fisheries Mangalore: ₹4,000-8,000 per year",
+        "Total for 4 years: ₹20,000-1.5L",
+      ],
+    },
+    {
+      category: "B.F.Sc. (Private)",
+      amount: "₹2L-3.5L/year",
+      description: "4-year private fishery science program",
+      icon: "🎓",
+      color: "#6366F1",
+      details: [
+        "SAGE University Bhopal: ₹2L-2.5L per year",
+        "Centurion University Odisha: ₹1.8L-2.8L per year",
+        "Private Colleges: ₹2L-3.5L per year",
+        "Total for 4 years: ₹8L-14L",
+      ],
+    },
+    {
+      category: "M.F.Sc. (Postgraduate)",
+      amount: "₹15,000-2L/year",
+      description: "2-year Master of Fishery Science",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "Government Universities: ₹15,000-60,000 per year",
+        "Private Universities: ₹1L-2L per year",
+        "ICAR Institutes: ₹20,000-50,000 per year",
+        "Total for 2 years: ₹30,000-4L",
+      ],
+    },
+    {
+      category: "SCUBA Certification",
+      amount: "₹30,000-50,000",
+      description: "Professional diving certification (optional but valuable)",
+      icon: "🤿",
+      color: "#EC4899",
+      details: [
+        "PADI Open Water Certification: ₹30,000-40,000",
+        "Advanced Certification: ₹15,000-25,000",
+        "Rescue Diver Certification: ₹20,000-30,000",
+        "One-time investment for career advantage",
+      ],
+    },
+    {
+      category: "PhD in Fisheries",
+      amount: "₹1L-3L or Fellowship",
+      description: "3-5 years with fellowship options",
+      icon: "🔬",
+      color: "#3B82F6",
+      details: [
+        "ICAR JRF/SRF: ₹12,000-31,000/month (covers costs)",
+        "AICE-JRF Fellowship: ₹15,000-25,000/month",
+        "Without Fellowship: ₹1L-3L total",
+        "Duration: 3-5 years",
+      ],
+    },
+    {
+      category: "Additional Costs",
+      amount: "₹15,000-25,000/month",
+      description: "Living and field research expenses",
+      icon: "💰",
+      color: "#10B981",
+      details: [
+        "Living/Hostel: ₹6,000-15,000 per month",
+        "Field equipment and tools: ₹5,000-10,000",
+        "Diving gear and maintenance: ₹3,000-8,000",
+        "Research materials and books: ₹5,000-10,000 per year",
+        "Conference participation: ₹10,000-30,000 per year",
+      ],
+    },
+  ],
+};
+
+// ─── BIO SCIENCE & RESEARCH - CLINICAL RESEARCH - DETAILED COSTS ──────────
+
+export const clinicalResearchCosts: CareerCostData = {
+  career: "clinical_research",
+  category: "bio_science_and_research",
+  costs: [
+    {
+      category: "Government Institutions",
+      amount: "₹15,000-1.5L",
+      description: "PG Diploma/M.Sc. in Clinical Research",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "AIIMS Delhi: ₹15,000-50,000 total",
+        "NIPER (Mohali/Hyderabad): ₹20,000-80,000 total",
+        "TISS Mumbai: ₹25,000-1L total",
+        "Government Medical Colleges: ₹15,000-60,000 total",
+        "Duration: 1-2 years",
+      ],
+    },
+    {
+      category: "Private Institutions",
+      amount: "₹1.5L-4L",
+      description: "PG Diploma/M.Sc. in Clinical Research",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "ICRI (Multiple Cities): ₹1.5L-2.5L total",
+        "Cliniminds Academy: ₹1.8L-3L total",
+        "Amity University: ₹2L-3.5L total",
+        "JSS Mysore: ₹1.5L-2.8L total",
+        "Duration: 1-2 years",
+      ],
+    },
+    {
+      category: "ICH-GCP Certification",
+      amount: "₹20,000-50,000",
+      description: "Mandatory Good Clinical Practice certification",
+      icon: "📜",
+      color: "#F59E0B",
+      details: [
+        "Online ICH-GCP Course: ₹15,000-30,000",
+        "Exam and Certification: ₹5,000-15,000",
+        "Renewal (every 2 years): ₹5,000-10,000",
+        "Essential for all clinical research roles",
+      ],
+    },
+    {
+      category: "CCRC Certification",
+      amount: "₹30,000-60,000",
+      description: "Certified Clinical Research Coordinator exam",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "Exam Registration: ₹20,000-35,000",
+        "Study Materials & Prep: ₹10,000-25,000",
+        "Renewal (every 3 years): ₹10,000-15,000",
+        "Highly valued in the industry",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹15,000-25,000/month",
+      description: "Monthly expenses in major cities",
+      icon: "🏠",
+      color: "#10B981",
+      details: [
+        "Hostel/Rent: ₹8,000-15,000 per month",
+        "Food & Meals: ₹4,000-7,000 per month",
+        "Transport: ₹2,000-3,000 per month",
+        "Books & Study Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+    {
+      category: "Professional Development",
+      amount: "₹30,000-80,000",
+      description: "One-time investment in tools and resources",
+      icon: "💻",
+      color: "#3B82F6",
+      details: [
+        "Clinical Trial Management Software: ₹10,000-20,000",
+        "Data Management Tools: ₹5,000-15,000",
+        "Medical Writing Software: ₹5,000-10,000",
+        "Professional Memberships (ISCR): ₹10,000-20,000",
+        "Online Courses & Workshops: ₹5,000-15,000",
+      ],
+    },
+  ],
+};
+
+// ─── BIO SCIENCE & RESEARCH - BIOTECHNOLOGY RESEARCH - DETAILED COSTS ──────────
+
+export const biotechnologyResearchCosts: CareerCostData = {
+  career: "biotechnology",
+  category: "bio_science_and_research",
+  costs: [
+    {
+      category: "Government Institutions",
+      amount: "₹50,000-2L",
+      description: "B.Tech/B.Sc. in Biotechnology",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "IIT Delhi/Bombay: ₹50,000-1.5L total",
+        "NIT Rourkee/Warangal: ₹60,000-1.2L total",
+        "IISc Bangalore: ₹40,000-1L total",
+        "Central Universities: ₹50,000-1.5L total",
+        "Duration: 4 years",
+      ],
+    },
+    {
+      category: "Private Institutions",
+      amount: "₹6L-15L",
+      description: "B.Tech/B.Sc. in Biotechnology",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "VIT Vellore: ₹6L-8L total",
+        "Manipal (MAHE): ₹7L-10L total",
+        "Amity Institute: ₹5L-8L total",
+        "BITS Pilani: ₹8L-12L total",
+        "Duration: 4 years",
+      ],
+    },
+    {
+      category: "M.Tech/M.Sc. (Government)",
+      amount: "₹30,000-1.5L",
+      description: "Postgraduate degree in Biotechnology",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "IIT/NIT M.Tech: ₹30,000-80,000 total",
+        "Central Universities M.Sc.: ₹40,000-1L total",
+        "DBT-supported M.Sc.: ₹20,000-60,000 total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "M.Tech/M.Sc. (Private)",
+      amount: "₹3L-8L",
+      description: "Postgraduate degree in Biotechnology",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "VIT/Manipal M.Tech: ₹3L-5L total",
+        "Private Universities M.Sc.: ₹2.5L-6L total",
+        "Specialized Programs: ₹3L-8L total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "PhD (Government)",
+      amount: "₹1L-3L or Fellowship",
+      description: "3-5 years with fellowship options",
+      icon: "🔬",
+      color: "#3B82F6",
+      details: [
+        "DBT-JRF/SRF: ₹12,000-31,000/month (covers costs)",
+        "CSIR-UGC NET JRF: ₹15,000-31,000/month",
+        "Without Fellowship: ₹1L-3L total",
+        "Duration: 3-5 years",
+      ],
+    },
+    {
+      category: "Professional Development",
+      amount: "₹40,000-1L",
+      description: "Certifications and specialized training",
+      icon: "💻",
+      color: "#10B981",
+      details: [
+        "Patent Agent Examination: ₹20,000-30,000",
+        "CRISPR Gene Editing Certification: ₹15,000-25,000",
+        "Bioprocess Engineering Course: ₹10,000-20,000",
+        "Quality Control Certification: ₹10,000-15,000",
+        "Professional Memberships (BRSI): ₹5,000-10,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹15,000-25,000/month",
+      description: "Monthly expenses in major biotech cities",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹8,000-15,000 per month",
+        "Food & Meals: ₹4,000-7,000 per month",
+        "Transport: ₹2,000-3,000 per month",
+        "Books & Lab Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+  ],
+};
+
+// ─── BIO SCIENCE & RESEARCH - BIOINFORMATICS - DETAILED COSTS ──────────
+
+export const bioinformaticsCosts: CareerCostData = {
+  career: "bioinformatics",
+  category: "bio_science_and_research",
+  costs: [
+    {
+      category: "Government Institutions",
+      amount: "₹15,000-2.5L",
+      description: "B.Tech/B.Sc. in Bioinformatics",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "IISc Bangalore: ₹15,000-80,000 total",
+        "IBAB Bangalore: ₹20,000-1L total",
+        "IIT Hyderabad: ₹30,000-1.2L total",
+        "Central Universities: ₹20,000-1.5L total",
+        "Duration: 4 years",
+      ],
+    },
+    {
+      category: "Private Institutions",
+      amount: "₹4L-12L",
+      description: "B.Tech/B.Sc. in Bioinformatics",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Amity University: ₹4L-6L total",
+        "VIT Vellore: ₹5L-8L total",
+        "Manipal (MAHE): ₹6L-9L total",
+        "JIIT Noida: ₹4.5L-7L total",
+        "Duration: 4 years",
+      ],
+    },
+    {
+      category: "M.Tech/M.Sc. (Government)",
+      amount: "₹20,000-1.5L",
+      description: "Postgraduate degree in Bioinformatics",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "IIT/NIT M.Tech: ₹20,000-80,000 total",
+        "Central Universities M.Sc.: ₹30,000-1L total",
+        "GAT-B supported M.Sc.: ₹15,000-60,000 total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "M.Tech/M.Sc. (Private)",
+      amount: "₹2.5L-7L",
+      description: "Postgraduate degree in Bioinformatics",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "VIT/Manipal M.Tech: ₹2.5L-4.5L total",
+        "Private Universities M.Sc.: ₹2L-5L total",
+        "Specialized Programs: ₹2.5L-7L total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "Professional Certifications",
+      amount: "₹30,000-80,000",
+      description: "BINC and specialized certifications",
+      icon: "📜",
+      color: "#3B82F6",
+      details: [
+        "BINC (Bioinformatics National Certification): ₹15,000-25,000",
+        "AWS Cloud Certification: ₹10,000-20,000",
+        "Cisco Certifications: ₹10,000-20,000",
+        "Advanced Python/R Courses: ₹5,000-15,000",
+      ],
+    },
+    {
+      category: "Computing Resources",
+      amount: "₹50,000-1.5L",
+      description: "Laptops and software tools",
+      icon: "💻",
+      color: "#10B981",
+      details: [
+        "High-Performance Laptop: ₹40,000-1L",
+        "Software Licenses (R, Python, Linux): Free/₹5,000-20,000",
+        "Cloud Computing Credits: ₹5,000-30,000",
+        "Data Analysis Tools: ₹5,000-15,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹15,000-25,000/month",
+      description: "Monthly expenses in major education hubs",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹8,000-15,000 per month",
+        "Food & Meals: ₹4,000-7,000 per month",
+        "Transport: ₹2,000-3,000 per month",
+        "Books & Study Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+  ],
+};
+
+// ─── BIO SCIENCE & RESEARCH - BIOCHEMISTRY - DETAILED COSTS ──────────
+
+export const biochemistryCosts: CareerCostData = {
+  career: "biochemistry",
+  category: "bio_science_and_research",
+  costs: [
+    {
+      category: "B.Sc. (Government)",
+      amount: "₹15,000-1.5L",
+      description: "3-year Bachelor of Science in Biochemistry",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Delhi University: ₹15,000-40,000 total",
+        "BHU Varanasi: ₹20,000-60,000 total",
+        "Central Universities: ₹20,000-1L total",
+        "State Universities: ₹15,000-80,000 total",
+        "Duration: 3 years",
+      ],
+    },
+    {
+      category: "B.Sc. (Private)",
+      amount: "₹2L-5L",
+      description: "3-year Bachelor of Science in Biochemistry",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "VIT Vellore: ₹2.5L-4L total",
+        "Manipal (MAHE): ₹2.5L-4.5L total",
+        "Amity University: ₹2L-3.5L total",
+        "LPU: ₹1.8L-3L total",
+        "Duration: 3 years",
+      ],
+    },
+    {
+      category: "M.Sc. (Government)",
+      amount: "₹20,000-1L",
+      description: "2-year Master of Science in Biochemistry",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "Central Universities: ₹20,000-60,000 total",
+        "IISc Bangalore: ₹15,000-50,000 total",
+        "State Universities: ₹20,000-80,000 total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "M.Sc. (Private)",
+      amount: "₹1.5L-3.5L",
+      description: "2-year Master of Science in Biochemistry",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "VIT/Manipal M.Sc.: ₹1.5L-2.5L total",
+        "Private Universities M.Sc.: ₹1.5L-3L total",
+        "Specialized Programs: ₹2L-3.5L total",
+        "Duration: 2 years",
+      ],
+    },
+    {
+      category: "PhD (Government)",
+      amount: "₹50,000-2L or Fellowship",
+      description: "3-5 years with fellowship options",
+      icon: "🔬",
+      color: "#3B82F6",
+      details: [
+        "DBT-JRF/SRF: ₹12,000-31,000/month (covers costs)",
+        "CSIR-UGC NET JRF: ₹15,000-31,000/month",
+        "Without Fellowship: ₹50,000-2L total",
+        "Duration: 3-5 years",
+      ],
+    },
+    {
+      category: "Lab Equipment & Materials",
+      amount: "₹30,000-80,000",
+      description: "One-time investment in lab tools",
+      icon: "💻",
+      color: "#10B981",
+      details: [
+        "Lab Coat, Goggles, Gloves: ₹5,000-10,000",
+        "Molecular Modeling Software: ₹10,000-25,000",
+        "Lab Notebook & Documentation Tools: ₹5,000-10,000",
+        "Certifications & Courses: ₹10,000-35,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹10,000-20,000/month",
+      description: "Monthly expenses in major cities",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹5,000-12,000 per month",
+        "Food & Meals: ₹3,000-6,000 per month",
+        "Transport: ₹1,000-2,000 per month",
+        "Books & Lab Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+  ],
+};
+
 export const physicalTrainerCosts: CareerCostData = {
   career: "physical_trainer",
   category: "sports_and_physical_activities",
@@ -3252,6 +4005,14 @@ allIndividualCareerCosts.animator = animatorCosts;
 allIndividualCareerCosts.cosmetology = cosmetologyCosts;
 allIndividualCareerCosts.creative_writer = creativeWriterCosts;
 allIndividualCareerCosts.historian = historianCosts;
+allIndividualCareerCosts.physiology = physiologyCosts;
+allIndividualCareerCosts.microbiology = microbiologyCosts;
+allIndividualCareerCosts.genetics = geneticsCosts;
+allIndividualCareerCosts.fishery_biologist = fisheryBiologistCosts;
+allIndividualCareerCosts.clinical_research = clinicalResearchCosts;
+allIndividualCareerCosts.biotechnology = biotechnologyResearchCosts;
+allIndividualCareerCosts.bioinformatics = bioinformaticsCosts;
+allIndividualCareerCosts.biochemistry = biochemistryCosts;
 allIndividualCareerCosts.physical_trainer = physicalTrainerCosts;
 allIndividualCareerCosts.sportsperson = sportspersonCosts;
 allIndividualCareerCosts.sports_person = sportspersonCosts;
