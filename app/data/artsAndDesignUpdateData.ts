@@ -142,7 +142,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "GJEPC: Gem & Jewellery Export Promotion Council (great for networking in jewelry sector).",
           "Adobe Certified Professional: Illustrator/Photoshop certification adds massive value.",
           "Rhino 3D Certification: Essential for CAD-based design roles.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {

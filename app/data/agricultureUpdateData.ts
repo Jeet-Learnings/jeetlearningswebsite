@@ -154,7 +154,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Certifications: Six Sigma (for supply chain), NISM (for commodity trading), and Google/IBM Data Analytics.",
           "Memberships: International Food and Agribusiness Management Association (IFAMA).",
           "Commodity Trading: NCDEX certification for trading in agricultural commodities.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -381,7 +381,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         content: [
           "ISAE (Indian Society of Agricultural Engineers): The primary professional body for networking.",
           "Certifications: Drone Pilot License (DGCA approved), GIS & Remote Sensing (IIRS/ISRO), Data Analytics (Google/IBM).",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -607,7 +607,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "ICAR (Indian Council of Agricultural Research): The apex body for all agri-researchers.",
           "ASRB (Agricultural Scientists Recruitment Board): Conducts exams for the ARS (Agricultural Research Service).",
           "Certifications: GIS and Remote Sensing (IIRS), Bioinformatics, and Seed Technology.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -1066,7 +1066,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "FSSAI Certification: Essential for those going into Food Safety and Inspection.",
           "HACCP/ISO Auditor: High-value certifications for Quality Assurance managers.",
           "BIS Certification: Bureau of Indian Standards certification for quality compliance.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -1292,7 +1292,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "AFST(I): Association of Food Scientists and Technologists (India).",
           "Certifications: HACCP (Hazard Analysis Critical Control Point), ISO 22000 (Food Safety Management), Six Sigma.",
           "Mandatory: Every food plant in India operates under an FSSAI License.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {

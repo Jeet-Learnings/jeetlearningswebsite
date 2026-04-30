@@ -161,7 +161,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "PMP (Project Management Professional): A global gold-standard certification for managers.",
           "RICS (Royal Institution of Chartered Surveyors): Adds massive value for international jobs.",
           "BIM Certification: Autodesk Certified Professional in Revit or other BIM tools.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -395,7 +395,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "Indian Institute of Architects (IIA): The national body for professional networking.",
           "LEED Certification: Highly recommended for those interested in 'Green Building' design.",
           "GRIHA Certification: Green Rating for Integrated Habitat Assessment—India's own green building standard.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -614,7 +614,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "Lean Six Sigma (Green/Black Belt): Essential for anyone wanting to prove they can reduce waste and improve efficiency.",
           "PMP (Project Management Professional): Great for large-scale operation shutdowns and upgrades.",
           "ISO 9001/14001 Certifications: Quality and Environmental Management standards.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -846,7 +846,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "GIS Certifications: Short courses in ArcGIS or QGIS add massive value to your profile.",
           "GATE Qualification: Essential for M.Plan admission and government job eligibility.",
           "Environmental Impact Assessment (EIA) Certification: Highly valued for sustainability-focused roles.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {

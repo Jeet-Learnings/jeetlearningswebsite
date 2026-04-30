@@ -1207,7 +1207,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "ISTD (Indian Society for Training and Development): Great for L&D specialization.",
           "NHRDN (National HRD Network): India's largest networking body for HR professionals.",
           "HRCI (Human Resources Certification Institute): Offers PHR and SPHR certifications.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -1459,7 +1459,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Certifications: Certified International Trade Professional (CITP), Six Sigma (for logistics), ICCWC (International Chamber of Commerce).",
           "Bodies: FIEO (Federation of Indian Export Organisations), NASSCOM (for IT exports), APEDA (Agricultural Products).",
           "Language Certifications: DELF/DALF (French), DELE (Spanish), Goethe (German), HSK (Mandarin).",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -1712,7 +1712,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Bodies: NASSCOM (The voice of Indian IT industry), IEEE, ACM.",
           "Cloud Certifications: AWS, Microsoft Azure, Google Cloud certifications.",
           "Security Certifications: CompTIA Security+, Certified Ethical Hacker (CEH).",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -1966,7 +1966,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Certifications: CAPM (for students/freshers), PMP (Gold Standard for 3+ years experience), PRINCE2 (popular in European firms).",
           "Agile Certifications: Certified Scrum Master (CSM), Certified Scrum Product Owner (CSPO).",
           "Specialized: Six Sigma, ITIL, Construction Management certifications.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
@@ -2223,7 +2223,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "FSSAI (FoSTaC): Mandatory for food retailers. Food safety certification.",
           "Certifications: Visual Merchandising, Retail Analytics, CRM Mastery, E-commerce Management.",
           "Specialized: Six Sigma, Lean Retail, Omnichannel Management.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "These certifications significantly enhance career prospects and earning potential.:"
         ]
       },
       {
