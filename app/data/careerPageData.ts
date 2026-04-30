@@ -1899,10 +1899,10 @@ export const careerPageData: Record<string, CareerPageData> = {
             "The Hours: During 'Earnings Season,' 12–14 hour workdays are common.",
             "Market Stress: When the market crashes, the pressure to 'save' investments is immense.",
             "Continuous Learning: Financial laws change every month. You are a student for life.",
-            "Meeting tight deadlines with accurate reports is extremely stressful.",
-            "Top finance jobs attract thousands of highly qualified candidates.",
-            "Market predictions can fail, directly impacting investor decisions.",
-            "Long working hours, especially during quarterly results season, are common."
+            "Meeting tight deadlines with accurate reports is extremely stressful.:",
+            "Top finance jobs attract thousands of highly qualified candidates.:",
+            "Market predictions can fail, directly impacting investor decisions.:",
+            "Long working hours, especially during quarterly results season, are common.:"
           ]
         },
         {
