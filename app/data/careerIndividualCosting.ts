@@ -3044,6 +3044,94 @@ export const creativeWriterCosts: CareerCostData = {
   ],
 };
 
+// ─── HUMAN & SOCIAL SCIENCES - HISTORIAN - DETAILED COSTS ──────────
+
+export const historianCosts: CareerCostData = {
+  career: "historian",
+  category: "human_and_social_sciences",
+  costs: [
+    {
+      category: "BA/BA (Hons) History (Govt)",
+      amount: "₹10K-50K/year",
+      description: "3-year undergraduate program",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Delhi University: ₹10,000-20,000 per year",
+        "State Universities: ₹15,000-35,000 per year",
+        "Central Universities: ₹20,000-50,000 per year",
+        "Total for 3 years: ₹30,000-1,50,000",
+      ],
+    },
+    {
+      category: "BA/BA (Hons) History (Private)",
+      amount: "₹50K-2L/year",
+      description: "3-year undergraduate program",
+      icon: "🎓",
+      color: "#6366F1",
+      details: [
+        "Private Universities: ₹50,000-1,50,000 per year",
+        "Premium Institutions: ₹1,00,000-2,00,000 per year",
+        "Ashoka University: ₹8-10 Lakh per year",
+        "Total for 3 years: ₹1,50,000-6,00,000",
+      ],
+    },
+    {
+      category: "MA in History",
+      amount: "₹15K-3L/year",
+      description: "2-year postgraduate program",
+      icon: "📚",
+      color: "#F59E0B",
+      details: [
+        "Government Universities: ₹15,000-60,000 per year",
+        "Private Universities: ₹80,000-3,00,000 per year",
+        "JNU/DU: ₹15,000-30,000 per year",
+        "Total for 2 years: ₹30,000-6,00,000",
+      ],
+    },
+    {
+      category: "PG Diploma Heritage Mgmt",
+      amount: "₹1L-3L total",
+      description: "1-2 year specialized program",
+      icon: "🏛️",
+      color: "#EC4899",
+      details: [
+        "Museum Studies: ₹1,00,000-2,00,000",
+        "Heritage Management: ₹1,50,000-3,00,000",
+        "Archival Studies: ₹80,000-1,50,000",
+        "Duration: 1-2 years",
+      ],
+    },
+    {
+      category: "PhD in History",
+      amount: "₹1L-3L total",
+      description: "3-5 years with fellowship options",
+      icon: "🔬",
+      color: "#3B82F6",
+      details: [
+        "UGC/JRF Fellowship: ₹31,000-35,000/month (covers costs)",
+        "ICHR Fellowship: ₹25,000-31,000/month",
+        "Without Fellowship: ₹1,00,000-3,00,000 total",
+        "Duration: 3-5 years",
+      ],
+    },
+    {
+      category: "Additional Costs",
+      amount: "₹6K-15K/month",
+      description: "Living and research expenses",
+      icon: "💰",
+      color: "#10B981",
+      details: [
+        "Living/Hostel: ₹6,000-15,000 per month",
+        "Books and Research Materials: ₹5,000-10,000 per year",
+        "Archive Access Fees: ₹1,000-5,000",
+        "Travel for Research: ₹20,000-50,000",
+        "Conference Participation: ₹10,000-30,000 per year",
+      ],
+    },
+  ],
+};
+
 export const physicalTrainerCosts: CareerCostData = {
   career: "physical_trainer",
   category: "sports_and_physical_activities",
@@ -3163,6 +3251,7 @@ allIndividualCareerCosts.urban_planning_and_management = urbanPlanningAndManagem
 allIndividualCareerCosts.animator = animatorCosts;
 allIndividualCareerCosts.cosmetology = cosmetologyCosts;
 allIndividualCareerCosts.creative_writer = creativeWriterCosts;
+allIndividualCareerCosts.historian = historianCosts;
 allIndividualCareerCosts.physical_trainer = physicalTrainerCosts;
 allIndividualCareerCosts.sportsperson = sportspersonCosts;
 allIndividualCareerCosts.sports_person = sportspersonCosts;

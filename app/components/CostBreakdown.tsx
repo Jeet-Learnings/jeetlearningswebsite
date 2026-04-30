@@ -79,35 +79,35 @@ export function CostBreakdown({
                   {/* Header */}
                   <button
                     onClick={() => setExpandedIndex(expandedIndex === idx ? null : idx)}
-                    className="w-full flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 sm:p-5 md:p-7 hover:bg-slate-50 transition-colors gap-3 sm:gap-4"
+                    className="w-full flex items-center justify-between p-3 sm:p-4 md:p-5 hover:bg-slate-50 transition-colors gap-2 sm:gap-3"
                     style={{
-                      borderLeft: `4px sm:6px solid ${item.color}`,
+                      borderLeft: `4px solid ${item.color}`,
                     }}
                   >
-                    <div className="flex items-center gap-3 sm:gap-4 flex-1 text-left w-full sm:w-auto">
+                    <div className="flex items-center gap-2 sm:gap-3 flex-1 min-w-0 overflow-hidden">
                       <div
-                        className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-lg md:rounded-xl flex items-center justify-center text-2xl sm:text-3xl md:text-4xl flex-shrink-0 shadow-md"
+                        className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-lg flex items-center justify-center text-xl sm:text-2xl md:text-3xl flex-shrink-0 shadow-md"
                         style={{ background: `${item.color}15` }}
                       >
                         {item.icon}
                       </div>
-                      <div className="min-w-0 flex-1">
-                        <p className="font-black text-base sm:text-lg md:text-xl text-slate-900 break-words">{item.category}</p>
-                        <p className="text-xs sm:text-sm md:text-base text-slate-600 mt-1 font-medium break-words">{item.description}</p>
+                      <div className="min-w-0 flex-1 overflow-hidden">
+                        <p className="font-black text-xs sm:text-sm md:text-base text-slate-900 truncate">{item.category}</p>
+                        <p className="text-xs sm:text-xs text-slate-600 mt-0.5 font-medium truncate">{item.description}</p>
                       </div>
                     </div>
-                    <div className="flex items-center justify-between sm:justify-end gap-3 sm:gap-4 flex-shrink-0 w-full sm:w-auto">
-                      <div className="text-left sm:text-right">
-                        <p className="font-black text-lg sm:text-xl md:text-2xl text-slate-900">{item.amount}</p>
+                    <div className="flex items-center gap-2 flex-shrink-0 max-w-[45%] sm:max-w-[50%]">
+                      <div className="text-right min-w-0 overflow-hidden">
+                        <p className="font-black text-xs sm:text-sm md:text-base text-slate-900 break-words leading-tight">{item.amount}</p>
                       </div>
                       <div
-                        className="w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-white transition-transform flex-shrink-0"
+                        className="w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-white transition-transform flex-shrink-0"
                         style={{
                           background: item.color,
                           transform: expandedIndex === idx ? "rotate(180deg)" : "rotate(0deg)",
                         }}
                       >
-                        <ChevronDown className="w-4 h-4 sm:w-5 sm:h-5" />
+                        <ChevronDown className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                       </div>
                     </div>
                   </button>
