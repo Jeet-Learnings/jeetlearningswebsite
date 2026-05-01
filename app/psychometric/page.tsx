@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Navbar from "@/app/components/Navbar";
+import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 import PsychometricTestClient from "./PsychometricTestClient";
 
@@ -167,7 +167,7 @@ const psychometricChapters = [
 export default function PsychometricPage() {
   return (
     <div className="min-h-screen bg-slate-50">
-      <Navbar />
+      <NavbarWrapper />
 
       <main>
         <PsychometricTestClient />

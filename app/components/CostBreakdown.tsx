@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ChevronDown, TrendingUp, DollarSign, Calendar, Target } from "lucide-react";
 import { allCategoryCosts, CategoryCost } from "@/app/data/careerCategoryCosting";
 import { getCareerCosts } from "@/app/data/careerIndividualCosting";
+import { TranslatedText } from "@/app/components/TranslatedText";
 
 const PRIMARY_BLUE = "#1E40AF";
 const ACCENT_GOLD = "#F59E0B";
@@ -54,10 +55,10 @@ export function CostBreakdown({
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-6 sm:mb-8 md:mb-12">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 mb-2 sm:mb-3 md:mb-4 px-2">
-              {title}
+              <TranslatedText as="span">{title}</TranslatedText>
             </h2>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600 max-w-2xl mx-auto font-medium px-4">
-              {subtitle}
+              <TranslatedText>{subtitle}</TranslatedText>
             </p>
           </div>
         </div>
@@ -67,7 +68,7 @@ export function CostBreakdown({
       <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-white">
           <div className="max-w-6xl mx-auto">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 mb-6 sm:mb-8 md:mb-12 px-2">
-              Cost Breakdown by Category
+              <TranslatedText>Cost Breakdown by Category</TranslatedText>
             </h3>
 
             <div className="space-y-3 md:space-y-4">
@@ -92,8 +93,8 @@ export function CostBreakdown({
                         {item.icon}
                       </div>
                       <div className="min-w-0 flex-1 overflow-hidden">
-                        <p className="font-black text-xs sm:text-sm md:text-base text-slate-900 truncate">{item.category}</p>
-                        <p className="text-xs sm:text-xs text-slate-600 mt-0.5 font-medium truncate">{item.description}</p>
+                        <p className="font-black text-xs sm:text-sm md:text-base text-slate-900 truncate"><TranslatedText as="span">{item.category}</TranslatedText></p>
+                        <p className="text-xs sm:text-xs text-slate-600 mt-0.5 font-medium truncate"><TranslatedText>{item.description}</TranslatedText></p>
                       </div>
                     </div>
                     <div className="flex items-center gap-2 flex-shrink-0 max-w-[45%] sm:max-w-[50%]">
@@ -124,7 +125,7 @@ export function CostBreakdown({
                             >
                               →
                             </span>
-                            <p className="text-xs sm:text-sm md:text-base text-slate-700 leading-relaxed font-medium">{detail}</p>
+                            <p className="text-xs sm:text-sm md:text-base text-slate-700 leading-relaxed font-medium"><TranslatedText>{detail}</TranslatedText></p>
                           </div>
                         ))}
                       </div>

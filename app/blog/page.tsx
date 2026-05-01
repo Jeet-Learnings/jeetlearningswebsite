@@ -1,4 +1,4 @@
-import Navbar from "@/app/components/Navbar";
+import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 import BlogClient from "./BlogClient";
 
@@ -10,7 +10,7 @@ export const metadata = {
 export default function BlogPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      <NavbarWrapper />
       <BlogClient />
       <Footer />
     </div>

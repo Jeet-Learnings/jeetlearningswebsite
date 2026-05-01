@@ -1,4 +1,4 @@
-import Navbar from "@/app/components/Navbar";
+import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 import CareerPathClient from "./CareerPathClient";
 
@@ -10,7 +10,7 @@ export const metadata = {
 export default function CareerPathPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      <NavbarWrapper />
       <CareerPathClient />
       <Footer />
     </div>

@@ -18,24 +18,40 @@ async function loadTranslations(): Promise<void> {
   if (isLoaded) return;
 
   try {
-    const [enResponse, hiResponse] = await Promise.all([
-      fetch("/api/translations/en"),
-      fetch("/api/translations/hi"),
-    ]);
+    // Import translations directly
+    const { default: hiData } = await import("@/app/data/translations/hi.json");
+    const { default: enData } = await import("@/app/data/translations/en.json");
 
-    if (enResponse.ok) {
-      const enData = await enResponse.json();
-      translationCache.en = enData;
-    }
-    if (hiResponse.ok) {
-      const hiData = await hiResponse.json();
-      translationCache.hi = hiData;
-    }
+    translationCache.en = enData;
+    translationCache.hi = hiData;
 
     isLoaded = true;
-    console.log("Translations loaded:", { en: Object.keys(translationCache.en).length, hi: Object.keys(translationCache.hi).length });
+    console.log("Translations loaded:", { 
+      en: Object.keys(translationCache.en).length, 
+      hi: Object.keys(translationCache.hi).length 
+    });
   } catch (error) {
     console.error("Error loading translations:", error);
+    // Fallback to API
+    try {
+      const [enResponse, hiResponse] = await Promise.all([
+        fetch("/api/translations/en"),
+        fetch("/api/translations/hi"),
+      ]);
+
+      if (enResponse.ok) {
+        const enData = await enResponse.json();
+        translationCache.en = enData;
+      }
+      if (hiResponse.ok) {
+        const hiData = await hiResponse.json();
+        translationCache.hi = hiData;
+      }
+
+      isLoaded = true;
+    } catch (fallbackError) {
+      console.error("Error loading translations from API:", fallbackError);
+    }
   }
 }
 
@@ -48,11 +64,9 @@ async function getStoredTranslation(
 
   // Direct lookup - exact match
   if (translationCache[language][text]) {
-    console.log(`Found translation for "${text}":`, translationCache[language][text]);
     return translationCache[language][text];
   }
 
-  console.log(`No translation found for "${text}" in ${language}`);
   return null;
 }
 
@@ -85,48 +99,37 @@ async function saveTranslationToCodebase(
   }
 }
 
-// Translate text using Gemini API
-async function translateWithGemini(text: string): Promise<string> {
-  const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
-
-  if (!apiKey) {
-    throw new Error("Gemini API key not configured");
-  }
-
-  const response = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        contents: [
-          {
-            parts: [
-              {
-                text: `Translate the following text to Hindi. Provide only the translation, nothing else:\n\n${text}`,
-              },
-            ],
-          },
-        ],
-        generationConfig: {
-          temperature: 0.3,
-          maxOutputTokens: 1024,
+// Translate text using Ollama locally
+async function translateWithOllama(text: string): Promise<string> {
+  try {
+    const response = await fetch(
+      "http://localhost:11434/api/generate",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-      }),
+        body: JSON.stringify({
+          model: "translategemma:4b",
+          prompt: `Translate this text to Hindi. Reply ONLY with the Hindi translation:\n\n${text}`,
+          stream: false,
+          temperature: 0.1,
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Ollama API error: ${response.statusText}`);
     }
-  );
 
-  if (!response.ok) {
-    throw new Error(`Gemini API error: ${response.statusText}`);
+    const data = await response.json();
+    const translation = data.response?.trim() || text;
+
+    return translation;
+  } catch (error) {
+    console.error("Ollama translation error:", error);
+    throw error;
   }
-
-  const data = await response.json();
-  const translation =
-    data.candidates?.[0]?.content?.parts?.[0]?.text || text;
-
-  return translation.trim();
 }
 
 // Main translation function with codebase storage
@@ -149,12 +152,8 @@ export async function translateText(
     return stored;
   }
 
-  // If not found, translate using Gemini API
-  const translation = await translateWithGemini(text);
-
-  // Save to codebase
-  await saveTranslationToCodebase(text, translation, language);
-
+  // If not found, translate using Ollama locally
+  const translation = await translateWithOllama(text);
   return translation;
 }
 

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { Menu, X, Phone, Globe } from "lucide-react";
 import { useTranslation } from "@/app/context/TranslationContext";
+import { useTranslatedContent } from "@/app/hooks/useTranslatedContent";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -23,6 +24,16 @@ export default function Navbar() {
     // useTranslation hook not available (not wrapped in provider)
     // This is fine, we'll just use default values
   }
+
+  // Translate navbar items
+  const homeText = useTranslatedContent("Home");
+  const careerPathText = useTranslatedContent("Career Path");
+  const dmitText = useTranslatedContent("DMIT");
+  const psychometricText = useTranslatedContent("Psychometric test");
+  const resourcesText = useTranslatedContent("Resources");
+  const blogText = useTranslatedContent("Blog");
+  const contactText = useTranslatedContent("Contact");
+  const bookConsultationText = useTranslatedContent("Book Consultation");
 
   useEffect(() => {
     setIsMounted(true);
@@ -68,49 +79,49 @@ export default function Navbar() {
                 href="/"
                 className="px-2 py-1.5 text-xs font-medium text-slate-600 hover:text-[var(--color-canam-red)] whitespace-nowrap transition-all duration-200"
               >
-                Home
+                {homeText}
               </Link>
 
               <Link
                 href="/career-path"
                 className="px-2 py-1.5 text-xs font-medium text-slate-600 hover:text-[var(--coAlor-canam-red)] whitespace-nowrap transition-all duration-200"
               >
-                Career Path
+                {careerPathText}
               </Link>
 
               <Link
                 href="/dmit"
                 className="px-2 py-1.5 text-xs font-medium text-slate-600 hover:text-[var(--color-canam-red)] whitespace-nowrap transition-all duration-200"
               >
-                DMIT
+                {dmitText}
               </Link>
 
               <Link
                 href="/psychometric"
                 className="px-2 py-1.5 text-xs font-medium text-slate-600 hover:text-[var(--color-canam-red)] whitespace-nowrap transition-all duration-200"
               >
-                Psychometric test
+                {psychometricText}
               </Link>
 
               <Link
                 href="/resources"
                 className="px-2 py-1.5 text-xs font-medium text-slate-600 hover:text-[var(--color-canam-red)] whitespace-nowrap transition-all duration-200"
               >
-                Resources
+                {resourcesText}
               </Link>
 
               <Link
                 href="/blog"
                 className="px-2 py-1.5 text-xs font-medium text-slate-600 hover:text-[var(--color-canam-red)] whitespace-nowrap transition-all duration-200"
               >
-                Blog
+                {blogText}
               </Link>
 
               <Link
                 href="/contact"
                 className="px-2 py-1.5 text-xs font-medium text-slate-600 hover:text-[var(--color-canam-red)] whitespace-nowrap transition-all duration-200"
               >
-                Contact
+                {contactText}
               </Link>
             </div>
 
@@ -138,7 +149,7 @@ export default function Navbar() {
                 href="/contact"
                 className="bg-[var(--color-canam-red)] text-white px-5 py-2 rounded-lg font-semibold text-xs hover:bg-[var(--color-canam-red-dark)] transition-all duration-200 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 whitespace-nowrap"
               >
-                Book Consultation
+                {bookConsultationText}
               </Link>
             </div>
 
@@ -184,7 +195,7 @@ export default function Navbar() {
             onClick={() => setIsMobileMenuOpen(false)}
             className="block text-slate-800 font-bold text-2xl mb-8 hover:text-[var(--color-canam-red)] transition-colors"
           >
-            Home
+            {homeText}
           </Link>
 
           <div className="space-y-2 mb-8">
@@ -193,42 +204,42 @@ export default function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
               className="block px-4 py-3 text-slate-700 font-semibold rounded-lg hover:bg-slate-100 hover:text-[var(--color-canam-red)] transition-all"
             >
-              Career Path
+              {careerPathText}
             </Link>
             <Link
               href="/dmit"
               onClick={() => setIsMobileMenuOpen(false)}
               className="block px-4 py-3 text-slate-700 font-semibold rounded-lg hover:bg-slate-100 hover:text-[var(--color-canam-red)] transition-all"
             >
-              DMIT
+              {dmitText}
             </Link>
             <Link
               href="/psychometric"
               onClick={() => setIsMobileMenuOpen(false)}
               className="block px-4 py-3 text-slate-700 font-semibold rounded-lg hover:bg-slate-100 hover:text-[var(--color-canam-red)] transition-all"
             >
-              Psychometric
+              {psychometricText}
             </Link>
             <Link
               href="/resources"
               onClick={() => setIsMobileMenuOpen(false)}
               className="block px-4 py-3 text-slate-700 font-semibold rounded-lg hover:bg-slate-100 hover:text-[var(--color-canam-red)] transition-all"
             >
-              Resources
+              {resourcesText}
             </Link>
             <Link
               href="/blog"
               onClick={() => setIsMobileMenuOpen(false)}
               className="block px-4 py-3 text-slate-700 font-semibold rounded-lg hover:bg-slate-100 hover:text-[var(--color-canam-red)] transition-all"
             >
-              Blog
+              {blogText}
             </Link>
             <Link
               href="/contact"
               onClick={() => setIsMobileMenuOpen(false)}
               className="block px-4 py-3 text-slate-700 font-semibold rounded-lg hover:bg-slate-100 hover:text-[var(--color-canam-red)] transition-all"
             >
-              Contact
+              {contactText}
             </Link>
           </div>
         </div>
@@ -246,7 +257,7 @@ export default function Navbar() {
             onClick={() => setIsMobileMenuOpen(false)}
             className="block w-full text-center bg-[var(--color-canam-red)] text-white py-4 rounded-xl font-bold text-base hover:bg-[var(--color-canam-red-dark)] transition-all shadow-lg shadow-red-500/30 active:scale-95"
           >
-            Book Consultation
+            {bookConsultationText}
           </Link>
         </div>
       </div>

@@ -2,8 +2,9 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Navbar from '@/app/components/Navbar';
+import NavbarWrapper from '@/app/components/NavbarWrapper';
 import Footer from '@/app/components/Footer';
+import { useTranslatedContent } from '@/app/hooks/useTranslatedContent';
 import {
   Brain,
   Zap,
@@ -21,6 +22,9 @@ import {
 } from 'lucide-react';
 
 export default function Home() {
+  // Translation hook for all text
+  const t = useTranslatedContent;
+
   const trendingCareers = [
     {
       id: 1,
@@ -62,7 +66,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900 font-body-md selection:bg-blue-100 selection:text-slate-900 overflow-x-hidden">
-      <Navbar />
+      <NavbarWrapper />
 
       {/* Clean Hero Section */}
       <section className="relative min-h-[90vh] flex items-center pt-20 pb-16 px-4 sm:px-8">
@@ -72,18 +76,18 @@ export default function Home() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 text-sm font-medium animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
               <span className="flex h-2 w-2 rounded-full bg-blue-600"></span>
-              Career Guidance Platform
+              {t('Career Guidance Platform')}
             </div>
 
             {/* Main Heading */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-900 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Find Your Path.<br />
-              <span className="text-blue-600">Build Your Future.</span>
+              {t('Find Your Path.')} <br />
+              <span className="text-blue-600">{t('Build Your Future.')}</span>
             </h1>
 
             {/* Description */}
             <p className="text-base sm:text-lg text-slate-600 max-w-xl leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-              Discover the right career for you with our comprehensive 16-section career architecture. Get personalized guidance, mentorship, and a clear roadmap to success.
+              {t('Discover the right career for you with our comprehensive 16-section career architecture. Get personalized guidance, mentorship, and a clear roadmap to success.')}
             </p>
 
             {/* CTA Buttons */}
@@ -92,11 +96,11 @@ export default function Home() {
                 href="/career-path"
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               >
-                Explore Careers
+                {t('Explore Careers')}
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <button className="inline-flex items-center justify-center gap-2 border-2 border-slate-300 text-slate-900 px-8 py-4 rounded-lg font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors">
-                Learn More
+                {t('Learn More')}
               </button>
             </div>
 
@@ -114,7 +118,7 @@ export default function Home() {
                 </div>
               </div>
               <span className="text-sm text-slate-600 font-medium">
-                Trusted by 10,000+ students
+                {t('Trusted by 10,000+ students')}
               </span>
             </div>
           </div>
@@ -150,9 +154,9 @@ export default function Home() {
       <section className="py-20 bg-slate-50 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 animate-fade-in-up">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">How It Works</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">{t('How It Works')}</h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-2xl mx-auto">
-              A structured approach to career planning that actually works.
+              {t('A structured approach to career planning that actually works.')}
             </p>
           </div>
 
@@ -164,9 +168,9 @@ export default function Home() {
                   <Target className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">16-Section Architecture</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">{t('16-Section Architecture')}</h3>
                   <p className="text-slate-600">
-                    Our proprietary framework maps every phase from academic foundation to industry leadership.
+                    {t('Our proprietary framework maps every phase from academic foundation to industry leadership.')}
                   </p>
                 </div>
               </div>
@@ -179,9 +183,9 @@ export default function Home() {
                   <Users className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">Expert Mentorship</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">{t('Expert Mentorship')}</h3>
                   <p className="text-slate-600">
-                    Connect with industry leaders who have walked the path you aspire to take.
+                    {t('Connect with industry leaders who have walked the path you aspire to take.')}
                   </p>
                 </div>
               </div>
@@ -194,9 +198,9 @@ export default function Home() {
                   <BarChart3 className="w-6 h-6 text-purple-600" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">Skill Gap Analysis</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">{t('Skill Gap Analysis')}</h3>
                   <p className="text-slate-600">
-                    Identify exactly what skills you need to develop to reach your career goals.
+                    {t('Identify exactly what skills you need to develop to reach your career goals.')}
                   </p>
                 </div>
               </div>
@@ -209,9 +213,9 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16 animate-fade-in-up">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">Trending Careers</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">{t('Trending Careers')}</h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600">
-              High-growth opportunities in 2024-25 based on real market data.
+              {t('High-growth opportunities in 2024-25 based on real market data.')}
             </p>
           </div>
 
@@ -229,13 +233,13 @@ export default function Home() {
                     <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 flex-shrink-0">
                       <IconComponent className="w-6 h-6" />
                     </div>
-                    <h4 className="text-lg font-bold text-slate-900">{career.title}</h4>
+                    <h4 className="text-lg font-bold text-slate-900">{t(career.title)}</h4>
                   </div>
-                  <p className="text-sm text-slate-600 mb-6">{career.description}</p>
+                  <p className="text-sm text-slate-600 mb-6">{t(career.description)}</p>
                   <div className="flex items-center justify-between pt-4 border-t border-slate-200">
                     <div className="font-bold text-blue-600">{career.salary}</div>
                     <div className={`px-2 py-1 ${career.statusColor} text-xs font-semibold rounded-full`}>
-                      {career.status}
+                      {t(career.status)}
                     </div>
                   </div>
                 </div>
@@ -249,9 +253,9 @@ export default function Home() {
       <section className="py-20 bg-slate-50 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16 animate-fade-in-up">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">Resources & Support</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">{t('Resources & Support')}</h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600">
-              Get entrance exam guidance, education news, blog updates, and expert counselling support in one place.
+              {t('Get entrance exam guidance, education news, blog updates, and expert counselling support in one place.')}
             </p>
           </div>
 
@@ -262,56 +266,56 @@ export default function Home() {
                 {/* Left Content */}
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-3xl font-bold text-slate-900 mb-3">Assessment Tool</h3>
-                    <p className="text-lg font-semibold text-blue-600 mb-4">Dermatoglyphics Multiple Intelligence Test</p>
+                    <h3 className="text-3xl font-bold text-slate-900 mb-3">{t('Assessment Tool')}</h3>
+                    <p className="text-lg font-semibold text-blue-600 mb-4">{t('Dermatoglyphics Multiple Intelligence Test')}</p>
                   </div>
 
                   <p className="text-slate-600 leading-relaxed">
-                    DMIT maps an individual's innate potential by analyzing fingerprint ridge patterns, based on the biological link between fingerprint and brain development in the embryonic stage.
+                    {t('DMIT maps an individual\'s innate potential by analyzing fingerprint ridge patterns, based on the biological link between fingerprint and brain development in the embryonic stage.')}
                   </p>
 
                   <div className="space-y-4">
-                    <h4 className="font-bold text-slate-900">The Science Behind DMIT</h4>
+                    <h4 className="font-bold text-slate-900">{t('The Science Behind DMIT')}</h4>
                     <ul className="space-y-3 text-slate-600">
                       <li className="flex gap-3">
                         <span className="text-blue-600 font-bold">•</span>
-                        <span>During the 13th to 21st week of gestation, fingerprints and the neocortex develop from the same ectoderm layer</span>
+                        <span>{t('During the 13th to 21st week of gestation, fingerprints and the neocortex develop from the same ectoderm layer')}</span>
                       </li>
                       <li className="flex gap-3">
                         <span className="text-blue-600 font-bold">•</span>
-                        <span>DMIT uses this biological timeline to interpret likely cognitive patterns</span>
+                        <span>{t('DMIT uses this biological timeline to interpret likely cognitive patterns')}</span>
                       </li>
                       <li className="flex gap-3">
                         <span className="text-blue-600 font-bold">•</span>
-                        <span>Biological link between ridges and brain lobe development</span>
+                        <span>{t('Biological link between ridges and brain lobe development')}</span>
                       </li>
                       <li className="flex gap-3">
                         <span className="text-blue-600 font-bold">•</span>
-                        <span>Integrates neuroscience, genetics, psychology, and embryology</span>
+                        <span>{t('Integrates neuroscience, genetics, psychology, and embryology')}</span>
                       </li>
                       <li className="flex gap-3">
                         <span className="text-blue-600 font-bold">•</span>
-                        <span>Focuses on inborn tendencies rather than acquired marks</span>
+                        <span>{t('Focuses on inborn tendencies rather than acquired marks')}</span>
                       </li>
                     </ul>
                   </div>
 
                   <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                    Book DMIT Counselling
+                    {t('Book DMIT Counselling')}
                   </button>
                 </div>
 
                 {/* Right Features */}
                 <div className="space-y-6">
-                  <h4 className="font-bold text-slate-900 text-lg">What the Report Highlights</h4>
+                  <h4 className="font-bold text-slate-900 text-lg">{t('What the Report Highlights')}</h4>
 
                   <div className="space-y-4">
                     <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
                       <div className="flex items-start gap-3">
                         <Fingerprint className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                         <div>
-                          <h5 className="font-bold text-slate-900 mb-2">Fingerprint Analysis</h5>
-                          <p className="text-sm text-slate-600">Unique patterns reveal your cognitive blueprint and innate potential.</p>
+                          <h5 className="font-bold text-slate-900 mb-2">{t('Fingerprint Analysis')}</h5>
+                          <p className="text-sm text-slate-600">{t('Unique patterns reveal your cognitive blueprint and innate potential.')}</p>
                         </div>
                       </div>
                     </div>
@@ -320,8 +324,8 @@ export default function Home() {
                       <div className="flex items-start gap-3">
                         <Brain className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                         <div>
-                          <h5 className="font-bold text-slate-900 mb-2">Brain Mapping</h5>
-                          <p className="text-sm text-slate-600">Understand which brain lobes are naturally dominant in your thinking.</p>
+                          <h5 className="font-bold text-slate-900 mb-2">{t('Brain Mapping')}</h5>
+                          <p className="text-sm text-slate-600">{t('Understand which brain lobes are naturally dominant in your thinking.')}</p>
                         </div>
                       </div>
                     </div>
@@ -330,8 +334,8 @@ export default function Home() {
                       <div className="flex items-start gap-3">
                         <Lightbulb className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                         <div>
-                          <h5 className="font-bold text-slate-900 mb-2">Multiple Intelligence</h5>
-                          <p className="text-sm text-slate-600">Discover your strengths across linguistic, logical, spatial, and more.</p>
+                          <h5 className="font-bold text-slate-900 mb-2">{t('Multiple Intelligence')}</h5>
+                          <p className="text-sm text-slate-600">{t('Discover your strengths across linguistic, logical, spatial, and more.')}</p>
                         </div>
                       </div>
                     </div>
@@ -340,20 +344,20 @@ export default function Home() {
                       <div className="flex items-start gap-3">
                         <Compass className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
                         <div>
-                          <h5 className="font-bold text-slate-900 mb-2">Career Alignment</h5>
-                          <p className="text-sm text-slate-600">Match your innate talents with ideal career paths for long-term success.</p>
+                          <h5 className="font-bold text-slate-900 mb-2">{t('Career Alignment')}</h5>
+                          <p className="text-sm text-slate-600">{t('Match your innate talents with ideal career paths for long-term success.')}</p>
                         </div>
                       </div>
                     </div>
                   </div>
 
                   <div className="bg-slate-100 p-4 rounded-lg">
-                    <h5 className="font-bold text-slate-900 mb-3">Practical Utility Across Life Stages</h5>
+                    <h5 className="font-bold text-slate-900 mb-3">{t('Practical Utility Across Life Stages')}</h5>
                     <ul className="space-y-2 text-sm text-slate-600">
-                      <li><span className="font-semibold text-slate-900">For Students:</span> Choose study methods and academic streams that fit natural cognitive style.</li>
-                      <li><span className="font-semibold text-slate-900">For Parents:</span> Personalize communication and talent nurturing based on behavior profile.</li>
-                      <li><span className="font-semibold text-slate-900">For Adults:</span> Improve self-awareness, work-role alignment, and stress-response planning.</li>
-                      <li><span className="font-semibold text-slate-900">For Organizations:</span> Support role-fit, team balance, and performance coaching decisions.</li>
+                      <li><span className="font-semibold text-slate-900">{t('For Students:')}</span> {t('Choose study methods and academic streams that fit natural cognitive style.')}</li>
+                      <li><span className="font-semibold text-slate-900">{t('For Parents:')}</span> {t('Personalize communication and talent nurturing based on behavior profile.')}</li>
+                      <li><span className="font-semibold text-slate-900">{t('For Adults:')}</span> {t('Improve self-awareness, work-role alignment, and stress-response planning.')}</li>
+                      <li><span className="font-semibold text-slate-900">{t('For Organizations:')}</span> {t('Support role-fit, team balance, and performance coaching decisions.')}</li>
                     </ul>
                   </div>
                 </div>
@@ -368,74 +372,74 @@ export default function Home() {
                 {/* Left Content */}
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-3xl font-bold text-slate-900 mb-3">Comprehensive Assessment</h3>
-                    <p className="text-lg font-semibold text-blue-600 mb-4">Psychometric Analysis Tests</p>
+                    <h3 className="text-3xl font-bold text-slate-900 mb-3">{t('Comprehensive Assessment')}</h3>
+                    <p className="text-lg font-semibold text-blue-600 mb-4">{t('Psychometric Analysis Tests')}</p>
                   </div>
 
                   <p className="text-slate-600 leading-relaxed">
-                    Psychometric assessments use standardized methods to measure behavior, aptitude, personality, and cognitive ability so students and professionals can make clearer academic and career decisions.
+                    {t('Psychometric assessments use standardized methods to measure behavior, aptitude, personality, and cognitive ability so students and professionals can make clearer academic and career decisions.')}
                   </p>
 
                   <div className="space-y-4">
                     <div className="border-l-4 border-blue-600 pl-4">
-                      <h5 className="font-bold text-slate-900 mb-2">Aptitude Tests</h5>
-                      <p className="text-sm text-slate-600 mb-2">Evaluate natural capacity to learn and solve new challenges through numerical, verbal, logical, and perceptual tasks</p>
+                      <h5 className="font-bold text-slate-900 mb-2">{t('Aptitude Tests')}</h5>
+                      <p className="text-sm text-slate-600 mb-2">{t('Evaluate natural capacity to learn and solve new challenges through numerical, verbal, logical, and perceptual tasks')}</p>
                       <ul className="text-xs text-slate-600 space-y-1">
-                        <li>• Career-stream and subject alignment</li>
-                        <li>• Strength and weakness mapping</li>
-                        <li>• Future role-fit prediction</li>
+                        <li>• {t('Career-stream and subject alignment')}</li>
+                        <li>• {t('Strength and weakness mapping')}</li>
+                        <li>• {t('Future role-fit prediction')}</li>
                       </ul>
                     </div>
 
                     <div className="border-l-4 border-green-600 pl-4">
-                      <h5 className="font-bold text-slate-900 mb-2">IQ Assessments</h5>
-                      <p className="text-sm text-slate-600 mb-2">Measure logical reasoning, processing speed, working memory, and visual-spatial problem-solving for high-demand learning paths</p>
+                      <h5 className="font-bold text-slate-900 mb-2">{t('IQ Assessments')}</h5>
+                      <p className="text-sm text-slate-600 mb-2">{t('Measure logical reasoning, processing speed, working memory, and visual-spatial problem-solving for high-demand learning paths')}</p>
                       <ul className="text-xs text-slate-600 space-y-1">
-                        <li>• Cognitive benchmarking by age group</li>
-                        <li>• Academic acceleration planning</li>
-                        <li>• Role suitability in technical domains</li>
+                        <li>• {t('Cognitive benchmarking by age group')}</li>
+                        <li>• {t('Academic acceleration planning')}</li>
+                        <li>• {t('Role suitability in technical domains')}</li>
                       </ul>
                     </div>
 
                     <div className="border-l-4 border-purple-600 pl-4">
-                      <h5 className="font-bold text-slate-900 mb-2">Personality Tests</h5>
-                      <p className="text-sm text-slate-600 mb-2">Understand communication style, behavioral preferences, and motivation patterns for better team fit and long-term growth</p>
+                      <h5 className="font-bold text-slate-900 mb-2">{t('Personality Tests')}</h5>
+                      <p className="text-sm text-slate-600 mb-2">{t('Understand communication style, behavioral preferences, and motivation patterns for better team fit and long-term growth')}</p>
                       <ul className="text-xs text-slate-600 space-y-1">
-                        <li>• Self-awareness and confidence building</li>
-                        <li>• Leadership and soft-skill development</li>
-                        <li>• Conflict and relationship management</li>
+                        <li>• {t('Self-awareness and confidence building')}</li>
+                        <li>• {t('Leadership and soft-skill development')}</li>
+                        <li>• {t('Conflict and relationship management')}</li>
                       </ul>
                     </div>
                   </div>
 
                   <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                    Book Psychometric Consultation
+                    {t('Book Psychometric Consultation')}
                   </button>
                 </div>
 
                 {/* Right - Who Benefits */}
                 <div className="space-y-6">
-                  <h4 className="font-bold text-slate-900 text-lg">Who Benefits</h4>
+                  <h4 className="font-bold text-slate-900 text-lg">{t('Who Benefits')}</h4>
 
                   <div className="space-y-4">
                     <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-                      <h5 className="font-bold text-slate-900 mb-2">Junior Primary (7-8 yrs)</h5>
-                      <p className="text-sm text-slate-600">Baseline cognition and early learning-style identification.</p>
+                      <h5 className="font-bold text-slate-900 mb-2">{t('Junior Primary (7-8 yrs)')}</h5>
+                      <p className="text-sm text-slate-600">{t('Baseline cognition and early learning-style identification.')}</p>
                     </div>
 
                     <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-                      <h5 className="font-bold text-slate-900 mb-2">Middle to Secondary (9-16 yrs)</h5>
-                      <p className="text-sm text-slate-600">Subject mapping, stream selection, and career cluster discovery.</p>
+                      <h5 className="font-bold text-slate-900 mb-2">{t('Middle to Secondary (9-16 yrs)')}</h5>
+                      <p className="text-sm text-slate-600">{t('Subject mapping, stream selection, and career cluster discovery.')}</p>
                     </div>
 
                     <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-                      <h5 className="font-bold text-slate-900 mb-2">Higher Secondary (15+ yrs)</h5>
-                      <p className="text-sm text-slate-600">College-course planning with aptitude-personality alignment.</p>
+                      <h5 className="font-bold text-slate-900 mb-2">{t('Higher Secondary (15+ yrs)')}</h5>
+                      <p className="text-sm text-slate-600">{t('College-course planning with aptitude-personality alignment.')}</p>
                     </div>
 
                     <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
-                      <h5 className="font-bold text-slate-900 mb-2">Adults and Professionals</h5>
-                      <p className="text-sm text-slate-600">Role fit, leadership pipeline, and long-term career direction.</p>
+                      <h5 className="font-bold text-slate-900 mb-2">{t('Adults and Professionals')}</h5>
+                      <p className="text-sm text-slate-600">{t('Role fit, leadership pipeline, and long-term career direction.')}</p>
                     </div>
                   </div>
                 </div>
@@ -450,9 +454,9 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16 animate-fade-in-up">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">Career Resources</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">{t('Career Resources')}</h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600">
-              Professional bodies, top universities, and scholarship opportunities across all career paths.
+              {t('Professional bodies, top universities, and scholarship opportunities across all career paths.')}
             </p>
           </div>
 
@@ -462,24 +466,24 @@ export default function Home() {
             <div className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-start gap-3">
                 <Briefcase className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
-                Accounts & Finance
+                {t('Accounts & Finance')}
               </h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Actuarial Science</h4>
-                  <p className="text-xs text-slate-600">Professional bodies, universities, and scholarships for actuarial careers</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Actuarial Science')}</h4>
+                  <p className="text-xs text-slate-600">{t('Professional bodies, universities, and scholarships for actuarial careers')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Banking Services</h4>
-                  <p className="text-xs text-slate-600">Resources for banking and financial services professionals</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Banking Services')}</h4>
+                  <p className="text-xs text-slate-600">{t('Resources for banking and financial services professionals')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Chartered Accountant</h4>
-                  <p className="text-xs text-slate-600">CA certifications, colleges, and financial aid options</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Chartered Accountant')}</h4>
+                  <p className="text-xs text-slate-600">{t('CA certifications, colleges, and financial aid options')}</p>
                 </div>
               </div>
               <Link href="/resources" className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm mt-6 hover:text-blue-700">
-                View All <ArrowRight className="w-4 h-4" />
+                {t('View All')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
 
@@ -487,24 +491,24 @@ export default function Home() {
             <div className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-start gap-3">
                 <Briefcase className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
-                Agriculture
+                {t('Agriculture')}
               </h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Agri Business</h4>
-                  <p className="text-xs text-slate-600">Agricultural management and business opportunities</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Agri Business')}</h4>
+                  <p className="text-xs text-slate-600">{t('Agricultural management and business opportunities')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Agricultural Engineering</h4>
-                  <p className="text-xs text-slate-600">Engineering and technical agricultural programs</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Agricultural Engineering')}</h4>
+                  <p className="text-xs text-slate-600">{t('Engineering and technical agricultural programs')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Veterinary Science</h4>
-                  <p className="text-xs text-slate-600">Animal science and veterinary professional resources</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Veterinary Science')}</h4>
+                  <p className="text-xs text-slate-600">{t('Animal science and veterinary professional resources')}</p>
                 </div>
               </div>
               <Link href="/resources" className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm mt-6 hover:text-blue-700">
-                View All <ArrowRight className="w-4 h-4" />
+                {t('View All')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
 
@@ -512,24 +516,24 @@ export default function Home() {
             <div className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-start gap-3">
                 <Briefcase className="w-6 h-6 text-orange-600 flex-shrink-0 mt-0.5" />
-                Architecture & Construction
+                {t('Architecture & Construction')}
               </h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Architecture</h4>
-                  <p className="text-xs text-slate-600">Architectural education and professional certifications</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Architecture')}</h4>
+                  <p className="text-xs text-slate-600">{t('Architectural education and professional certifications')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Construction</h4>
-                  <p className="text-xs text-slate-600">Construction management and engineering resources</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Construction')}</h4>
+                  <p className="text-xs text-slate-600">{t('Construction management and engineering resources')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Urban Planning</h4>
-                  <p className="text-xs text-slate-600">Urban planning and smart city management programs</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Urban Planning')}</h4>
+                  <p className="text-xs text-slate-600">{t('Urban planning and smart city management programs')}</p>
                 </div>
               </div>
               <Link href="/resources" className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm mt-6 hover:text-blue-700">
-                View All <ArrowRight className="w-4 h-4" />
+                {t('View All')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
 
@@ -537,24 +541,24 @@ export default function Home() {
             <div className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-start gap-3">
                 <Palette className="w-6 h-6 text-purple-600 flex-shrink-0 mt-0.5" />
-                Arts & Design
+                {t('Arts & Design')}
               </h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Accessory Design</h4>
-                  <p className="text-xs text-slate-600">Fashion and accessory design programs</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Accessory Design')}</h4>
+                  <p className="text-xs text-slate-600">{t('Fashion and accessory design programs')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Animation</h4>
-                  <p className="text-xs text-slate-600">Animation, VFX, and digital media resources</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Animation')}</h4>
+                  <p className="text-xs text-slate-600">{t('Animation, VFX, and digital media resources')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Cosmetology</h4>
-                  <p className="text-xs text-slate-600">Beauty and wellness professional certifications</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Cosmetology')}</h4>
+                  <p className="text-xs text-slate-600">{t('Beauty and wellness professional certifications')}</p>
                 </div>
               </div>
               <Link href="/resources" className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm mt-6 hover:text-blue-700">
-                View All <ArrowRight className="w-4 h-4" />
+                {t('View All')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
 
@@ -562,24 +566,24 @@ export default function Home() {
             <div className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-start gap-3">
                 <BarChart3 className="w-6 h-6 text-red-600 flex-shrink-0 mt-0.5" />
-                Business & Management
+                {t('Business & Management')}
               </h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Business Administration</h4>
-                  <p className="text-xs text-slate-600">MBA and business management programs</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Business Administration')}</h4>
+                  <p className="text-xs text-slate-600">{t('MBA and business management programs')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Entrepreneurship</h4>
-                  <p className="text-xs text-slate-600">Startup and entrepreneurship resources</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Entrepreneurship')}</h4>
+                  <p className="text-xs text-slate-600">{t('Startup and entrepreneurship resources')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Human Resources</h4>
-                  <p className="text-xs text-slate-600">HR management and organizational development</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Human Resources')}</h4>
+                  <p className="text-xs text-slate-600">{t('HR management and organizational development')}</p>
                 </div>
               </div>
               <Link href="/resources" className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm mt-6 hover:text-blue-700">
-                View All <ArrowRight className="w-4 h-4" />
+                {t('View All')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
 
@@ -587,24 +591,24 @@ export default function Home() {
             <div className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-start gap-3">
                 <Brain className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-0.5" />
-                Technology & IT
+                {t('Technology & IT')}
               </h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Software Development</h4>
-                  <p className="text-xs text-slate-600">Programming and software engineering careers</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Software Development')}</h4>
+                  <p className="text-xs text-slate-600">{t('Programming and software engineering careers')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Data Science</h4>
-                  <p className="text-xs text-slate-600">Data analytics and AI/ML opportunities</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Data Science')}</h4>
+                  <p className="text-xs text-slate-600">{t('Data analytics and AI/ML opportunities')}</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-slate-900 text-sm mb-2">Cybersecurity</h4>
-                  <p className="text-xs text-slate-600">Information security and cyber defense</p>
+                  <h4 className="font-semibold text-slate-900 text-sm mb-2">{t('Cybersecurity')}</h4>
+                  <p className="text-xs text-slate-600">{t('Information security and cyber defense')}</p>
                 </div>
               </div>
               <Link href="/resources" className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm mt-6 hover:text-blue-700">
-                View All <ArrowRight className="w-4 h-4" />
+                {t('View All')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
@@ -612,7 +616,7 @@ export default function Home() {
           {/* Browse All Resources CTA */}
           <div className="mt-16 text-center animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <Link href="/resources" className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              Browse All Resources <ArrowRight className="w-5 h-5" />
+              {t('Browse All Resources')} <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
         </div>
@@ -623,17 +627,17 @@ export default function Home() {
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           <div className="bg-blue-600 rounded-2xl p-12 md:p-16 text-center text-white">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Ready to Find Your Path?
+              {t('Ready to Find Your Path?')}
             </h2>
             <p className="text-base sm:text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-              Join thousands of students who have discovered their ideal career with our guidance platform.
+              {t('Join thousands of students who have discovered their ideal career with our guidance platform.')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors">
-                Start Free Assessment
+                {t('Start Free Assessment')}
               </button>
               <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors">
-                Talk to an Expert
+                {t('Talk to an Expert')}
               </button>
             </div>
           </div>

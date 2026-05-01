@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { ExternalLink, Search, Filter, BookOpen, GraduationCap, Award } from 'lucide-react';
-import Navbar from '@/app/components/Navbar';
+import NavbarWrapper from '@/app/components/NavbarWrapper';
 import Footer from '@/app/components/Footer';
+import { TranslatedText } from '@/app/components/TranslatedText';
 
 interface Resource {
   name: string;
@@ -199,7 +200,7 @@ export default function ResourcesClient() {
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-          <p className="text-slate-600">Loading resources...</p>
+          <p className="text-slate-600"><TranslatedText>Loading resources...</TranslatedText></p>
         </div>
       </div>
     );
@@ -207,7 +208,7 @@ export default function ResourcesClient() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900 font-body-md overflow-x-hidden">
-      <Navbar />
+      <NavbarWrapper />
 
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center pt-20 pb-16 px-4 sm:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
@@ -215,16 +216,16 @@ export default function ResourcesClient() {
           <div className="space-y-6 animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-200 bg-white text-slate-700 text-sm font-medium">
               <span className="flex h-2 w-2 rounded-full bg-blue-600"></span>
-              Career Resources
+              <TranslatedText>Career Resources</TranslatedText>
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-900">
-              Comprehensive <br />
-              <span className="text-blue-600">Career Resources</span>
+              <TranslatedText>Comprehensive</TranslatedText> <br />
+              <span className="text-blue-600"><TranslatedText>Career Resources</TranslatedText></span>
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 max-w-xl leading-relaxed">
-              Professional bodies, top universities, and scholarship opportunities across all career paths. Everything you need to succeed in your chosen field.
+              <TranslatedText>Professional bodies, top universities, and scholarship opportunities across all career paths. Everything you need to succeed in your chosen field.</TranslatedText>
             </p>
           </div>
         </div>
@@ -250,7 +251,7 @@ export default function ResourcesClient() {
             <div className="animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
               <div className="flex items-center gap-2 mb-3">
                 <Filter className="w-5 h-5 text-slate-600" />
-                <h3 className="font-semibold text-slate-900">Filter by Category</h3>
+                <h3 className="font-semibold text-slate-900"><TranslatedText>Filter by Category</TranslatedText></h3>
               </div>
               <div className="flex flex-wrap gap-2">
                 <button
@@ -261,7 +262,7 @@ export default function ResourcesClient() {
                       : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                   }`}
                 >
-                  All Categories
+                  <TranslatedText>All Categories</TranslatedText>
                 </button>
                 {resourcesData.map((section) => (
                   <button
@@ -288,8 +289,8 @@ export default function ResourcesClient() {
           {filteredData.length === 0 ? (
             <div className="text-center py-20">
               <BookOpen className="w-16 h-16 text-slate-300 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-slate-900 mb-2">No resources found</h3>
-              <p className="text-slate-600">Try adjusting your search or filter criteria</p>
+              <h3 className="text-2xl font-bold text-slate-900 mb-2"><TranslatedText>No resources found</TranslatedText></h3>
+              <p className="text-slate-600"><TranslatedText>Try adjusting your search or filter criteria</TranslatedText></p>
             </div>
           ) : (
             <div className="space-y-16">
@@ -302,7 +303,7 @@ export default function ResourcesClient() {
                     </h2>
                     <div className="w-16 h-1 bg-blue-600 rounded-full"></div>
                     <p className="text-slate-600 mt-3">
-                      {section.careers.length} career path{section.careers.length !== 1 ? 's' : ''} with comprehensive resources
+                      {section.careers.length} <TranslatedText>career path</TranslatedText>{section.careers.length !== 1 ? 's' : ''} <TranslatedText>with comprehensive resources</TranslatedText>
                     </p>
                   </div>
 
@@ -336,7 +337,7 @@ export default function ResourcesClient() {
                                   <BookOpen className="w-5 h-5 text-purple-600" />
                                 )}
                                 <h4 className="font-bold text-slate-900 text-sm">
-                                  {resourceGroup.type}
+                                  <TranslatedText as="span">{resourceGroup.type}</TranslatedText>
                                 </h4>
                               </div>
                               <div className="space-y-3">

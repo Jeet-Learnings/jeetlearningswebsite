@@ -3,9 +3,18 @@ import { useTranslation } from "@/app/context/TranslationContext";
 import { translateText } from "@/app/services/translationService";
 
 export function useTranslatedContent(content: string): string {
-  const { language } = useTranslation();
   const [translatedContent, setTranslatedContent] = useState(content);
   const [isLoading, setIsLoading] = useState(false);
+  
+  let language: "en" | "hi" = "en";
+  
+  try {
+    const context = useTranslation();
+    language = context.language;
+  } catch (error) {
+    // Not in provider context, use default language
+    return content;
+  }
 
   useEffect(() => {
     if (language === "en") {
@@ -19,7 +28,8 @@ export function useTranslatedContent(content: string): string {
         const translated = await translateText(content, language);
         setTranslatedContent(translated);
       } catch (error) {
-        console.error("Translation error:", error);
+        console.warn(`Translation missing for: "${content}"`);
+        // Keep original English text if translation not found
         setTranslatedContent(content);
       } finally {
         setIsLoading(false);
@@ -36,9 +46,18 @@ export function useTranslatedContent(content: string): string {
 export function useTranslatedContents(
   contents: Record<string, string>
 ): Record<string, string> {
-  const { language } = useTranslation();
   const [translatedContents, setTranslatedContents] = useState(contents);
   const [isLoading, setIsLoading] = useState(false);
+  
+  let language: "en" | "hi" = "en";
+  
+  try {
+    const context = useTranslation();
+    language = context.language;
+  } catch (error) {
+    // Not in provider context, use default language
+    return contents;
+  }
 
   useEffect(() => {
     if (language === "en") {
@@ -55,7 +74,8 @@ export function useTranslatedContents(
         }
         setTranslatedContents(translated);
       } catch (error) {
-        console.error("Translation error:", error);
+        console.warn(`Translation missing for contents`);
+        // Keep original English text if translation not found
         setTranslatedContents(contents);
       } finally {
         setIsLoading(false);

@@ -2,10 +2,11 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Navbar from '@/app/components/Navbar';
+import NavbarWrapper from '@/app/components/NavbarWrapper';
 import Footer from '@/app/components/Footer';
 import { CostBreakdown } from '@/app/components/CostBreakdown';
 import { DynamicIcon } from '@/app/components/DynamicIcon';
+import { TranslatedText } from '@/app/components/TranslatedText';
 import {
   Info,
   Clock,
@@ -192,14 +193,14 @@ export function CareerPageClientNew({
 
   return (
     <div className="min-h-screen bg-surface text-on-surface font-body-md">
-      <Navbar />
+      <NavbarWrapper />
 
       <div className="flex max-w-[1440px] mx-auto pt-20">
         {/* Sidebar Navigation - Hidden on mobile */}
         <aside className="hidden lg:flex fixed left-0 top-16 h-[calc(100vh-64px)] w-64 border-r border-slate-200 bg-slate-50 flex-col gap-1 p-4 overflow-y-auto z-40">
           <div className="mb-6 px-2">
-            <h3 className="font-h2 text-lg text-primary mb-1 truncate">{careerName}</h3>
-            <p className="text-xs text-on-surface-variant font-body-md">Career Guide</p>
+            <h3 className="font-h2 text-lg text-primary mb-1 truncate"><TranslatedText as="span">{careerName}</TranslatedText></h3>
+            <p className="text-xs text-on-surface-variant font-body-md"><TranslatedText>Career Guide</TranslatedText></p>
           </div>
 
           <nav className="flex flex-col gap-1">
@@ -219,7 +220,7 @@ export function CareerPageClientNew({
                   }`}
                 >
                   <IconComponent className="w-5 h-5 flex-shrink-0" />
-                  <span className="hidden xl:inline">{item.label}</span>
+                  <span className="hidden xl:inline"><TranslatedText>{item.label}</TranslatedText></span>
                 </button>
               );
             })}
@@ -241,28 +242,28 @@ export function CareerPageClientNew({
 
             <div className="relative z-10 max-w-2xl w-full">
               <span className="bg-secondary-container text-on-secondary-container px-3 sm:px-4 py-1 rounded-full text-xs sm:text-label-sm font-h3 mb-3 sm:mb-4 inline-block">
-                Trending Career
+                <TranslatedText>Trending Career</TranslatedText>
               </span>
               <h1 className="font-h1 text-white mb-4 sm:mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight">
-                {careerName}
+                <TranslatedText as="span">{careerName}</TranslatedText>
               </h1>
               <p className="text-blue-100 font-body-md sm:font-body-lg mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base">
-                {pageData?.whyCards?.[0]?.description || 'Explore this exciting career path with comprehensive insights and guidance.'}
+                <TranslatedText>{pageData?.whyCards?.[0]?.description || 'Explore this exciting career path with comprehensive insights and guidance.'}</TranslatedText>
               </p>
 
               {/* Quick Stats */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
                 <div className="glass-card p-3 sm:p-4 rounded-lg sm:rounded-xl">
-                  <p className="text-slate-500 text-[10px] sm:text-xs font-h3 uppercase tracking-wider mb-1">Avg. Salary</p>
+                  <p className="text-slate-500 text-[10px] sm:text-xs font-h3 uppercase tracking-wider mb-1"><TranslatedText>Avg. Salary</TranslatedText></p>
                   <p className="text-primary font-bold text-lg sm:text-xl font-h3">₹12 - 45 LPA</p>
                 </div>
                 <div className="glass-card p-3 sm:p-4 rounded-lg sm:rounded-xl">
-                  <p className="text-slate-500 text-[10px] sm:text-xs font-h3 uppercase tracking-wider mb-1">Growth rate</p>
+                  <p className="text-slate-500 text-[10px] sm:text-xs font-h3 uppercase tracking-wider mb-1"><TranslatedText>Growth rate</TranslatedText></p>
                   <p className="text-secondary font-bold text-lg sm:text-xl font-h3">36% YoY</p>
                 </div>
                 <div className="glass-card p-3 sm:p-4 rounded-lg sm:rounded-xl">
-                  <p className="text-slate-500 text-[10px] sm:text-xs font-h3 uppercase tracking-wider mb-1">Difficulty</p>
-                  <p className="text-tertiary font-bold text-lg sm:text-xl font-h3">High</p>
+                  <p className="text-slate-500 text-[10px] sm:text-xs font-h3 uppercase tracking-wider mb-1"><TranslatedText>Difficulty</TranslatedText></p>
+                  <p className="text-tertiary font-bold text-lg sm:text-xl font-h3"><TranslatedText>High</TranslatedText></p>
                 </div>
               </div>
             </div>
@@ -272,35 +273,37 @@ export function CareerPageClientNew({
           <section id="overview" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">01</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Career Overview</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Career Overview</TranslatedText></h2>
             </div>
 
             <div className="bg-white p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl border-l-4 border-primary shadow-sm">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
                 <div className="space-y-4">
                   <p className="font-body-md sm:font-body-lg text-on-surface text-sm sm:text-base">
-                    {pageData?.guideSections?.[0]?.content?.[0] ||
-                      'Data Science is the interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.'}
+                    <TranslatedText>
+                      {pageData?.guideSections?.[0]?.content?.[0] ||
+                        'Data Science is the interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.'}
+                    </TranslatedText>
                   </p>
                   <ul className="space-y-2 sm:space-y-3">
                     {pageData?.whyCards?.slice(0, 3).map((card: any, idx: number) => (
                       <li key={idx} className="flex items-start gap-2 sm:gap-3">
                         <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-primary mt-0.5 flex-shrink-0" />
-                        <span className="text-sm sm:text-base">{card.title}</span>
+                        <span className="text-sm sm:text-base"><TranslatedText as="span">{card.title}</TranslatedText></span>
                       </li>
                     )) || (
                       <>
                         <li className="flex items-start gap-2 sm:gap-3">
                           <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-primary mt-0.5 flex-shrink-0" />
-                          <span className="text-sm sm:text-base">Bridging the gap between business strategy and raw technology.</span>
+                          <span className="text-sm sm:text-base"><TranslatedText>Bridging the gap between business strategy and raw technology.</TranslatedText></span>
                         </li>
                         <li className="flex items-start gap-2 sm:gap-3">
                           <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-primary mt-0.5 flex-shrink-0" />
-                          <span className="text-sm sm:text-base">Utilizing Machine Learning to predict future outcomes.</span>
+                          <span className="text-sm sm:text-base"><TranslatedText>Utilizing Machine Learning to predict future outcomes.</TranslatedText></span>
                         </li>
                         <li className="flex items-start gap-2 sm:gap-3">
                           <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-primary mt-0.5 flex-shrink-0" />
-                          <span className="text-sm sm:text-base">High demand across Finance, Healthcare, and E-commerce.</span>
+                          <span className="text-sm sm:text-base"><TranslatedText>High demand across Finance, Healthcare, and E-commerce.</TranslatedText></span>
                         </li>
                       </>
                     )}
@@ -322,7 +325,7 @@ export function CareerPageClientNew({
           <section id="daily-life" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">02</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">A Day in the Life</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">A Day in the Life</TranslatedText></h2>
             </div>
 
             <div className="space-y-4 sm:space-y-6 relative before:absolute before:left-[9px] sm:before:left-[19px] before:top-0 before:bottom-0 before:w-0.5 before:bg-slate-200">
@@ -334,9 +337,9 @@ export function CareerPageClientNew({
                       <IconComponent className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
                     </div>
                     <h4 className="font-h3 text-on-surface mb-1 text-sm sm:text-base">
-                      {item.time} - {item.title}
+                      {item.time} - <TranslatedText as="span">{item.title}</TranslatedText>
                     </h4>
-                    <p className="text-on-surface-variant text-xs sm:text-sm">{item.description}</p>
+                    <p className="text-on-surface-variant text-xs sm:text-sm"><TranslatedText>{item.description}</TranslatedText></p>
                   </div>
                 );
               })}
@@ -347,7 +350,7 @@ export function CareerPageClientNew({
           <section id="skills" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">03</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Core Skills</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Core Skills</TranslatedText></h2>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -361,12 +364,12 @@ export function CareerPageClientNew({
                     <div className={`w-10 h-10 sm:w-12 sm:h-12 ${skillGroup.color} text-primary rounded-lg sm:rounded-xl flex items-center justify-center mb-3 sm:mb-4`}>
                       <IconComponent className="w-5 h-5 sm:w-6 sm:h-6" />
                     </div>
-                    <h4 className="font-h3 font-bold mb-2 sm:mb-3 text-sm sm:text-base">{skillGroup.category}</h4>
+                    <h4 className="font-h3 font-bold mb-2 sm:mb-3 text-sm sm:text-base"><TranslatedText as="span">{skillGroup.category}</TranslatedText></h4>
                     <ul className="text-xs sm:text-sm space-y-1.5 sm:space-y-2 text-on-surface-variant">
                       {skillGroup.items.map((item, i) => (
                         <li key={i} className="flex items-center gap-2">
                           <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-primary rounded-full flex-shrink-0"></span>
-                          {item}
+                          <TranslatedText as="span">{item}</TranslatedText>
                         </li>
                       ))}
                     </ul>
@@ -380,7 +383,7 @@ export function CareerPageClientNew({
           <section id="education" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">04</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Educational Path</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Educational Path</TranslatedText></h2>
             </div>
 
             <div className="max-w-3xl mx-auto">
@@ -394,10 +397,10 @@ export function CareerPageClientNew({
                     ></div>
                     <div>
                       <span className={`text-xs sm:text-label-sm font-bold ${stage.active ? 'text-primary' : 'text-slate-500'}`}>
-                        {stage.stage}
+                        <TranslatedText as="span">{stage.stage}</TranslatedText>
                       </span>
-                      <h4 className="font-h3 text-on-surface text-sm sm:text-base">{stage.title}</h4>
-                      <p className="text-on-surface-variant text-xs sm:text-sm">{stage.description}</p>
+                      <h4 className="font-h3 text-on-surface text-sm sm:text-base"><TranslatedText as="span">{stage.title}</TranslatedText></h4>
+                      <p className="text-on-surface-variant text-xs sm:text-sm"><TranslatedText>{stage.description}</TranslatedText></p>
                     </div>
                   </div>
                 ))}
@@ -409,7 +412,7 @@ export function CareerPageClientNew({
           <section id="salary" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">05</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Salary Market</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Salary Market</TranslatedText></h2>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -424,10 +427,10 @@ export function CareerPageClientNew({
                 >
                   {tier.featured && (
                     <div className="absolute -top-2 sm:-top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-[8px] sm:text-[10px] px-2 sm:px-3 py-0.5 sm:py-1 rounded-full font-bold uppercase tracking-widest">
-                      Most Common
+                      <TranslatedText>Most Common</TranslatedText>
                     </div>
                   )}
-                  <p className="text-slate-500 font-h3 mb-2 text-xs sm:text-sm">{tier.level}</p>
+                  <p className="text-slate-500 font-h3 mb-2 text-xs sm:text-sm"><TranslatedText as="span">{tier.level}</TranslatedText></p>
                   <h4 className="text-2xl sm:text-3xl font-h2 text-primary mb-3 sm:mb-4">{tier.salary}</h4>
                   <div className="w-full bg-slate-200 h-1.5 sm:h-2 rounded-full overflow-hidden">
                     <div
@@ -435,7 +438,7 @@ export function CareerPageClientNew({
                       style={{ width: `${tier.percentage}%` }}
                     ></div>
                   </div>
-                  <p className="text-[10px] sm:text-xs text-slate-400 mt-2 sm:mt-4">{tier.description}</p>
+                  <p className="text-[10px] sm:text-xs text-slate-400 mt-2 sm:mt-4"><TranslatedText>{tier.description}</TranslatedText></p>
                 </div>
               ))}
             </div>
@@ -445,7 +448,7 @@ export function CareerPageClientNew({
           <section id="employers" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">06</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Top Employers</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Top Employers</TranslatedText></h2>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
@@ -454,8 +457,8 @@ export function CareerPageClientNew({
                   key={idx}
                   className="bg-white border border-slate-100 p-3 sm:p-4 md:p-6 rounded-lg sm:rounded-xl flex flex-col items-center justify-center gap-2 sm:gap-3 hover:border-primary transition-colors"
                 >
-                  <div className="text-lg sm:text-xl md:text-2xl font-bold text-slate-800 text-center">{employer.name}</div>
-                  <p className="text-[10px] sm:text-xs md:text-sm text-slate-500 text-center line-clamp-2">{employer.companies}</p>
+                  <div className="text-lg sm:text-xl md:text-2xl font-bold text-slate-800 text-center"><TranslatedText as="span">{employer.name}</TranslatedText></div>
+                  <p className="text-[10px] sm:text-xs md:text-sm text-slate-500 text-center line-clamp-2"><TranslatedText>{employer.companies}</TranslatedText></p>
                 </div>
               ))}
             </div>
@@ -475,7 +478,7 @@ export function CareerPageClientNew({
           <section id="trends" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">08</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Future Trends</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Future Trends</TranslatedText></h2>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
@@ -486,9 +489,9 @@ export function CareerPageClientNew({
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-4 sm:p-6 flex flex-col justify-end">
-                  <h4 className="text-white font-h3 mb-1 sm:mb-2 text-sm sm:text-base">Generative AI & LLMs</h4>
+                  <h4 className="text-white font-h3 mb-1 sm:mb-2 text-sm sm:text-base"><TranslatedText>Generative AI & LLMs</TranslatedText></h4>
                   <p className="text-slate-300 text-xs sm:text-sm">
-                    Shift from traditional ML to building applications using Foundation Models and Prompt Engineering.
+                    <TranslatedText>Shift from traditional ML to building applications using Foundation Models and Prompt Engineering.</TranslatedText>
                   </p>
                 </div>
               </div>
@@ -497,9 +500,9 @@ export function CareerPageClientNew({
                 <div className="bg-white p-4 sm:p-5 rounded-lg sm:rounded-xl border border-slate-100 flex items-start gap-3 sm:gap-4">
                   <Zap className="w-5 h-5 sm:w-6 sm:h-6 text-primary flex-shrink-0 mt-0.5 sm:mt-1" />
                   <div>
-                    <h5 className="font-bold text-sm sm:text-base mb-0.5 sm:mb-1">Edge Computing</h5>
+                    <h5 className="font-bold text-sm sm:text-base mb-0.5 sm:mb-1"><TranslatedText>Edge Computing</TranslatedText></h5>
                     <p className="text-xs sm:text-sm text-on-surface-variant">
-                      Running complex AI models directly on mobile devices and IoT sensors rather than the cloud.
+                      <TranslatedText>Running complex AI models directly on mobile devices and IoT sensors rather than the cloud.</TranslatedText>
                     </p>
                   </div>
                 </div>
@@ -507,9 +510,9 @@ export function CareerPageClientNew({
                 <div className="bg-white p-4 sm:p-5 rounded-lg sm:rounded-xl border border-slate-100 flex items-start gap-3 sm:gap-4">
                   <AlertTriangle className="w-5 h-5 sm:w-6 sm:h-6 text-primary flex-shrink-0 mt-0.5 sm:mt-1" />
                   <div>
-                    <h5 className="font-bold text-sm sm:text-base mb-0.5 sm:mb-1">AI Ethics & Governance</h5>
+                    <h5 className="font-bold text-sm sm:text-base mb-0.5 sm:mb-1"><TranslatedText>AI Ethics & Governance</TranslatedText></h5>
                     <p className="text-xs sm:text-sm text-on-surface-variant">
-                      Rising demand for "Responsible AI" experts to ensure algorithms are fair, unbiased, and safe.
+                      <TranslatedText>Rising demand for "Responsible AI" experts to ensure algorithms are fair, unbiased, and safe.</TranslatedText>
                     </p>
                   </div>
                 </div>
@@ -517,9 +520,9 @@ export function CareerPageClientNew({
                 <div className="bg-white p-4 sm:p-5 rounded-lg sm:rounded-xl border border-slate-100 flex items-start gap-3 sm:gap-4">
                   <Zap className="w-5 h-5 sm:w-6 sm:h-6 text-primary flex-shrink-0 mt-0.5 sm:mt-1" />
                   <div>
-                    <h5 className="font-bold text-sm sm:text-base mb-0.5 sm:mb-1">AutoML Integration</h5>
+                    <h5 className="font-bold text-sm sm:text-base mb-0.5 sm:mb-1"><TranslatedText>AutoML Integration</TranslatedText></h5>
                     <p className="text-xs sm:text-sm text-on-surface-variant">
-                      Automating the data science pipeline, shifting focus from coding to problem formulation.
+                      <TranslatedText>Automating the data science pipeline, shifting focus from coding to problem formulation.</TranslatedText>
                     </p>
                   </div>
                 </div>
@@ -531,7 +534,7 @@ export function CareerPageClientNew({
           <section id="challenges" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">09</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Realistic Challenges</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Realistic Challenges</TranslatedText></h2>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
@@ -542,8 +545,8 @@ export function CareerPageClientNew({
                     <div key={idx} className="flex items-start gap-3 sm:gap-4">
                       <IconComponent className="w-5 h-5 sm:w-6 sm:h-6 text-tertiary flex-shrink-0 mt-0.5 sm:mt-1" />
                       <div>
-                        <h4 className="font-bold text-sm sm:text-base">{challenge.title}</h4>
-                        <p className="text-on-surface-variant text-xs sm:text-sm">{challenge.description}</p>
+                        <h4 className="font-bold text-sm sm:text-base"><TranslatedText as="span">{challenge.title}</TranslatedText></h4>
+                        <p className="text-on-surface-variant text-xs sm:text-sm"><TranslatedText>{challenge.description}</TranslatedText></p>
                       </div>
                     </div>
                   );
@@ -552,10 +555,10 @@ export function CareerPageClientNew({
 
               <div className="bg-tertiary-fixed text-on-tertiary-fixed p-6 sm:p-8 rounded-lg sm:rounded-2xl">
                 <h4 className="font-h3 font-bold mb-3 sm:mb-4 flex items-center gap-2 text-sm sm:text-base">
-                  <Zap className="w-4 h-4 sm:w-5 sm:h-5" /> Pro-Tip
+                  <Zap className="w-4 h-4 sm:w-5 sm:h-5" /> <TranslatedText>Pro-Tip</TranslatedText>
                 </h4>
                 <p className="font-body-md opacity-90 leading-relaxed text-xs sm:text-sm">
-                  "Communication is often harder than the math. If you can't explain why your model matters to a CEO, the model will never see the light of day."
+                  <TranslatedText>"Communication is often harder than the math. If you can't explain why your model matters to a CEO, the model will never see the light of day."</TranslatedText>
                 </p>
               </div>
             </div>
@@ -566,7 +569,7 @@ export function CareerPageClientNew({
           <section id="videos" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">10</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Learn More Through Videos</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Learn More Through Videos</TranslatedText></h2>
             </div>
 
             <div className="relative rounded-lg md:rounded-xl lg:rounded-2xl overflow-hidden shadow-lg md:shadow-2xl mb-6 sm:mb-8 bg-white border border-slate-100">
@@ -583,10 +586,10 @@ export function CareerPageClientNew({
 
             <div className="text-center mb-6 sm:mb-8">
               <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-slate-800 line-clamp-2">
-                {videos[currentVideoIndex]?.title}
+                <TranslatedText>{videos[currentVideoIndex]?.title}</TranslatedText>
               </h3>
               <p className="text-[10px] sm:text-xs md:text-sm mt-1 sm:mt-2 text-slate-500 font-medium">
-                Video {currentVideoIndex + 1} of {videos.length}
+                <TranslatedText>Video</TranslatedText> {currentVideoIndex + 1} <TranslatedText>of</TranslatedText> {videos.length}
               </p>
             </div>
 
@@ -595,7 +598,7 @@ export function CareerPageClientNew({
                 onClick={() => setCurrentVideoIndex((p) => (p - 1 + videos.length) % videos.length)}
                 className="px-3 sm:px-4 md:px-6 lg:px-8 py-2 md:py-3 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto bg-white text-primary border-2 border-primary hover:bg-primary/5"
               >
-                ← Previous Video
+                ← <TranslatedText>Previous Video</TranslatedText>
               </button>
 
               <div className="flex gap-1.5 sm:gap-2">
@@ -614,7 +617,7 @@ export function CareerPageClientNew({
                 onClick={() => setCurrentVideoIndex((p) => (p + 1) % videos.length)}
                 className="px-3 sm:px-4 md:px-6 lg:px-8 py-2 md:py-3 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto bg-primary text-white border-2 border-primary hover:bg-primary/90"
               >
-                Next Video →
+                <TranslatedText>Next Video</TranslatedText> →
               </button>
             </div>
           </section>
@@ -624,7 +627,7 @@ export function CareerPageClientNew({
           <section id="next-steps" className="mb-12 sm:mb-16 md:mb-20 scroll-mt-20">
             <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8">
               <span className="text-2xl sm:text-3xl md:text-4xl font-h1 text-outline-variant/30">11</span>
-              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl">Start Today</h2>
+              <h2 className="font-h2 text-primary text-2xl sm:text-3xl md:text-4xl"><TranslatedText as="span">Start Today</TranslatedText></h2>
             </div>
 
             <div className="bg-white p-6 sm:p-8 md:p-12 rounded-lg sm:rounded-2xl lg:rounded-[2rem] shadow-xl border border-slate-100 relative overflow-hidden">
@@ -632,7 +635,7 @@ export function CareerPageClientNew({
 
               <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
                 <div>
-                  <h3 className="font-h2 mb-4 sm:mb-6 text-lg sm:text-xl md:text-2xl">Your Checklist</h3>
+                  <h3 className="font-h2 mb-4 sm:mb-6 text-lg sm:text-xl md:text-2xl"><TranslatedText>Your Checklist</TranslatedText></h3>
                   <ul className="space-y-3 sm:space-y-4">
                     {[
                       'Master Python Basics (Variables, Loops, Functions)',
@@ -650,26 +653,26 @@ export function CareerPageClientNew({
                         >
                           {idx === 0 && <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-primary" />}
                         </div>
-                        <span className="font-medium text-sm sm:text-base">{item}</span>
+                        <span className="font-medium text-sm sm:text-base"><TranslatedText as="span">{item}</TranslatedText></span>
                       </li>
                     ))}
                   </ul>
 
                   <button className="mt-6 sm:mt-8 md:mt-10 bg-primary text-white px-6 sm:px-8 md:px-10 py-2.5 sm:py-3 md:py-4 rounded-full font-h3 font-bold shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all text-sm sm:text-base">
-                    Download PDF Guide
+                    <TranslatedText>Download PDF Guide</TranslatedText>
                   </button>
                 </div>
 
                 <div className="bg-slate-50 p-4 sm:p-6 rounded-lg sm:rounded-2xl border border-dashed border-slate-300">
-                  <h5 className="font-bold text-center mb-4 sm:mb-6 text-sm sm:text-base">Recommended First Course</h5>
+                  <h5 className="font-bold text-center mb-4 sm:mb-6 text-sm sm:text-base"><TranslatedText>Recommended First Course</TranslatedText></h5>
                   <div className="space-y-3 sm:space-y-4">
                     <div className="bg-white p-3 sm:p-4 rounded-lg shadow-sm flex gap-3 sm:gap-4 items-center">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-100 rounded text-primary flex items-center justify-center font-bold text-xs sm:text-sm flex-shrink-0">
                         ML
                       </div>
                       <div className="min-w-0">
-                        <p className="font-bold text-xs sm:text-sm line-clamp-1">Machine Learning Specialization</p>
-                        <p className="text-[10px] sm:text-xs text-slate-500">by Andrew Ng (Coursera)</p>
+                        <p className="font-bold text-xs sm:text-sm line-clamp-1"><TranslatedText>Machine Learning Specialization</TranslatedText></p>
+                        <p className="text-[10px] sm:text-xs text-slate-500"><TranslatedText>by Andrew Ng (Coursera)</TranslatedText></p>
                       </div>
                     </div>
                     <div className="bg-white p-3 sm:p-4 rounded-lg shadow-sm flex gap-3 sm:gap-4 items-center">
@@ -677,8 +680,8 @@ export function CareerPageClientNew({
                         SQL
                       </div>
                       <div className="min-w-0">
-                        <p className="font-bold text-xs sm:text-sm line-clamp-1">SQL for Data Science</p>
-                        <p className="text-[10px] sm:text-xs text-slate-500">Mode Analytics (Free)</p>
+                        <p className="font-bold text-xs sm:text-sm line-clamp-1"><TranslatedText>SQL for Data Science</TranslatedText></p>
+                        <p className="text-[10px] sm:text-xs text-slate-500"><TranslatedText>Mode Analytics (Free)</TranslatedText></p>
                       </div>
                     </div>
                   </div>
@@ -689,7 +692,7 @@ export function CareerPageClientNew({
 
           {/* Footer */}
           <footer className="mt-12 sm:mt-16 md:mt-20 pt-6 sm:pt-8 md:pt-10 border-t border-slate-200 text-center text-slate-400 text-xs sm:text-sm pb-20 sm:pb-24">
-            <p>© 2024 JeetLearnings. Expert-curated career pathways for modern students.</p>
+            <p><TranslatedText>© 2024 JeetLearnings. Expert-curated career pathways for modern students.</TranslatedText></p>
           </footer>
         </main>
       </div>

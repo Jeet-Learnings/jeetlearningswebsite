@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
+import { TranslatedText } from "@/app/components/TranslatedText";
 
 export default function ContactClient() {
   const [formData, setFormData] = useState({
@@ -48,20 +49,20 @@ export default function ContactClient() {
             className="text-center"
           >
             <p className="font-poppins text-[#757575] text-sm font-medium mb-2">
-              Get In Touch
+              <TranslatedText>Get In Touch</TranslatedText>
             </p>
             <div className="w-10 h-0.5 bg-[#C20000] mx-auto mb-4" />
             <h1
               className="font-poppins text-[#505050] font-bold mb-4"
               style={{ fontSize: "clamp(32px, 3.5vw, 48px)", lineHeight: "1.2" }}
             >
-              Contact Our Expert Team
+              <TranslatedText>Contact Our Expert Team</TranslatedText>
             </h1>
             <p
               className="font-poppins text-[#757575] max-w-2xl mx-auto"
               style={{ fontSize: "20px", lineHeight: "30px" }}
             >
-              Have questions about your career path? Reach out to us and our counselors will get back to you within 24 hours
+              <TranslatedText>Have questions about your career path? Reach out to us and our counselors will get back to you within 24 hours</TranslatedText>
             </p>
           </motion.div>
         </div>
@@ -87,10 +88,10 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <h3 className="font-poppins font-bold text-[#333333] text-lg mb-1">
-                      Phone
+                      <TranslatedText>Phone</TranslatedText>
                     </h3>
                     <p className="font-poppins text-[#757575] text-sm mb-2">
-                      Call us during business hours
+                      <TranslatedText>Call us during business hours</TranslatedText>
                     </p>
                     <a href="tel:+919670699777" className="font-poppins font-semibold text-[#C20000] hover:text-[#B30000] transition-colors">
                       +91 9670699777
@@ -107,10 +108,10 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <h3 className="font-poppins font-bold text-[#333333] text-lg mb-1">
-                      Email
+                      <TranslatedText>Email</TranslatedText>
                     </h3>
                     <p className="font-poppins text-[#757575] text-sm mb-2">
-                      Send us an email anytime
+                      <TranslatedText>Send us an email anytime</TranslatedText>
                     </p>
                     <a href="mailto:jeetfoundation2016@gmail.com" className="font-poppins font-semibold text-[#C20000] hover:text-[#B30000] transition-colors break-all">
                       jeetfoundation2016@gmail.com
@@ -127,7 +128,7 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <h3 className="font-poppins font-bold text-[#333333] text-lg mb-1">
-                      Address
+                      <TranslatedText>Address</TranslatedText>
                     </h3>
                     <p className="font-poppins text-[#757575] text-sm">
                       5/126 Vikash Khand<br />
@@ -145,12 +146,12 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <h3 className="font-poppins font-bold text-[#333333] text-lg mb-1">
-                      Business Hours
+                      <TranslatedText>Business Hours</TranslatedText>
                     </h3>
                     <div className="font-poppins text-[#757575] text-sm space-y-1">
-                      <div>Mon - Fri: 9:00 AM - 6:00 PM</div>
-                      <div>Sat: 10:00 AM - 4:00 PM</div>
-                      <div>Sun: Closed</div>
+                      <div><TranslatedText>Mon - Fri: 9:00 AM - 6:00 PM</TranslatedText></div>
+                      <div><TranslatedText>Sat: 10:00 AM - 4:00 PM</TranslatedText></div>
+                      <div><TranslatedText>Sun: Closed</TranslatedText></div>
                     </div>
                   </div>
                 </div>
@@ -176,10 +177,10 @@ export default function ContactClient() {
                       <CheckCircle className="w-8 h-8 text-[#4CAF50]" />
                     </div>
                     <h3 className="font-poppins font-bold text-[#333333] text-2xl mb-2">
-                      Thank You!
+                      <TranslatedText>Thank You!</TranslatedText>
                     </h3>
                     <p className="font-poppins text-[#757575] text-center">
-                      Your message has been sent successfully. We'll get back to you within 24 hours.
+                      <TranslatedText>Your message has been sent successfully. We'll get back to you within 24 hours.</TranslatedText>
                     </p>
                   </motion.div>
                 ) : (
@@ -187,7 +188,7 @@ export default function ContactClient() {
                     {/* Name */}
                     <div>
                       <label className="block font-poppins font-semibold text-[#333333] text-sm mb-2">
-                        Full Name *
+                        <TranslatedText>Full Name *</TranslatedText>
                       </label>
                       <input
                         type="text"
@@ -203,7 +204,7 @@ export default function ContactClient() {
                     {/* Email */}
                     <div>
                       <label className="block font-poppins font-semibold text-[#333333] text-sm mb-2">
-                        Email Address *
+                        <TranslatedText>Email Address *</TranslatedText>
                       </label>
                       <input
                         type="email"
@@ -219,7 +220,7 @@ export default function ContactClient() {
                     {/* Phone */}
                     <div>
                       <label className="block font-poppins font-semibold text-[#333333] text-sm mb-2">
-                        Phone Number
+                        <TranslatedText>Phone Number</TranslatedText>
                       </label>
                       <input
                         type="tel"
@@ -234,7 +235,7 @@ export default function ContactClient() {
                     {/* Subject */}
                     <div>
                       <label className="block font-poppins font-semibold text-[#333333] text-sm mb-2">
-                        Subject *
+                        <TranslatedText>Subject *</TranslatedText>
                       </label>
                       <select
                         name="subject"
@@ -243,19 +244,19 @@ export default function ContactClient() {
                         required
                         className="w-full px-4 py-3 border border-[#EEEEEE] rounded-lg font-poppins text-[#505050] focus:outline-none focus:border-[#C20000] transition-colors"
                       >
-                        <option value="">Select a subject</option>
-                        <option value="Career Guidance">Career Guidance</option>
-                        <option value="Course Information">Course Information</option>
-                        <option value="Admission Query">Admission Query</option>
-                        <option value="Scholarship">Scholarship</option>
-                        <option value="General Inquiry">General Inquiry</option>
+                        <option value=""><TranslatedText>Select a subject</TranslatedText></option>
+                        <option value="Career Guidance"><TranslatedText>Career Guidance</TranslatedText></option>
+                        <option value="Course Information"><TranslatedText>Course Information</TranslatedText></option>
+                        <option value="Admission Query"><TranslatedText>Admission Query</TranslatedText></option>
+                        <option value="Scholarship"><TranslatedText>Scholarship</TranslatedText></option>
+                        <option value="General Inquiry"><TranslatedText>General Inquiry</TranslatedText></option>
                       </select>
                     </div>
 
                     {/* Message */}
                     <div>
                       <label className="block font-poppins font-semibold text-[#333333] text-sm mb-2">
-                        Message *
+                        <TranslatedText>Message *</TranslatedText>
                       </label>
                       <textarea
                         name="message"
@@ -274,11 +275,11 @@ export default function ContactClient() {
                       className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-[#C20000] text-white font-poppins font-semibold rounded-lg hover:bg-[#B30000] transition-colors"
                     >
                       <Send className="w-4 h-4" />
-                      Send Message
+                      <TranslatedText>Send Message</TranslatedText>
                     </button>
 
                     <p className="font-poppins text-[#757575] text-xs text-center">
-                      We respect your privacy. Your information will never be shared.
+                      <TranslatedText>We respect your privacy. Your information will never be shared.</TranslatedText>
                     </p>
                   </form>
                 )}
@@ -298,7 +299,7 @@ export default function ContactClient() {
             className="text-center mb-12"
           >
             <h2 className="font-poppins font-bold text-[#333333] text-2xl mb-2">
-              Frequently Asked Questions
+              <TranslatedText>Frequently Asked Questions</TranslatedText>
             </h2>
             <div className="w-12 h-1 bg-[#C20000] rounded-full mx-auto" />
           </motion.div>
@@ -339,10 +340,10 @@ export default function ContactClient() {
                 className="bg-white border border-[#EEEEEE] rounded-xl p-6"
               >
                 <h3 className="font-poppins font-bold text-[#333333] text-base mb-3">
-                  {faq.q}
+                  <TranslatedText>{faq.q}</TranslatedText>
                 </h3>
                 <p className="font-poppins text-[#757575] text-sm leading-relaxed">
-                  {faq.a}
+                  <TranslatedText>{faq.a}</TranslatedText>
                 </p>
               </motion.div>
             ))}
@@ -354,16 +355,16 @@ export default function ContactClient() {
       <section className="py-12 border-t border-[#EEEEEE]">
         <div className="max-w-[700px] mx-auto px-4 text-center">
           <h3 className="font-poppins font-bold text-[#505050] text-2xl mb-3">
-            Still Have Questions?
+            <TranslatedText>Still Have Questions?</TranslatedText>
           </h3>
           <p className="font-poppins text-[#757575] mb-6">
-            Our team is here to help. Reach out to us through any of the channels above.
+            <TranslatedText>Our team is here to help. Reach out to us through any of the channels above.</TranslatedText>
           </p>
           <button
             className="inline-flex items-center gap-2 px-8 py-3 font-poppins font-semibold text-white rounded-xl transition-all hover:opacity-90 hover:-translate-y-0.5"
             style={{ background: "#C20000" }}
           >
-            Schedule a Call
+            <TranslatedText>Schedule a Call</TranslatedText>
           </button>
         </div>
       </section>

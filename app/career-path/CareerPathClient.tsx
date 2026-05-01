@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { careerCategories } from '@/app/data/careers';
+import { TranslatedText } from '@/app/components/TranslatedText';
 import {
   Search,
   ArrowRight,
@@ -77,33 +78,33 @@ export default function CareerPathClient() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 text-sm font-medium animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
               <span className="flex h-2 w-2 rounded-full bg-blue-600"></span>
-              Career Exploration
+              <TranslatedText>Career Exploration</TranslatedText>
             </div>
 
             {/* Main Heading */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-900 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Explore Your <br />
-              <span className="text-blue-600">Career Options.</span>
+              <TranslatedText as="span">Explore Your</TranslatedText> <br />
+              <span className="text-blue-600"><TranslatedText as="span">Career Options.</TranslatedText></span>
             </h1>
 
             {/* Description */}
             <p className="text-base sm:text-lg text-slate-600 max-w-xl leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-              Browse 21 diverse career categories with 150+ career options. Find the path that matches your interests, skills, and aspirations.
+              <TranslatedText>Browse 21 diverse career categories with 150+ career options. Find the path that matches your interests, skills, and aspirations.</TranslatedText>
             </p>
 
             {/* Stats */}
             <div className="flex flex-wrap gap-8 pt-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <div>
                 <div className="text-3xl font-bold text-blue-600">21</div>
-                <div className="text-sm text-slate-600">Career Categories</div>
+                <div className="text-sm text-slate-600"><TranslatedText>Career Categories</TranslatedText></div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600">150+</div>
-                <div className="text-sm text-slate-600">Career Options</div>
+                <div className="text-sm text-slate-600"><TranslatedText>Career Options</TranslatedText></div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600">10K+</div>
-                <div className="text-sm text-slate-600">Students Guided</div>
+                <div className="text-sm text-slate-600"><TranslatedText>Students Guided</TranslatedText></div>
               </div>
             </div>
           </div>
@@ -135,23 +136,23 @@ export default function CareerPathClient() {
           <div className="mb-16 animate-fade-in-up">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
               {filteredCategories.length === categories.length
-                ? 'All Career Paths'
+                ? <TranslatedText as="span">All Career Paths</TranslatedText>
                 : `${filteredCategories.length} Career Path${filteredCategories.length !== 1 ? 's' : ''} Found`}
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600">
               {filteredCategories.length === categories.length
-                ? 'Explore all available career categories and find your perfect fit.'
-                : 'Showing results for your search'}
+                ? <TranslatedText>Explore all available career categories and find your perfect fit.</TranslatedText>
+                : <TranslatedText>Showing results for your search</TranslatedText>}
             </p>
           </div>
 
           {filteredCategories.length === 0 ? (
             <div className="text-center py-20 animate-fade-in-up">
               <p className="text-lg text-slate-600 mb-2">
-                No career paths found matching your search.
+                <TranslatedText>No career paths found matching your search.</TranslatedText>
               </p>
               <p className="text-slate-500">
-                Try searching with different keywords
+                <TranslatedText>Try searching with different keywords</TranslatedText>
               </p>
             </div>
           ) : (
@@ -167,13 +168,13 @@ export default function CareerPathClient() {
                       {categoryIcons[category.slug] || <Briefcase className="w-6 h-6" />}
                     </div>
                     <div className="flex-1 min-w-0">
-                      <h3 className="text-lg font-bold text-slate-900 mb-1">{category.name}</h3>
-                      <p className="text-sm text-slate-600 mb-4">{category.careerCount} career options</p>
+                      <h3 className="text-lg font-bold text-slate-900 mb-1"><TranslatedText as="span">{category.name}</TranslatedText></h3>
+                      <p className="text-sm text-slate-600 mb-4">{category.careerCount} <TranslatedText as="span">career options</TranslatedText></p>
                       <Link
                         href={`/${category.slug}`}
                         className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm hover:gap-3 transition-all"
                       >
-                        Explore
+                        <TranslatedText as="span">Explore</TranslatedText>
                         <ArrowRight className="w-4 h-4" />
                       </Link>
                     </div>
@@ -189,17 +190,17 @@ export default function CareerPathClient() {
       <section className="py-20 px-4 sm:px-8 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Ready to Explore Your Career Path?
+            <TranslatedText as="span">Ready to Explore Your Career Path?</TranslatedText>
           </h2>
           <p className="text-base sm:text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-            Start your journey today and discover the career that's right for you.
+            <TranslatedText>Start your journey today and discover the career that's right for you.</TranslatedText>
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              Get Started
+              <TranslatedText as="span">Get Started</TranslatedText>
             </button>
             <button className="border-2 border-slate-300 text-slate-900 px-8 py-4 rounded-lg font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors">
-              Learn More
+              <TranslatedText as="span">Learn More</TranslatedText>
             </button>
           </div>
         </div>

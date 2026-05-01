@@ -6,9 +6,10 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
 import { formatCareerName } from "@/app/data/careers";
-import Navbar from "@/app/components/Navbar";
+import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 import { notFound } from "next/navigation";
+import { TranslatedText } from "@/app/components/TranslatedText";
 
 import { careerImagesMap } from "../data/careerImagesMap.js";
 import { categoryBackgroundsMap } from "../data/categoryBackgroundsMap.js";
@@ -53,7 +54,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
 
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      <NavbarWrapper />
 
       {/* Hero */}
       <section
@@ -86,7 +87,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
               className="mb-4"
             >
               <p className="font-poppins text-[#757575] text-sm font-medium mb-2">
-                Explore Programs
+                <TranslatedText as="span">Explore Programs</TranslatedText>
               </p>
               <div className="w-10 h-0.5 bg-[#C20000] mx-auto" />
             </motion.div>
@@ -97,7 +98,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-poppins text-[#505050] font-bold mb-3 sm:mb-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight"
             >
-              {displayName || "Career Programs"}
+              {displayName && <TranslatedText as="span">{displayName}</TranslatedText>}
             </motion.h1>
 
             <motion.p
@@ -106,7 +107,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
               transition={{ duration: 0.6, delay: 0.2 }}
               className="font-poppins text-[#757575] mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed"
             >
-              Discover your perfect career path with our comprehensive programs and expert guidance
+              <TranslatedText>Discover your perfect career path with our comprehensive programs and expert guidance</TranslatedText>
             </motion.p>
 
             {/* Search */}
@@ -135,9 +136,9 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
       {/* Results count */}
       <div className="max-w-[1090px] mx-auto px-4 sm:px-6 md:px-8 py-4 sm:py-6">
         <p className="font-poppins text-[#757575] text-sm">
-          Showing{" "}
+          <TranslatedText as="span">Showing</TranslatedText>{" "}
           <span className="font-semibold text-[#C20000]">{filteredCareers.length}</span>{" "}
-          {filteredCareers.length === 1 ? "career" : "careers"}
+          <TranslatedText as="span">{filteredCareers.length === 1 ? "career" : "careers"}</TranslatedText>
         </p>
       </div>
 
@@ -153,14 +154,14 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
             >
               <Search className="w-10 h-10 text-[#757575] mx-auto mb-3" />
               <p className="font-poppins text-[#505050] text-base mb-2">
-                No careers found matching &quot;{searchTerm}&quot;
+                <TranslatedText as="span">No careers found matching your search.</TranslatedText>
               </p>
               <button
                 onClick={() => setSearchTerm("")}
                 className="font-poppins text-sm underline hover:opacity-70 transition-opacity"
                 style={{ color: "#C50000" }}
               >
-                Clear search
+                <TranslatedText as="span">Clear search</TranslatedText>
               </button>
             </motion.div>
           ) : (
@@ -211,7 +212,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
                            <h3
                              className="font-poppins font-bold text-[#333333] text-base sm:text-lg group-hover:text-[#C20000] transition-colors leading-tight"
                            >
-                             {formatCareerName(career)}
+                             <TranslatedText as="span">{formatCareerName(career)}</TranslatedText>
                            </h3>
                            <div
                              className="w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center bg-slate-50 border border-[#EEEEEE] group-hover:bg-[#C20000] group-hover:border-[#C20000] transition-all duration-500"
@@ -220,7 +221,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
                            </div>
                         </div>
                         <p className="font-poppins text-[#757575] text-xs sm:text-sm line-clamp-2 mt-auto">
-                          Premium career track with industry-recognized certifications and expert mentorship.
+                          <TranslatedText>Premium career track with industry-recognized certifications and expert mentorship.</TranslatedText>
                         </p>
                       </div>
                     </div>
@@ -245,7 +246,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
             transition={{ duration: 0.6 }}
             className="font-poppins font-bold text-[#505050] mb-2 text-xl sm:text-2xl md:text-3xl"
           >
-            Not sure which career is right for you?
+            <TranslatedText as="span">Not sure which career is right for you?</TranslatedText>
           </motion.h3>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -253,7 +254,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-poppins text-[#757575] mb-6 text-sm sm:text-base"
           >
-            Get personalized guidance from our expert counselors
+            <TranslatedText>Get personalized guidance from our expert counselors</TranslatedText>
           </motion.p>
           <motion.button
             initial={{ opacity: 0, scale: 0.95 }}
@@ -262,7 +263,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
             className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 text-sm sm:text-base font-poppins font-semibold text-white rounded-xl transition-all hover:opacity-90 hover:-translate-y-0.5"
             style={{ background: "#C20000" }}
           >
-            Book Free Consultation
+            <TranslatedText as="span">Book Free Consultation</TranslatedText>
             <ArrowRight className="w-4 h-4" />
           </motion.button>
         </div>

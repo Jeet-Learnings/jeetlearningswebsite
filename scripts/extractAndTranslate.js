@@ -2,84 +2,15 @@
 
 import fs from "fs";
 import path from "path";
-import https from "https";
+import http from "http";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Load .env.local
-const envPath = path.join(__dirname, "../.env.local");
-if (fs.existsSync(envPath)) {
-  const envContent = fs.readFileSync(envPath, "utf-8");
-  const lines = envContent.split("\n");
-  for (const line of lines) {
-    const [key, value] = line.split("=");
-    if (key && value) {
-      process.env[key.trim()] = value.trim();
-    }
-  }
-}
-
 // Configuration
-const GEMINI_API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
 const TRANSLATIONS_DIR = path.join(__dirname, "../app/data/translations");
 const APP_DIR = path.join(__dirname, "../app");
-
-if (!GEMINI_API_KEY) {
-  console.error("Error: NEXT_PUBLIC_GEMINI_API_KEY environment variable not set");
-  console.error("Make sure .env.local file exists with the API key");
-  process.exit(1);
-}
-
-// Regex patterns to extract text from different file types
-const TEXT_PATTERNS = {
-  tsx: [
-    /"([^"]+)"/g, // Double quoted strings
-    /'([^']+)'/g, // Single quoted strings
-    />([^<]+)</g, // JSX text content
-    /placeholder="([^"]+)"/g, // Placeholder attributes
-    /title="([^"]+)"/g, // Title attributes
-    /alt="([^"]+)"/g, // Alt attributes
-  ],
-  ts: [
-    /"([^"]+)"/g,
-    /'([^']+)'/g,
-  ],
-  json: [], // JSON files are handled separately
-};
-
-// Texts to skip (common code patterns, variables, etc.)
-const SKIP_PATTERNS = [
-  /^[a-zA-Z_$][a-zA-Z0-9_$]*$/, // Variable names
-  /^\/\//, // Comments
-  /^\/\*/, // Comments
-  /^import/, // Import statements
-  /^export/, // Export statements
-  /^const/, // Variable declarations
-  /^let/, // Variable declarations
-  /^var/, // Variable declarations
-  /^function/, // Function declarations
-  /^class/, // Class declarations
-  /^interface/, // Interface declarations
-  /^type/, // Type declarations
-  /^enum/, // Enum declarations
-  /^\d+$/, // Numbers only
-  /^[a-zA-Z0-9-]+$/, // IDs, classes, etc.
-  /^#/, // Hex colors
-  /^rgb/, // RGB colors
-  /^http/, // URLs
-  /^\//, // Paths
-  /^\./, // Relative paths
-  /^\$/, // Variables
-  /^{/, // Objects
-  /^\[/, // Arrays
-  /^</, // HTML tags
-  /^>/, // HTML tags
-  /^=/, // Assignments
-  /^\(/, // Parentheses
-  /^\)/, // Parentheses
-];
 
 // Load existing translations
 function loadExistingTranslations() {
@@ -100,35 +31,106 @@ function loadExistingTranslations() {
   return { hiTranslations, enTranslations };
 }
 
-// Extract text from a file
+// Check if text is actual UI content (not code)
+function isActualUIText(text) {
+  // Skip empty or very short text
+  if (!text || text.length < 2) return false;
+  
+  // Skip if it's just CSS classes or code patterns
+  const cssClassPatterns = [
+    /^[a-z0-9\-\s]+$/, // Only lowercase, numbers, hyphens, spaces (CSS classes)
+    /^flex/, /^grid/, /^text-/, /^bg-/, /^border-/, /^p-/, /^m-/, /^w-/, /^h-/, /^max-/, /^min-/, /^rounded-/, /^shadow-/, /^opacity-/, /^z-/, /^absolute/, /^relative/, /^fixed/, /^sticky/, /^block/, /^inline/, /^hidden/, /^visible/, /^overflow-/, /^transform/, /^transition/, /^duration-/, /^ease-/, /^animate-/, /^hover:/, /^focus:/, /^active:/, /^disabled:/, /^group-/, /^peer-/, /^first:/, /^last:/, /^odd:/, /^even:/, /^before:/, /^after:/, /^placeholder:/, /^selection:/, /^dark:/, /^sm:/, /^md:/, /^lg:/, /^xl:/, /^2xl:/, /^3xl:/, /^4xl:/, /^5xl:/, /^6xl:/, /^7xl:/, /^8xl:/, /^9xl:/,
+  ];
+  
+  if (cssClassPatterns.some(p => p.test(text))) {
+    return false;
+  }
+  
+  // Skip code-like patterns
+  if (text.includes('className=') || text.includes('onClick=') || text.includes('onChange=') || 
+      text.includes('value={') || text.includes('placeholder=') || text.includes('=>') ||
+      text.includes('&&') || text.includes('||') || text.includes('{') || text.includes('}') ||
+      text.includes('[') || text.includes(']') || text.includes('(') || text.includes(')')) {
+    return false;
+  }
+  
+  // Skip import/export statements
+  if (text.startsWith('import ') || text.startsWith('export ') || text.startsWith('from ') ||
+      text.startsWith('const ') || text.startsWith('let ') || text.startsWith('var ') ||
+      text.startsWith('function ') || text.startsWith('class ') || text.startsWith('interface ') ||
+      text.startsWith('type ') || text.startsWith('enum ')) {
+    return false;
+  }
+  
+  // Skip URLs and paths
+  if (text.startsWith('http') || text.startsWith('/') || text.startsWith('.') || 
+      text.startsWith('@/') || text.includes('://')) {
+    return false;
+  }
+  
+  // Skip JSON keys and technical terms
+  if (text.includes('next/') || text.includes('@/app/') || text.includes('.json') ||
+      text.includes('Error ') || text.includes('Warning ') || text.includes('utf-8') ||
+      text.includes('fs/') || text.includes('promises')) {
+    return false;
+  }
+  
+  // Must have at least some letters
+  const letterCount = (text.match(/[a-zA-Z]/g) || []).length;
+  if (letterCount < 2) {
+    return false;
+  }
+  
+  // Should not be all uppercase (likely a constant)
+  if (text === text.toUpperCase() && text.length > 3) {
+    return false;
+  }
+  
+  // Should not have too many special characters
+  const specialCount = (text.match(/[{}[\]()=<>@#$%^&*]/g) || []).length;
+  if (specialCount > text.length / 4) {
+    return false;
+  }
+  
+  return true;
+}
+
+// Extract meaningful text from TSX/TS files
 function extractTextFromFile(filePath) {
   const ext = path.extname(filePath).slice(1);
-  const patterns = TEXT_PATTERNS[ext] || [];
-
-  if (patterns.length === 0) {
+  
+  if (ext !== 'tsx' && ext !== 'ts') {
     return [];
   }
 
   const content = fs.readFileSync(filePath, "utf-8");
   const texts = new Set();
 
-  for (const pattern of patterns) {
-    let match;
-    while ((match = pattern.exec(content)) !== null) {
-      const text = match[1] || match[0];
+  // Extract JSX text content (text between tags)
+  const jsxTextRegex = />([^<{}\n]+)</g;
+  let match;
+  while ((match = jsxTextRegex.exec(content)) !== null) {
+    let text = match[1].trim();
+    if (isActualUIText(text)) {
+      texts.add(text);
+    }
+  }
 
-      // Skip if matches skip patterns
-      if (SKIP_PATTERNS.some((p) => p.test(text))) {
-        continue;
-      }
+  // Extract string literals
+  const stringRegex = /["'`]([^"'`\n]{2,}?)["'`]/g;
+  while ((match = stringRegex.exec(content)) !== null) {
+    let text = match[1].trim();
+    if (isActualUIText(text)) {
+      texts.add(text);
+    }
+  }
 
-      // Skip very short texts
-      if (text.length < 3) {
-        continue;
-      }
-
-      // Skip if already in translations
-      texts.add(text.trim());
+  // Extract placeholder and title attributes
+  const attrRegex = /(placeholder|title|alt|aria-label)=["']([^"']+)["']/g;
+  while ((match = attrRegex.exec(content)) !== null) {
+    let text = match[2].trim();
+    if (isActualUIText(text)) {
+      texts.add(text);
     }
   }
 
@@ -136,7 +138,7 @@ function extractTextFromFile(filePath) {
 }
 
 // Recursively get all files from a directory
-function getAllFiles(dir, ext = [".tsx", ".ts", ".json"]) {
+function getAllFiles(dir, ext = [".tsx", ".ts"]) {
   const files = [];
 
   function walk(currentPath) {
@@ -168,28 +170,20 @@ function getAllFiles(dir, ext = [".tsx", ".ts", ".json"]) {
   return files;
 }
 
-// Translate text using Gemini API
+// Translate text using Ollama locally
 async function translateText(text) {
   return new Promise((resolve, reject) => {
     const data = JSON.stringify({
-      contents: [
-        {
-          parts: [
-            {
-              text: `Translate the following text to Hindi. Provide only the translation, nothing else:\n\n${text}`,
-            },
-          ],
-        },
-      ],
-      generationConfig: {
-        temperature: 0.3,
-        maxOutputTokens: 1024,
-      },
+      model: "translategemma:4b",
+      prompt: `Translate this text to Hindi. Reply ONLY with the Hindi translation:\n\n${text}`,
+      stream: false,
+      temperature: 0.1,
     });
 
     const options = {
-      hostname: "generativelanguage.googleapis.com",
-      path: `/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`,
+      hostname: "localhost",
+      port: 11434,
+      path: "/api/generate",
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -197,7 +191,7 @@ async function translateText(text) {
       },
     };
 
-    const req = https.request(options, (res) => {
+    const req = http.request(options, (res) => {
       let responseData = "";
 
       res.on("data", (chunk) => {
@@ -207,9 +201,8 @@ async function translateText(text) {
       res.on("end", () => {
         try {
           const parsed = JSON.parse(responseData);
-          const translation =
-            parsed.candidates?.[0]?.content?.parts?.[0]?.text || text;
-          resolve(translation.trim());
+          const translation = parsed.response?.trim() || text;
+          resolve(translation);
         } catch (error) {
           reject(error);
         }
@@ -238,18 +231,15 @@ async function main() {
 
   // Extract all texts
   const allTexts = new Set();
-  const fileTexts = {};
 
   for (const file of files) {
     const texts = extractTextFromFile(file);
-    fileTexts[file] = texts;
-
     for (const text of texts) {
       allTexts.add(text);
     }
   }
 
-  console.log(`📝 Extracted ${allTexts.size} unique texts\n`);
+  console.log(`📝 Extracted ${allTexts.size} unique UI texts\n`);
 
   // Filter out already translated texts
   const textsToTranslate = Array.from(allTexts).filter(
@@ -265,57 +255,67 @@ async function main() {
     return;
   }
 
-  // Translate texts
-  console.log("🌐 Translating texts using Gemini API...\n");
+  // Translate texts in batches of 50
+  console.log("🌐 Translating texts using OpenHorizon API (in batches of 50)...\n");
 
   let translated = 0;
   let failed = 0;
+  const BATCH_SIZE = 50;
 
-  for (let i = 0; i < textsToTranslate.length; i++) {
-    const text = textsToTranslate[i];
+  // Process in batches
+  for (let batchStart = 0; batchStart < textsToTranslate.length; batchStart += BATCH_SIZE) {
+    const batchEnd = Math.min(batchStart + BATCH_SIZE, textsToTranslate.length);
+    const batch = textsToTranslate.slice(batchStart, batchEnd);
 
-    try {
-      const translation = await translateText(text);
+    console.log(`\n📦 Processing batch ${Math.floor(batchStart / BATCH_SIZE) + 1} (${batchStart + 1}-${batchEnd}/${textsToTranslate.length})...\n`);
 
-      hiTranslations[text] = translation;
-      enTranslations[text] = text;
+    for (let i = 0; i < batch.length; i++) {
+      const text = batch[i];
+      const globalIndex = batchStart + i;
 
-      translated++;
+      try {
+        const translation = await translateText(text);
 
-      // Show progress
-      if ((i + 1) % 10 === 0) {
-        console.log(`✓ Translated ${i + 1}/${textsToTranslate.length}`);
+        hiTranslations[text] = translation;
+        enTranslations[text] = text;
+
+        translated++;
+
+        // Show progress for each item
+        console.log(`  ✓ [${globalIndex + 1}/${textsToTranslate.length}] "${text.substring(0, 40)}${text.length > 40 ? '...' : ''}" → "${translation.substring(0, 40)}${translation.length > 40 ? '...' : ''}"`);
+
+        // Add delay to avoid rate limiting
+        await new Promise((resolve) => setTimeout(resolve, 200));
+      } catch (error) {
+        console.error(`  ✗ [${globalIndex + 1}/${textsToTranslate.length}] Failed to translate: "${text.substring(0, 40)}${text.length > 40 ? '...' : ''}"`);
+        console.error(`    Error: ${error.message}`);
+        failed++;
       }
-
-      // Add delay to avoid rate limiting
-      await new Promise((resolve) => setTimeout(resolve, 100));
-    } catch (error) {
-      console.error(`✗ Failed to translate: "${text}"`);
-      console.error(`  Error: ${error.message}\n`);
-      failed++;
     }
+
+    // Save after each batch
+    console.log(`\n💾 Saving batch ${Math.floor(batchStart / BATCH_SIZE) + 1}...\n`);
+
+    if (!fs.existsSync(TRANSLATIONS_DIR)) {
+      fs.mkdirSync(TRANSLATIONS_DIR, { recursive: true });
+    }
+
+    fs.writeFileSync(
+      path.join(TRANSLATIONS_DIR, "hi.json"),
+      JSON.stringify(hiTranslations, null, 2)
+    );
+
+    fs.writeFileSync(
+      path.join(TRANSLATIONS_DIR, "en.json"),
+      JSON.stringify(enTranslations, null, 2)
+    );
+
+    console.log(`✅ Batch ${Math.floor(batchStart / BATCH_SIZE) + 1} saved!\n`);
   }
 
   console.log(`\n✅ Translation complete!`);
   console.log(`   Translated: ${translated}`);
   console.log(`   Failed: ${failed}\n`);
-
-  // Save translations
-  console.log("💾 Saving translations...\n");
-
-  if (!fs.existsSync(TRANSLATIONS_DIR)) {
-    fs.mkdirSync(TRANSLATIONS_DIR, { recursive: true });
-  }
-
-  fs.writeFileSync(
-    path.join(TRANSLATIONS_DIR, "hi.json"),
-    JSON.stringify(hiTranslations, null, 2)
-  );
-
-  fs.writeFileSync(
-    path.join(TRANSLATIONS_DIR, "en.json"),
-    JSON.stringify(enTranslations, null, 2)
-  );
 
   console.log(`📊 Final statistics:`);
   console.log(`   Total Hindi translations: ${Object.keys(hiTranslations).length}`);
@@ -329,4 +329,3 @@ main().catch((error) => {
   console.error("Fatal error:", error);
   process.exit(1);
 });
-

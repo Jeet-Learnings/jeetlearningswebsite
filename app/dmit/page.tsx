@@ -1,13 +1,13 @@
 "use client";
 
-import Navbar from "@/app/components/Navbar";
+import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 import DMITTestClient from "./DMITTestClient";
 
 export default function DMITPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      <NavbarWrapper />
       <DMITTestClient />
       <Footer />
     </div>

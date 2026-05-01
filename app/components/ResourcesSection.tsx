@@ -2,6 +2,7 @@
 
 import { BookOpen, Newspaper, FileText, Award } from "lucide-react";
 import Link from "next/link";
+import { TranslatedText } from "@/app/components/TranslatedText";
 
 const resources = [
   {
@@ -41,13 +42,13 @@ export function ResourcesSection() {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12 lg:mb-16">
           <div className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-xs sm:text-sm font-semibold mb-4">
-            Learning Hub
+            <TranslatedText>Learning Hub</TranslatedText>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 mb-3 sm:mb-4">
-            Resources & Support
+            <TranslatedText>Resources & Support</TranslatedText>
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Access Entrance Exams, Education News, Career Path content, and expert blog insights.
+            <TranslatedText>Access Entrance Exams, Education News, Career Path content, and expert blog insights.</TranslatedText>
           </p>
         </div>
 
@@ -69,11 +70,11 @@ export function ResourcesSection() {
                     <Icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-base sm:text-lg font-bold text-slate-900">
-                    {resource.title}
+                    <TranslatedText as="span">{resource.title}</TranslatedText>
                   </h3>
                 </div>
                 <p className="text-slate-600 text-sm leading-relaxed">
-                  {resource.description}
+                  <TranslatedText>{resource.description}</TranslatedText>
                 </p>
               </a>
             );
@@ -83,13 +84,13 @@ export function ResourcesSection() {
         {/* CTA */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 mb-10">
           <Link href="/dmit" className="rounded-xl border border-slate-200 bg-white p-4 text-center text-sm sm:text-base font-semibold text-slate-700 hover:border-blue-300 hover:text-blue-700 transition-colors">
-            DMIT
+            <TranslatedText>DMIT</TranslatedText>
           </Link>
           <Link href="/psychometric" className="rounded-xl border border-slate-200 bg-white p-4 text-center text-sm sm:text-base font-semibold text-slate-700 hover:border-blue-300 hover:text-blue-700 transition-colors">
-            Psychometric Analysis Test
+            <TranslatedText>Psychometric Analysis Test</TranslatedText>
           </Link>
           <Link href="/contact" className="rounded-xl border border-slate-200 bg-white p-4 text-center text-sm sm:text-base font-semibold text-slate-700 hover:border-blue-300 hover:text-blue-700 transition-colors">
-            Contact
+            <TranslatedText>Contact</TranslatedText>
           </Link>
         </div>
 
@@ -98,7 +99,7 @@ export function ResourcesSection() {
             href="/resources"
             className="inline-flex px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold rounded-lg hover:shadow-lg transition-shadow"
           >
-            Explore All Resources
+            <TranslatedText>Explore All Resources</TranslatedText>
           </Link>
         </div>
       </div>
