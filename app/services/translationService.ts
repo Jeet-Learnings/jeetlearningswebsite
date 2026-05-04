@@ -127,8 +127,9 @@ async function translateWithOllama(text: string): Promise<string> {
 
     return translation;
   } catch (error) {
-    console.error("Ollama translation error:", error);
-    throw error;
+    console.warn("Ollama translation error - returning English text:", error);
+    // Return English text if Ollama is not available
+    return text;
   }
 }
 

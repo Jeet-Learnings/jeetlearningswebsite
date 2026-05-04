@@ -2,6 +2,7 @@ import Link from "next/link";
 import { formatCareerName, getCategoryBySlug } from "@/app/data/careers";
 import { getCareerDetail } from "@/app/data/careerDetails";
 import { CareerPageClientNew } from "./CareerPageClientNew";
+import { CareerPageDynamic } from "./CareerPageDynamic";
 import { getCareerPageData } from "@/app/data/careerPageData";
 import { getCareerVideos } from "@/app/data/careerVideos";
 import { careerImagesMap } from "@/app/data/careerImagesMap.js";
@@ -36,6 +37,21 @@ export default async function CareerPage({ params }: PageProps) {
           </Link>
         </div>
       </div>
+    );
+  }
+
+  // Use dynamic component for careers with pageData
+  if (pageData && pageData.guideSections && pageData.guideSections.length > 0) {
+    return (
+      <CareerPageDynamic
+        category={category}
+        career={career}
+        careerName={careerName}
+        categoryName={categoryName}
+        pageData={pageData}
+        imageUrl={imageUrl}
+        videos={videos}
+      />
     );
   }
 

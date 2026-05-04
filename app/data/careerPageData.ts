@@ -10,6 +10,7 @@ import { businessManagementUpdateData } from './businessManagementUpdateData';
 import { publicSafetyAndSecurityUpdateData } from './publicSafetyAndSecurityUpdateData';
 import { environmentUpdateData } from './environmentUpdateData';
 import { mentorAndCoachUpdateData } from './mentorAndCoachUpdateData';
+import { actuarialScienceUpdateData } from './actuarialScienceUpdateData';
 export interface CareerHeroStat {
   value: string;
   label: string;
@@ -6480,6 +6481,7 @@ export function getCareerPageData(slug: string): CareerPageData | null {
   const normalizedSlug = slugAliases[slug.toLowerCase()] || slug.toLowerCase().replace(/[-\s]+/g, "_");
 
   return (
+    actuarialScienceUpdateData[normalizedSlug] ||
     agricultureUpdateData[normalizedSlug] ||
     artsAndDesignUpdateData[normalizedSlug] ||
     bioScienceUpdateData[normalizedSlug] ||
