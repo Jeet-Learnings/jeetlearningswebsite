@@ -6,7 +6,7 @@ const BLUE2 = "#3B82F6";
 export const architectureAndConstructionUpdateData: Record<string, CareerPageData> = {
   construction: {
     slug: "construction",
-    badge: "🏗️ Building the New India for Class 10+",
+    badge: "Building the New India for Class 10+",
     heading: "Construction",
     subheading: "If architects are the 'dreamers' who draw the soul of a building, construction professionals are the 'doers' who give it a body. Turn blueprints into reality and build the infrastructure that powers India.",
     whyCards: [
@@ -237,7 +237,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
   },
   architect: {
     slug: "architect",
-    badge: "🏛️ Designing the Future of India for Class 10+",
+    badge: "Designing the Future of India for Class 10+",
     heading: "Architect",
     subheading: "Imagine walking through a city. Every home, school, mall, and airport started as an idea in someone's mind. That someone is an Architect. Create spaces that are safe, functional, and beautiful.",
     whyCards: [
@@ -471,7 +471,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
   },
   maintenance_and_operation_management: {
     slug: "maintenance_and_operation_management",
-    badge: "⚙️ The Guardians of Industry for Class 10+",
+    badge: "The Guardians of Industry for Class 10+",
     heading: "Maintenance & Operation Management",
     subheading: "If an architect is the brain and a construction engineer is the muscle, M&O professionals are the 'life support system.' Keep the world's machines, buildings, and infrastructure running at peak efficiency.",
     whyCards: [
@@ -690,7 +690,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
   },
   urban_planning_and_management: {
     slug: "urban_planning_and_management",
-    badge: "🏙️ The City Surgeons for Class 10+",
+    badge: "The City Surgeons for Class 10+",
     heading: "Urban Planning & Management",
     subheading: "Design entire neighborhoods, cities, and regions. Diagnose urban problems and perform 'surgery' through better transport, waste management, and green spaces.",
     whyCards: [
@@ -921,3 +921,4 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
     ]
   }
 };
+

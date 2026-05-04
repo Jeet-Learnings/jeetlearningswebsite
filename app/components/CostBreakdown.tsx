@@ -49,95 +49,95 @@ export function CostBreakdown({
   }, 0);
 
   return (
-    <div className="relative bg-white">
-      {/* Header Section */}
-      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 border-b border-blue-200">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-6 sm:mb-8 md:mb-12">
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 mb-2 sm:mb-3 md:mb-4 px-2">
-              <TranslatedText as="span">{title}</TranslatedText>
-            </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600 max-w-2xl mx-auto font-medium px-4">
-              <TranslatedText>{subtitle}</TranslatedText>
-            </p>
-          </div>
+    <div className="bg-white">
+      {/* Section heading */}
+      <div className="px-4 sm:px-6 md:px-8 pt-10 sm:pt-14 pb-6 sm:pb-8">
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900">
+            <TranslatedText>Cost Breakdown by Category</TranslatedText>
+          </h3>
+          <p className="text-sm sm:text-base text-slate-500 mt-2">
+            <TranslatedText>{subtitle}</TranslatedText>
+          </p>
         </div>
-      </section>
+      </div>
 
-      {/* Content Section */}
-      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-white">
-          <div className="max-w-6xl mx-auto">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 mb-6 sm:mb-8 md:mb-12 px-2">
-              <TranslatedText>Cost Breakdown by Category</TranslatedText>
-            </h3>
-
-            <div className="space-y-3 md:space-y-4">
-              {costItems.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="rounded-xl md:rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 bg-white border border-slate-200"
+      {/* Cards */}
+      <div className="px-4 sm:px-6 md:px-8 pb-10 sm:pb-14">
+        <div className="max-w-4xl mx-auto space-y-3">
+          {costItems.map((item, idx) => {
+            const isOpen = expandedIndex === idx;
+            return (
+              <div
+                key={idx}
+                className="rounded-xl border border-slate-200 bg-white overflow-hidden"
+                style={{ borderLeftWidth: '4px', borderLeftColor: item.color }}
+              >
+                {/* Row — always visible */}
+                <button
+                  onClick={() => setExpandedIndex(isOpen ? null : idx)}
+                  className="w-full flex items-center gap-3 sm:gap-4 px-4 sm:px-5 py-4 hover:bg-slate-50 transition-colors"
                 >
-                  {/* Header */}
-                  <button
-                    onClick={() => setExpandedIndex(expandedIndex === idx ? null : idx)}
-                    className="w-full flex items-center justify-between p-3 sm:p-4 md:p-5 hover:bg-slate-50 transition-colors gap-2 sm:gap-3"
+                  {/* Icon box */}
+                  <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-lg bg-slate-100 flex items-center justify-center text-xl sm:text-2xl flex-shrink-0">
+                    {item.icon}
+                  </div>
+
+                  {/* Title + subtitle */}
+                  <div className="flex-1 min-w-0 text-left">
+                    <p className="font-semibold text-sm sm:text-base text-slate-900 leading-snug">
+                      <TranslatedText as="span">{item.category}</TranslatedText>
+                    </p>
+                    <p className="text-xs sm:text-sm text-slate-500 mt-0.5 leading-snug">
+                      <TranslatedText>{item.description}</TranslatedText>
+                    </p>
+                  </div>
+
+                  {/* Chevron button */}
+                  <div
+                    className="w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center text-white flex-shrink-0 transition-transform duration-300"
                     style={{
-                      borderLeft: `4px solid ${item.color}`,
+                      background: item.color,
+                      transform: isOpen ? "rotate(180deg)" : "rotate(0deg)",
                     }}
                   >
-                    <div className="flex items-center gap-2 sm:gap-3 flex-1 min-w-0 overflow-hidden">
-                      <div
-                        className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-lg flex items-center justify-center text-xl sm:text-2xl md:text-3xl flex-shrink-0 shadow-md"
-                        style={{ background: `${item.color}15` }}
-                      >
-                        {item.icon}
-                      </div>
-                      <div className="min-w-0 flex-1 overflow-hidden">
-                        <p className="font-black text-xs sm:text-sm md:text-base text-slate-900 truncate"><TranslatedText as="span">{item.category}</TranslatedText></p>
-                        <p className="text-xs sm:text-xs text-slate-600 mt-0.5 font-medium truncate"><TranslatedText>{item.description}</TranslatedText></p>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-2 flex-shrink-0 max-w-[45%] sm:max-w-[50%]">
-                      <div className="text-right min-w-0 overflow-hidden">
-                        <p className="font-black text-xs sm:text-sm md:text-base text-slate-900 break-words leading-tight">{item.amount}</p>
-                      </div>
-                      <div
-                        className="w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-white transition-transform flex-shrink-0"
-                        style={{
-                          background: item.color,
-                          transform: expandedIndex === idx ? "rotate(180deg)" : "rotate(0deg)",
-                        }}
-                      >
-                        <ChevronDown className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                      </div>
-                    </div>
-                  </button>
+                    <ChevronDown className="w-4 h-4" />
+                  </div>
+                </button>
 
-                  {/* Expanded Content */}
-                  {expandedIndex === idx && item.details && (
-                    <div className="px-4 sm:px-5 md:px-7 pb-5 sm:pb-6 md:pb-8 bg-gradient-to-b from-slate-50 to-white border-t-2" style={{ borderTopColor: item.color }}>
-                      <div className="space-y-2 sm:space-y-3">
-                        {item.details.map((detail: string, detailIdx: number) => (
-                          <div key={detailIdx} className="flex gap-2 sm:gap-3">
-                            <span
-                              className="text-sm sm:text-base font-bold flex-shrink-0 leading-relaxed"
-                              style={{ color: item.color }}
-                            >
-                              →
+                {/* Expanded panel */}
+                {isOpen && (
+                  <div className="px-4 sm:px-5 pt-3 pb-5 border-t border-slate-100">
+                    {/* Amount pill */}
+                    <div className="mb-4">
+                      <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest block mb-1">
+                        Estimated Cost
+                      </span>
+                      <span className="text-sm sm:text-base text-slate-700">
+                        {item.amount}
+                      </span>
+                    </div>
+
+                    {/* Detail bullets */}
+                    {item.details && item.details.length > 0 && (
+                      <ul className="space-y-2">
+                        {item.details.map((detail: string, i: number) => (
+                          <li key={i} className="flex items-start gap-2.5">
+                            <span className="mt-2 w-1.5 h-1.5 rounded-full bg-slate-300 flex-shrink-0" />
+                            <span className="text-xs sm:text-sm text-slate-500 leading-relaxed">
+                              <TranslatedText>{detail}</TranslatedText>
                             </span>
-                            <p className="text-xs sm:text-sm md:text-base text-slate-700 leading-relaxed font-medium"><TranslatedText>{detail}</TranslatedText></p>
-                          </div>
+                          </li>
                         ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-
-            {/* Summary Box - REMOVED */}
-          </div>
-        </section>
+                      </ul>
+                    )}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 }

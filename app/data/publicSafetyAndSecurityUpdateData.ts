@@ -6,7 +6,7 @@ const BLUE2 = "#3B82F6";
 export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> = {
   indian_navy: {
     slug: "indian_navy",
-    badge: "⚓ The Silent Guardians of the Seas for Class 10+",
+    badge: "The Silent Guardians of the Seas for Class 10+",
     heading: "Indian Navy",
     subheading: "Protecting India's maritime interests across 7,500+ km of coastline. From submarines to fighter jets, you'll be the shield against threats from the ocean.",
     whyCards: [
@@ -264,7 +264,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
   },
   indian_police: {
     slug: "indian_police",
-    badge: "🛡️ The Shield of the Nation for Class 10+",
+    badge: "The Shield of the Nation for Class 10+",
     heading: "Indian Police",
     subheading: "Maintaining law and order across India's 1.4 billion people. From solving crimes to preventing terrorism, you'll be the first responder to every crisis.",
     whyCards: [
@@ -732,7 +732,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
   },
   disaster_management: {
     slug: "disaster_management",
-    badge: "🚨 The Guardians of Safety for Class 10+",
+    badge: "The Guardians of Safety for Class 10+",
     heading: "Disaster Management",
     subheading: "Reducing risk and managing emergencies before, during, and after disasters. From cyclone preparedness to earthquake response, you'll be the first line of defense for the nation.",
     whyCards: [
@@ -973,7 +973,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
   },
   indian_army: {
     slug: "indian_army",
-    badge: "🎖️ The Ultimate Badge of Honour for Class 10+",
+    badge: "The Ultimate Badge of Honour for Class 10+",
     heading: "Indian Army",
     subheading: "Defending the nation from external aggression and internal threats. Join the world's largest standing army and serve with 'Service Before Self.'",
     whyCards: [
@@ -1223,7 +1223,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
   },
   indian_air_force: {
     slug: "indian_air_force",
-    badge: "✈️ Touch the Sky with Glory for Class 10+",
+    badge: "Touch the Sky with Glory for Class 10+",
     heading: "Indian Air Force",
     subheading: "Guardian of India's airspace and the fourth largest air force in the world. From fighter pilots to engineers, serve with honor and adventure.",
     whyCards: [
@@ -1468,7 +1468,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
   },
   merchant_navy: {
     slug: "merchant_navy",
-    badge: "⚓ The Silent Guardians of the Seas for Class 10+",
+    badge: "The Silent Guardians of the Seas for Class 10+",
     heading: "Merchant Navy",
     subheading: "Protecting India's maritime interests and global trade routes. Command ships, navigate the seas, and be part of the world's largest merchant fleet.",
     whyCards: [
@@ -1716,7 +1716,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
   },
   central_reserve_forces: {
     slug: "central_reserve_forces",
-    badge: "🛡️ India's Internal Security Shield for Class 10+",
+    badge: "India's Internal Security Shield for Class 10+",
     heading: "Central Reserve Forces (CRF)",
     subheading: "Protecting India's internal security, borders, and critical infrastructure. From counter-terrorism to disaster relief, you'll be the nation's first line of defense against internal threats.",
     whyCards: [
@@ -1974,7 +1974,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
 publicSafetyAndSecurityUpdateData.indian_paramilitary_forces = {
   ...publicSafetyAndSecurityUpdateData.central_reserve_forces,
   slug: "indian_paramilitary_forces",
-  badge: "🛡️ India's Internal Security Frontline for Class 10+",
+  badge: "India's Internal Security Frontline for Class 10+",
   heading: "Indian Paramilitary Forces",
   subheading: "Serve in CRPF, BSF, CISF, ITBP, and SSB to protect borders, internal security, and critical infrastructure across India.",
   quickFacts: [
@@ -1993,3 +1993,4 @@ publicSafetyAndSecurityUpdateData.indian_paramilitary_forces = {
     content: section.content.map((item) => item.replace(/\bCRF\b/g, "Indian Paramilitary Forces"))
   }))
 };
+

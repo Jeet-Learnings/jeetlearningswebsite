@@ -6,7 +6,7 @@ const BLUE2 = "#3B82F6";
 export const educationUpdateData: Record<string, CareerPageData> = {
   corporate_trainer: {
     slug: "corporate_trainer",
-    badge: "🎓 The Catalyst of Growth for Class 10+",
+    badge: "The Catalyst of Growth for Class 10+",
     heading: "Corporate Trainer",
     subheading: "Transform talent into performance. Design learning experiences that move companies forward. Join $39.9B market with ₹4L–₹60L+ salaries.",
     whyCards: [
@@ -259,7 +259,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
   },
   image_consultant: {
     slug: "image_consultant",
-    badge: "✨ The Architect of Presence for Class 10+",
+    badge: "The Architect of Presence for Class 10+",
     heading: "Image Consultant",
     subheading: "Master the art of presence. Transform how people see you. Build personal brands that open doors. Join ₹4L–₹60L+ market with 7.3% CAGR growth.",
     whyCards: [
@@ -512,7 +512,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
   },
   librarian_and_education_administration: {
     slug: "librarian_and_education_administration",
-    badge: "📚 The Information Alchemist for Class 10+",
+    badge: "The Information Alchemist for Class 10+",
     heading: "Librarian & Education Administration",
     subheading: "Master the DNA of knowledge. Organize information, lead institutions, shape learning futures. Join ₹2.5L–₹35L+ market with 15% growth by 2030.",
     whyCards: [
@@ -767,7 +767,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
   },
   professor: {
     slug: "professor",
-    badge: "🎓 The Architect of Minds for Class 10+",
+    badge: "The Architect of Minds for Class 10+",
     heading: "Professor",
     subheading: "Discover new truths. Shape future leaders. Combine research with mentorship. Join ₹8L–₹45L+ market with 1.5M annual demand.",
     whyCards: [
@@ -1026,7 +1026,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
   },
   school_teacher: {
     slug: "school_teacher",
-    badge: "🎓 The Nation Builder for Class 10+",
+    badge: "The Nation Builder for Class 10+",
     heading: "School Teacher",
     subheading: "Shape young minds. Build the future. Transform curiosity into lifelong learning. Join ₹42k–₹2.5L+ market with 12.5% CAGR growth.",
     whyCards: [
@@ -1283,7 +1283,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
   },
   technical_trainer: {
     slug: "technical_trainer",
-    badge: "⚙️ The Skill Architect for Class 10+",
+    badge: "The Skill Architect for Class 10+",
     heading: "Technical Trainer",
     subheading: "Bridge the tech gap. Build future-ready workforce. Master complex skills and teach them brilliantly. Join ₹4.5L–₹45L+ market with 13.5% CAGR growth.",
     whyCards: [
@@ -1537,3 +1537,4 @@ export const educationUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+

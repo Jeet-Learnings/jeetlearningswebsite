@@ -496,28 +496,7 @@ export function CareerPageHome({
       </section>
       )}
 
-      {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-8 bg-gradient-to-r from-blue-600 to-blue-700">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">Ready to Start Your Journey?</h2>
-          <p className="text-blue-100 text-base sm:text-lg mb-8 max-w-2xl mx-auto">
-            Get personalized guidance and mentorship to build your career in {careerName}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition-colors">
-              Book Consultation
-              <ArrowRight className="w-5 h-5" />
-            </button>
-            <Link
-              href="/career-path"
-              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors"
-            >
-              Explore More Careers
-            </Link>
-          </div>
-        </div>
-      </section>
-
+     
       <Footer />
     </div>
   );

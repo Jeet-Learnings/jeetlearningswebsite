@@ -66,7 +66,7 @@ export const careerPageData: Record<string, CareerPageData> = {
   // ─── ACTUARIAL SCIENCE ───────────────────────────────────────────
   actuarial_science: {
     slug: "actuarial_science",
-    badge: "📊 The Architects of Risk for Class 10+",
+    badge: "The Architects of Risk for Class 10+",
     heading: "Actuarial Science",
     subheading: "Predict the future using math. Measure financial risk and shape the decisions that keep the world's financial systems stable.",
     whyCards: [
@@ -513,7 +513,7 @@ export const careerPageData: Record<string, CareerPageData> = {
   // ─── BANKING & FINANCIAL SERVICES ────────────────────────────────
   banking_and_related_services: {
     slug: "banking_and_related_services",
-    badge: "🏦 The Engine of the Indian Economy for Class 10+",
+    badge: "The Engine of the Indian Economy for Class 10+",
     heading: "Banking and Related Services",
     subheading: "Manage money flows that build nations. From trust to technology, shape the financial decisions that power India's growth.",
     whyCards: [
@@ -1156,7 +1156,7 @@ export const careerPageData: Record<string, CareerPageData> = {
   // ─── COST ACCOUNTANT ─────────────────────────────────────────────
   cost_accountant: {
       slug: "cost_accountant",
-      badge: "🏭 Career Exploration for Class 10+",
+      badge: "Career Exploration for Class 10+",
       heading: "The Efficiency Engineers of Business",
       subheading:
         "Cost and Management Accountants are the architects of profitability—they decode the true cost of every product, optimize operations, and guide strategic decisions. A globally recognized profession with 9% growth projected to 2030.",
@@ -1960,7 +1960,7 @@ export const careerPageData: Record<string, CareerPageData> = {
   // ─── FINANCIAL & INVESTMENT PLANNING ─────────────────────────────
   financial_and_investment_planning: {
       slug: "financial_and_investment_planning",
-      badge: "🗺️ Career Exploration for Class 10+",
+      badge: "Career Exploration for Class 10+",
       heading: "The Architects of Personal Wealth",
       subheading:
         "A Financial Planner is a 'Life Architect' for your money—they help map out your entire life's journey. In today's India, with over 140 crore people and a booming middle class, experts are needed to ensure hard-earned money is safe, growing, and working for families.",
@@ -2205,7 +2205,7 @@ export const careerPageData: Record<string, CareerPageData> = {
   // ─── FINANCIAL RISK MANAGEMENT ───────────────────────────────────
   financial_risk_management: {
       slug: "financial_risk_management",
-      badge: "🛡️ Career Exploration for Class 10+",
+      badge: "Career Exploration for Class 10+",
       heading: "The Guardians of Economic Stability",
       subheading:
         "A Financial Risk Manager is a 'Professional Shield'—they identify everything that could go wrong with a company's money and create a plan to prevent it. In today's India, aiming to become a $7 Trillion economy, these professionals are essential.",

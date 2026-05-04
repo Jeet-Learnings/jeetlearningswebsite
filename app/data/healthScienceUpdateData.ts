@@ -6,7 +6,7 @@ const BLUE2 = "#3B82F6";
 export const healthScienceUpdateData: Record<string, CareerPageData> = {
   alternative_medicine: {
     slug: "alternative_medicine",
-    badge: "🌿 The Healer of Nature for Class 10+",
+    badge: "The Healer of Nature for Class 10+",
     heading: "Alternative Medicine",
     subheading: "Heal through nature's wisdom. Bridge ancient traditions with modern science. Become a wellness architect in the global $248B wellness revolution.",
     whyCards: [
@@ -257,7 +257,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   medical_radiology_technician: {
     slug: "medical_radiology_technician",
-    badge: "🔬 The Invisible Detectives of Healthcare for Class 10+",
+    badge: "The Invisible Detectives of Healthcare for Class 10+",
     heading: "Medical Radiology Technician",
     subheading: "See through the human body using X-rays, CT, and MRI. Master imaging technology to diagnose diseases early. Become a tech expert in India's 12-15% CAGR diagnostic imaging market.",
     whyCards: [
@@ -511,7 +511,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   public_healthcare_administration: {
     slug: "public_healthcare_administration",
-    badge: "🏛️ The Architects of Healthy Nations for Class 10+",
+    badge: "The Architects of Healthy Nations for Class 10+",
     heading: "Public Healthcare Administration",
     subheading: "Build health systems that save thousands of lives at once. Master policy, logistics, and data. Become a health architect in India's 22% CAGR healthcare expansion.",
     whyCards: [
@@ -765,7 +765,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   therapy_science: {
     slug: "therapy_science",
-    badge: "🤝 The Architects of Recovery for Class 10+",
+    badge: "The Architects of Recovery for Class 10+",
     heading: "Therapy Science",
     subheading: "Build bridges from pain to recovery. Master physical, psychological, and specialized healing techniques. Join India's fastest-growing healthcare field with 15% CAGR and 2M+ therapist shortage.",
     whyCards: [
@@ -1019,7 +1019,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   pharmacist: {
     slug: "pharmacist",
-    badge: "💊 The Master of Molecules for Class 10+",
+    badge: "The Master of Molecules for Class 10+",
     heading: "Pharmacist",
     subheading: "Design life-saving medicines and manage drug safety. Master the science of molecules and formulations. Become a key player in India's $130B pharmaceutical market by 2030.",
     whyCards: [
@@ -1272,7 +1272,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   optometry: {
     slug: "optometry",
-    badge: "👁️ The Visionaries of Healthcare for Class 10+",
+    badge: "The Visionaries of Healthcare for Class 10+",
     heading: "Optometry",
     subheading: "Restore the world for millions who can't see clearly. Master the science of vision and eye care. Become a frontline warrior in India's 7.2% CAGR vision industry with 550M+ needing correction.",
     whyCards: [
@@ -1527,7 +1527,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   operation_theatre_technician: {
     slug: "operation_theatre_technician",
-    badge: "🏥 The Invisible Heroes of the Operation Theatre for Class 10+",
+    badge: "The Invisible Heroes of the Operation Theatre for Class 10+",
     heading: "Operation Theatre Technician",
     subheading: "Master the high-stakes, high-tech world of surgical operations. Ensure sterility, manage advanced equipment, and be the surgeon's shadow. Become an invisible hero in India's 8.3% CAGR surgical market.",
     whyCards: [
@@ -1781,7 +1781,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   nurse_medical_assistant: {
     slug: "nurse_medical_assistant",
-    badge: "💉 The Heartbeat of Healthcare for Class 10+",
+    badge: "The Heartbeat of Healthcare for Class 10+",
     heading: "Nurse and Medical Assistant",
     subheading: "The heart of the hospital. Combine scientific knowledge with deep human empathy. Become the primary healthcare workforce in India's 6.3M job expansion by 2030.",
     whyCards: [
@@ -2036,7 +2036,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   medical_transcription: {
     slug: "medical_transcription",
-    badge: "⌨️ The Silent Scribes of Modern Healthcare for Class 10+",
+    badge: "The Silent Scribes of Modern Healthcare for Class 10+",
     heading: "Medical Transcription",
     subheading: "Convert voice-recorded medical reports into life-saving documents. Master medical language and technology. Become a global healthcare professional in India's $100B+ medical outsourcing industry.",
     whyCards: [
@@ -2291,7 +2291,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   medical_diagnostic_services: {
     slug: "medical_diagnostic_services",
-    badge: "🔬 The Detectives of Healthcare for Class 10+",
+    badge: "The Detectives of Healthcare for Class 10+",
     heading: "Medical Diagnostic Services",
     subheading: "Hunt for invisible clues inside the human body. Master the science of testing and imaging. Become a silent hero providing evidence doctors need to save lives in India's $11B diagnostic market.",
     whyCards: [
@@ -2545,7 +2545,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   hospital_management: {
     slug: "hospital_management",
-    badge: "🏥 The Architects of Healthcare for Class 10+",
+    badge: "The Architects of Healthcare for Class 10+",
     heading: "Hospital Management",
     subheading: "The backbone of the medical world. Orchestrate life-saving operations, manage multi-crore budgets, and ensure quality care. Lead India's healthcare revolution in the $197B market by 2030.",
     whyCards: [
@@ -2799,7 +2799,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   homeopathy: {
     slug: "homeopathy",
-    badge: "💊 The Art of Individualized Healing for Class 10+",
+    badge: "The Art of Individualized Healing for Class 10+",
     heading: "Homeopathy",
     subheading: "Tiny white pills that work 'magic' on chronic conditions. Master the 200-year-old science of 'Like Cures Like.' Become a holistic healer in India's 12-15% CAGR AYUSH market reaching $23.3B by 2027.",
     whyCards: [
@@ -3053,7 +3053,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   general_physician: {
     slug: "general_physician",
-    badge: "🩺 The Guardian of First Contact for Class 10+",
+    badge: "The Guardian of First Contact for Class 10+",
     heading: "General Physician",
     subheading: "The detective solving mysteries hidden inside the human body. Be the all-rounder of medicine, the first port of call for every family, and leader of the medical frontline in India's 17-22% growing healthcare sector.",
     whyCards: [
@@ -3307,7 +3307,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   dietician: {
     slug: "dietician",
-    badge: "🥗 The Architect of Health Through Food for Class 10+",
+    badge: "The Architect of Health Through Food for Class 10+",
     heading: "Dietician",
     subheading: "The most powerful medicine isn't a pill—it's the food on your plate. Master nutrition science to prevent disease, boost performance, and save lives in India's 15% CAGR wellness revolution.",
     whyCards: [
@@ -3561,7 +3561,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   dentist: {
     slug: "dentist",
-    badge: "😁 The Architect of Smiles for Class 10+",
+    badge: "The Architect of Smiles for Class 10+",
     heading: "Dentist",
     subheading: "Part doctor, part engineer, part artist. Take away pain in minutes and redesign smiles. Become a high-tech engineer of the human face in India's 8% growing dental market.",
     whyCards: [
@@ -3815,7 +3815,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   audiologist: {
     slug: "audiologist",
-    badge: "🔊 The Scientist of Sound and Balance for Class 10+",
+    badge: "The Scientist of Sound and Balance for Class 10+",
     heading: "Audiologist",
     subheading: "Switch the sound back on. Master the science of hearing and balance. Become a life-changer in India's fastest-growing healthcare field with 7.5% CAGR.",
     whyCards: [
@@ -4067,7 +4067,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   clinical_psychology: {
     slug: "clinical_psychology",
-    badge: "🧠 The Mind Healer for Class 10+",
+    badge: "The Mind Healer for Class 10+",
     heading: "Clinical Psychologist",
     subheading: "Heal minds, transform lives, and unlock human potential. From trauma survivors to corporate teams, clinical psychologists are India's frontline warriors against mental health crises.",
     whyCards: [
@@ -4328,7 +4328,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
   },
   counsellingPsychologist: {
     slug: "counselling-psychologist",
-    badge: "👂 The Listener's Guide for Class 10+",
+    badge: "The Listener's Guide for Class 10+",
     heading: "Counselling Psychologist",
     subheading: "Be the emotional anchor for society. Help people navigate life's challenges, find clarity, and grow. From schools to corporates to private practice, counselling psychologists are India's wellness warriors.",
     whyCards: [
@@ -4595,3 +4595,4 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+

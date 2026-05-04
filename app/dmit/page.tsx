@@ -1,5 +1,3 @@
-"use client";
-
 import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 import DMITTestClient from "./DMITTestClient";

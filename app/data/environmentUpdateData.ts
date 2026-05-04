@@ -86,7 +86,7 @@ const buildData = (
 export const environmentUpdateData: Record<string, CareerPageData> = {
   forest_officer: {
     slug: "forest_officer",
-    badge: "🌲 The Guardian of the Wild for Class 10+",
+    badge: "The Guardian of the Wild for Class 10+",
     heading: "Forest Officer",
     subheading: "If the sound of rustling leaves is more musical to you than any pop song, become the Guardian of India's green lungs. Protect biodiversity, manage ecosystems, and ensure that forests survive for your grandchildren.",
     whyCards: [
@@ -350,7 +350,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
   },
   geology: {
     slug: "geology",
-    badge: "🪨 The Earth's Detective for Class 10+",
+    badge: "The Earth's Detective for Class 10+",
     heading: "Geology",
     subheading: "Imagine being a detective whose 'crime scene' is 4.5 billion years old. Become the Earth's Detective who finds hidden resources, predicts natural disasters, and helps India become self-reliant.",
     whyCards: [
@@ -612,7 +612,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
   },
   oceanographer: {
     slug: "oceanographer",
-    badge: "🌊 Decoding the Blue Heart of Earth for Class 10+",
+    badge: "Decoding the Blue Heart of Earth for Class 10+",
     heading: "Oceanographer",
     subheading: "Imagine a world that covers 70% of our planet, yet we know less about it than the surface of the Moon. Become the Sea Detective who decodes the ocean's mysteries and protects India's 7,500 km coastline.",
     whyCards: [
@@ -873,7 +873,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
   },
   wildlife_biologist: {
     slug: "wildlife_biologist",
-    badge: "🦁 The Voice of the Wild for Class 10+",
+    badge: "The Voice of the Wild for Class 10+",
     heading: "Wildlife Biologist",
     subheading: "Imagine being a detective whose crime scene is a dense tropical forest or a Himalayan slope. Become the Voice of the Wild who decodes nature's secrets and saves species from disappearing forever.",
     whyCards: [
@@ -1133,3 +1133,4 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+

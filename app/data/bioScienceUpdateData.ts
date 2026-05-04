@@ -86,7 +86,7 @@ const buildData = (
 export const bioScienceUpdateData: Record<string, CareerPageData> = {
   biochemistry: {
     slug: "biochemistry",
-    badge: "🧪 The Molecular Architect for Class 10+",
+    badge: "The Molecular Architect for Class 10+",
     heading: "Biochemistry",
     subheading: "Imagine you are a detective solving mysteries inside a single living cell. Become the Molecular Architect who understands how food turns into energy, how viruses hijack bodies, and how plants can cure diseases.",
     whyCards: [
@@ -345,7 +345,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
   },
   bioinformatics: {
     slug: "bioinformatics",
-    badge: "💻 The Digital Architect of Biology for Class 10+",
+    badge: "The Digital Architect of Biology for Class 10+",
     heading: "Bioinformatics",
     subheading: "Imagine you are a detective solving mysteries hidden inside a single drop of blood or a tiny strand of DNA. Become the Digital Biologist who bridges Biology and Computer Science to design vaccines and personalized medicines.",
     whyCards: [
@@ -610,7 +610,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
   ),
   genetics: {
     slug: "genetics",
-    badge: "🧬 Decoding Life for Class 10+",
+    badge: "Decoding Life for Class 10+",
     heading: "Genetics",
     subheading: "Imagine you are a detective solving mysteries hidden inside a single drop of blood or a tiny strand of DNA. Become the scientist who decodes the blueprint of life and revolutionizes healthcare, agriculture, and our understanding of human diversity.",
     whyCards: [
@@ -868,7 +868,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
   },
   microbiology: {
     slug: "microbiology",
-    badge: "🔬 The Invisible Giants for Class 10+",
+    badge: "The Invisible Giants for Class 10+",
     heading: "Microbiology",
     subheading: "Imagine you are a detective, but your suspects aren't humans. They are tiny, invisible creatures called microbes—bacteria, viruses, fungi, and parasites. Become the scientist who studies these 'invisible giants' and solves the biggest mysteries of health, food security, and climate change.",
     whyCards: [
@@ -1125,7 +1125,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
   },
   clinical_research: {
     slug: "clinical_research",
-    badge: "💊 The Miracle Makers for Class 10+",
+    badge: "The Miracle Makers for Class 10+",
     heading: "Clinical Research",
     subheading: "Imagine a world where a mysterious fever spreads across a city, but within months, a small vial of clear liquid arrives that makes people immune. Become the 'intelligence officer' working behind the scenes to give doctors the best weapons possible against disease.",
     whyCards: [
@@ -1383,7 +1383,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
   },
   fishery_biologist: {
     slug: "fishery_biologist",
-    badge: "🌊 The Blue Guardian for Class 10+",
+    badge: "The Blue Guardian for Class 10+",
     heading: "Fishery Biologist",
     subheading: "Imagine you are standing on a quiet pier at 5:00 AM. Below the surface, an entire world is waking up—billions of creatures that feed nations, support economies, and keep our planet healthy. Become the detective, doctor, and engineer for this underwater world.",
     whyCards: [
@@ -1640,7 +1640,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
   },
   physiology: {
     slug: "physiology",
-    badge: "🧬 The Architect of Life for Class 10+",
+    badge: "The Architect of Life for Class 10+",
     heading: "Physiology",
     subheading: "Imagine you are given the world's most advanced supercomputer. It's faster than any AI, can heal itself, and runs 24/7 for nearly a century. This supercomputer is you—the human body. Become the expert who understands every wire, every chemical signal, and every beat of its heart.",
     whyCards: [
@@ -1906,7 +1906,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
   ),
   bio_technology: {
     slug: "biotechnology",
-    badge: "🧬 The Future Architects for Class 10+",
+    badge: "The Future Architects for Class 10+",
     heading: "Biotechnology Research",
     subheading: "Imagine a world where plastic is made from corn, fuel is made from algae, and a single injection can edit a faulty gene to cure a lifelong disease. Become the architect of life itself and shape India's $300 billion bioeconomy by 2030.",
     whyCards: [
@@ -2163,3 +2163,4 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+

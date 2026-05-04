@@ -6,7 +6,7 @@ const BLUE2 = "#3B82F6";
 export const businessManagementUpdateData: Record<string, CareerPageData> = {
   bpo: {
     slug: "bpo",
-    badge: "🌍 The Global Engine for Class 10+",
+    badge: "The Global Engine for Class 10+",
     heading: "Business Process Outsourcing (BPO)",
     subheading: "Connect the world. Solve problems across continents. Build careers in India's $45B export powerhouse. ₹3L–₹55L+ salaries with 13% CAGR growth.",
     whyCards: [
@@ -263,7 +263,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   },
   business_analytics: {
     slug: "business_analytics",
-    badge: "📊 The Data Detective for Class 10+",
+    badge: "The Data Detective for Class 10+",
     heading: "Business Analytics",
     subheading: "Turn data into decisions. Predict the future. Drive billion-dollar strategies. Join ₹6L–₹1.2Cr+ market with 35.8% CAGR growth.",
     whyCards: [
@@ -521,7 +521,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   },
   business_financial_management: {
     slug: "business_financial_management",
-    badge: "💰 The Engine of Growth for Class 10+",
+    badge: "The Engine of Growth for Class 10+",
     heading: "Business Financial Management",
     subheading: "Master money. Drive strategy. Build billion-dollar companies. Join ₹6L–₹1.5Cr+ market with 11% CAGR growth.",
     whyCards: [
@@ -778,7 +778,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   },
   business_operations_manager: {
     slug: "business_operations_manager",
-    badge: "⚙️ The Master Orchestrator for Class 10+",
+    badge: "The Master Orchestrator for Class 10+",
     heading: "Business Operations Manager",
     subheading: "Turn chaos into systems. Optimize every process. Drive efficiency that saves millions. ₹4.5L–₹60L+ salaries with 23.5% CAGR growth.",
     whyCards: [
@@ -1038,7 +1038,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   },
   human_resources: {
     slug: "human_resources",
-    badge: "👥 The People Powerhouse for Class 10+",
+    badge: "The People Powerhouse for Class 10+",
     heading: "Human Resources (HR)",
     subheading: "Build winning teams. Shape company culture. Drive growth through people. ₹3.5L–₹1.5Cr+ salaries with 15% annual growth.",
     whyCards: [
@@ -1297,7 +1297,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   },
   international_business: {
     slug: "international_business",
-    badge: "🌍 The Global Bridge for Class 10+",
+    badge: "The Global Bridge for Class 10+",
     heading: "International Business",
     subheading: "Navigate the borderless world. Connect markets across continents. Drive global growth. ₹6L–₹1.2Cr+ salaries with 12% CAGR growth.",
     whyCards: [
@@ -1547,7 +1547,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   },
   it_management: {
     slug: "it_management",
-    badge: "💻 The Digital Architect for Class 10+",
+    badge: "The Digital Architect for Class 10+",
     heading: "Information Technology (IT) Management",
     subheading: "Command the digital world. Lead tech teams. Secure the future. ₹5L–₹1.2Cr+ salaries with 13% CAGR growth.",
     whyCards: [
@@ -1801,7 +1801,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   },
   project_management: {
     slug: "project_management",
-    badge: "📊 The Master Strategist for Class 10+",
+    badge: "The Master Strategist for Class 10+",
     heading: "Project Management",
     subheading: "Turn visions into reality. Lead teams to success. Deliver on time, on budget. ₹4L–₹60L+ salaries with 22.1% CAGR growth.",
     whyCards: [
@@ -2055,7 +2055,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   },
   retail_management: {
     slug: "retail_management",
-    badge: "🛍️ The Retail Revolution for Class 10+",
+    badge: "The Retail Revolution for Class 10+",
     heading: "Retail Management",
     subheading: "Curate experiences. Drive sales. Lead teams. Build brands. ₹3.5L–₹65L+ salaries with 15% CAGR growth.",
     whyCards: [
@@ -2311,3 +2311,4 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+

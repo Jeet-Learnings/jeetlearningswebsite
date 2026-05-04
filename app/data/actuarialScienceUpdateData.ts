@@ -6,7 +6,7 @@ const BLUE2 = "#3B82F6";
 export const actuarialScienceUpdateData: Record<string, CareerPageData> = {
   actuarial_science: {
     slug: "actuarial_science",
-    badge: "📊 The Architects of Risk for Class 10+",
+    badge: "The Architects of Risk for Class 10+",
     heading: "Actuarial Science",
     subheading: "Predict the future using math. Measure financial risk and shape the decisions that keep the world's financial systems stable.",
     whyCards: [

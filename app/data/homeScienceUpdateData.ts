@@ -6,7 +6,7 @@ const GREEN2 = "#10B981";
 export const homeScienceUpdateData: Record<string, CareerPageData> = {
   home_science: {
     slug: "home_science",
-    badge: "🏠 The Science of Everyday Living for Class 10+",
+    badge: "The Science of Everyday Living for Class 10+",
     heading: "Home Science",
     subheading: "Turn everyday life into a science. Learn nutrition, child development, textiles, and resource management to build healthier families and stronger communities.",
     whyCards: [
@@ -263,3 +263,4 @@ export const homeScienceUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+

@@ -6,7 +6,7 @@ const BLUE2 = "#3B82F6";
 export const hospitalityUpdateData: Record<string, CareerPageData> = {
   airhostess: {
     slug: "airhostess",
-    badge: "✈️ The Sky's Professional for Class 10+",
+    badge: "The Sky's Professional for Class 10+",
     heading: "Air Hostess (Cabin Crew)",
     subheading: "Safety and Service at 35,000 feet. Be part of India's aviation boom—the third-largest domestic aviation market in the world. Travel the globe, meet diverse people, and build a career that takes you places.",
     whyCards: [
@@ -258,7 +258,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
   },
   culinary_arts: {
     slug: "culinary_arts",
-    badge: "👨‍🍳 The Artist of Flavors for Class 10+",
+    badge: "The Artist of Flavors for Class 10+",
     heading: "Culinary Arts",
     subheading: "Transform ingredients into art. Lead a kitchen brigade, create unforgettable dining experiences, and take Indian cuisine to the global stage.",
     whyCards: [
@@ -509,7 +509,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
   },
   event_planner: {
     slug: "event_planner",
-    badge: "🎪 The Architect of Experiences for Class 10+",
+    badge: "The Architect of Experiences for Class 10+",
     heading: "Event Planning",
     subheading: "Turn visions into reality. Create unforgettable experiences from intimate gatherings to massive festivals. Be the director of real-life magic.",
     whyCards: [
@@ -758,7 +758,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
   },
   hotel_management: {
     slug: "hotel_management",
-    badge: "🏨 The CEO of Hospitality for Class 10+",
+    badge: "The CEO of Hospitality for Class 10+",
     heading: "Hotel Management",
     subheading: "Create unforgettable guest experiences. Manage a mini-city where every detail matters. Lead teams, drive revenue, and build India's hospitality legacy.",
     whyCards: [
@@ -1010,7 +1010,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
   },
   travel_and_tourism: {
     slug: "travel_and_tourism",
-    badge: "✈️ The Designer of Adventures for Class 10+",
+    badge: "The Designer of Adventures for Class 10+",
     heading: "Travel and Tourism",
     subheading: "Enable experiences. Design itineraries, manage logistics, and become a cultural ambassador. Turn dreams into journeys and create memories that last a lifetime.",
     whyCards: [
@@ -1260,7 +1260,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
   },
   wedding_planner: {
     slug: "wedding_planner",
-    badge: "💍 The Architect of Happily Ever After for Class 10+",
+    badge: "The Architect of Happily Ever After for Class 10+",
     heading: "Wedding Planning",
     subheading: "Design dreams into reality. Orchestrate India's most cherished moments. From intimate ceremonies to grand celebrations, create memories that last a lifetime.",
     whyCards: [
@@ -1511,3 +1511,4 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+

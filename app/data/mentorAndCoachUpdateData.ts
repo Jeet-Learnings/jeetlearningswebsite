@@ -6,7 +6,7 @@ const PURPLE2 = "#A78BFA";
 export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
   mentor_and_coach: {
     slug: "mentor_and_coach",
-    badge: "🎯 The Architect of Potential for Class 10+",
+    badge: "The Architect of Potential for Class 10+",
     heading: "Mentor & Coach",
     subheading: "Be a GPS for people's lives. Help others unlock their potential and navigate from where they are to where they want to be. Join the $5B global coaching market growing at 14% CAGR.",
     whyCards: [
@@ -259,3 +259,4 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+

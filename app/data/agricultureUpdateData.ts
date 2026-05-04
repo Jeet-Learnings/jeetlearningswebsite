@@ -6,7 +6,7 @@ const RED2 = "#DA1313";
 export const agricultureUpdateData: Record<string, CareerPageData> = {
   agri_business_management: {
     slug: "agri_business_management",
-    badge: "🌾 Cultivating the Future for Class 10+",
+    badge: "Cultivating the Future for Class 10+",
     heading: "Agri-Business Management",
     subheading: "Bridge the gap between farm and table. Apply modern business principles to agriculture—manage food brands, optimize exports, and lead Agritech startups.",
     whyCards: [
@@ -228,7 +228,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   agricultural_engineer: {
     slug: "agricultural_engineer",
-    badge: "🌾 Engineering the Future of Food for Class 10+",
+    badge: "Engineering the Future of Food for Class 10+",
     heading: "Agricultural Engineering",
     subheading: "Apply engineering principles to solve the Food-Energy-Water puzzle. Design drones, automated systems, and sustainable technologies for modern farming.",
     whyCards: [
@@ -455,7 +455,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   agriculture_research: {
     slug: "agriculture_research",
-    badge: "🌾 The Science of Life and Food for Class 10+",
+    badge: "The Science of Life and Food for Class 10+",
     heading: "Agriculture & Plant Research",
     subheading: "Decode plant blueprints to create climate-resilient crops. Ensure food security for 1.4 billion people through cutting-edge biotechnology and genetic research.",
     whyCards: [
@@ -684,7 +684,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
 
   animal_science: {
     slug: "animal_science",
-    badge: "🌾 The Guardians of the Voiceless for Class 10+",
+    badge: "The Guardians of the Voiceless for Class 10+",
     heading: "Animal Science",
     subheading: "Ensure food security and public health by caring for animals. From treating pets to managing dairy farms and preventing zoonotic diseases.",
     whyCards: [
@@ -911,7 +911,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
 
   dairy_technology: {
     slug: "dairy_technology",
-    badge: "🌾 The Science of the Milky Way for Class 10+",
+    badge: "The Science of the Milky Way for Class 10+",
     heading: "Dairy Technology",
     subheading: "Master milk processing and quality assurance. Transform raw milk into premium products while ensuring 100% safety for millions.",
     whyCards: [
@@ -1141,7 +1141,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
 
   food_science: {
     slug: "food_science",
-    badge: "🌾 The Magic Behind Your Plate for Class 10+",
+    badge: "The Magic Behind Your Plate for Class 10+",
     heading: "Food Science and Technology",
     subheading: "Bridge the farm and kitchen. Develop safe, nutritious, and innovative food products while reducing India's 30% food waste.",
     whyCards: [
@@ -1367,7 +1367,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
 
   apiculture: {
     slug: "apiculture",
-    badge: "🌾 Career Exploration for Class 10+",
+    badge: "Career Exploration for Class 10+",
     heading: "Apiculture",
     subheading: "Managing bee colonies and contributing to global food security through pollination.",
     whyCards: [
@@ -1465,7 +1465,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   aquaculture: {
     slug: "aquaculture",
-    badge: "🌾 Career Exploration for Class 10+",
+    badge: "Career Exploration for Class 10+",
     heading: "Aquaculture",
     subheading: "Farming aquatic organisms like fish and shrimp in a growing global market.",
     whyCards: [
@@ -1561,7 +1561,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   florist: {
     slug: "florist",
-    badge: "🌾 Career Exploration for Class 10+",
+    badge: "Career Exploration for Class 10+",
     heading: "Florist",
     subheading: "Crafting beautiful floral arrangements for a booming high-value market.",
     whyCards: [
@@ -1657,7 +1657,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   horticulture: {
     slug: "horticulture",
-    badge: "🌾 Career Exploration for Class 10+",
+    badge: "Career Exploration for Class 10+",
     heading: "Horticulture",
     subheading: "Growing fruits, vegetables, and ornamental plants for health and beauty.",
     whyCards: [
@@ -1753,7 +1753,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   poultry: {
     slug: "poultry",
-    badge: "🌾 Career Exploration for Class 10+",
+    badge: "Career Exploration for Class 10+",
     heading: "Poultry",
     subheading: "Leading-edge livestock management for a secure protein supply.",
     whyCards: [
@@ -1849,7 +1849,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   sericulture: {
     slug: "sericulture",
-    badge: "🌾 Career Exploration for Class 10+",
+    badge: "Career Exploration for Class 10+",
     heading: "Sericulture",
     subheading: "Harvesting the 'Queen of Textiles' through advanced silkworm rearing.",
     whyCards: [
@@ -1945,7 +1945,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   vertical_farming: {
     slug: "vertical_farming",
-    badge: "🌾 Career Exploration for Class 10+",
+    badge: "Career Exploration for Class 10+",
     heading: "Vertical Farming",
     subheading: "Revolutionizing urban agriculture with stacked, climate-controlled systems.",
     whyCards: [
@@ -2041,7 +2041,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
   },
   environmental_scientist: {
     slug: "environmental_scientist",
-    badge: "🌍 The Earth's Detective for Class 10+",
+    badge: "The Earth's Detective for Class 10+",
     heading: "Environmental Scientist",
     subheading: "Solve crimes against nature. Protect air, water, and soil. Join India's fastest-growing field with 8% CAGR and massive demand from ESG-focused companies.",
     whyCards: [
@@ -2291,4 +2291,5 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+
 

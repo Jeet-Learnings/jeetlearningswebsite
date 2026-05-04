@@ -6,7 +6,7 @@ const BLUE2 = "#3B82F6";
 export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   accessory_design: {
     slug: "accessory_design",
-    badge: "🎨 The Detail Architect for Class 10+",
+    badge: "The Detail Architect for Class 10+",
     heading: "Accessory Design",
     subheading: "Creating the 'magic details' that define how people look and feel—from luxury jewelry to wearable tech.",
     whyCards: [
@@ -204,7 +204,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   animator: {
     slug: "animator",
-    badge: "🎨 The Illusionist of the Digital Age for Class 10+",
+    badge: "The Illusionist of the Digital Age for Class 10+",
     heading: "Animator",
     subheading: "Breathing life into still images—from Netflix shows to AAA games, you're the wizard behind the magic.",
     whyCards: [
@@ -419,7 +419,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   cosmetology: {
     slug: "cosmetology",
-    badge: "🎨 The Aesthetics Architect for Class 10+",
+    badge: "The Aesthetics Architect for Class 10+",
     heading: "Cosmetology",
     subheading: "Imagine you are an artist, but instead of a canvas, your medium is the human face, skin, and hair. You are the person who doesn't just 'apply makeup' but understands the deep science of how cells regenerate, how lasers can erase scars, and how to help someone regain their confidence.",
     whyCards: [
@@ -632,7 +632,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   creative_writer: {
     slug: "creative_writer",
-    badge: "🎨 The Architect of Worlds for Class 10+",
+    badge: "The Architect of Worlds for Class 10+",
     heading: "Creative Writer",
     subheading: "Have you ever finished a movie and thought, 'I wish I could have decided the ending,' or stayed up until 3:00 AM because you just couldn't put a book down? That feeling of being transported to another world is the work of a Creative Writer.",
     whyCards: [
@@ -849,7 +849,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   fashion_designing: {
     slug: "fashion_designing",
-    badge: "🎨 The Style Visionary for Class 10+",
+    badge: "The Style Visionary for Class 10+",
     heading: "Fashion Design",
     subheading: "Imagine you're looking at a piece of fabric. To most, it's just cloth. But to a Fashion Designer, it's a blueprint for confidence, a medium for storytelling, and a tool for cultural change.",
     whyCards: [
@@ -1064,7 +1064,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   fine_arts: {
     slug: "fine_arts",
-    badge: "🎨 The Visionary's Canvas for Class 10+",
+    badge: "The Visionary's Canvas for Class 10+",
     heading: "Fine Arts",
     subheading: "Imagine you are standing in front of a giant, blank wall. To some, it's just a slab of concrete. But to you, it's a portal. With a brush, a chisel, or a digital stylus, you have the power to create a world that didn't exist five minutes ago.",
     whyCards: [
@@ -1278,7 +1278,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   graphical_designing: {
     slug: "graphical_designing",
-    badge: "🎨 The Visual Storyteller for Class 10+",
+    badge: "The Visual Storyteller for Class 10+",
     heading: "Graphic Designing",
     subheading: "Imagine you are walking down a busy street in Mumbai or scrolling through your Instagram feed. What makes you stop? That 'stop-and-look' power is the work of a Graphic Designer.",
     whyCards: [
@@ -1494,7 +1494,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   interior_designing: {
     slug: "interior_designing",
-    badge: "🎨 The Space Magician for Class 10+",
+    badge: "The Space Magician for Class 10+",
     heading: "Interior Designing",
     subheading: "Imagine walking into a room that immediately makes you feel calm, productive, or incredibly excited. That person who decided where the walls should go, what color the curtains should be, or how the light should hit the floor is an Interior Designer.",
     whyCards: [
@@ -1710,7 +1710,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   interpreter_and_translator: {
     slug: "interpreter_and_translator",
-    badge: "🎨 The Bridge Builders for Class 10+",
+    badge: "The Bridge Builders for Class 10+",
     heading: "Interpreter and Translator",
     subheading: "Imagine being at a high-stakes UN summit where the future of the planet is being discussed. In these rooms, people are speaking different languages, yet they understand each other perfectly. That's the work of a 'silent superhero'—the Interpreter.",
     whyCards: [
@@ -1923,7 +1923,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   liberal_arts: {
     slug: "liberal_arts",
-    badge: "🎨 The Master Key for Class 10+",
+    badge: "The Master Key for Class 10+",
     heading: "Liberal Arts",
     subheading: "Imagine you are at a high-stakes meeting to decide how a new AI robot should behave. The Engineer knows how to build the robot. The Data Scientist knows how to feed it information. But who decides if the robot is being 'fair'? That person is often a Liberal Arts graduate.",
     whyCards: [
@@ -2135,7 +2135,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   performing_arts: {
     slug: "performing_arts",
-    badge: "🎨 The Stage is Yours for Class 10+",
+    badge: "The Stage is Yours for Class 10+",
     heading: "Performing Arts",
     subheading: "Have you ever felt a rush of energy when you hear a beat, or found yourself mimicking a character from a movie? If you love being under the spotlight—whether dancing, acting, singing, or playing an instrument—then you are already flirting with the world of Performing Arts.",
     whyCards: [
@@ -2349,7 +2349,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   photography: {
     slug: "photography",
-    badge: "🎨 The Visual Storyteller for Class 10+",
+    badge: "The Visual Storyteller for Class 10+",
     heading: "Photography",
     subheading: "Imagine you are standing on a busy street in Varanasi. The sun is setting, casting a golden glow over the Ganges. With one click, you haven't just taken a picture; you've frozen a moment in time that will never happen exactly like that ever again.",
     whyCards: [
@@ -2563,7 +2563,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   product_designing: {
     slug: "product_designing",
-    badge: "🎨 The Functional Artist for Class 10+",
+    badge: "The Functional Artist for Class 10+",
     heading: "Product Designing",
     subheading: "Have you ever wondered why the buttons on your smartphone are in those specific places? Or why a plastic water bottle has those ridges? That isn't an accident. Every object you touch has been obsessed over, tested, and polished by a Product Designer.",
     whyCards: [
@@ -2778,7 +2778,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   website_designer: {
     slug: "website_designer",
-    badge: "🎨 The Digital Architect for Class 10+",
+    badge: "The Digital Architect for Class 10+",
     heading: "Website Designer",
     subheading: "In the 21st century, a business without a website is like a shop without a door. Who decided where the buttons should be? Who chose the colors that make the site feel 'cool' or 'trustworthy'? That person is a Website Designer.",
     whyCards: [
@@ -2990,7 +2990,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   youtuber: {
     slug: "youtuber",
-    badge: "🎨 Creative Exploration for Class 10+",
+    badge: "Creative Exploration for Class 10+",
     heading: "The Digital Stage — YouTuber",
     subheading: "Commanding attention and building communities on the world’s digital stage.",
     whyCards: [
@@ -3091,7 +3091,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   mass_communication: {
     slug: "mass_communication",
-    badge: "📢 The Voice of the World for Class 10+",
+    badge: "The Voice of the World for Class 10+",
     heading: "The Voice of the World",
     subheading: "Shaping how society thinks, feels, and acts through strategic communication.",
     whyCards: [
@@ -3321,7 +3321,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   public_relations_officer: {
     slug: "public_relations_officer",
-    badge: "📢 The Image Architects for Class 10+",
+    badge: "The Image Architects for Class 10+",
     heading: "The Image Architects",
     subheading: "Managing reputation and shaping narratives in the age of instant information.",
     whyCards: [
@@ -3546,7 +3546,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   journalist: {
     slug: "journalist",
-    badge: "📰 The Truth Seekers for Class 10+",
+    badge: "The Truth Seekers for Class 10+",
     heading: "The Truth Seekers",
     subheading: "Uncovering facts and holding power accountable in the age of information.",
     whyCards: [
@@ -3776,7 +3776,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   international_relations: {
     slug: "international_relations",
-    badge: "🌍 The Global Strategists for Class 10+",
+    badge: "The Global Strategists for Class 10+",
     heading: "The Global Strategists",
     subheading: "Shaping India's role on the world stage and navigating global complexities.",
     whyCards: [
@@ -4003,7 +4003,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   civil_administrative_services: {
     slug: "civil_administrative_services",
-    badge: "🏛️ The Architects of a Nation for Class 10+",
+    badge: "The Architects of a Nation for Class 10+",
     heading: "The Architects of a Nation",
     subheading: "Building India's future through governance, policy, and public service.",
     whyCards: [
@@ -4235,7 +4235,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   indian_economic_service: {
     slug: "indian_economic_service",
-    badge: "📊 The Architects of the Economy for Class 10+",
+    badge: "The Architects of the Economy for Class 10+",
     heading: "The Architects of the Economy",
     subheading: "Shaping India's economic policy and ensuring sustainable, inclusive growth.",
     whyCards: [
@@ -4468,7 +4468,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   sports_physiotherapist: {
     slug: "sports_physiotherapist",
-    badge: "🏥 The Body Mechanics of Sports for Class 10+",
+    badge: "The Body Mechanics of Sports for Class 10+",
     heading: "The Body Mechanics of Sports",
     subheading: "Healing athletes and optimizing performance through specialized rehabilitation.",
     whyCards: [
@@ -4713,7 +4713,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   sports_management: {
     slug: "sports_management",
-    badge: "📊 Sports Management Career in India for Class 10+",
+    badge: "Sports Management Career in India for Class 10+",
     heading: "Sports Management Career in India",
     subheading: "The business side of sports where strategy, operations, branding, and people management power every major league and event.",
     whyCards: [
@@ -4954,7 +4954,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   sportsperson: {
     slug: "sportsperson",
-    badge: "🏆 The Champions of India for Class 10+",
+    badge: "The Champions of India for Class 10+",
     heading: "The Champions of India",
     subheading: "Competing at the highest levels and inspiring millions through athletic excellence.",
     whyCards: [
@@ -5195,7 +5195,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   physical_trainer: {
     slug: "physical_trainer",
-    badge: "💪 The Architects of Health for Class 10+",
+    badge: "The Architects of Health for Class 10+",
     heading: "The Architects of Health",
     subheading: "Building stronger bodies and transforming lives through fitness and wellness.",
     whyCards: [
@@ -5432,7 +5432,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   astronomer: {
     slug: "astronomer",
-    badge: "🌌 The Cosmic Detectives for Class 10+",
+    badge: "The Cosmic Detectives for Class 10+",
     heading: "The Cosmic Detectives",
     subheading: "Unraveling the mysteries of the universe through observation and analysis.",
     whyCards: [
@@ -5673,7 +5673,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   chemical_engineer: {
     slug: "chemical_engineer",
-    badge: "⚗️ The Architects of Scale for Class 10+",
+    badge: "The Architects of Scale for Class 10+",
     heading: "The Architects of Scale",
     subheading: "Transforming lab discoveries into industrial solutions that power the world.",
     whyCards: [
@@ -5912,7 +5912,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   engineering_and_technology: {
     slug: "engineering_and_technology",
-    badge: "⚙️ The Builders of Tomorrow for Class 10+",
+    badge: "The Builders of Tomorrow for Class 10+",
     heading: "The Builders of Tomorrow",
     subheading: "Creating innovative solutions that transform industries and improve lives globally.",
     whyCards: [
@@ -6149,7 +6149,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   mathematician: {
     slug: "mathematician",
-    badge: "🔢 The Pattern Finder for Class 10+",
+    badge: "The Pattern Finder for Class 10+",
     heading: "Mathematician",
     subheading: "Unlocking the hidden patterns in nature, finance, and technology—from predicting stock markets to designing AI algorithms.",
     whyCards: [
@@ -6391,7 +6391,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   nanotechnologist: {
     slug: "nanotechnologist",
-    badge: "🔬 The Atomic Architect for Class 10+",
+    badge: "The Atomic Architect for Class 10+",
     heading: "Nanotechnologist",
     subheading: "Manipulating atoms and molecules to create materials with 'superpowers'—from life-saving drugs to next-gen semiconductors.",
     whyCards: [
@@ -6635,7 +6635,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   robotics_engineer: {
     slug: "robotics_engineer",
-    badge: "🤖 The Multi-Disciplinary Creator for Class 10+",
+    badge: "The Multi-Disciplinary Creator for Class 10+",
     heading: "Robotics Engineer",
     subheading: "Building the 'body,' 'nervous system,' and 'brain' of machines—from warehouse robots to surgical bots and autonomous drones.",
     whyCards: [
@@ -6879,7 +6879,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   statistician: {
     slug: "statistician",
-    badge: "📊 The Data Detective for Class 10+",
+    badge: "The Data Detective for Class 10+",
     heading: "Statistician",
     subheading: "Uncovering hidden patterns and truths in data—from predicting weather to detecting fraud and shaping government policy.",
     whyCards: [
@@ -7124,7 +7124,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   advertising_and_communication: {
     slug: "advertising_and_communication",
-    badge: "📢 The Storytellers of Commerce for Class 10+",
+    badge: "The Storytellers of Commerce for Class 10+",
     heading: "Advertising and Communication",
     subheading: "Turning products into stories that people want to be part of—from viral campaigns to influencer marketing and AI-driven personalization.",
     whyCards: [
@@ -7367,7 +7367,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   digital_marketing: {
     slug: "digital_marketing",
-    badge: "📱 The Screen Whisperers for Class 10+",
+    badge: "The Screen Whisperers for Class 10+",
     heading: "Digital Marketing",
     subheading: "Selling products and services using the internet—from Instagram Reels to Google Ads, AI-driven campaigns, and influencer collaborations.",
     whyCards: [
@@ -7614,7 +7614,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   entrepreneurship_and_management: {
     slug: "entrepreneurship_and_management",
-    badge: "🚀 The Architects of Tomorrow for Class 10+",
+    badge: "The Architects of Tomorrow for Class 10+",
     heading: "Entrepreneurship and Management",
     subheading: "Building businesses from scratch or steering them to success—from startup founders to corporate leaders shaping India's economy.",
     whyCards: [
@@ -7858,7 +7858,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   marketing: {
     slug: "marketing",
-    badge: "📈 The Pulse of Business for Class 10+",
+    badge: "The Pulse of Business for Class 10+",
     heading: "Marketing",
     subheading: "Understanding customers, creating products they love, and telling stories that make brands unforgettable—from FMCG to tech startups.",
     whyCards: [
@@ -8101,7 +8101,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   sales_professional: {
     slug: "sales_professional",
-    badge: "💼 The Engine of Business for Class 10+",
+    badge: "The Engine of Business for Class 10+",
     heading: "Sales Professional",
     subheading: "Generating revenue by identifying customer needs, building relationships, and closing deals—from SaaS to FMCG, Real Estate to Pharma.",
     whyCards: [
@@ -8349,7 +8349,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   visual_merchandiser: {
     slug: "visual_merchandiser",
-    badge: "🎨 The Silent Sellers for Class 10+",
+    badge: "The Silent Sellers for Class 10+",
     heading: "Visual Merchandiser",
     subheading: "Creating stunning store experiences that make customers stop, look, and buy—from luxury boutiques to fast-fashion flagships.",
     whyCards: [
@@ -8595,7 +8595,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   aeronautical_engineer: {
     slug: "aeronautical_engineer",
-    badge: "✈️ The Sky Architects for Class 10+",
+    badge: "The Sky Architects for Class 10+",
     heading: "Aeronautical Engineer",
     subheading: "Designing, developing, and testing aircraft that connect the world—from commercial planes to fighter jets, helicopters, and drones.",
     whyCards: [
@@ -8841,7 +8841,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   air_traffic_controller: {
     slug: "air_traffic_controller",
-    badge: "🛫 The Invisible Conductors for Class 10+",
+    badge: "The Invisible Conductors for Class 10+",
     heading: "Air Traffic Controller",
     subheading: "Managing the sky safely—guiding hundreds of planes daily to prevent collisions and ensure smooth operations at airports.",
     whyCards: [
@@ -9088,7 +9088,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   automotive_design: {
     slug: "automotive_design",
-    badge: "🚗 The Sculptors of Speed for Class 10+",
+    badge: "The Sculptors of Speed for Class 10+",
     heading: "Automotive Design",
     subheading: "Creating the future of mobility—designing cars that are beautiful, aerodynamic, safe, and sustainable.",
     whyCards: [
@@ -9332,7 +9332,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   aviation_management: {
     slug: "aviation_management",
-    badge: "✈️ The Ground Commanders for Class 10+",
+    badge: "The Ground Commanders for Class 10+",
     heading: "Aviation Management",
     subheading: "Running the business of flying—managing airports, airlines, and the chaos of 450 flights a day.",
     whyCards: [
@@ -9573,7 +9573,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   commercial_pilot: {
     slug: "commercial_pilot",
-    badge: "✈️ The Captains of the Clouds for Class 10+",
+    badge: "The Captains of the Clouds for Class 10+",
     heading: "Commercial Pilot",
     subheading: "Operating aircraft safely—managing complex systems, weather, and split-second decisions at 35,000 feet.",
     whyCards: [
@@ -9813,7 +9813,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   merchant_navy_officer: {
     slug: "merchant_navy_officer",
-    badge: "⚓ The Global Nomads for Class 10+",
+    badge: "The Global Nomads for Class 10+",
     heading: "Merchant Navy Officer",
     subheading: "Managing massive commercial ships—navigating the world's oceans and moving 90% of the world's goods.",
     whyCards: [
@@ -10056,7 +10056,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   supply_chain_management: {
     slug: "supply_chain_management",
-    badge: "📦 The Masterminds of Movement for Class 10+",
+    badge: "The Masterminds of Movement for Class 10+",
     heading: "Supply Chain Management",
     subheading: "Getting the right product to the right place at the right time—the backbone of the modern economy.",
     whyCards: [
@@ -10297,7 +10297,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   artificial_intelligence: {
     slug: "artificial_intelligence",
-    badge: "🤖 The Architect of Intelligence for Class 10+",
+    badge: "The Architect of Intelligence for Class 10+",
     heading: "Artificial Intelligence (AI)",
     subheading: "Teaching computers to think, learn, and make decisions—building the brains that power the future.",
     whyCards: [
@@ -10539,7 +10539,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   blockchain_engineer: {
     slug: "blockchain_engineer",
-    badge: "⛓️ The Architect of Trust for Class 10+",
+    badge: "The Architect of Trust for Class 10+",
     heading: "Blockchain Engineer",
     subheading: "Building unchangeable digital systems—creating trust machines that power the decentralized future.",
     whyCards: [
@@ -10776,7 +10776,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   data_scientist: {
     slug: "data_scientist",
-    badge: "📊 The Modern-Day Oracle for Class 10+",
+    badge: "The Modern-Day Oracle for Class 10+",
     heading: "Data Scientist",
     subheading: "Turning raw data into valuable insights—the detective who finds hidden patterns that drive decisions.",
     whyCards: [
@@ -11017,7 +11017,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   electronics_communication_engineering: {
     slug: "electronics_communication_engineering",
-    badge: "⚡ The Architects of the Future for Class 10+",
+    badge: "The Architects of the Future for Class 10+",
     heading: "Electronics & Communication Engineering (ECE)",
     subheading: "If Computer Science is the 'brain' of the modern world, Electronics and Communication Engineering (ECE) is its 'nervous system.' Design the chips that power your iPhone, build the 5G towers that stream your videos, and create the sensors that help self-driving cars 'see.'",
     whyCards: [
@@ -11253,7 +11253,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   gis_expert: {
     slug: "gis_expert",
-    badge: "🗺️ The Map Magicians for Class 10+",
+    badge: "The Map Magicians for Class 10+",
     heading: "GIS Expert",
     subheading: "Have you ever wondered how Google Maps knows exactly where the traffic jam is? Or how Swiggy finds the fastest route to your house? Or how the government decides exactly where to build a new metro line? The answer is GIS—Geographic Information Systems. You are a 'Location Scientist' building 'Smart Maps.'",
     whyCards: [
@@ -11488,7 +11488,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   ethical_hacking: {
     slug: "ethical_hacking",
-    badge: "🔐 The Digital Bodyguard for Class 10+",
+    badge: "The Digital Bodyguard for Class 10+",
     heading: "Ethical Hacking",
     subheading: "In movies, hackers are hooded figures in dark rooms stealing money. In reality, Ethical Hackers are the good guys who save the day. They are the 'Digital Bodyguards' of the internet, hired to break into systems to find weak spots before the bad guys do.",
     whyCards: [
@@ -11722,7 +11722,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   it_business_analyst: {
     slug: "it_business_analyst",
-    badge: "🌉 The Bridge Builder for Class 10+",
+    badge: "The Bridge Builder for Class 10+",
     heading: "IT Business Analyst",
     subheading: "Have you ever wondered how a confused customer explains what they want to a silent genius developer? That's where the IT Business Analyst comes in. You are the 'Translator' and 'Architect' of the software world, ensuring technology actually solves real-world problems.",
     whyCards: [
@@ -11956,7 +11956,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   internet_of_things: {
     slug: "internet_of_things",
-    badge: "🌐 The Magicians of Connected Things for Class 10+",
+    badge: "The Magicians of Connected Things for Class 10+",
     heading: "Internet of Things (IoT)",
     subheading: "Imagine if your refrigerator could text you, 'Hey, we are out of milk!' or if a farmer could water his crops miles away just by tapping a button on his phone. This isn't magic; it is the Internet of Things (IoT). You give a 'voice' and 'brain' to physical objects.",
     whyCards: [
@@ -12191,7 +12191,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   mobile_app_developer: {
     slug: "mobile_app_developer",
-    badge: "📱 The Architects of the Pocket for Class 10+",
+    badge: "The Architects of the Pocket for Class 10+",
     heading: "Mobile App Developer",
     subheading: "Look at your smartphone. It's not just a slab of glass and plastic; it's a magic wand. You tap a button, and food arrives. You tap another, and you can see your friend's face in Canada. The magician who makes this happen is a Mobile App Developer.",
     whyCards: [
@@ -12426,7 +12426,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   it_project_manager: {
     slug: "it_project_manager",
-    badge: "⚓ The Captain of the Ship for Class 10+",
+    badge: "The Captain of the Ship for Class 10+",
     heading: "IT Project Manager",
     subheading: "Imagine building a house. You have bricklayers, electricians, and painters. But who makes sure the bricks arrive on time? In the digital world, an IT Project Manager is the 'Captain of the Ship'—managing people, timelines, budgets, and ensuring complex software projects don't collapse into chaos.",
     whyCards: [
@@ -12660,7 +12660,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   software_engineer: {
     slug: "software_engineer",
-    badge: "💻 The Code to Your Future for Class 10+",
+    badge: "The Code to Your Future for Class 10+",
     heading: "Software Engineer",
     subheading: "Imagine you are an architect, but instead of using bricks and cement to build houses, you use logic and languages to build digital worlds. That, in essence, is Software Engineering. You aren't just typing code; you are building solutions that millions of people might use every day.",
     whyCards: [
@@ -12893,7 +12893,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   software_testing_qa: {
     slug: "software_testing_qa",
-    badge: "🔍 The Digital Detectives for Class 10+",
+    badge: "The Digital Detectives for Class 10+",
     heading: "Software Testing & QA",
     subheading: "If Software Engineers are the 'Architects' who build the digital world, Software Testers are the 'Safety Inspectors' who make sure it doesn't collapse. You are the ultimate gatekeeper of the digital economy, finding bugs before users do.",
     whyCards: [
@@ -13123,7 +13123,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   video_game_designer: {
     slug: "video_game_designer",
-    badge: "🎮 The Architects of Fun for Class 10+",
+    badge: "The Architects of Fun for Class 10+",
     heading: "Video Game Designer",
     subheading: "If you think this career is just about sitting on a couch and playing video games all day, I have some bad news (and some good news). A Video Game Designer is not a 'player'—they are the architect. They decide the rules, the story, the characters, and what makes the game 'fun.'",
     whyCards: [
@@ -13357,7 +13357,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   anthropologist: {
     slug: "anthropologist",
-    badge: "🔍 The Human Story Decoder for Class 10+",
+    badge: "The Human Story Decoder for Class 10+",
     heading: "Anthropologist",
     subheading: "Study human beings—their origins, evolution, behavior, cultures, and societies. Preserve India's 705 tribes, 19,500+ languages, and diverse cultural heritage.",
     whyCards: [
@@ -13604,7 +13604,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   archaeologist: {
     slug: "archaeologist",
-    badge: "🏛️ The Detective of the Past for Class 10+",
+    badge: "The Detective of the Past for Class 10+",
     heading: "Archaeologist",
     subheading: "Uncover India's 5,000-year-old civilizations, ancient monuments, and hidden stories buried beneath our feet. From Indus Valley cities to medieval forts, every dig site tells a unique story.",
     whyCards: [
@@ -13866,7 +13866,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   fashion_management: {
     slug: "fashion_management",
-    badge: "👗 The Style Architect for Class 10+",
+    badge: "The Style Architect for Class 10+",
     heading: "Fashion Management",
     subheading: "Blending creativity with commerce. Turn designer dreams into billion-dollar brands. ₹5L–₹65L+ salaries with 12.87% CAGR growth.",
     whyCards: [
@@ -14113,7 +14113,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
 ,
   geographer: {
     slug: "geographer",
-    badge: "🌍 The Earth Detective for Class 10+",
+    badge: "The Earth Detective for Class 10+",
     heading: "Geographer",
     subheading: "Understanding Earth's landscapes, cultures, and climate systems. From urban planning to environmental conservation, geographers shape how we live.",
     whyCards: [
@@ -14365,7 +14365,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   political_scientist: {
     slug: "political_scientist",
-    badge: "🏛️ The Power Analyst for Class 10+",
+    badge: "The Power Analyst for Class 10+",
     heading: "Political Scientist",
     subheading: "Analyzing power, governance, and political systems to understand how societies are organized and how change happens. From policy-making to international relations, political scientists shape the future.",
     whyCards: [
@@ -14614,7 +14614,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   historian: {
     slug: "historian",
-    badge: "📚 The Time Detective for Class 10+",
+    badge: "The Time Detective for Class 10+",
     heading: "Historian",
     subheading: "Uncovering the stories of the past to understand the present and shape the future. From ancient civilizations to modern movements, historians preserve and interpret human history.",
     whyCards: [
@@ -14871,7 +14871,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   sociologist: {
     slug: "sociologist",
-    badge: "👥 The Society Scientist for Class 10+",
+    badge: "The Society Scientist for Class 10+",
     heading: "Sociologist",
     subheading: "Understanding how societies work—from family structures to social movements. Sociologists analyze human behavior, social institutions, and social change to create a more equitable world.",
     whyCards: [
@@ -15121,3 +15121,4 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   }
 
 };
+

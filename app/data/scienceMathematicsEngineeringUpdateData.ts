@@ -8,7 +8,7 @@ const INDIGO = "#6366F1";
 export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageData> = {
   mechatronics_engineer: {
     slug: "mechatronics_engineer",
-    badge: "🤖 System Architects of Intelligent Motion for Class 10+",
+    badge: "System Architects of Intelligent Motion for Class 10+",
     heading: "Mechatronics Engineering",
     subheading: "Design machines that think. Blend mechanical engineering, electronics, computer science, and control systems to bring inanimate metal to life.",
     whyCards: [
@@ -259,3 +259,4 @@ export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageD
     ]
   }
 };
+
