@@ -11,6 +11,7 @@ import { publicSafetyAndSecurityUpdateData } from './publicSafetyAndSecurityUpda
 import { environmentUpdateData } from './environmentUpdateData';
 import { mentorAndCoachUpdateData } from './mentorAndCoachUpdateData';
 import { actuarialScienceUpdateData } from './actuarialScienceUpdateData';
+import { scienceMathematicsEngineeringUpdateData } from './scienceMathematicsEngineeringUpdateData';
 export interface CareerHeroStat {
   value: string;
   label: string;
@@ -6292,6 +6293,9 @@ export function getCareerPageData(slug: string): CareerPageData | null {
     publicSafetyAndSecurityUpdateData[normalizedSlug] ||
     environmentUpdateData[normalizedSlug] ||
     mentorAndCoachUpdateData[normalizedSlug] ||
+    healthScienceUpdateData[normalizedSlug] ||
+    hospitalityUpdateData[normalizedSlug] ||
+    scienceMathematicsEngineeringUpdateData[normalizedSlug] ||
     careerPageData[normalizedSlug] ||
     null
   );

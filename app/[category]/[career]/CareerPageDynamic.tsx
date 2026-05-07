@@ -199,44 +199,68 @@ export function CareerPageDynamic({
 
       {/* Hero Section */}
       <section className="relative min-h-[80vh] sm:min-h-[85vh] md:min-h-[90vh] flex items-center pt-16 sm:pt-18 md:pt-20 pb-12 sm:pb-14 md:pb-16 px-3 sm:px-4 md:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center w-full">
-          <div className="space-y-6 sm:space-y-7 md:space-y-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 text-xs sm:text-sm font-medium">
-              <span className="flex h-2 w-2 rounded-full bg-blue-600" />
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center w-full">
+          <div className="space-y-6 sm:space-y-7 md:space-y-8 order-2 lg:order-1">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-blue-200 bg-blue-50 text-blue-700 text-xs sm:text-sm font-semibold">
+              <span className="flex h-2.5 w-2.5 rounded-full bg-blue-600 animate-pulse" />
               <TranslatedText as="span">{categoryName}</TranslatedText>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-slate-900">
-              <TranslatedText as="span">{careerName}</TranslatedText><br />
-              <span className="text-blue-600"><TranslatedText>Career Path</TranslatedText></span>
-            </h1>
+            <div className="space-y-3 sm:space-y-4">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-slate-900">
+                <TranslatedText as="span">{careerName}</TranslatedText>
+              </h1>
+              <div className="h-1 w-16 sm:w-20 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full"></div>
+            </div>
 
-            <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-xl leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-600 max-w-xl leading-relaxed font-medium">
               <TranslatedText>{pageData?.subheading}</TranslatedText>
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
-              <button className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-sm sm:text-base">
-                <TranslatedText>Explore This Career</TranslatedText>
-              </button>
+            <div className="pt-4 sm:pt-6">
               <Link
                 href="/career-path"
-                className="inline-flex items-center justify-center gap-2 border-2 border-slate-300 text-slate-900 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors text-sm sm:text-base"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-7 sm:px-9 md:px-10 py-3.5 sm:py-4 md:py-4.5 rounded-lg font-semibold hover:shadow-lg hover:from-blue-700 hover:to-blue-800 active:scale-95 transition-all text-sm sm:text-base min-h-[48px] sm:min-h-[52px]"
               >
                 <TranslatedText>Compare Careers</TranslatedText>
+                <svg className="w-4 sm:w-5 h-4 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
               </Link>
+            </div>
+
+            <div className="pt-4 sm:pt-6 flex items-center gap-6 sm:gap-8 text-xs sm:text-sm text-slate-600">
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 flex items-center justify-center">
+                  <svg className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <span><TranslatedText>Comprehensive Guide</TranslatedText></span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 flex items-center justify-center">
+                  <svg className="w-4 sm:w-5 h-4 sm:h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <span><TranslatedText>Expert Insights</TranslatedText></span>
+              </div>
             </div>
           </div>
 
-          <div className="relative hidden lg:block">
-            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative order-1 lg:order-2">
+            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 z-10"></div>
               <img
                 src={imageUrl || 'https://via.placeholder.com/600x400'}
                 alt={careerName}
-                className="w-full h-auto object-cover rounded-2xl"
+                className="w-full h-auto object-cover rounded-2xl sm:rounded-3xl"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-2xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 via-transparent to-transparent rounded-2xl sm:rounded-3xl"></div>
             </div>
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 sm:w-32 sm:h-32 bg-blue-600 rounded-full opacity-10 blur-3xl"></div>
+            <div className="absolute -top-4 -left-4 w-32 h-32 sm:w-40 sm:h-40 bg-purple-600 rounded-full opacity-10 blur-3xl"></div>
           </div>
         </div>
       </section>
@@ -288,12 +312,12 @@ export function CareerPageDynamic({
                       <TranslatedText>{section.title}</TranslatedText>
                     </h2>
                   </div>
-                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600 px-0 sm:px-0">
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
                     <TranslatedText>{section.description}</TranslatedText>
                   </p>
                 </div>
 
-                <div className="space-y-4 sm:space-y-5 md:space-y-6">
+                <div className="space-y-6 sm:space-y-7 md:space-y-8">
                   {section.content?.map((item: string, idx: number) => {
                     const pipeParts = item.split('|');
                     let time = '';
@@ -325,17 +349,27 @@ export function CareerPageDynamic({
                     }
 
                     return (
-                      <div key={idx} className="group relative pl-6 sm:pl-8 border-l-2 border-blue-200 hover:border-blue-500 transition-colors py-1 sm:py-2">
-                        <div className="absolute -left-[9px] top-2 sm:top-3 w-4 h-4 rounded-full bg-white border-2 border-blue-500 group-hover:bg-blue-500 transition-colors shadow-sm" />
-                        <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                          <span className="text-xs sm:text-sm font-bold text-blue-600 uppercase tracking-wider min-w-[80px] sm:min-w-[100px]">
-                            <TranslatedText>{time}</TranslatedText>
-                          </span>
-                          <div className="flex-1">
-                            <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-1 leading-snug">
+                      <div key={idx} className="group flex gap-4 sm:gap-5 md:gap-6">
+                        {/* Timeline dot and line */}
+                        <div className="flex flex-col items-center flex-shrink-0">
+                          <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-blue-600 border-4 border-slate-50 shadow-md group-hover:scale-110 transition-transform" />
+                          {idx < (section.content?.length || 0) - 1 && (
+                            <div className="w-1 bg-blue-200 group-hover:bg-blue-400 transition-colors" style={{ height: '80px' }} />
+                          )}
+                        </div>
+
+                        {/* Content */}
+                        <div className="flex-1 min-w-0 pt-1 sm:pt-1.5">
+                          <div className="bg-white rounded-lg sm:rounded-xl p-4 sm:p-5 md:p-6 border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all">
+                            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-3 mb-3 sm:mb-4">
+                              <span className="text-xs sm:text-sm font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full inline-block w-fit">
+                                <TranslatedText>{time}</TranslatedText>
+                              </span>
+                            </div>
+                            <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 mb-2 sm:mb-3 leading-snug break-words">
                               <TranslatedText>{title}</TranslatedText>
                             </h4>
-                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed max-w-3xl">
+                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed break-words">
                               <TranslatedText>{description}</TranslatedText>
                             </p>
                           </div>
@@ -366,7 +400,7 @@ export function CareerPageDynamic({
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
                     const [title, desc] = hasColon ? item.split(':') : [item, ''];
@@ -374,14 +408,14 @@ export function CareerPageDynamic({
                     const IconComponent = icons[idx % icons.length];
                     
                     return (
-                      <div key={idx} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all group">
-                        <div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-sm">
-                          <IconComponent className="w-6 h-6 text-indigo-600" />
+                      <div key={idx} className="bg-slate-50 p-4 sm:p-5 md:p-6 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all group">
+                        <div className="w-10 sm:w-11 md:w-12 h-10 sm:h-11 md:h-12 bg-indigo-100 rounded-lg sm:rounded-xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition-transform shadow-sm">
+                          <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-indigo-600" />
                         </div>
-                        <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight">
+                        <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-1 sm:mb-2 leading-tight">
                           <TranslatedText as="span">{title}</TranslatedText>
                         </h4>
-                        <p className="text-sm text-slate-600 leading-relaxed">
+                        <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                           <TranslatedText as="span">{desc}</TranslatedText>
                         </p>
                       </div>
@@ -430,30 +464,30 @@ export function CareerPageDynamic({
                   </p>
                 </div>
 
-                <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                   {pathways.map((path, pIdx) => (
-                    <div key={pIdx} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col hover:shadow-md transition-shadow">
-                      <div className="p-6 bg-slate-50 border-b border-slate-200 border-t-4 border-blue-500">
-                        <h3 className="text-xl font-bold text-slate-900 leading-tight">
+                    <div key={pIdx} className="bg-white rounded-xl sm:rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col hover:shadow-md transition-shadow">
+                      <div className="p-4 sm:p-5 md:p-6 bg-slate-50 border-b border-slate-200 border-t-4 border-blue-500">
+                        <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-900 leading-tight">
                           <TranslatedText as="span">{path.title}</TranslatedText>
                         </h3>
                       </div>
-                      <div className="p-6 flex-1 flex flex-col gap-4">
+                      <div className="p-4 sm:p-5 md:p-6 flex-1 flex flex-col gap-3 sm:gap-4">
                         {path.steps.map((step, sIdx) => {
                           const colonIdx = step.indexOf(':');
                           const label = colonIdx > -1 ? step.substring(0, colonIdx).trim() : '';
                           const desc = colonIdx > -1 ? step.substring(colonIdx + 1).trim() : step;
                           return (
-                            <div key={sIdx} className="flex gap-4 items-start relative">
+                            <div key={sIdx} className="flex gap-3 sm:gap-4 items-start relative">
                               {sIdx < path.steps.length - 1 && (
                                 <div className="absolute left-[11px] top-6 w-[2px] h-[calc(100%+8px)] bg-blue-100" />
                               )}
                               <div className="w-6 h-6 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center flex-shrink-0 z-10">
                                 {sIdx + 1}
                               </div>
-                              <div className="flex-1">
-                                {label && <p className="text-sm font-bold text-slate-900 mb-1 leading-snug"><TranslatedText as="span">{label}</TranslatedText></p>}
-                                <p className="text-sm text-slate-600 leading-relaxed"><TranslatedText as="span">{desc}</TranslatedText></p>
+                              <div className="flex-1 min-w-0">
+                                {label && <p className="text-xs sm:text-sm font-bold text-slate-900 mb-0.5 sm:mb-1 leading-snug break-words"><TranslatedText as="span">{label}</TranslatedText></p>}
+                                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed break-words"><TranslatedText as="span">{desc}</TranslatedText></p>
                               </div>
                             </div>
                           );
@@ -471,14 +505,19 @@ export function CareerPageDynamic({
         if (section.id === 'market' || section.id === 'salary') {
           const tiers = section.content?.filter((c: string) => c.includes('Tier') || c.includes('Level') || c.includes('Salary:'));
           const others = section.content?.filter((c: string) => !tiers.includes(c));
+          
+          // Find the salary snapshot heading
+          const salaryHeadingIdx = others?.findIndex((item: string) => item.toLowerCase().includes('salary snapshot'));
+          const salaryHeading = salaryHeadingIdx !== -1 ? others?.[salaryHeadingIdx] : null;
+          const otherCards = others?.filter((_: string, idx: number) => idx !== salaryHeadingIdx);
 
           return (
-            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8 overflow-hidden">
               <div className="max-w-7xl mx-auto">
                 <div className="mb-10 sm:mb-12">
-                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
-                    <TrendingUp className="w-8 sm:w-10 h-8 sm:h-10 text-blue-600 flex-shrink-0" />
-                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                  <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-3 sm:mb-4 min-w-0">
+                    <TrendingUp className="w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 text-blue-600 flex-shrink-0 mt-1" />
+                    <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-slate-900 leading-snug break-words">
                       <TranslatedText as="span">{section.title}</TranslatedText>
                     </h2>
                   </div>
@@ -488,47 +527,77 @@ export function CareerPageDynamic({
                 </div>
 
                 {tiers.length > 0 && (
-                  <div className="mb-10 overflow-hidden rounded-2xl border border-slate-200 shadow-sm">
-                    <table className="w-full text-left border-collapse">
-                      <thead>
-                        <tr className="bg-slate-50 border-b border-slate-200">
-                          <th className="px-6 py-4 text-sm font-bold text-slate-900">Career Level</th>
-                          <th className="px-6 py-4 text-sm font-bold text-slate-900">Est. Salary (p.a.)</th>
-                          <th className="px-6 py-4 text-sm font-bold text-slate-900">Opportunities</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {tiers.map((tier: string, idx: number) => {
-                          const parts = tier.split(/[:\.]/);
-                          const level = parts[0]?.trim() || '';
-                          const salary = parts[1]?.trim() || '';
-                          const jobs = parts[2]?.replace(/Positions|Jobs/i, '')?.trim() || '';
-                          
-                          return (
-                            <tr key={idx} className="border-b border-slate-100 hover:bg-blue-50 transition-colors group">
-                              <td className="px-6 py-5 text-sm font-bold text-slate-900">{level}</td>
-                              <td className="px-6 py-5 text-sm font-bold text-blue-600">{salary}</td>
-                              <td className="px-6 py-5 text-sm text-slate-600">{jobs}</td>
-                            </tr>
-                          );
-                        })}
-                      </tbody>
-                    </table>
+                  <div className="mb-12 sm:mb-14 md:mb-16">
+                    {salaryHeading && (
+                      <div className="mb-6 sm:mb-8">
+                        <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-900 mb-2">
+                          <TranslatedText as="span">{salaryHeading}</TranslatedText>
+                        </h3>
+                      </div>
+                    )}
+                    <div className="overflow-x-auto rounded-lg sm:rounded-2xl border border-slate-200 shadow-sm -mx-3 sm:mx-0 px-3 sm:px-0">
+                      <table className="w-full text-left border-collapse min-w-[400px]">
+                        <thead>
+                          <tr className="bg-slate-50 border-b border-slate-200">
+                            <th className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm font-bold text-slate-900 whitespace-nowrap">Career Level</th>
+                            <th className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm font-bold text-slate-900 whitespace-nowrap">Est. Salary (p.a.)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {tiers.map((tier: string, idx: number) => {
+                            const parts = tier.split(/[:\.]/);
+                            const level = parts[0]?.trim() || '';
+                            const salary = parts[1]?.trim() || '';
+                            
+                            return (
+                              <tr key={idx} className="border-b border-slate-100 hover:bg-blue-50 transition-colors group">
+                                <td className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm font-bold text-slate-900 whitespace-nowrap">{level}</td>
+                                <td className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm font-bold text-blue-600 whitespace-nowrap">{salary}</td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 )}
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                  {others.map((item: string, idx: number) => {
-                    const hasColon = item.includes(':');
-                    const [key, val] = hasColon ? item.split(':') : [item, ''];
-                    return (
-                      <div key={idx} className="p-6 bg-slate-50 rounded-xl border border-slate-200 flex flex-col gap-2 hover:border-blue-300 transition-all">
-                        <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider opacity-60"><TranslatedText as="span">{key}</TranslatedText></h4>
-                        <p className="text-base text-slate-800 font-medium leading-relaxed"><TranslatedText as="span">{val}</TranslatedText></p>
-                      </div>
-                    );
-                  })}
-                </div>
+                {otherCards && otherCards.length > 0 && (
+                  <>
+                    {otherCards.map((item: string, idx: number) => {
+                      const hasColon = item.includes(':');
+                      const [key, val] = hasColon ? item.split(':') : [item, ''];
+                      const isNote = key.toLowerCase().includes('note');
+                      
+                      if (isNote) {
+                        return (
+                          <div key={idx} className="p-4 sm:p-5 md:p-6 bg-slate-50 rounded-lg sm:rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all w-full mb-6 sm:mb-8">
+                            <h4 className="text-xs sm:text-sm font-bold text-slate-900 uppercase tracking-wider opacity-60 break-words mb-2 sm:mb-3"><TranslatedText as="span">{key}</TranslatedText></h4>
+                            <p className="text-sm sm:text-base text-slate-800 font-medium leading-relaxed break-words"><TranslatedText as="span">{val}</TranslatedText></p>
+                          </div>
+                        );
+                      }
+                      return null;
+                    })}
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5">
+                      {otherCards.map((item: string, idx: number) => {
+                        const hasColon = item.includes(':');
+                        const [key, val] = hasColon ? item.split(':') : [item, ''];
+                        const isNote = key.toLowerCase().includes('note');
+                        
+                        if (isNote) return null;
+                        
+                        return (
+                          <div key={idx} className="p-3 sm:p-4 md:p-5 bg-slate-50 rounded-lg sm:rounded-xl border border-slate-200 flex flex-col gap-2 hover:border-blue-300 transition-all">
+                            <h4 className="text-xs sm:text-sm font-bold text-slate-900 uppercase tracking-wider opacity-60 break-words"><TranslatedText as="span">{key}</TranslatedText></h4>
+                            <p className="text-sm sm:text-base text-slate-800 font-medium leading-relaxed break-words"><TranslatedText as="span">{val}</TranslatedText></p>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </>
+                )}
               </div>
             </section>
           );
@@ -553,7 +622,7 @@ export function CareerPageDynamic({
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-7">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-7">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
                     const [title, desc] = hasColon ? item.split(':') : [item, ''];
@@ -564,16 +633,16 @@ export function CareerPageDynamic({
                     return (
                       <div
                         key={idx}
-                        className="bg-slate-50 rounded-xl p-6 sm:p-7 border border-slate-200 hover:border-green-300 hover:shadow-lg transition-all"
+                        className="bg-slate-50 rounded-lg sm:rounded-xl p-4 sm:p-5 md:p-6 border border-slate-200 hover:border-green-300 hover:shadow-lg transition-all"
                       >
-                        <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
-                          <IconComponent className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
-                          <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
+                        <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-2 sm:mb-3 md:mb-4">
+                          <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                          <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 leading-snug break-words">
                             <TranslatedText as="span">{title?.trim()}</TranslatedText>
                           </h4>
                         </div>
                         {hasColon && (
-                          <p className="text-sm text-slate-600 leading-relaxed pl-9 sm:pl-10">
+                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-7 sm:pl-8 md:pl-10 break-words">
                             <TranslatedText as="span">{desc?.trim()}</TranslatedText>
                           </p>
                         )}
@@ -639,21 +708,21 @@ export function CareerPageDynamic({
 
         if (section.id === 'trends') {
           return (
-            <section key={sectionIdx} className="py-20 bg-white px-4 sm:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <div className="flex items-center gap-4 mb-4">
-                    <Sparkles className="w-10 h-10 text-purple-600" />
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900">
+                <div className="mb-10 sm:mb-12 md:mb-16">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Sparkles className="w-8 sm:w-10 h-8 sm:h-10 text-purple-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900">
                       <TranslatedText as="span">{section.title}</TranslatedText>
                     </h2>
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
                     const [title, desc] = hasColon ? item.split(':') : [item, ''];
@@ -664,16 +733,16 @@ export function CareerPageDynamic({
                     return (
                       <div
                         key={idx}
-                        className="bg-slate-50 rounded-xl p-6 border border-slate-200 hover:border-purple-300 hover:shadow-lg transition-all"
+                        className="bg-slate-50 rounded-lg sm:rounded-xl p-4 sm:p-5 md:p-6 border border-slate-200 hover:border-purple-300 hover:shadow-lg transition-all"
                       >
-                        <div className="flex items-start gap-4 mb-3">
-                          <IconComponent className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
-                          <h4 className="text-lg font-bold text-slate-900">
+                        <div className="flex items-start gap-3 sm:gap-4 mb-2 sm:mb-3">
+                          <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-purple-600 flex-shrink-0 mt-0.5" />
+                          <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 break-words">
                             <TranslatedText as="span">{title?.trim()}</TranslatedText>
                           </h4>
                         </div>
                         {hasColon && (
-                          <p className="text-sm text-slate-600 leading-relaxed ml-10">
+                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-8 sm:pl-10 break-words">
                             <TranslatedText as="span">{desc?.trim()}</TranslatedText>
                           </p>
                         )}
@@ -688,21 +757,21 @@ export function CareerPageDynamic({
 
         if (section.id === 'startnow') {
           return (
-            <section key={sectionIdx} className="py-20 bg-slate-50 px-4 sm:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <div className="flex items-center gap-4 mb-4">
-                    <Rocket className="w-10 h-10 text-cyan-600" />
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900">
+                <div className="mb-10 sm:mb-12 md:mb-16">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Rocket className="w-8 sm:w-10 h-8 sm:h-10 text-cyan-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900">
                       <TranslatedText as="span">{section.title}</TranslatedText>
                     </h2>
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
                     const [title, desc] = hasColon ? item.split(':') : [item, ''];
@@ -713,16 +782,16 @@ export function CareerPageDynamic({
                     return (
                       <div
                         key={idx}
-                        className="bg-white rounded-xl p-6 border border-slate-200 hover:border-cyan-300 hover:shadow-lg transition-all"
+                        className="bg-white rounded-lg sm:rounded-xl p-4 sm:p-5 md:p-6 border border-slate-200 hover:border-cyan-300 hover:shadow-lg transition-all"
                       >
-                        <div className="flex items-start gap-4 mb-3">
-                          <IconComponent className="w-6 h-6 text-cyan-600 flex-shrink-0 mt-1" />
-                          <h4 className="text-lg font-bold text-slate-900">
+                        <div className="flex items-start gap-3 sm:gap-4 mb-2 sm:mb-3">
+                          <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-cyan-600 flex-shrink-0 mt-0.5" />
+                          <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 break-words">
                             <TranslatedText as="span">{title?.trim()}</TranslatedText>
                           </h4>
                         </div>
                         {hasColon && (
-                          <p className="text-sm text-slate-600 leading-relaxed ml-10">
+                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-8 sm:pl-10 break-words">
                             <TranslatedText as="span">{desc?.trim()}</TranslatedText>
                           </p>
                         )}
@@ -737,18 +806,18 @@ export function CareerPageDynamic({
 
         if (section.id === 'personalities') {
           return (
-            <section key={sectionIdx} className="py-20 bg-white px-4 sm:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+                <div className="mb-10 sm:mb-12 md:mb-16">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 mb-3 sm:mb-4">
                     <TranslatedText as="span">{section.title}</TranslatedText>
                   </h2>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
                     const [name, bio] = hasColon ? item.split(':') : [item, ''];
@@ -756,19 +825,19 @@ export function CareerPageDynamic({
                     return (
                       <div
                         key={idx}
-                        className="bg-slate-50 rounded-xl overflow-hidden border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all"
+                        className="bg-slate-50 rounded-lg sm:rounded-xl overflow-hidden border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all"
                       >
                         {/* Header with name only */}
-                        <div className="bg-slate-100 p-6 text-center border-b border-slate-200">
-                          <h4 className="text-lg font-bold text-slate-900">
+                        <div className="bg-slate-100 p-4 sm:p-5 md:p-6 text-center border-b border-slate-200">
+                          <h4 className="text-base sm:text-lg font-bold text-slate-900 break-words">
                             <TranslatedText as="span">{name?.trim()}</TranslatedText>
                           </h4>
                         </div>
                         
                         {/* Bio Section */}
                         {hasColon && (
-                          <div className="p-6">
-                            <p className="text-sm text-slate-600 leading-relaxed">
+                          <div className="p-4 sm:p-5 md:p-6">
+                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed break-words">
                               <TranslatedText as="span">{bio?.trim()}</TranslatedText>
                             </p>
                           </div>
@@ -798,15 +867,15 @@ export function CareerPageDynamic({
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
-                <div className="space-y-4 sm:space-y-5">
+                <div className="space-y-3 sm:space-y-4 md:space-y-5">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
                     const colonIdx = item.indexOf(':');
                     const before = hasColon ? item.substring(0, colonIdx) : item;
                     const after = hasColon ? item.substring(colonIdx + 1) : '';
                     return (
-                      <div key={idx} className="bg-slate-50 rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all">
-                        <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
+                      <div key={idx} className="bg-slate-50 rounded-lg sm:rounded-xl p-4 sm:p-5 md:p-6 border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all">
+                        <p className="text-xs sm:text-sm md:text-base text-slate-700 leading-relaxed break-words">
                           {hasColon ? (
                             <>
                               <span className="font-bold text-slate-900"><TranslatedText as="span">{before.trim()}</TranslatedText></span>
@@ -900,17 +969,17 @@ export function CareerPageDynamic({
                     const stepIcons = [FileText, Layers, BarChart3, Monitor, RefreshCw, CheckCircle];
                     const IconComponent = stepIcons[idx % stepIcons.length];
                     return (
-                      <div key={idx} className="bg-slate-50 rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all">
+                      <div key={idx} className="bg-slate-50 rounded-lg sm:rounded-xl p-4 sm:p-5 md:p-6 border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all">
                         <div className="flex items-start gap-3 sm:gap-4">
-                          <div className="w-10 sm:w-11 h-10 sm:h-11 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-blue-600" />
+                          <div className="w-9 sm:w-10 md:w-11 h-9 sm:h-10 md:h-11 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <IconComponent className="w-4 sm:w-5 md:w-6 h-4 sm:h-5 md:h-6 text-blue-600" />
                           </div>
-                          <div>
-                            <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-1 sm:mb-2">
+                          <div className="flex-1 min-w-0">
+                            <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 mb-0.5 sm:mb-1 md:mb-2 break-words">
                               <TranslatedText as="span">{title}</TranslatedText>
                             </h4>
                             {hasColon && (
-                              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed break-words">
                                 <TranslatedText as="span">{desc}</TranslatedText>
                               </p>
                             )}
@@ -1356,12 +1425,12 @@ export function CareerPageDynamic({
 
 
           return (
-            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8 overflow-hidden">
               <div className="max-w-7xl mx-auto">
                 <div className="mb-10 sm:mb-12">
-                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
-                    <Briefcase className="w-8 sm:w-10 h-8 sm:h-10 text-green-600 flex-shrink-0" />
-                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                  <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-3 sm:mb-4 min-w-0">
+                    <Briefcase className="w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 text-green-600 flex-shrink-0 mt-1" />
+                    <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-slate-900 leading-snug break-words">
                       <TranslatedText as="span">{section.title}</TranslatedText>
                     </h2>
                   </div>
@@ -1370,7 +1439,7 @@ export function CareerPageDynamic({
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5">
                   {finalEntries.map(([type, opps], idx) => {
                     const oppIcons = [Briefcase, Rocket, Zap, Target, Globe, Building2];
                     const IconComponent = oppIcons[idx % oppIcons.length];
@@ -1381,20 +1450,20 @@ export function CareerPageDynamic({
                     if (opps.length === 0) return null;
                     
                     return (
-                      <div key={idx} className="group bg-slate-50 rounded-2xl p-6 sm:p-8 border border-slate-200 hover:border-green-300 hover:shadow-xl transition-all duration-300">
-                        <div className="flex items-center gap-4 mb-6">
-                          <div className={`w-12 h-12 ${bgClass} rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm`}>
-                            <IconComponent className={`w-6 h-6 ${colorClass}`} />
+                      <div key={idx} className="group bg-slate-50 rounded-lg sm:rounded-xl p-3 sm:p-4 md:p-5 border border-slate-200 hover:border-green-300 hover:shadow-lg transition-all duration-300 flex flex-col h-full overflow-hidden">
+                        <div className="flex items-start gap-2 sm:gap-2.5 mb-3 sm:mb-4 min-w-0 flex-shrink-0">
+                          <div className={`w-9 sm:w-10 md:w-11 h-9 sm:h-10 md:h-11 ${bgClass} rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm`}>
+                            <IconComponent className={`w-4 sm:w-5 md:w-6 h-4 sm:h-5 md:h-6 ${colorClass}`} />
                           </div>
-                          <h4 className="text-lg sm:text-xl font-bold text-slate-900 leading-tight">
+                          <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 leading-snug break-words line-clamp-2">
                             <TranslatedText as="span">{type}</TranslatedText>
                           </h4>
                         </div>
-                        <ul className="space-y-3 pl-1">
+                        <ul className="space-y-1.5 sm:space-y-2 pl-0 flex-1 overflow-y-auto">
                           {opps.map((opp, i) => (
-                            <li key={i} className="flex gap-3 items-start group/item text-slate-600">
-                              <span className={`mt-0.5 font-bold text-lg ${colorClass}`}>*</span>
-                              <span className="text-sm sm:text-base font-medium group-hover/item:text-slate-900 transition-colors leading-relaxed">
+                            <li key={i} className="flex gap-1.5 sm:gap-2 items-start group/item text-slate-600 min-w-0">
+                              <span className={`mt-0.5 font-bold text-xs sm:text-sm ${colorClass} flex-shrink-0`}>•</span>
+                              <span className="text-xs sm:text-sm md:text-base font-medium group-hover/item:text-slate-900 transition-colors leading-snug break-words">
                                 <TranslatedText as="span">{opp}</TranslatedText>
                               </span>
                             </li>
@@ -1548,29 +1617,30 @@ export function CareerPageDynamic({
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 lg:gap-6">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-6">
               <button
                 onClick={() => setCurrentVideoIndex((p) => (p - 1 + videos.length) % videos.length)}
-                className="px-4 sm:px-6 md:px-8 py-2 md:py-3 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-50"
+                className="px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-3.5 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-50 active:scale-95"
               >
                 ← <TranslatedText>Previous</TranslatedText>
               </button>
 
-              <div className="flex gap-1 sm:gap-2">
+              <div className="flex gap-1.5 sm:gap-2 md:gap-2.5">
                 {videos.map((_, idx) => (
                   <button
                     key={idx}
                     onClick={() => setCurrentVideoIndex(idx)}
-                    className={`rounded-full transition-all h-2 sm:h-3 ${
-                      currentVideoIndex === idx ? 'w-6 sm:w-8 md:w-10 bg-blue-600' : 'w-2 sm:w-3 bg-blue-600/40'
+                    className={`rounded-full transition-all h-2.5 sm:h-3 md:h-3.5 ${
+                      currentVideoIndex === idx ? 'w-6 sm:w-8 md:w-10 bg-blue-600' : 'w-2.5 sm:w-3 md:w-3.5 bg-blue-600/40'
                     }`}
+                    aria-label={`Go to video ${idx + 1}`}
                   />
                 ))}
               </div>
 
               <button
                 onClick={() => setCurrentVideoIndex((p) => (p + 1) % videos.length)}
-                className="px-4 sm:px-6 md:px-8 py-2 md:py-3 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto bg-blue-600 text-white border-2 border-blue-600 hover:bg-blue-700"
+                className="px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-3.5 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto bg-blue-600 text-white border-2 border-blue-600 hover:bg-blue-700 active:scale-95"
               >
                 <TranslatedText>Next</TranslatedText> →
               </button>
