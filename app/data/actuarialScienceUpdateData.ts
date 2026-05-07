@@ -89,14 +89,7 @@ export const actuarialScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science stream (PCM). Mathematics is non-negotiable.",
-          "After Class 12: Appear for the ACET (Actuarial Common Entrance Test) conducted by the IAI. Enroll in a B.Sc. in Actuarial Science, Mathematics, or Statistics.",
-          "Concurrent Study: Most students clear 3–5 professional papers while doing their college degree.",
-          "After Graduation: If you have a degree in Engineering, Math, Commerce (with Math), or are a CA/CS, you can apply to the IAI directly.",
-          "The Exam Roadmap: Student Member (Clear ACET) → Associate (Clear Core Principles and Core Practices) → Fellow (Clear Specialist Principles and Specialist Advanced + 3 years work experience).",
-          "Masters Route: Pursue an M.Sc. in Actuarial Science or an MBA in Insurance/Risk Management for faster career progression."
-        ]
+        content: ["Pathway A: Degree + Professional Exam Route","Step 1: Complete Class 12th with Maths (PCM/Commerce)","Step 2: Pursue B.Sc Actuarial Science / B.Sc Statistics / B.Com (Hons)","Step 3: Start clearing actuarial exams — IAI (India) or IFoA (UK)","Step 4: Do internships at insurance firms like LIC, HDFC Life, ICICI Prudential","Step 5: Clear 6–8 actuarial papers while working as Actuarial Analyst","Step 6: Become Associate/Fellow Actuary","Pathway B: Skill-Based Entry","Step 1: Complete Class 12th with Maths","Step 2: Take a diploma or online course in Actuarial Science / Data Analytics","Step 3: Learn tools — MS Excel, R, Python, SQL","Step 4: Clear initial 3–4 actuarial papers (CT series from IAI/IFoA)","Step 5: Join insurance or consulting firms as Actuarial Trainee","Step 6: Progress to Actuarial Analyst, or Underwriting Analyst","Pathway C: Domain Switch Route","Step 1: Complete Class 12th (Maths compulsory)","Step 2: Pursue B.Tech / B.Sc Maths / MBA Finance / CA","Step 3: Work 1–2 years in finance, banking, or data analytics","Step 4: Begin clearing actuarial exams alongside job (IAI/IFoA)","Step 5: Gain experience in risk, insurance, or pension consulting","Step 6: Transition as Actuarial Consultant, or Pension Fund Manager"]
       },
       {
         id: "salary",
@@ -104,14 +97,7 @@ export const actuarialScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Analyst, 0–2 years): ₹6 Lakhs – ₹10 Lakhs annually. Positions: Actuarial Analyst, Risk Analyst, Junior Actuary.",
-          "Mid-Level (Associate, 3–7 years): ₹15 Lakhs – ₹30 Lakhs annually. Positions: Senior Analyst, Associate Actuary, Risk Manager.",
-          "Senior (Fellow, 8–12 years): ₹35 Lakhs – ₹70 Lakhs annually. Positions: Senior Actuary, Head of Actuarial, Principal Actuary.",
-          "Leadership/Appointed Actuary (15+ years): ₹1 Crore – ₹3 Crores+ annually. Positions: Chief Actuary, VP Risk, CRO.",
-          "Growth Projections: Industry expected to grow at CAGR of 4.8% to 5.2% up to 2030.",
-          "Hiring Trends: Major demand shifting from traditional Life Insurance to Cyber Risk, Climate Change Modeling, and Fintech."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5+ Crore","Senior / Lead Role (10+ yrs): ₹40–80 LPA","Mid-Level Professional (5–8 yrs): ₹20–40 LPA","Junior / Associate (3–5 yrs): ₹10–20 LPA","Entry Level (0–2 yrs): ₹4–8 LPA","Note: Metro cities (Mumbai, Gurugram) pay 20–40% more; each actuarial exam cleared adds ~10–15% salary growth.","Where Are the Jobs?","Top Cities: Mumbai, Gurugram/Delhi-NCR, Bengaluru, Hyderabad, Pune","Top Industries: Insurance (LIC, HDFC Life), Consulting (Aon, WTW, PwC, Deloitte), Reinsurance, Banking, Pensions, InsurTech","Opportunities: High global demand (UK, USA, UAE, Singapore); growing remote, consulting, and freelance roles","Top Institutions","Government","Institute of Actuaries of India (IAI)","University of Mumbai (Department of Statistics)","Maharaja Sayajirao University, Baroda","Aligarh Muslim University (AMU)","Private","Bishop Heber College, Tiruchirappalli","Narsee Monjee Institute (NMIMS)","Manipal Academy of Higher Education","Amity University","Online","Institute and Faculty of Actuaries (IFoA) - UK (available in India)","SWAYAM / NPTEL","Coursera (with university partners)","NIIT Online Programs","Career Opportunities","Conventional","Life Insurance Actuary","General Insurance Actuary","Pension & Retirement Fund Actuary","Health Insurance Actuary","New-Age and AI-Driven","Predictive Analytics Actuary","Insurtech Data Scientist","AI-based Catastrophe Risk Modeller","Machine Learning Pricing Specialist","Remote/Entrepreneurship","Freelance Actuarial Consultant","Online Actuarial Exam Coaching","Micro-Insurance Platform Founder","Actuarial Analytics SaaS Startup"]
       },
       {
         id: "locations",

@@ -171,14 +171,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "The prestigious journey through the Indian Forest Service.",
         color: GREEN,
-        content: [
-          "After Class 10: Choose Science Stream (PCM or PCB). Focus on subjects like Biology, Agriculture, or Math.",
-          "After Class 12: Get a Bachelor's Degree in a relevant field. Subjects: Forestry, Agriculture, Engineering, or Pure Sciences (Botany, Zoology, etc.).",
-          "Entry Point: Appear for UPSC Indian Forest Service (IFoS) Exam. Must clear Civil Services Prelims + IFoS Mains + Interview.",
-          "State Level: Appear for State Public Service Commission (SPSC) exams for roles like Forest Range Officer (FRO) or ACF.",
-          "Important: For IFoS, you must have a degree in Science or Engineering. Humanities and Commerce students are generally not eligible for technical officer roles.",
-          "Training: Selected candidates undergo 2-year training at IGNFA (Indira Gandhi National Forest Academy), Dehradun, fully funded by the government."
-        ]
+        content: ["Pathway A: UPSC Indian Forest Service Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue Bachelor's degree in Science/Engineering/Forestry","Step 3: Prepare for UPSC Civil Services Examination","Step 4: Clear UPSC Prelims, Mains and Interview","Step 5: Complete training at Indira Gandhi National Forest Academy","Step 6: Join as Indian Forest Service (IFS) Officer","Pathway B: State Forest Service Route","Step 1: Complete Class 12th with Science (PCB/PCM)","Step 2: Pursue BSc in Forestry/Botany/Zoology/Agriculture","Step 3: Prepare for State Public Service Commission exam","Step 4: Clear State Forest Service examination successfully","Step 5: Complete mandatory field training at state academy","Step 6: Join as Range Forest Officer or ACF","Pathway C: Forestry Degree and Research Route","Step 1: Complete Class 12th with Science (PCB)","Step 2: Pursue BSc Forestry from recognized university","Step 3: Complete MSc in Forestry/Wildlife Science","Step 4: Gain fieldwork experience at forest research institutes","Step 5: Clear GATE/UGC NET for research or teaching","Step 6: Join as Forest Research Officer or Scientist"]
       },
       {
         id: "market",
@@ -186,14 +179,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries and career growth in the Indian Forest Service.",
         color: GREEN2,
-        content: [
-          "Entry-Level (ACF): ₹56,100–₹1,20,000 (Level 10). Positions: Assistant Conservator of Forests.",
-          "Mid-Level (DFO/Conservator): ₹78,800–₹1,75,000 (Level 12-13). Positions: Divisional Forest Officer, Conservator.",
-          "Senior-Level (CCF/PCCF): ₹1,82,200–₹2,25,000 (Level 15-17). Positions: Chief Conservator, Principal Chief Conservator.",
-          "Apex Level (Director General): ₹2,25,000 (Fixed). Positions: Director General of Forests.",
-          "Career Growth: ACF → DFO (4-8 years) → CF → CCF → PCCF.",
-          "Hiring Trends: With India's commitment to increasing forest cover to 33%, demand for specialized officers in Eco-restoration and Carbon Credit management is rising."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹95 LPA","Senior / Lead Role (10+ yrs): ₹28 LPA – ₹48 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA – ₹26 LPA","Junior / Associate (3–5 yrs): ₹10 LPA – ₹15 LPA","Entry Level (0–2 yrs): ₹7 LPA – ₹11 LPA","Note: Govt salaries fixed; GIS/ESG skills boost private pay significantly.","Where Are the Jobs?","Top Cities: Dehradun, Delhi, Bengaluru, Bhopal, Guwahati, Nagpur.","Top Industries: Forest Departments, MoEFCC, ESG Consulting, NGOs, Mining.","Global Demand: High in Canada, Australia; remote GIS roles rising.","Top Institutions","Government:","Indira Gandhi National Forest Academy (IGNFA), Dehradun","Forest Research Institute (FRI), Dehradun","Wildlife Institute of India (WII), Dehradun","Indian Institute of Forest Management (IIFM), Bhopal","Private:","TERI School of Advanced Studies","Amity Institute of Forestry & Wildlife","Lovely Professional University (LPU)","Dolphin PG Institute of Biomedical & Natural Sciences","Online:","IGNOU (Environmental Science / Forestry)","Swayam (NPTEL Forestry Courses)","Coursera (Forest & Wildlife Management)","Unacademy (UPSC IFS Preparation)","Career Opportunities","Conventional","Indian Forest Service Officer","State Forest Range Officer","Wildlife Protection Officer","Forest Conservation Officer","New-age and AI driven","GIS and Remote Sensing Forest Analyst","Drone-Based Forest Monitoring Specialist","Wildlife Data and Camera Trap Analyst","Forest Carbon and Climate Resilience Specialist","Remote/Entrepreneurship","Freelance Forestry Consultant","Eco-Restoration Project Consultant","Wildlife Research Consultant","Green Livelihood Venture Founder"]
       },
       {
         id: "locations",
@@ -434,14 +420,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a geologist.",
         color: GREEN,
-        content: [
-          "After Class 10: Focus on Science Stream (PCM or PCB). Strong foundation in Chemistry & Physics.",
-          "After Class 12: Enroll in B.Sc. Geology or B.Tech. Applied Geology. Clear CUET-UG or State CETs.",
-          "After Graduation: Pursue M.Sc. or M.Tech (Essential for most jobs). Clear IIT-JAM or GATE.",
-          "Professional Entry: Competitive exams for Government roles or private hiring. UPSC Geo-Scientist Exam for Group A posts.",
-          "Specializations: Mineral Exploration, Hydrogeology, Environmental Geology, Geotechnical Engineering, Paleontology.",
-          "Advanced: Post-doctoral research or leadership roles in mining and energy companies."
-        ]
+        content: ["Pathway A: Traditional Science Route","Step 1: Complete Class 12th with Science (PCM/PCB)","Step 2: Pursue BSc in Geology/Earth Science","Step 3: Complete MSc in Geology/Applied Geology","Step 4: Undertake fieldwork and geological survey internships","Step 5: Clear GATE/UPSC Geologist Exam for government jobs","Step 6: Join as Geologist in GSI/ONGC/mining companies","Pathway B: Engineering Route","Step 1: Complete Class 12th with Science (PCM)","Step 2: Pursue BTech in Mining/Petroleum/Geological Engineering","Step 3: Gain industry experience in mining or oil sector","Step 4: Complete MTech in Geosciences or Exploration Geology","Step 5: Work on geological exploration and mapping projects","Step 6: Become Senior Geologist or Exploration Consultant","Pathway C: Research and Academia Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue BSc in Geology from reputed university","Step 3: Complete MSc with specialization in specific branch","Step 4: Clear UGC NET/JRF for funded PhD research","Step 5: Publish research papers in geology journals","Step 6: Join as Geology Scientist or University Professor"]
       },
       {
         id: "market",
@@ -449,14 +428,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: GREEN2,
-        content: [
-          "Entry-Level: ₹5L–₹9L annually. Positions: Junior Geologist, Exploration Geologist, Field Technician.",
-          "Mid-Level (5–12 years): ₹15L–₹28L annually. Positions: Senior Geologist, Project Lead, Hydrogeologist.",
-          "Senior/Chief Geologist: ₹35L–₹60L annually. Positions: Chief Geologist, Research Director, Institute Head.",
-          "Leadership/CXO: ₹80L–₹1.5 Crore+ (Common in top private firms like Vedanta, Reliance, or global consultancies).",
-          "Market Size: The Indian geotechnics and mineral exploration market is expected to grow at a CAGR of 10.7% up to 2030.",
-          "Hiring Trends: Major hiring is happening in the 'Critical Minerals' and 'Renewable Energy' (Geothermal) sectors."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹25 LPA – ₹48 LPA","Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹10 LPA","Entry Level (0–2 yrs): ₹3.5 LPA – ₹5.5 LPA","Note: Metros pay 25% more; UPSC/GATE and GIS boost pay.","Where Are the Jobs?","Top Cities: Hyderabad, Mumbai, Kolkata, Dehradun, Bengaluru, Udaipur.","Top Industries: Mining, Oil & Gas, Infrastructure, Environmental Consulting, PSU.","Global Demand: High in UAE, Australia, Canada; Remote GIS rising.","Top Institutions","Government:","Indian Institute of Technology (IIT), Kharagpur","Indian School of Mines (IIT-ISM), Dhanbad","Banaras Hindu University (BHU)","University of Delhi (DU)","Private:","Manipal Institute of Technology","Lovely Professional University (LPU)","Amity University","BITS Pilani","Online:","IGNOU (Geology Programs)","Swayam (NPTEL Geology Courses)","Coursera (Earth Science Specializations)","edX (Geology & Geoscience Courses)","Career Opportunities","Conventional","Geologist","Hydrogeologist","Mining Geologist","Engineering Geologist","New-age and AI driven","GIS and Geospatial Geologist","Remote Sensing Analyst","Geological Modelling Specialist","Environmental and Groundwater Data Analyst","Remote/Entrepreneurship","Freelance Geological Consultant","Mining and Exploration Advisor","Groundwater Survey Consultant","Geotech and GIS Services Founder"]
       },
       {
         id: "locations",
@@ -957,14 +929,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a wildlife biologist.",
         color: GREEN,
-        content: [
-          "After Class 10: Choose Science Stream (PCB: Physics, Chemistry, Biology). Strong foundation in Life Sciences.",
-          "After Class 12: Enroll in B.Sc. Zoology, Life Sciences, or Forestry. Clear CUET-UG or State Exams.",
-          "During Graduation: Take internships at NGOs (WWF, WTI) or research labs. Build your 'Field Resume.'",
-          "After Graduation: Pursue M.Sc. in Wildlife Science or Ecology. Clear ICAR AIEEA (PG) or GATE.",
-          "Research Entry: Qualify for NET/JRF to start a Ph.D. Become a lead scientist.",
-          "Note: While Science is the primary route, those from Humanities/Commerce can enter the field via Environmental Law or NGO Management later in their careers."
-        ]
+        content: ["Pathway A: Traditional Science Route","Step 1: Complete Class 12th with Science (PCB)","Step 2: Pursue BSc in Zoology/Biology/Life Sciences","Step 3: Complete MSc in Wildlife Biology/Conservation Biology","Step 4: Undertake fieldwork at wildlife sanctuaries or reserves","Step 5: Clear GATE/UGC NET for research opportunities","Step 6: Join as Wildlife Biologist in WII/ZSI/forest departments","Pathway B: Forestry and Wildlife Route","Step 1: Complete Class 12th with Science (PCB/PCM)","Step 2: Pursue BSc Forestry or BSc in Environmental Science","Step 3: Complete MSc in Wildlife Science from WII Dehradun","Step 4: Gain field experience in animal tracking and surveys","Step 5: Work with wildlife NGOs or conservation projects","Step 6: Become Wildlife Researcher or Conservation Biologist","Pathway C: Veterinary to Wildlife Route","Step 1: Complete Class 12th with Science (PCB)","Step 2: Pursue BVSc (Bachelor of Veterinary Science) degree","Step 3: Gain experience in zoo or wildlife rehabilitation centres","Step 4: Complete postgraduation in Wildlife Health/Conservation Medicine","Step 5: Work on endangered species conservation programmes","Step 6: Join as Wildlife Veterinary Biologist or Scientist"]
       },
       {
         id: "market",
@@ -972,14 +937,7 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: GREEN2,
-        content: [
-          "Entry-Level (Project Assistant): ₹3L–₹6L annually. Positions: Research Assistant, Field Technician, Junior Biologist.",
-          "Mid-Level (Scientist/Asst. Professor): ₹10L–₹18L annually. Positions: Scientist, Project Lead, Assistant Professor.",
-          "Senior/Leadership: ₹25L–₹45L annually. Positions: Research Director, Institute Head, Chief Scientist.",
-          "Specialized Consultant: ₹50L+ (Common in international projects).",
-          "Growth Projections: The wildlife health and tourism market is expected to grow at a CAGR of 9.9% until 2030.",
-          "Hiring Trends: This is creating a surge in jobs for disease surveillance and eco-tourism specialists."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹90 LPA","Senior / Lead Role (10+ yrs): ₹18 LPA – ₹35 LPA","Mid-Level Professional (5–8 yrs): ₹9 LPA – ₹17 LPA","Junior / Associate (3–5 yrs): ₹5 LPA – ₹8 LPA","Entry Level (0–2 yrs): ₹3 LPA – ₹5 LPA","Note: Metros pay 30% more; GIS/PhD skills boost pay.","Where Are the Jobs?","Top Cities: Dehradun, Delhi, Mumbai, Bengaluru, Guwahati.","Top Industries: NGOs, Research, Consulting, Government, Eco-tourism.","Global Demand: High in USA, UAE; remote GIS roles rising.","Top Institutions","Government:","Wildlife Institute of India (WII), Dehradun","Forest Research Institute (FRI), Dehradun","Aligarh Muslim University (AMU)","University of Mysore","Private:","TERI School of Advanced Studies","Amity Institute of Forestry & Wildlife","Guru Gobind Singh Indraprastha University","Sálim Ali Centre for Ornithology & Natural History (SACON)","Online:","IGNOU (Wildlife & Biodiversity Programs)","Swayam (NPTEL Wildlife Biology Courses)","Coursera (Conservation & Wildlife Specializations)","edX (Ecology & Wildlife Courses)","Career Opportunities","Conventional","Wildlife Biologist","Field Ecologist","Conservation Research Associate","Protected Area Wildlife Officer","New-age and AI driven","Wildlife GIS and Remote Sensing Analyst","Camera Trap Data Analyst","Drone-Based Wildlife Monitoring Specialist","Conservation Data Scientist","Remote/Entrepreneurship","Freelance Wildlife Consultant","Biodiversity Survey Specialist","Conservation Education Content Creator","Eco-Research Venture Founder"]
       },
       {
         id: "locations",

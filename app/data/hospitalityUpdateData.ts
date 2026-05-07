@@ -90,13 +90,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Focus on improving English and physical fitness. You cannot join an airline yet (minimum age is 18). Build communication skills and maintain fitness.",
-          "After Class 12: Direct Entry—Apply directly to airlines (IndiGo, Air India, SpiceJet) for 'Trainee Cabin Crew' positions. No degree required, but graduation is preferred for international airlines.",
-          "After Graduation: Professional Route—Preferred for international airlines. A degree in Hospitality, Tourism, or PR is an advantage. Increases chances of faster promotion.",
-          "Training Path: Enroll in a 6-12 month Diploma in Aviation (optional but helpful). Then apply to airlines. Once hired, the airline puts you through 3 months of rigorous DGCA-approved safety training.",
-          "Eligibility Checklist: Height (Min 155cm for females, 170cm for males), BMI within standards, 6/6 vision (or corrected), English proficiency, Indian citizenship, valid passport."
-        ]
+        content: ["Pathway A – After Class 12th (Direct Route)","Step 1: Pass Class 10th with good marks","Step 2: Choose any stream in Class 11–12","Step 3: Enroll in Air Hostess Training Institute","Step 4: Complete 6–12 month cabin crew course","Step 5: Get grooming, safety & first-aid certification","Step 6: Apply to domestic airlines as cabin crew","Pathway B – Hospitality/Tourism Degree Route","Step 1: Pass Class 12th (any stream)","Step 2: Pursue BHM or B.Sc. in Hospitality/Tourism","Step 3: Do internship with hotel or airline","Step 4: Complete cabin crew training program","Step 5: Clear airline selection interview & medical test","Step 6: Join as cabin crew, grow to senior roles","Pathway C – Skill-Based Entry Route","Step 1: Pass Class 12th with English fluency","Step 2: Learn spoken English & personality development","Step 3: Join short-term aviation diploma (6 months)","Step 4: Earn first-aid & safety certification","Step 5: Apply to regional or low-cost airlines","Step 6: Gain experience, upgrade to international flights"]
       },
       {
         id: "market",
@@ -104,15 +98,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Trainee/Junior Cabin Crew, 0-2 years): ₹35,000–₹60,000 per month. Includes basic salary, flight allowance, and meal allowance.",
-          "Mid-Level (Senior Cabin Crew, 3–6 years): ₹60,000–₹1,20,000 per month. Increased allowances and potential for international routes.",
-          "Senior-Level (Purser/Lead Cabin Crew, 7-10 years): ₹1,20,000–₹2,50,000 per month. Leadership responsibilities and premium routes.",
-          "Leadership (In-flight Manager/Supervisor, 10+ years): ₹3,00,000+ per month. Management and training roles.",
-          "International Opportunities: Middle-Eastern carriers (Emirates, Qatar Airways) offer tax-free salaries of ₹1.5–3L per month, significantly higher than Indian airlines.",
-          "Metro vs. Tier-2: Salaries are standardized by airlines, but those based in metros (Delhi, Mumbai, Bangalore) often get higher 'Base Allowances' to cover living costs.",
-          "Growth Trajectory: Trainee → Cabin Crew → Senior Cabin Crew → Flight Purser → In-flight Manager within 8–10 years."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹15 LPA – ₹25 LPA","Mid-Level Professional (5–8 yrs): ₹9 LPA – ₹15 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹9 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹6 LPA","Note: International routes and metros offer significantly higher pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Kolkata.","Top Industries: Commercial Airlines, Private Charters, Luxury Hospitality.","Global Demand: High demand in UAE, Qatar, and Singapore.","Top Institutions","Government","Indira Gandhi Institute of Aeronautics (IGIA), New Delhi","Rajiv Gandhi National Aviation Academy, Hyderabad","National Institute of Aviation Management and Research (NIAMAR), Delhi","Airports Authority of India Training Centre (AAITC), New Delhi","Private","Frankfinn Institute of Air Hostess Training, Pan-India","Air Hostess Academy (AHA), Bangalore","Jet Airways Training Academy, Mumbai","Universal Aviation Academy, Chennai","Online","Udemy — Cabin Crew & Air Hostess Training Course","Coursera — Aviation Management & Hospitality Modules","IATA Training — Cabin Crew Safety & Service Programme","Simplilearn — Airline & Hospitality Service Certification","Career Opportunities","Conventional","Cabin Crew / Air Hostess","Senior Cabin Crew","Inflight Supervisor","Ground Services Executive","New-age and AI driven","Crew Compliance & Analytics Executive","Customer Experience Executive","Digital Service Trainer","Airline Safety Data Coordinator","Remote / Entrepreneurship","Aviation Grooming Trainer","Cabin Crew Interview Coach","Travel Content Creator","Airline Hospitality Consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -341,13 +327,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Diploma Route—Join a 1-year Diploma in Food Production or Bakery. Focus is 80% practical. Great for those who want to start working early.",
-          "After Class 12: Degree Route (Any Stream)—Take the NCHMC JEE exam to join IHMs for B.Sc. in Hospitality. Alternatively, join specialized B.A. in Culinary Arts.",
-          "After Graduation: Lateral Entry—Join a PG Diploma in Culinary Arts (1-2 years). Ideal for career switchers (e.g., Engineer who wants to become Pastry Chef).",
-          "Top Institutions: IHM Pusa (Delhi), IHM Mumbai, Indian Culinary Institute (Noida & Tirupati), Culinary Academy of India (Hyderabad), WGSHA (Manipal), Symbiosis School of Culinary Arts (Pune).",
-          "Specializations: Pastry & Bakery, Molecular Gastronomy, Indian Regional Cuisines, International Cuisines, Food Science & Nutrition."
-        ]
+        content: ["Pathway A – After Class 12th (Hotel Management Route)","Step 1: Pass Class 10th with good marks","Step 2: Choose any stream in Class 11–12","Step 3: Appear for NCHMCT JEE entrance exam","Step 4: Join B.Sc. in Hospitality & Culinary Arts","Step 5: Complete internship in hotel kitchen","Step 6: Join as Commis Chef, grow to Head Chef","Pathway B – Diploma/Certificate Route","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in diploma course in culinary arts","Step 3: Learn baking, cooking & kitchen management","Step 4: Complete hands-on kitchen internship","Step 5: Earn Food Safety & Hygiene certification","Step 6: Work in restaurants, cafes, or cloud kitchens","Pathway C – Skill-Based / Entrepreneurship Route","Step 1: Develop cooking interest from Class 10th","Step 2: Join short-term local culinary workshop","Step 3: Learn food styling & social media marketing","Step 4: Get FSSAI food business certification","Step 5: Start tiffin service, YouTube, or cloud kitchen","Step 6: Scale into restaurant or catering business"]
       },
       {
         id: "market",
@@ -355,15 +335,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Commis Chef, 0-2 years): ₹2.5L–₹4.5L per annum. Learning phase with hands-on training.",
-          "Mid-Level (Sous Chef, 3-7 years): ₹7L–₹12L per annum. Managing stations and training junior staff.",
-          "Senior-Level (Executive Chef, 8-15 years): ₹15L–₹30L+ per annum. Leading entire kitchen operations.",
-          "Leadership (Culinary Director, 15+ years): ₹40L–₹80L+ per annum. Managing multiple outlets or culinary vision.",
-          "Growth Trajectory: Reach Sous Chef position in 5-7 years with consistent performance.",
-          "Industry Growth: Indian food service market projected to reach $125 Billion by 2030, growing at 10-12% CAGR.",
-          "Metro vs. Tier-2: Metro cities (Mumbai, Delhi, Bangalore) offer 20-30% higher salaries and more opportunities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹18 LPA – ₹35 LPA","Mid-Level Professional (5–8 yrs): ₹9 LPA – ₹16 LPA","Junior / Associate (3–5 yrs): ₹5 LPA – ₹9 LPA","Entry Level (0–2 yrs): ₹3 LPA – ₹5 LPA","Note: 5-star hotels pay higher than standalone cafes.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Goa, Hyderabad, Jaipur.","Top Industries: Luxury Hotels, Cruise Lines, Cloud Kitchens, Catering.","Global Demand: High demand in Australia, Canada, UAE, Europe.","Top Institutions","Government","Institute of Hotel Management (IHM), New Delhi","Institute of Hotel Management (IHM), Mumbai","Institute of Hotel Management (IHM), Chennai","Dr. Ambedkar Institute of Hotel Management, Chandigarh","Private","Welcomgroup Graduate School of Hotel Administration, Manipal","Culinary Academy of India (CAI), Hyderabad","International Institute of Culinary Arts (IICA), New Delhi","Lavonne Academy of Baking Science & Pastry Arts, Bangalore","Online","Udemy — Professional Cooking & Culinary Arts Course","Coursera — Food & Beverage Management Programme","NCHM Online — Basic Food Production Certificate","Alison — International Culinary Arts Diploma","Career Opportunities","Conventional","Chef","Sous Chef","Pastry Chef","Bakery Chef","New-age and AI driven","Recipe Development Executive","Food Innovation Executive","Menu Research Analyst","Culinary Content Specialist","Remote / Entrepreneurship","Home Chef","Cloud Kitchen Founder","Food Blogger / Content Creator","Culinary Consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -591,13 +563,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: The Early Bird—Start volunteering at local festivals or school events. Take short-term certification courses (3 months). Certificate in Event Management (e.g., IISDT).",
-          "After Class 12: The Professional—Pursue BBA in Event Management or Diploma. Any stream (Science/Commerce/Arts) is eligible. Entrance Exams: CUET (for central universities), TIEMCET.",
-          "After Graduation: The Specialist—PG Diploma or MBA in Event Management best for those from other fields like Engineering or Arts. Entrance Exams: CAT/MAT, Institutional Tests.",
-          "Top Institutions: National Institute of Event Management (NIEM - Mumbai, Pune, Ahmedabad), NAEMD (Mumbai, Delhi, Jaipur), Amity School of Communication (Noida), Tritya Institute (TIEM - Delhi).",
-          "Specializations: Wedding Planning, Corporate Events, Sports Events, Festival Management, Destination Events, Virtual/Hybrid Events."
-        ]
+        content: ["Pathway A – After Class 12th (Degree Route)","Step 1: Pass Class 10th with good marks","Step 2: Choose any stream in Class 11–12","Step 3: Pursue BBA or B.Sc. in Event Management","Step 4: Intern with event management company","Step 5: Learn budgeting, logistics & vendor management","Step 6: Join as Event Coordinator, grow to Manager","Pathway B – Diploma/Certification Route","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in diploma in Event Management","Step 3: Learn décor, catering & guest coordination","Step 4: Assist at live events as volunteer/intern","Step 5: Get certification in project management (PMC)","Step 6: Work with wedding, corporate or PR agencies","Pathway C – Entrepreneurship/Freelance Route","Step 1: Develop creativity and organising skills early","Step 2: Volunteer at school/college events actively","Step 3: Learn Canva, social media & event tools","Step 4: Complete short online event planning course","Step 5: Plan small events for family/local community","Step 6: Launch own event planning freelance business"]
       },
       {
         id: "market",
@@ -605,15 +571,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Coordinator, 0-2 years): ₹3L–₹5L per annum. Learning phase with hands-on experience.",
-          "Mid-Level (Manager, 3-5 years): ₹7L–₹15L per annum. Managing events and leading small teams.",
-          "Senior-Level (Director/Creative Head, 8-15 years): ₹20L–₹40L+ per annum. Leading entire event operations.",
-          "Entrepreneurs: Can earn ₹5L to ₹50L+ per wedding/event for high-end luxury projects.",
-          "Growth Trajectory: Entry to Manager usually takes 3-5 years.",
-          "Market Growth: Industry growing at 18-20% CAGR. Massive expansion expected.",
-          "Metro vs. Tier-2: Mumbai, Delhi-NCR offer highest salaries. Destination wedding hubs (Goa, Jaipur) have high project values."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹1.5Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹10L – ₹18L","Junior / Associate (3–5 yrs): ₹6L – ₹10L","Entry Level (0–2 yrs): ₹3.5L – ₹6L","Note: Metros and luxury weddings offer the highest pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Hyderabad, Jaipur.","Top Industries: MICE, Weddings, Corporate, Entertainment.","Global Demand: UAE, Singapore; AI-driven hybrid event trends.","Top Institutions","Government","Indian Institute of Tourism & Travel Management (IITTM), Gwalior","Institute of Hotel Management (IHM), New Delhi","National Institute of Fashion Technology (NIFT), New Delhi","Chandigarh University (State Government), Chandigarh","Private","National Academy of Event Management & Development (NAEMD), Mumbai","Whistling Woods International, Mumbai","Amity Institute of Event Management, New Delhi","Pearl Academy of Event Management, New Delhi","Online","Udemy — Event Planning & Management Masterclass","Coursera — Event Management & Hospitality Programme","Alison — Professional Event Planning Diploma","NIEM Online — Certified Event Management Course","Career Opportunities","Conventional","Event Planner","Event Coordinator","Wedding Planner","Exhibition Manager","New-age and AI driven","Experiential Marketing Executive","Event Technology Specialist","Customer Experience Strategist","Event Data & Analytics Executive","Remote / Entrepreneurship","Freelance Event Consultant","Virtual Event Manager","Event Content Creator","Event Décor Entrepreneur"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -842,13 +800,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Join a Diploma in Hotel Management (1-2 years). Focus on technical skills like cooking or housekeeping. Diploma from State Board or Private Institute.",
-          "After Class 12 (Any Stream): Take NCHMC JEE entrance exam. Aim for 3-year B.Sc. in Hospitality & Hotel Administration. Degree from IHMs (Government) or top private colleges.",
-          "After Graduation: Join PG Diploma or MBA in Hospitality Management. Look for 'Management Trainee' (MT) programs by brands like Taj or Oberoi. MBA/PGDM or OCLD (Oberoi Centre of Learning).",
-          "Top Institutions: IHM Pusa (Delhi), IHM Mumbai, IHM Chandigarh, IHM Bangalore, Welcomgroup Graduate School (Manipal), IHM Kolkata, IHM Shillong.",
-          "Specializations: Front Office Management, Food & Beverage Management, Housekeeping Management, Revenue Management, Cruise Management."
-        ]
+        content: ["Pathway A – After Class 12th (Degree Route)","Step 1: Pass Class 10th with good marks","Step 2: Choose any stream in Class 11–12","Step 3: Appear for NCHMCT JEE entrance exam","Step 4: Join B.Sc. in Hospitality & Hotel Administration","Step 5: Complete industrial training at 5-star hotel","Step 6: Join as Management Trainee, grow to Manager","Pathway B – Diploma/Certificate Route","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in diploma in Hotel Management","Step 3: Learn front office, housekeeping & food service","Step 4: Complete internship at hotel or resort","Step 5: Earn customer service & hospitality certification","Step 6: Work in hotels, resorts or cruise lines","Pathway C – MBA/Specialisation Route","Step 1: Pass Class 12th with good percentage","Step 2: Complete B.Sc. or BBA in Hospitality","Step 3: Gain 1–2 years hotel work experience","Step 4: Pursue MBA in Hospitality Management","Step 5: Specialise in revenue, operations or F&B","Step 6: Join as Hotel General Manager or Director"]
       },
       {
         id: "market",
@@ -856,15 +808,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Management Trainee, 0-2 years): ₹3.5L–₹6L per annum. Learning phase with hands-on experience.",
-          "Mid-Level (Department Manager, 3-5 years): ₹8L–₹18L per annum. Managing specific departments.",
-          "Senior-Level (General Manager, 8-15 years): ₹25L–₹60L+ per annum. Leading entire hotel operations.",
-          "Leadership (Regional/CXO, 15+ years): ₹80L–₹1.5Cr+ per annum. Strategic leadership roles.",
-          "Growth Trajectory: Reach Department Head position in 5-8 years.",
-          "Market Size: Indian hospitality industry expected to reach $410 Billion by 2028.",
-          "International: Middle East (Dubai/Qatar) offers 30-50% higher salaries. Singapore and Maldives also high-paying."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹2Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹45L","Mid-Level Professional (5–8 yrs): ₹10L – ₹18L","Junior / Associate (3–5 yrs): ₹6L – ₹9L","Entry Level (0–2 yrs): ₹3.5L – ₹5.5L","Note: Metros and luxury brands pay significantly higher.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Goa, Jaipur.","Top Industries: Luxury Hotels, Cruise Lines, Resorts.","Global Demand: High demand in UAE, Maldives, USA, UK.","Top Institutions","Government","Institute of Hotel Management (IHM), New Delhi","Institute of Hotel Management (IHM), Mumbai","Institute of Hotel Management (IHM), Bangalore","National Council for Hotel Management & Catering Technology (NCHMCT), Noida","Private","Welcomgroup Graduate School of Hotel Administration, Manipal","Oberoi Centre of Learning & Development, New Delhi","Institute of Hotel Management (IHM), Aurangabad (Taj Group)","Amity School of Hospitality, Noida","Online","Coursera — Hotel Management & Hospitality Programme","Udemy — Hotel Management & Operations Masterclass","NCHM Online — Food & Beverage Service Certificate","Alison — International Hotel Management Diploma","Career Opportunities","Conventional","Hotel Manager","Front Office Executive","Food & Beverage Manager","Housekeeping Executive","New-age and AI driven","Revenue Management Executive","Guest Experience Manager","Hospitality Data Analyst","Digital Reservation Specialist","Remote / Entrepreneurship","Homestay Owner","Hospitality Consultant","Travel & Hotel Content Creator","Boutique Stay Entrepreneur"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1093,13 +1037,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Take Vocational Diploma in Travel & Tourism or Certificate course in IATA (International Air Transport Association). Diploma in Travel Management.",
-          "After Class 12 (Any Stream): Apply for Bachelor of Tourism Studies (BTS) or BBA in Travel & Tourism. Entrance Exams: CUET (Central Universities), NCHMC JEE.",
-          "After Graduation: Pursue MBA in Tourism or Master of Tourism and Travel Management (MTTM). Entrance Exams: CAT/MAT/CMAT.",
-          "Lateral Entry: If you have degree in History, Geography, or Languages, do 6-month IATA Foundation Course to switch into travel industry immediately.",
-          "Top Institutions: IITTM (Gwalior, Noida, Bhubaneswar, Nellore), IHM (various locations), IGNOU (Distance Learning), Amity Institute of Travel & Tourism."
-        ]
+        content: ["Pathway A – After Class 12th (Degree Route)","Step 1: Pass Class 10th with good marks","Step 2: Choose any stream in Class 11–12","Step 3: Pursue BBA or B.Sc. in Travel & Tourism","Step 4: Complete internship with travel agency","Step 5: Learn GDS tools like Amadeus or Galileo","Step 6: Join as Travel Consultant or Tour Executive","Pathway B – Diploma/Certification Route","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in diploma in Travel & Tourism Management","Step 3: Learn ticketing, visa processing & itinerary planning","Step 4: Complete internship at airline or travel agency","Step 5: Get IATA certification in travel & tourism","Step 6: Work with airlines, hotels or tour operators","Pathway C – Entrepreneurship/Freelance Route","Step 1: Develop travel knowledge from Class 10th","Step 2: Learn geography, languages & communication skills","Step 3: Complete short online tourism/travel course","Step 4: Build social media presence as travel blogger","Step 5: Get IATA or tour guide certification","Step 6: Launch own travel agency or freelance tours"]
       },
       {
         id: "market",
@@ -1107,15 +1045,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Travel Consultant, 0-2 years): ₹3.5L–₹5.5L per annum. Learning phase with hands-on experience.",
-          "Mid-Level (Operations Manager, 3-5 years): ₹8L–₹15L per annum. Managing operations and teams.",
-          "Senior-Level (Product Head/VP, 8-12 years): ₹20L–₹45L per annum. Strategic leadership roles.",
-          "Leadership (CEO/Director, 15+ years): ₹60L+ per annum. Executive leadership positions.",
-          "Growth Trajectory: Entry to Senior Management typically takes 8-12 years.",
-          "Market Growth: Industry expected to grow at 12% CAGR through 2030.",
-          "Metro vs. Tier-2: Metros 20% higher salaries, but Tier-2 cities (Jaipur, Varanasi) seeing fastest job growth due to heritage tourism."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹40L – ₹1.5Cr","Senior (10+ yrs): ₹15L – ₹30L","Mid-Level (5–8 yrs): ₹8L – ₹14L","Junior (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros and niche tourism offer higher pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Kochi, Goa.","Top Industries: OTAs, Tour Operators, Airlines, MICE.","Global Demand: UAE, Singapore, Thailand, Australia.","Top Institutions","Government","Indian Institute of Tourism & Travel Management (IITTM), Gwalior","National Institute of Water Sports (NIWS), Goa","Institute of Hotel Management (IHM), New Delhi","Food Craft Institute (FCI), Patna (Ministry of Tourism)","Private","Amity Institute of Travel & Tourism, Noida","Institute of Tourism & Future Management Trends (ITFT), Chandigarh","Frank Finn Institute of Travel & Tourism, Pan-India","Kuoni Academy of Travel & Tourism, Mumbai","Online","Coursera — Travel & Tourism Management Programme","Udemy — Travel Agency & Tourism Business Masterclass","Alison — International Tourism & Hospitality Diploma","IATA Training — Travel & Tourism Foundation Certificate","Career Opportunities","Conventional","Travel Consultant","Tour Manager","Ticketing Executive","Destination Manager","New-age and AI driven","Digital Travel Specialist","Travel Data Analyst","Customer Experience Executive","Tourism Partnerships Executive","Remote / Entrepreneurship","Freelance Travel Planner","Virtual Travel Consultant","Travel Content Creator","Tour Startup Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1344,13 +1274,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Take short-term Certificate Courses in Wedding Planning or Floral Design (3-6 months). Certificate in Wedding Planning.",
-          "After Class 12 (Any Stream): Join BBA in Event Management or Diploma in Wedding Planning. Entrance Exams: TIEMCET, CUET.",
-          "After Graduation: Pursue PG Diploma or MBA in Event Management with specialization in Luxury Weddings. Entrance Exams: CAT/MAT/CMAT.",
-          "Top Institutions: TIEM (Delhi), NIEM (Mumbai/Pune), NAEMD (Ahmedabad), WedCell Institute (Delhi), Asian Institute of Event Management (Bangalore).",
-          "Specializations: Destination Weddings, Luxury Weddings, Eco-Friendly Weddings, Cultural/Traditional Weddings, Micro-Weddings."
-        ]
+        content: ["Pathway A – After Class 12th (Degree Route)","Step 1: Pass Class 10th with good marks","Step 2: Choose any stream in Class 11–12","Step 3: Pursue BBA or B.Sc. in Event Management","Step 4: Specialise in wedding planning during degree","Step 5: Intern with a professional wedding planning firm","Step 6: Join as Wedding Coordinator, grow to Planner","Pathway B – Diploma/Certification Route","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in diploma in Wedding & Event Management","Step 3: Learn décor, vendor management & budgeting","Step 4: Assist at live weddings as intern/volunteer","Step 5: Get certified from WPIC or similar institute","Step 6: Work with wedding agencies or luxury hotels","Pathway C – Freelance/Entrepreneurship Route","Step 1: Develop creativity and attention to detail early","Step 2: Learn Canva, Pinterest & social media styling","Step 3: Complete short online wedding planning course","Step 4: Assist friends/family events to build portfolio","Step 5: Build Instagram presence showcasing wedding ideas","Step 6: Launch own freelance wedding planning business"]
       },
       {
         id: "market",
@@ -1358,15 +1282,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Wedding Coordinator, 0-2 years): ₹3.5L–₹5L per annum. Learning phase with hands-on experience.",
-          "Mid-Level (Senior Planner, 3-5 years): ₹8L–₹15L per annum. Managing multiple weddings and teams.",
-          "Senior-Level (Director/Creative Head, 5-10 years): ₹20L–₹45L+ per annum. Leading departments and strategy.",
-          "Entrepreneurs: Can earn ₹10L–₹50L+ per wedding for high-end luxury projects. Freelancing very lucrative.",
-          "Growth Trajectory: Approximately 3 years to reach 'Senior Planner' and 5-7 years to lead department or start own firm.",
-          "Regional Trends: Goa, Jaipur, Udaipur highest-paying for destination specialists. Delhi and Mumbai dominate high-volume luxury market.",
-          "Industry Growth: Growing at 14.5% CAGR. Massive expansion expected."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60L – ₹2Cr","Senior / Lead Role (10+ yrs): ₹25L – ₹45L","Mid-Level Professional (5–8 yrs): ₹12L – ₹20L","Junior / Associate (3–5 yrs): ₹7L – ₹12L","Entry Level (0–2 yrs): ₹4L – ₹7L","Note: Luxury segment and destination weddings pay significantly more.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Jaipur, Udaipur, Hyderabad, Goa.","Top Industries: Luxury Event Agencies, Hospitality, Independent Consultancy.","Global Demand: High demand in UAE, Italy, Thailand, Turkey.","Top Institutions","Government","Indian Institute of Tourism & Travel Management (IITTM), Gwalior","Institute of Hotel Management (IHM), New Delhi","National Institute of Fashion Technology (NIFT), New Delhi","Jamia Millia Islamia — Department of Mass Communication & Event Studies, New Delhi","Private","National Academy of Event Management & Development (NAEMD), Mumbai","Wedding Academy of India (WAI), New Delhi","Amity Institute of Event Management, Noida","Pearl Academy — Event & Experiential Design, New Delhi","Online","Udemy — Wedding Planning & Management Masterclass","Coursera — Event & Wedding Management Programme","Alison — Professional Wedding Planning Diploma","Shaw Academy — Certified Wedding Planner Course","Career Opportunities","Conventional","Wedding Planner","Wedding Coordinator","Wedding Operations Manager","Venue Coordinator","New-age and AI driven","Wedding Experience Designer","Event Technology Specialist","Client Relationship Executive","Wedding Data & Budget Analyst","Remote / Entrepreneurship","Destination Wedding Consultant","Wedding Content Creator","Bridal Services Entrepreneur","Wedding Décor Consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",

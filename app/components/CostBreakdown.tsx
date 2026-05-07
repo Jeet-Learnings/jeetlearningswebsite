@@ -49,21 +49,21 @@ export function CostBreakdown({
   }, 0);
 
   return (
-    <div className="bg-white">
+    <div className="w-full">
       {/* Section heading */}
-      <div className="px-4 sm:px-6 md:px-8 pt-10 sm:pt-14 pb-6 sm:pb-8">
+      <div className="px-4 sm:px-6 md:px-8 pt-0 pb-8 sm:pb-10 md:pb-12">
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-3 sm:mb-4">
             <TranslatedText>Cost Breakdown by Category</TranslatedText>
           </h3>
-          <p className="text-sm sm:text-base text-slate-500 mt-2">
+          <p className="text-sm sm:text-base md:text-lg text-slate-600">
             <TranslatedText>{subtitle}</TranslatedText>
           </p>
         </div>
       </div>
 
       {/* Cards */}
-      <div className="px-4 sm:px-6 md:px-8 pb-10 sm:pb-14">
+      <div className="px-4 sm:px-6 md:px-8 pb-0">
         <div className="max-w-4xl mx-auto space-y-3">
           {costItems.map((item, idx) => {
             const isOpen = expandedIndex === idx;

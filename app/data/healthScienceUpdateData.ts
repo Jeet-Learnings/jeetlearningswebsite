@@ -90,13 +90,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Focus on Science (PCB) for Class 11 and 12. This is mandatory for medical degrees. Board Exams (Focus: Biology).",
-          "After Class 12 (Science Stream): Appear for NEET-UG. Choose specialized 5.5-year degree: BAMS (Ayurveda), BHMS (Homeopathy), BNYS (Naturopathy & Yoga).",
-          "After Graduation: Lateral Entry—If you have B.Sc., switch to M.Sc. in Yoga or PG Diploma in Clinical Nutrition. Entrance Exam: AIAPGET (for MD/MS in AYUSH).",
-          "Top Institutions: National Institute of Ayurveda (NIA) - Jaipur, IMS-BHU - Varanasi, All India Institute of Ayurveda (AIIA) - Delhi, Patanjali Ayurved College - Haridwar.",
-          "Specializations: Panchakarma, Herbal Pharmacology, Yoga Therapy, Nutrition Science, Clinical Research."
-        ]
+        content: ["Pathway A: Ayurveda Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Clear NEET; apply for BAMS degree","Step 3: Complete 5.5-year BAMS program","Step 4: One-year internship at Ayurvedic hospital","Step 5: Register with State Ayurvedic Council","Step 6: Work as Ayurvedic Doctor/Consultant","Pathway B: Yoga & Naturopathy Route","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in BNYS degree (5.5 years)","Step 3: Learn pranayama, diet therapy, hydrotherapy","Step 4: Complete clinical internship","Step 5: Get certified by Yoga Certification Board","Step 6: Work as Naturopath/Yoga Therapist","Pathway C: Homeopathy Route","Step 1: Pass Class 12th with PCB","Step 2: Clear NEET; join BHMS degree","Step 3: Complete 5.5-year BHMS course","Step 4: Hospital internship (1 year)","Step 5: Register with Central Council of Homeopathy","Step 6: Practise as Homeopathic Physician"]
       },
       {
         id: "market",
@@ -104,15 +98,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Medical Officer, 0-2 years): ₹4.5L–₹8L per annum. Government or private clinic positions.",
-          "Mid-Level (Senior Consultant, 3-8 years): ₹12L–₹25L per annum. Managing clinics or wellness centers.",
-          "Senior-Level (Department Head/Specialist, 8-15 years): ₹30L–₹60L per annum. Leading research or large wellness centers.",
-          "Entrepreneurs/Wellness Founders: ₹1Cr+ per annum. Building successful wellness brands.",
-          "Growth Trajectory: Entry to Senior Specialist takes 8-10 years.",
-          "Market Size: Global alternative medicine market rising at 7.35% CAGR.",
-          "Metro vs. Tier-2: Metros offer 15% higher salaries. Tier-2 cities (Kochi, Haridwar) are wellness tourism hubs with high demand."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.5Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. Specialized MD degrees boost income.","Where Are the Jobs?","Top Cities: Haridwar, Kochi, Bengaluru, Delhi, Rishikesh, Pune.","Top Industries: Wellness (Dabur, Patanjali), Telehealth, Clinical Research.","Global Demand: High in USA, Germany. Remote wellness consulting rising.","Top Institutions","Career Opportunities","Conventional","Ayurvedic Doctor","Homeopathic Doctor","Unani Practitioner","Naturopathy and Yoga Therapist","New-age and AI Driven","Integrative Medicine Specialist","Wellness Data Analyst","Digital Health and Holistic Care Consultant","AI-enabled Personalized Wellness Advisor","Remote/Entrepreneurship","Online Alternative Medicine Consultant","Herbal Products Entrepreneur","Holistic Wellness Coach","YouTube/Content Creator in Natural Healing"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -341,14 +327,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Short-term skill training for basic roles. Certificate in X-Ray Technician (6-12 months). Quick entry into field.",
-          "After Class 12 (Science): Most common entry route. B.Sc. in Medical Radiology & Imaging Technology (3 years + 6 months internship). Entrance Exams: State Entrance, AIIMS Paramedical.",
-          "After Class 12 (Any Stream): Shorter, practical-heavy route. Diploma in Radio-Diagnosis Technology (DRT) (2 years). Entrance Exams: State Entrance Exams.",
-          "After Graduation: For career-switchers or higher specialization. M.Sc. in Radiology or PG Diploma in specialized MRI/CT technology.",
-          "Top Institutions: AIIMS (New Delhi), JIPMER (Puducherry), SGPGI (Lucknow), PGIMER (Chandigarh), CMC (Vellore), Manipal Academy.",
-          "Specializations: CT Technology, MRI Technology, Ultrasound, Interventional Radiology, Nuclear Medicine."
-        ]
+        content: ["Pathway A: BSc Radiology Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Enroll in BSc Radiology/Medical Imaging Technology (3 years)","Step 3: Learn X-ray, CT scan, MRI, ultrasound techniques","Step 4: Complete clinical internship at hospital radiology department","Step 5: Register with Allied Health Council/state paramedical board","Step 6: Work as Radiology Technician/Imaging Technologist","Pathway B: Diploma Route","Step 1: Pass Class 12th with PCB (any board)","Step 2: Enroll in Diploma in Radiography & Imaging (2 years)","Step 3: Learn radiation safety, patient positioning, image processing","Step 4: Complete internship at diagnostic centre or hospital","Step 5: Get certified by state paramedical board","Step 6: Work as Radiographer/X-ray Technician","Pathway C: Postgraduate Specialisation Route","Step 1: Complete BSc Radiology/Medical Imaging degree","Step 2: Pursue MSc Medical Imaging or PG Diploma (1–2 years)","Step 3: Specialise in MRI, nuclear medicine, or radiation therapy","Step 4: Train at super-speciality hospital or cancer institute","Step 5: Get certified by ARRT or national imaging body","Step 6: Work as Senior Radiographer/Radiation Therapy Technologist"]
       },
       {
         id: "market",
@@ -356,15 +335,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (0-2 years): ₹3L–₹5.5L per annum. Government or private diagnostic centers.",
-          "Mid-Level (3-7 years): ₹6L–₹10L per annum. Senior positions in hospitals or diagnostic chains.",
-          "Senior/Leadership (8-15 years): ₹12L–₹20L+ per annum. Leading radiology departments.",
-          "Metro vs. Tier-2: Metros (Delhi, Mumbai, Bangalore) about 25% higher. Tier-2 cities (Jaipur, Lucknow) offer faster growth rate.",
-          "Market Size: Diagnostic imaging market growing at CAGR of 12-15%. Rapid expansion trajectory.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization.",
-          "International: Huge demand in Middle East, UK (NHS), Canada. Requires IELTS/OET and local licensing exams."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20L – ₹35L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L Note: Metros pay 30% extra. AERB/CT-MRI skills boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Kochi.","Top Industries: Hospitals, Diagnostic Chains, MedTech.","Global Demand: High in USA, UK, UAE. Remote reporting rising.","Top Institutions","Career Opportunities","Conventional","Radiology Technician","X-Ray Technician","CT Scan Technician","MRI Technician","New-age and AI Driven","AI-assisted Imaging Analyst","Digital Radiography Specialist","PACS and Imaging Informatics Technician","Interventional Radiology Technologist","Remote/Entrepreneurship","Teleradiology Workflow Coordinator","Diagnostic Centre Entrepreneur","Imaging Equipment Service Consultant","Radiology Training Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -595,13 +566,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Take any stream (Science/Commerce/Arts). Science (Biology) helpful but not mandatory. Board Exams (Focus: Any stream).",
-          "After Class 12: Pursue Bachelor's in Health Management, Nursing, or Social Work. BHA (Bachelor of Health Admin) or BBA (Healthcare). Entrance Exams: CUET or State Entrance Exams.",
-          "After Graduation: Most administrators enter after Master's degree. This is most successful route. MPH (Master of Public Health) or MBA in Health Management. Entrance Exams: NEET-PG (for doctors), TISSNET/CUET (for TISS), University Entrance Exams.",
-          "Top Institutions: AIIMS (Delhi/Rishikesh), TISS (Mumbai), IIPH (Delhi/Gandhinagar), JIPMER (Puducherry), JNU (Delhi).",
-          "Specializations: Health Policy, Epidemiology, Health Economics, Hospital Management, Maternal and Child Health."
-        ]
+        content: ["Pathway A: BHM/BHA Route (After Class 12th)","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in BHM/BHA or BSc Health Administration (3–4 years)","Step 3: Learn public health policy, hospital management, health economics","Step 4: Complete internship at government hospital or PHC","Step 5: Appear for state/central government health service exams","Step 6: Work as Health Officer/Block Medical Officer","Pathway B: MPH/MHA Postgraduate Route","Step 1: Complete graduation in any health or science discipline","Step 2: Enroll in MPH or MHA degree (2 years)","Step 3: Learn epidemiology, biostatistics, health policy, administration","Step 4: Intern at NHM, WHO, or district health department","Step 5: Clear UPSC/state PSC for IAS/IFS health services","Step 6: Work as District Health Officer/Public Health Manager","Pathway C: MBBS to Public Health Route","Step 1: Complete MBBS degree","Step 2: Pursue MD Community Medicine or MPH (2–3 years)","Step 3: Learn disease surveillance, immunisation, rural health","Step 4: Work with ICMR, NHSRC, or state health missions","Step 5: Get certified by global health bodies like WHO/IPHA","Step 6: Work as Chief Medical Officer/Health Policy Advisor"]
       },
       {
         id: "market",
@@ -609,15 +574,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (0-2 years): ₹4.5L–₹8L per annum. Government or NGO positions.",
-          "Mid-Level (3-8 years): ₹12L–₹22L per annum. Senior positions in health departments or organizations.",
-          "Senior/Leadership (8-15 years): ₹30L–₹45L+ per annum. Leading health systems or policy bodies.",
-          "Average Salary: ₹21L per year (2025/2026 data).",
-          "Market Size: Healthcare sector expanding at CAGR of 22% since 2016. Massive growth trajectory.",
-          "Demand: India will need 45,000+ trained health management professionals by 2030.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹25 LPA – ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 LPA – ₹5.5 LPA","Note: Metros pay 30% more. MPH/MBA degree boosts income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Bengaluru, Hyderabad, Mumbai, Pune, Chennai.","Top Industries: NHM, WHO, Health-tech, Insurance, NGOs, CSR.","Global Demand: High in USA, UK. Remote policy roles rising.","Top Institutions","Career Opportunities","Conventional","Public Health Administrator","Health Programme Manager","Hospital and Community Health Coordinator","Health Policy Officer","New-age and AI Driven","Digital Public Health Specialist","Health Data Analyst","AI-enabled Disease Surveillance Specialist","Health Informatics Manager","Remote/Entrepreneurship","Public Health Consultant","Healthcare NGO Founder","Telehealth Programme Coordinator","Public Health Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -849,14 +806,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science (PCB) for Physical/Speech therapy. Any stream for Psychology. Board Exams (Focus: Biology for science stream).",
-          "After Class 12 (Science): Enroll in Professional Degree (4.5 years): BPT (Physiotherapy), BOT (Occupational Therapy), BASLP (Speech-Language Pathology). Entrance Exams: IPU CET, NEET (some institutes), CUET, State-level CETs.",
-          "After Class 12 (Any Stream): Pursue Bachelor's in Psychology (3 years): BA/B.Sc. Psychology. Entrance Exams: CUET, State-level entrance exams.",
-          "After Graduation: Specialize for higher pay and clinical status: MPT (Master of Physiotherapy), MOT (Master of Occupational Therapy), M.Sc. Psychology, M.Phil (Clinical Psychology).",
-          "Top Institutions: AIIMS (New Delhi), NIMHANS (Bangalore), IPGMER (Kolkata), Manipal Academy, CMC Vellore, Amity University, Jamia Hamdard.",
-          "Specializations: Sports Physiotherapy, Neuro-rehabilitation, Pediatric Therapy, Mental Health Counseling, Geriatric Care."
-        ]
+        content: ["Pathway A: Physiotherapy Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Enroll in BPT (Bachelor of Physiotherapy) degree (4.5 years)","Step 3: Learn musculoskeletal, neurological, cardiopulmonary therapy","Step 4: Complete 6-month internship at hospital/rehabilitation centre","Step 5: Register with Indian Association of Physiotherapists (IAP)","Step 6: Work as Physiotherapist/Rehabilitation Specialist","Pathway B: Occupational Therapy Route","Step 1: Pass Class 12th with PCB","Step 2: Enroll in BOT (Bachelor of Occupational Therapy) degree (4.5 years)","Step 3: Learn sensory integration, mental health, daily living skills","Step 4: Complete clinical internship at special needs/rehab centre","Step 5: Register with All India OT Association (AIOTA)","Step 6: Work as Occupational Therapist/Special Educator","Pathway C: Speech & Respiratory Therapy Route","Step 1: Pass Class 12th with PCB (any board)","Step 2: Enroll in B.ASLP or BSc Respiratory Therapy (4 years)","Step 3: Learn speech disorders, breathing techniques, ventilator care","Step 4: Complete internship at ENT hospital or ICU department","Step 5: Register with Rehabilitation Council of India (RCI)","Step 6: Work as Speech Therapist/Respiratory Care Technician"]
       },
       {
         id: "market",
@@ -864,15 +814,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Fresher, 0-2 years): ₹3.5L–₹5.5L per annum. Government or private clinics.",
-          "Mid-Level (5-10 years): ₹8L–₹15L per annum. Senior positions in hospitals or private practices.",
-          "Senior/Specialist (10-15 years): ₹18L–₹30L+ per annum. Leading therapy departments or private clinics.",
-          "Metro vs. Tier-2: Salaries 25% higher in metros. But private practices in Tier-2/3 cities booming due to low competition.",
-          "Market Size: Indian mental health and rehab market growing at CAGR of ~15% (Source: ResearchAndMarkets 2025).",
-          "Growth Trajectory: Reaching 'Senior Consultant' role typically takes 7–10 years with consistent experience.",
-          "International: High demand in Canada, UK, Australia. Requires IELTS/OET and local licensing exams."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹11 LPA","Entry Level (0–2 yrs): ₹4 – ₹6 LPA","Note: Metros pay 30% more. Specialized certifications boost earnings.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Pune, Hyderabad, Chennai.","Top Industries: Hospitals, Ed-Tech, Corporate Wellness, Mental Health Apps.","Global Demand: High remote demand in USA, UK, and Canada.","Top Institutions","Career Opportunities","Conventional","Physiotherapist","Occupational Therapist","Speech Therapist","Respiratory Therapist","New-age and AI Driven","Neurorehabilitation Specialist","AI-based Therapy Planning Associate","Digital Rehabilitation Specialist","Assistive Technology Therapist","Remote/Entrepreneurship","Online Therapy Consultant","Rehabilitation Clinic Founder","Home Therapy Service Provider","Therapy Education Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1103,13 +1045,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Take Science (Physics, Chemistry, Biology or Maths) in 11th & 12th. School Boards (Focus: Science). This is mandatory foundation.",
-          "After Class 12: Option A (2 years)—Diploma in Pharmacy (D.Pharm) for retail/hospital roles. Option B (4 years)—Degree in Pharmacy (B.Pharm) for industry/research roles. Entrance Exams: WBJEE, MHT-CET, NEET. Option C (6 years)—Doctoral degree (Pharm.D) for clinical pharmacy roles.",
-          "After B.Pharm: Pursue M.Pharm or MBA in Pharma Management for high-paying leadership roles. Entrance Exams: GPAT or NIPER-JEE.",
-          "Top Institutions: NIPER (Mohali/Hyderabad), ICT (Mumbai), Panjab University (Chandigarh), BITS Pilani, Manipal College of Pharmaceutical Sciences.",
-          "Specializations: Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacovigilance, Regulatory Affairs, Clinical Pharmacy."
-        ]
+        content: ["Pathway A: B.Pharm Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology/Maths","Step 2: Enroll in B.Pharm degree (4 years)","Step 3: Learn pharmacology, drug formulation, pharmaceutical chemistry","Step 4: Complete internship at hospital pharmacy or drug company","Step 5: Register with State Pharmacy Council","Step 6: Work as Pharmacist/Drug Store Manager","Pathway B: M.Pharm Specialisation Route","Step 1: Complete B.Pharm degree successfully","Step 2: Clear GPAT exam; enroll in M.Pharm (2 years)","Step 3: Specialise in Pharmaceutics, Pharmacology, or Drug Regulatory Affairs","Step 4: Complete research project at pharmaceutical institute","Step 5: Get certified by PCI or pharmaceutical research body","Step 6: Work as Research Scientist/Drug Regulatory Officer","Pathway C: D.Pharm Route (Diploma)","Step 1: Pass Class 12th with Physics, Chemistry, Biology/Maths","Step 2: Enroll in D.Pharm Diploma (2 years)","Step 3: Learn dispensing, drug interactions, patient counselling","Step 4: Complete 500-hour internship at registered pharmacy","Step 5: Register with State Pharmacy Council","Step 6: Work as Retail Pharmacist/Medical Store Owner"]
       },
       {
         id: "market",
@@ -1117,15 +1053,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (Fresher, 0-2 years): ₹3.0L–₹4.5L per annum. Retail or hospital positions.",
-          "Mid-Level (5-8 years): ₹7.0L–₹12.0L per annum. Senior positions in pharma companies or hospitals.",
-          "Senior-Level (Dept Head, 8-15 years): ₹18.0L–₹35.0L per annum. Leading departments or specialized roles.",
-          "Leadership/CXO: ₹50.0L–₹1.5Cr+ per annum. Managing large pharmaceutical organizations.",
-          "Market Size: Valued at $58B in 2024, projected to hit $130B by 2030. Rapid growth trajectory.",
-          "Metro vs. Tier-2: Metros (Mumbai, Hyderabad, Ahmedabad) offer higher base pay. Tier-2 'Pharma Hubs' like Baddi (HP) or Sikkim offer faster growth in manufacturing.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.4 Crore","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. GPAT/M.Pharm boosts earnings.","Where Are the Jobs?","Top Cities: Hyderabad, Bengaluru, Mumbai, Ahmedabad, Baddi, Delhi.","Top Industries: Pharma Manufacturing, Hospital Chains, Telehealth, Research.","Global Demand: High in USA, UAE. Remote pharmacovigilance rising.","Top Institutions","Career Opportunities","Conventional","Retail Pharmacist","Hospital Pharmacist","Clinical Pharmacist","Drug Safety Associate","New-age and AI Driven","Pharmacovigilance Analyst","Digital Pharmacy Operations Specialist","AI-based Drug Information Associate","Clinical Data and Medication Informatics Specialist","Remote/Entrepreneurship","Online Pharmacy Consultant","Pharmacy Store Owner","Generic Medicines Entrepreneur","Pharma Education Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1356,14 +1284,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Take Science (PCB/PCM) in Class 11 & 12. Board Exams (Focus: Science). This is mandatory foundation.",
-          "After Class 12: Enroll in 4-year Bachelor of Optometry (B.Optom). Entrance Exams: EYELET, CUET, or State CETs.",
-          "Lateral Entry: 2-year Diploma holders can join 3rd year of B.Optom. Diploma in Optometry pathway.",
-          "After Graduation: Pursue M.Optom or PhD for research/teaching. Entrance Exams: ASCO-CET or University Exams.",
-          "Top Institutions: AIIMS (New Delhi), CMC (Vellore), Jamia Hamdard (Delhi), Elite School of Optometry (Chennai), Lotus College of Optometry (Mumbai).",
-          "Specializations: Contact Lens Fitting, Pediatric Optometry, Low Vision Rehabilitation, Sports Vision, Neuro-Optometry."
-        ]
+        content: ["Pathway A: B.Optom Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Enroll in B.Optom degree (4 years)","Step 3: Learn refraction, contact lens, ocular disease management","Step 4: Complete clinical internship at eye hospital/clinic","Step 5: Register with State Optometry Council/allied health body","Step 6: Work as Optometrist at eye hospital/optical store","Pathway B: Postgraduate Specialisation Route","Step 1: Complete B.Optom degree successfully","Step 2: Pursue M.Optom or MSc Optometry (2 years)","Step 3: Specialise in paediatric/low vision/contact lens optometry","Step 4: Complete advanced clinical research or hospital posting","Step 5: Get certified by AIOC or recognised optometry body","Step 6: Work as Clinical Optometrist/Optometry Educator","Pathway C: Optical Dispensing & Retail Route","Step 1: Pass Class 12th (PCB preferred)","Step 2: Enroll in Diploma in Optometry (2 years)","Step 3: Learn lens dispensing, frame fitting, vision screening","Step 4: Intern at optical retail chain or eye care centre","Step 5: Get certified by state paramedical board","Step 6: Work as Dispensing Optician/Vision Care Specialist"]
       },
       {
         id: "market",
@@ -1371,15 +1292,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (0-2 years): ₹3.5L–₹5.5L per annum. Eye hospitals or optical chains.",
-          "Mid-Level (3-7 years): ₹7L–₹12L per annum. Senior positions in hospitals or established practices.",
-          "Senior/Private Practice (8-15 years): ₹15L–₹25L+ per annum. Leading optometry departments or private clinics.",
-          "Entrepreneurs: ₹25L+ per annum. Building successful optometry practices or chains.",
-          "Market Size: Expected to grow at CAGR of 7.2% until 2030. Vision industry exploding.",
-          "Metro vs. Tier-2: Metros like Mumbai/Delhi offer 15% higher pay. Tier-2 cities have higher 'patient-to-doctor' demand.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L – ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹16L","Junior / Associate (3–5 yrs): ₹4L – ₹8L","Entry Level (0–2 yrs): ₹2.5L – ₹4.5L","Note: Metros pay 30% more. M.Optom/Fellowships boost income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Ahmedabad.","Top Industries: Optical Chains (Lenskart), Hospitals, MedTech, Telehealth.","Global Demand: High in USA, UK. Tele-optometry is growing.","Top Institutions","Career Opportunities","Conventional","Optometrist","Vision Therapist","Contact Lens Specialist","Low Vision Specialist","New-age and AI Driven","Digital Eye Care Specialist","AI-based Vision Screening Analyst","Tele-Optometry Consultant","Ophthalmic Diagnostics Specialist","Remote/Entrepreneurship","Online Vision Care Consultant","Optical Clinic Founder","Eyewear Business Entrepreneur","Eye Health Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1611,13 +1524,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Certificate Course—6-month or 1-year Certificate in OT Technology. Gets you entry-level job as 'OT Assistant.' Quick entry into field.",
-          "After Class 12 (Science with Biology/Maths): The Diploma Route (2 Years)—DOTT (Diploma in Operation Theatre Technology). Very popular for quick job entry. OR The Degree Route (3-4 Years)—B.Sc. in OT Technology or B.Voc. in OTT. Gold Standard for top hospitals and international jobs.",
-          "After Graduation: Post-Graduate Diploma (1 Year)—If you have B.Sc. in Biology or Chemistry, switch careers by doing PG Diploma in OT Technology.",
-          "Top Institutions: AIIMS (New Delhi), PGIMER (Chandigarh), CMC (Vellore), Manipal Academy (MAHE), JIPMER (Puducherry).",
-          "Specializations: Cardiac Surgery OT, Neurosurgery OT, Orthopedic Surgery OT, Robotic Surgery, Transplant Surgery."
-        ]
+        content: ["Pathway A: BSc OT Technology Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Enroll in BSc Operation Theatre Technology (3 years)","Step 3: Learn surgical instruments, sterilisation, anaesthesia support","Step 4: Complete clinical internship at hospital OT department","Step 5: Register with Allied Health Council/state health body","Step 6: Work as OT Technician/Surgical Assistant in hospital","Pathway B: Diploma Route","Step 1: Pass Class 12th with PCB (any board)","Step 2: Enroll in Diploma in OT Technology (2 years)","Step 3: Learn patient positioning, surgical draping, OT setup","Step 4: Complete internship at government/private hospital OT","Step 5: Get certified by state paramedical board","Step 6: Work as OT Assistant/Scrub Technician","Pathway C: Specialisation & Senior Role Route","Step 1: Complete BSc/Diploma in OT Technology","Step 2: Gain 2–3 years of OT work experience","Step 3: Pursue PG Diploma in Surgical/Cardiac OT Technology","Step 4: Train in advanced procedures like laparoscopy, cardiac surgery","Step 5: Get certified by NCI or specialised surgical body","Step 6: Work as Senior OT Technician/OT Supervisor"]
       },
       {
         id: "market",
@@ -1625,15 +1532,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (Fresher, 0-2 years): ₹1.8L–₹3.0L per annum. Government or private hospital positions.",
-          "Mid-Level (3-7 years): ₹3.5L–₹6.0L per annum. Senior positions in hospitals or healthcare organizations.",
-          "Senior/Supervisor (8-15 years): ₹7.0L–₹12.0L+ per annum. Leading OT departments.",
-          "International: ₹1.5L–₹4L per month in UAE, UK, Canada. Salaries 3-4x higher than India.",
-          "Metro vs. Tier-2: Metros like Mumbai and Bangalore pay roughly 25% higher. Tier-2 cities offer lower cost of living and faster job growth.",
-          "Market Size: Projected to grow at CAGR of 8.3% through 2030. Hospital expansion driving demand.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35L – ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹15L – ₹30L","Mid-Level Professional (5–8 yrs): ₹7L – ₹14L","Junior / Associate (3–5 yrs): ₹4L – ₹7L","Entry Level (0–2 yrs): ₹2.5L – ₹4L","Note: Metros pay 25% higher. BSc degree improves career growth.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Hyderabad, Pune.","Top Industries: Multi-specialty Hospitals, Surgical Centers, MedTech, Research.","Global Demand: High in UAE, UK. Robotic surgery expertise rising.","Top Institutions","Career Opportunities","Conventional","Operation Theatre Technician","Surgical Assistant Technician","Anaesthesia Technician","Sterilization and CSSD Technician","New-age and AI Driven","Robotic Surgery OT Technician","Digital Surgical Equipment Specialist","OT Data and Workflow Coordinator","AI-assisted Surgical Support Technician","Remote/Entrepreneurship","OT Skills Trainer","Surgical Equipment Service Entrepreneur","Hospital OT Setup Consultant","Medical Training Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1865,14 +1764,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Start with basic assistant course for early entry into community health. ANM (Auxiliary Nurse Midwife) - 2 Years. Entry-level nursing qualification.",
-          "After Class 12 (Arts/Commerce): General entry into nursing with focus on clinical practice. GNM (General Nursing and Midwifery) - 3.5 Years. Open to all streams in many states.",
-          "After Class 12 (Science): The professional degree route. Required for high-paying corporate/international roles. B.Sc. Nursing - 4 Years. Entrance Exams: NEET, State Nursing Entrance, AIIMS.",
-          "After Graduation: For those already having degree in different field or GNM. Post-Basic B.Sc. Nursing (2 years). Advanced qualification for career growth.",
-          "Top Institutions: AIIMS (New Delhi), PGIMER (Chandigarh), CMC (Vellore), St. John's (Bangalore), Madras Medical College (Chennai).",
-          "Specializations: Critical Care Nursing, Pediatric Nursing, Psychiatric Nursing, Community Health Nursing, Geriatric Nursing."
-        ]
+        content: ["Pathway A: BSc Nursing Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Enroll in BSc Nursing degree (4 years)","Step 3: Learn clinical nursing, pharmacology, patient care","Step 4: Complete clinical internship at government hospital","Step 5: Register with Indian Nursing Council (INC)","Step 6: Work as Staff Nurse/Ward Nurse in hospital","Pathway B: GNM & Specialisation Route","Step 1: Pass Class 12th with PCB (50% marks)","Step 2: Enroll in GNM Diploma (3.5 years)","Step 3: Learn midwifery, community health, emergency care","Step 4: Complete 6-month internship at nursing home","Step 5: Pursue PB BSc Nursing for degree upgrade","Step 6: Work as Nursing Specialist/Community Health Nurse","Pathway C: Medical Assistant Route","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in Diploma in Medical Assistance (1–2 years)","Step 3: Learn patient records, vitals, basic clinical procedures","Step 4: Intern at clinic, polyclinic, or diagnostic centre","Step 5: Get certified by allied health or state health body","Step 6: Work as Medical Assistant/Clinical Support Staff"]
       },
       {
         id: "market",
@@ -1880,15 +1772,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (Fresher, 0-2 years): ₹2.6L–₹3.5L per annum. Government or private hospital positions.",
-          "Mid-Level (3-7 years): ₹4.5L–₹8L per annum. Senior positions in hospitals or healthcare organizations.",
-          "Senior/HOD (Nursing Director, 8-15 years): ₹12L–₹25L+ per annum. Leading nursing departments.",
-          "Metro Cities: ₹30,000–₹50,000/month (Entry-level). Higher salaries in major metros.",
-          "Tier-2/3 Cities: ₹18,000–₹28,000/month. Lower cost of living, growing opportunities.",
-          "Market Size: Private nursing market growing at CAGR of 7.6%, reaching $171.6M by 2030.",
-          "Demand: Healthcare workforce expected to grow by 6.3M additional jobs by 2030. Massive job expansion."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹16L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. Exams like NORCET boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Hyderabad.","Top Industries: Private Hospitals, Health-tech, Home Healthcare.","Global Demand: High in USA, UK. Tele-health roles rising.","Top Institutions","Career Opportunities","Conventional","Staff Nurse","ICU Nurse","Operation Theatre Assistant","Medical Assistant","New-age and AI Driven","Telehealth Nurse","Clinical Informatics Nurse","AI-enabled Patient Care Coordinator","Digital Health Support Specialist","Remote/Entrepreneurship","Home Healthcare Nurse","Elderly Care Service Provider","Online Patient Education Consultant","Nursing Skills Trainer"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2120,14 +2004,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Focus on improving English and typing. You cannot work yet, but can take certificate course. Certificate in Medical Terminology.",
-          "After Class 12: Any stream (Science/Arts/Commerce). Pursue Diploma in Medical Transcription. Diploma in MT (6–12 months). No formal entrance exam required.",
-          "After Graduation: Highly preferred for high-paying roles. Science grads (B.Sc/B.Pharma) have huge advantage. Pursue PG Diploma in Medical Transcription.",
-          "Certification: AHDI (Association for Healthcare Documentation Integrity) offers RHDS (Registered Healthcare Documentation Specialist)—gold standard globally.",
-          "Top Institutes: Indo Global Health Care Institute (Delhi), IGNOU (Distance Learning), Transorze Solutions (Bangalore/Kerala), Cigma Medical Coding Academy (Kochi), TISS-SVE (Mumbai).",
-          "Specializations: Medical Transcription, Medical Editing, AI-Assisted Transcription, Specialized Medical Transcription (Cardiology, Radiology, etc.)."
-        ]
+        content: ["Pathway A: Certificate Route (After Class 12th)","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in Certificate in Medical Transcription (6–12 months)","Step 3: Learn medical terminology, anatomy, typing skills","Step 4: Practice transcribing audio reports and clinical notes","Step 5: Complete internship at hospital or BPO/KPO firm","Step 6: Work as Medical Transcriptionist/Data Entry Analyst","Pathway B: Diploma & Healthcare IT Route","Step 1: Pass Class 12th (any stream)","Step 2: Pursue Diploma in Medical Transcription (1–2 years)","Step 3: Learn EHR software, coding systems (ICD, CPT)","Step 4: Intern at healthcare IT company or clinic","Step 5: Get certified by AHDI or healthcare informatics body","Step 6: Work as Medical Coder/Health Information Technician","Pathway C: Freelance & Remote Work Route","Step 1: Complete basic medical transcription certificate","Step 2: Build typing speed (minimum 60 words per minute)","Step 3: Learn HIPAA guidelines, medical report formats","Step 4: Join transcription platforms like Rev, TranscribeMe","Step 5: Build client portfolio and accuracy track record","Step 6: Work as Freelance Medical Transcriptionist/Editor"]
       },
       {
         id: "market",
@@ -2135,15 +2012,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (0-2 years): ₹2.5L–₹4.0L per annum. Healthcare BPOs or private MT agencies.",
-          "Mid-Level (3-7 years): ₹5.0L–₹9.0L per annum. Senior transcriptionist or team lead positions.",
-          "Senior/Quality Analyst (8-15 years): ₹10.0L–₹18.0L per annum. Quality assurance and editing roles.",
-          "Leadership/Manager: ₹20.0L+ per annum. Managing MT teams and operations.",
-          "Market Size: Global market projected to reach $100.65B in 2026. India remains top destination for offshoring.",
-          "Metro vs. Tier-2: Salaries standardized by MNCs, but Tier-2/3 residents often save more due to lower living costs while working remotely.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35L – ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹15L – ₹30L","Mid-Level Professional (5–8 yrs): ₹8L – ₹14L","Junior / Associate (3–5 yrs): ₹4L – ₹7L","Entry Level (0–2 yrs): ₹2.5L – ₹4L","Note: Metros pay 25% more. AI-editing skills boost income.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Chennai, Coimbatore, Delhi, Mumbai.","Top Industries: Healthcare BPOs, Teleradiology, Telehealth, International Hospitals.","Global Demand: High in USA, UK. Remote freelance work booming.","Top Institutions","Career Opportunities","Conventional","Medical Transcriptionist","Medical Documentation Specialist","Clinical Records Executive","Healthcare BPO Associate","New-age and AI Driven","AI-assisted Medical Scribe","Clinical Documentation Analyst","Medical Speech Recognition Editor","Health Information Management Specialist","Remote/Entrepreneurship","Freelance Medical Transcriptionist","Remote Medical Scribe","Medical Documentation Service Provider","Healthcare Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2375,14 +2244,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Take Science (PCB) for 11th & 12th. This is essential for degrees. School Boards (Focus: Science).",
-          "After Class 12 (Science Stream): Choose Diploma or Degree. DMLT (Diploma) - 2 years OR BMLT/B.Sc. MLT - 3 years. Entrance Exams: AIIMS Paramedical, NEET (for some institutes), State CETs.",
-          "After Graduation: Specialize for higher pay and leadership roles. M.Sc. in Medical Lab Tech or PG Diploma in specialized areas (Microbiology, Histopathology).",
-          "Internship: Complete 6-month mandatory internship in NABL-accredited lab. Gain practical experience and certification.",
-          "Top Institutions: AIIMS (Delhi/Bhubaneswar), PGIMER (Chandigarh), JIPMER (Puducherry), Christian Medical College (Vellore), KMC (Manipal).",
-          "Specializations: Clinical Pathology, Microbiology, Histopathology, Molecular Diagnostics, Radiology Technology."
-        ]
+        content: ["Pathway A: BMLT Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Enroll in BMLT degree (3 years)","Step 3: Learn haematology, microbiology, biochemistry lab tests","Step 4: Complete internship at diagnostic lab/hospital","Step 5: Register with State Medical Laboratory Council","Step 6: Work as Medical Lab Technologist/Lab Analyst","Pathway B: Radiology & Imaging Route","Step 1: Pass Class 12th with PCB","Step 2: Enroll in BSc Radiology/Medical Imaging (3 years)","Step 3: Learn X-ray, MRI, CT scan, ultrasound techniques","Step 4: Complete clinical internship at radiology department","Step 5: Get certified by ARRT or state health authority","Step 6: Work as Radiographer/Imaging Technologist","Pathway C: Postgraduate Specialisation Route","Step 1: Complete BMLT or BSc MLT degree","Step 2: Pursue MSc Medical Lab Sciences (2 years)","Step 3: Specialise in cytology, virology, or molecular diagnostics","Step 4: Complete research project at medical institute","Step 5: Get certified by NABL-accredited laboratory","Step 6: Work as Lab Specialist/Diagnostic Centre Manager"]
       },
       {
         id: "market",
@@ -2390,15 +2252,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (Technician, 0-2 years): ₹3.0L–₹5.0L per annum. Government hospitals or private diagnostic centers.",
-          "Mid-Level (Senior Tech/Supervisor, 3-8 years): ₹7.0L–₹12.0L per annum. Senior positions in diagnostic chains or hospitals.",
-          "Senior/Management (Lab Manager, 8-15 years): ₹15.0L–₹25.0L per annum. Leading labs or diagnostic networks.",
-          "Leadership (Director/Chief Scientist): ₹35.0L+ per annum. Managing large diagnostic organizations.",
-          "Market Size: Growing at CAGR of 11.23% (2026–2034). India needs estimated 1.5 lakh new technicians annually.",
-          "Metro vs. Tier-2: Salaries in Tier-1 cities (Mumbai, Delhi) 20% higher. Living costs lower in Tier-2/3 cities where demand rising fastest.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25L – ₹50L","Mid-Level Professional (5–8 yrs): ₹12L – ₹22L","Junior / Associate (3–5 yrs): ₹6L – ₹11L","Entry Level (0–2 yrs): ₹3L – ₹6L","Note: Metros pay 35% more. Specialization and NABH skills boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune.","Top Industries: Diagnostic Chains, Hospitals, AI-Diagnostics, MedTech companies.","Global Demand: USA, UAE, UK. Remote AI-reporting is rising.","Top Institutions","Career Opportunities","Conventional","Medical Laboratory Technologist","Radiology and Imaging Technologist","Pathology Technician","Diagnostic Centre Manager","New-age and AI Driven","AI-based Diagnostic Analyst","Digital Radiology Specialist","Molecular Diagnostics Specialist","Health Data and Lab Informatics Analyst","Remote/Entrepreneurship","Diagnostic Centre Founder","Home Sample Collection Service Provider","Tele-diagnostics Coordinator","Medical Diagnostics Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2629,14 +2483,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Choose Commerce or Science (either works). Focus on business and biology basics. School Boards (Focus: Business/Science).",
-          "After Class 12: Pursue Bachelor's degree. Options include BBA (Hospital Management), BHA, or B.Sc. (Nursing/Allied Health). Entrance Exams: CUET or State Entrance Exams.",
-          "After Graduation: The 'Master's Route' highly recommended for high-paying roles. Pursue MHA (Master of Hospital Admin) or MBA in Healthcare Management. Entrance Exams: CAT/MAT/CMAT.",
-          "Specialization: NEET-PG for doctors moving into management. Specialized certifications in healthcare management.",
-          "Top Institutions: AIIMS (Delhi/Rishikesh), TISS (Mumbai), FMS (Delhi), IIHMR University (Jaipur/Delhi), Kasturba Medical College (Manipal).",
-          "Specializations: Hospital Administration, Healthcare Finance, Quality Management, Health Information Systems, Medical Tourism."
-        ]
+        content: ["Pathway A: BHM Route (After Class 12th)","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in BHM/BHA degree (3–4 years)","Step 3: Learn hospital operations, finance, healthcare law","Step 4: Complete internship at hospital administration department","Step 5: Gain experience in billing, HR, or operations","Step 6: Work as Hospital Administrator/Operations Executive","Pathway B: MBA Hospital Management Route","Step 1: Complete graduation (any discipline)","Step 2: Clear CAT/MAT/GMAT; enroll in MBA Healthcare","Step 3: Study hospital planning, health economics, logistics","Step 4: Complete summer internship at corporate hospital","Step 5: Join as Management Trainee in healthcare company","Step 6: Work as Hospital Manager/Healthcare Consultant","Pathway C: Medical Graduate Route","Step 1: Complete MBBS/BDS/BAMS degree","Step 2: Pursue PG Diploma/MHA in Hospital Administration","Step 3: Learn quality management, accreditation, patient safety","Step 4: Complete administrative posting at multi-specialty hospital","Step 5: Get certified by NABH/healthcare quality body","Step 6: Work as Medical Director/Hospital CEO"]
       },
       {
         id: "market",
@@ -2644,15 +2491,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (Coordinator/Asst. Manager, 0-2 years): ₹3.5L–₹6L per annum. Government or private hospital positions.",
-          "Mid-Level (Dept. Head/Manager, 3-8 years): ₹8L–₹15L per annum. Senior positions in hospitals or healthcare organizations.",
-          "Senior-Level (COO/Medical Superintendent, 8-15 years): ₹25L–₹50L per annum. Leading departments or hospital networks.",
-          "Leadership/CXO (CEO of Hospital Chain): ₹1Cr–₹9Cr+ per annum. Managing large hospital networks and healthcare organizations.",
-          "Market Size: Healthcare sector growing at CAGR of 18.2% through 2027. Market projected to hit $197B by 2030.",
-          "Metro vs. Tier-2: Salaries 20-30% higher in Metros (Delhi, Mumbai, Bangalore). Job growth exploding in Tier-2 cities due to government-funded hospital expansions.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. MBA or NABH skills boost pay.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Mumbai, Delhi, Pune, Chennai.","Top Industries: Hospital Chains, Health-tech, Insurance, Medical Tourism.","Global Demand: High in UAE, UK. Remote administrative roles rising.","Top Institutions","Career Opportunities","Conventional","Hospital Administrator","Operations Manager","Patient Services Manager","Quality and Compliance Manager","New-age and AI Driven","Digital Health Manager","Hospital Data Analyst","AI-enabled Healthcare Operations Specialist","Health Informatics Manager","Remote/Entrepreneurship","Healthcare Management Consultant","Hospital Accreditation Advisor","Medical Tourism Entrepreneur","Healthcare Training and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2883,14 +2722,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Choose Science stream with Physics, Chemistry, and Biology (PCB). School Boards (Focus: Science). This is mandatory foundation.",
-          "After Class 12: Appear for NEET-UG. Score well to get into Homeopathic Medical College. BHMS (Bachelor of Homoeopathic Medicine and Surgery) - 5.5 Years.",
-          "After Graduation: Complete 1-year mandatory internship. Register with National Commission for Homoeopathy (NCH). You are now a licensed Homeopath!",
-          "Specialization: Pursue MD (Hom) or PG Diploma for specialization. Entrance Exams: University-specific or AIAPGET.",
-          "Top Institutions: National Institute of Homoeopathy (NIH) Kolkata, Nehru Homoeopathic Medical College Delhi, Government Homoeopathic Medical College Bangalore, Dr. D.Y. Patil Homoeopathic Medical College Pune.",
-          "Specializations: Classical Homeopathy, Pediatric Homeopathy, Women's Health, Chronic Disease Management, Research."
-        ]
+        content: ["Pathway A: BHMS Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Clear NEET; enroll in BHMS degree (5.5 years)","Step 3: Learn Materia Medica, Organon, Repertory","Step 4: Complete 1-year internship at homeopathic hospital","Step 5: Register with Central Council of Homeopathy (CCH)","Step 6: Work as Homeopathic Physician/Practitioner","Pathway B: Postgraduate Specialisation Route","Step 1: Complete BHMS degree successfully","Step 2: Clear MD (Homeopathy) entrance examination","Step 3: Pursue MD in Organon/Materia Medica/Paediatrics","Step 4: Complete 3-year postgraduate clinical training","Step 5: Register as specialist with CCH","Step 6: Work as MD Homeopath/College Professor","Pathway C: Wellness & Research Route","Step 1: Complete BHMS degree","Step 2: Pursue PG Diploma in Clinical Research (1 year)","Step 3: Learn pharmacology, drug trials, research tools","Step 4: Intern at homeopathic research institute or CCRH","Step 5: Get certified in clinical research/wellness coaching","Step 6: Work as Researcher/Homeopathic Wellness Consultant"]
       },
       {
         id: "market",
@@ -2898,15 +2730,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (Fresh BHMS, 0-2 years): ₹3.5L–₹6L per annum. Government hospitals or private clinics.",
-          "Mid-Level (Senior Consultant, 3-8 years): ₹10L–₹18L per annum. Senior positions in hospitals or established private practice.",
-          "Senior/HOD/Research Head (8-15 years): ₹25L–₹45L+ per annum. Leading departments or specialized practices.",
-          "Private Practitioners: ₹45L+ per annum. Building successful private practice with loyal patient base.",
-          "Market Size: Indian Homeopathy market projected to grow at CAGR of 12-15% through 2030. AYUSH market expected to reach $23.3B by 2027.",
-          "Metro vs. Tier-2: Private practitioners in Metros often earn more, but Tier-2 cities have lower competition and higher trust in traditional systems.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹16L","Junior / Associate (3–5 yrs): ₹4L – ₹8L","Entry Level (0–2 yrs): ₹2.5L – ₹4.5L","Note: Metros pay 30% more. MD (Hom) and AIAPGET boost income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Pune, Hyderabad, Kolkata.","Top Industries: Wellness Clinics (Dr. Batra's), AYUSH, Pharma, Telehealth.","Global Demand: High in Germany, UK. Remote tele-consulting is rising.","Top Institutions","Career Opportunities","Conventional","Homeopathic Doctor","Homeopathic Consultant","Homeopathic Pharmacist","Homeopathic Medical Officer","New-age and AI Driven","Integrative Homeopathy Specialist","Digital Case Analysis Consultant","AI-based Homeopathic Research Associate","Personalized Wellness Advisor","Remote/Entrepreneurship","Online Homeopathy Consultant","Homeopathy Clinic Founder","Homeopathic Products Entrepreneur","Homeopathy Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -3391,14 +3215,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Choose Science Stream (Physics, Chemistry, Biology) for Class 11 & 12. Board Exams (Focus: Science). This is mandatory foundation.",
-          "After Class 12 (Science Stream): Pursue 3-year B.Sc. in Nutrition & Dietetics or Home Science. Entrance Exams: CUET or State Entrance Exams.",
-          "After Graduation: Complete Post-Graduate Diploma (PGD) or M.Sc. in Food & Nutrition. Duration: 2 years. University Entrance Exams.",
-          "Professional Finish: Complete 6-month internship in IDA-recognized hospital. Clear RD (Registered Dietician) Exam. This is gold standard for clinical practice.",
-          "Top Institutions: Lady Irwin College (Delhi), Institute of Home Economics (Delhi), National Institute of Nutrition (Hyderabad), Christian Medical College (Vellore), Manipal Academy.",
-          "Specializations: Clinical Nutrition, Sports Nutrition, Community Nutrition, Pediatric Nutrition, Geriatric Nutrition, Nutrigenomics."
-        ]
+        content: ["Pathway A: BSc Nutrition Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Enroll in BSc Nutrition & Dietetics (3 years)","Step 3: Learn clinical nutrition, therapeutic diets, biochemistry","Step 4: Complete internship at hospital dietary department","Step 5: Register with Indian Dietetic Association (IDA)","Step 6: Work as Clinical Dietician in hospital/clinic","Pathway B: Postgraduate Specialisation Route","Step 1: Complete BSc Nutrition/Home Science","Step 2: Pursue MSc Dietetics or Food Science (2 years)","Step 3: Specialise in sports/paediatric/geriatric nutrition","Step 4: Complete research project or clinical posting","Step 5: Get certified by IDA or NIN","Step 6: Work as Senior Dietician/Nutrition Consultant","Pathway C: Fitness & Wellness Route","Step 1: Pass Class 12th (any stream)","Step 2: Enroll in Diploma in Nutrition & Health (1–2 years)","Step 3: Learn meal planning, weight management, supplements","Step 4: Intern at gym, wellness centre, or sports club","Step 5: Get certified by INFS or fitness nutrition body","Step 6: Work as Nutrition Coach/Wellness Consultant"]
       },
       {
         id: "market",
@@ -3406,15 +3223,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (Hospital/Gym, 0-2 years): ₹3.2L–₹6L per annum. Government or private clinic positions.",
-          "Mid-Level (5-10 years): ₹8L–₹15L per annum. Senior positions in hospitals or established wellness centers.",
-          "Senior/Specialist (Sports/Critical Care, 8+ years): ₹18L–₹35L per annum. Leading departments or specialized practices.",
-          "Leadership/CXO (Health-tech/FMCG): ₹40L–₹1Cr+ per annum. Managing nutrition programs across organizations.",
-          "Market Size: Growing at CAGR of 15% through 2030, driven by fitness revolution and rising geriatric care needs.",
-          "Metro vs. Tier-2: Salaries in Tier-1 cities (Bangalore, Mumbai, Delhi) 30% higher due to concentration of corporate wellness and tech startups.",
-          "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹15L","Junior / Associate (3–5 yrs): ₹4L – ₹7L","Entry Level (0–2 yrs): ₹2.5L – ₹4.5L","Note: Metros pay 30% extra. RD certification boosts income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Hospitals, Wellness Chains, FMCG, Telehealth Startups.","Global Demand: High in UK, UAE. Remote consulting rising.","Top Institutions","Career Opportunities","Conventional","Clinical Dietician","Hospital Nutritionist","Sports Dietician","Public Health Nutritionist","New-age and AI Driven","Personalized Nutrition Specialist","Gut Health Consultant","AI-based Nutrition Analyst","Digital Wellness Nutrition Expert","Remote/Entrepreneurship","Online Diet Consultant","Nutrition Clinic Founder","Healthy Meal Plan Entrepreneur","Nutrition Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -3645,13 +3454,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Choose Science Stream (Physics, Chemistry, Biology) for Class 11 & 12. Board Exams (Focus: Science). This is mandatory foundation.",
-          "After Class 12 (Science Stream): Clear NEET-UG national entrance exam. Pursue BDS (Bachelor of Dental Surgery) - 5 Years (4 years academic study + 1 year mandatory rotatory internship).",
-          "After Graduation: Clear NEET-MDS or INI-CET for specialization. Pursue MDS (Master of Dental Surgery) - 3 Years.",
-          "Specializations (MDS): Orthodontics (braces and teeth alignment), Endodontics (root canals), Oral Surgery (complex extractions and implants), Prosthodontics (implants and dentures), Periodontics (gum disease), Pedodontics (children's dentistry).",
-          "Top Institutions: Maulana Azad Institute (MAIDS) Delhi, KGMU Lucknow, Govt Dental College Mumbai, Manipal College of Dental Sciences, Saveetha Dental College Chennai, AB Shetty Institute Mangalore."
-        ]
+        content: ["Pathway A: BDS Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Clear NEET; enroll in BDS degree (5 years)","Step 3: Learn dental surgery, oral medicine, radiology","Step 4: Complete 1-year rotatory internship","Step 5: Register with Dental Council of India","Step 6: Work as General Dentist/Dental Surgeon","Pathway B: Specialist Route (MDS)","Step 1: Complete BDS degree successfully","Step 2: Clear NEET-MDS exam for MDS admission","Step 3: Pursue MDS in Orthodontics/Endodontics/Periodontics","Step 4: Complete 3-year postgraduate clinical training","Step 5: Register as specialist with DCI","Step 6: Work as Dental Specialist/College Professor","Pathway C: Dental Technician Route","Step 1: Pass Class 12th with PCB/PCM","Step 2: Enroll in Diploma in Dental Mechanics (2 years)","Step 3: Learn crown, bridge, denture fabrication","Step 4: Intern at dental lab or hospital","Step 5: Get certified by State Medical Faculty","Step 6: Work as Dental Technician/Lab Assistant"]
       },
       {
         id: "market",
@@ -3659,15 +3462,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (Fresher, 0-2 years): ₹3.0L–₹6.0L per annum. Government or private clinic positions.",
-          "Mid-Level (3-7 years): ₹8.0L–₹15.0L per annum. Senior positions in established clinics or corporate chains.",
-          "Senior/Specialist (8+ years): ₹18.0L–₹50.0L+ per annum. Leading departments or specialized practices.",
-          "Entrepreneurs/Private Practice: ₹50L+ per annum. Building successful dental brands and multi-clinic chains.",
-          "Market Size: Indian Dental Services market valued at $2.5 Billion in 2026, growing at 8% CAGR.",
-          "Metro vs. Tier-2: Salaries 20-30% higher in Metro cities like Delhi and Bangalore. Competition lower in Tier-2 cities.",
-          "Demand: Dentist-to-population ratio 1:10,000 vs WHO recommendation 1:2,000. Massive shortage creating opportunities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹15L","Junior / Associate (3–5 yrs): ₹4L – ₹7L","Entry Level (0–2 yrs): ₹2.5L – ₹4.5L","Note: Metros pay 40% more. MDS specialization boosts earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Corporate Chains (Clove), Medical Tourism, Cosmetic Dentistry.","Global Demand: High in UAE, Canada, Australia. Digital consulting rising.","Top Institutions","Career Opportunities","Conventional","General Dentist","Orthodontist","Prosthodontist","Oral and Maxillofacial Surgeon","New-age and AI Driven","Digital Dentistry Specialist","Dental Imaging Analyst","CAD/CAM Prosthesis Designer","AI-based Oral Diagnostics Consultant","Remote/Entrepreneurship","Teledentistry Consultant","Dental Clinic Founder","Dental Products Entrepreneur","Dental Health Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -3898,13 +3693,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: "#1E40AF",
-        content: [
-          "After Class 10: Take Physics, Chemistry, and Biology (PCB) in Class 11 & 12. Board Exams (Focus Science). This is mandatory foundation.",
-          "After Class 12 (Science Stream): Pursue BASLP (Bachelor of Audiology & Speech-Language Pathology). This is a 4-year course (3 years study + 1 year internship). Entrance Exams- NEET, AIISH Entrance, or University Exams.",
-          "After Graduation: Specialized entry for Science grads. Pursue M.Sc. Audiology or MASLP (Master's). Entrance Exam- AIAPGET or University-specific exams.",
-          "Top Institutions: AIISH (Mysore)—the 'Harvard' of Audiology, AYJNIHH (Mumbai/Kolkata), PGIMER (Chandigarh), Manipal Academy (MAHE), Sri Ramachandra (Chennai), Amity University (Noida).",
-          "Specializations: Pediatric Audiology, Cochlear Implant Programming, Tele-audiology, Intraoperative Monitoring, Hearing Aid Fitting."
-        ]
+        content: ["Pathway A: B.ASLP Route (After Class 12th)","Step 1: Pass Class 12th with Physics, Chemistry, Biology","Step 2: Enroll in B.ASLP degree (4 years)","Step 3: Learn hearing tests, speech therapy basics","Step 4: Complete clinical internship at ENT hospital","Step 5: Register with Rehabilitation Council of India","Step 6: Work as Audiologist in hospital/clinic","Pathway B: Postgraduate Specialisation Route","Step 1: Complete B.ASLP or BSc Audiology","Step 2: Pursue M.ASLP or MSc Audiology (2 years)","Step 3: Specialise in paediatric/geriatric audiology","Step 4: Complete advanced clinical training","Step 5: Gain experience at hearing care centre","Step 6: Work as Senior Audiologist/Researcher","Pathway C: Hearing Aid Specialist Route","Step 1: Pass Class 12th (PCB preferred)","Step 2: Enroll in Diploma in Hearing Aid Technology","Step 3: Learn audiometry and hearing aid fitting","Step 4: Intern at hearing aid company/clinic","Step 5: Get certified by recognised audiology board","Step 6: Work as Hearing Aid Specialist/Technician"]
       },
       {
         id: "market",
@@ -3912,15 +3701,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: [
-          "Entry-Level (0-2 years): ₹4L–₹7L per annum. Government hospitals or private clinics.",
-          "Mid-Level (5-10 years): ₹12L–₹25L per annum. Senior positions in hospitals or established private practice.",
-          "Senior/Specialist (10-15 years): ₹30L–₹45L per annum. Leading departments or specialized centers.",
-          "Leadership/CXO (Hospital chains): ₹60L+ per annum. Managing audiology departments across multiple locations.",
-          "Metro vs. Tier-2: Salaries in Metros like Bangalore and Delhi roughly 20% higher. Tier-2 cities seeing higher demand-to-supply ratio.",
-          "Industry Growth: Audiology market expected to grow at CAGR of 7.5% through 2030.",
-          "Growth Trajectory: Entry to Senior Specialist takes 8-10 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹9L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. RCI registration boosts earnings.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Kochi, Hyderabad.","Top Industries: Hospitals, Hearing-Aid MNCs, Rehabilitation Centers, Research.","Global Demand: High in USA, UAE. Remote Tele-audiology is rising.","Top Institutions","Career Opportunities","Conventional","Clinical Audiologist","Hearing Aid Specialist","Cochlear Implant Audiologist","Speech and Hearing Centre Audiologist","New-age and AI Driven","Tele-Audiology Specialist","AI-based Hearing Diagnostics Analyst","Digital Hearing Device Programmer","Hearing Health Data Specialist","Remote/Entrepreneurship","Online Hearing Consultant","Hearing Clinic Founder","Hearing Aid Business Owner","Audiology Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -4157,14 +3938,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 to professional practice.",
         color: "#06B6D4",
-        content: [
-          "After Class 10: Choose Science stream in Class 11-12 (Biology, Chemistry, Physics, English). This builds foundation for understanding brain and neuroscience. Develop reading habits about psychology and self-help. Volunteer with NGOs working in mental health.",
-          "After Class 12: Pursue BA/BSc in Psychology (3 years). Entrance: CUET (Common University Entrance Test). Minimum eligibility: 50% in Class 12. Covers: General Psychology, Developmental Psychology, Social Psychology, Abnormal Psychology, Research Methods, Statistics.",
-          "After Graduation: MA/MSc in Psychology (2 years) - MANDATORY. Specializations: Clinical Psychology, Counseling Psychology, Applied Psychology. Entrance Exams: CUET-PG, University-specific exams (DU, JNU, BHU, Ambedkar University).",
-          "RCI Registration: After MA/MSc, register with Rehabilitation Council of India (RCI) for official recognition as Clinical Psychologist.",
-          "Advanced Options: MPhil Clinical Psychology (2 years, phasing out). PhD in Clinical Psychology (3-5 years, often funded). Specialized certifications in CBT, DBT, trauma-focused therapy.",
-          "Total Timeline: Minimum 7 years from Class 12 to RCI registration and professional practice."
-        ]
+        content: ["Pathway A: Traditional Academic Route (After Class 12th)","Step 1: Pass Class 12th with any stream (Arts preferred).","Step 2: Complete B.A./B.Sc. in Psychology from recognized university.","Step 3: Pursue M.A./M.Sc. in Clinical Psychology.","Step 4: Complete supervised clinical internship in hospital/clinic setting.","Step 5: Obtain M.Phil. in Clinical Psychology (RCI recognized).","Step 6: Practice as Licensed Clinical Psychologist in hospitals/private.","Pathway B: Research & Specialization Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete B.A./B.Sc. in Psychology or Applied Psychology.","Step 3: Pursue M.A. in Psychology with clinical specialization.","Step 4: Learn psychometric tools like MMPI, Rorschach, WAIS.","Step 5: Complete Ph.D. in Clinical Psychology for advanced research.","Step 6: Work as Research Psychologist, Professor, or Clinical Director.","Pathway C: Integrated / Diploma Route","Step 1: Pass Class 12th in any stream.","Step 2: Join integrated B.A.-M.A. programme in Psychology.","Step 3: Complete P.G. Diploma in Clinical/Counselling Psychology.","Step 4: Gain practical training in mental health institutions.","Step 5: Register with Rehabilitation Council of India (RCI).","Step 6: Serve as Clinical Psychologist in NGOs/government hospitals."]
       },
       {
         id: "market-snapshot",
@@ -4172,15 +3946,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salary ranges and career growth trajectory.",
         color: "#EC4899",
-        content: [
-          "Entry-Level (0-2 years, Fresh RCI registration): ₹2,50,000 - ₹6,00,000 per annum. Average: ₹4,00,000.",
-          "Early Career (2-5 years): ₹4,00,000 - ₹9,00,000 per annum. Average: ₹6,00,000.",
-          "Mid-Career (5-10 years): ₹7,00,000 - ₹15,00,000 per annum. Average: ₹10,00,000.",
-          "Senior/Experienced (10-15 years): ₹12,00,000 - ₹22,00,000 per annum. Average: ₹16,00,000.",
-          "Leadership/Head of Department: ₹20,00,000 - ₹35,00,000+ per annum. Average: ₹25,00,000.",
-          "Career Growth: Entry to Early Career takes 2-3 years. Early to Mid-Career takes 3-5 years. Mid to Senior takes 5-7 years. Senior to Leadership varies based on specialization and entrepreneurship.",
-          "Private Practice Income: Experienced therapists can earn ₹1,000-3,000 per session × number of clients. Highly successful practitioners earn ₹20-40 LPA."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹20 – ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 – ₹18 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹9 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹5 LPA","Note: Metros pay 30% more; RCI license/M.Phil boosts earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Private Hospitals, Corporate Wellness, Health-tech, NGOs, Rehabilitation.","Global Demand: High remote tele-therapy demand in USA, UK, UAE.","Top Institutions","Career Opportunities","Conventional","Hospital Clinical Psychologist","Rehabilitation Psychologist","Child and Adolescent Psychologist","Academic / Teaching Psychologist","New-age and AI driven","Tele-mental Health Psychologist","Digital Mental Health Specialist","Behavioral Science Researcher","AI Ethics and Mental Health Research Associate","Remote/Entrepreneurship","Private Practice Therapist","Online Counselling Consultant","Mental Health Content Creator","Corporate Wellness Entrepreneur"]
       },{
         id: "cost-breakdown",
         title: "What Will It Cost? (Fees & Duration)",

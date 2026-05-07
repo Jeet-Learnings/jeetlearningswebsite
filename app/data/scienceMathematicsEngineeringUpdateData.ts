@@ -90,15 +90,7 @@ export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageD
         icon: "Map",
         description: "Specialized academic and technical routes for Industry 4.0.",
         color: BLUE,
-        content: [
-          "After Class 12 - Diploma Entry: Pursue a 3-year Diploma in Mechatronics or Automation from polytechnics to enter as a Junior Associate or Maintenance Technician.",
-          "After Class 12 - Specialized B.Tech: Enroll in B.Tech programs in Mechatronics, Robotics, or Automation at premier institutes like the IITs, NITs, or Manipal Institute.",
-          "After Graduation - M.Tech/MS Specialization: Graduates in Mechanical, Electronics, or CS can specialize via GATE in Robotics, Control Systems, or Embedded Systems.",
-          "After Graduation - Industry Certifications: Pursue global certifications from companies like Siemens or Bosch in PLC programming and Industrial IoT.",
-          "The Professional Roadmap - Selection: Secure internships or entry-level roles via campus placements or technical assessment tests (CoCubes/eLitmus).",
-          "The Professional Roadmap - Training: Undergo specialized hands-on training in ROS (Robot Operating System) and AI-integration at corporate R&D centers.",
-          "The Professional Roadmap - Growth: Progress from Systems Engineer to 'Automation Architect,' leading cross-functional teams in smart factory design."
-        ]
+        content: ["Pathway A: Core Engineering Route","Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.","Step 2: Clear JEE/State CET for engineering admission.","Step 3: Pursue B.Tech in Mechatronics or Robotics Engineering.","Step 4: Complete internship in automation or robotics companies.","Step 5: Pursue M.Tech in Mechatronics, Robotics, or AI.","Step 6: Work as Mechatronics Engineer or Automation Design Engineer.","Pathway B: Research & Development Route","Step 1: Complete Class 12th with PCM subjects.","Step 2: Pursue B.Tech in Mechatronics, ECE, or Mechanical Engineering.","Step 3: Learn tools like Arduino, ROS, MATLAB, and PLC.","Step 4: Clear GATE exam for M.Tech or PSU recruitment.","Step 5: Pursue M.Tech/Ph.D. from IITs, NITs, or IISC.","Step 6: Join as R&D Scientist or Robotics Research Engineer.","Pathway C: Skill-Based & Industry Entry Route","Step 1: Complete Class 12th with Science or ITI course.","Step 2: Pursue diploma in Mechatronics or Industrial Automation.","Step 3: Learn PLC, SCADA, embedded systems, and IoT basics.","Step 4: Complete industry certifications from Siemens or NSDC.","Step 5: Gain hands-on experience through factory or workshop training.","Step 6: Work as Automation Technician or PLC Programmer."]
       },
       {
         id: "market",
@@ -106,14 +98,7 @@ export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageD
         icon: "TrendingUp",
         description: "Salaries, growth projections, and hiring trends.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Graduate Engineer Trainee): 0–2 years experience, ₹5 Lakhs – ₹9 Lakhs average annual gross salary.",
-          "Mid-Level (Automation/Robotics Engineer): 5–10 years experience, ₹14 Lakhs – ₹25 Lakhs average annual gross salary.",
-          "Senior (Systems Architect/R&D Manager): 12–18 years experience, ₹30 Lakhs – ₹55 Lakhs average annual gross salary.",
-          "Leadership (VP of Engineering / CTO): 20+ years experience, ₹70 Lakhs – ₹1.2 Crore+ average annual gross salary.",
-          "Growth Projections: The Indian industrial automation market is projected to grow at a CAGR of 12% through 2027, fueled by a national push for semiconductor manufacturing and drone technology.",
-          "Hiring Trends: Demand is peaking for experts in Collaborative Robots (Cobots), Electric Vehicle (EV) powertrain integration, and AI-embedded hardware for smart warehouses."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹32 – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹30 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA","Entry Level (0–2 yrs): ₹4.5 – ₹7.5 LPA","Note: Expertise in Robotics, AI-integration (Physical AI), and ROS 2 boosts pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Pune, Chennai, Hyderabad, Delhi-NCR (Gurgaon/Noida).","Top Industries: Automotive/EV, Industrial Automation, Robotics, Aerospace, MedTech.","Global Demand: High in Germany, Japan, USA. Remote R&D and \"Digital Twin\" modeling are key trends.","Top Institutions","Career Opportunities","Conventional:","Mechatronics Engineer","Robotics Engineer","Automation / PLC Engineer","Control Systems Engineer","New-age and AI driven","Embedded Systems Engineer","Computer Vision Robotics Engineer","Smart Manufacturing Engineer","Autonomous Systems Engineer","Remote / Entrepreneurship","Robotics Trainer","Industrial Automation Consultant","Embedded Systems Freelancer","Robotics / Automation Startup Founder"]
       },
       {
         id: "opportunities",

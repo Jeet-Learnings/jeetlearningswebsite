@@ -44,14 +44,15 @@ export function TranslatedHeading({
 }
 
 /**
- * Wrapper for translated paragraphs
+ * Wrapper for translated option elements — avoids invalid <span> inside <option>
  */
-export function TranslatedParagraph({
+export function TranslatedOption({
+  value,
   children,
-  className = "",
 }: {
+  value: string;
   children: string;
-  className?: string;
 }) {
-  return <TranslatedText as="p" className={className}>{children}</TranslatedText>;
+  const translatedContent = useTranslatedContent(children);
+  return <option value={value}>{translatedContent}</option>;
 }

@@ -83,8 +83,116 @@ export function CareerPageDynamic({
     );
   }
 
-  const guideSections = pageData?.guideSections || [];
-
+  let guideSectionsRaw = pageData?.guideSections || [];
+  
+  let processedSections: any[] = [];
+  
+  guideSectionsRaw.forEach((s: any) => {
+    let id = s.id.toLowerCase();
+    const titleLower = s.title.toLowerCase();
+    
+    if (titleLower.includes('pathway')) id = 'pathways';
+    else if (titleLower.includes('market') || titleLower.includes('salary snapshot')) id = 'market';
+    else if (titleLower.includes('where to study') || titleLower.includes('institutions')) id = 'institutions';
+    else if (titleLower.includes('opportunities')) id = 'opportunities';
+    else if (titleLower.includes('what is this') || titleLower.includes('about')) id = 'what';
+    else if (titleLower.includes('day in the life')) id = 'dayinlife';
+    else if (titleLower.includes('is this you') || titleLower.includes('traits') || titleLower.includes('personality')) id = 'who';
+    else if (titleLower.includes('responsibilities') || titleLower.includes('workflow')) id = 'responsibilities';
+    else if (titleLower.includes('what will it cost') || titleLower.includes('investment required')) id = 'salary';
+    else if (titleLower.includes('challenges')) id = 'challenges';
+    else if (titleLower.includes('emerging trends') || titleLower.includes('future') || titleLower.includes('outlook')) id = 'future';
+    else if (titleLower.includes('skills to build') || titleLower.includes('school')) id = 'startnow';
+    else if (titleLower.includes('famous') || titleLower.includes('personalities')) id = 'personalities';
+    
+    if (id === 'market' || id === 'salary') {
+      const hasInstitutions = s.content?.some((c: string) => {
+        const cl = c.toLowerCase();
+        return cl.includes('top institutions') || cl.includes('where to study') || cl.includes('colleges');
+      });
+      const hasOpportunities = s.content?.some((c: string) => {
+        const cl = c.toLowerCase();
+        return cl.includes('career opportunities') || cl.includes('roles available');
+      });
+      const hasJobs = s.content?.some((c: string) => {
+        const cl = c.toLowerCase();
+        return cl.includes('where are the jobs') || cl.includes('top cities') || cl.includes('industries');
+      });
+      
+      if (hasInstitutions || hasOpportunities || hasJobs) {
+        const marketContent: string[] = [];
+        const instContent: string[] = [];
+        const oppContent: string[] = [];
+        const jobsContent: string[] = [];
+        let current = 'market';
+        
+        s.content?.forEach((item: string) => {
+          const lower = item.toLowerCase();
+          if (lower.includes('top institutions') || lower.includes('where to study') || lower.includes('colleges')) { current = 'institutions'; return; }
+          if (lower.includes('career opportunities') || lower.includes('roles available')) { current = 'opportunities'; return; }
+          if (lower.includes('where are the jobs') || lower.includes('job market')) { current = 'jobs'; return; }
+          
+          if (current === 'market') marketContent.push(item);
+          else if (current === 'institutions') instContent.push(item);
+          else if (current === 'opportunities') oppContent.push(item);
+          else if (current === 'jobs') jobsContent.push(item);
+        });
+        
+        processedSections.push({ ...s, id: 'market', content: marketContent });
+        
+        if (jobsContent.length > 0) {
+          processedSections.push({
+            id: 'jobs',
+            title: 'Where Are the Jobs?',
+            icon: 'MapPin',
+            description: 'Top cities and industries.',
+            content: jobsContent
+          });
+        }
+        
+        if (instContent.length > 0) {
+          processedSections.push({
+            id: 'institutions',
+            title: 'Where to Study?',
+            icon: 'Building2',
+            description: 'Top institutions.',
+            content: instContent
+          });
+        }
+        
+        if (oppContent.length > 0) {
+          processedSections.push({
+            id: 'opportunities',
+            title: 'Career Opportunities',
+            icon: 'Briefcase',
+            description: 'Roles available.',
+            content: oppContent
+          });
+        }
+        return;
+      }
+    }
+    
+    processedSections.push({ ...s, id });
+  });
+  
+  const deduplicated: Record<string, any> = {};
+  processedSections.forEach(s => {
+    if (!deduplicated[s.id] || (s.content?.length > deduplicated[s.id].content?.length)) {
+      deduplicated[s.id] = s;
+    }
+  });
+  
+  const finalSections: any[] = [];
+  const seenIds = new Set<string>();
+  processedSections.forEach(s => {
+    if (!seenIds.has(s.id)) {
+      seenIds.add(s.id);
+      finalSections.push(deduplicated[s.id]);
+    }
+  });
+  
+  const guideSections = finalSections;
   return (
     <div className="min-h-screen bg-white text-slate-900 font-body-md">
       <NavbarWrapper />
@@ -168,6 +276,7 @@ export function CareerPageDynamic({
       {guideSections.map((section: any, sectionIdx: number) => {
         const SectionIcon = iconMap[section.icon] || Info;
 
+        // ── dayinlife ────────────────────────────────────────────────
         if (section.id === 'dayinlife') {
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
@@ -186,60 +295,48 @@ export function CareerPageDynamic({
 
                 <div className="space-y-4 sm:space-y-5 md:space-y-6">
                   {section.content?.map((item: string, idx: number) => {
-                    // Handle both formats:
-                    // Format 1: "time|title|description" (actuarial science)
-                    // Format 2: "time - title: description" (banking)
+                    const pipeParts = item.split('|');
                     let time = '';
                     let title = '';
-                    let desc = '';
-                    
-                    if (item.includes('|')) {
-                      // Pipe-separated format
-                      [time, title, desc] = item.split('|');
-                    } else if (item.includes(' - ') && item.includes(': ')) {
-                      // Dash and colon format
-                      const dashIndex = item.indexOf(' - ');
-                      const colonIndex = item.indexOf(': ');
-                      
-                      if (dashIndex !== -1 && colonIndex !== -1 && dashIndex < colonIndex) {
-                        time = item.substring(0, dashIndex).trim();
-                        title = item.substring(dashIndex + 3, colonIndex).trim();
-                        desc = item.substring(colonIndex + 2).trim();
-                      } else {
-                        // Fallback if parsing fails
-                        time = '';
-                        title = item;
-                        desc = '';
-                      }
+                    let description = '';
+
+                    if (pipeParts.length >= 3) {
+                      time = pipeParts[0].trim();
+                      title = pipeParts[1].trim();
+                      description = pipeParts[2].trim();
                     } else {
-                      // Fallback for other formats
-                      time = '';
-                      title = item;
-                      desc = '';
+                      const emDashIdx = item.indexOf('–');
+                      const hyphenIdx = item.indexOf(' - ');
+                      const splitIdx = emDashIdx !== -1 ? emDashIdx : hyphenIdx;
+                      
+                      if (splitIdx !== -1) {
+                        time = item.substring(0, splitIdx).trim();
+                        const rest = item.substring(splitIdx + 3).trim();
+                        const colonIdx = rest.indexOf(':');
+                        if (colonIdx !== -1) {
+                          title = rest.substring(0, colonIdx).trim();
+                          description = rest.substring(colonIdx + 1).trim();
+                        } else {
+                          title = rest;
+                        }
+                      } else {
+                        title = item;
+                      }
                     }
-                    
+
                     return (
-                      <div
-                        key={idx}
-                        className="bg-white rounded-lg sm:rounded-xl p-4 sm:p-5 md:p-6 border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all"
-                      >
-                        <div className="flex items-start gap-3 sm:gap-4">
-                          <div className="flex-shrink-0">
-                            <div className="flex items-center justify-center w-10 sm:w-11 md:w-12 h-10 sm:h-11 md:h-12 rounded-lg bg-blue-100">
-                              <Clock className="w-5 sm:w-5 md:w-6 h-5 sm:h-5 md:h-6 text-blue-600" />
-                            </div>
-                          </div>
-                          <div className="flex-1 min-w-0">
-                            <div className="mb-1 sm:mb-2">
-                              <span className="text-base sm:text-lg md:text-lg font-bold text-blue-600 break-words">
-                                <TranslatedText as="span">{time?.trim()}</TranslatedText>
-                              </span>
-                            </div>
-                            <h4 className="text-base sm:text-lg md:text-lg font-bold text-slate-900 mb-1 sm:mb-2 break-words">
-                              <TranslatedText as="span">{title?.trim()}</TranslatedText>
+                      <div key={idx} className="group relative pl-6 sm:pl-8 border-l-2 border-blue-200 hover:border-blue-500 transition-colors py-1 sm:py-2">
+                        <div className="absolute -left-[9px] top-2 sm:top-3 w-4 h-4 rounded-full bg-white border-2 border-blue-500 group-hover:bg-blue-500 transition-colors shadow-sm" />
+                        <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
+                          <span className="text-xs sm:text-sm font-bold text-blue-600 uppercase tracking-wider min-w-[80px] sm:min-w-[100px]">
+                            <TranslatedText>{time}</TranslatedText>
+                          </span>
+                          <div className="flex-1">
+                            <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-1 leading-snug">
+                              <TranslatedText>{title}</TranslatedText>
                             </h4>
-                            <p className="text-xs sm:text-sm md:text-sm text-slate-600 leading-relaxed break-words">
-                              <TranslatedText as="span">{desc?.trim()}</TranslatedText>
+                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed max-w-3xl">
+                              <TranslatedText>{description}</TranslatedText>
                             </p>
                           </div>
                         </div>
@@ -252,223 +349,41 @@ export function CareerPageDynamic({
           );
         }
 
-        if (section.id === 'skills') {
+        // ── who (is this for) ─────────────────────────────────────────
+        if (section.id === 'who') {
           return (
-            <section key={sectionIdx} className="py-20 bg-slate-50 px-4 sm:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-                    <TranslatedText>{section.title}</TranslatedText>
-                  </h2>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
-                    <TranslatedText>{section.description}</TranslatedText>
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {section.content?.slice(0, 6).map((skill: string, idx: number) => {
-                    const hasColon = skill.includes(':');
-                    const [title, desc] = hasColon ? skill.split(':') : [skill, ''];
-                    return (
-                      <div
-                        key={idx}
-                        className="bg-white p-6 rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all"
-                      >
-                        <div className="flex items-start gap-4">
-                          <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <Brain className="w-6 h-6 text-blue-600" />
-                          </div>
-                          <div>
-                            <h4 className="text-lg font-bold text-slate-900 mb-2">
-                              <TranslatedText as="span">{title?.trim()}</TranslatedText>
-                            </h4>
-                            {hasColon && (
-                              <p className="text-sm text-slate-600 font-normal">
-                                <TranslatedText as="span">{desc?.trim()}</TranslatedText>
-                              </p>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            </section>
-          );
-        }
-
-        if (section.id === 'education') {
-          return (
-            <section key={sectionIdx} className="py-20 px-4 sm:px-8">
-              <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-                    <TranslatedText>{section.title}</TranslatedText>
-                  </h2>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
-                    <TranslatedText>{section.description}</TranslatedText>
-                  </p>
-                </div>
-
-                <div className="max-w-3xl mx-auto">
-                  <div className="flex flex-col gap-0">
-                    {section.content?.slice(0, 4).map((stage: string, idx: number) => {
-                      const hasColon = stage.includes(':');
-                      const [beforeColon, afterColon] = hasColon ? stage.split(':') : [stage, ''];
-                      
-                      return (
-                        <div key={idx} className="flex gap-6 pb-8 border-l-2 border-slate-200 ml-3 pl-8 relative">
-                          <div
-                            className={`absolute left-[-11px] top-0 w-5 h-5 rounded-full border-4 border-white ${
-                              idx === 0 ? 'bg-blue-600' : 'bg-slate-200'
-                            }`}
-                          ></div>
-                          <div>
-                            <span className={`text-label-sm font-bold ${idx === 0 ? 'text-blue-600' : 'text-slate-500'}`}>
-                              <TranslatedText as="span">{`STAGE ${String(idx + 1).padStart(2, '0')}`}</TranslatedText>
-                            </span>
-                            {hasColon ? (
-                              <h4 className="text-slate-900 text-lg">
-                                <span className="font-bold"><TranslatedText as="span">{beforeColon.trim()}</TranslatedText></span>
-                                <span className="font-normal">: <TranslatedText as="span">{afterColon.trim()}</TranslatedText></span>
-                              </h4>
-                            ) : (
-                              <h4 className="font-bold text-slate-900 text-lg"><TranslatedText as="span">{stage?.trim()}</TranslatedText></h4>
-                            )}
-                          </div>
-                        </div>
-                      );
-                    })}
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <User className="w-8 sm:w-10 h-8 sm:h-10 text-indigo-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      <TranslatedText as="span">{section.title}</TranslatedText>
+                    </h2>
                   </div>
-                </div>
-              </div>
-            </section>
-          );
-        }
-
-        if (section.id === 'salary') {
-          return (
-            <section key={sectionIdx} className="py-20 bg-slate-50 px-4 sm:px-8">
-              <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-                    <TranslatedText>{section.title}</TranslatedText>
-                  </h2>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
-                    <TranslatedText>{section.description}</TranslatedText>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
 
-                <div className="overflow-x-auto rounded-xl border border-slate-200 mb-8">
-                  <table className="w-full">
-                    <thead>
-                      <tr className="bg-blue-600 text-white">
-                        <th className="px-6 py-4 text-left font-bold text-sm"><TranslatedText>Career Level</TranslatedText></th>
-                        <th className="px-6 py-4 text-left font-bold text-sm"><TranslatedText>Salary Range</TranslatedText></th>
-                        <th className="px-6 py-4 text-left font-bold text-sm"><TranslatedText>Position</TranslatedText></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {section.content?.slice(0, 4).map((tier: string, idx: number) => {
-                        // Parse format: "Level (details): Salary. Positions: Jobs."
-                        const colonIndex = tier.indexOf(':');
-                        const dotIndex = tier.indexOf('.');
-                        const positionsIndex = tier.indexOf('Positions:');
-                        
-                        let level = '';
-                        let salary = '';
-                        let positions = '';
-                        
-                        if (colonIndex !== -1 && dotIndex !== -1) {
-                          level = tier.substring(0, colonIndex).trim();
-                          salary = tier.substring(colonIndex + 1, dotIndex).trim();
-                          
-                          if (positionsIndex !== -1) {
-                            positions = tier.substring(positionsIndex + 10).trim();
-                          }
-                        }
-                        
-                        return (
-                          <tr
-                            key={idx}
-                            className={`border-t border-slate-200 transition-colors ${
-                              idx % 2 === 0 ? 'bg-white' : 'bg-slate-50'
-                            } hover:bg-blue-50`}
-                          >
-                            <td className="px-6 py-4 text-sm font-bold text-slate-900">
-                              <TranslatedText as="span">{level}</TranslatedText>
-                            </td>
-                            <td className="px-6 py-4 text-sm font-bold text-blue-600">
-                              <TranslatedText as="span">{salary}</TranslatedText>
-                            </td>
-                            <td className="px-6 py-4 text-sm text-slate-600">
-                              <TranslatedText as="span">{positions}</TranslatedText>
-                            </td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
-
-                <div className="space-y-4">
-                  {section.content?.slice(4).map((item: string, idx: number) => {
-                    const hasColon = item.includes(':');
-                    const [beforeColon, afterColon] = hasColon ? item.split(':') : [item, ''];
-
-                    return (
-                      <div key={idx} className="bg-white p-6 rounded-xl border border-slate-200 hover:border-blue-300 transition-all">
-                        {hasColon ? (
-                          <p className="text-slate-700 text-sm leading-relaxed">
-                            <span className="font-bold text-slate-900"><TranslatedText as="span">{beforeColon.trim()}</TranslatedText></span>
-                            <span className="font-normal text-slate-600">: <TranslatedText as="span">{afterColon.trim()}</TranslatedText></span>
-                          </p>
-                        ) : (
-                          <p className="text-slate-700 text-sm leading-relaxed font-bold text-slate-900">
-                            <TranslatedText as="span">{item}</TranslatedText>
-                          </p>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            </section>
-          );
-        }
-
-        if (section.id === 'locations' || section.id === 'study') {
-          return (
-            <section key={sectionIdx} className="py-20 px-4 sm:px-8">
-              <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-                    <TranslatedText>{section.title}</TranslatedText>
-                  </h2>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
-                    <TranslatedText>{section.description}</TranslatedText>
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
-                    const [category, details] = hasColon ? item.split(':') : [item, ''];
+                    const [title, desc] = hasColon ? item.split(':') : [item, ''];
+                    const icons = [Brain, Target, Users, Zap, Heart, Eye];
+                    const IconComponent = icons[idx % icons.length];
                     
                     return (
-                      <div
-                        key={idx}
-                        className="bg-white border border-slate-200 p-6 rounded-xl hover:border-blue-300 hover:shadow-md transition-all"
-                      >
-                        <h4 className="text-lg font-bold text-slate-900 mb-3">
-                          <TranslatedText as="span">{category?.trim()}</TranslatedText>
+                      <div key={idx} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all group">
+                        <div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-sm">
+                          <IconComponent className="w-6 h-6 text-indigo-600" />
+                        </div>
+                        <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight">
+                          <TranslatedText as="span">{title}</TranslatedText>
                         </h4>
-                        {hasColon && (
-                          <p className="text-sm text-slate-600 leading-relaxed">
-                            <TranslatedText as="span">{details?.trim()}</TranslatedText>
-                          </p>
-                        )}
+                        <p className="text-sm text-slate-600 leading-relaxed">
+                          <TranslatedText as="span">{desc}</TranslatedText>
+                        </p>
                       </div>
                     );
                   })}
@@ -478,95 +393,138 @@ export function CareerPageDynamic({
           );
         }
 
-        if (section.id === 'scholarships') {
+        // ── pathways ─────────────────────────────────────────────────
+        if (section.id === 'pathways') {
+          const pathways: { title: string; steps: string[] }[] = [];
+          let currentPathway: { title: string; steps: string[] } | null = null;
+
+          section.content.forEach((item: string) => {
+            const lower = item.toLowerCase();
+            const isPathwayHeader = (lower.includes('pathway ') || lower.includes('route')) && !lower.startsWith('step');
+            
+            if (isPathwayHeader) {
+              if (currentPathway) pathways.push(currentPathway);
+              currentPathway = { title: item, steps: [] };
+            } else if (lower.startsWith('step ')) {
+              if (currentPathway) currentPathway.steps.push(item);
+              else currentPathway = { title: 'Standard Path', steps: [item] };
+            } else {
+              if (currentPathway) currentPathway.steps.push(item);
+              else currentPathway = { title: item, steps: [] };
+            }
+          });
+          if (currentPathway) pathways.push(currentPathway);
+
           return (
-            <section key={sectionIdx} className="py-20 bg-white px-4 sm:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <div className="flex items-center gap-4 mb-4">
-                    <Award className="w-10 h-10 text-amber-600" />
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Map className="w-8 sm:w-10 h-8 sm:h-10 text-blue-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
                       <TranslatedText as="span">{section.title}</TranslatedText>
                     </h2>
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {section.content?.map((item: string, idx: number) => {
-                    const hasColon = item.includes(':');
-                    const [title, desc] = hasColon ? item.split(':') : [item, ''];
-                    
-                    const icons = [Award, Zap, BookOpen, Trophy, Briefcase, Lightbulb];
-                    const IconComponent = icons[idx % icons.length];
-                    
-                    return (
-                      <div
-                        key={idx}
-                        className="bg-slate-50 rounded-xl p-6 border border-slate-200 hover:border-amber-300 hover:shadow-lg transition-all"
-                      >
-                        <div className="flex items-start gap-4 mb-3">
-                          <IconComponent className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
-                          <h4 className="text-lg font-bold text-slate-900">
-                            <TranslatedText as="span">{title?.trim()}</TranslatedText>
-                          </h4>
-                        </div>
-                        {hasColon && (
-                          <p className="text-sm text-slate-600 leading-relaxed ml-10">
-                            <TranslatedText as="span">{desc?.trim()}</TranslatedText>
-                          </p>
-                        )}
+                <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                  {pathways.map((path, pIdx) => (
+                    <div key={pIdx} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col hover:shadow-md transition-shadow">
+                      <div className="p-6 bg-slate-50 border-b border-slate-200 border-t-4 border-blue-500">
+                        <h3 className="text-xl font-bold text-slate-900 leading-tight">
+                          <TranslatedText as="span">{path.title}</TranslatedText>
+                        </h3>
                       </div>
-                    );
-                  })}
+                      <div className="p-6 flex-1 flex flex-col gap-4">
+                        {path.steps.map((step, sIdx) => {
+                          const colonIdx = step.indexOf(':');
+                          const label = colonIdx > -1 ? step.substring(0, colonIdx).trim() : '';
+                          const desc = colonIdx > -1 ? step.substring(colonIdx + 1).trim() : step;
+                          return (
+                            <div key={sIdx} className="flex gap-4 items-start relative">
+                              {sIdx < path.steps.length - 1 && (
+                                <div className="absolute left-[11px] top-6 w-[2px] h-[calc(100%+8px)] bg-blue-100" />
+                              )}
+                              <div className="w-6 h-6 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center flex-shrink-0 z-10">
+                                {sIdx + 1}
+                              </div>
+                              <div className="flex-1">
+                                {label && <p className="text-sm font-bold text-slate-900 mb-1 leading-snug"><TranslatedText as="span">{label}</TranslatedText></p>}
+                                <p className="text-sm text-slate-600 leading-relaxed"><TranslatedText as="span">{desc}</TranslatedText></p>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </section>
           );
         }
 
-        if (section.id === 'certifications') {
+        // ── market / salary snapshot ──────────────────────────────────
+        if (section.id === 'market' || section.id === 'salary') {
+          const tiers = section.content?.filter((c: string) => c.includes('Tier') || c.includes('Level') || c.includes('Salary:'));
+          const others = section.content?.filter((c: string) => !tiers.includes(c));
+
           return (
-            <section key={sectionIdx} className="py-20 bg-slate-50 px-4 sm:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-16">
-                  <div className="flex items-center gap-4 mb-4">
-                    <Award className="w-10 h-10 text-blue-600" />
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <TrendingUp className="w-8 sm:w-10 h-8 sm:h-10 text-blue-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
                       <TranslatedText as="span">{section.title}</TranslatedText>
                     </h2>
                   </div>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {section.content?.map((item: string, idx: number) => {
+                {tiers.length > 0 && (
+                  <div className="mb-10 overflow-hidden rounded-2xl border border-slate-200 shadow-sm">
+                    <table className="w-full text-left border-collapse">
+                      <thead>
+                        <tr className="bg-slate-50 border-b border-slate-200">
+                          <th className="px-6 py-4 text-sm font-bold text-slate-900">Career Level</th>
+                          <th className="px-6 py-4 text-sm font-bold text-slate-900">Est. Salary (p.a.)</th>
+                          <th className="px-6 py-4 text-sm font-bold text-slate-900">Opportunities</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {tiers.map((tier: string, idx: number) => {
+                          const parts = tier.split(/[:\.]/);
+                          const level = parts[0]?.trim() || '';
+                          const salary = parts[1]?.trim() || '';
+                          const jobs = parts[2]?.replace(/Positions|Jobs/i, '')?.trim() || '';
+                          
+                          return (
+                            <tr key={idx} className="border-b border-slate-100 hover:bg-blue-50 transition-colors group">
+                              <td className="px-6 py-5 text-sm font-bold text-slate-900">{level}</td>
+                              <td className="px-6 py-5 text-sm font-bold text-blue-600">{salary}</td>
+                              <td className="px-6 py-5 text-sm text-slate-600">{jobs}</td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                  {others.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
-                    const [title, desc] = hasColon ? item.split(':') : [item, ''];
-                    
-                    const icons = [Building2, Globe, Zap, BookOpen, Award, Sparkles];
-                    const IconComponent = icons[idx % icons.length];
-                    
+                    const [key, val] = hasColon ? item.split(':') : [item, ''];
                     return (
-                      <div
-                        key={idx}
-                        className="bg-white rounded-xl p-6 border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all"
-                      >
-                        <div className="flex items-start gap-4 mb-3">
-                          <IconComponent className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
-                          <h4 className="text-lg font-bold text-slate-900">
-                            <TranslatedText as="span">{title?.trim()}</TranslatedText>
-                          </h4>
-                        </div>
-                        {hasColon && (
-                          <p className="text-sm text-slate-600 leading-relaxed ml-10">
-                            <TranslatedText as="span">{desc?.trim()}</TranslatedText>
-                          </p>
-                        )}
+                      <div key={idx} className="p-6 bg-slate-50 rounded-xl border border-slate-200 flex flex-col gap-2 hover:border-blue-300 transition-all">
+                        <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider opacity-60"><TranslatedText as="span">{key}</TranslatedText></h4>
+                        <p className="text-base text-slate-800 font-medium leading-relaxed"><TranslatedText as="span">{val}</TranslatedText></p>
                       </div>
                     );
                   })}
@@ -576,7 +534,8 @@ export function CareerPageDynamic({
           );
         }
 
-        if (section.id === 'opportunities') {
+        // ── jobs (locations/industries) ────────────────────────────────
+        if (section.id === 'jobs') {
           return (
             <section key={sectionIdx} className="py-16 sm:py-20 md:py-24 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
@@ -968,6 +927,28 @@ export function CareerPageDynamic({
 
         // ── pathways / career path ─────────────────────────────────
         if (section.id === 'pathways' || section.id === 'pathway') {
+          const stepColors = ['#3B82F6', '#8B5CF6', '#EC4899', '#F59E0B', '#10B981', '#06B6D4', '#6366F1'];
+          const pathways: { title: string; steps: string[] }[] = [];
+          let currentPathway: { title: string; steps: string[] } | null = null;
+        
+          for (const item of section.content || []) {
+            if ((item.toLowerCase().includes('pathway ') || item.toLowerCase().includes('route')) && !item.toLowerCase().startsWith('step')) {
+              if (currentPathway) pathways.push(currentPathway);
+              currentPathway = { title: item, steps: [] };
+            } else if (item.toLowerCase().startsWith('step ')) {
+              if (currentPathway) currentPathway.steps.push(item);
+              else {
+                currentPathway = { title: 'Career Path', steps: [item] };
+              }
+            } else {
+              if (currentPathway) currentPathway.steps.push(item);
+              else {
+                currentPathway = { title: item, steps: [] };
+              }
+            }
+          }
+          if (currentPathway) pathways.push(currentPathway);
+
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
@@ -982,37 +963,35 @@ export function CareerPageDynamic({
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
-                <div className="max-w-3xl mx-auto">
-                  <div className="flex flex-col">
-                    {section.content?.map((stage: string, idx: number) => {
-                      const hasColon = stage.includes(':');
-                      const colonIdx = stage.indexOf(':');
-                      const before = hasColon ? stage.substring(0, colonIdx).trim() : stage;
-                      const after = hasColon ? stage.substring(colonIdx + 1).trim() : '';
-                      return (
-                        <div key={idx} className="flex gap-4 sm:gap-6 pb-6 sm:pb-8 border-l-2 border-slate-200 ml-3 pl-6 sm:pl-8 relative">
-                          <div className={`absolute left-[-11px] top-0 w-5 h-5 rounded-full border-4 border-white ${idx === 0 ? 'bg-blue-600' : 'bg-slate-300'}`} />
-                          <div className="flex-1">
-                            <span className={`text-xs font-bold uppercase tracking-wider ${idx === 0 ? 'text-blue-600' : 'text-slate-400'}`}>
-                              <TranslatedText as="span">{`STEP ${String(idx + 1).padStart(2, '0')}`}</TranslatedText>
-                            </span>
-                            <div className="mt-1">
-                              {hasColon ? (
-                                <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                                  <span className="font-bold text-slate-900"><TranslatedText as="span">{before}</TranslatedText></span>
-                                  <span className="font-normal text-slate-600">: <TranslatedText as="span">{after}</TranslatedText></span>
-                                </p>
-                              ) : (
-                                <p className="text-sm sm:text-base font-bold text-slate-900 leading-relaxed">
-                                  <TranslatedText as="span">{stage}</TranslatedText>
-                                </p>
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
+                <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                  {pathways.map((pathway, idx) => {
+                     const color = stepColors[idx % stepColors.length];
+                     return (
+                       <div key={idx} className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
+                         <div className="p-4 bg-slate-50 border-b border-slate-200" style={{ borderTop: `4px solid ${color}` }}>
+                           <h3 className="text-lg font-bold text-slate-900"><TranslatedText as="span">{pathway.title}</TranslatedText></h3>
+                         </div>
+                         <div className="p-4 flex-1 flex flex-col gap-3">
+                            {pathway.steps.map((step, sIdx) => {
+                               const colonIndex = step.indexOf(':');
+                               const label = colonIndex > -1 ? step.substring(0, colonIndex).trim() : '';
+                               const desc = colonIndex > -1 ? step.substring(colonIndex + 1).trim() : step;
+                               return (
+                                 <div key={sIdx} className="flex gap-3 items-start">
+                                    <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ background: color, color: 'white', fontSize: '12px', fontWeight: 'bold' }}>
+                                      {sIdx + 1}
+                                    </div>
+                                    <div className="flex-1">
+                                      {label && <p className="text-sm font-bold text-slate-900"><TranslatedText as="span">{label}</TranslatedText></p>}
+                                      <p className="text-sm text-slate-700"><TranslatedText as="span">{desc}</TranslatedText></p>
+                                    </div>
+                                 </div>
+                               )
+                            })}
+                         </div>
+                       </div>
+                     )
+                  })}
                 </div>
               </div>
             </section>
@@ -1045,50 +1024,54 @@ export function CareerPageDynamic({
                 </div>
 
                 {salaryRows.length > 0 && (
-                  <div className="overflow-x-auto rounded-xl border border-slate-200 mb-6 sm:mb-8">
-                    <table className="w-full">
-                      <thead>
-                        <tr className="bg-blue-600 text-white">
-                          <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-xs sm:text-sm"><TranslatedText>Career Level</TranslatedText></th>
-                          <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-xs sm:text-sm"><TranslatedText>Salary Range</TranslatedText></th>
-                          <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-xs sm:text-sm hidden sm:table-cell"><TranslatedText>Positions</TranslatedText></th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {salaryRows.map((tier: string, idx: number) => {
-                          const colonIdx = tier.indexOf(':');
-                          const dotIdx = tier.indexOf('.');
-                          const posIdx = tier.indexOf('Positions:');
-                          let level = '';
-                          let salary = '';
-                          let positions = '';
-                          if (colonIdx !== -1) {
-                            level = tier.substring(0, colonIdx).trim();
-                            if (dotIdx !== -1 && dotIdx > colonIdx) {
-                              salary = tier.substring(colonIdx + 1, dotIdx).trim();
-                              if (posIdx !== -1) {
-                                positions = tier.substring(posIdx + 10).trim();
-                              }
-                            } else {
-                              salary = tier.substring(colonIdx + 1).trim();
-                            }
-                          }
-                          return (
-                            <tr key={idx} className={`border-t border-slate-200 ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50'} hover:bg-blue-50 transition-colors`}>
-                              <td className="px-4 sm:px-6 py-3 sm:py-4 text-xs sm:text-sm font-bold text-slate-900">
-                                <TranslatedText as="span">{level}</TranslatedText>
-                              </td>
-                              <td className="px-4 sm:px-6 py-3 sm:py-4 text-xs sm:text-sm font-bold text-blue-600">
-                                <TranslatedText as="span">{salary}</TranslatedText>
-                              </td>
-                              <td className="px-4 sm:px-6 py-3 sm:py-4 text-xs sm:text-sm text-slate-600 hidden sm:table-cell">
-                                <TranslatedText as="span">{positions}</TranslatedText>
-                              </td>
-                            </tr>
-                          );
-                        })}
-                      </tbody>
-                    </table>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6 mb-8 sm:mb-12">
+                    {salaryRows.map((tier: string, idx: number) => {
+                      const colonIdx = tier.indexOf(':');
+                      let level = tier;
+                      let details = '';
+                      if (colonIdx !== -1) {
+                         level = tier.substring(0, colonIdx).trim();
+                         details = tier.substring(colonIdx + 1).trim();
+                      }
+                      
+                      // Sometimes details is "₹5,00,000 – ₹8,00,000. Positions: Data Analyst"
+                      const dotIdx = details.indexOf('.');
+                      const posIdx = details.indexOf('Positions:');
+                      let salary = details;
+                      let pos = '';
+                      
+                      if (posIdx !== -1) {
+                         salary = details.substring(0, posIdx).replace('.', '').trim();
+                         pos = details.substring(posIdx + 10).trim();
+                      } else if (dotIdx !== -1) {
+                         salary = details.substring(0, dotIdx).trim();
+                         pos = details.substring(dotIdx + 1).replace('Positions:', '').trim();
+                      }
+
+                      // Clean up hyphen spacing
+                      salary = salary.replace(/\s*-\s*/g, ' - ').replace(/\s*–\s*/g, ' - ');
+
+                      return (
+                        <div key={idx} className="bg-white rounded-2xl p-6 border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all group flex flex-col justify-between">
+                           <div>
+                             <div className="flex items-center justify-between mb-4">
+                               <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
+                                 <TrendingUp className="w-5 h-5" />
+                               </div>
+                               <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Tier {idx + 1}</span>
+                             </div>
+                             <h4 className="text-lg font-bold text-slate-900 mb-2"><TranslatedText as="span">{level}</TranslatedText></h4>
+                             <div className="text-2xl font-black text-blue-600 mb-4 tracking-tight"><TranslatedText as="span">{salary}</TranslatedText></div>
+                           </div>
+                           {pos && (
+                             <div className="pt-4 border-t border-slate-100">
+                               <p className="text-xs text-slate-500 uppercase tracking-wider font-semibold mb-1">Typical Roles</p>
+                               <p className="text-sm font-medium text-slate-700"><TranslatedText as="span">{pos}</TranslatedText></p>
+                             </div>
+                           )}
+                        </div>
+                      )
+                    })}
                   </div>
                 )}
 
@@ -1125,9 +1108,117 @@ export function CareerPageDynamic({
             </section>
           );
         }
+ 
+        // ── where are the jobs / jobs ─────────────────────────────
+        if (section.id === 'jobs') {
+          const groupedContent: Record<string, string[]> = {};
+          let currentGroup = 'Market Info';
+          
+          const content = section.content || [];
+          content.forEach((item: string) => {
+            const trimmed = item.trim();
+            if (!trimmed) return;
+
+            const isHeader = !trimmed.includes(':') && trimmed.split(' ').length <= 4 && 
+              ["cities", "industries", "demand", "locations", "regions", "sectors", "hubs"].some(h => trimmed.toLowerCase().includes(h));
+            
+            if (isHeader) {
+               currentGroup = trimmed.replace(/:$/, '').trim();
+               if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+            } else {
+               if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+               let cleaned = trimmed;
+               if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
+               if (cleaned) {
+                  groupedContent[currentGroup].push(cleaned);
+               }
+            }
+          });
+
+          const finalEntries = Object.entries(groupedContent).filter(([_, items]) => items.length > 0);
+          const jobIcons = [MapPin, Building2, Globe, TrendingUp, Target, Zap];
+
+          return (
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <MapPin className="w-8 sm:w-10 h-8 sm:h-10 text-blue-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      <TranslatedText as="span">{section.title}</TranslatedText>
+                    </h2>
+                  </div>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    <TranslatedText as="span">{section.description}</TranslatedText>
+                  </p>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+                  {finalEntries.map(([type, items], idx) => {
+                    const IconComponent = jobIcons[idx % jobIcons.length];
+                    return (
+                      <div key={idx} className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all group">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-sm">
+                            <IconComponent className="w-6 h-6 text-blue-600" />
+                          </div>
+                          <h4 className="text-lg font-bold text-slate-900"><TranslatedText as="span">{type}</TranslatedText></h4>
+                        </div>
+                        <ul className="space-y-3">
+                          {items.map((it, i) => (
+                            <li key={i} className="flex gap-3 items-start group/item">
+                              <span className="text-blue-500 mt-0.5 text-lg font-bold">*</span>
+                              <span className="text-sm sm:text-base text-slate-600 font-medium group-hover/item:text-slate-900 transition-colors">
+                                <TranslatedText as="span">{it}</TranslatedText>
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          );
+        }
 
         // ── institutions / study / locations ───────────────────────
         if (section.id === 'institutions' || section.id === 'locations' || section.id === 'study') {
+          const groupedContent: Record<string, string[]> = {};
+          let currentGroup = "Public/Premier";
+          
+          (section.content || []).forEach((item: string) => {
+            const colonIndex = item.indexOf(":");
+            if (colonIndex > -1 && item.includes(";")) {
+              const type = item.substring(0, colonIndex).trim();
+              const content = item.substring(colonIndex + 1).trim();
+              const institutions = content.split(";").map(i => i.trim()).filter(i => i);
+              groupedContent[type] = institutions;
+            } else {
+              const isHeader = !item.includes(":") && item.split(" ").length <= 4 && 
+                ["government", "private", "online", "public", "central", "state", "top institutions", "north", "south", "east", "west"].some(h => item.toLowerCase().includes(h));
+              
+              if (isHeader) {
+                 currentGroup = item.replace(":", "").trim();
+                 if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+              } else {
+                 if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+                 let cleaned = item;
+                 if (cleaned.toLowerCase() === "top institutions for agri-business management in india") return;
+                 if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
+                 if (cleaned) {
+                    groupedContent[currentGroup].push(cleaned);
+                 }
+              }
+            }
+          });
+
+          Object.keys(groupedContent).forEach(key => {
+            if (groupedContent[key].length === 0) delete groupedContent[key];
+          });
+          
+          const locIcons = [Building2, Globe, Monitor, MapPin, Award, Sparkles];
+
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
@@ -1142,29 +1233,27 @@ export function CareerPageDynamic({
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6">
-                  {section.content?.map((item: string, idx: number) => {
-                    const hasColon = item.includes(':');
-                    const colonIdx = item.indexOf(':');
-                    const category = hasColon ? item.substring(0, colonIdx).trim() : item;
-                    const details = hasColon ? item.substring(colonIdx + 1).trim() : '';
-                    const locIcons = [Building2, Globe, Monitor, MapPin];
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
+                  {Object.entries(groupedContent).map(([type, insts], idx) => {
                     const IconComponent = locIcons[idx % locIcons.length];
                     return (
                       <div key={idx} className="bg-slate-50 border border-slate-200 p-5 sm:p-6 rounded-xl hover:border-blue-300 hover:shadow-md transition-all">
-                        <div className="flex items-start gap-3 sm:gap-4 mb-2 sm:mb-3">
+                        <div className="flex items-start gap-3 sm:gap-4 mb-4">
                           <div className="w-9 sm:w-10 h-9 sm:h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
                             <IconComponent className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600" />
                           </div>
-                          <h4 className="text-base sm:text-lg font-bold text-slate-900">
-                            <TranslatedText as="span">{category}</TranslatedText>
+                          <h4 className="text-base sm:text-lg font-bold text-slate-900 mt-1">
+                            <TranslatedText as="span">{type}</TranslatedText>
                           </h4>
                         </div>
-                        {hasColon && (
-                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-12 sm:pl-14">
-                            <TranslatedText as="span">{details}</TranslatedText>
-                          </p>
-                        )}
+                        <ul className="space-y-2 pl-2">
+                          {insts.map((inst, i) => (
+                             <li key={i} className="flex gap-2 items-start text-sm text-slate-600">
+                               <span className="text-blue-500 mt-0.5">•</span>
+                               <span><TranslatedText as="span">{inst}</TranslatedText></span>
+                             </li>
+                          ))}
+                        </ul>
                       </div>
                     );
                   })}
@@ -1224,43 +1313,93 @@ export function CareerPageDynamic({
 
         // ── opportunities ─────────────────────────────────────────────
         if (section.id === 'opportunities') {
+          const groupedContent: Record<string, string[]> = {};
+          let currentGroup = 'General Roles';
+          
+          const content = section.content || [];
+          content.forEach((item: string) => {
+            const trimmed = item.trim();
+            if (!trimmed) return;
+
+            const colonIndex = trimmed.indexOf(':');
+            // Case 1: "Category: Item 1, Item 2..."
+            if (colonIndex > -1 && trimmed.length > 40) {
+              const type = trimmed.substring(0, colonIndex).trim().replace(/:$/, '');
+              const subItems = trimmed.substring(colonIndex + 1).split(/[,;]/).map(i => i.trim()).filter(i => i);
+              if (!groupedContent[type]) groupedContent[type] = [];
+              groupedContent[type].push(...subItems);
+              currentGroup = type;
+            } else {
+              const lower = trimmed.toLowerCase();
+              // Case 2: Explicit headers
+              const isHeader = !trimmed.includes(':') && trimmed.split(' ').length <= 4 && 
+                (
+                  ["conventional", "emerging", "new-age", "remote", "entrepreneurship", "startup", "freelancing", "roles", "careers"].some(h => lower.includes(h)) ||
+                  trimmed === trimmed.toUpperCase()
+                );
+              
+              if (isHeader) {
+                 // If it's a known header like "Conventional", clean it up
+                 currentGroup = trimmed.replace(/:$/, '');
+                 if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+              } else {
+                 // Case 3: List items
+                 if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+                 // Remove leading bullets (?, *, -, ?, etc.)
+                 const cleaned = trimmed.replace(/^[•\-\*\?\s]+/, '');
+                 if (cleaned) groupedContent[currentGroup].push(cleaned);
+              }
+            }
+          });
+
+          const finalEntries = Object.entries(groupedContent).filter(([_, items]) => items.length > 0);
+
+
           return (
-            <section key={sectionIdx} className="py-16 sm:py-20 md:py-24 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-16 sm:mb-20">
-                  <div className="flex items-start gap-3 sm:gap-4">
-                    <Briefcase className="w-8 sm:w-10 h-8 sm:h-10 text-green-600 flex-shrink-0 mt-1" />
-                    <div className="flex-1">
-                      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-relaxed pb-8 sm:pb-10 md:pb-12 lg:pb-16 border-b-4 border-green-200">
-                        <TranslatedText as="span">{section.title}</TranslatedText>
-                      </h2>
-                      <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed pt-8 sm:pt-10 md:pt-12 lg:pt-16">
-                        <TranslatedText as="span">{section.description}</TranslatedText>
-                      </p>
-                    </div>
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Briefcase className="w-8 sm:w-10 h-8 sm:h-10 text-green-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      <TranslatedText as="span">{section.title}</TranslatedText>
+                    </h2>
                   </div>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    <TranslatedText as="span">{section.description}</TranslatedText>
+                  </p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6 md:gap-7">
-                  {section.content?.map((item: string, idx: number) => {
-                    const hasColon = item.includes(':');
-                    const colonIdx = item.indexOf(':');
-                    const title = hasColon ? item.substring(0, colonIdx).trim() : item;
-                    const desc = hasColon ? item.substring(colonIdx + 1).trim() : '';
-                    const oppIcons = [Briefcase, Zap, Rocket, Building2, Globe, TrendingUp];
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-8">
+                  {finalEntries.map(([type, opps], idx) => {
+                    const oppIcons = [Briefcase, Rocket, Zap, Target, Globe, Building2];
                     const IconComponent = oppIcons[idx % oppIcons.length];
+                    const colors = ["text-green-600", "text-blue-600", "text-purple-600", "text-orange-600", "text-emerald-600"];
+                    const colorClass = colors[idx % colors.length];
+                    const bgClass = colorClass.replace("text-", "bg-").replace("-600", "-50");
+                    
+                    if (opps.length === 0) return null;
+                    
                     return (
-                      <div key={idx} className="bg-slate-50 rounded-xl p-6 sm:p-7 border border-slate-200 hover:border-green-300 hover:shadow-lg transition-all">
-                        <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
-                          <IconComponent className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
-                          <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
-                            <TranslatedText as="span">{title}</TranslatedText>
+                      <div key={idx} className="group bg-slate-50 rounded-2xl p-6 sm:p-8 border border-slate-200 hover:border-green-300 hover:shadow-xl transition-all duration-300">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className={`w-12 h-12 ${bgClass} rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm`}>
+                            <IconComponent className={`w-6 h-6 ${colorClass}`} />
+                          </div>
+                          <h4 className="text-lg sm:text-xl font-bold text-slate-900 leading-tight">
+                            <TranslatedText as="span">{type}</TranslatedText>
                           </h4>
                         </div>
-                        {hasColon && (
-                          <p className="text-sm text-slate-600 leading-relaxed pl-9 sm:pl-10">
-                            <TranslatedText as="span">{desc}</TranslatedText>
-                          </p>
-                        )}
+                        <ul className="space-y-3 pl-1">
+                          {opps.map((opp, i) => (
+                            <li key={i} className="flex gap-3 items-start group/item text-slate-600">
+                              <span className={`mt-0.5 font-bold text-lg ${colorClass}`}>*</span>
+                              <span className="text-sm sm:text-base font-medium group-hover/item:text-slate-900 transition-colors leading-relaxed">
+                                <TranslatedText as="span">{opp}</TranslatedText>
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
                       </div>
                     );
                   })}
@@ -1333,19 +1472,27 @@ export function CareerPageDynamic({
 
               <div className="space-y-4">
                 {section.content?.map((item: string, idx: number) => {
-                  const hasColon = item.includes(':');
-                  const [beforeColon, afterColon] = hasColon ? item.split(':') : [item, ''];
+                  // Clean trailing colon artifacts like "text.:" or "text.:"
+                  const cleaned = item.replace(/\s*:\s*$/, '').trim();
+                  const hasColon = cleaned.includes(':');
+                  const colonIdx = cleaned.indexOf(':');
+                  const beforeColon = hasColon ? cleaned.substring(0, colonIdx).trim() : cleaned;
+                  const afterColon = hasColon ? cleaned.substring(colonIdx + 1).trim() : '';
+
+                  // If afterColon is empty, treat the whole thing as a plain paragraph
+                  const isPlain = !hasColon || !afterColon;
 
                   return (
-                    <div key={idx} className="bg-white p-6 rounded-xl border border-slate-200 hover:border-blue-300 transition-all">
-                      {hasColon ? (
+                    <div key={idx} className="flex items-start gap-3 bg-white p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-all">
+                      <span className="mt-1.5 w-2 h-2 rounded-full bg-blue-500 flex-shrink-0" />
+                      {isPlain ? (
                         <p className="text-slate-700 text-sm leading-relaxed">
-                          <span className="font-bold text-slate-900"><TranslatedText as="span">{beforeColon.trim()}</TranslatedText></span>
-                          <span className="font-normal text-slate-600">: <TranslatedText as="span">{afterColon.trim()}</TranslatedText></span>
+                          <TranslatedText as="span">{cleaned}</TranslatedText>
                         </p>
                       ) : (
-                        <p className="text-slate-700 text-sm leading-relaxed font-bold text-slate-900">
-                          <TranslatedText as="span">{item}</TranslatedText>
+                        <p className="text-slate-700 text-sm leading-relaxed">
+                          <span className="font-semibold text-slate-900"><TranslatedText as="span">{beforeColon}</TranslatedText>: </span>
+                          <TranslatedText as="span">{afterColon}</TranslatedText>
                         </p>
                       )}
                     </div>

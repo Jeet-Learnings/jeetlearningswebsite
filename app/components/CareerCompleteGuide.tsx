@@ -10,7 +10,10 @@ import {
   ClipboardList, Target, Star,
   ChevronLeft, ChevronRight,
   AlertTriangle, CheckCircle2,
+  Briefcase, Rocket, Zap, Globe, Building2, MapPin,
+  GraduationCap, School, BookOpen, TrendingUp,
 } from "lucide-react";
+import { TranslatedText } from "./TranslatedText";
 
 // ─── colour tokens ────────────────────────────────────────────────
 const BLUE   = "#1E40AF";
@@ -424,23 +427,38 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
 
   const fallbackColors = ["#1E40AF", "#7C3AED", "#0EA5E9", "#059669", "#EA580C", "#EC4899"];
 
-  // Parse content to extract institutions for each type
   const groupedContent: Record<string, string[]> = {};
   const ungroupedContent: string[] = [];
+  let currentGroup = "Public/Premier";
   
   section.content.forEach((item: string) => {
     const colonIndex = item.indexOf(":");
-    if (colonIndex > -1) {
+    if (colonIndex > -1 && item.includes(";")) {
       const type = item.substring(0, colonIndex).trim();
       const content = item.substring(colonIndex + 1).trim();
-      
-      // Split by semicolon to get individual institutions
       const institutions = content.split(";").map(i => i.trim()).filter(i => i);
-      
       groupedContent[type] = institutions;
     } else {
-      ungroupedContent.push(item.trim());
+      const isHeader = !item.includes(":") && item.split(" ").length <= 4 && 
+        ["government", "private", "online", "public", "central", "state", "top institutions", "north", "south", "east", "west"].some(h => item.toLowerCase().includes(h));
+      
+      if (isHeader) {
+         currentGroup = item.replace(":", "").trim();
+         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+      } else {
+         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+         let cleaned = item;
+         if (cleaned.toLowerCase() === "top institutions for agri-business management in india") return;
+         if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
+         if (cleaned) {
+            groupedContent[currentGroup].push(cleaned);
+         }
+      }
     }
+  });
+
+  Object.keys(groupedContent).forEach(key => {
+    if (groupedContent[key].length === 0) delete groupedContent[key];
   });
 
   const dynamicTypes = Object.keys(groupedContent).map((type, idx) => {
@@ -692,34 +710,317 @@ function SectionHeader({ section, light = false }: { section: CareerGuideSection
   );
 }
 
+// ─── SECTION PATHWAYS ───────────────────────────────────────────────
+function SectionPathways({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
+  const stepColors = ['#3B82F6', '#8B5CF6', '#EC4899', '#F59E0B', '#10B981', '#06B6D4', '#6366F1'];
+  
+  const pathways: { title: string; steps: string[] }[] = [];
+  let currentPathway: { title: string; steps: string[] } | null = null;
+
+  for (const item of section.content) {
+    if ((item.toLowerCase().includes('pathway ') || item.toLowerCase().includes('route')) && !item.toLowerCase().startsWith('step')) {
+      if (currentPathway) pathways.push(currentPathway);
+      currentPathway = { title: item, steps: [] };
+    } else if (item.toLowerCase().startsWith('step ')) {
+      if (currentPathway) currentPathway.steps.push(item);
+      else {
+        currentPathway = { title: 'Career Path', steps: [item] };
+      }
+    } else {
+      if (currentPathway) currentPathway.steps.push(item);
+      else {
+        currentPathway = { title: item, steps: [] };
+      }
+    }
+  }
+  if (currentPathway) pathways.push(currentPathway);
+
+  return (
+    <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden border-b border-slate-200">
+      <div className="max-w-6xl mx-auto">
+        <SectionHeader section={section} light={false} />
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {pathways.map((pathway, idx) => {
+             const color = stepColors[idx % stepColors.length];
+             return (
+               <div key={idx} className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
+                 <div className="p-4 bg-slate-50 border-b border-slate-200" style={{ borderTop: `4px solid ${color}` }}>
+                   <h3 className="text-lg font-bold text-slate-900">{pathway.title}</h3>
+                 </div>
+                 <div className="p-4 flex-1 flex flex-col gap-3">
+                    {pathway.steps.map((step, sIdx) => {
+                       const colonIndex = step.indexOf(':');
+                       const label = colonIndex > -1 ? step.substring(0, colonIndex).trim() : '';
+                       const desc = colonIndex > -1 ? step.substring(colonIndex + 1).trim() : step;
+                       return (
+                         <div key={sIdx} className="flex gap-3 items-start">
+                            <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ background: color, color: 'white', fontSize: '12px', fontWeight: 'bold' }}>
+                              {sIdx + 1}
+                            </div>
+                            <div className="flex-1">
+                              {label && <p className="text-sm font-bold text-slate-900">{label}</p>}
+                              <p className="text-sm text-slate-700">{desc}</p>
+                            </div>
+                         </div>
+                       )
+                    })}
+                 </div>
+               </div>
+             )
+          })}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+// ─── SECTION OPPORTUNITIES ───────────────────────────────────────────────
+function SectionOpportunities({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
+  const groupedContent: Record<string, string[]> = {};
+  let currentGroup = 'Main Roles';
+  
+  const content = section.content || [];
+  content.forEach((item: string) => {
+    const trimmed = item.trim();
+    if (!trimmed) return;
+
+    const colonIndex = trimmed.indexOf(':');
+    if (colonIndex > -1 && trimmed.length > 40) {
+      const type = trimmed.substring(0, colonIndex).trim().replace(/:$/, '');
+      const subItems = trimmed.substring(colonIndex + 1).split(/[,;]/).map(i => i.trim()).filter(i => i);
+      if (!groupedContent[type]) groupedContent[type] = [];
+      groupedContent[type].push(...subItems);
+      currentGroup = type;
+    } else {
+      const lower = trimmed.toLowerCase();
+      const isHeader = !trimmed.includes(':') && trimmed.split(' ').length <= 4 && 
+        (
+          ["conventional", "emerging", "new-age", "remote", "entrepreneurship", "startup", "freelancing", "roles", "careers"].some(h => lower.includes(h)) ||
+          trimmed === trimmed.toUpperCase()
+        );
+      
+      if (isHeader) {
+         currentGroup = trimmed.replace(/:$/, '');
+         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+      } else {
+         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+         const cleaned = trimmed.replace(/^[•\-\*\?\s]+/, '');
+         if (cleaned) groupedContent[currentGroup].push(cleaned);
+      }
+    }
+  });
+
+  const finalEntries = Object.entries(groupedContent).filter(([_, items]) => items.length > 0);
+
+  const colors = [
+    { text: "text-green-600", bg: "bg-green-50", dot: "bg-green-600" },
+    { text: "text-blue-600", bg: "bg-blue-50", dot: "bg-blue-600" },
+    { text: "text-purple-600", bg: "bg-purple-50", dot: "bg-purple-600" },
+    { text: "text-orange-600", bg: "bg-orange-50", dot: "bg-orange-600" }
+  ];
+  const icons = [Briefcase, Rocket, Zap, Target, Globe, Building2];
+
+  return (
+    <section className="py-12 sm:py-16 md:py-20 bg-white border-b border-slate-200 px-4">
+      <div className="max-w-6xl mx-auto">
+        <SectionHeader section={section} light={false} />
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {finalEntries.map(([type, opps], idx) => {
+             const colorSet = colors[idx % colors.length];
+             const Icon = icons[idx % icons.length];
+             
+             return (
+               <div key={type} className="group p-6 sm:p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:border-green-300 hover:shadow-xl transition-all duration-300">
+                 <div className="flex items-center gap-4 mb-6">
+                   <div className={`w-12 h-12 ${colorSet.bg} rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm`}>
+                     <Icon className={`w-6 h-6 ${colorSet.text}`} />
+                   </div>
+                   <h3 className="text-xl font-bold text-slate-900 leading-tight">{type}</h3>
+                 </div>
+                 <ul className="space-y-3 pl-1">
+                   {opps.map((opp, i) => (
+                     <li key={i} className="flex gap-3 items-start group/item text-slate-600">
+                       <span className={`mt-0.5 font-bold text-lg ${colorSet.text}`}>*</span>
+                       <span className="text-base font-medium group-hover/item:text-slate-900 transition-colors leading-relaxed">
+                         <TranslatedText as="span">{opp}</TranslatedText>
+                       </span>
+                     </li>
+                   ))}
+                 </ul>
+               </div>
+             )
+          })}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+// ─── SECTION JOBS ───────────────────────────────────────────────
+function SectionJobs({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
+  const groupedContent: Record<string, string[]> = {};
+  let currentGroup = 'Market Info';
+  
+  const content = section.content || [];
+  content.forEach((item: string) => {
+    const trimmed = item.trim();
+    if (!trimmed) return;
+
+    const isHeader = !trimmed.includes(':') && trimmed.split(' ').length <= 4 && 
+      ["cities", "industries", "demand", "locations", "regions", "sectors", "hubs"].some(h => trimmed.toLowerCase().includes(h));
+    
+    if (isHeader) {
+       currentGroup = trimmed.replace(/:$/, '').trim();
+       if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+    } else {
+       if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+       let cleaned = trimmed;
+       if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
+       if (cleaned) {
+          groupedContent[currentGroup].push(cleaned);
+       }
+    }
+  });
+
+  const finalEntries = Object.entries(groupedContent).filter(([_, items]) => items.length > 0);
+  const jobIcons = [MapPin, Building2, Globe, TrendingUp, Target, Zap];
+
+  return (
+    <section className="py-12 sm:py-16 bg-slate-50 border-b border-slate-200 px-4">
+      <div className="max-w-6xl mx-auto">
+        <SectionHeader section={section} light={false} />
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {finalEntries.map(([type, items], idx) => {
+            const Icon = jobIcons[idx % jobIcons.length];
+            return (
+              <div key={type} className="group p-6 sm:p-8 rounded-2xl bg-white border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-sm">
+                    <Icon className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <h4 className="text-xl font-bold text-slate-900 leading-tight">{type}</h4>
+                </div>
+                <ul className="space-y-3">
+                  {items.map((it, i) => (
+                    <li key={i} className="flex gap-3 items-start group/item">
+                      <span className="text-blue-500 mt-0.5 text-lg font-bold">*</span>
+                      <span className="text-base text-slate-600 font-medium group-hover/item:text-slate-900 transition-colors">
+                        <TranslatedText as="span">{it}</TranslatedText>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// ─── SECTION INSTITUTIONS ───────────────────────────────────────────────
+function SectionInstitutions({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
+  const groupedContent: Record<string, string[]> = {};
+  let currentGroup = "Top Institutions";
+  
+  (section.content || []).forEach((item: string) => {
+    const trimmed = item.trim();
+    if (!trimmed) return;
+
+    const colonIndex = trimmed.indexOf(":");
+    if (colonIndex > -1 && trimmed.includes(";")) {
+      const type = trimmed.substring(0, colonIndex).trim();
+      const subItems = trimmed.substring(colonIndex + 1).split(";").map(i => i.trim()).filter(i => i);
+      groupedContent[type] = subItems;
+    } else {
+      const isHeader = !trimmed.includes(':') && trimmed.split(' ').length <= 4 && 
+        ["government", "private", "online", "public", "central", "state", "top institutions", "north", "south", "east", "west"].some(h => trimmed.toLowerCase().includes(h));
+      
+      if (isHeader) {
+         currentGroup = trimmed.replace(/:$/, '').trim();
+         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+      } else {
+         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
+         let cleaned = trimmed;
+         if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
+         if (cleaned) {
+            groupedContent[currentGroup].push(cleaned);
+         }
+      }
+    }
+  });
+
+  const finalEntries = Object.entries(groupedContent).filter(([_, items]) => items.length > 0);
+  const instIcons = [Building2, GraduationCap, School, BookOpen, Award, Globe];
+
+  return (
+    <section className="py-12 sm:py-16 bg-white border-b border-slate-200 px-4">
+      <div className="max-w-6xl mx-auto">
+        <SectionHeader section={section} light={false} />
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {finalEntries.map(([type, insts], idx) => {
+            const Icon = instIcons[idx % instIcons.length];
+            return (
+              <div key={type} className="group p-6 sm:p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:border-indigo-300 hover:shadow-xl transition-all group">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-sm">
+                    <Icon className="w-6 h-6 text-indigo-600" />
+                  </div>
+                  <h4 className="text-xl font-bold text-slate-900 leading-tight">{type}</h4>
+                </div>
+                <ul className="space-y-3">
+                  {insts.map((inst, i) => (
+                    <li key={i} className="flex gap-3 items-start group/item">
+                      <span className="text-indigo-500 mt-0.5 text-lg font-bold">*</span>
+                      <span className="text-base text-slate-600 font-medium group-hover/item:text-slate-900 transition-colors">
+                        <TranslatedText as="span">{inst}</TranslatedText>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ─── SECTION ROUTER ───────────────────────────────────────────────
 const getComponentForSection = (section: CareerGuideSection) => {
   const titleLower = section.title.toLowerCase();
   const idLower = section.id.toLowerCase();
   
-  // Route based on section title first (most reliable for flexibility)
   if (titleLower.includes("what is this")) return SectionWhat;
   if (titleLower.includes("day in the life")) return SectionDayInLife;
   if (titleLower.includes("is this you")) return SectionWho;
   if (titleLower.includes("market snapshot")) return SectionMarketSnapshot;
   if (titleLower.includes("what will it cost") || titleLower.includes("investment required")) return SectionCosts;
-  if (titleLower.includes("where to study")) return SectionInstitutions;
+  if (titleLower.includes("where to study") || titleLower.includes("institutions")) return SectionInstitutions;
+  if (titleLower.includes("where are the jobs") || titleLower.includes("job market")) return SectionJobs;
+  if (titleLower.includes("career opportunities")) return SectionOpportunities;
+  if (titleLower.includes("career pathways") || idLower === "pathways") return SectionPathways;
   if (titleLower.includes("challenges")) return SectionChallenges;
   if (titleLower.includes("emerging trends") || titleLower.includes("future outlook")) return SectionStartNow;
   if (titleLower.includes("skills to build")) return SectionStartNow;
   if (titleLower.includes("famous") || titleLower.includes("personalities")) return SectionStartNow;
   
-  // Route based on section ID for remaining sections
+  if (idLower === "jobs") return SectionJobs;
+  if (idLower === "institutions") return SectionInstitutions;
+  if (idLower === "opportunities") return SectionOpportunities;
+  
   if (idLower === "1") return SectionWhat;
   if (idLower === "2") return SectionDayInLife;
   if (idLower === "3") return SectionWho;
-  if (idLower === "4") return SectionResponsibilities;
+  if (idLower === "4") return SectionPathways;
   if (idLower === "5") return SectionResponsibilities;
   if (idLower === "6") return SectionMarketSnapshot;
   if (idLower === "7") return SectionResponsibilities;
   if (idLower === "8") return SectionCosts;
   if (idLower === "9") return SectionResponsibilities;
-  if (idLower === "10") return SectionResponsibilities;
+  if (idLower === "10") return SectionOpportunities;
   if (idLower === "11") return SectionResponsibilities;
   if (idLower === "12") return SectionResponsibilities;
   if (idLower === "13") return SectionChallenges;
@@ -727,33 +1028,106 @@ const getComponentForSection = (section: CareerGuideSection) => {
   if (idLower === "15") return SectionStartNow;
   if (idLower === "16") return SectionStartNow;
   
-  // Default fallback
+  if (idLower === "opportunities") return SectionOpportunities;
+  if (idLower === "institutions") return SectionInstitutions;
+  
   return SectionResponsibilities;
 };
 
-const SECTION_COMPONENTS = [
-  SectionWhat,           // Index 0: What is This Career
-  SectionDayInLife,      // Index 1: A Day in the Life
-  SectionWho,            // Index 2: Is This You
-  SectionResponsibilities, // Index 3: Key Responsibilities
-  SectionResponsibilities, // Index 4: Career Pathways
-  SectionMarketSnapshot, // Index 5: Market Snapshot
-  SectionResponsibilities, // Index 6: Where Are the Jobs
-  SectionInstitutions,   // Index 7: Where to Study
-  SectionChallenges,     // Index 8: Professional Bodies
-  SectionChallenges,     // Index 9: Scholarships
-  SectionChallenges,     // Index 10: Career Opportunities
-  SectionChallenges,     // Index 11: Challenges
-  SectionStartNow,       // Index 12: Emerging Trends
-  SectionStartNow,       // Index 13: Skills to Build
-  SectionStartNow,       // Index 14: Famous Leaders
-];
-
 // ─── MAIN EXPORT ─────────────────────────────────────────────────
 export function CareerCompleteGuide({ careerName, sections }: Props) {
+  // Let's intercept the sections array to split the market snapshot if it's combined
+  const processedSections = [...sections];
+  const marketIndex = processedSections.findIndex(s => s.id === "market" || s.title.toLowerCase().includes("market snapshot"));
+  
+  if (marketIndex !== -1) {
+    const market = processedSections[marketIndex];
+    const hasInstitutions = market.content.some(c => {
+      const cl = c.toLowerCase();
+      return cl.includes('top institutions') || cl.includes('where to study') || cl.includes('colleges');
+    });
+    const hasOpportunities = market.content.some(c => {
+      const cl = c.toLowerCase();
+      return cl.includes('career opportunities') || cl.includes('roles available');
+    });
+    const hasJobs = market.content.some(c => {
+      const cl = c.toLowerCase();
+      return cl.includes('where are the jobs') || cl.includes('top cities') || cl.includes('industries');
+    });
+    
+    if (hasInstitutions || hasOpportunities || hasJobs) {
+       const marketContent: string[] = [];
+       const instContent: string[] = [];
+       const oppContent: string[] = [];
+       const jobsContent: string[] = [];
+       let current = "market";
+       
+       market.content.forEach(item => {
+         const lower = item.toLowerCase();
+         if (lower.includes('top institutions') || lower.includes('where to study') || lower.includes('colleges')) { current = "institutions"; return; }
+         if (lower.includes('career opportunities') || lower.includes('roles available')) { current = "opportunities"; return; }
+         if (lower.includes('where are the jobs') || lower.includes('job market')) { current = "jobs"; return; }
+         
+         if (current === "market") marketContent.push(item);
+         else if (current === "institutions") instContent.push(item);
+         else if (current === "opportunities") oppContent.push(item);
+         else if (current === "jobs") jobsContent.push(item);
+       });
+       
+       processedSections[marketIndex] = { ...market, content: marketContent };
+       
+       if (jobsContent.length > 0) {
+          const jobsIndex = processedSections.findIndex(s => s.id === "jobs" || s.title.toLowerCase().includes("where are the jobs"));
+          if (jobsIndex !== -1) {
+            processedSections[jobsIndex] = { ...processedSections[jobsIndex], content: jobsContent };
+          } else {
+            processedSections.push({
+              id: "jobs",
+              title: "Where Are the Jobs?",
+              icon: "MapPin",
+              description: "Top cities and industries.",
+              color: market.color,
+              content: jobsContent
+            });
+          }
+       }
+
+       if (instContent.length > 0) {
+         const instIndex = processedSections.findIndex(s => s.id === "institutions" || s.title.toLowerCase().includes("where to study"));
+         if (instIndex !== -1) {
+           processedSections[instIndex] = { ...processedSections[instIndex], content: instContent };
+         } else {
+           processedSections.push({
+             id: "institutions",
+             title: "Where to Study?",
+             icon: "Building2",
+             description: "Top institutions across India.",
+             color: market.color,
+             content: instContent
+           });
+         }
+       }
+       
+       if (oppContent.length > 0) {
+         const oppIndex = processedSections.findIndex(s => s.id === "opportunities" || s.title.toLowerCase().includes("career opportunities"));
+         if (oppIndex !== -1) {
+           processedSections[oppIndex] = { ...processedSections[oppIndex], content: oppContent };
+         } else {
+           processedSections.push({
+             id: "opportunities",
+             title: "Career Opportunities",
+             icon: "Briefcase",
+             description: "Conventional and emerging roles.",
+             color: market.color,
+             content: oppContent
+           });
+         }
+       }
+    }
+  }
+
   return (
     <div className="relative">
-      {/* Page header */}
       <section className="py-16 px-4 sm:px-6 bg-gradient-to-b from-blue-50 to-white text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 mb-4 leading-tight">
@@ -765,8 +1139,7 @@ export function CareerCompleteGuide({ careerName, sections }: Props) {
         </div>
       </section>
 
-      {/* Individual sections with unique carousel styles */}
-      {sections.map((section, idx) => {
+      {processedSections.map((section, idx) => {
         const Component = getComponentForSection(section);
         return <Component key={section.id} section={section} careerName={careerName} />;
       })}

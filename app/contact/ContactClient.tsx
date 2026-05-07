@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
-import { TranslatedText } from "@/app/components/TranslatedText";
+import { TranslatedText, TranslatedOption } from "@/app/components/TranslatedText";
 
 export default function ContactClient() {
   const [formData, setFormData] = useState({
@@ -86,14 +86,17 @@ export default function ContactClient() {
                   <div className="flex-shrink-0 w-12 h-12 bg-[#FFF5F5] rounded-lg flex items-center justify-center">
                     <Phone className="w-6 h-6 text-[#C20000]" />
                   </div>
-                  <div>
+                  <div className="flex-1 min-w-0">
                     <h3 className="font-poppins font-bold text-[#333333] text-lg mb-1">
                       <TranslatedText>Phone</TranslatedText>
                     </h3>
-                    <p className="font-poppins text-[#757575] text-sm mb-2">
+                    <p className="font-poppins text-[#757575] text-sm mb-3">
                       <TranslatedText>Call us during business hours</TranslatedText>
                     </p>
-                    <a href="tel:+919670699777" className="font-poppins font-semibold text-[#C20000] hover:text-[#B30000] transition-colors">
+                    <a 
+                      href="tel:+919670699777" 
+                      className="inline-flex items-center gap-2 px-3 py-2 bg-[#FFF5F5] rounded-lg font-poppins font-semibold text-[#C20000] hover:bg-[#FFE8E8] transition-colors text-sm"
+                    >
                       +91 9670699777
                     </a>
                   </div>
@@ -106,14 +109,17 @@ export default function ContactClient() {
                   <div className="flex-shrink-0 w-12 h-12 bg-[#FFF5F5] rounded-lg flex items-center justify-center">
                     <Mail className="w-6 h-6 text-[#C20000]" />
                   </div>
-                  <div>
+                  <div className="flex-1 min-w-0">
                     <h3 className="font-poppins font-bold text-[#333333] text-lg mb-1">
                       <TranslatedText>Email</TranslatedText>
                     </h3>
-                    <p className="font-poppins text-[#757575] text-sm mb-2">
+                    <p className="font-poppins text-[#757575] text-sm mb-3">
                       <TranslatedText>Send us an email anytime</TranslatedText>
                     </p>
-                    <a href="mailto:jeetfoundation2016@gmail.com" className="font-poppins font-semibold text-[#C20000] hover:text-[#B30000] transition-colors break-all">
+                    <a 
+                      href="mailto:jeetfoundation2016@gmail.com" 
+                      className="inline-flex items-center gap-2 px-3 py-2 bg-[#FFF5F5] rounded-lg font-poppins font-semibold text-[#C20000] hover:bg-[#FFE8E8] transition-colors text-sm break-all"
+                    >
                       jeetfoundation2016@gmail.com
                     </a>
                   </div>
@@ -244,12 +250,12 @@ export default function ContactClient() {
                         required
                         className="w-full px-4 py-3 border border-[#EEEEEE] rounded-lg font-poppins text-[#505050] focus:outline-none focus:border-[#C20000] transition-colors"
                       >
-                        <option value=""><TranslatedText>Select a subject</TranslatedText></option>
-                        <option value="Career Guidance"><TranslatedText>Career Guidance</TranslatedText></option>
-                        <option value="Course Information"><TranslatedText>Course Information</TranslatedText></option>
-                        <option value="Admission Query"><TranslatedText>Admission Query</TranslatedText></option>
-                        <option value="Scholarship"><TranslatedText>Scholarship</TranslatedText></option>
-                        <option value="General Inquiry"><TranslatedText>General Inquiry</TranslatedText></option>
+                        <TranslatedOption value="">Select a subject</TranslatedOption>
+                        <TranslatedOption value="Career Guidance">Career Guidance</TranslatedOption>
+                        <TranslatedOption value="Course Information">Course Information</TranslatedOption>
+                        <TranslatedOption value="Admission Query">Admission Query</TranslatedOption>
+                        <TranslatedOption value="Scholarship">Scholarship</TranslatedOption>
+                        <TranslatedOption value="General Inquiry">General Inquiry</TranslatedOption>
                       </select>
                     </div>
 
@@ -351,23 +357,7 @@ export default function ContactClient() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-12 border-t border-[#EEEEEE]">
-        <div className="max-w-[700px] mx-auto px-4 text-center">
-          <h3 className="font-poppins font-bold text-[#505050] text-2xl mb-3">
-            <TranslatedText>Still Have Questions?</TranslatedText>
-          </h3>
-          <p className="font-poppins text-[#757575] mb-6">
-            <TranslatedText>Our team is here to help. Reach out to us through any of the channels above.</TranslatedText>
-          </p>
-          <button
-            className="inline-flex items-center gap-2 px-8 py-3 font-poppins font-semibold text-white rounded-xl transition-all hover:opacity-90 hover:-translate-y-0.5"
-            style={{ background: "#C20000" }}
-          >
-            <TranslatedText>Schedule a Call</TranslatedText>
-          </button>
-        </div>
-      </section>
+      
     </div>
   );
 }

@@ -146,11 +146,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "A. After Class 12: Entry Exam: Appear for the ACET (Actuarial Common Entrance Test) conducted by the IAI.; Degree Route: Enroll in a B.Sc. in Actuarial Science, Mathematics, or Statistics.; Concurrent Study: Most students clear 3–5 professional papers while doing their college degree.",
-          "B. After Graduation: Lateral Entry: If you have a degree in Engineering, Math, Commerce (with Math), or are a CA/CS, you can apply to the IAI directly.; Masters Route: Pursue an M.Sc. in Actuarial Science or an MBA in Insurance/Risk Management.",
-          "C. The Exam Roadmap: Student Member : Clear ACET.; Associate : Clear Core Principles (CS, CM, CB) and Core Practices (CP).; Fellow : Clear Specialist Principles (SP) and Specialist Advanced (SA) + 3 years work experience."
-        ]
+        content: ["Pathway A: Degree + Professional Exam Route","Step 1: Complete Class 12th with Maths (PCM/Commerce)","Step 2: Pursue B.Sc Actuarial Science / B.Sc Statistics / B.Com (Hons)","Step 3: Start clearing actuarial exams — IAI (India) or IFoA (UK)","Step 4: Do internships at insurance firms like LIC, HDFC Life, ICICI Prudential","Step 5: Clear 6–8 actuarial papers while working as Actuarial Analyst","Step 6: Become Associate/Fellow Actuary","Pathway B: Skill-Based Entry","Step 1: Complete Class 12th with Maths","Step 2: Take a diploma or online course in Actuarial Science / Data Analytics","Step 3: Learn tools — MS Excel, R, Python, SQL","Step 4: Clear initial 3–4 actuarial papers (CT series from IAI/IFoA)","Step 5: Join insurance or consulting firms as Actuarial Trainee","Step 6: Progress to Actuarial Analyst, or Underwriting Analyst","Pathway C: Domain Switch Route","Step 1: Complete Class 12th (Maths compulsory)","Step 2: Pursue B.Tech / B.Sc Maths / MBA Finance / CA","Step 3: Work 1–2 years in finance, banking, or data analytics","Step 4: Begin clearing actuarial exams alongside job (IAI/IFoA)","Step 5: Gain experience in risk, insurance, or pension consulting","Step 6: Transition as Actuarial Consultant, or Pension Fund Manager"]
       },
       {
         id: "market",
@@ -158,14 +154,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: [
-          "Entry-Level (Analyst, 0–2 years): ₹6 Lakhs – ₹10 Lakhs annually.",
-          "Mid-Level (Associate, 3–7 years): ₹15 Lakhs – ₹30 Lakhs annually.",
-          "Senior (Fellow, 8–12 years): ₹35 Lakhs – ₹70 Lakhs annually.",
-          "Leadership/Appointed Actuary (15+ years): ₹1 Crore – ₹3 Crores+ annually.",
-          "Growth Projections: Industry expected to grow at CAGR of 4.8% to 5.2% up to 2030.",
-          "Hiring Trends: Major demand shifting from traditional Life Insurance to Cyber Risk, Climate Change Modeling, and Fintech."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5+ Crore","Senior / Lead Role (10+ yrs): ₹40–80 LPA","Mid-Level Professional (5–8 yrs): ₹20–40 LPA","Junior / Associate (3–5 yrs): ₹10–20 LPA","Entry Level (0–2 yrs): ₹4–8 LPA","Note: Metro cities (Mumbai, Gurugram) pay 20–40% more; each actuarial exam cleared adds ~10–15% salary growth.","Where Are the Jobs?","Top Cities: Mumbai, Gurugram/Delhi-NCR, Bengaluru, Hyderabad, Pune","Top Industries: Insurance (LIC, HDFC Life), Consulting (Aon, WTW, PwC, Deloitte), Reinsurance, Banking, Pensions, InsurTech","Opportunities: High global demand (UK, USA, UAE, Singapore); growing remote, consulting, and freelance roles","Top Institutions","Government","Institute of Actuaries of India (IAI)","University of Mumbai (Department of Statistics)","Maharaja Sayajirao University, Baroda","Aligarh Muslim University (AMU)","Private","Bishop Heber College, Tiruchirappalli","Narsee Monjee Institute (NMIMS)","Manipal Academy of Higher Education","Amity University","Online","Institute and Faculty of Actuaries (IFoA) - UK (available in India)","SWAYAM / NPTEL","Coursera (with university partners)","NIIT Online Programs","Career Opportunities","Conventional","Life Insurance Actuary","General Insurance Actuary","Pension & Retirement Fund Actuary","Health Insurance Actuary","New-Age and AI-Driven","Predictive Analytics Actuary","Insurtech Data Scientist","AI-based Catastrophe Risk Modeller","Machine Learning Pricing Specialist","Remote/Entrepreneurship","Freelance Actuarial Consultant","Online Actuarial Exam Coaching","Micro-Insurance Platform Founder","Actuarial Analytics SaaS Startup"]
       },
      
       {
@@ -361,12 +350,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "Path A - After Class 10: Diploma Route: 3-year Diploma in Biomedical Engineering from polytechnic. Enter workforce as Service Technician or Lateral Entry to B.Tech 2nd year.",
-          "Path B - After Class 12: Must have Physics, Chemistry, Biology/Mathematics (PCMB/PCB). Entrance Exams: JEE Main, JEE Advanced, NEET, state-level exams. B.Tech/B.E. in Biomedical Engineering (4 years).",
-          "Path C - After Graduation: For Engineers (Mechanical/Electronics/IT): M.Tech in Biomedical Engineering via GATE exam. For Life Science Graduates: M.Sc. in Biomedical Science followed by PhD.",
-          "Specialization Options: Medical Device Design, Clinical Engineering, Rehabilitation Engineering, Biomedical Instrumentation, Tissue Engineering, Biomaterials."
-        ]
+        content: ["Pathway A: Core Engineering Route","Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.","Step 2: Clear JEE/State CET for engineering admission.","Step 3: Pursue B.Tech in Biomedical Engineering.","Step 4: Complete internship at hospitals or medical device companies.","Step 5: Pursue M.Tech in Biomedical Engineering or Biomechanics.","Step 6: Work as Biomedical Engineer or Medical Device Designer.","Pathway B: Research & Development Route","Step 1: Complete Class 12th with PCM or PCB subjects.","Step 2: Pursue B.Tech/B.E. in Biomedical or Biotechnology Engineering.","Step 3: Learn tools like MATLAB, SolidWorks, and Python.","Step 4: Clear GATE exam for higher study admissions.","Step 5: Pursue M.Tech/Ph.D. from IITs, NITs, or AIIMS.","Step 6: Join as Research Scientist in healthcare or pharma.","Pathway C: Clinical & Hospital Equipment Route","Step 1: Complete Class 12th with Science stream.","Step 2: Pursue B.Sc. in Biomedical Science or Instrumentation.","Step 3: Complete diploma in Medical Equipment Technology.","Step 4: Gain hands-on training in hospital equipment maintenance.","Step 5: Get certified in Clinical Engineering or ISO standards.","Step 6: Work as Clinical Engineer or Hospital Equipment Manager."]
       },
       {
         id: "6",
@@ -374,14 +358,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: [
-          "Entry-Level (Service/Clinical Engineers, 0-2 years): ₹3.5L–₹6L annually.",
-          "Mid-Level (R&D/Project Managers, 5–10 years): ₹10L–₹18L annually.",
-          "Senior-Level (Senior Scientists/Directors, 15+ years): ₹22L–₹45L annually.",
-          "Leadership/CXO (MNCs like GE, Siemens, Philips): ₹50L+ annually.",
-          "Metro vs. Tier-2: Metro cities offer 20–30% higher salaries than tier-2 cities.",
-          "Industry Growth: Indian Medical Device market expected to reach $50 Billion by 2030 with 15% CAGR. Fastest growing segment in healthcare."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Note: Metros and M.Tech/PhD boost pay by 35%.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Mumbai, Chennai, Pune.","Top Industries: MedTech (GE, Medtronic), Hospitals, R&D, AI Startups.","Global Demand: High in USA, Germany. Remote-diagnostics trending.","Top Institutions","Career Opportunities","Conventional","Biomedical Engineer","Clinical Engineer","Medical Device Design Engineer","Hospital Equipment Engineer","New-age and AI driven","Digital Health Engineer","AI Diagnostics Engineer","Biomedical Data Scientist","Wearable Device Developer","Remote / Entrepreneurship","Telehealth Technology Consultant","Biomedical Product Freelancer","MedTech Startup Founder","Online Medical Device Trainer"]
       },
       {
         id: "7",
@@ -807,12 +784,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "After Class 10: Register provisionally with ICAI. Appear for CA Foundation after Class 12 exams.",
-          "After Class 12: Step 1: CA Foundation → Step 2: CA Intermediate (8 months) → Step 3: 2-Year Articleship → Step 4: CA Final.",
-          "Direct Entry Route: Skip Foundation if you have 55% (Commerce) or 60% (Others). Start Intermediate directly.",
-          "Note: The entire journey takes 5-7 years minimum from Class 12."
-        ]
+        content: ["Pathway A: Direct CA Route (After 12th)","Step 1: Complete Class 12th (Commerce with Maths preferred)","Step 2: Register and clear CA Foundation exam (4 papers)","Step 3: Clear CA Intermediate exam (Group I & II — 8 papers)","Step 4: Complete 3 years of Articleship (practical training) under a practicing CA","Step 5: Clear CA Final exam (6 papers) and complete ICAI requirements","Step 6: Work as Chartered Accountant","Pathway B: Graduation + CA Route","Step 1: Complete Class 12th (Commerce preferred)","Step 2: Pursue B.Com / BBA / B.Com (Hons) alongside CA preparation","Step 3: Register directly for CA Intermediate (graduates can skip Foundation)","Step 4: Clear CA Intermediate and begin 3-year Articleship","Step 5: Learn tools — Tally, SAP, Excel, GST portal, Income Tax portal","Step 6: Clear CA Final — join as CA in audit firms, corporates, banks, or government","Pathway C: CA + Specialization Route","Step 1: Complete Class 12th (Commerce/Science with Maths)","Step 2: Clear CA Foundation and Intermediate exams","Step 3: During Articleship, gain exposure in tax, audit, or forensic accounting","Step 4: Clear CA Final and obtain membership from ICAI","Step 5: Add specialization — CFA, CISA, DISA, CPA, or MBA Finance","Step 6: Work as Forensic Auditor, Investment Banker, or International Tax Expert"]
       },
       {
         id: "market",
@@ -820,15 +792,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: [
-          "Entry-Level (Fresher): ₹8 Lakhs – ₹15 Lakhs annually.",
-          "Mid-Level (5–10 years): ₹18 Lakhs – ₹30 Lakhs annually.",
-          "Senior-Level (15+ years): ₹40 Lakhs – ₹80 Lakhs annually.",
-          "Leadership/CXO: ₹1 Crore – ₹5 Crores+ (CFO, Managing Director).",
-          "Market Growth: Indian accounting services market projected to grow at 9.76% CAGR up to 2034.",
-          "Hiring Trends: Massive growth in Global Capability Centers (GCCs) where Indian CAs manage finances of global MNCs from India.",
-          "Demand: India requires approximately 130,000 new CAs annually to meet domestic and global outsourcing needs."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5+ Crore","Senior / Lead Role (10+ yrs): ₹25–70 LPA","Mid-Level Professional (5–8 yrs): ₹10–30 LPA","Junior / Associate (3–5 yrs): ₹6–15 LPA","Entry Level (0–2 yrs): ₹4–10 LPA","Note: Metro cities (Mumbai, Delhi-NCR) pay 20–40% higher; Big 4 experience and CA rank/skills can boost salary by 30–70%.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune","Top Industries: Audit Firms (Big 4), Corporates, Banking, Tax Consulting, Startups, Government","Opportunities: High demand in compliance, GST, IPO advisory; global demand (UK, UAE, Canada); freelancing and practice growing","Top Institutions","Government","Institute of Chartered Accountants of India (ICAI)","National Academy of Direct Taxes (NADT)","Indian Institute of Corporate Affairs (IICA)","Institute of Cost Accountants of India (ICMAI)","Private","Sinhgad College of Commerce, Pune","Loyola College, Chennai","St. Xavier's College, Kolkata","Narsee Monjee College of Commerce, Mumbai","Online","ICAI Virtual Learning (e-learning portal)","Unacademy CA Programs","SWAYAM / NPTEL","Vedantu CA Foundation Courses","Career Opportunities","Conventional","Statutory Auditor","Tax Consultant (Direct & Indirect)","Corporate Finance Manager","Internal Auditor","New-Age and AI-Driven","Forensic Accounting Specialist","AI-powered Audit Analyst","Data-Driven Tax Automation Expert","RegTech Compliance Advisor","Remote/Entrepreneurship","Freelance GST/Income Tax Consultant","Virtual CFO Services Provider","Online CA Exam Coaching","Cloud Accounting Firm Founder"]
       },{
         id: "institutions",
         title: "Where to Study?",
@@ -1022,12 +986,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "After Class 10: Register with ICSI for foundation-level study. Focus on Class 11-12 (Any stream, but Commerce is helpful).",
-          "After Class 12: Step 1: CSEET (CS Executive Entrance Test) → Step 2: Executive → Step 3: Professional. CSEET is the entry gate. No minimum % required in 12th.",
-          "After Graduation: Graduates (50%+) can skip CSEET and enter Executive Programme directly. Direct Entry Route (Excluding Fine Arts graduates).",
-          "The 'Gold Combination': Many students pursue CS + LLB. This makes you a 'Corporate Lawyer-cum-Secretary,' one of the most powerful and highest-paid roles in the legal-corporate world."
-        ]
+        content: ["Pathway A: Direct CS Route (After 12th)","Step 1: Complete Class 12th (Commerce preferred, any stream accepted)","Step 2: Register and clear CSEET (CS Executive Entrance Test)","Step 3: Clear CS Executive Programme (2 modules — 8 papers)","Step 4: Clear CS Professional Programme (3 modules — 9 papers)","Step 5: Complete 15 months of practical training under a practicing CS or company","Step 6: Become Company Secretary","Pathway B: Graduation + CS Route","Step 1: Complete Class 12th (any stream)","Step 2: Pursue B.Com / BBA / B.A. / LLB alongside CS preparation","Step 3: Graduates can directly register for CS Executive (skip CSEET)","Step 4: Clear CS Executive and Professional programmes","Step 5: Learn tools — MCA portal, Tally, Excel, company law databases","Step 6: Join as Company Secretary, Compliance Officer, or Legal Advisor","Pathway C: CS + Dual Qualification Route","Step 1: Complete Class 12th (Commerce/Law stream preferred)","Step 2: Clear CSEET and CS Executive Programme","Step 3: Pursue LLB / CA / CMA simultaneously for dual qualification","Step 4: Clear CS Professional and complete practical training","Step 5: Add certifications — GST, FEMA, Insolvency Professional (IP)","Step 6: Work as Corporate Governance Expert, or Legal Compliance Head"]
       },
       {
         id: "market",
@@ -1035,14 +994,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: [
-          "Entry-Level: ₹7 Lakhs – ₹12 Lakhs annually.",
-          "Mid-Level (5–7 years): ₹15 Lakhs – ₹35 Lakhs annually.",
-          "Senior/KMP: ₹45 Lakhs – ₹80 Lakhs annually.",
-          "Leadership (Top Listed Co): ₹1 Crore – ₹5 Crores+ (e.g., Reliance or HDFC).",
-          "Hiring Trends: Demand has surged by 40% in MNCs due to new ESG (Environmental, Social, Governance) and AI compliance laws.",
-          "Growth: Mumbai remains the highest-paying market, followed by Bengaluru and Delhi NCR."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹8–25 LPA","Junior / Associate (3–5 yrs): ₹5–12 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: Metro cities (Mumbai, Delhi-NCR) pay 20–40% higher; listed company exposure and experience boost salary by 25–50%.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune","Top Industries: Corporates, Listed Companies, Legal Firms, Consulting, Banking, Startups","Opportunities: High demand in compliance, corporate law, IPO; global roles (UAE, Singapore); independent practice growing","Top Institutions","Government","Institute of Company Secretaries of India (ICSI)","Indian Institute of Corporate Affairs (IICA)","National Law Universities (NLUs)","University of Delhi (Department of Commerce)","Private","Narsee Monjee Institute (NMIMS), Mumbai","Symbiosis Law School, Pune","Amity University","Christ University, Bangalore","Online","ICSI e-Learning Portal","Unacademy CS Programs","SWAYAM / NPTEL","Takshila Learning (CS Online Courses)","Career Opportunities","Conventional","Corporate Governance Advisor","Legal Compliance Officer","Board Meeting & AGM Coordinator","Company Law Consultant","New-Age and AI-Driven","RegTech Compliance Automation Specialist","AI-powered Corporate Governance Analyst","ESG (Environmental, Social, Governance) Advisor","Digital Contract Management Expert","Remote/Entrepreneurship","Freelance Company Secretary (Practice)","Virtual Compliance Services Provider","Online CS Exam Coaching","Startup Incorporation & Advisory Firm Founder"]
       },{
         id: "institutions",
         title: "Where to Study?",
@@ -2529,11 +2481,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Financial aids for deserving architecture students",
         color: RED5,
-        content: [
-          "Central Government: AICTE Pragati and Merit-cum-Means through NSP help girls and minority students",
-          "State Scholarships: Maharashtra, UP, and others offer Post-Matric aid",
-          "Private Support: Mohan T. Advani offers up to ₹1 lakh; Aditya Birla offers top-tier scholarships"
-        ]
+        content: ["Pathway A: After Class 12th (Traditional Route)","Step 1: Complete Class 12th with PCM subjects","Step 2: Clear NATA or JEE Main Paper 2","Step 3: Complete B.Arch degree (5 years)","Step 4: Do internship with architecture firms","Step 5: Register with Council of Architecture","Step 6: Work as licensed Architect","Pathway B: Diploma Route","Step 1: After Class 10th, join Architecture Diploma","Step 2: Complete 3-year Diploma in Architecture","Step 3: Gain practical site experience","Step 4: Pursue B.Arch through lateral entry","Step 5: Learn AutoCAD, Revit, SketchUp tools","Step 6: Work as Architect or Design Consultant","Pathway C: Specialisation Route","Step 1: Complete Class 12th with PCM","Step 2: Complete B.Arch degree (5 years)","Step 3: Pursue M.Arch in chosen specialisation","Step 4: Specialise in Urban Design or Landscape","Step 5: Build portfolio with real projects","Step 6: Work as Senior Architect or Urban Planner"]
       },
       {
         id: "6",
@@ -2541,11 +2489,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Realistic look at the work intensity and initial compensation",
         color: RED,
-        content: [
-          "Long Hours: Demanding schedules during college juries and tight office deadlines",
-          "Initial Pay: Entry-level compensation is typically lower than in IT or Finance sectors",
-          "Coordination Stress: High pressure from managing diverse stakeholders like contractors and government officials"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–25 LPA","Mid-Level Professional (5–8 yrs): ₹6–12 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 30–50% more. COA license and LEED/BIM skills boost earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune, Chennai","Top Industries: Real estate firms (DLF, Godrej), infrastructure (L&T, Shapoorji), government (CPWD, Smart Cities Mission), hospitality","Global Demand: UAE, Singapore, Australia actively hiring; freelancing growing via Houzz/Upwork","Top Institutions","Government:","School of Planning & Architecture (SPA), New Delhi","Indian Institute of Technology (IIT), Kharagpur","Indian Institute of Technology (IIT), Roorkee","Centre for Environmental Planning & Technology (CEPT), Ahmedabad","Private:","Manipal Academy of Higher Education, Manipal","Amity University, Noida","Sushant University (formerly Ansal University), Gurugram","Rizvi College of Architecture, Mumbai","Online:","Swayam/NPTEL","Coursera (Architecture & Design Courses)","IGNOU (Architecture Related Programs)","Udemy (Architecture & Building Design Courses)","Career Opportunities","Conventional","Licensed Architect (Private/Govt Practice)","Urban Planning & Town Development Officer","Interior Design & Space Planning Architect","Heritage Conservation & Restoration Architect","New-Age & AI Driven","AI-Generated Design & Parametric Architect","BIM (Building Information Modelling) Specialist","Sustainable & Green Building Design Technologist","VR/AR-Based Architectural Visualization Expert","Remote/Entrepreneurship","Freelance Architectural Design Consultant","Online Architecture Education Platform Founder","Modular & Prefab Housing Startup Entrepreneur","3D Architectural Rendering Studio Owner"]
       },
       {
         id: "7",
@@ -2647,11 +2591,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🏆",
         description: "Major financial aid options for construction and engineering",
         color: RED5,
-        content: [
-          "PM-USP: Merit-based scholarships for top Class 12 students across India",
-          "Fee Waivers: IITs and NITs offer significant fee reductions for low-income backgrounds",
-          "L&T Build India: Full M.Tech fees, monthly stipend, and assured job placement"
-        ]
+        content: ["Career Pathways in Construction","Pathway A: After Class 12th (Engineering Route)","Step 1: Complete Class 12th with PCM subjects","Step 2: Clear JEE Main or state entrance exams","Step 3: Complete B.Tech in Civil Engineering (4 years)","Step 4: Do internship at construction sites","Step 5: Learn AutoCAD, STAAD Pro, Primavera tools","Step 6: Work as Site Engineer or Project Manager","Pathway B: Diploma Route","Step 1: After Class 10th, join Diploma programme","Step 2: Complete 3-year Diploma in Civil Engineering","Step 3: Gain hands-on site work experience","Step 4: Pursue B.Tech through lateral entry","Step 5: Get certified in safety and quality management","Step 6: Work as Construction Supervisor or Contractor","Pathway C: Skill-Based Entry Route","Step 1: Complete Class 10th or 12th","Step 2: Join ITI or short-term construction courses","Step 3: Learn surveying, estimation, and costing skills","Step 4: Work as site technician or skilled tradesperson","Step 5: Gain experience and upgrade through certifications","Step 6: Grow into Site Supervisor or Independent Contractor"]
       },
       {
         id: "6",
@@ -2659,11 +2599,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "👷",
         description: "Realities of site life and intensive workload",
         color: RED,
-        content: [
-          "Mobility: High; growth requires relocating to move with active project sites",
-          "Workload: Strict deadlines often involve 10-12 hour workdays in high-pressure environments",
-          "Safety: Critical: sites carry inherent risks, demanding rigorous discipline"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹15–30 LPA","Mid-Level Professional (5–8 yrs): ₹7–15 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4.5 LPA","Note: Metro/infrastructure hub cities pay higher. PMP, RERA knowledge, and BIM/AutoCAD skills significantly boost salary.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Hyderabad, Bangalore, Ahmedabad, Chennai","Top Industries: L&T, Shapoorji Pallonji, Tata Projects, DLF, Godrej Properties, NHAI, Smart Cities Mission, Metro Rail projects","Global Demand: Gulf countries (UAE, Saudi – NEOM), Australia, Canada hiring Indian engineers; freelance project consulting rising","Top Institutions","Government:","Indian Institute of Technology (IIT), Delhi","Indian Institute of Technology (IIT), Madras","National Institute of Construction Management & Research (NICMAR), Pune","School of Planning & Architecture (SPA), New Delhi","Private:","RICS School of Built Environment, Amity University, Noida","Manipal Academy of Higher Education, Manipal","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Online:","Swayam/NPTEL","Coursera (Construction Management Courses)","IGNOU (Construction Management Programs)","Udemy (Construction Technology & Management Courses)","Career Opportunities","Conventional","Construction Project Manager","Site Engineer & Supervision Officer","Quantity Surveyor & Estimation Specialist","Building Materials & Procurement Manager","New-Age & AI Driven","AI-Powered Construction Planning & Scheduling Analyst","Drone-Based Site Surveying & Monitoring Specialist","BIM-Integrated Smart Construction Technologist","Robotics & 3D Printing Construction Engineer","Remote/Entrepreneurship","Freelance Construction Project Consultant","Modular & Prefabricated Construction Startup Founder","Online Construction Skill Training Platform Creator","Green Building & LEED Certification Consultancy Owner"]
       },
       {
         id: "7",
@@ -2993,12 +2929,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Funding your ABM education",
         color: RED5,
-        content: [
-          "NSP (National Scholarship Portal) for minority, SC, and ST students",
-          "Pragati Scholarship: ₹50,000 yearly for girls in technical courses",
-          "L&T: Full M.Tech fees at IITs/NITs with stipend and job offer",
-          "Mahindra: ₹10,000 yearly for diploma students from low-income families"
-        ]
+        content: ["Pathway A: Degree Route","Step 1: Complete Class 12th (PCM/PCB/Commerce)","Step 2: Pursue BBA in Agri-Business / B.Sc Agriculture","Step 3: Do summer internships at agri-firms like ITC, Mahindra Agri","Step 4: Learn tools — SAP, MS Excel, supply chain basics","Step 5: Complete MBA in Agri-Business (MANAGE Hyderabad, IIM-A ABM)","Step 6: Join as Agri-Business Manager, Supply Chain Analyst, or Commodity Trader","Pathway B: Skill-Based Entry","Step 1: Complete Class 12th (any stream)","Step 2: Take diploma in Agriculture / Agri-Business","Step 3: Gain field experience — FPOs, cooperatives, mandis","Step 4: Learn digital tools — AgroStar, DeHaat platforms","Step 5: Get certified in agri-supply chain or rural management","Step 6: Work as Field Coordinator, Procurement Officer, or Agri-Sales Executive","Pathway C: Domain Switch Route","Step 1: Complete Class 12th (Commerce/Science)","Step 2: Pursue B.Com / BBA / B.Sc","Step 3: Work 1–2 years in sales, logistics, or banking","Step 4: Enroll in PG Diploma — Rural Management (IRMA) or Agri-Business","Step 5: Intern with agri-startups like Ninjacart, DeHaat","Step 6: Transition as Agri-Business Consultant, Rural Marketing Manager, or Agri-Finance Analyst"]
       },
       {
         id: "6",
@@ -3006,11 +2937,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Reality of the field and market",
         color: RED,
-        content: [
-          "Managing the shift between high-tech office analysis and intensive field visits",
-          "Bad monsoons can disrupt entire supply chains, causing high-stress seasons",
-          "Overcoming 'rural stigma' as corporate roles redefine industry glamour"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹15–50 LPA","Mid-Level Professional (5–8 yrs): ₹8–25 LPA","Junior / Associate (3–5 yrs): ₹4–12 LPA","Entry Level (0–2 yrs): ₹3–8 LPA","Note: Metro/agri-hubs (Delhi-NCR, Mumbai) pay 20–30% higher; MBA (Agri-Business) and supply-chain skills boost salary by 20–50%.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Pune, Hyderabad, Bengaluru, Ahmedabad","Top Industries: Agri Corporates, FMCG, Food Processing, AgriTech, Supply Chain, Government Projects","Global Demand: High in USA, Netherlands, Australia; rising remote consulting, agri-tech startups","Top Institutions","Top Institutions for Agri-Business Management in India","Government:","Indian Institute of Management, Ahmedabad (IIMA)","National Institute of Agricultural Extension Management (MANAGE), Hyderabad","Indian Agricultural Research Institute (IARI), New Delhi","Govind Ballabh Pant University of Agriculture & Technology, Pantnagar","Private:","ICFAI Business School (IBS)","Amity University","Lovely Professional University (LPU)","ITM Business School","Online:","IGNOU","Swayam/NPTEL","Jain University (Online)","Symbiosis Centre for Distance Learning (SCDL)","Career Opportunities","Here are the top career opportunities in Agri-Business Management in India:","Conventional","Farm Operations Manager","Agricultural Marketing Officer","Commodity Trading Analyst","Rural Banking & Agri-Credit Officer","New-Age & AI Driven","Precision Agriculture Data Analyst","Agri-Tech Product Manager","Drone-Based Crop Monitoring Specialist","AI-Powered Supply Chain Optimizer","Remote/Entrepreneurship","Agri E-Commerce Platform Founder","Farm-to-Fork Consulting (Freelance)","Organic Brand Builder & Online Retailer","Agri-Business Content Creator & Advisor"]
       },
       {
         id: "7",
@@ -3107,12 +3034,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Financial aid for engineering students",
         color: RED5,
-        content: [
-          "NSP for minority, SC, and ST students",
-          "Pragati Scholarship: ₹50,000 yearly for girls",
-          "ICAR: Supports agriculture students studying in another state",
-          "State/Private Aid: Odisha and other groups provide ₹25,000 – ₹50,000"
-        ]
+        content: ["Pathway A: B.Tech Route","Step 1: Complete Class 12th with PCM (Physics, Chemistry, Maths)","Step 2: Clear JEE/State CET and pursue B.Tech Agricultural Engineering (IITs, SAUs, GBPUAT)","Step 3: Do internships at ICAR, farm machinery companies, or agri-tech startups","Step 4: Learn tools — AutoCAD, MATLAB, GIS, drone technology","Step 5: Pursue M.Tech or MBA in Agri-Business (optional)","Step 6: Join as Agricultural Engineer, Farm Machinery Designer, or Irrigation Specialist","Pathway B: Diploma + Field Entry Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Agricultural Engineering (3 years, state polytechnics)","Step 3: Gain field experience — FPOs, KVKs, farm equipment dealers","Step 4: Learn basics — soil testing, irrigation systems, tractor mechanics","Step 5: Upgrade through lateral entry to B.Tech (optional)","Step 6: Work as Junior Engineer, Field Technician, or Agri-Equipment Supervisor","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCM","Step 2: Pursue B.Tech Agricultural Engineering","Step 3: Clear GATE and pursue M.Tech (IITs, IARI, CIAE Bhopal)","Step 4: Publish research in farm mechanization, renewable energy, or water management","Step 5: Clear ARS/NET, UPSC Engineering Services, or State PSC exams","Step 6: Join as Scientist at ICAR, Professor, or Government Engineer in agriculture department"]
       },
       {
         id: "6",
@@ -3120,11 +3042,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Environment and scaling issues",
         color: RED,
-        content: [
-          "Working frequently in hot, dusty, and muddy outdoor conditions",
-          "Workloads can triple during intense harvest periods",
-          "Adapting high-tech lab designs for practical use on small Indian farm plots"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.5+ Crore","Senior / Lead Role (10+ yrs): ₹12–40 LPA","Mid-Level Professional (5–8 yrs): ₹6–20 LPA","Junior / Associate (3–5 yrs): ₹4–10 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: Metro/agri-industrial hubs (Pune, Hyderabad) pay 15–30% higher; skills in irrigation tech, GIS, farm mechanisation boost salary by 20–40%.","Where Are the Jobs?","Top Cities: Hyderabad, Pune, Bengaluru, Delhi-NCR, Ludhiana, Coimbatore","Top Industries: Farm Equipment, Irrigation, AgriTech, Food Processing, Government (ICAR), NGOs","Global Demand: High in Africa, Middle East, Australia; demand in precision farming, water management, remote consulting","Top Institutions","Government:","Indian Institute of Technology, Kharagpur (IIT-KGP)","Punjab Agricultural University (PAU), Ludhiana","Tamil Nadu Agricultural University (TNAU), Coimbatore","Govind Ballabh Pant University of Agriculture & Technology, Pantnagar","Private:","SRM Institute of Science and Technology, Chennai","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Sharda University, Greater Noida","Online:","IGNOU","Swayam/NPTEL","Coursera (IIT/IARI courses)","ICAR e-courses","Career Opportunities","Conventional Careers","Farm Machinery Design","Irrigation Engineer","Soil & Water Conservationist","New-Age / AI-Driven Careers","Drone Data Analyst","Precision Agriculture Specialist","Climate-Smart Systems Engineer","AI-Agriculture Specialist","Freelancing & Entrepreneurship","Independent Farm Consultant","Custom Hiring Center (CHC) Entrepreneur","Agri-Visualization Specialist"]
       },
       {
         id: "7",
@@ -3222,12 +3140,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Funding for research careers",
         color: RED5,
-        content: [
-          "ICAR National Talent Scholarship (NTS) for inter-state study",
-          "JRF via CSIR-UGC NET for monthly Ph.D funding",
-          "Corteva Scholarship: ₹50,000 yearly for girls in postgraduation",
-          "Global: Fulbright and Commonwealth for study in USA and UK"
-        ]
+        content: ["Pathway A: B.Sc + Research Route","Step 1: Complete Class 12th with PCB/PCM","Step 2: Pursue B.Sc Agriculture (4 years — SAUs, IARI, BHU, GBPUAT)","Step 3: Clear ICAR-JRF/SRF and pursue M.Sc Agriculture (specialization — Agronomy, Plant Breeding, Soil Science)","Step 4: Learn tools — SPSS, R, GIS, remote sensing, lab techniques","Step 5: Pursue Ph.D. in Agriculture and publish research papers","Step 6: Join as Scientist at ICAR/CSIR, Professor, or Research Fellow at international organizations (ICRISAT, IRRI)","Pathway B: Diploma + Field Research Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Agriculture (2 years, state polytechnics)","Step 3: Work at KVKs, seed companies, or fertilizer research labs","Step 4: Upgrade to B.Sc Agriculture through lateral entry","Step 5: Gain field research experience — crop trials, soil testing, pest management","Step 6: Work as Research Assistant, Lab Technician, or Agricultural Field Officer","Pathway C: B.Tech + Agri-Tech Research Route","Step 1: Complete Class 12th with PCM","Step 2: Pursue B.Tech Agricultural Engineering / Biotechnology","Step 3: Clear GATE and pursue M.Tech (IARI, IITs, CIAE)","Step 4: Specialize in precision farming, drone technology, or agri-biotech","Step 5: Intern/work at agri-tech startups — CropIn, DeHaat, Ninjacart","Step 6: Join as Agri-Tech Researcher, R&D Engineer, or Innovation Scientist at ICAR, private firms, or global research centers"]
       },
       {
         id: "6",
@@ -3235,11 +3148,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Timelines and physical demands",
         color: RED,
-        content: [
-          "Developing a single variety is a marathon (7 to 12 years)",
-          "Navigating strict approvals and clearances for GM crops",
-          "High stamina needed for field trials under intense heat"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1+ Crore","Senior / Lead Role (10+ yrs): ₹18–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–18 LPA","Junior / Associate (3–5 yrs): ₹5–8 LPA","Entry Level (0–2 yrs): ₹3–5 LPA","Note: Govt (ICAR) stable but lower; private agri-biotech pays 20–40% more; PhD/NET boosts salary significantly.","Where Are the Jobs?","Top Cities: Delhi, Hyderabad, Bengaluru, Ludhiana, Pune, Varanasi","Top Industries: ICAR institutes, Agri Universities, Seed & Biotech (Syngenta, Bayer), NGOs, Policy Think Tanks","Global Demand: High in USA, Australia, Africa; roles in climate research, crop science, remote data analysis","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","National Dairy Research Institute (NDRI), Karnal","Central Institute of Fisheries Education (CIFE), Mumbai","Indian Veterinary Research Institute (IVRI), Bareilly","Private:","Amity Institute of Biotechnology, Noida","Sam Higginbottom University (SHUATS), Prayagraj","Shoolini University, Solan","DY Patil University, Pune","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU","Coursera (Agriculture Research Programs)","Career Opportunities","Conventional","ICAR/IARI Research Scientist","Plant Breeding & Genetics Researcher","Soil Science & Fertility Researcher","Entomology & Pest Management Researcher","New-Age & AI Driven","Genomics & Bioinformatics Research Analyst","AI-Based Crop Prediction Modelling Researcher","Remote Sensing & GIS Agri-Researcher","Climate Change & Agriculture Impact Analyst","Remote/Entrepreneurship","Freelance Agri-Research Consultant","Independent Seed Technology Innovator","Agri-Research Publication & Journal Editor","Online Agri-Science Training Platform Founder"]
       },
       {
         id: "7",
@@ -3336,12 +3245,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Aid for animal science students",
         color: RED5,
-        content: [
-          "ICAR NTS: ₹3,000 per month for inter-state study",
-          "ICAR JRF/SRF: Up to ₹35,000 monthly for research",
-          "VCI Scholarship for top All-India Quota students",
-          "NSP for SC, ST, and OBC category students"
-        ]
+        content: ["Pathway A: B.V.Sc Degree Route","Step 1: Complete Class 12th with PCB (Physics, Chemistry, Biology)","Step 2: Clear NEET and pursue B.V.Sc & AH (5.5 years — including 1 year internship)","Step 3: Do clinical training at veterinary hospitals, dairy farms, poultry units","Step 4: Learn tools — ultrasound, lab diagnostics, animal nutrition software","Step 5: Register with State Veterinary Council","Step 6: Work as Veterinary Doctor, Livestock Officer, or start own veterinary clinic","Pathway B: Research + Government Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.V.Sc & AH from recognized college (IVRI, GADVASU, TANUVAS)","Step 3: Clear ICAR-JRF/SRF and pursue M.V.Sc (specialization — Surgery, Pathology, Animal Genetics)","Step 4: Publish research and pursue Ph.D. in Veterinary Science","Step 5: Clear ARS/NET, UPSC Veterinary Services, or State PSC exams","Step 6: Join as Scientist at ICAR/IVRI, Professor, Government Veterinary Officer, or WHO/FAO Consultant","Pathway C: Diploma + Field Entry Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Animal Husbandry / Veterinary Science (2 years, state institutes)","Step 3: Gain field experience — dairy cooperatives, poultry farms, animal shelters","Step 4: Learn basics — vaccination, first aid, artificial insemination, feed management","Step 5: Upgrade to B.V.Sc through lateral entry or bridge courses (optional)","Step 6: Work as Veterinary Technician, Livestock Supervisor, Dairy Manager, or Animal Welfare Officer"]
       },
       {
         id: "6",
@@ -3349,11 +3253,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Risks and emotional demands",
         color: RED,
-        content: [
-          "Occupational hazards like being bitten or kicked by stressed animals",
-          "Managing terminal illnesses and facilitating 'end-of-life' decisions",
-          "Unpredictable schedule with emergencies that extend beyond 9-to-5"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5+ Crore","Senior / Lead Role (10+ yrs): ₹20–50 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹6–10 LPA","Entry Level (0–2 yrs): ₹4–8 LPA","Note: Private pet care & dairy sectors pay 20–40% more; govt vets stable; specialization (surgery, dairy tech) increases income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai, Ludhiana","Top Industries: Veterinary Hospitals, Dairy (Amul), Poultry, Pharma (Zoetis), Pet Care Industry","Global Demand: High in Canada, Australia, UK; demand in livestock management, pet healthcare, remote advisory roles","Top Institutions","Government:","Indian Veterinary Research Institute (IVRI), Bareilly","National Dairy Research Institute (NDRI), Karnal","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Maharashtra Animal & Fishery Sciences University (MAFSU), Nagpur","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Rajiv Gandhi Institute of Veterinary Education & Research, Puducherry","Apollo College of Veterinary Medicine, Jaipur","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Animal Husbandry Programs)","Coursera (Veterinary Science Courses)","Career Opportunities","Conventional","Government Veterinary Officer","Livestock Development Officer","Animal Nutritionist & Feed Specialist","Dairy Farm Operations Manager","New-Age & AI Driven","AI-Based Animal Health Diagnostics Specialist","Precision Livestock Farming Technologist","Genetic Engineering & Cloning Researcher","IoT-Enabled Smart Dairy Management Expert","Remote/Entrepreneurship","Online Veterinary Telemedicine Provider","Pet Care & Wellness Startup Founder","Freelance Animal Husbandry Consultant","Organic Dairy / Poultry Brand Entrepreneur"]
       },
       {
         id: "7",
@@ -3452,13 +3352,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Aid for aspiring beekeepers",
         color: RED5,
-        content: [
-          "NSP for income-based help from Class 9",
-          "ICAR JRF/SRF for PG and Ph.D research students",
-          "NABARD Fellowship for rural farming graduates",
-          "KVIC Subsidies for SC/ST, women, and rural youth",
-          "Mudra Loans for starting your own bee business"
-        ]
+        content: ["Career Pathways: Apiculture (Beekeeping)","Pathway A: B.Sc Agriculture + Specialization Route","Step 1: Complete Class 12th with PCB/PCM","Step 2: Pursue B.Sc Agriculture / B.Sc Zoology / B.Sc Entomology","Step 3: Take specialized training in Apiculture (CBRTI Pune, IARI, KVKs)","Step 4: Learn skills — bee colony management, honey extraction, queen rearing","Step 5: Pursue M.Sc Entomology / Apiculture for advanced knowledge","Step 6: Join as Apiculture Scientist, Bee Research Officer, or Honey Quality Analyst at ICAR, KVIC, or NBHM","Pathway B: Skill-Based / Entrepreneurship Route","Step 1: Complete Class 10th/12th (any stream)","Step 2: Attend beekeeping training at KVKs, NBHM, or state agriculture departments (free/subsidized)","Step 3: Learn basics — bee box setup, seasonal management, disease control","Step 4: Get FSSAI license and organic certification for honey products","Step 5: Apply for government subsidies — PMEGP, NABARD, NBHM schemes","Step 6: Start own beekeeping business — sell honey, beeswax, royal jelly, pollination services","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.Sc Agriculture / Zoology from recognized university","Step 3: Clear ICAR-JRF and pursue M.Sc/Ph.D. in Entomology / Apiculture","Step 4: Publish research in bee biology, pollination science, or honey technology","Step 5: Clear ARS/NET or State PSC exams","Step 6: Join as Scientist at CBRTI/ICAR, Professor, NBHM Coordinator, or FAO Bee Health Consultant"]
       },
       {
         id: "6",
@@ -3466,11 +3360,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Seasonal risks and market issues",
         color: RED,
-        content: [
-          "Income depends heavily on flowers and weather conditions",
-          "Risk of bee stings and potential allergies",
-          "Adulteration issues in the market can harm consumer trust"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹80 LPA","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies widely; entrepreneurs earn more via honey/wax sales; govt schemes (KVIC) + export markets boost earnings.","Where Are the Jobs?","Top Cities/Regions: Punjab, Haryana, Uttar Pradesh, Himachal Pradesh, Uttarakhand, Maharashtra","Top Industries: Honey Processing, Agri-Cooperatives, KVIC, FMCG (Dabur, Patanjali), Export Firms","Global Demand: High in EU, USA, Middle East; demand for organic honey, pollination services, export-driven entrepreneurship","Top Institutions","Government:","Central Bee Research & Training Institute (CBRTI), Pune","Khadi & Village Industries Commission (KVIC), Mumbai","Punjab Agricultural University (PAU), Ludhiana","University of Agricultural Sciences (UAS), Bangalore","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Shoolini University, Solan","Lovely Professional University (LPU), Jalandhar","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Certificate in Beekeeping)","National Bee Board (NBB) Online Training","Career Opportunities","Conventional","Government Apiculture Development Officer","Bee Colony Management Specialist","Honey Processing & Quality Control Officer","Pollination Service Provider for Farms","New-Age & AI Driven","AI-Powered Hive Health Monitoring Analyst","IoT-Based Smart Beekeeping Technologist","Bee Genomics & Breeding Research Scientist","Drone-Assisted Pollination Mapping Specialist","Remote/Entrepreneurship","Organic Honey Brand Founder & Exporter","Online Beekeeping Training Academy Creator","Bee Venom & Apitherapy Product Entrepreneur","Freelance Apiculture & Pollination Consultant"]
       },
       {
         id: "7",
@@ -3567,12 +3457,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Financial aid for fisheries students",
         color: RED5,
-        content: [
-          "ICAR JRF/SRF and NSP for minority and category students",
-          "CIFE and ICAR universities offer merit scholarships",
-          "State Scholarships (Andhra, Kerala, Tamil Nadu)",
-          "Corporate Fellowships from companies like Avanti and Waterbase"
-        ]
+        content: ["Pathway A: B.F.Sc Degree Route","Step 1: Complete Class 12th with PCB (Physics, Chemistry, Biology)","Step 2: Clear ICAR-AIEEA/State CET and pursue B.F.Sc — Bachelor of Fisheries Science (4 years — CIFE Mumbai, SAUs, State Fisheries Colleges)","Step 3: Do internships at fish hatcheries, shrimp farms, or MPEDA export units","Step 4: Learn skills — water quality testing, feed management, disease diagnosis","Step 5: Pursue M.F.Sc in Aquaculture / Mariculture / Fish Genetics (optional)","Step 6: Join as Aquaculture Officer, Fisheries Development Officer, or Hatchery Manager","Pathway B: Skill-Based / Entrepreneurship Route","Step 1: Complete Class 10th/12th (any stream)","Step 2: Attend aquaculture training at CIFA, NFDB, KVKs, or state fisheries departments (free/subsidized)","Step 3: Learn basics — pond construction, seed selection, feeding, harvesting techniques","Step 4: Get FSSAI license and aquaculture registration from CAA (Coastal Aquaculture Authority)","Step 5: Apply for government subsidies — PMMSY, NFDB, NABARD, Blue Revolution schemes","Step 6: Start own fish/shrimp farm — sell fresh fish, prawns, ornamental fish, or value-added products","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.F.Sc from recognized college (CIFE, KUFOS, WBUAFS)","Step 3: Clear ICAR-JRF/SRF and pursue M.F.Sc/Ph.D. in Aquaculture / Fish Biotechnology","Step 4: Publish research in fish breeding, aquaponics, or sustainable aquaculture","Step 5: Clear ARS/NET, UPSC, or State PSC exams","Step 6: Join as Scientist at CIFA/CMFRI/ICAR, Professor, State Fisheries Officer, or FAO/WorldFish Consultant"]
       },
       {
         id: "6",
@@ -3580,11 +3465,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Weather risks and market volatility",
         color: RED,
-        content: [
-          "Floods, cyclones, and diseases can destroy whole farms",
-          "Fish rates fluctuate based on global market demand",
-          "Export work requires extensive safety documentation"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.2+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Coastal states pay more; shrimp export business boosts income; entrepreneurship (fish/shrimp farming) can exceed salaries.","Where Are the Jobs?","Top Cities/Regions: Andhra Pradesh, Tamil Nadu, Kerala, West Bengal, Odisha, Gujarat","Top Industries: Fisheries, Shrimp Export (Avanti Feeds), Hatcheries, Feed Companies, Govt Fisheries Dept","Global Demand: High in Southeast Asia, Middle East, EU; demand in aquaculture tech, export management, remote monitoring","Top Institutions","Government:","Central Institute of Fisheries Education (CIFE), Mumbai","Central Institute of Freshwater Aquaculture (CIFA), Bhubaneswar","Central Institute of Brackishwater Aquaculture (CIBA), Chennai","Kerala University of Fisheries & Ocean Studies (KUFOS), Kochi","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Shoolini University, Solan","Lovely Professional University (LPU), Jalandhar","Centurion University, Odisha","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Fisheries & Aquaculture Programs)","Coursera (Aquaculture & Marine Science Courses)","Career Opportunities","Conventional","Fish Farm / Hatchery Manager","Aquaculture Extension Officer (State Fisheries)","Shrimp & Prawn Cultivation Specialist","Aquatic Animal Health & Disease Officer","New-Age & AI Driven","AI-Based Water Quality Monitoring Analyst","IoT-Enabled Smart Fish Farm Technologist","Recirculating Aquaculture Systems (RAS) Engineer","Satellite-Based Aquaculture Site Selection Specialist","Remote/Entrepreneurship","Ornamental Fish Breeding & Export Entrepreneur","Online Aquaculture Training Platform Founder","Freelance Aquaculture Project Consultant","Seaweed / Algae Farming Startup Founder"]
       },
       {
         id: "7",
@@ -3681,11 +3562,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Funding for dairy science students",
         color: RED5,
-        content: [
-          "ICAR NTS: ₹3,000 monthly for inter-state study",
-          "NDRI: Fellowship for Master's students with research support",
-          "NSP for fee waivers and allowances based on category"
-        ]
+        content: ["Career Pathways: Dairy Technology","Pathway A: B.Tech Dairy Technology Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Clear state CET/ICAR-AIEEA and pursue B.Tech Dairy Technology (4 years — NDRI Karnal, SMC Anand, AAU, Warner College)","Step 3: Do internships at dairy plants — Amul, Mother Dairy, Nestle, Britannia","Step 4: Learn skills — milk processing, pasteurization, packaging, quality testing, FSSAI standards","Step 5: Pursue M.Tech Dairy Technology / MBA Dairy Management (optional)","Step 6: Join as Dairy Technologist, Production Manager, Quality Assurance Officer, or R&D Scientist","Pathway B: Diploma + Field Entry Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Dairy Technology (2–3 years, state dairy institutes/polytechnics)","Step 3: Gain hands-on experience at milk cooperatives, chilling centers, or dairy booths","Step 4: Learn basics — milk collection, fat testing, paneer/curd/ghee making, cold chain management","Step 5: Upgrade to B.Tech Dairy Technology through lateral entry (optional)","Step 6: Work as Dairy Supervisor, Milk Plant Technician, Quality Checker, or Dairy Cooperative Manager","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Pursue B.Tech Dairy Technology from recognized institute (NDRI, SMC Anand)","Step 3: Clear GATE/ICAR-JRF and pursue M.Tech/Ph.D. in Dairy Science / Food Technology","Step 4: Publish research in dairy processing, value-added dairy products, or food safety","Step 5: Clear ARS/NET, UPSC, or State PSC exams","Step 6: Join as Scientist at NDRI/ICAR, Professor, FSSAI Officer, or Dairy Development Commissioner in government"]
       },
       {
         id: "6",
@@ -3693,11 +3570,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Perishability and extreme environments",
         color: RED,
-        content: [
-          "Processing runs 24/7 due to high perishability, requiring shift work",
-          "Environment fluctuates between industrial heat and sub-zero storage",
-          "High stakes where minor errors can cause massive safety crises"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹5–10 LPA","Entry Level (0–2 yrs): ₹3–6 LPA","Note: Private dairy & FMCG pay 20–40% more; cooperative sector stable; MBA (Dairy/Agri) boosts growth.","Where Are the Jobs?","Top Cities/Regions: Gujarat (Anand), Delhi-NCR, Pune, Bengaluru, Hyderabad, Ludhiana","Top Industries: Dairy (Amul, Mother Dairy), FMCG (Nestlé), Food Processing, Cold Chain, Govt Dairy Boards","Global Demand: High in New Zealand, Australia, EU; demand in dairy processing, supply chain, export management","Top Institutions","Top Institutions for Dairy Technology in India","Government:","National Dairy Research Institute (NDRI), Karnal","SMC College of Dairy Science, Anand (AAU)","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Warner College of Dairy Technology (SHUATS), Prayagraj","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","ITM University, Gwalior","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Dairy Technology Programs)","National Dairy Development Board (NDDB) Online Training","Career Opportunities","Conventional","Dairy Plant Production Manager","Milk Procurement & Quality Control Officer","Dairy Product Development Technologist","Cooperative Dairy Federation Officer (AMUL/NDDB)","New-Age & AI Driven","AI-Powered Milk Supply Chain Optimizer","IoT-Based Cold Chain Monitoring Specialist","Automated Dairy Processing Systems Engineer","Data-Driven Dairy Yield Prediction Analyst","Remote/Entrepreneurship","Artisan Cheese / Yogurt Brand Founder","Online Dairy Technology Consulting Provider","Dairy-Based Nutraceutical Startup Entrepreneur","Freelance Dairy FSSAI Compliance Consultant"]
       },
       {
         id: "7",
@@ -3793,12 +3666,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Aid for floriculture and design",
         color: RED5,
-        content: [
-          "NSP and PMKVY for free training and scholarships",
-          "State agriculture portal subsidies for flower-growing areas",
-          "Institutional fee waivers at IARI and specific universities",
-          "Corporate sponsorships for future talent"
-        ]
+        content: ["Career Pathways: Florist","Pathway A: B.Sc Horticulture + Specialization Route","Step 1: Complete Class 12th with PCB/PCM","Step 2: Pursue B.Sc Horticulture / B.Sc Agriculture (4 years — SAUs, IARI, UAS Bangalore)","Step 3: Specialize in Floriculture during graduation or take certificate courses","Step 4: Learn skills — flower arrangement, bouquet making, landscape design, greenhouse management","Step 5: Do internships at nurseries, export houses, or floral design studios","Step 6: Join as Floriculture Officer, Floral Designer, Greenhouse Manager, or Flower Export Specialist","Pathway B: Skill-Based / Entrepreneurship Route","Step 1: Complete Class 10th/12th (any stream)","Step 2: Attend floristry training — short courses at IIFD, IGNOU, KVKs, or private floral schools","Step 3: Learn basics — flower types, colour theory, arrangement styles, preservation techniques","Step 4: Practice event floristry — weddings, corporate events, festivals","Step 5: Build portfolio on Instagram/social media and get FSSAI/MSME registration for business","Step 6: Start own florist shop, online flower delivery service, or event decoration business","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.Sc Horticulture / B.Sc Agriculture from recognized university","Step 3: Clear ICAR-JRF and pursue M.Sc/Ph.D. in Floriculture / Horticulture","Step 4: Publish research in flower breeding, post-harvest technology, or tissue culture","Step 5: Clear ARS/NET or State PSC exams","Step 6: Join as Scientist at IARI/IIHR/ICAR, Professor, Horticulture Officer, or APEDA Floriculture Export Consultant"]
       },
       {
         id: "6",
@@ -3806,11 +3674,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Perishability and seasonal variation",
         color: RED,
-        content: [
-          "Unsold flowers cause direct financial loss due to spoilage",
-          "Work requires early mornings and long standing during events",
-          "Earnings fluctuate heavily based on wedding seasons"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1+ Crore","Senior / Lead Role (10+ yrs): ₹10–30 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies; event/wedding florists earn more; metro cities pay 30–50% higher; creativity + branding boosts earnings.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Jaipur","Top Industries: Event Management, Wedding Planning, Retail Flower Shops, E-commerce (Ferns N Petals), Hospitality","Global Demand: High in UAE, Europe; freelancing, luxury events, export floriculture opportunities","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Tamil Nadu Agricultural University (TNAU), Coimbatore","Dr. YS Parmar University of Horticulture & Forestry, Solan","University of Horticultural Sciences (UHS), Bagalkot","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Floriculture & Landscaping Programs)","National Horticulture Board (NHB) Online Training","Career Opportunities","Conventional","Floriculture Research Scientist (ICAR/SAU)","Commercial Flower Farm Manager","Floral Designer for Events & Weddings","Flower Auction & Wholesale Market Officer","New-Age & AI Driven","AI-Optimized Greenhouse Floriculture Specialist","Drone-Based Flower Crop Health Analyst","IoT-Enabled Climate Control Polyhouse Technologist","Data-Driven Floral Demand Forecasting Analyst","Remote/Entrepreneurship","Online Flower Delivery Platform Founder","Freelance Wedding & Event Floral Designer","Dried & Preserved Flower Art Entrepreneur","Exotic / Organic Flower Export Business Owner"]
       },
       {
         id: "7",
@@ -3906,11 +3770,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Zero margin for error",
         color: RED,
-        content: [
-          "Production facilities often operate 24/7 with shift work",
-          "Safety standards leave no room for error; mistakes can cause recalls",
-          "Long hours standing in extreme factory environments"
-        ]
+        content: ["Career Pathways: Food Science","Pathway A: B.Tech Food Technology Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Pursue B.Tech Food Technology (CFTRI, NIFTEM)","Step 3: Intern at Nestle, ITC, Britannia, Parle","Step 4: Learn HACCP, FSSAI standards, food processing","Step 5: Pursue M.Tech Food Technology (optional)","Step 6: Join as Food Technologist or R&D Scientist","Pathway B: Diploma + Skill-Based Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Food Processing/Technology","Step 3: Gain experience at food plants, bakeries","Step 4: Learn food safety, packaging, cold chain","Step 5: Get FOSTAC or ISO 22000 certification","Step 6: Work as Quality Checker or Production Supervisor","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Pursue B.Tech/B.Sc Food Science","Step 3: Clear GATE/ICAR-JRF, pursue M.Tech/Ph.D.","Step 4: Research food fortification, nutraceuticals, food safety","Step 5: Clear ARS/NET or UPSC exams","Step 6: Join as Scientist at CFTRI/ICAR or Professor"]
       },
       {
         id: "6",
@@ -3918,11 +3778,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "📚",
         description: "Early steps in food technology",
         color: RED2,
-        content: [
-          "Master titration and pH testing for daily lab analysis",
-          "Practice making preserves at home to study preservation",
-          "Maintain a 'Label Diary' to compare commercial brand ingredients"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹25–70 LPA","Mid-Level Professional (5–8 yrs): ₹12–25 LPA","Junior / Associate (3–5 yrs): ₹6–12 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: FMCG & MNCs pay 20–50% more; metro cities higher; specialization (food safety, R&D) boosts salary.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Ahmedabad","Top Industries: FMCG (Nestlé, ITC, HUL), Food Processing, Quality Testing Labs, Packaging, Startups","Global Demand: High in USA, Canada, EU; roles in food safety, R&D, export quality, remote consulting","Top Institutions","Top Institutions for Food Science in India","Government:","Central Food Technological Research Institute (CFTRI), Mysuru","Indian Institute of Technology (IIT), Kharagpur","National Institute of Food Technology Entrepreneurship & Management (NIFTEM), Sonipat","University of Mysore, Mysuru","Private:","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","SRM Institute of Science and Technology, Chennai","Shoolini University, Solan","Online:","Swayam/NPTEL","IGNOU (Food Science & Nutrition Programs)","ICAR e-courses","Coursera (Food Science & Technology Courses)","Career Opportunities","Conventional","Food Quality Assurance & Safety Officer","Food Processing Plant Technologist","FSSAI Regulatory Affairs Specialist","Sensory Evaluation & Product Development Scientist","New-Age & AI Driven","AI-Powered Food Formulation Scientist","Blockchain-Based Food Traceability Analyst","Lab-Grown / Cultured Protein Technologist","Smart Packaging & Nano-Technology Food Engineer","Remote/Entrepreneurship","Health Food / Superfood Brand Founder","Freelance FSSAI & FDA Compliance Consultant","Online Food Science Education Platform Creator","Plant-Based / Vegan Product Startup Entrepreneur"]
       }
     ]
   },
@@ -4004,11 +3860,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Funding for future horticulturists",
         color: RED5,
-        content: [
-          "ICAR Academic scholarships for top performers",
-          "State-level Horticulture Department grants",
-          "National Fellowship for SC/ST and OBC students"
-        ]
+        content: ["Career Pathways: Horticulture","Pathway A: B.Sc Horticulture Route","Step 1: Complete Class 12th with PCB/PCM","Step 2: Pursue B.Sc Horticulture (IARI, UAS, SAUs)","Step 3: Intern at nurseries, plantations, export houses","Step 4: Learn landscaping, greenhouse management, organic farming","Step 5: Pursue M.Sc Horticulture or MBA Agri-Business","Step 6: Join as Horticulture Officer or Plantation Manager","Pathway B: Diploma + Skill-Based Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Horticulture (state polytechnics)","Step 3: Gain experience at nurseries, KVKs, farms","Step 4: Learn fruit/vegetable cultivation, drip irrigation, composting","Step 5: Get organic certification or MSME registration","Step 6: Work as Nursery Manager or start own business","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.Sc Horticulture from recognized university","Step 3: Clear ICAR-JRF, pursue M.Sc/Ph.D. Horticulture","Step 4: Research plant breeding, post-harvest technology","Step 5: Clear ARS/NET or State PSC exams","Step 6: Join as Scientist at IIHR/ICAR or Professor"]
       },
       {
         id: "6",
@@ -4016,11 +3868,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Pests and climate unpredictability",
         color: RED,
-        content: [
-          "High sensitivity to pesticide levels and export rules",
-          "Rapid perishability of flowers and soft fruits",
-          "Physical work in variable outdoor climates"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.2+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Floriculture/export firms pay 20–40% more; metro landscaping pays higher; greenhouse, hydroponics skills boost income.","Where Are the Jobs?","Top Cities/Regions: Bengaluru, Pune, Hyderabad, Delhi-NCR, Himachal, Uttarakhand","Top Industries: Floriculture, Landscaping, Nurseries, Agri-Exports, Govt Horticulture Dept","Global Demand: High in Netherlands, UAE, Australia; demand in greenhouse tech, export farming, urban landscaping","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Dr. YS Parmar University of Horticulture & Forestry, Solan","University of Horticultural Sciences (UHS), Bagalkot","Tamil Nadu Agricultural University (TNAU), Coimbatore","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Horticulture Programs)","National Horticulture Board (NHB) Online Training","Career Opportunities","Conventional","Horticulture Development Officer (State/Central Govt)","Fruit & Vegetable Production Specialist","Plantation Crop Estate Manager","Post-Harvest Technology & Storage Officer","New-Age & AI Driven","AI-Based Crop Disease Detection Specialist","Vertical Farming & Hydroponics Technologist","Drone-Assisted Orchard Management Analyst","IoT-Enabled Smart Greenhouse Systems Engineer","Remote/Entrepreneurship","Organic Farm-to-Table Brand Founder","Freelance Landscape & Garden Design Consultant","Exotic Fruit / Herb Export Business Owner","Online Nursery & Plant E-Commerce Entrepreneur"]
       },
       {
         id: "7",
@@ -4113,11 +3961,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Support for poultry science",
         color: RED5,
-        content: [
-          "ICAR merit scholarships for undergraduate study",
-          "Poultry Federation of India research grants",
-          "NABARD subsidies for farm entrepreneurship"
-        ]
+        content: ["Pathway A: B.V.Sc / B.Sc Poultry Science Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.V.Sc or B.Sc Poultry Science (CARI, SAUs)","Step 3: Intern at poultry farms, hatcheries, feed mills","Step 4: Learn broiler/layer management, nutrition, disease control","Step 5: Pursue M.V.Sc Poultry Science or MBA Agri-Business","Step 6: Join as Poultry Manager or Production Specialist","Pathway B: Diploma + Entrepreneurship Route","Step 1: Complete Class 10th/12th (any stream)","Step 2: Attend poultry training at CARI, KVKs, NABARD","Step 3: Learn basics — chick rearing, feeding, vaccination","Step 4: Get FSSAI license and poultry farm registration","Step 5: Apply for subsidies — NABARD, PMMSY, NLM schemes","Step 6: Start own poultry farm — broiler, layer, or desi breeds","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.V.Sc from recognized veterinary college","Step 3: Clear ICAR-JRF, pursue M.V.Sc/Ph.D. Poultry Science","Step 4: Research poultry genetics, nutrition, disease management","Step 5: Clear ARS/NET or State PSC exams","Step 6: Join as Scientist at CARI/ICAR or Professor"]
       },
       {
         id: "6",
@@ -4125,11 +3969,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Viral risks and market price swings",
         color: RED,
-        content: [
-          "Outbreaks like Bird Flu can devastate entire farms",
-          "Fluctuating costs of feed like maize and soy",
-          "Strict government sanitation and safety audits"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.5+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Income varies; poultry farm owners earn more; contract farming stable; metro-integrated supply chains pay higher.","Where Are the Jobs?","Top Regions: Andhra Pradesh, Telangana, Tamil Nadu, Maharashtra, Punjab, Haryana","Top Industries: Poultry Farms (Suguna, Venky’s), Feed Companies, Hatcheries, Processing Units, Retail Chains","Global Demand: High in Middle East, Africa; demand in poultry management, processing, export logistics, advisory roles","Top Institutions","Government:","Central Poultry Development Organisation (CPDO), Chandigarh","Indian Veterinary Research Institute (IVRI), Bareilly","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Tamil Nadu Veterinary & Animal Sciences University (TANUVAS), Chennai","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Poultry Farming Programs)","National Institute of Open Schooling (NIOS) Poultry Training","Career Opportunities","Conventional","Poultry Farm Production Manager","Poultry Feed Formulation Specialist","Poultry Health & Disease Management Officer","Hatchery Operations & Breeding Manager","New-Age & AI Driven","AI-Powered Poultry Flock Monitoring Analyst","IoT-Based Smart Poultry House Technologist","Automated Egg Grading & Sorting Systems Engineer","Data-Driven Poultry Growth Optimization Specialist","Remote/Entrepreneurship","Country / Desi Poultry Brand Founder","Freelance Poultry Farm Setup Consultant","Online Poultry Farming Training Academy Creator","Value-Added Poultry Products Startup Entrepreneur"]
       },
       {
         id: "7",
@@ -4222,11 +4062,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Grants for silk science",
         color: RED5,
-        content: [
-          "Central Silk Board (CSB) student scholarships",
-          "Merit aid for agriculture and textile degrees",
-          "SC/ST post-matric fellowships via NSP"
-        ]
+        content: ["Pathway A: B.Sc Sericulture Route","Step 1: Complete Class 12th with PCB/PCM","Step 2: Pursue B.Sc Sericulture (Mysore University, UAS, SAUs)","Step 3: Intern at silk farms, CSB centres, reeling units","Step 4: Learn silkworm rearing, mulberry cultivation, silk reeling","Step 5: Pursue M.Sc Sericulture or MBA Agri-Business","Step 6: Join as Sericulture Officer or Silk Production Manager","Pathway B: Diploma + Entrepreneurship Route","Step 1: Complete Class 10th/12th (any stream)","Step 2: Attend training at CSB, KVKs, state sericulture departments","Step 3: Learn basics — mulberry farming, worm rearing, cocoon harvesting","Step 4: Get MSME registration and silk mark certification","Step 5: Apply for subsidies — CSB, NABARD, CDP schemes","Step 6: Start own silk farm or cocoon trading business","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.Sc Sericulture/Zoology from recognized university","Step 3: Clear ICAR-JRF, pursue M.Sc/Ph.D. in Sericulture","Step 4: Research silkworm genetics, disease control, silk technology","Step 5: Clear ARS/NET or State PSC exams","Step 6: Join as Scientist at CSRTI/CSB or Professor"]
       },
       {
         id: "6",
@@ -4234,11 +4070,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Pests and labor intensity",
         color: RED,
-        content: [
-          "Silkworms are highly sensitive to pests and disease",
-          "Market prices of raw silk can fluctuate widely",
-          "Requires intensive manual labor in the rearing stage"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1 Crore","Senior / Lead Role (10+ yrs): ₹10–25 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies; entrepreneurs earn more via silk production; govt schemes + export markets boost earnings.","Where Are the Jobs?","Top Regions: Karnataka, Andhra Pradesh, Tamil Nadu, West Bengal, Assam, Jammu & Kashmir","Top Industries: Silk Production, Handloom/Textile, Sericulture Dept, KVIC, Export Firms","Global Demand: High in China, Italy, Japan; demand in silk processing, export trade, rural entrepreneurship","Top Institutions","Government:","Central Silk Board (CSB), Bangalore","Central Sericultural Research & Training Institute (CSRTI), Mysuru","University of Agricultural Sciences (UAS), Bangalore","Assam Agricultural University (AAU), Jorhat","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Sericulture Programs)","Central Silk Board (CSB) Online Training","Career Opportunities","Conventional","Sericulture Development Officer (State/Central Govt)","Silkworm Rearing & Breeding Specialist","Silk Reeling & Processing Unit Manager","Central Silk Board Research Scientist","New-Age & AI Driven","AI-Based Silkworm Disease Detection Analyst","IoT-Enabled Smart Silkworm Rearing Technologist","Genetic Improvement & Biotech Silk Researcher","Automated Silk Quality Grading Systems Engineer","Remote/Entrepreneurship","Handloom Silk Brand Founder & Exporter","Freelance Sericulture Project Consultant","Online Silk Craft & Training Platform Creator","Organic / Ahimsa Silk Startup Entrepreneur"]
       },
       {
         id: "7",
@@ -4331,11 +4163,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "🎓",
         description: "Funding for agri-tech innovators",
         color: RED5,
-        content: [
-          "Agritech startup grants from Ministry of Agriculture",
-          "University merit scholarships for technical courses",
-          "Sustainable innovation fellowships from private funds"
-        ]
+        content: ["Pathway A: B.Sc/B.Tech Agriculture Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Pursue B.Tech Agriculture / B.Sc Horticulture (IARI, SAUs)","Step 3: Intern at vertical farms — UrbanKisaan, Barton Breeze","Step 4: Learn hydroponics, aeroponics, LED grow systems, IoT","Step 5: Pursue M.Tech CEA or PG in Agri-Tech","Step 6: Join as Vertical Farm Manager or CEA Specialist","Pathway B: Skill-Based / Entrepreneurship Route","Step 1: Complete Class 10th/12th (any stream)","Step 2: Take hydroponics/vertical farming training courses online/offline","Step 3: Learn basics — nutrient solutions, climate control, crop cycles","Step 4: Get FSSAI license and MSME/startup registration","Step 5: Apply for subsidies — NABARD, RKVY, agri-startup schemes","Step 6: Start own vertical farm or urban microgreens business","Pathway C: Research + Agri-Tech Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Pursue B.Tech Agricultural Engineering / Biotechnology","Step 3: Clear GATE, pursue M.Tech in CEA/Protected Cultivation","Step 4: Research AI-based farming, sensor technology, crop optimization","Step 5: Work at agri-tech startups — CropIn, Clover, Bioprime","Step 6: Join as Agri-Tech Researcher or Innovation Scientist"]
       },
       {
         id: "6",
@@ -4343,11 +4171,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "High costs and energy needs",
         color: RED,
-        content: [
-          "Initial setup cost is much higher than traditional soil farming",
-          "Dependent on 24/7 electricity for lights and pumps",
-          "Tech failures can lead to rapid crop death in hours"
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹5–10 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: Startup ecosystem pays higher; metro cities lead; skills in hydroponics, IoT, automation boost salaries significantly.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Delhi-NCR, Mumbai, Chennai","Top Industries: Agri-tech startups (UrbanKisaan, Barton Breeze), Hydroponics Firms, Retail Chains, Food Supply Startups","Global Demand: High in UAE, Singapore, USA; demand in smart farming, controlled environment agriculture, remote monitoring roles","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Indian Institute of Horticultural Research (IIHR), Bangalore","Tamil Nadu Agricultural University (TNAU), Coimbatore","National Institute of Plant Genome Research (NIPGR), New Delhi","Private:","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","SRM Institute of Science and Technology, Chennai","Online:","Swayam/NPTEL","ICAR e-courses","Coursera (Vertical Farming & Urban Agriculture Courses)","Udemy (Vertical Farming & Hydroponics Programs)","Career Opportunities","Conventional","Vertical Farm Operations Manager","Controlled Environment Agriculture (CEA) Technician","Nutrient Solution & Fertigation Specialist","Vertical Farm Crop Production Supervisor","New-Age & AI Driven","AI-Powered Climate Control Systems Engineer","IoT-Based Automated Vertical Farm Technologist","Machine Learning Crop Yield Optimization Analyst","LED Grow Light & Photobiology Research Scientist","Remote/Entrepreneurship","Urban Vertical Farm Startup Founder","Freelance Hydroponics / Aeroponics Consultant","Online Vertical Farming Course & Training Creator","Microgreens & Specialty Herbs Brand Entrepreneur"]
       },
       {
         id: "7",
@@ -5281,15 +5105,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "The major SSC exams and entry routes.",
         color: RED,
-        content: [
-          "After Class 10: SSC MTS and Havaldar posts are open to eligible candidates from any stream.",
-          "After Class 12: SSC CHSL opens clerical and data-entry roles for candidates with strong typing and accuracy.",
-          "After Graduation: SSC CGL is the major 'Mini-IAS' route for inspector and assistant-level roles.",
-          "Technical Route: SSC JE recruits candidates with a diploma or degree in engineering.",
-          "Stage 1: Tier-I computer-based exam covering reasoning, maths, English, and general knowledge.",
-          "Stage 2: Tier-II for advanced subjects and typing/data entry tests where applicable.",
-          "Stage 3: Document verification and medical examination before final appointment."
-        ]
+        content: ["Pathway A: SSC CGL Route (Graduate Level)","Step 1: Score well in Class 10th & 12th","Step 2: Complete graduation in any stream","Step 3: Prepare Maths, English, Reasoning, GK","Step 4: Clear SSC CGL Tier I & Tier II exams","Step 5: Qualify document verification and medical test","Step 6: Join as Inspector/Auditor/Assistant in Central Government","Pathway B: SSC CHSL Route (Class 12th Level)","Step 1: Score well in Class 10th & 12th","Step 2: No graduation needed; apply after Class 12th","Step 3: Prepare Maths, English, Reasoning, GK","Step 4: Clear SSC CHSL Tier I & Tier II exams","Step 5: Qualify typing test/skill test if required","Step 6: Join as LDC/DEO/Postal Assistant in Government","Pathway C: SSC MTS Route (Class 10th Level)","Step 1: Score well in Class 10th (minimum qualification)","Step 2: Apply for SSC MTS after Class 10th","Step 3: Prepare basic Maths, English, Reasoning, GK","Step 4: Clear SSC MTS Paper I & Paper II","Step 5: Qualify document verification process","Step 6: Join as Multi-Tasking Staff in Central Government"]
       },
       {
         id: "market",
@@ -5297,13 +5113,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Pay, growth, and hiring trends for SSC roles.",
         color: RED2,
-        content: [
-          "Salary Ranges (Gross Monthly): Level 4 roles such as MTS or Tax Assistant are around ₹38,000 to ₹45,000.",
-          "Level 7 roles such as Inspectors or ASOs are around ₹75,000 to ₹85,000.",
-          "Senior roles such as Section Officer can reach ₹1,10,000 to ₹1,50,000 per month.",
-          "Growth Trajectory: The first major promotion often arrives within 6 to 8 years, depending on the post and department.",
-          "Hiring Trend: Recruitment has been accelerated to fill large vacancies and support digital governance programs."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹35 LPA","Senior / Lead Role (10+ yrs): ₹15 LPA – ₹22 LPA","Mid-Level Professional (5–8 yrs): ₹10 LPA – ₹15 LPA","Junior / Associate (3–5 yrs): ₹7 LPA – ₹10 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹7 LPA","Salary Variation Note Fixed government scales. Higher HRA/DA in Tier-1 cities.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Kolkata, Chennai, Bengaluru.","Top Industries: Income Tax, GST, Railways, CBI, Ministries.","Global Demand: Foreign postings via Ministry of External Affairs.","Top Institutions","Government or Government Funded Coaching Institutes","Jamia Millia Islamia Coaching Centre, New Delhi","Dr. Ambedkar Studies Centre (UGC funded), Pan-India","Aligarh Muslim University Coaching Centre, Aligarh","Banaras Hindu University Career Guidance Centre, Varanasi","2. Private Coaching Institutes","KD Campus, New Delhi","Mahendras Institute, Pan-India","Career Power Institute, New Delhi","Paramount Coaching Centre, New Delhi","3. Online Coaching Institutes","Unacademy SSC","Adda247 (BSE Institute)","Testbook SSC Online","PW (Physics Wallah) SSC Program","Career Opportunities","Conventional","SSC CGL Officer","SSC CHSL Officer","SSC Stenographer","SSC GD Constable","New-age and AI driven","Digital Records Officer","E-Governance Assistant","Cyber Documentation Executive","Data Processing Officer","Remote/Entrepreneurship","SSC Mentor / Coach","Exam Content Creator","Government Exam YouTuber","Online Test Series Entrepreneur"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -6277,12 +6087,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "How to enter the field from school.",
         color: RED2,
-        content: [
-          "Class 11-12: Prefer Physics, Chemistry, Mathematics or Biology based on your target specialization.",
-          "Bachelor's: B.Sc in Geology, Earth Science, or Geophysics.",
-          "Master's: M.Sc in Applied Geology, Structural Geology, Hydrogeology, or Petroleum Geology for stronger job outcomes.",
-          "Advanced routes: GATE for geoscience tracks, research programs, and PSU opportunities."
-        ]
+        content: ["Pathway A: Traditional Science Route","Step 1: Complete Class 12th with Science (PCM/PCB)","Step 2: Pursue BSc in Geology/Earth Science","Step 3: Complete MSc in Geology/Applied Geology","Step 4: Undertake fieldwork and geological survey internships","Step 5: Clear GATE/UPSC Geologist Exam for government jobs","Step 6: Join as Geologist in GSI/ONGC/mining companies","Pathway B: Engineering Route","Step 1: Complete Class 12th with Science (PCM)","Step 2: Pursue BTech in Mining/Petroleum/Geological Engineering","Step 3: Gain industry experience in mining or oil sector","Step 4: Complete MTech in Geosciences or Exploration Geology","Step 5: Work on geological exploration and mapping projects","Step 6: Become Senior Geologist or Exploration Consultant","Pathway C: Research and Academia Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue BSc in Geology from reputed university","Step 3: Complete MSc with specialization in specific branch","Step 4: Clear UGC NET/JRF for funded PhD research","Step 5: Publish research papers in geology journals","Step 6: Join as Geology Scientist or University Professor"]
       },
       {
         id: "roles",
@@ -6425,12 +6230,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "From school to conservation careers.",
         color: RED2,
-        content: [
-          "Class 11-12: Focus on Biology with strong science fundamentals.",
-          "Bachelor's: Zoology, Life Sciences, Forestry, Environmental Science, or Wildlife Science.",
-          "Master's: Wildlife Biology, Ecology, Conservation Biology, or allied fields.",
-          "Experience: Prioritize internships with NGOs, forest departments, and biodiversity projects."
-        ]
+        content: ["Pathway A: Traditional Science Route","Step 1: Complete Class 12th with Science (PCB)","Step 2: Pursue BSc in Zoology/Biology/Life Sciences","Step 3: Complete MSc in Wildlife Biology/Conservation Biology","Step 4: Undertake fieldwork at wildlife sanctuaries or reserves","Step 5: Clear GATE/UGC NET for research opportunities","Step 6: Join as Wildlife Biologist in WII/ZSI/forest departments","Pathway B: Forestry and Wildlife Route","Step 1: Complete Class 12th with Science (PCB/PCM)","Step 2: Pursue BSc Forestry or BSc in Environmental Science","Step 3: Complete MSc in Wildlife Science from WII Dehradun","Step 4: Gain field experience in animal tracking and surveys","Step 5: Work with wildlife NGOs or conservation projects","Step 6: Become Wildlife Researcher or Conservation Biologist","Pathway C: Veterinary to Wildlife Route","Step 1: Complete Class 12th with Science (PCB)","Step 2: Pursue BVSc (Bachelor of Veterinary Science) degree","Step 3: Gain experience in zoo or wildlife rehabilitation centres","Step 4: Complete postgraduation in Wildlife Health/Conservation Medicine","Step 5: Work on endangered species conservation programmes","Step 6: Join as Wildlife Veterinary Biologist or Scientist"]
       },
       {
         id: "roles",

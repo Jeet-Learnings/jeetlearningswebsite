@@ -92,14 +92,7 @@ export const homeScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: GREEN,
-        content: [
-          "After Class 10: Home Science can be pursued as an elective subject in Class 11-12, providing foundational knowledge and skills.",
-          "After Class 12: Pursue B.Sc. Home Science, B.Sc. Family and Community Science, or diploma programs in nutrition, food science, or textile design.",
-          "Undergraduate Specializations: Food and Nutrition, Child Development, Human Development, Textile and Clothing, Family Resource Management.",
-          "Postgraduate Options: M.Sc. Home Science, M.Sc. Nutrition and Dietetics, M.Sc. Child Development, M.Sc. Extension Education.",
-          "Research and Advanced Study: Ph.D. programs in nutrition, food science, family studies, or related disciplines.",
-          "Career Progression: Entry-level positions → Specialist roles → Leadership positions in education, healthcare, NGOs, or entrepreneurship."
-        ]
+        content: ["Pathway A: Academic & Research Route (After Class 12th)","Step 1: Pass Class 12th with Science or Home Science.","Step 2: Complete B.Sc. in Home Science from recognized university.","Step 3: Pursue M.Sc. in Home Science with chosen specialization.","Step 4: Qualify UGC NET/JRF for teaching and research eligibility.","Step 5: Complete M.Phil./Ph.D. in Home Science for expertise.","Step 6: Join as Professor, Research Scientist, or Extension Officer.","Pathway B: Nutrition & Dietetics Route","Step 1: Pass Class 12th with Science or Home Science.","Step 2: Complete B.Sc. in Home Science/Food and Nutrition.","Step 3: Pursue M.Sc. in Food and Nutrition or Dietetics.","Step 4: Complete clinical internship in hospital or wellness centre.","Step 5: Get certified by Indian Dietetic Association (IDA).","Step 6: Work as Clinical Dietitian, Nutrition Consultant, or Food Analyst.","Pathway C: Fashion & Textile / Interior Design Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete B.Sc. Home Science with Textile/Design specialization.","Step 3: Pursue Diploma/M.Sc. in Fashion Design or Interior Design.","Step 4: Learn tools like AutoCAD, CorelDRAW, or Adobe Illustrator.","Step 5: Intern with design studios, textile firms, or lifestyle brands.","Step 6: Work as Fashion Designer, Textile Technologist, or Interior Consultant."]
       },
       {
         id: "market",
@@ -107,14 +100,7 @@ export const homeScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Current opportunities and earning potential.",
         color: GREEN2,
-        content: [
-          "Entry-Level (0-2 years): ₹2.5L–₹4.5L annually for positions like Nutrition Assistant, Program Coordinator, or Teaching Assistant.",
-          "Mid-Level (3-7 years): ₹5L–₹8L annually for roles such as Nutrition Educator, Program Manager, or Senior Coordinator.",
-          "Senior-Level (8+ years): ₹8L–₹15L+ annually for positions like Consultant, Senior Manager, or Academic Faculty.",
-          "Entrepreneurial Ventures: Income varies widely based on business model; successful catering, consulting, or coaching services can generate ₹10L–₹50L+ annually.",
-          "Demand Drivers: Increasing focus on health and wellness, school nutrition programs, women empowerment initiatives, and sustainable living practices.",
-          "Growth Sectors: Healthcare, education, food industry, NGOs, government programs, and wellness consulting."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹85 LPA","Senior / Lead Role (10+ yrs): ₹16 – ₹32 LPA","Mid-Level Professional (5–8 yrs): ₹9 – ₹15 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹8.5 LPA","Entry Level (0–2 yrs): ₹2.8 – ₹4.5 LPA","Note: Metros pay 35% more; Specialization (Dietetics/Design) boosts earnings.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Pune, Hyderabad, Ahmedabad.","Top Industries: Healthcare, Hospitality, NGOs, FMCG, Fashion, Academia.","Global Demand: USA, UK, UAE; Rising freelance nutrition consulting.","Top Institutions","Career Opportunities","Conventional","Home Science Teacher","Nutritionist / Dietitian","Child Development Officer","Extension Educator","New-age and AI driven","Wellness Coach","Food Quality Analyst","Digital Nutrition Consultant","Lifestyle Program Specialist","Remote/Entrepreneurship","Online Diet Consultant","Home-based Food Entrepreneur","Parenting Content Creator","Textile / Fashion Boutique Owner"]
       },{
         id: "institutions",
         title: "Top Institutions & Learning Centers",

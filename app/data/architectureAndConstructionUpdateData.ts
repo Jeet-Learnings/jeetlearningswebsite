@@ -89,12 +89,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Take a 3-Year Diploma in Civil/Electrical/Mechanical Engineering (Polytechnic). Result: Junior Engineer (JE) / Supervisor role.",
-          "After Class 12 (Science): Clear JEE Main/Advanced or State CETS → 4-Year B.Tech/B.E. in Civil Engineering. Result: Graduate Engineer Trainee (GET).",
-          "After Class 12 (Commerce/Arts): Pursue 3-Year BBA/B.Com → MBA in Construction Management (e.g., at NICMAR). Result: Construction Manager / Real Estate Analyst.",
-          "After Graduation (B.Tech/B.Arch): Take 2-Year M.Tech or PGP in Construction Management. Result: Project Manager / Planning Engineer."
-        ]
+        content: ["Career Pathways in Construction","Pathway A: After Class 12th (Engineering Route)","Step 1: Complete Class 12th with PCM subjects","Step 2: Clear JEE Main or state entrance exams","Step 3: Complete B.Tech in Civil Engineering (4 years)","Step 4: Do internship at construction sites","Step 5: Learn AutoCAD, STAAD Pro, Primavera tools","Step 6: Work as Site Engineer or Project Manager","Pathway B: Diploma Route","Step 1: After Class 10th, join Diploma programme","Step 2: Complete 3-year Diploma in Civil Engineering","Step 3: Gain hands-on site work experience","Step 4: Pursue B.Tech through lateral entry","Step 5: Get certified in safety and quality management","Step 6: Work as Construction Supervisor or Contractor","Pathway C: Skill-Based Entry Route","Step 1: Complete Class 10th or 12th","Step 2: Join ITI or short-term construction courses","Step 3: Learn surveying, estimation, and costing skills","Step 4: Work as site technician or skilled tradesperson","Step 5: Gain experience and upgrade through certifications","Step 6: Grow into Site Supervisor or Independent Contractor"]
       },
       {
         id: "market",
@@ -102,14 +97,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Fresh Graduate): ₹4 Lakhs – ₹7 Lakhs annually.",
-          "Mid-Level (5–10 years): ₹10 Lakhs – ₹18 Lakhs annually.",
-          "Senior/Project Head: ₹25 Lakhs – ₹45 Lakhs annually.",
-          "Leadership/CXO: ₹60 Lakhs – ₹1.5 Crore+ (Common in top firms like L&T or Tata Projects).",
-          "City-Wise: Metros (Mumbai, Delhi, Bengaluru) offer highest salaries, often 20% higher than national average. Tier-2/3 cities have lower salaries but better cost-of-living advantage.",
-          "Market Growth: Indian construction market projected to grow at 8.1% in 2025-26."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹15–30 LPA","Mid-Level Professional (5–8 yrs): ₹7–15 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4.5 LPA","Note: Metro/infrastructure hub cities pay higher. PMP, RERA knowledge, and BIM/AutoCAD skills significantly boost salary.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Hyderabad, Bangalore, Ahmedabad, Chennai","Top Industries: L&T, Shapoorji Pallonji, Tata Projects, DLF, Godrej Properties, NHAI, Smart Cities Mission, Metro Rail projects","Global Demand: Gulf countries (UAE, Saudi – NEOM), Australia, Canada hiring Indian engineers; freelance project consulting rising","Top Institutions","Government:","Indian Institute of Technology (IIT), Delhi","Indian Institute of Technology (IIT), Madras","National Institute of Construction Management & Research (NICMAR), Pune","School of Planning & Architecture (SPA), New Delhi","Private:","RICS School of Built Environment, Amity University, Noida","Manipal Academy of Higher Education, Manipal","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Online:","Swayam/NPTEL","Coursera (Construction Management Courses)","IGNOU (Construction Management Programs)","Udemy (Construction Technology & Management Courses)","Career Opportunities","Conventional","Construction Project Manager","Site Engineer & Supervision Officer","Quantity Surveyor & Estimation Specialist","Building Materials & Procurement Manager","New-Age & AI Driven","AI-Powered Construction Planning & Scheduling Analyst","Drone-Based Site Surveying & Monitoring Specialist","BIM-Integrated Smart Construction Technologist","Robotics & 3D Printing Construction Engineer","Remote/Entrepreneurship","Freelance Construction Project Consultant","Modular & Prefabricated Construction Startup Founder","Online Construction Skill Training Platform Creator","Green Building & LEED Certification Consultancy Owner"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -320,14 +308,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Continue to Class 11 & 12 (Science Stream with Physics, Chemistry, Math). OR enroll in a 3-year Diploma in Architecture Assistantship.",
-          "Entrance Exams: Appear for NATA (National Aptitude Test in Architecture) or JEE Main Paper 2.",
-          "Undergraduate: Complete a 5-year Bachelor of Architecture (B.Arch) degree. For diploma holders: secure lateral entry into the 2nd year of B.Arch.",
-          "Post-Graduation (Optional): Pursue 2-year M.Arch in Urban Design, Landscape, or Sustainability.",
-          "Final Step: Register with the Council of Architecture (COA) to get your license to practice.",
-          "Note: For IITs, you must clear JEE Main, JEE Advanced, and the Architecture Aptitude Test (AAT)."
-        ]
+        content: ["Pathway A: After Class 12th (Traditional Route)","Step 1: Complete Class 12th with PCM subjects","Step 2: Clear NATA or JEE Main Paper 2","Step 3: Complete B.Arch degree (5 years)","Step 4: Do internship with architecture firms","Step 5: Register with Council of Architecture","Step 6: Work as licensed Architect","Pathway B: Diploma Route","Step 1: After Class 10th, join Architecture Diploma","Step 2: Complete 3-year Diploma in Architecture","Step 3: Gain practical site experience","Step 4: Pursue B.Arch through lateral entry","Step 5: Learn AutoCAD, Revit, SketchUp tools","Step 6: Work as Architect or Design Consultant","Pathway C: Specialisation Route","Step 1: Complete Class 12th with PCM","Step 2: Complete B.Arch degree (5 years)","Step 3: Pursue M.Arch in chosen specialisation","Step 4: Specialise in Urban Design or Landscape","Step 5: Build portfolio with real projects","Step 6: Work as Senior Architect or Urban Planner"]
       },
       {
         id: "market",
@@ -335,14 +316,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-Level: ₹3.5 Lakhs – ₹6 Lakhs annually.",
-          "Mid-Level (5–10 years): ₹8 Lakhs – ₹15 Lakhs annually.",
-          "Senior/Associate (10+ years): ₹18 Lakhs – ₹35 Lakhs+ annually.",
-          "Principal Architect/Partner: ₹50 Lakhs – ₹1 Crore+ (Profit sharing in firms).",
-          "Metro vs. Tier-2/3: Metros (Delhi, Mumbai, Bengaluru) offer higher starting salaries but higher cost of living. Tier-2/3 (Indore, Jaipur, Kochi) have 15-20% lower salaries but rising quickly due to Smart City projects.",
-          "Growth Trajectory: Typically takes 5–7 years to move from Junior Architect to Senior Architect/Project Manager role."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–25 LPA","Mid-Level Professional (5–8 yrs): ₹6–12 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 30–50% more. COA license and LEED/BIM skills boost earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune, Chennai","Top Industries: Real estate firms (DLF, Godrej), infrastructure (L&T, Shapoorji), government (CPWD, Smart Cities Mission), hospitality","Global Demand: UAE, Singapore, Australia actively hiring; freelancing growing via Houzz/Upwork","Top Institutions","Government:","School of Planning & Architecture (SPA), New Delhi","Indian Institute of Technology (IIT), Kharagpur","Indian Institute of Technology (IIT), Roorkee","Centre for Environmental Planning & Technology (CEPT), Ahmedabad","Private:","Manipal Academy of Higher Education, Manipal","Amity University, Noida","Sushant University (formerly Ansal University), Gurugram","Rizvi College of Architecture, Mumbai","Online:","Swayam/NPTEL","Coursera (Architecture & Design Courses)","IGNOU (Architecture Related Programs)","Udemy (Architecture & Building Design Courses)","Career Opportunities","Conventional","Licensed Architect (Private/Govt Practice)","Urban Planning & Town Development Officer","Interior Design & Space Planning Architect","Heritage Conservation & Restoration Architect","New-Age & AI Driven","AI-Generated Design & Parametric Architect","BIM (Building Information Modelling) Specialist","Sustainable & Green Building Design Technologist","VR/AR-Based Architectural Visualization Expert","Remote/Entrepreneurship","Freelance Architectural Design Consultant","Online Architecture Education Platform Founder","Modular & Prefab Housing Startup Entrepreneur","3D Architectural Rendering Studio Owner"]
       },{
         id: "costs",
         title: "What Will It Cost?",

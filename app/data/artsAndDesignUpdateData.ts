@@ -85,12 +85,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Take any stream (Fine Arts/Commerce/Science). Focus on drawing. Build a basic Art Portfolio.",
-          "After Class 12: Apply for B.Des (Accessory Design) or Lifestyle Accessory Design. Entrance exams: NIFT, NID DAT, UCEED, Pearl Academy.",
-          "After Graduation: Pursue M.Des or specialized PG Diploma in Jewelry/Footwear. Exams: CEED, NIFT PG.",
-          "Top Institutions: NIFT (18 campuses), NID (Ahmedabad/Gandhinagar), FDDI (Footwear), Pearl Academy (Delhi/Mumbai/Jaipur), Symbiosis (Pune), UID (Ahmedabad)."
-        ]
+        content: ["Pathway A: After Class 12th (Design Degree Route)","Step 1: Complete Class 12th (any stream).","Step 2: Clear NID/NIFT/UCEED entrance exam.","Step 3: Earn B.Des in Accessory Design (4 years).","Step 4: Learn CAD, Rhino, Adobe Illustrator tools.","Step 5: Complete internship with fashion/accessory brand.","Step 6: Join as Accessory Designer or Product Designer.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma in Accessory/Jewellery Design.","Step 3: Learn leather-work, metalcraft, and material techniques.","Step 4: Master sketching and digital design tools.","Step 5: Build portfolio through freelance or workshop projects.","Step 6: Work as Junior Designer or start own label.","Pathway C: Skill-Based Entry Route","Step 1: Complete Class 12th (any stream).","Step 2: Take short-term courses from NSDC/online platforms.","Step 3: Learn handcrafting, beading, and embellishment techniques.","Step 4: Assist established designers or local artisans.","Step 5: Create and sell accessories on online marketplaces.","Step 6: Grow into independent accessory designer/entrepreneur."]
       },
       {
         id: "market",
@@ -98,13 +93,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Assistant Designer): ₹4.5L–₹7L annually.",
-          "Mid-Level (Senior Designer): ₹12L–₹20L annually.",
-          "Senior/Leadership (Design Head/CDO): ₹35L–₹60L+ annually.",
-          "Metro vs. Tier-2: Metros like Mumbai and Bangalore pay ~20% more, but Tier-2 cities like Jaipur (Jewelry) and Agra/Kanpur (Leather) are global manufacturing hubs.",
-          "Industry Growth: Personal accessories market projected to reach $3.01B by 2030, growing at 7.6% annually."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2–3.5 LPA","Note: Metro cities pay 30–50% more. NID/NIFT graduates earn higher starting salaries.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Jaipur, Chennai, Kolkata","Top Industries: Fashion brands, jewellery houses, leather goods, export houses, Titan, Tanishq, Hidesign","Global Demand: Freelancing rising on Etsy/Shopify. High demand in Italy, UAE, USA. Remote design roles growing steadily.","Top Institutions","Government:","National Institute of Fashion Technology (NIFT)","National Institute of Design (NID)","Indian Institute of Crafts & Design (IICD)","Footwear Design & Development Institute (FDDI)","Private:","Pearl Academy","ARCH College of Design & Business","Vogue Institute of Fashion Technology","JD Institute of Fashion Technology","Online:","NIFT Online Programs","Coursera (Fashion & Design Courses)","Udemy (Accessory Design Courses)","Domestika (Fashion Accessories Design)","Career Opportunities","Conventional","Jewellery Designer at export houses or branded jewellery firms","Footwear/Leather Accessories Designer at manufacturing companies","Accessory Designer at fashion houses (e.g., Ritu Kumar, NIFT placements)","Design Faculty/Researcher at government design colleges","New-Age & AI-Driven","AI-assisted accessory design using generative design tools","3D-printed accessories and wearable tech designer","AR/VR-based virtual accessory try-on experience designer","Sustainable/eco-friendly accessories designer for D2C brands","Remote/Entrepreneurship","Freelance accessory designer for global design firms","Own D2C accessory brand via e-commerce platforms","Digital accessory designer for metaverse/gaming avatars","Online accessory design consultant and trend forecaster"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -282,11 +271,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Take any stream. Start a Diploma in 2D Animation or take short-term software courses (Photoshop/Flash). Build a basic 'Showreel' (portfolio).",
-          "After Class 12: Pursue B.Des (Animation), B.Sc Animation, or BFA (open to Science, Commerce, Arts). Entrance: NID DAT, UCEED, or University CETs.",
-          "After Graduation: For career-switchers, pursue M.Des or 1-year Professional PG Diploma in 3D Animation/VFX. Internship at studios like Technicolor or 88 Pictures."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (any stream, preferably Arts).","Step 2: Clear entrance for B.Des/BFA in Animation.","Step 3: Earn degree in Animation/Multimedia (3–4 years).","Step 4: Master Maya, Blender, After Effects, Photoshop tools.","Step 5: Complete internship at animation or VFX studio.","Step 6: Join as Animator, Motion Designer, or VFX Artist.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma in Animation from Arena/MAAC/Frameboxx.","Step 3: Learn 2D, 3D animation and character rigging.","Step 4: Practice storyboarding, modelling, and rendering techniques.","Step 5: Build a strong demo reel and portfolio.","Step 6: Work as Junior Animator or Freelance Animator.","Pathway C: Self-Taught/Online Route","Step 1: Complete Class 12th (any stream).","Step 2: Enrol in online courses (Coursera/Udemy/Skillshare).","Step 3: Learn animation software through YouTube and tutorials.","Step 4: Create short films or animated content independently.","Step 5: Upload work on YouTube, Behance, or ArtStation.","Step 6: Get hired as Animator or start freelancing."]
       },
       {
         id: "market",
@@ -294,14 +279,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE,
-        content: [
-          "Entry-level (Junior Animator): ₹3.0L–₹6.0L annually.",
-          "Mid-level (Senior Animator): ₹8.0L–₹15.0L annually.",
-          "Senior/Leadership (Lead/Director): ₹20.0L–₹45.0L+ annually.",
-          "Metro vs. Tier-2: Mumbai and Bangalore offer highest pay; Pune and Chandigarh are emerging as low-cost high-quality hubs.",
-          "Market Growth: Indian animation and VFX sector expected to reach ₹190 billion by 2027, growing at CAGR of ~22%.",
-          "Projections: AI and Real-time engines (Unreal) expected to create 30,000+ new jobs annually by 2030."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. Strong demo reel matters more than degree. VFX/3D skills boost salary significantly.","Where Are the Jobs?","Top Cities: Mumbai, Hyderabad, Bengaluru, Chennai, Pune, Delhi-NCR","Top Industries: Film/OTT studios, gaming companies, ad agencies, edtech, DNEG, Prime Focus, Technicolor, Green Gold Animation","Global Demand: Huge outsourcing from Hollywood/Netflix studios. Freelancing booming on Upwork/Fiverr. High demand in USA, Canada, South Korea. Remote work widely accepted.","Top Institutions","Government:","National Institute of Design (NID)","Satyajit Ray Film & Television Institute (SRFTI)","Indian Institute of Technology (IIT Bombay - IDC)","National Institute of Film & Fine Arts (NIFFA)","Private:","Arena Animation","Frameboxx Animation & Visual Effects","Maya Academy of Advanced Cinematics (MAAC)","DSK International Campus","Online:","Coursera (Animation & 3D Courses)","Udemy (Animation Masterclasses)","Animschool","Skillshare (Motion Design & Animation)","Career Opportunities","Conventional","2D/3D Animator at film and television studios","VFX Artist at production houses (e.g., DNEG, Prime Focus)","Storyboard Artist for advertising and media agencies","Animation Faculty at design institutes (NIFT, NID, AAFT)","New-Age & AI-Driven","AI-assisted animation and generative motion designer","AR/VR Animator for immersive experiences and metaverse","Real-time game animator using Unreal Engine","Motion capture and virtual production specialist","Remote/Entrepreneurship","Freelance animator for global studios and OTT platforms","Own animation studio for explainer videos and brand content","YouTube/social media animation content creator","Online animation tutor and course creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -500,12 +478,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Enroll in a Diploma in Beauty Culture or Vocational Course (6–12 months). Exams: Not usually required; direct admission in private institutes.",
-          "After Class 12: Pursue a B.Sc. in Cosmetology or a Bachelor in Design (B.Des) - Fashion Communication. Exams: Direct admission or institutional entrance tests.",
-          "After Graduation: Medical doctors (MBBS) can pursue a Diploma in Medical Cosmetology. Exams: NEET-PG for specialized dermatology routes.",
-          "Career Progression: Start as a Beauty Associate or Assistant Hair Stylist → Work as a Skin Consultant, Makeup Artist, or Beauty Trainer → Work as a Clinical Cosmetologist or Aesthetic Physician."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (preferably Science/Arts stream).","Step 2: Enrol in B.Sc Cosmetology/Beauty Therapy programme.","Step 3: Complete degree from recognised university (3 years).","Step 4: Learn skincare, haircare, makeup, and nail techniques.","Step 5: Do internship at salon, spa, or beauty brand.","Step 6: Join as Cosmetologist, Beauty Therapist, or Trainer.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma from VLCC/Lakme/Pivot Point academy.","Step 3: Learn professional makeup, hairstyling, and skin treatments.","Step 4: Get certified in specific areas (bridal/clinical/nail art).","Step 5: Gain experience assisting senior cosmetologists or salons.","Step 6: Work as Makeup Artist, Salon Manager, or Freelancer.","Pathway C: Skill-Based Entry Route","Step 1: Complete Class 10th or 12th.","Step 2: Take short-term courses from NSDC or local institutes.","Step 3: Learn basic beauty services and client handling skills.","Step 4: Practice through home setups or local parlour work.","Step 5: Build clientele and social media presence for visibility.","Step 6: Grow into independent Cosmetologist or own salon/studio."]
       },
       {
         id: "market",
@@ -513,11 +486,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Junior Cosmetologist): ₹3.5L–₹6.0L | Mid-level (Senior Aesthetician): ₹12L–₹20L | Senior-level (Clinic Head/Trainer): ₹30L–₹45L | Leadership (CXO/Brand Founder): ₹1 Crore+",
-          "Growth: The industry is growing at 10.6% CAGR. By 2030, India will be the 4th largest beauty market globally.",
-          "Metro vs. Tier-2: While Mumbai/Delhi offer the highest starting pay, cities like Lucknow and Indore are seeing a 40% rise in luxury salon openings."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹3–5 LPA","Entry Level (0–2 yrs): ₹1.8–3 LPA","Note: Metro salaries 40–50% higher. CIDESCO/VLCC certified professionals earn more. Celebrity/bridal makeup artists earn significantly higher.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Kolkata, Jaipur","Top Industries: Salon chains, beauty brands, film/TV, bridal industry, spas/wellness, Lakmé, VLCC, Enrich, L'Oréal, Nykaa","Global Demand: Indian beauty professionals in demand in UAE, UK, Singapore. Freelance bridal/editorial makeup growing fast. YouTube/Instagram creating self-employment opportunities globally.","Top Institutions","Government:","Government Institute of Cosmetology, Chennai","Rajiv Gandhi University of Health Sciences (RGUHS)","Government Polytechnic for Women (Various States)","National Skill Training Institute (NSTI)","Private:","VLCC Institute of Beauty & Nutrition","Lakme Academy powered by Aptech","Shahnaz Husain Beauty Academy","Pivot Point India","Online:","Coursera (Beauty & Cosmetology Courses)","Udemy (Cosmetology & Skincare Courses)","Skillshare (Makeup & Beauty Techniques)","VLCC Online Learning Programs","Career Opportunities","Conventional","Salon/Spa Cosmetologist at premium beauty studios","Bridal and Editorial Makeup Artist","Trichologist (Hair & Scalp Specialist) at dermatology clinics","Aesthetic Therapist at medical aesthetics centres","New-Age & AI-Driven","AI-based skin diagnostic and personalized skincare consultant","Laser and non-invasive aesthetic treatment specialist","Cosmetic formulation scientist for D2C beauty brands","Virtual beauty consultation and AR-based try-on specialist","Remote/Entrepreneurship","Own beauty salon, wellness centre, or aesthetic clinic","Freelance celebrity/fashion makeup artist","Beauty blogger, vlogger, or social media influencer","Online cosmetology trainer and academy founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -715,12 +684,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Any stream is okay, but Humanities (English/Psychology) helps. Start a blog or Wattpad account.",
-          "After Class 12: Pursue B.A. in English Literature, Journalism, or Mass Communication. Exams: CUET (Central Universities), IPU CET.",
-          "After Graduation: M.A. in Creative Writing or specialized diplomas in Screenwriting. Exams: FTII Jet Exam (for Screenwriting), XIC OET.",
-          "Career Switch: From any field, take a PG Diploma in Advertising/Copywriting or a Creative Writing workshop. Certifications: Coursera (Wesleyan/Michigan), MasterClass."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (preferably Arts/Humanities stream).","Step 2: Pursue BA in English/Journalism/Mass Communication.","Step 3: Complete degree from recognised university (3 years).","Step 4: Learn storytelling, editing, and content writing skills.","Step 5: Do internship with publishing house or media company.","Step 6: Join as Content Writer, Copywriter, or Author.","Pathway B: After Graduation (MA/MFA Route)","Step 1: Complete Class 12th and then graduation (any stream).","Step 2: Pursue MA in English/Creative Writing/Literature.","Step 3: Attend writing workshops and literary festivals regularly.","Step 4: Publish articles, stories, or poems in magazines/journals.","Step 5: Build a strong portfolio of diverse writing samples.","Step 6: Work as Novelist, Screenwriter, Editor, or Columnist.","Pathway C: Self-Taught/Freelance Route","Step 1: Complete Class 12th (any stream).","Step 2: Take online writing courses (Coursera/Udemy/MasterClass).","Step 3: Read extensively and practise writing every day.","Step 4: Start blog or contribute to online writing platforms.","Step 5: Build portfolio on Medium, Wattpad, or personal website.","Step 6: Freelance as Writer or get published independently."]
       },
       {
         id: "market",
@@ -728,12 +692,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Content Writer/Junior Scriptwriter): ₹3.5L–₹6.5L | Mid-level (Senior Copywriter/Author): ₹10L–₹18L | Senior/Leadership (Creative Director/Showrunner): ₹25L–₹50L+",
-          "Metro vs. Tier-2: Mumbai (The hub of Film/TV) pays the highest, but the Remote Work revolution means you can earn 'Mumbai salaries' while living in a Tier-3 city.",
-          "Market Growth: The Indian Media & Entertainment sector is growing at 10.5% annually and is expected to reach ₹3.08 Trillion by 2026.",
-          "Demand: Hiring for Narrative Designers (Gaming) and Podcast Scriptwriters has grown by 40% since 2023."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2–3.5 LPA","Note: Metro cities pay 35–50% more. Published authors/screenwriters earn royalties separately. Strong portfolio matters more than formal degree.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune","Top Industries: Ad agencies, OTT platforms, publishing houses, gaming studios, content marketing firms, Netflix, Amazon, Ogilvy, Penguin Random House, TVF","Global Demand: Freelance content writing booming globally. High demand in USA, UK, UAE. Ghostwriting/scriptwriting highly paid remotely. AI-assisted writing creating new hybrid roles.","Top Institutions","Government:","Jawaharlal Nehru University (JNU), New Delhi","University of Delhi (DU)","English and Foreign Languages University (EFLU), Hyderabad","Central University of Hyderabad","Private:","Ashoka University","Symbiosis School for Liberal Arts, Pune","Shiv Nadar University","Manipal Academy of Higher Education","Online:","Coursera (Creative Writing Specialization)","Udemy (Fiction & Non-Fiction Writing)","MasterClass (Writing by Renowned Authors)","Skillshare (Storytelling & Writing Craft)","Career Opportunities","Conventional","Screenwriter/Scriptwriter for films, TV, and OTT platforms","Copywriter at advertising and media agencies","Author/Novelist with publishing houses","Content Writer/Editor for magazines, newspapers, and digital media","New-Age & AI-Driven","AI-prompt engineer and AI-assisted content strategist","UX Writer/Conversational Designer for tech products","Narrative Designer for video games and interactive media","SEO-driven creative content specialist for D2C brands","Remote/Entrepreneurship","Freelance ghostwriter, blogger, or scriptwriter","Self-published author on Amazon Kindle/Notion Press","Content creator and storytelling-based social media influencer","Online creative writing coach and workshop facilitator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -931,12 +890,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Enroll in a Diploma in Fashion Design (1–2 years) at polytechnics. Focus on building a 'Portfolio' of sketches and creative projects.",
-          "After Class 12: Pursue a B.Des (Fashion Design) or B.FTech (Apparel Production). Exams: NIFT, NID DAT, UCEED, Pearl Academy Entrance.",
-          "After Graduation: Pursue an M.Des or a PG Diploma in Fashion Management. Exams: CEED, NIFT PG.",
-          "Career Progression: Start as a Design Assistant or Boutique Intern → Work as a Junior Designer, Stylist, or Fashion Illustrator → Transition into Design Strategy, Buying, or Brand Management."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (any stream).","Step 2: Clear NIFT/NID/UCEED/CEED entrance exam.","Step 3: Earn B.Des in Fashion Design (4 years).","Step 4: Learn draping, pattern-making, CLO3D, and Illustrator.","Step 5: Complete internship with fashion brand or design house.","Step 6: Join as Fashion Designer, Stylist, or Merchandiser.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma from INIFD/Pearl/JD Institute.","Step 3: Learn garment construction, textiles, and colour theory.","Step 4: Master sketching, sewing, and digital design tools.","Step 5: Build portfolio through college projects or freelance work.","Step 6: Work as Junior Designer or start own clothing label.","Pathway C: Skill-Based/Entrepreneurial Route","Step 1: Complete Class 12th (any stream).","Step 2: Take short-term courses from NSDC or online platforms.","Step 3: Learn stitching, embroidery, and fabric selection skills.","Step 4: Assist local tailors, boutiques, or established designers.","Step 5: Sell designs through Instagram, Etsy, or local markets.","Step 6: Grow into independent Fashion Designer or boutique owner."]
       },
       {
         id: "market",
@@ -944,11 +898,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Junior Designer): ₹3.5L–₹6.5L | Mid-level (Senior Designer/Stylist): ₹10L–₹18L | Senior/Leadership (Design Head): ₹30L–₹60L+ | Celebrity Designer/CXO: ₹1 Crore+",
-          "Industry Growth: The Indian apparel market is expected to reach $105 Billion by 2030, growing at ~10% annually.",
-          "Growth Trajectory: It typically takes 3–5 years to move from an assistant to a lead designer role."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹15–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–14 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. NIFT/NID graduates command premium salaries. Own label designers earn unlimited through entrepreneurship.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Jaipur, Kolkata, Chennai","Top Industries: Luxury fashion houses, retail brands, export houses, textile firms, e-commerce, Reliance Brands, Aditya Birla Fashion, Myntra, Fabindia, Sabyasachi, Tarun Tahiliani","Global Demand: Indian designers valued in Milan, Paris, London. Sustainable/ethical fashion creating new global roles. Freelancing via Instagram/Etsy rising fast. Remote design consulting growing steadily.","Top Institutions","Government:","National Institute of Fashion Technology (NIFT)","National Institute of Design (NID)","Indian Institute of Crafts & Design (IICD), Jaipur","Footwear Design & Development Institute (FDDI)","Private:","Pearl Academy","ARCH College of Design & Business, Jaipur","Symbiosis Institute of Design, Pune","JD Institute of Fashion Technology","Online:","Coursera (Fashion Design & History Courses)","Udemy (Fashion Design Masterclass)","Skillshare (Fashion Illustration & Design)","Domestika (Fashion & Textile Design)","Career Opportunities","Conventional","Fashion Designer at established brands and couture houses","Textile Designer at mills and export houses","Fashion Stylist for films, advertising, and celebrities","Fashion Merchandiser/Buyer at retail chains","New-Age & AI-Driven","Digital/Virtual Fashion Designer for metaverse and NFTs","AI-powered trend forecasting and data-driven design specialist","Sustainable/Eco-fashion Designer using smart textiles","3D/CLO Virtual Garment Designer for e-commerce","Remote/Entrepreneurship","Own fashion label or D2C brand via e-commerce platforms","Freelance costume designer for OTT and film productions","Fashion influencer, blogger, and personal styling consultant","Online fashion design educator and course creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1145,12 +1095,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose any stream (Humanities is common, but Science/Commerce is fine too). Take local art classes and build a 'Portfolio.'",
-          "After Class 12: Pursue a Bachelor of Fine Arts (BFA) or B.Design. Exams: CUET, NID DAT, or institutional tests like Sir J.J. School's.",
-          "After Graduation: Pursue a Master of Fine Arts (MFA) or specialized diplomas. Specialize in Painting, Sculpture, Applied Arts, or Digital Art.",
-          "Lateral Entry: Graduates from any field can take PG Diplomas in Art Therapy or Curatorial Studies. Pivot via specialized certification courses."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (preferably Arts stream).","Step 2: Clear BFA entrance exam (BHU/MSU/JJ School).","Step 3: Earn BFA in Painting/Sculpture/Applied Arts (4 years).","Step 4: Learn techniques in oil, acrylic, mixed media works.","Step 5: Exhibit artwork in galleries, competitions, and exhibitions.","Step 6: Join as Professional Artist, Art Director, or Illustrator.","Pathway B: After Graduation (MFA/Higher Studies Route)","Step 1: Complete Class 12th and then BFA degree.","Step 2: Pursue MFA for specialisation (2 years).","Step 3: Develop unique artistic style and creative portfolio.","Step 4: Participate in national and international art residencies.","Step 5: Get featured in art galleries and curated exhibitions.","Step 6: Work as Art Professor, Curator, or Independent Artist.","Pathway C: Self-Taught/Freelance Route","Step 1: Complete Class 12th (any stream).","Step 2: Take online courses (Skillshare/Udemy/YouTube tutorials).","Step 3: Practise daily in drawing, painting, and digital art.","Step 4: Learn digital tools like Procreate, Photoshop, Krita.","Step 5: Sell artwork on Instagram, Etsy, or art marketplaces.","Step 6: Grow as Freelance Artist, Muralist, or Art Entrepreneur."]
       },
       {
         id: "market",
@@ -1158,11 +1103,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: [
-          "Art Market Size: India's art market is valued between ₹5,500 and ₹6,000 Crore annually (combined auctions, galleries, and fests).",
-          "Salary Ranges (Annual INR): Entry-level (Junior Illustrator/Teacher): ₹3.0L–₹6.5L | Mid-level (Senior Artist/Art Director): ₹12L–₹22L | Senior/Leadership (Creative Director/Renowned Artist): ₹35L–₹75L+ | Note: Successful independent artists can earn much more per individual sale.",
-          "Hiring Trends: Massive demand in the Gaming and Animation sectors (projected to hit ₹480 Billion by 2027)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly variable; gallery-represented artists earn exponentially more. Metro exposure crucial. BFA/MFA from top colleges boosts credibility significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Kolkata, Baroda (Vadodara), Chennai","Top Industries: Art galleries, museums, auction houses, advertising, film/set design, art education, Christie's, Sotheby's, Kiran Nadar Museum, India Art Fair, DAG","Global Demand: Indian contemporary art gaining global recognition. NFT/digital art creating new revenue streams. Freelancing via Saatchi Art/Artsy growing. Strong demand in USA, UK, UAE, Singapore.","Top Institutions","Government:","Faculty of Fine Arts, MSU Baroda","Government College of Fine Arts, Chennai","Sir J.J. School of Art, Mumbai","College of Art, University of Delhi","Private:","Srishti Manipal Institute of Art, Design & Technology","Symbiosis School of Visual Arts & Photography, Pune","Amity School of Fine Arts, Noida","Chitrakala Parishath College of Fine Arts, Bangalore","Online:","Coursera (Art & Art History Courses)","Udemy (Drawing, Painting & Sculpture)","Skillshare (Fine Arts & Illustration)","Domestika (Painting & Mixed Media Techniques)","Career Opportunities","Conventional","Visual Artist/Painter exhibiting at galleries and art fairs","Art Director in advertising, films, or publishing","Sculptor/Muralist for public art and architectural projects","Fine Arts Professor/Teacher at universities and colleges","New-Age & AI-Driven","Digital Illustrator and Concept Artist for gaming/VFX studios","AI-assisted generative art and computational art creator","UI/UX Designer blending fine arts with tech products","NFT and digital art creator for blockchain platforms","Remote/Entrepreneurship","Freelance artist selling on online galleries, Etsy, and Instagram","Independent art studio owner and commissioned portrait artist","Art curator, critic, or blogger with a personal brand","Online fine arts tutor and workshop conductor"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1360,12 +1301,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Any stream is okay. Start taking short-term Certificate Courses in Photoshop/Illustrator. Focus: Build a 'Portfolio' (a collection of your best work).",
-          "After Class 12: Pursue a Bachelor of Design (B.Des) or B.Sc. in Animation & Multimedia (3-4 years). Exams: NID DAT, UCEED, NIFT, or University-specific tests.",
-          "After Graduation: Pursue a Master of Design (M.Des) or a specialized PG Diploma.",
-          "Lateral Entry: Graduates from any field can switch via 1-year professional diplomas."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (any stream).","Step 2: Clear entrance for B.Des/BFA in Graphic Design.","Step 3: Earn degree from NID/NIFT/Symbiosis/Srishti (3–4 years).","Step 4: Master Photoshop, Illustrator, InDesign, and Figma tools.","Step 5: Complete internship at design agency or creative studio.","Step 6: Join as Graphic Designer, UI Designer, or Brand Designer.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma from Arena/MAAC/Aptech or similar institute.","Step 3: Learn typography, colour theory, and layout design.","Step 4: Get certified in Adobe Creative Suite tools.","Step 5: Build strong portfolio with diverse design projects.","Step 6: Work as Junior Designer, Print Designer, or Freelancer.","Pathway C: Self-Taught/Online Route","Step 1: Complete Class 12th (any stream).","Step 2: Take online courses (Coursera/Udemy/Google UX Certificate).","Step 3: Learn design tools through YouTube and free tutorials.","Step 4: Practise by designing logos, posters, and social media content.","Step 5: Showcase work on Behance, Dribbble, or personal website.","Step 6: Freelance on Fiverr/Upwork or join a design team."]
       },
       {
         id: "market",
@@ -1373,12 +1309,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Junior Designer): ₹3.0L–₹5.5L | Mid-level (Senior Designer): ₹8.0L–₹15.0L | Senior/Leadership (Creative Director): ₹25.0L–₹55.0L+",
-          "Metro vs. Tier-2: Metros (Bangalore/Mumbai) offer 30% higher pay, but Tier-2 cities (Pune/Indore) offer a better balance of lower living costs and growing demand.",
-          "Job Growth: E-commerce and EdTech hiring for visual designers is growing at 22% annually.",
-          "Projections: By 2030, the demand for AI-integrated designers will double."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹28 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–25 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–55% more. UI/UX + motion graphics skills boost salary heavily. Strong Behance/Dribbble portfolio outweighs formal degrees.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai","Top Industries: IT firms, ad agencies, startups, e-commerce, media houses, Accenture, WPP, Flipkart, Swiggy, Zomato, DentsuMB","Global Demand: One of the most freelanced careers worldwide. Massive demand in USA, UK, Australia, UAE. Platforms like Fiverr/99designs creating steady income. Remote-first roles widely available globally.","Top Institutions","Government:","National Institute of Design (NID), Ahmedabad","Industrial Design Centre (IDC), IIT Bombay","College of Art, University of Delhi","Government College of Fine Arts, Chennai","Private:","Pearl Academy","Srishti Manipal Institute of Art, Design & Technology","Arena Animation","Symbiosis Institute of Design, Pune","Online:","Coursera (Graphic Design Specialization by CalArts)","Udemy (Graphic Design Masterclass)","Skillshare (Logo, Branding & Visual Design)","Domestika (Typography & Digital Illustration)","Career Opportunities","Conventional","Graphic Designer at advertising agencies and publishing houses","Brand Identity/Logo Designer at corporate firms","Packaging Designer for FMCG and consumer brands","Art Director at media, TV, and production houses","New-Age & AI-Driven","UI/UX Designer for tech startups and app companies","Motion Graphics and Animation Designer for OTT/digital media","AI-augmented designer using Adobe Firefly, Midjourney, and DALL·E","Data Visualization and Infographic Designer for analytics firms","Remote/Entrepreneurship","Freelance graphic designer on Fiverr, Upwork, Behance, and Dribbble","Own design studio or creative agency","Social media design specialist and visual content creator","Online graphic design tutor and Skillshare/Udemy course creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1575,12 +1506,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Enroll in a Diploma in Interior Design (2–3 years) at a Polytechnic or Vocational Institute. Focus: Learn basic drafting and color theory.",
-          "After Class 12: Pursue a B.Des (Interior Design) or B.Sc. (Interior Design). (Science, Commerce, & Humanities students are all eligible). Exams: NID DAT, UCEED, NIFT, or university-specific tests like SEED.",
-          "After Graduation: Graduates from any field can take a PG Diploma or an M.Des in Interior Design.",
-          "Career Path: Join a firm as a 'Junior Designer' or start a niche boutique studio."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (any stream).","Step 2: Clear entrance for B.Des/B.Sc Interior Design.","Step 3: Earn degree from CEPT/NID/JJ School (3–4 years).","Step 4: Master AutoCAD, SketchUp, 3Ds Max, and V-Ray.","Step 5: Complete internship with interior design firm or architect.","Step 6: Join as Interior Designer, Space Planner, or Set Designer.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma from INIFD/Raffles/JD Institute.","Step 3: Learn space planning, materials, and colour coordination.","Step 4: Get certified in AutoCAD and 3D visualisation tools.","Step 5: Build portfolio through real or concept design projects.","Step 6: Work as Junior Designer, Site Supervisor, or Freelancer.","Pathway C: Skill-Based/Entrepreneurial Route","Step 1: Complete Class 12th (any stream).","Step 2: Take short-term courses from online platforms or NSDC.","Step 3: Learn basic drafting, furniture layout, and décor styling.","Step 4: Assist established interior designers on live projects.","Step 5: Create portfolio and market services on social media.","Step 6: Start own interior styling or home décor consultancy."]
       },
       {
         id: "market",
@@ -1588,12 +1514,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Junior Designer/Draftsman): ₹3.5L–₹7.5L | Mid-level (Project Manager/Senior Designer): ₹12L–₹22L | Senior/Leadership (Design Director/Partner): ₹35L–₹65L+ | Note: Freelance consultants in metros can earn ₹1.5L–₹3L per project.",
-          "Metro vs. Tier-2: Salaries in Bangalore and Mumbai are roughly 30% higher, but Tier-2 cities like Jaipur and Chandigarh are seeing the fastest growth in luxury home design.",
-          "Growth Trajectory: It typically takes 4–6 years to move from an assistant to a Senior Project Lead.",
-          "Projections: The industry is growing at ~11.7% CAGR, with a massive demand for 'Wellness-focused' and 'Smart' home designers."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹15–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–14 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 45–60% more. Own practice/firm owners earn significantly higher. CEED/NID/NIFT qualified professionals command premium fees.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai","Top Industries: Real estate developers, architecture firms, hospitality chains, retail brands, film sets, Godrej Interio, Livspace, HomeLane, DesignCafe, Sobha Group","Global Demand: Indian interior designers valued in UAE, Singapore, UK. Luxury hospitality sector creating global opportunities. Freelancing via Houzz/Instagram growing rapidly. Virtual design consultations expanding remote work scope.","Top Institutions","Government:","School of Planning & Architecture (SPA), New Delhi","National Institute of Design (NID), Ahmedabad","CEPT University, Ahmedabad","Government College of Architecture, Lucknow","Private:","Pearl Academy","Lovely Professional University (LPU), Punjab","JD Institute of Fashion Technology","Vogue Institute of Fashion Technology, Bangalore","Online:","Coursera (Interior Design & Home Décor Courses)","Udemy (Interior Design Masterclass)","Skillshare (Space Planning & Interior Styling)","Domestika (Interior Design & 3D Visualization)","Career Opportunities","Conventional","Residential Interior Designer at design firms (e.g., Design Cafe, HomeLane)","Commercial/Corporate Interior Designer for offices, hotels, and retail","Furniture Designer at manufacturing or bespoke design studios","Set/Exhibition Designer for films, events, and trade shows","New-Age & AI-Driven","Smart-home and IoT-integrated interior designer","3D Visualization and VR Walkthrough Specialist","Sustainable/Biophilic Interior Designer using green materials","AI-assisted space planning and generative layout designer","Remote/Entrepreneurship","Freelance interior designer and consultant for residential projects","Own interior design studio or boutique firm","Interior design influencer, blogger, or YouTube content creator","Online interior design consultant and e-design service provider"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1789,11 +1710,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Stream: Any (Humanities/Arts is common). Action: Start learning a second language through apps or local centers. Focus: Develop strong writing skills in your mother tongue.",
-          "After Class 12: UG Degree: B.A. (Hons) in a Foreign Language (French, German, Spanish, etc.) or English. Entrance: CUET (for central universities), JNU Entrance, EFLU Entrance. Simultaneous: Take Certificate/Diploma course in that language.",
-          "After Graduation: Master's: M.A. in Interpretation/Translation or Linguistics. Professional Step: PG Diploma in Translation (PGDT) from IGNOU or university. Switching: Any graduate can take intensive language diplomas to pivot."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (preferably Arts/Humanities stream).","Step 2: Pursue BA in Foreign Language/Linguistics/Translation Studies.","Step 3: Earn degree from JNU/EFL/DU/BHU (3 years).","Step 4: Gain fluency in at least two languages thoroughly.","Step 5: Complete internship with embassy, MNC, or publishing house.","Step 6: Join as Translator, Interpreter, or Localisation Specialist.","Pathway B: After Graduation (MA/PG Diploma Route)","Step 1: Complete Class 12th and then graduation (any stream).","Step 2: Pursue MA/PG Diploma in Translation or Interpretation.","Step 3: Specialise in legal, medical, technical, or literary translation.","Step 4: Get certified from recognised bodies (NAATI/ATA equivalent).","Step 5: Practise simultaneous and consecutive interpretation skills.","Step 6: Work as Conference Interpreter, Court Translator, or Consultant.","Pathway C: Self-Taught/Freelance Route","Step 1: Complete Class 12th (any stream).","Step 2: Learn languages through apps (Duolingo/Babbel/YouTube).","Step 3: Take online translation courses (Coursera/Udemy/edX).","Step 4: Practise translating documents, articles, and subtitles.","Step 5: Register on freelance platforms (ProZ/TranslatorsCafe/Fiverr).","Step 6: Freelance as Translator or build own translation agency."]
       },
       {
         id: "market",
@@ -1801,12 +1718,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level: ₹4.5L–₹8L (MNC Language Specialist/Junior Translator) | Mid-level: ₹12L–₹18L (Senior Interpreter/Technical Translator) | Senior/Leadership: ₹25L–₹45L+ (Chief Linguist/Head of Localization).",
-          "Industry Growth: The Indian language services market is growing at a CAGR of ~7.7%, projected to reach $5.12 Billion by 2033.",
-          "Growth Trajectory: It takes about 3–5 years to become a 'specialized' interpreter (Legal/Medical) who can charge premium rates.",
-          "Metro vs. Tier-2: Most top-paying jobs are in Delhi-NCR, Mumbai, and Bangalore. However, the Remote Work boom has made it possible to earn 'Metro salaries' while living in small towns."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹3–5 LPA","Entry Level (0–2 yrs): ₹2–3 LPA","Note: Metro cities pay 35–50% more. Rare language pairs (Japanese, Korean, German) command premium rates. UN/diplomatic interpreters earn significantly higher.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Chennai, Hyderabad, Kolkata","Top Industries: Embassies, MNCs, IT/BPO firms, publishing, legal firms, tourism, UN agencies, Google, Amazon, TransPerfect, Lionbridge, SDL","Global Demand: AI translation creating hybrid human+AI roles. Freelancing on ProZ/TranslatorsCafe booming. High demand in USA, EU, Japan, South Korea. Remote interpreting via Zoom widely accepted now.","Top Institutions","Government:","Jawaharlal Nehru University (JNU), New Delhi","English and Foreign Languages University (EFLU), Hyderabad","University of Delhi (DU)","Banaras Hindu University (BHU), Varanasi","Private:","Symbiosis International University, Pune","Amity School of Languages, Noida","Christ University, Bangalore","Lovely Professional University (LPU), Punjab","Online:","Coursera (Translation & Interpreting Courses)","Udemy (Professional Translation Masterclass)","EdX (Linguistics & Translation Studies)","Skillshare (Language & Translation Skills)","Career Opportunities","Conventional","Government Translator/Interpreter (courts, ministries, embassies)","Conference Interpreter for international summits and diplomatic events","Literary Translator for publishing houses and academic journals","Corporate Interpreter at MNCs and foreign companies (Japanese, Korean, French, German)","New-Age & AI-Driven","AI/Machine Translation post-editor and quality specialist","Localization Specialist for tech companies, apps, and gaming","NLP (Natural Language Processing) data trainer for AI language models","Multilingual voice-over and dubbing specialist for OTT platforms","Remote/Entrepreneurship","Freelance translator on platforms like Upwork, Fiverr, and ProZ","Own translation agency or localization consultancy","Remote telephonic/video interpreter for global healthcare and legal firms","Online language tutor and translation course creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2002,11 +1914,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Stream: Any (Science, Commerce, or Humanities). Activity: Focus on 'Interdisciplinary' reading. Don't stick to one subject.",
-          "After Class 12: UG Degree: B.A. or B.Sc. in Liberal Arts (3–4 years). Exams: CUET, AAT (Ashoka), FEAT (Flame), JSAT (Jindal). Selection: Look for colleges that offer 'Major/Minor' combinations.",
-          "After Graduation: Option A: MA/M.Sc. in a specialized field (e.g., Public Policy, International Relations). Option B: MBA (Premier B-schools now actively seek Liberal Arts grads). Path: Join a Founder's Office, Think Tank, or Management Trainee program."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (any stream).","Step 2: Clear entrance for BA Liberal Arts/Humanities programme.","Step 3: Earn degree from Ashoka/FLAME/Symbiosis/Christ (3–4 years).","Step 4: Choose major in Psychology/Sociology/Economics/Literature.","Step 5: Complete internship in NGO, media, or research organisation.","Step 6: Join as Researcher, Policy Analyst, Writer, or Educator.","Pathway B: After Graduation (MA/Higher Studies Route)","Step 1: Complete Class 12th and then BA Liberal Arts.","Step 2: Pursue MA/MSc in chosen specialisation subject.","Step 3: Attend seminars, publish papers, and join research projects.","Step 4: Gain experience through teaching assistantships or fellowships.","Step 5: Build academic or professional portfolio in chosen field.","Step 6: Work as Professor, Social Scientist, Consultant, or Diplomat.","Pathway C: Cross-Domain/Career Switch Route","Step 1: Complete Class 12th (any stream).","Step 2: Pursue BA Liberal Arts with interdisciplinary approach.","Step 3: Develop critical thinking, communication, and analytical skills.","Step 4: Take electives in management, data, or public policy.","Step 5: Do internships across different industries for exposure.","Step 6: Enter careers in Media, HR, Marketing, Civil Services, or UX."]
       },
       {
         id: "market",
@@ -2014,12 +1922,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: [
-          "The Higher Ed Boom: The Indian Higher Education market is expected to reach $313 Billion by 2030.",
-          "Salary Ranges (Annual INR): Entry-level (Analyst/Associate): ₹5L–₹10L | Mid-level (Senior Manager/Consultant): ₹12L–₹25L | Senior/Leadership (VP/Director/CEO): ₹45L–₹1.2Cr+.",
-          "Regional Hubs: Bangalore, Mumbai, and Gurgaon offer the highest corporate salaries. Delhi remains the center for Policy and Think Tank roles.",
-          "Placement Trends: At top colleges like Ashoka, recruiters like Google, McKinsey, and HUL are now specifically hiring Liberal Arts majors."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 35–55% more. Ashoka/FLAME/Symbiosis graduates command premium packages. Specialization in policy/data/UX boosts salary significantly.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Pune, Hyderabad, Chennai","Top Industries: Think tanks, NGOs, media houses, consulting firms, edtech, policy research, McKinsey, Dalberg, UNDP, Teach For India, Scroll, The Ken","Global Demand: Liberal arts graduates valued in tech for UX/content/ethics roles. Strong demand in USA, UK, Europe.","Top Institutions","Government:","Jawaharlal Nehru University (JNU), New Delhi","University of Delhi (DU)","Presidency University, Kolkata","Tata Institute of Social Sciences (TISS), Mumbai","Private:","Ashoka University, Sonipat","FLAME University, Pune","Symbiosis School for Liberal Arts, Pune","Jindal School of Liberal Arts & Humanities (JSLH)","Online:","Coursera (Liberal Arts & Humanities Courses)","EdX (Harvard & Yale Liberal Arts Programs)","Udemy (Philosophy, History & Social Sciences)","Skillshare (Critical Thinking & Humanities)","Career Opportunities","Conventional","Journalist/Editor at newspapers, magazines, and media houses","Public Policy Analyst/Researcher in government and think tanks","Educator/Professor at schools and universities","Diplomat/Civil Services officer (IAS, IFS through UPSC)","New-Age & AI-Driven","Digital Marketing Strategist and Content Analyst for tech firms","UX Researcher combining psychology, sociology, and design thinking","Data-driven Market Research Analyst using AI tools","ESG (Environmental, Social, Governance) and DEI Consultant for corporates","Remote/Entrepreneurship","Freelance writer, researcher, or policy consultant","Founder of an NGO, social enterprise, or ed-tech startup","Independent podcast host, cultural commentator, or newsletter creator","Online educator and interdisciplinary course designer on edX/Coursera"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2215,11 +2118,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Join a local Gharana or Sangeet Natak Academy center for foundational training. Stream: Any (Arts/Humanities is most helpful). Start building a YouTube/Social Media presence.",
-          "After Class 12: Pursue a Bachelor of Performing Arts (BPA) or B.A. in Music/Dance/Drama (3-4 years). Entrance: CUET, Nalanda Dance Research Centre tests, or University auditions. Certifications: Gandharva Mahavidyalaya (for Classical Music/Dance).",
-          "After Graduation: Pursue an M.P.A. or apply to the National School of Drama (NSD). Career Switch: Take a 1-year PG Diploma in Acting or Music Production. Join a professional theatre troupe or a dance company."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (any stream).","Step 2: Clear entrance for BA/BFA in Performing Arts.","Step 3: Earn degree from NSD/FTII/Kalakshetra/BHU (3–4 years).","Step 4: Specialise in Acting, Dance, Music, or Theatre.","Step 5: Perform in college productions, festivals, and stage shows.","Step 6: Join as Actor, Dancer, Musician, or Theatre Director.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma in Drama/Dance/Music from recognised institute.","Step 3: Learn performance techniques, voice, and body movement.","Step 4: Get trained under established Gurus or performing artists.","Step 5: Participate in competitions, auditions, and cultural events.","Step 6: Work as Stage Performer, Choreographer, or Music Teacher.","Pathway C: Self-Taught/Freelance Route","Step 1: Complete Class 12th (any stream).","Step 2: Learn through online classes (Coursera/YouTube/MasterClass).","Step 3: Practise daily in chosen performing art form.","Step 4: Join local theatre groups, bands, or dance troupes.","Step 5: Upload performances on YouTube, Instagram, or social media.","Step 6: Grow as Freelance Performer, Content Creator, or Trainer."]
       },
       {
         id: "market",
@@ -2227,12 +2126,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Ensemble/Chorus): ₹2.5L–₹5.0L | Mid-level (Soloist/Supporting Actor): ₹8.0L–₹15.0L | Senior/Lead (Star/Main Artist): ₹25.0L–₹1Cr+ (highly variable).",
-          "Metro vs. Tier-2: Mumbai remains the 'Premium' hub for Film/TV, but cities like Ahmedabad, Pune, and Kochi have seen a 25% rise in live performance festivals.",
-          "Growth Trajectory: The AVGC-XR sector and live events are growing at ~15% CAGR.",
-          "Hiring Trends: Huge demand for 'Hybrid Artists'—actors who can sing, or dancers who can act in 'Motion Capture' for video games."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1.5 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly unpredictable; top performers earn exponentially more. Metro exposure essential for visibility. NSD/FTII/Kalakshetra alumni get industry recognition faster.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Chennai, Kolkata, Bengaluru, Hyderabad","Top Industries: Film/OTT platforms, theatre companies, dance academies, event management, TV channels, Netflix, Amazon Prime, Prithvi Theatre, NSD Repertory, Rangashankara, Zee/Sony","Global Demand: Strong demand in USA, UK, UAE, Southeast Asia. Remote teaching/workshops gaining popularity post-pandemic.","Top Institutions","Government:","National School of Drama (NSD), New Delhi","Satyajit Ray Film & Television Institute (SRFTI), Kolkata","Faculty of Music & Fine Arts, University of Delhi","Bhatkhande Sanskriti Vishwavidyalaya, Lucknow","Private:","Whistling Woods International, Mumbai","Barry John Acting Studio, Mumbai & Delhi","Anupam Kher's Actor Prepares, Mumbai","Pearl Academy (Performing Arts Programs)","Online:","Coursera (Theatre, Music & Dance Courses)","Udemy (Acting & Theatre Masterclass)","MasterClass (Performing Arts by Industry Experts)","Skillshare (Voice, Dance & Stage Performance)","Career Opportunities","Conventional","Actor in films, television, theatre, and OTT platforms","Classical/Contemporary Dancer or Choreographer for stage and cinema","Musician/Singer at music labels, orchestras, and live events","Theatre Director or Stage Manager at repertory companies","New-Age & AI-Driven","Motion capture artist for VFX, gaming, and virtual productions","AI-music composer and sound designer for digital media","Virtual/Augmented Reality performance and immersive experience creator","Voiceover artist and AI-voice trainer for dubbing and audiobook platforms","Remote/Entrepreneurship","YouTube/Instagram performing arts content creator and influencer","Own dance academy, music school, or theatre company","Freelance session musician, voice artist, or event performer","Online performing arts coach and masterclass instructor"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2429,11 +2323,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Any stream is okay. Enroll in a Diploma/Certificate in Photography (6-12 months). Join as an Assistant Photographer to a senior pro.",
-          "After Class 12: Pursue a BFA (Bachelor of Fine Arts) in Photography or a B.Sc. in Multimedia. Entrance: NID DAT, University CETs, or Portfolio Review.",
-          "After Graduation: For career-switchers: Pursue a PG Diploma in Photography or Visual Communication. Master specialized genres like Drone or Medical Photography."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (any stream).","Step 2: Clear entrance for BA/B.Des in Photography.","Step 3: Earn degree from AJK-MCRC/Symbiosis/JJ School (3–4 years).","Step 4: Master DSLR, lighting, Lightroom, and Photoshop tools.","Step 5: Complete internship with photography studio or media house.","Step 6: Join as Photographer, Photojournalist, or Art Director.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma from NIFT/Light and Life Academy/Triveni Kala.","Step 3: Learn composition, exposure, and camera techniques deeply.","Step 4: Specialise in wedding, wildlife, fashion, or product photography.","Step 5: Build strong portfolio through assignments and personal projects.","Step 6: Work as Studio Photographer, Event Photographer, or Freelancer.","Pathway C: Self-Taught/Freelance Route","Step 1: Complete Class 12th (any stream).","Step 2: Learn photography through YouTube, Skillshare, or Udemy.","Step 3: Practise daily with smartphone or basic camera equipment.","Step 4: Edit photos using Lightroom, Snapseed, or Photoshop.","Step 5: Share work on Instagram, 500px, or personal portfolio website.","Step 6: Freelance as Photographer or start own photography business."]
       },
       {
         id: "market",
@@ -2441,12 +2331,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Assistant/Junior): ₹3.0L–₹4.5L | Mid-level (Senior/Lead): ₹8.0L–₹15.0L | Experienced/Celebrity: ₹25L–₹1Cr+ (highly variable).",
-          "City Comparison: Mumbai and Hyderabad pay roughly 15-20% more due to the film and fashion industries.",
-          "Hiring Trends: Massive growth in E-commerce photography (hiring up 25% annually) and Product photography for D2C brands.",
-          "Industry Growth: Projected to grow at a steady 4-6% CAGR through 2030 as visual content remains the king of the internet."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹1.2 Crore+","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly project-based; wedding/commercial photographers earn significantly more. Metro cities pay 40–55% higher. Strong portfolio and social media presence matter most.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Kolkata, Jaipur","Top Industries: Wedding industry, advertising agencies, media houses, e-commerce, film production, fashion brands, Shutterstock, Getty Images, Conde Nast, Amazon, Myntra","Global Demand: Stock photography generating passive income globally. Indian wedding photographers in demand in USA, UK, UAE.","Top Institutions","overnment:","Film and Television Institute of India (FTII), Pune","Satyajit Ray Film & Television Institute (SRFTI), Kolkata","National Institute of Design (NID), Ahmedabad","AJK Mass Communication Research Centre, Jamia Millia Islamia, Delhi","Private:","Light & Life Academy, Ooty","Sri Aurobindo Centre for Arts & Communication, New Delhi","Creative Hut Institute of Photography, Kerala","Asian Academy of Film & Television (AAFT), Noida","Online:","Coursera (Photography Basics & Beyond)","Udemy (Photography Masterclass)","Skillshare (Portrait, Landscape & Street Photography)","Domestika (Creative Photography & Editing)","Career Opportunities","Conventional","Wedding and Event Photographer","Fashion/Editorial Photographer for magazines and brands","Photojournalist for newspapers, news agencies, and media houses","Commercial/Product Photographer for e-commerce and advertising","New-Age & AI-Driven","AI-enhanced photo editor and computational photography specialist","Drone and Aerial Photographer for real estate, mapping, and films","360°/Virtual Tour Photographer for hospitality and real estate","NFT and digital fine art photographer for blockchain platforms","Remote/Entrepreneurship","Freelance photographer with own studio or on-location business","Stock photography contributor on Shutterstock, Getty, and Adobe Stock","Photography influencer, YouTuber, and online course creator","Photo editing and retouching service provider for global clients"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2645,11 +2530,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Any stream is fine. Take short courses in Fine Arts or Basic 3D Modeling. Activity: Start a 'Design Journal.' Draw 1 object every day. Skill: Learn to use a basic 3D tool like Tinkercad.",
-          "After Class 12: Pursue a Bachelor of Design (B.Des) in Product or Industrial Design (4 years). Exams: UCEED (IITs), NID DAT, NIFT Entrance, SEED. Stream: Science is preferred for technical products, but Commerce/Arts are also eligible.",
-          "After Graduation: Pursue an M.Des (2 years). Exams: CEED (for IITs/IISc), NID PG. Engineers (B.Tech) often switch here. Switch: Take a 1-year PG Diploma in User Experience (UX)."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (preferably Science/Arts stream).","Step 2: Clear entrance for B.Des in Product/Industrial Design.","Step 3: Earn degree from NID/IIT/CEPT/Srishti (4 years).","Step 4: Master SolidWorks, Rhino, Fusion 360, and Figma tools.","Step 5: Complete internship with product design firm or startup.","Step 6: Join as Product Designer, UX Designer, or Design Strategist.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma in Product/Industrial Design from recognised institute.","Step 3: Learn sketching, prototyping, and material selection skills.","Step 4: Get certified in CAD tools and user research methods.","Step 5: Build portfolio with real or concept product projects.","Step 6: Work as Junior Designer, Model Maker, or Design Associate.","Pathway C: Self-Taught/Online Route","Step 1: Complete Class 12th (any stream).","Step 2: Take online courses (Coursera/Udemy/Google UX Certificate).","Step 3: Learn design thinking, wireframing, and prototyping skills.","Step 4: Practise by solving everyday product design problems.","Step 5: Showcase projects on Behance, Dribbble, or personal portfolio.","Step 6: Freelance as Product Designer or join design-driven startup."]
       },
       {
         id: "market",
@@ -2657,12 +2538,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Junior Designer): ₹4.5L–₹9.0L | Mid-level (Senior Designer): ₹15L–₹28L | Senior/Leadership (Design Head/VP): ₹45L–₹85L+ | Leadership/CXO (Director of Design): ₹1.5Cr+.",
-          "City Comparison: Hyderabad and Bangalore offer the highest pay (up to 30% above national average), followed by Pune (Automotive hub) and Gurgaon.",
-          "Job Growth: Hiring for specialized designers (AI-integrated and Sustainable) is growing at ~11% annually.",
-          "Industry Growth: The Indian Robotics and Smart-Home market is expected to grow at a CAGR of ~15% through 2030, creating thousands of 'Hardware + Software' design roles."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹18–32 LPA","Mid-Level Professional (5–8 yrs): ₹9–17 LPA","Junior / Associate (3–5 yrs): ₹5–9 LPA","Entry Level (0–2 yrs): ₹3.5–5 LPA","Note: Metro cities pay 45–65% more. UX/UI product designers earn highest in tech. IIT/NID/IDC graduates command top-tier packages consistently.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai","Top Industries: Tech startups, SaaS companies, e-commerce, consumer electronics, automotive, Google, Microsoft, Flipkart, Razorpay, CRED, Titan, Tata Elxsi","Global Demand: Indian product designers highly sought in USA, Europe, Singapore. Remote-first roles widely available at global companies. Freelance UX consulting booming on Toptal/Upwork.","Top Institutions","Government:","National Institute of Design (NID), Ahmedabad","Industrial Design Centre (IDC), IIT Bombay","Indian Institute of Technology (IIT), Delhi","Indian Institute of Science (IISc), Bangalore","Private:","Srishti Manipal Institute of Art, Design & Technology","Pearl Academy","DSK International Campus, Pune","Symbiosis Institute of Design, Pune","Online:","Coursera (Product Design & UX Courses)","Udemy (Industrial & Product Design Masterclass)","Skillshare (3D Modeling & Prototyping)","Domestika (Creative Product Design & Innovation)","Career Opportunities","Conventional","Industrial/Product Designer at consumer goods and manufacturing companies","Furniture and Home Products Designer at design studios","Packaging Designer for FMCG and retail brands","Automobile/Automotive Designer at vehicle manufacturers","New-Age & AI-Driven","UX/UI Product Designer at tech startups and SaaS companies (Razorpay, CRED, Zoho)","IoT and Wearable Technology Product Designer","AI-augmented design strategist using generative design tools","Sustainable/Circular Design Specialist for eco-conscious brands","Remote/Entrepreneurship","Freelance product designer on Upwork, Toptal, and Dribbble","Own product design studio or D2C product brand","3D printing and rapid prototyping service entrepreneur","Online product design mentor and course creator on Skillshare/Udemy"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2859,11 +2735,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Any stream. Take short-term Certificate Courses in Graphic/Web Design. Focus on a Portfolio.",
-          "After Class 12: Pursue a B.Des (Interaction/Graphic Design) or B.Sc. (Multimedia/Animation). Exams: NID DAT, UCEED, NIFT, or SEED.",
-          "After Graduation: Any graduate (B.A./B.Com/B.E.) can take a PG Diploma in UX/UI Design. Institutes: NID, IIT-B (IDC), or private bootcamps. Lateral Entry: Software Engineers or Graphic Designers can switch via 6-month intensive UX Bootcamps. Certifications: Google UX Design (Coursera), HFI (Human Factors Intl)."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (preferably Science/Computer Science).","Step 2: Pursue BCA/B.Des/B.Sc in Web Design/IT.","Step 3: Earn degree from recognised university (3–4 years).","Step 4: Master HTML, CSS, JavaScript, Figma, and WordPress.","Step 5: Complete internship with IT company or digital agency.","Step 6: Join as Web Designer, UI/UX Designer, or Frontend Developer.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma in Web Design from Arena/NIIT/Aptech.","Step 3: Learn responsive design, UX principles, and colour theory.","Step 4: Get certified in Google UX, Adobe XD, or Webflow.","Step 5: Build portfolio with live website projects and mockups.","Step 6: Work as Junior Web Designer, WordPress Developer, or Freelancer.","Pathway C: Self-Taught/Freelance Route","Step 1: Complete Class 12th (any stream).","Step 2: Learn web design through YouTube, freeCodeCamp, or Udemy.","Step 3: Practise building websites using HTML, CSS, and JavaScript.","Step 4: Master tools like Figma, Canva, WordPress, or Elementor.","Step 5: Showcase projects on GitHub, Behance, or personal portfolio site.","Step 6: Freelance on Fiverr/Upwork or start web design business."]
       },
       {
         id: "market",
@@ -2871,12 +2743,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual INR): Entry-level (Junior Designer): ₹4.0L–₹7.5L | Mid-level (Senior Web Designer): ₹12L–₹22L | Leadership (Design Lead/Creative Director): ₹35L–₹70L+.",
-          "City Comparison: Bangalore, Hyderabad, and Pune pay the 'Tech Premium' (approx. 25% higher than the national average).",
-          "Job Growth: The demand for UI/UX and Web Designers is growing at ~18% CAGR.",
-          "Industry Projection: By 2030, the 'Interaction Design' market in India will be worth over $2 Billion."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹28 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–25 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. Full-stack design + development skills double earning potential. Strong GitHub/Behance portfolio outweighs formal degrees significantly.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai","Top Industries: IT companies, digital agencies, startups, e-commerce, SaaS firms, TCS, Infosys, Webchutney, WPP, Freshworks, Zoho, Razorpay","Global Demand: Massive demand in USA, UK, Australia, Canada. Platforms like Toptal/Fiverr/Webflow creating steady income.","Top Institutions","Government","National Institute of Design (NID), Ahmedabad","IDC School of Design, IIT Bombay","Department of Design, IIT Guwahati","Design Discipline, IIITDM Jabalpur","Private","MIT Institute of Design, Pune","Pearl Academy","Arena Animation","MAAC","Online","Coursera","upGrad","Great Learning","Udemy","Career Opportunities","Conventional","Web Designer","UI Designer","Front-End Designer","WordPress Designer","New-age and AI driven","UX/UI Product Designer","Webflow Designer","Shopify Store Designer","AI-Assisted Website Designer","Remote/entrepreneurship","Freelance Website Designer","Agency Website Consultant","No-Code Website Creator","Personal Brand Web Studio"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -4792,12 +4659,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Routes after Class 10, Class 12, and Graduation",
         color: BLUE,
-        content: [
-          "After Class 10: Choose any stream; Commerce is recommended for business foundations. Volunteer in school or local sports events.",
-          "After Class 12: Pursue Bachelor of Sports Management (BSM) or BBA in Sports Management. Entrance options include SMAT (IISM) and CUET pathways.",
-          "After Graduation: Specialize with MBA or PG Diploma in Sports Management.",
-          "Switching Routes: Law graduates can move into sports law, and math/stat graduates can move into sports analytics."
-        ]
+        content: ["Pathway A: Degree Route (After Class 12th)","Step 1: Pass Class 12th in any stream.","Step 2: Pursue BBA or B.Sc in Sports Management.","Step 3: Complete internship with sports club or federation.","Step 4: Earn MBA in Sports Management for advancement.","Step 5: Join as sports manager, event coordinator, or analyst.","Step 6: Rise to director-level in sports organizations.","Pathway B: Certification & Skill-Based Route","Step 1: Pass Class 12th in any stream.","Step 2: Take diploma in sports management or event management.","Step 3: Learn tools: event planning, marketing, and sponsorship.","Step 4: Volunteer or intern at sports events and leagues.","Step 5: Get hired by IPL teams, ISL clubs, or agencies.","Step 6: Specialize in athlete management, marketing, or operations.","Pathway C: Commerce/MBA Route (Domain Switch)","Step 1: Pass Class 12th with Commerce or Humanities.","Step 2: Complete BBA, B.Com, or BA in any field.","Step 3: Pursue MBA in Sports Management (IISM/TISS).","Step 4: Complete internship with sports federation or brand.","Step 5: Work as sports marketing or operations manager.","Step 6: Advance to CEO, league director, or sports consultant."]
       },
       {
         id: "6",
@@ -4805,12 +4667,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Compensation and growth projections",
         color: BLUE2,
-        content: [
-          "Salary Ranges (Annual): Entry-Level ₹4L-₹8L | Mid-Level (5-10 years) ₹12L-₹25L | Senior-Level ₹30L-₹60L | Leadership/CXO ₹80L-₹2Cr+.",
-          "Growth Outlook: Indian sports industry projected to reach $130 Billion by 2030 at 14% CAGR.",
-          "Hiring Trend: Shift from generalist manager roles to specialized sports analytics and digital fan engagement roles.",
-          "Benchmarks compiled from 6figr, Mordor Intelligence, and industry reports."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹11 LPA","Entry Level (0–2 yrs): ₹4 – ₹8 LPA","Note: MBA in Sports Management, AI-analytics skills, and the 8th Pay Commission (for government roles) boost pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Pune, Hyderabad.","Top Industries: Franchise Leagues (IPL, ISL, PKL), Sports Tech/Gaming, Digital Media, Marketing Agencies, Retail (e.g., Decathlon).","Global Demand: High in USA, UK, UAE. Remote \"Fan Engagement\" and \"Sports Data Science\" roles are booming.","Top Institutions","Career Opportunities","Conventional","Sports Event Manager","League / Franchise Operations Executive","Athlete Management Executive","Sports Marketing Manager","New-age and AI driven","Sports Analytics Specialist","Fan Engagement / Digital Sports Manager","Sports Data Analyst","Performance Insights Analyst","Remote / Entrepreneurship","Sports Consultant","Sports Content Creator","Online Sports Business Trainer","Sports Academy / Event Startup Founder"]
       },
       {
         id: "7",
@@ -6234,13 +6091,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science with Mathematics as a core subject. Start looking at the Regional Mathematical Olympiad (RMO) and KVPY.",
-          "After Class 12: Pursue B Sc (Hons) Mathematics, B Stat, or B Math. Top exams ISI Admission Test (for Indian Statistical Institute), CMI Entrance Exam (Chennai Mathematical Institute), CUET (Central Universities), JEE Advanced (for B.S. programs at IITs).",
-          "After Graduation: Specialize in M Sc  Mathematics, Statistics, or Computing. Professional switch, If you have a B.Sc., move into Data Science or Actuarial Science through specialized diplomas.",
-          "The PhD Route: If you want to be called a 'Mathematician,' a PhD is usually required. Clear CSIR-NET or GATE for fellowship money during research.",
-          "Top Institutions: ISI Kolkata/Delhi, CMI Chennai, IISc Bengaluru, TIFR Mumbai, IIT Kanpur/Kharagpur, University of Delhi, University of Hyderabad."
-        ]
+        content: ["Pathway A: Academic & Research Route","Step 1: Complete Class 12th with Mathematics as main subject.","Step 2: Pursue B.Sc. (Hons.) in Mathematics.","Step 3: Complete M.Sc. in Mathematics or Applied Mathematics.","Step 4: Clear CSIR-NET/JRF or NBHM exam for fellowship.","Step 5: Pursue Ph.D. from ISI, CMI, IITs, or IISc.","Step 6: Join as Professor or Research Mathematician at institutes.","Pathway B: Applied Mathematics & Industry Route","Step 1: Complete Class 12th with PCM subjects.","Step 2: Pursue B.Sc./B.Tech in Mathematics or Statistics.","Step 3: Learn Python, R, MATLAB, and data modelling tools.","Step 4: Complete internship in analytics or finance sector.","Step 5: Pursue M.Sc./MBA in Quantitative Finance or Analytics.","Step 6: Work as Data Scientist, Quantitative Analyst, or Actuary.","Pathway C: Teaching & Competitive Exam Coaching Route","Step 1: Complete Class 12th with Mathematics subject.","Step 2: Pursue B.Sc. in Mathematics from recognized university.","Step 3: Complete B.Ed. or NET qualification for teaching.","Step 4: Gain experience teaching at school or coaching level.","Step 5: Clear TGT/PGT or UGC-NET for college-level teaching.","Step 6: Work as School Teacher, Lecturer, or Coaching Faculty."]
       },
       {
         id: "market",
@@ -6248,15 +6099,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Analyst/Lecturer): ₹4 Lakh – ₹9 Lakh annually.",
-          "Mid-Level (Data Scientist/Actuary): ₹12 Lakh – ₹22 Lakh annually.",
-          "Senior-Level (Lead Quant/Professor): ₹25 Lakh – ₹45 Lakh annually.",
-          "Leadership (Research Head/Chief Data Officer): ₹60 Lakh – ₹1.5 Crore+ annually.",
-          "Growth Trajectory: Entry to Senior typically takes 8–12 years.",
-          "Hiring Trends: Demand for 'Quant' (Quantitative) professionals in Fintech and AI companies is growing at 20% year-on-year.",
-          "Metro vs. Tier-2: Bengaluru (Data Science), Mumbai (Finance), Kolkata (Research), Chennai (Theoretical Math)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 – ₹60 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹28 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA","Entry Level (0–2 yrs): ₹4.5 – ₹9 LPA","Note: A PhD, CSIR-NET, or expertise in AI/Quant Finance boosts pay by 40%. The 8th Pay Commission implementation in 2026 also significantly raises base pay for government research and academic roles.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Hyderabad, Delhi-NCR, Pune.","Top Industries: BFSI (Quantitative Finance), Tech/AI, Research Organizations (ISRO, TIFR), Academia, Cryptography.","Global Demand: High in USA, UK, Germany, UAE. Remote \"Math-as-a-Service\" and AI research roles are surging.","Top Institutions","Career Opportunities","Conventional","Mathematician / Researcher","Lecturer / Professor","Statistician","Actuarial Analyst","New-age and AI driven","Data Scientist","Machine Learning Engineer","Quantitative Analyst","Cryptography / Security Analyst","Remote / Entrepreneurship","Online Mathematics Educator","Mathematics Content Creator","Freelance Quant Consultant","EdTech / Test-Prep Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -6723,12 +6566,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway 1 - After Class 10: Diploma Route: Enroll in a 3-year Diploma in Mechatronics or Mechanical Engineering. Join workforce as a Robotics Technician or take 'Lateral Entry' into 2nd year of B.Tech.",
-          "Pathway 2 - After Class 12 (Science Stream): Entrance Exams: JEE Main, JEE Advanced, BITSAT, VITEEE Degrees BTech in Robotics & Automation (emerging direct degree), BTech in Mechatronics (classic route), or BTech in Mechanical/Electronics/CS (specialize in Robotics later).",
-          "Pathway 3 - After Graduation: Specialization: Pursue MTech in Robotics or Artificial Intelligence (Entry via GATE). Lateral Entry: If you have a degree in Mechanical or Electronics, switch to Robotics via specialized certifications in ROS and Embedded Systems.",
-          "Top Institutions: IIT Delhi (Program for Autonomous Systems), IIT Kanpur (Center for Robotics), IISc Bengaluru, Jadavpur University, SRM Institute Chennai, VIT Vellore, MIT World Peace University Pune."
-        ]
+        content: ["Pathway A: Core Engineering Route","Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.","Step 2: Clear JEE/State CET for engineering admission.","Step 3: Pursue B.Tech in Robotics or Mechatronics Engineering.","Step 4: Complete internship at robotics labs or automation firms.","Step 5: Pursue M.Tech in Robotics, AI, or Control Systems.","Step 6: Work as Robotics Engineer or Automation Systems Designer.","Pathway B: Research & Development Route","Step 1: Complete Class 12th with PCM subjects.","Step 2: Pursue B.Tech in ECE, Mechanical, or Computer Science.","Step 3: Learn tools like ROS, Python, MATLAB, and OpenCV.","Step 4: Clear GATE exam for M.Tech or research fellowship.","Step 5: Pursue M.Tech/Ph.D. from IITs, IISc, or IIIT Hyderabad.","Step 6: Join as Robotics Research Scientist or AI Engineer.","Pathway C: Skill-Based & Startup Route","Step 1: Complete Class 12th with Science or ITI course.","Step 2: Pursue diploma in Robotics or Industrial Automation.","Step 3: Learn Arduino, Raspberry Pi, 3D printing, and IoT.","Step 4: Complete certifications from NSDC or online platforms.","Step 5: Build projects and participate in robotics competitions.","Step 6: Work as Robotics Technician or launch own startup."]
       },
       {
         id: "market",
@@ -6736,15 +6574,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and industry trends.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Graduate Trainee): ₹4.5 Lakh – ₹9 Lakh annually.",
-          "Mid-Level (4-7 years experience): ₹12 Lakh – ₹22 Lakh annually.",
-          "Senior-Level (8-15 years experience): ₹25 Lakh – ₹48 Lakh annually.",
-          "Leadership/CXO (Chief Tech Officer): ₹60 Lakh – ₹1.5 Crore+ annually.",
-          "Salary Comparison: Metro cities (Bengaluru, Pune, Hyderabad) pay 25-30% more than Tier-2 cities due to R&D hub concentration.",
-          "Industry Growth: Industrial Robotics market growing at 13.1% CAGR. Consumer Robotics (vacuum bots, drones) exploding at 30.3% CAGR.",
-          "Demand Surge: Automation is accelerating post-pandemic, creating unprecedented job opportunities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Tech Leadership (15+ yrs): ₹65 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 – ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹16 – ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹15 LPA","Entry Level (0–2 yrs): ₹4.5 – ₹9 LPA","Note: Expertise in ROS 2, Generative AI for Robotics, and Edge Computing can boost pay by 45%.","Where Are the Jobs?","Top Cities: Bengaluru, Pune, Delhi-NCR (Noida/Gurgaon), Chennai, Hyderabad, Ahmedabad.","Top Industries: Automotive (EV focus), Warehouse Automation, Defense, Aerospace, MedTech, and Electronics.","Global Demand: High in Japan, Germany, USA, and South Korea. \"Robot-as-a-Service\" (RaaS) is a major trend.","Top Institutions","Career Opportunities","Conventional","Robotics Engineer","Automation Engineer","PLC / Control Systems Engineer","Industrial Robotics Technician","New-age and AI driven","AI Robotics Engineer","Computer Vision Engineer","Autonomous Systems Engineer","Embedded Robotics Engineer","Remote / Entrepreneurship","Robotics Trainer","STEM / Robotics Content Creator","Automation Consultant","Robotics Startup Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -6967,13 +6797,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science or Commerce—but you MUST take Mathematics as a core subject. Statistics is a 'Math-heavy' career.",
-          "After Class 12: Degrees: B.Sc. (Hons) Statistics, B.Stat (at ISI), or B.A. (Hons) Economics with Statistics. Entrance Exams: ISI Admission Test (most prestigious), CUET (Central Universities like DU, BHU, JNU), State-Level Exams.",
-          "After Graduation: Master's Level: M.Sc. Statistics or M.Stat (Gold Standard for high-paying jobs). Specialization: Switch to Data Science, Actuarial Science, or Business Analytics via specialized diplomas.",
-          "Civil Services: Appear for Indian Statistical Service (ISS) exam conducted by UPSC to become a Grade-A government officer.",
-          "Top Institutions: ISI Kolkata/Delhi/Bengaluru, IIT Bombay/Kanpur, Hindu College (DU), Loyola College Chennai, NMIMS Mumbai, Symbiosis Pune, Christ University Bengaluru."
-        ]
+        content: ["Pathway A: Academic & Research Route","Step 1: Complete Class 12th with Mathematics as main subject.","Step 2: Pursue B.Sc. (Hons.) in Statistics or Mathematics.","Step 3: Complete M.Sc. in Statistics or Applied Statistics.","Step 4: Clear CSIR-NET/JRF or ISI admission test for fellowship.","Step 5: Pursue Ph.D. from ISI, IITs, or central universities.","Step 6: Join as Professor or Research Statistician at institutes.","Pathway B: Government & Official Statistics Route","Step 1: Complete Class 12th with Mathematics subject.","Step 2: Pursue B.Sc. in Statistics from recognized university.","Step 3: Complete M.Sc. in Statistics or Biostatistics.","Step 4: Clear Indian Statistical Service (ISS) exam by UPSC.","Step 5: Join training at National Statistical Systems Training Academy.","Step 6: Work as Statistical Officer in MoSPI or NSSO.","Pathway C: Industry & Data Analytics Route","Step 1: Complete Class 12th with PCM subjects.","Step 2: Pursue B.Sc./B.Tech in Statistics or Data Science.","Step 3: Learn tools like R, Python, SPSS, SAS, and Excel.","Step 4: Complete internship in analytics, insurance, or finance.","Step 5: Pursue PG Diploma or M.Sc. in Data Analytics.","Step 6: Work as Data Analyst, Biostatistician, or Risk Analyst."]
       },
       {
         id: "market",
@@ -6981,15 +6805,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and industry trends.",
         color: BLUE2,
-        content: [
-          "Entry-Level (0-2 years): ₹5 Lakh – ₹9 Lakh annually.",
-          "Mid-Level (5-8 years): ₹12 Lakh – ₹22 Lakh annually.",
-          "Senior-Level (10-15 years): ₹25 Lakh – ₹45 Lakh annually.",
-          "Leadership/CXO (Chief Data Officer): ₹60 Lakh – ₹1.5 Crore+ annually.",
-          "Metro vs. Tier-2: Salaries in Bengaluru and Mumbai are 30% higher than Tier-2 cities, but Tier-2 cities like Jaipur and Indore are seeing 20% faster growth in 'Remote Data Analyst' roles.",
-          "Demand: Indian Data Analytics market growing at 35.8% CAGR (2025–2030).",
-          "Job Growth: India expected to generate 7 million data-related jobs by end of 2026."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹22 – ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA","Entry Level (0–2 yrs): ₹4.5 – ₹8 LPA","Note: A PhD, mastery in AI/ML, and the 8th Pay Commission implementation (for govt. roles) boost pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Hyderabad, Delhi-NCR, Pune.","Top Industries: BFSI (Quant Finance), Tech/AI, Pharmaceuticals (Biostatistics), Government/PSUs, E-commerce.","Global Demand: High in USA, UK, Germany; Remote \"Decision Science\" roles are booming.","Top Institutions","Career Opportunities","Conventional","Statistician","Biostatistician","Lecturer / Professor (Statistics)","Survey / Research Statistician","New-age and AI driven","Data Scientist","Machine Learning Analyst","Actuarial Analyst","Quantitative Risk Analyst","Remote / Entrepreneurship","Statistics Tutor / Educator","Data Analytics Consultant","Statistical Research Freelancer","EdTech / Test-Prep Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -7210,12 +7026,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Mass Communication Route (Most Common): Class 12: Any stream (Humanities popular, but Science/Commerce equally welcome). Entrance Exams: CUET-UG, SET (Symbiosis), IPU-CET. Undergraduate: BMM or BA in Journalism & Mass Comm (3 years). Postgraduate: Masters in Advertising & PR or PG Diploma (IIMC).",
-          "Pathway B - Management Route (Strategy/Client Servicing): Graduation: Any Degree (B.Tech/B.Com/BA). Entrance Exams: CAT / MICAT (Specific to MICA). Postgraduate: MBA in Marketing or PGDM-C (Communications Management). Leads to high-paying Brand Manager roles.",
-          "Pathway C - Portfolio Route (For Creatives): Degrees matter less; skills matter more. Learn Graphic Design/Video Editing (Adobe Suite) or Copywriting online. Build a Portfolio (collection of dummy ads). Apply for internships at agencies directly.",
-          "Top Institutions: IIMC (New Delhi), MICA (Ahmedabad), Xavier Institute of Communications (Mumbai), Symbiosis Institute of Media & Communication (Pune), Asian College of Journalism (Chennai), Delhi University, Jamia Millia Islamia."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th in any stream (Arts preferred).","Step 2: Clear entrance exams for IIMC, Symbiosis, or Xavier's.","Step 3: Pursue BA/BMM in Advertising or Mass Communication.","Step 4: Learn copywriting, media planning, and digital marketing tools.","Step 5: Complete internship at advertising agency or media house.","Step 6: Join as Copywriter, Media Planner, or Account Executive.","Pathway B: Graduation + MBA/PG Diploma Route","Step 1: Complete Class 12th in any stream subjects.","Step 2: Pursue graduation in any discipline (BA/BBA/B.Com).","Step 3: Build skills in content writing and social media.","Step 4: Pursue MBA (Marketing) or PG Diploma in Advertising.","Step 5: Develop portfolio with campaigns, ads, and brand projects.","Step 6: Join as Brand Manager, Creative Director, or Strategist.","Pathway C: Certification and Skill-Based Entry Route","Step 1: Complete Class 12th in any stream subjects.","Step 2: Join short-term diploma in advertising or communication.","Step 3: Learn Canva, Adobe Suite, Google Ads, and Meta Ads.","Step 4: Freelance or intern with brands and digital agencies.","Step 5: Build strong portfolio showcasing creative campaign work.","Step 6: Get hired as Ad Designer, Social Media Executive, freelancer."]
       },
       {
         id: "market",
@@ -7223,15 +7034,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Size: Indian advertising industry projected to reach ₹1.3 Lakh Crore by 2026.",
-          "Digital Dominance: Digital advertising (Google, Meta, Instagram) has overtaken TV. Expected to account for 59% of all ad spending by 2026.",
-          "Hiring Trends: 'Mad Men' era of TV is fading. Hiring boom is in Performance Marketing (ads that directly lead to sales) and Content Creation.",
-          "Entry-Level (0-2 Yrs): Jr. Copywriter/Social Media Exec: ₹2.5L–₹4.5L (Agency) or ₹4L–₹6L (Corporate).",
-          "Mid-Level (3-7 Yrs): Art Director/Brand Manager: ₹8L–₹15L (Agency) or ₹12L–₹22L (Corporate).",
-          "Senior-Level (8-15 Yrs): Creative Director/VP Marketing: ₹25L–₹50L (Agency) or ₹35L–₹60L (Corporate).",
-          "Leadership: NCD/CMO: ₹80L–₹2Cr+ (Agency) or ₹1Cr–₹3Cr+ (Corporate)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹55 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹28 – ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹14 – ₹26 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹13 LPA","Entry Level (0–2 yrs): ₹4 – ₹7.5 LPA","Note: Metros and Digital/AI skills boost pay by 40%.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Pune, Hyderabad.","Top Industries: FMCG, E-commerce, BFSI, Digital Agencies, EdTech.","Global Demand: High in USA, UK, UAE. Remote freelancing is booming.","Top Institutions","Government Institutes","Indian Institute of Mass Communication (IIMC), New Delhi","Mudra Institute of Communications (MICA), Ahmedabad","University of Delhi (Delhi School of Journalism)","Jamia Millia Islamia, New Delhi","Private Institutes","Xavier Institute of Communications (XIC), Mumbai","Symbiosis Institute of Media & Communication, Pune","Pearl Academy, New Delhi","Whistling Woods International, Mumbai","Online Institutes","NPTEL (Media & Communication Courses)","Coursera (Digital Marketing & Advertising)","Udemy (Advertising & Brand Communication)","Google Skillshop (Digital Advertising Certification)","Career Opportunities","Conventional","Copywriter/Creative Director at advertising agencies","Media Planner at media buying firms","Public Relations Officer at corporate houses","Communication Officer at government ministries","New-Age & AI-Driven","Performance Marketing Specialist at D2C and e-commerce brands","AI-Powered Content Strategist at digital marketing agencies","Programmatic Advertising Specialist at adtech platforms","Influencer Marketing Manager at social media-driven brands and startups","Remote/Entrepreneurship","Freelance Brand Strategist and Copywriter for global clients","Founder of digital advertising or social media marketing agency","Remote Content Marketing Specialist for international SaaS companies","Advertising and Communication Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -7454,13 +7257,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Self-Taught Route (Portfolio-Based, Most Common in 2026): Class 12: Any stream. Learn: Take online certifications (Google Digital Garage, HubSpot Academy, Meta Blueprint). Build: Start a blog, YouTube channel, or Instagram page. Grow to 1,000 followers (your portfolio). Intern: Join an agency as an intern.",
-          "Pathway B - Formal Education Route (Degree-Based): Class 12: Any stream (Commerce/Humanities preferred). Undergraduate: BBA in Digital Marketing or BMM (Mass Media). Postgraduate: MBA in Digital Marketing or PGDM in Communications (MICA/Symbiosis).",
-          "Pathway C - Tech Route (For Data Lovers): Class 12: Science/Commerce with Math. Graduation: B.Tech or B.Sc in Statistics/CS. Role: Digital Analyst or SEO Technical Specialist.",
-          "Bootcamp Route: 6-11 month intensive programs from IIDE, Kraftshala, Digital Vidya, UpGrad, Simplilearn. Most affordable and fastest entry.",
-          "Top Institutions: IIDE Mumbai, Kraftshala, Digital Vidya, MICA Ahmedabad, Symbiosis Pune, NMIMS Mumbai, IIMs (Executive Certifications)."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th in any stream subjects.","Step 2: Pursue BBA/BMS or BA in Marketing/Mass Communication.","Step 3: Learn SEO, SEM, Google Analytics, and content marketing.","Step 4: Get Google Ads and Meta Blueprint certified online.","Step 5: Complete internship at digital agency or e-commerce company.","Step 6: Join as Digital Marketing Executive or SEO Analyst.","Pathway B: Graduation + MBA/PG Diploma Route","Step 1: Complete Class 12th in any stream subjects.","Step 2: Pursue graduation in any discipline (BA/B.Com/BCA).","Step 3: Gain experience in blogging, social media, or freelancing.","Step 4: Pursue MBA (Digital Marketing) or PG Diploma course.","Step 5: Master paid advertising, email marketing, and marketing automation.","Step 6: Join as Digital Marketing Manager or Growth Marketing Lead.","Pathway C: Certification and Skill-Based Entry Route","Step 1: Complete Class 10th or 12th any stream.","Step 2: Join certified digital marketing course (3–6 months).","Step 3: Learn Google Ads, Meta Ads, HubSpot, and Canva.","Step 4: Start freelancing or manage social media for brands.","Step 5: Build portfolio with real campaign results and case studies.","Step 6: Get hired as Social Media Manager or Performance Marketer."]
       },
       {
         id: "market",
@@ -7468,15 +7265,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: Indian digital advertising market projected to reach $32 Billion by 2030, growing at 15.3% CAGR.",
-          "Hiring Trends: 'Generalist' marketer is fading. Companies want Specialists—Performance Marketers (handle money/ads) and Retention Marketers (keep customers coming back).",
-          "Entry-Level (0-2 Yrs): Social Media Exec/SEO Trainee: ₹3L–₹4.5L (Agency) or ₹4L–₹6L (Brand).",
-          "Mid-Level (3-6 Yrs): Digital Marketing Manager: ₹7L–₹12L (Agency) or ₹10L–₹18L (Brand).",
-          "Senior-Level (7-12 Yrs): Performance Lead/VP Marketing: ₹15L–₹30L (Agency) or ₹25L–₹50L (Brand).",
-          "Leadership: CMO (Chief Marketing Officer): ₹50L–₹1.5Cr+ (Agency) or ₹80L–₹3Cr+ (Brand).",
-          "Freelancing: ₹20k–₹1L per client/month. Extremely high earning potential."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹3.0 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Note: AI-driven marketing and Metros boost pay by 45%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune.","Top Industries: E-commerce, EdTech, Fintech, Consumer Goods, Media.","Global Demand: High in USA, UK, Canada. Remote freelancing surging.","Top Institutions","Government Institutes","Indian Institute of Mass Communication (IIMC), New Delhi","National Institute of Electronics & IT (NIELIT)","IIM Bangalore (Digital Marketing Programme)","University of Delhi (Department of Commerce)","Private Institutes","MICA, Ahmedabad","Symbiosis Institute of Business Management, Pune","Internet and Mobile Association of India (IAMAI)","Digital Vidya, New Delhi","Online Institutes","Google Digital Garage (Free Certification)","HubSpot Academy (Inbound Marketing)","Coursera (Meta & Google Digital Marketing)","Udemy (Complete Digital Marketing Courses)","Career Opportunities","Conventional","Digital Marketing Manager at corporate houses","SEO/SEM Specialist at IT companies","Social Media Manager at media houses","Email Marketing Executive at banks and insurance firms","New-Age & AI-Driven","Performance Marketing Specialist at D2C startups","AI-Driven Marketing Automation Specialist at martech companies","Programmatic Advertising Manager at adtech platforms","Growth Hacker at fintech/edtech startups","Remote/Entrepreneurship","Freelance Digital Marketing Consultant on global platforms","Founder of digital marketing or performance marketing agency","Remote SEO/Content Strategist for international brands and SaaS companies","Digital Marketing Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -7699,13 +7488,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Management Degree Route (Corporate Ladder): Class 12: Any stream (Commerce/Science/Humanities). Math recommended. Undergraduate: BBA / BMS / IPM (Integrated Programme in Management). Entrance: IPMAT (IIM Indore/Rohtak), CUET (DU), NPAT (NMIMS). Postgraduate: MBA / PGDM. Entrance: CAT (IIMs), XAT (XLRI), SNAP, NMAT. Role: Management Trainee → Manager → VP → CEO.",
-          "Pathway B - Entrepreneurial Route (The Builder): Skills First: Learn coding, design, or marketing. Start Early: Launch a small venture in college (T-shirt business, campus delivery service). Incubation: Join a startup incubator (T-Hub, NSRCEL at IIM Bangalore). Reality: Don't need a degree to start, but MBA gives safety net and network.",
-          "Top Institutions: IIM Ahmedabad/Bangalore/Calcutta (ABC), FMS Delhi, IIFT, IIM Indore/Rohtak, ISB Hyderabad, XLRI Jamshedpur, SPJIMR Mumbai, NMIMS Mumbai, Symbiosis (SIBM) Pune.",
-          "Accelerators & Incubators: T-Hub (Hyderabad), NASSCOM 10000 Startups, IIM Bangalore's NSRCEL, IIT Delhi's Incubation Cell.",
-          "Alternative: Many successful founders skipped formal MBA and learned on the job (like Deepinder Goyal of Zomato)."
-        ]
+        content: ["Pathway A: After Class 12th (BBA/Degree Route)","Step 1: Complete Class 12th in any stream subjects.","Step 2: Clear entrance exams like IPMAT, SET, or CUET.","Step 3: Pursue BBA/BMS in Entrepreneurship or Management (3 years).","Step 4: Learn business planning, finance, and leadership skills.","Step 5: Complete internship at startup, SME, or corporate firm.","Step 6: Join as Management Trainee or launch your own startup.","Pathway B: Graduation + MBA Route","Step 1: Complete Class 12th in any stream subjects.","Step 2: Pursue graduation in any discipline (BA/B.Com/B.Tech).","Step 3: Gain work experience in sales, operations, or marketing.","Step 4: Clear CAT/XAT/GMAT and pursue MBA from top institute.","Step 5: Specialise in entrepreneurship, strategy, or general management.","Step 6: Join as Business Consultant, Product Manager, or Founder.","Pathway C: Skill-Based and Self-Starter Route","Step 1: Complete Class 10th or 12th any stream.","Step 2: Join online courses on entrepreneurship and business skills.","Step 3: Learn market research, digital tools, and financial basics.","Step 4: Start small business, freelancing, or e-commerce venture.","Step 5: Apply to incubators like NSRCEL, T-Hub, or Atal Innovation.","Step 6: Scale business or join as Startup Operations Manager."]
       },
       {
         id: "market",
@@ -7713,15 +7496,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: India home to 100+ Unicorns (Startups valued >$1 Billion). Management consulting market growing at 15% CAGR.",
-          "Hiring Trends: Companies moving away from 'General Managers' to 'Specialist Managers' (Product Managers, Digital Transformation Managers).",
-          "Entry-Level (0-2 Yrs): Management Trainee/Analyst: ₹4L–₹8L (Startups/SMEs) or ₹18L–₹30L (Top MNCs/Consulting).",
-          "Mid-Level (3-7 Yrs): Manager/Team Lead: ₹12L–₹25L (Startups/SMEs) or ₹35L–₹60L (Top MNCs/Consulting).",
-          "Senior-Level (8-15 Yrs): VP/Director: ₹40L–₹80L (Startups/SMEs) or ₹80L–₹1.5Cr (Top MNCs/Consulting).",
-          "Leadership: CEO/CXO/Founder: Equity + ₹50L–₹2Cr (Startups) or ₹3Cr–₹10Cr+ (Top MNCs).",
-          "Note: For entrepreneurs, 'Salary' is often zero in first 2 years. Payoff comes later through Equity (Ownership)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹3.5 Crore","Senior / Lead Role (10+ yrs): ₹35 – ₹75 LPA","Mid-Level Professional (5–8 yrs): ₹16 – ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹15 LPA","Entry Level (0–2 yrs): ₹4 – ₹9 LPA","Note: Tier-1 MBA and Metro locations boost pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Ahmedabad.","Top Industries: Tech-Startups, Fintech, E-commerce, Consulting, FMCG.","Global Demand: High in USA, UAE, UK; Remote leadership roles.","Top Institutions","Government Institutes","IIM Ahmedabad (Centre for Innovation, Incubation & Entrepreneurship)","IIM Bangalore (NS Raghavan Centre for Entrepreneurial Learning)","IIT Bombay (Desai Sethi School of Entrepreneurship)","EDII Ahmedabad (Entrepreneurship Development Institute of India)","Private Institutes","ISB Hyderabad (Indian School of Business)","SP Jain Institute of Management & Research, Mumbai","Amity Business School, Noida","FLAME University, Pune","Online Institutes","Coursera (IIM & Stanford Entrepreneurship Courses)","NPTEL (IIT Entrepreneurship Programmes)","edX (Babson & MIT Entrepreneurship)","Udemy (Business & Startup Management)","Career Opportunities","Conventional","Management Trainee at corporate houses","Operations Manager at FMCG companies","Business Development Manager at banks and financial firms","Administrative Officer through government exams","New-Age & AI-Driven","Startup Founder supported by incubators","Venture Capital Analyst at investment firms","Product Manager at tech startups","Social Enterprise Leader at impact-driven organizations","Remote/Entrepreneurship","Freelance Management Consultant for international businesses","Founder of D2C brand or bootstrapped SaaS startup","Remote Business Strategist for global companies and venture firms","Entrepreneurship and Management Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -7944,12 +7719,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Management Route (The Golden Path, Highest Salaries): Class 12: Any stream (Commerce/Humanities/Science). Math helpful for Analytics. Undergraduate: BBA / B.Com / BMS. Entrance: CUET (DU), NPAT (NMIMS), SET (Symbiosis), IPMAT (IIM Indore). Postgraduate: MBA in Marketing (2 years). Entrance: CAT (IIMs), XAT, NMAT, SNAP.",
-          "Pathway B - Creative/Specialist Route: Focuses on specific areas like Digital Marketing or Advertising. Undergraduate: BMM (Bachelor of Mass Media) or BA in Psychology/Economics. Certification: Specializations in Digital Marketing, SEO, Content Strategy. Job: Join Ad Agency or Digital Marketing Firm directly.",
-          "Pathway C - Engineer-Marketer Switch: Very common in India. B.Tech → Work 2 years → MBA in Marketing. Why: Tech companies (Google, Amazon) love marketers who understand technology.",
-          "Top Institutions: IIM Ahmedabad/Bangalore/Calcutta, FMS Delhi, IIM Indore, XLRI Jamshedpur, SPJIMR Mumbai, MICA Ahmedabad, NMIMS Mumbai, Symbiosis SIBM/SCMHRD Pune."
-        ]
+        content: ["Pathway A: After Class 12th (BBA/Degree Route)","Step 1: Complete Class 12th in any stream subjects.","Step 2: Clear entrance exams like CUET, IPMAT, or SET.","Step 3: Pursue BBA/BMS in Marketing or Business Studies.","Step 4: Learn consumer behaviour, branding, and market research skills.","Step 5: Complete internship at FMCG company, agency, or brand.","Step 6: Join as Marketing Executive, Brand Associate, or Sales Trainee.","Pathway B: Graduation + MBA (Marketing) Route","Step 1: Complete Class 12th in any stream subjects.","Step 2: Pursue graduation in any discipline (BA/B.Com/B.Tech).","Step 3: Gain work experience in sales, retail, or client servicing.","Step 4: Clear CAT/XAT/NMAT and pursue MBA in Marketing.","Step 5: Specialise in brand management, product marketing, or analytics.","Step 6: Join as Brand Manager, Marketing Manager, or Strategy Lead.","Pathway C: Certification and Skill-Based Entry Route","Step 1: Complete Class 12th in any stream subjects.","Step 2: Join diploma or certificate course in marketing.","Step 3: Learn CRM tools, Google Analytics, Excel, and Canva.","Step 4: Freelance or intern with startups and small businesses.","Step 5: Build portfolio with campaigns, pitches, and market reports.","Step 6: Get hired as Marketing Coordinator, CRM Executive, or freelancer."]
       },
       {
         id: "market",
@@ -7957,14 +7727,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: Indian advertising and marketing sector projected to cross ₹1.5 Lakh Crore by 2026.",
-          "Hiring Trends: Data-Driven Marketing (companies want marketers who understand Data Science), Rural Marketing (internet reaching villages), D2C Boom (Direct-to-Consumer brands hiring aggressively).",
-          "Entry-Level (0-2 Yrs): Management Trainee/Analyst: ₹15L–₹25L (FMCG/Tech Giants) or ₹5L–₹8L (Mid-Sized/Agencies).",
-          "Mid-Level (3-7 Yrs): Brand Manager/Marketing Manager: ₹25L–₹45L (FMCG/Tech Giants) or ₹10L–₹18L (Mid-Sized/Agencies).",
-          "Senior-Level (8-15 Yrs): Marketing Director/VP: ₹50L–₹1Cr (FMCG/Tech Giants) or ₹25L–₹45L (Mid-Sized/Agencies).",
-          "Leadership: CMO (Chief Marketing Officer): ₹1.5Cr–₹5Cr+ (FMCG/Tech Giants) or ₹60L–₹1.2Cr (Mid-Sized/Agencies)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹6 LPA","Note: AI skills and Metros boost pay by 35%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Ahmedabad.","Top Industries: FMCG, E-commerce, BFSI, Tech/SaaS, EdTech.","Global Demand: High in USA, UK, UAE. Remote freelancing surging.","Top Institutions","Government Institutes","IIM Ahmedabad","IIM Calcutta","IIM Lucknow","Faculty of Management Studies (FMS), University of Delhi","Private Institutes","XLRI Jamshedpur","SP Jain Institute of Management & Research, Mumbai","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","Symbiosis Institute of Business Management, Pune","Online Institutes","Coursera (Kellogg & Wharton Marketing Courses)","NPTEL (IIM Marketing Management Programmes)","edX (Columbia & Berkeley Marketing Specializations)","Google Skillshop (Google Ads & Analytics Certification)","Career Opportunities","Conventional","Brand Manager at FMCG companies","Marketing Executive at automobile firms","Sales and Marketing Officer at banks","Market Research Analyst at research firms","New-Age & AI-Driven","Growth Marketing Manager at D2C startups","AI-Driven Consumer Insights Analyst at martech companies","Community and Creator Marketing Manager at social commerce platforms","Conversational Marketing Specialist at chatbot and AI-driven CRM firms","Remote/Entrepreneurship","Freelance Brand and Marketing Consultant for global clients","Founder of marketing consultancy or niche branding agency","Remote Product Marketing Manager for international SaaS companies","Marketing Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -8190,13 +7953,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Corporate Route (B2B/Tech Sales, Highest Paying): Class 12: Any stream. Graduation: B.Tech or BBA preferred. Entry Role: SDR (Sales Development Representative) or BDE (Business Development Executive). Growth: BDM → Account Manager → Sales Director → VP Sales (CXO).",
-          "Pathway B - Consumer Route (FMCG/Retail, Volume Game): Class 12: Any stream. Graduation: Any degree (B.Com/BA). Entry Role: Sales Officer (SO) or Territory Sales In-charge (TSI). Growth: Area Sales Manager (ASM) → Regional Sales Manager (RSM) → National Head.",
-          "Pathway C - Early Starter (No Degree, Performance Based): After Class 12: Join Retail Sales (malls/showrooms) or Real Estate/Insurance agency. Growth: Purely based on how much you sell. Many top Real Estate agents never went to college but earn in Crores.",
-          "Top Institutions: IIM Indore/Kozhikode, FMS Delhi, IIFT, SPJIMR Mumbai, NMIMS Mumbai, Symbiosis SCMHRD/SIBM, Kraftshala, UpGrad.",
-          "Alternative: Many successful salespeople skipped formal MBA and learned on the job."
-        ]
+        content: ["Pathway A: After Class 12th (BBA/Degree Route)","Step 1: Complete Class 12th in any stream subjects.","Step 2: Pursue BBA/B.Com in Marketing or Business Administration.","Step 3: Learn negotiation, customer relationship, and communication skills.","Step 4: Get certified in CRM tools like Salesforce or HubSpot.","Step 5: Complete internship in FMCG, retail, or B2B sales.","Step 6: Join as Sales Executive, Business Development Associate, or Trainee.","Pathway B: Graduation + MBA (Sales/Marketing) Route","Step 1: Complete Class 12th in any stream subjects.","Step 2: Pursue graduation in any discipline (BA/B.Com/BBA).","Step 3: Gain field experience in direct sales or retail management.","Step 4: Clear CAT/XAT/SNAP and pursue MBA in Sales/Marketing.","Step 5: Develop expertise in key account management and sales strategy.","Step 6: Join as Area Sales Manager, Regional Head, or Sales Director.","Pathway C: Skill-Based and Direct Entry Route","Step 1: Complete Class 10th or 12th any stream.","Step 2: Join short-term course in sales or retail management.","Step 3: Learn Excel, CRM software, and digital selling techniques.","Step 4: Start as Sales Representative in retail or field sales.","Step 5: Build track record with strong sales targets and results.","Step 6: Get promoted to Team Leader, Sales Supervisor, or Franchise Owner."]
       },
       {
         id: "market",
@@ -8204,15 +7961,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: Indian retail market set to reach $2 Trillion by 2032. SaaS industry alone will need 500,000+ new sales professionals by 2030 to sell Indian software to the world.",
-          "Hiring Trends: Hottest roles are Inside Sales (Selling via Zoom/Phone) and Customer Success (Retention). Field sales still huge in FMCG and Pharma.",
-          "Entry-Level (0-2 Yrs): SDR/Sales Exec: ₹4L–₹8L (Tech/SaaS) or ₹3L–₹5L (FMCG/Retail).",
-          "Mid-Level (3-7 Yrs): BDM/Area Manager: ₹12L–₹25L (Tech/SaaS) or ₹8L–₹15L (FMCG/Retail).",
-          "Senior-Level (8-15 Yrs): Sales Director/Zonal Head: ₹40L–₹80L (Tech/SaaS) or ₹25L–₹50L (FMCG/Retail).",
-          "Leadership: CSO (Chief Sales Officer): ₹1Cr–₹3Cr+ (Tech/SaaS) or ₹80L–₹2Cr (FMCG/Retail).",
-          "Note: Sales is unique—Fixed Salary + Variables (Incentives). Good salespeople often earn 50% more than fixed salary in bonuses."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹3.2 Crore","Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹29 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹7 LPA","Note: Incentives and Tier-1 MBA boost pay by 50%.","Where Are the Jobs?","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune, Chennai.","Top Industries: BFSI, FMCG, Tech/SaaS, E-commerce, Pharma, Real Estate.","Global Demand: High in USA, UAE, Singapore; Remote B2B roles.","Top Institutions","Government Institutes","IIM Ahmedabad (Sales & Distribution Management)","IIM Kozhikode","National Institute of Sales (NIS), New Delhi","Faculty of Management Studies (FMS), University of Delhi","Private Institutes","XLRI Jamshedpur (Sales & Marketing Programme)","ISB Hyderabad (Certificate in Sales Management)","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","T.A. Pai Management Institute (TAPMI), Manipal","Online Institutes","Coursera (HubSpot Sales Training)","NPTEL (IIM Sales Management Courses)","LinkedIn Learning (Sales Strategy & Skills)","Udemy (B2B & B2C Sales Mastery)","Career Opportunities","Conventional","Sales Executive at FMCG companies","Regional Sales Manager at automobile firms","Relationship Manager at banks and insurance firms","Area Sales Officer at pharmaceutical companies","New-Age & AI-Driven","Inside Sales Specialist at SaaS and tech startups","AI-Powered Sales Analyst at CRM-driven organizations","Social Selling Specialist at D2C and e-commerce brands","Revenue Operations (RevOps) Manager at data-driven sales organizations","Remote/Entrepreneurship","Freelance Sales Consultant for international B2B clients","Founder of sales outsourcing or lead generation agency","Remote Account Executive for global SaaS and tech companies","Sales Training Coach and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -8437,12 +8186,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Design Degree Route (Most Common, Best for Top Fashion Brands): Class 12: Any stream (Arts/Commerce/Science). Entrance Exams: NIFT-GAT/CAT, NID-DAT, UCEED, Pearl Academy Entrance. Undergraduate: B Des in Fashion Communication (4 Years)—Gold standard for VMs. Alternative: B Des in Interior Design. Internship: Mandatory 6-month internship with retail brand. Job: Junior Visual Merchandiser.",
-          "Pathway B - Diploma Route (Quicker Entry): Class 12: Any stream. Course: Diploma in Visual Merchandising (6 months–1 Year). Institutes: JD Institute of Fashion Technology, London School of Trends (India), local fashion academies. Job: Store Stylist / VM Assistant.",
-          "Pathway C - Retail/MBA Route (Management Focus): Graduation: Any degree. Post-Grad: MBA in Retail Management or Fashion Management (from NIFT). Job: Retail Merchandiser (focusing more on stock/numbers than display).",
-          "Top Institutions: NIFT (18 Campuses), FDDI, NID Ahmedabad/Gandhinagar, Pearl Academy Delhi/Mumbai, JD Institute, Srishti Manipal Institute Bangalore, MIT-ID Pune, IIAD Delhi."
-        ]
+        content: ["Pathway A: After Class 12th (Design Degree Route)","Step 1: Complete Class 12th in any stream subjects.","Step 2: Clear entrance exams for NIFT, NID, or Pearl Academy.","Step 3: Pursue B.Des in Visual Merchandising or Retail Design.","Step 4: Learn colour theory, spatial design, and display techniques.","Step 5: Complete internship at retail brand, mall, or fashion house.","Step 6: Join as Visual Merchandiser or Store Display Designer.","Pathway B: Graduation + PG Diploma/Specialisation Route","Step 1: Complete Class 12th in any stream subjects.","Step 2: Pursue graduation in design, fine arts, or interior design.","Step 3: Gain experience in retail, styling, or event decoration.","Step 4: Pursue PG Diploma in Visual Merchandising or Retail.","Step 5: Master tools like SketchUp, Adobe Illustrator, and Photoshop.","Step 6: Join as Senior Visual Merchandiser or VM Regional Head.","Pathway C: Certification and Skill-Based Entry Route","Step 1: Complete Class 10th or 12th any stream.","Step 2: Join short-term certificate course in visual merchandising.","Step 3: Learn window display, planogram design, and lighting basics.","Step 4: Intern or assist at retail stores or exhibition setups.","Step 5: Build portfolio with store layouts and display photographs.","Step 6: Get hired as VM Assistant, Display Coordinator, or freelancer."]
       },
       {
         id: "market",
@@ -8450,15 +8194,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: Indian retail sector projected to reach $2 Trillion by 2032. As 'Offline Retail' fights back against E-commerce, demand for experiential VMs is skyrocketing.",
-          "Hiring Trends: Luxury Boom (Brands like Gucci and Louis Vuitton entering Indian malls need world-class VMs), E-Visual Merchandising (Online sites like Myntra and Ajio hire 'Online VMs' to decide which clothes appear on homepage banner).",
-          "Entry-Level (0-2 Yrs): VM Executive/Stylist: ₹3L–₹5L (Mass Brands) or ₹5L–₹7L (Luxury/International).",
-          "Mid-Level (3-6 Yrs): Area VM Manager/Cluster VM: ₹8L–₹12L (Mass Brands) or ₹12L–₹18L (Luxury/International).",
-          "Senior-Level (7-12 Yrs): National Head - VM: ₹20L–₹35L (Mass Brands) or ₹35L–₹60L (Luxury/International).",
-          "Leadership: Creative Director: ₹50L+ (Mass Brands) or ₹80L–₹1.2Cr (Luxury/International).",
-          "City Comparison: VM in Mumbai/Delhi earns 30-40% more than VM in Jaipur or Lucknow due to flagship stores and Head Offices."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹22 – ₹48 LPA","Mid-Level Professional (5–8 yrs): ₹11 – ₹21 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3 – ₹5.5 LPA","Note: Metros and NIFT degrees boost pay by 35%.","Where Are the Jobs?","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune.","Top Industries: Fashion, E-commerce, Electronics, Luxury, Home Decor.","Global Demand: High in UAE, USA. Digital/AI VM trends rising.","Top Institutions","Government Institutes","National Institute of Fashion Technology (NIFT), New Delhi","National Institute of Design (NID), Ahmedabad","NIFT Hyderabad","NIFT Mumbai","Private Institutes","Pearl Academy, New Delhi","JD Institute of Fashion Technology, Mumbai","Arch College of Design & Business, Jaipur","Hamstech Institute of Fashion, Hyderabad","Online Institutes","Coursera (Visual Merchandising & Display)","Udemy (Retail Visual Merchandising Courses)","Skillshare (Store Design & Display Techniques)","LinkedIn Learning (Visual Merchandising Fundamentals)","Career Opportunities","Conventional","Visual Merchandiser at retail chains","Display Designer at luxury brands","Store Planner at departmental stores","Visual Merchandising Executive at jewellery brands","New-Age & AI-Driven","Digital Visual Merchandiser at e-commerce platforms","AR/VR Experience Designer at virtual retail and metaverse stores","AI-Driven Product Display Analyst at D2C brands","Omnichannel Visual Strategist at phygital retail companies","Remote/Entrepreneurship","Freelance Visual Merchandising Consultant for retail brands globally","Founder of visual merchandising and retail design consultancy","Remote E-Commerce Visual Strategist for international online stores","Visual Merchandising Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -8683,12 +8419,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Engineering Degree (Design & R&D Focus): Class 12: Science Stream (PCM) mandatory. High scores in Math and Physics crucial. Entrance Exams: JEE Advanced (IITs), JEE Main (NITs/IIEST), State CETs, IIST Admission. Undergraduate: B.Tech/B.E. in Aeronautical or Aerospace Engineering (4 Years). Postgraduate (Optional): M.Tech in specialized fields like Aerodynamics or Avionics.",
-          "Pathway B - Aircraft Maintenance Engineering (AME) Route (Operational Focus): Different from B.Tech—license-based course. Class 12: Science Stream (PCM). Entrance: AME CET or institute-specific exams. Course: AME Course (3 Years) approved by DGCA. Outcome: License to inspect and certify aircraft. Cannot design planes, but authorized to say 'This plane is safe to fly.'",
-          "Top Institutions: IIST Thiruvananthapuram, IIT Bombay, IIT Madras, IIT Kanpur, MIT Chennai, Manipal Institute, Amity University, HITS Chennai, IIAEIT Pune.",
-          "Alternative: Many successful engineers pursue specialized M.Tech after B.Tech in related fields."
-        ]
+        content: ["Pathway A: After Class 12th (B.Tech Route)","Step 1: Pass Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Clear JEE Main/Advanced or state engineering entrance exam.","Step 3: Complete B.Tech in Aeronautical or Aerospace Engineering.","Step 4: Do internship at ISRO, HAL, NAL, or airline company.","Step 5: Pursue M.Tech for specialization in propulsion or aerodynamics.","Step 6: Join as Aeronautical Engineer in DRDO, ISRO, or HAL.","Pathway B: Diploma Route (After Class 10th)","Step 1: Pass Class 10th with Science and Mathematics subjects.","Step 2: Complete 3-year Diploma in Aeronautical Engineering from polytechnic.","Step 3: Join as Junior Technician in aircraft maintenance firms.","Step 4: Pursue lateral entry B.Tech in Aeronautical Engineering.","Step 5: Gain DGCA-approved Aircraft Maintenance Engineer (AME) licence.","Step 6: Work as AME in airlines or defence organizations.","Pathway C: Defence / Research Route","Step 1: Pass Class 12th with PCM and strong academic record.","Step 2: Complete B.Tech in Aeronautical or Mechanical Engineering.","Step 3: Clear GATE exam for M.Tech or PSU recruitment.","Step 4: Join ISRO, DRDO, or NAL through GATE/direct recruitment.","Step 5: Work on aircraft design, satellite systems, or missile technology.","Step 6: Rise as Senior Scientist or Project Director level."]
       },
       {
         id: "market",
@@ -8696,15 +8427,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: Indian aerospace & defense market projected to reach $70 Billion by 2030. UDAN scheme (regional connectivity) creating massive demand for smaller aircraft and maintenance crews.",
-          "Hiring Trends: Major hiring shifting from purely government bodies (HAL/DRDO) to private players (Tata Advanced Systems, Mahindra Aerospace, Adani Defence) and Global Capability Centers (GCCs) of Boeing and Airbus in India.",
-          "Entry-Level (0-2 Yrs): Graduate Engineer Trainee: ₹4L–₹7L (Commercial) or ₹56,100/month + Perks (Govt/R&D).",
-          "Mid-Level (3-7 Yrs): Sr. Design Engineer: ₹10L–₹18L (Commercial) or ₹12L–₹16L (Govt/R&D).",
-          "Senior-Level (8-15 Yrs): Chief Engineer/Project Lead: ₹25L–₹45L (Commercial) or ₹20L–₹30L (Govt/R&D).",
-          "Leadership: Program Director/CTO: ₹60L–₹1Cr+ (Commercial) or As per Govt Grade Pay.",
-          "Growth Trajectory: Fastest growth in drone/UAV sector and green aviation."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 – ₹75 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA","Entry Level (0–2 yrs): ₹4 – ₹9 LPA","Note: Metros and GATE/M.Tech skills boost pay by 30%.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Chennai, Delhi-NCR, Pune, Lucknow.","Top Industries: Defense, Space, Commercial Aviation, Drone Tech, R&D.","Global Demand: High in USA, France, Germany; R&D outsourcing trends."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -8928,14 +8651,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Note: Unlike other careers, you cannot get a 'Degree in ATC' from college. You must get general degree and then apply to AAI.",
-          "Pathway: The AAI Junior Executive Route (Gold Standard): Class 12: Science Stream (Physics & Mathematics mandatory). Undergraduate Degree (Eligibility Step): Option A: B.Sc. in Physics and Mathematics (3 Years). Option B: B.Tech/B.E. in any discipline (Mechanical, CS, Civil, Electronics, etc.). Tip: B.Tech often preferred because technical knowledge helps.",
-          "Entrance Exam: Apply for AAI Junior Executive (ATC) Exam. Frequency: Generally once a year or every 18 months. Syllabus: Physics & Math (Class 12 level) + English & Aptitude.",
-          "Selection: Online Test → Voice Test (Checking for stuttering/clarity) → Medical Test.",
-          "Training: If selected, sent to Civil Aviation Training College (CATC) in Prayagraj for roughly 1 year rigorous training. Paid salary/stipend during this time.",
-          "Top Institutions for Degree: IITs/NITs (B.Tech), Delhi University/BHU (B.Sc Physics/Maths), Anna University Chennai, Mumbai University."
-        ]
+        content: ["Pathway A: After Class 12th (Direct AAI Route)","Step 1: Pass Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Complete B.Sc. in Aviation, Physics, or Mathematics.","Step 3: Apply for AAI ATC recruitment through official notification.","Step 4: Clear written exam, voice test, and personal interview.","Step 5: Complete ATC training at AAI's Civil Aviation Training College.","Step 6: Join as Junior Executive (ATC) at AAI airport.","Pathway B: Engineering Graduate Route","Step 1: Pass Class 12th with PCM and clear engineering entrance.","Step 2: Complete B.Tech in Electronics, Electrical, or Telecommunications.","Step 3: Apply for AAI ATC recruitment through GATE or direct.","Step 4: Clear selection process including aptitude and medical tests.","Step 5: Undergo mandatory ATC training and radar simulator practice.","Step 6: Get posted as Air Traffic Controller at major airport.","Pathway C: Defence / Indian Air Force Route","Step 1: Pass Class 12th with PCM and strong academic record.","Step 2: Complete graduation and apply through AFCAT or CDS exam.","Step 3: Clear SSB interview and medical fitness examination process.","Step 4: Join Indian Air Force as ATC officer after training.","Step 5: Gain experience managing military airfield flight operations.","Step 6: Retire and join civil aviation as senior ATC expert."]
       },
       {
         id: "market",
@@ -8943,15 +8659,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Employer Monopoly: 99% of ATC jobs in India with AAI (Airports Authority of India), a Mini-Ratna PSU. Government Job Security.",
-          "Demand: India building 100+ new airports. Demand for ATCs skyrocketing. AAI recruits in batches of 300-500 regularly.",
-          "Entry-Level (0-3 Yrs): Junior Executive (JE): ₹12L–₹14L annually.",
-          "Mid-Level (4-8 Yrs): Assistant Manager/Manager: ₹18L–₹22L annually.",
-          "Senior-Level (9-15 Yrs): Asst. General Manager (AGM): ₹26L–₹32L annually.",
-          "Leadership: Joint GM/General Manager: ₹40L–₹50L+ annually.",
-          "Note: Allowances (HRA, Medical, Stress Allowance) make up huge chunk of pay. Stress Allowance reflects the high-pressure nature of the job."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹28 – ₹42 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹26 LPA","Junior / Associate (3–5 yrs): ₹9 – ₹14 LPA","Entry Level (0–2 yrs): ₹6 – ₹13 LPA","Note: HRA varies by city. GATE/exams impact entry salary.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Kolkata.","Top Industries: AAI (Govt), Private Airports, Defense, Drone Tech.","Global Demand: High in USA, Middle East. Virtual towers trend."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -9176,12 +8884,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Design School Route (For Styling & Creative Roles): Class 12: Any stream (Science preferred but not mandatory). Entrance Exams: UCEED (IIT Bombay, IIT Delhi), NID DAT, SEED/UPES-DAT. Undergraduate: B.Des in Transportation Design or Mobility Design (4 Years). Portfolio crucial for job placements.",
-          "Pathway B - Engineering Route (For Technical & Functional Design): Class 12: Science Stream (PCM). Undergraduate: B.Tech in Mechanical or Automobile Engineering (4 Years). Postgraduate: M.Des in Transportation Design (2 Years) via CEED exam. This allows engineers to switch to creative styling.",
-          "Top Institutions: NID Ahmedabad & Gandhinagar, IDC IIT Bombay, MIT-ID Pune, Strate School of Design Bangalore, UPES Dehradun, UID Ahmedabad.",
-          "Career Progression: Junior Designer → Senior Designer → Design Manager → Head of Design → Chief Design Officer."
-        ]
+        content: ["Pathway A: After Class 12th (B.Des / Design Route)","Step 1: Pass Class 12th with PCM or any stream.","Step 2: Clear UCEED, NID DAT, or CEED design entrance exam.","Step 3: Complete B.Des in Transportation or Automotive Design.","Step 4: Learn tools like Alias, CATIA, SolidWorks, and Photoshop.","Step 5: Do internship at Tata Motors, Mahindra, or design studio.","Step 6: Join as Junior Automotive Designer in car manufacturing company.","Pathway B: Engineering + Design Route","Step 1: Pass Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Complete B.Tech in Mechanical or Automobile Engineering.","Step 3: Pursue M.Des in Transportation Design from NID/IISc.","Step 4: Build strong portfolio of vehicle sketches and 3D models.","Step 5: Gain experience in clay modelling and surface design work.","Step 6: Work as Senior Automotive Designer in OEM or studio.","Pathway C: Diploma / Skill-Based Entry Route","Step 1: Pass Class 10th with good marks in Science.","Step 2: Complete Diploma in Automobile or Mechanical Engineering.","Step 3: Learn CAD tools like AutoCAD, SolidWorks, and Rhino.","Step 4: Take online certification in automotive or vehicle design.","Step 5: Build portfolio and apply at auto component design firms.","Step 6: Work as CAD Modeller or Design Assistant in industry."]
       },
       {
         id: "market",
@@ -9189,15 +8892,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Size: India is the 3rd largest auto market globally. By 2030, market expected to reach 6-7 million units annually.",
-          "Growth Driver: The EV Revolution. Electric cars don't have engines, meaning designers have total freedom to reinvent how cars look.",
-          "Demand: Massive demand for UX/UI Designers for car dashboards. The car is becoming a 'computer on wheels.'",
-          "Entry-Level (0-2 Yrs): Jr. Transportation Designer: ₹6L–₹10L (OEMs) or ₹4L–₹7L (Service Firms).",
-          "Mid-Level (3-7 Yrs): Sr. Creative Designer/Clay Modeler: ₹15L–₹25L (OEMs) or ₹10L–₹18L (Service Firms).",
-          "Senior-Level (8-12 Yrs): Design Manager/Lead: ₹30L–₹50L (OEMs) or ₹22L–₹40L (Service Firms).",
-          "Leadership: Head of Design/Design Director: ₹80L–₹2Cr+ (OEMs) or ₹60L+ (Service Firms)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹30 – ₹60 LPA","Mid-Level Professional (5–8 yrs): ₹14 – ₹28 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA","Entry Level (0–2 yrs): ₹4 – ₹8 LPA","Note: Metro cities and M.Des degrees boost pay by 40%.","Where Are the Jobs?","Top Cities: Pune, Bengaluru, Chennai, Gurugram, Ahmedabad, Nashik.","Top Industries: EV Startups, Auto OEMs, Global R&D Centers.","Global Demand: High in Germany, USA, Japan. Remote-design trends growing."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -9419,12 +9114,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Undergraduate Route (After Class 12): Class 12: Any stream (Commerce, Science, or Humanities). English fluency is critical. Degree: BBA in Aviation Management (3 Years), B.Sc. in Aviation (3 Years), or BMS with Aviation specialization. Certification: Take an IATA Foundation Course while doing the degree.",
-          "Pathway B - Engineering/Technical Route: Class 12: Science (PCM). Degree: B.Tech in Aeronautical Engineering → MBA in Aviation Management. Verdict: This leads to high-level technical management roles (Fleet Management/MRO).",
-          "Pathway C - MBA Route (Career Switchers): Graduation: Any degree. Entrance Exams: CAT/MAT/CMAT/GMAT. Post-Grad: MBA in Aviation Management. Verdict: This is the fastest route to Manager/VP roles.",
-          "Pathway D - Cabin Crew Entry (Lateral Entry): Many start as Cabin Crew (after Class 12), fly for 5-8 years, do an Executive MBA, and switch to Ground Management."
-        ]
+        content: ["Pathway A: After Class 12th (BBA Aviation Route)","Step 1: Pass Class 12th in any stream with good marks.","Step 2: Complete BBA in Aviation Management from recognized institute.","Step 3: Learn airport operations, airline management, and cargo logistics.","Step 4: Do internship at airport authority, airline, or ground handling.","Step 5: Pursue MBA in Aviation Management for senior roles.","Step 6: Join as Airport Manager or Airline Operations Manager.","Pathway B: After Graduation (MBA Aviation Route)","Step 1: Pass Class 12th and complete graduation in any discipline.","Step 2: Clear CAT, MAT, or aviation institute entrance examination.","Step 3: Complete MBA in Aviation Management or Airport Planning.","Step 4: Do summer internship with airlines, AAI, or MRO firms.","Step 5: Gain certification in IATA courses like airport operations.","Step 6: Work as Aviation Consultant or Airline Business Manager.","Pathway C: Diploma / Skill-Based Entry Route","Step 1: Pass Class 12th in any stream from recognized board.","Step 2: Complete Diploma in Airport Management or Aviation Hospitality.","Step 3: Get IATA/UFTAA certification in travel and tourism operations.","Step 4: Join as Ground Staff or Passenger Service Agent trainee.","Step 5: Gain experience in ticketing, cargo, or ramp operations.","Step 6: Rise to Station Manager or Ground Operations Supervisor."]
       },
       {
         id: "market",
@@ -9432,14 +9122,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: India is expected to have 220 operational airports by 2030 (up from ~148 in 2024). The privatization of airports (Adani Group taking over Mumbai, Ahmedabad, Lucknow) has brought 'Corporate Culture' and higher salaries.",
-          "Entry-Level (0-2 Yrs): Ground Staff/Guest Service: ₹3L–₹5L (Airline) or ₹4L–₹6L (Airport).",
-          "Mid-Level (3-7 Yrs): Duty Manager/Ops Manager: ₹8L–₹15L (Airline) or ₹10L–₹18L (Airport).",
-          "Senior-Level (8-15 Yrs): Airport Manager/Station Head: ₹18L–₹35L (Airline) or ₹25L–₹45L (Airport).",
-          "Leadership: VP Operations/CXO: ₹60L–₹1.5Cr (Airline) or ₹80L–₹2Cr (Airport).",
-          "Note: Salaries in Metro cities (Delhi/Mumbai) are typically 30-40% higher than in Tier-2 cities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹3.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹11 LPA","Entry Level (0–2 yrs): ₹4 – ₹7 LPA","Note: Metros and MBA/IATA certifications boost pay by 25%.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Chennai, Jewar.","Top Industries: Airlines, Airport Operators, Cargo, Ground Handling, Consultancies.","Global Demand: High in Middle East, Singapore, USA. Growing remote-consulting."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -9660,12 +9343,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Conventional Route (Flying Club): Class 12: Science Stream (Physics & Math) is mandatory. Step 1: Join a Flying Club in India. Pass DGCA exams (Air Regulations, Aviation Meteorology, Air Navigation, Technical General, Technical Specific). Step 2: Complete 200 hours of flying (including solo flights). Step 3: Get your CPL (Commercial Pilot License) from DGCA. Step 4: Apply to airlines. Note: You often need to pay extra for 'Type Rating' (training on a specific plane like Boeing 737).",
-          "Pathway B - Cadet Pilot Program (Airline Sponsored): Most popular for job security. Process: You apply to an airline's program (e.g., IndiGo, Air India). They select you before training. Training: You train at their partner schools (often abroad). Outcome: You return with a CPL and a guaranteed job letter. Cons: It is more expensive than the conventional route.",
-          "Pathway C - For Non-Science Students (Commerce/Arts): Step 1: Pass Class 12 in any stream. Step 2: Enroll in NIOS (National Institute of Open Schooling) for 'On-Demand' exams in Physics and Math. Step 3: Once you pass these two subjects, you are eligible for Pathway A or B.",
-          "Top Institutions: IGRUA (Indira Gandhi Rashtriya Uran Akademi) Raebareli, NFTI (National Flying Training Institute) Gondia, Madhya Pradesh Flying Club (MPFC), Chimes Aviation Academy (CAA), Bombay Flying Club."
-        ]
+        content: ["Pathway A: After Class 12th (Direct CPL Route)","Step 1: Pass Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Clear DGCA Class 2 medical fitness examination successfully.","Step 3: Enroll in DGCA-approved flying school for training.","Step 4: Complete 200 hours of flying training and ground classes.","Step 5: Pass all DGCA CPL written exams and skill tests.","Step 6: Obtain Commercial Pilot Licence and join an airline.","Pathway B: Cadet Pilot Programme Route","Step 1: Pass Class 12th with PCM and good academic record.","Step 2: Apply for airline-sponsored cadet pilot training programme.","Step 3: Clear airline aptitude test, psychometric, and medical examination.","Step 4: Complete integrated flying training at designated academy abroad.","Step 5: Obtain CPL and type rating on specific aircraft model.","Step 6: Join sponsoring airline directly as First Officer pilot.","Pathway C: Indian Air Force / Defence Route","Step 1: Pass Class 12th with PCM and strong academic record.","Step 2: Complete graduation and clear AFCAT or NDA entrance exam.","Step 3: Clear SSB interview, medical test, and pilot aptitude battery.","Step 4: Complete flying training at Air Force Academy, Hyderabad.","Step 5: Serve as fighter or transport pilot in Indian Air Force.","Step 6: After retirement join commercial airline as experienced pilot."]
       },
       {
         id: "market",
@@ -9673,14 +9351,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Booming Demand: Experts predict India needs 7,000 new pilots in 2026 alone and ~35,000 over the next decade. Hiring Trends: Airlines are desperate for Captains (experienced pilots). For freshers (First Officers), the market is competitive but hiring is active due to massive fleet orders by IndiGo and Air India.",
-          "Entry-Level (0-2 Yrs): Junior First Officer: ₹18L–₹24L.",
-          "Mid-Level (3-8 Yrs): Senior First Officer: ₹36L–₹60L.",
-          "Senior-Level (8-15 Yrs): Captain/Commander: ₹80L–₹1.2Cr.",
-          "Leadership: Check Pilot/Instructor: ₹1.5Cr+.",
-          "Note: Pilot salaries are among the highest in India. International opportunities offer even higher compensation."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.5 – ₹2.5 Cr","Senior / Lead Role (10+ yrs): ₹70 – ₹95 LPA","Mid-Level Professional (5–8 yrs): ₹35 – ₹65 LPA","Junior / Associate (3–5 yrs): ₹18 – ₹30 LPA","Entry Level (0–2 yrs): ₹6 – ₹15 LPA","Note: Type rating and flying hours boost pay by 50%.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Chennai.","Top Industries: Commercial Airlines, Cargo, Charter, Defense.","Global Demand: USA, UAE, Qatar. Extreme pilot shortage trend."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -9901,12 +9572,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Deck Cadet Route (To become a Captain): Class 12: Science (PCM) with minimum 60% marks and 50% in English. Entrance Exam: IMU-CET (Indian Maritime University Common Entrance Test). Course Options: Option 1 (Popular): Diploma in Nautical Science (DNS) - 1 Year. Must require Sponsorship from a shipping company before joining. Option 2: B.Sc. in Nautical Science - 3 Years. Training: 18 months of sea-time (Cadetship) → Clear '2nd Mate' exams → Become 3rd Officer.",
-          "Pathway B - Marine Engineering Route (To become Chief Engineer): Class 12: Science (PCM). Entrance Exam: IMU-CET. Course: B.Tech in Marine Engineering (4 Years). Training: 6 months sea-time → Clear 'Class 4' exams → Become 4th Engineer.",
-          "Pathway C - For Mechanical/Electrical Graduates (GME/ETO): After B.Tech (Mech): Do a 1-year GME (Graduate Marine Engineering) course. After B.Tech (Electrical): Do a 4-month ETO (Electro-Technical Officer) course.",
-          "Top Institutions: Indian Maritime University (IMU) Chennai/Kolkata/Mumbai/Visakhapatnam, T.S. Chanakya Navi Mumbai, Anglo-Eastern Maritime Academy (AEMA) Karjat, Tolani Maritime Institute (TMI) Pune."
-        ]
+        content: ["Pathway A: After Class 10th (Diploma / Rating Route)","Step 1: Pass Class 10th with Science and Mathematics subjects.","Step 2: Complete 6-month GP Rating course from DGS-approved institute.","Step 3: Clear IMU-CET entrance exam and medical fitness test.","Step 4: Join merchant ship as Deck Rating or Engine Rating.","Step 5: Gain sea experience and pass competency certificate exams.","Step 6: Rise to Bosun or Engine Room Supervisor on ships.","Pathway B: After Class 12th (B.Sc. Nautical Science Route)","Step 1: Pass Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Clear IMU-CET exam and IMARS online counselling process.","Step 3: Complete B.Sc. Nautical Science from DGS-approved college.","Step 4: Join shipping company as Deck Cadet for sea training.","Step 5: Pass MEO or Second Mate competency exams from DGS.","Step 6: Rise from Third Officer to Captain of the ship.","Pathway C: Engineering Graduate (Marine Engineering Route)","Step 1: Pass Class 12th with PCM and clear engineering entrance.","Step 2: Complete B.Tech Marine Engineering from DGS-approved institute.","Step 3: Join shipping company as Junior Marine Engineering trainee.","Step 4: Complete mandatory sea service and workshop training period.","Step 5: Pass MEO Class 4 competency certificate examination from DGS.","Step 6: Rise from Fourth Engineer to Chief Engineer on ships."]
       },
       {
         id: "market",
@@ -9914,16 +9580,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Global Shortage: A 2025 BIMCO report predicts a global shortage of ~90,000 certified officers. Indian officers are the most preferred globally due to their English skills and technical competence.",
-          "Salary Tax Benefit: If you sail for more than 182 days a year outside India, your entire salary is Tax-Free (NRI Status).",
-          "Cadet (Training): ₹25,000–₹50,000 (Stipend).",
-          "Junior Officer (3rd/4th): ₹1.5L–₹2.5L (Tax-Free).",
-          "Mid-Level (2nd/3rd): ₹3L–₹5L (Tax-Free).",
-          "Senior (Chief): ₹6L–₹10L (Tax-Free).",
-          "Top Command (Captain/Chief Engineer): ₹8L–₹15L+ (Tax-Free).",
-          "Note: Salaries on Tankers/Gas Carriers are 30-40% higher than on Container ships."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Cr – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹45 – ₹85 LPA","Mid-Level Professional (5–8 yrs): ₹20 – ₹42 LPA","Junior / Associate (3–5 yrs): ₹10 – ₹18 LPA","Entry Level (0–2 yrs): ₹4 – ₹9 LPA","Note: Tankers pay 40% more. NRI status offers tax-free income.","Where Are the Jobs?","Top Cities: Mumbai, Chennai, Kolkata, Kochi, Navi Mumbai, Vizag.","Top Industries: Maersk, Synergy, Oil & Gas, Cargo, Cruise.","Global Demand: High in USA, UAE. Green-shipping skills rising."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -10143,12 +9800,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - Management Route (Most Popular for High Growth): Class 12: Any stream (Commerce/Science/Humanities). Math is a plus. Undergraduate: BBA/BMS in Logistics & SCM or B.Tech (Mechanical/Industrial Engineering). Postgraduate: MBA/PGDM in Operations & Supply Chain Management. Entrance Exams: CAT, XAT, SNAP, NMAT.",
-          "Pathway B - Technical/Diploma Route (Quick Entry): Class 12: Any stream. Course: B.Com or B.Sc in SCM. Certification: Diploma in Materials Management (from institutions like IIMM). Entry Role: Logistics Coordinator / Warehouse Supervisor.",
-          "Pathway C - Data/Analyst Route (For Techies): Graduation: B.Tech or B.Sc (Stats/Maths). Specialization: Certification in Supply Chain Analytics or Data Science. Role: Supply Chain Analyst (Predicting demand using AI).",
-          "Top Institutions: IIM Mumbai (NITIE), IIM Bangalore, SIOM Nashik, SP Jain Mumbai, IIFT Delhi."
-        ]
+        content: ["Pathway A: After Class 12th (BBA / B.Com Route)","Step 1: Pass Class 12th in Commerce or any stream.","Step 2: Complete BBA or B.Com in Supply Chain/Logistics.","Step 3: Learn ERP tools like SAP, Oracle, and Tally.","Step 4: Do internship in warehouse, logistics, or procurement department.","Step 5: Pursue MBA in Supply Chain or Operations Management.","Step 6: Join as Supply Chain Manager in manufacturing or retail.","Pathway B: Engineering + MBA Route","Step 1: Pass Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Complete B.Tech in Industrial, Mechanical, or Production Engineering.","Step 3: Gain work experience in production planning or inventory.","Step 4: Pursue MBA in Operations or Logistics from top institute.","Step 5: Get certified in CSCP or CSCM for global recognition.","Step 6: Work as Senior SCM Consultant or Operations Director.","Pathway C: Diploma / Certification Based Entry Route","Step 1: Pass Class 12th in any stream from recognized board.","Step 2: Complete Diploma in Logistics or Warehouse Management.","Step 3: Get CILT or APICS certification in supply chain field.","Step 4: Join as Store Executive, Dispatch Coordinator, or Inventory Assistant.","Step 5: Learn data analytics tools like Excel, Power BI.","Step 6: Rise to Logistics Manager or Procurement Head with experience."]
       },
       {
         id: "market",
@@ -10156,14 +9808,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: The Indian logistics market is projected to reach $380 Billion by 2025-26. The government's PM Gati Shakti plan is pouring money into infrastructure, creating thousands of jobs.",
-          "Hiring Trends: Massive demand in Quick Commerce (Blinkit, Zepto), E-commerce (Amazon, Flipkart), and Manufacturing (iPhone factories in India).",
-          "Entry-Level (0-2 Yrs): Supply Chain Analyst/Trainee: ₹5L–₹8L (Startup/E-commerce) or ₹4L–₹7L (Traditional Mfg).",
-          "Mid-Level (3-7 Yrs): Procurement/Logistics Manager: ₹12L–₹22L (Startup/E-commerce) or ₹10L–₹18L (Traditional Mfg).",
-          "Senior-Level (8-15 Yrs): Head of Supply Chain: ₹30L–₹60L (Startup/E-commerce) or ₹25L–₹50L (Traditional Mfg).",
-          "Leadership: VP/Chief Supply Chain Officer: ₹80L–₹1.5Cr (Startup/E-commerce) or ₹70L–₹1.2Cr (Traditional Mfg)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹11 LPA","Entry Level (0–2 yrs): ₹4 – ₹7 LPA Note: Metros and APICS/CSCP certifications boost pay by 30%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Chennai, Hyderabad, Pune.","Top Industries: E-commerce, FMCG, Manufacturing, Pharmaceuticals, Retail, Logistics.","Global Demand: High in USA, UAE, Germany. Remote AI-planning growing."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -10384,12 +10029,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) is non-negotiable. Mathematics is the backbone of AI. Focus: Computer Science (Python/Java) as an elective is a huge plus.",
-          "Step 2 - After Class 12: Undergraduate Degree (4 Years): B.Tech in Computer Science (CSE) with AI/ML Specialization (most direct route), B.Tech in Data Science (closely related), B.Sc. in Mathematics/Statistics (strong backdoor entry). Entrance Exams: JEE Mains/Advanced (IITs/NITs), BITSAT, VITEEE.",
-          "Step 3 - After Graduation: Postgraduate (2 Years) - For High-End Roles: M.Tech in AI & Robotics (for research roles), M.Sc. in Data Science/Cognitive Science. Entrance Exams: GATE (for M.Tech).",
-          "Step 4 - Lateral Entry (For Non-CS Grads): Did Mechanical or Civil Engineering? No problem. Do a 6-12 month Bootcamp (e.g., Scaler, UpGrad, CDAC) in Data Science/AI. Your domain knowledge + AI skills = Deadly combination."
-        ]
+        content: ["Pathway A: B.Tech Route (After Class 12th)","Step 1: Complete Class 12th with PCM and Computer Science.","Step 2: Clear JEE/entrance exam for engineering admission.","Step 3: Pursue B.Tech in AI/Computer Science/Data Science.","Step 4: Learn Python, TensorFlow, and Machine Learning tools.","Step 5: Complete internships in AI/ML at tech companies.","Step 6: Get hired as AI/ML Engineer or Researcher.","Pathway B: Master's & Research Route","Step 1: Complete B.Tech/B.Sc in Computer Science or Mathematics.","Step 2: Pursue M.Tech/M.S. in Artificial Intelligence or ML.","Step 3: Publish research papers in AI/Deep Learning domains.","Step 4: Join AI labs like Google Brain or Microsoft Research.","Step 5: Earn Ph.D. for advanced AI research career opportunities.","Step 6: Work as AI Scientist or University Professor.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with Mathematics as a subject.","Step 2: Earn a Bachelor's degree in any technical field.","Step 3: Complete online AI/ML certifications from Coursera/NPTEL.","Step 4: Build AI projects and a strong GitHub portfolio.","Step 5: Learn NLP, Computer Vision, and cloud AI platforms.","Step 6: Apply for AI Developer or Data Scientist roles."]
       },
       {
         id: "market",
@@ -10397,15 +10037,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: EXPLOSIVE. NASSCOM estimates India will need 1 Million AI professionals by 2026, but currently has a talent gap of 51%.",
-          "Growth: The Indian AI market is projected to reach $7.8 Billion by 2025.",
-          "Entry-Level (0-2 Yrs): Jr. Data Scientist, ML Engineer: ₹6L–₹12L.",
-          "Mid-Level (3-7 Yrs): AI Architect, NLP Specialist: ₹15L–₹25L.",
-          "Senior-Level (8-15 Yrs): Lead AI Scientist, Principal Engineer: ₹30L–₹60L.",
-          "Leadership: Chief AI Officer (CAIO), Head of Data: ₹80L–₹1.5Cr+.",
-          "Metro vs. Tier-2: Bengaluru/Gurugram pays the highest (tech hub premium). However, remote jobs for US startups are becoming common, offering dollar-pegged salaries in Tier-2 cities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.5 Crore – ₹4 Crore","Senior / Lead Role (10+ yrs): ₹50 LPA – ₹95 LPA","Mid-Level Professional (5–8 yrs): ₹25 LPA – ₹48 LPA","Junior / Associate (3–5 yrs): ₹12 LPA – ₹22 LPA","Entry Level (0–2 yrs): ₹6 LPA – ₹12 LPA","Note: Metros and specialized GenAI skills offer 30–50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Pune, Mumbai, Chennai.","Top Industries: IT Services, Fintech, Healthcare, E-commerce, Manufacturing.","Global Demand: Rising remote roles in USA, Europe, and UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -10626,12 +10258,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) is highly recommended. Mathematics is the backbone of blockchain. Tip: Start learning Python or JavaScript online immediately.",
-          "Step 2 - After Class 12: Undergraduate Degree (4 Years): B.Tech in Computer Science (CSE) (standard route), B.Tech with Specialization in Blockchain (offered by UPES, VIT, SRM). Entrance Exams: JEE Mains, BITSAT, VITEEE.",
-          "Step 3 - After Graduation: Specialized Certification (6 Months - 1 Year): Certified Blockchain Developer (from Blockchain Council), Bootcamps (e.g., Metacrafters, Alchemy University). Lateral Entry: If you are already a Software Engineer, you can switch to Blockchain by learning Solidity and Rust in 6 months.",
-          "Top Institutions: IIT Kanpur (C3i Hub), IIT Bombay, IIIT Hyderabad, Kerala Blockchain Academy, BITS Pilani, UPES Dehradun."
-        ]
+        content: ["Pathway A: B.Tech Route (After Class 12th)","Step 1: Complete Class 12th with PCM and Computer Science.","Step 2: Clear entrance exam for engineering college admission.","Step 3: Pursue B.Tech in Computer Science or IT.","Step 4: Learn Solidity, Ethereum, and smart contract development.","Step 5: Complete internships in blockchain or Web3 companies.","Step 6: Get hired as Blockchain Developer or Engineer.","Pathway B: Master's & Specialization Route","Step 1: Complete B.Tech/B.Sc in Computer Science or IT.","Step 2: Pursue M.Tech with specialization in Blockchain/Cryptography.","Step 3: Study distributed systems, consensus algorithms, and cryptography.","Step 4: Work on blockchain research projects or publish papers.","Step 5: Join blockchain labs or enterprise blockchain teams.","Step 6: Work as Blockchain Architect or Solutions Consultant.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with Mathematics as subject.","Step 2: Earn Bachelor's degree in any technical field.","Step 3: Complete blockchain certifications from NPTEL/Coursera/edX.","Step 4: Learn Solidity, Hyperledger, and decentralized app development.","Step 5: Build blockchain projects and contribute to open-source.","Step 6: Apply for Blockchain Developer or Smart Contract Auditor."]
       },
       {
         id: "market",
@@ -10639,15 +10266,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: Massive talent gap. India has one of the largest bases of crypto users but a shortage of core engineers.",
-          "Growth: The Indian blockchain sector is projected to grow at a massive CAGR of ~40-50%, driven by Fintech and Government adoption.",
-          "Entry-Level (0-2 Yrs): Jr. Smart Contract Dev, Solidity Intern: ₹6L–₹12L.",
-          "Mid-Level (3-7 Yrs): Blockchain Developer, dApp Engineer: ₹15L–₹30L.",
-          "Senior-Level (8-15 Yrs): Protocol Engineer, Lead Architect: ₹40L–₹80L+.",
-          "Elite/Global: Core Developer (Remote for US/EU firms): ₹1Cr+.",
-          "Remote Factor: This is one of the most 'remote-friendly' careers. A developer in Indore can easily earn a San Francisco salary."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Crore – ₹3 Crore","Senior / Lead Role (10+ yrs): ₹45 LPA – ₹80 LPA","Mid-Level Professional (5–8 yrs): ₹20 LPA – ₹40 LPA","Junior / Associate (3–5 yrs): ₹9 LPA – ₹18 LPA","Entry Level (0–2 yrs): ₹5 LPA – ₹9 LPA","Note: Metros and certification increase pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Mumbai, Noida.","Top Industries: Fintech, Logistics, Healthcare, Gaming.","Global Demand: Remote roles in USA, UAE, Singapore."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -10863,12 +10482,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) is the best route because Mathematics is the backbone of this career. Alternative: Commerce with Mathematics (Economics/Stats focus) is also a valid path.",
-          "Step 2 - After Class 12: Undergraduate Degree (3-4 Years): B.Tech in Computer Science/Data Science (Gold Standard), B.Sc. in Statistics/Mathematics (Excellent if you master coding later), B.A./B.Sc. in Economics (Econometrics is very similar to Data Science). Entrance Exams: JEE Mains/Advanced (IITs/NITs), ISI Admission Test (Indian Statistical Institute - highly prestigious), CUET.",
-          "Step 3 - After Graduation: Postgraduate (Optional but Recommended): M.Tech in Data Science/AI, M.Sc. in Statistics/Big Data Analytics, MBA in Business Analytics (for management-focused roles). Lateral Entry: Engineers from other fields often switch by doing 6-12 month Bootcamps or certifications.",
-          "Top Institutions: IIT Delhi, IIT Kanpur, ISI Kolkata, IIT Bombay, IIT Madras, Chennai Mathematical Institute (CMI), IISc Bengaluru."
-        ]
+        content: ["Pathway A: B.Tech Route (After Class 12th)","Step 1: Complete Class 12th with PCM and Computer Science.","Step 2: Clear entrance exam for engineering college admission.","Step 3: Pursue B.Tech in Data Science or Computer Science.","Step 4: Learn Python, SQL, Statistics, and Machine Learning.","Step 5: Complete data science internships at analytics companies.","Step 6: Get hired as Data Analyst or Junior Data Scientist.","Pathway B: Master's & Research Route","Step 1: Complete B.Tech/B.Sc in CS, Mathematics, or Statistics.","Step 2: Pursue M.Tech/M.Sc in Data Science or Applied Statistics.","Step 3: Master advanced ML, Deep Learning, and Big Data tools.","Step 4: Work on research projects or publish analytical papers.","Step 5: Complete internships at top analytics or tech firms.","Step 6: Work as Senior Data Scientist or ML Researcher.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with Mathematics as subject.","Step 2: Earn Bachelor's degree in any quantitative field.","Step 3: Complete data science certifications from Coursera/NPTEL/Google.","Step 4: Learn Python, R, Tableau, Power BI, and SQL.","Step 5: Build data projects and a strong Kaggle portfolio.","Step 6: Apply for Data Analyst or Data Scientist roles."]
       },
       {
         id: "market",
@@ -10876,16 +10490,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: Massive. According to NASSCOM, India is expected to be one of the top 3 data science markets in the world.",
-          "Growth: The demand for data professionals is growing at ~30% annually.",
-          "Talent Gap: There is a shortage of skilled professionals. Companies have the budget but can't find people who know both math and coding well.",
-          "Entry-Level (0-2 Yrs): Jr. Data Scientist, Data Analyst: ₹6L–₹10L.",
-          "Mid-Level (3-7 Yrs): Sr. Data Scientist, ML Engineer: ₹12L–₹25L.",
-          "Senior-Level (8-15 Yrs): Lead Data Scientist, Data Architect: ₹30L–₹60L.",
-          "Leadership: Head of Data, Chief Data Officer (CDO): ₹80L–₹1.5Cr+.",
-          "Note: Salaries in Product Companies (Google, Flipkart, Uber) are significantly higher than Service Companies (TCS, Wipro), sometimes starting at ₹15-20L for freshers from IITs."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.5 Cr – ₹3.5 Cr","Senior / Lead Role (10+ yrs): ₹45 LPA – ₹80 LPA","Mid-Level Professional (5–8 yrs): ₹22 LPA – ₹42 LPA","Junior / Associate (3–5 yrs): ₹11 LPA – ₹20 LPA","Entry Level (0–2 yrs): ₹6 LPA – ₹11 LPA","Note: Metros and AI skills add 40% salary premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Pune, Mumbai.","Top Industries: Fintech, Healthcare, E-commerce, IT Services.","Global Demand: USA, UAE; rising remote and freelance roles."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -11102,11 +10707,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) is mandatory. Focus: Strong grasp of Physics (Electricity/Magnetism) and Mathematics (Calculus).",
-          "Step 2 - After Class 12: Undergraduate Degree (4 Years): B.Tech / B.E. in Electronics & Communication Engineering (ECE) - the core degree, B.Tech in Electronics & Instrumentation - focuses on industrial sensors and control, B.Tech in Telecommunication Engineering - specialized for the 5G/Telecom sector. Entrance Exams: JEE Mains/Advanced (National), BITSAT, VITEEE, MHT-CET (State levels).",
-          "Step 3 - After Graduation: Job (Core Industry): Join companies like Qualcomm, Intel, or BEL directly. Postgraduate (Recommended for Chip Design): M.Tech in VLSI Design / Embedded Systems (highly valued and high-paying), M.Tech in Wireless Communication / Signal Processing. Entrance Exam: GATE (Graduate Aptitude Test in Engineering)."
-        ]
+        content: ["Pathway A: B.Tech Route (After Class 12th)","Step 1: Complete Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Clear JEE/state entrance exam for engineering admission.","Step 3: Pursue B.Tech in Electronics & Communication Engineering.","Step 4: Learn VLSI, Embedded Systems, Signal Processing, and IoT.","Step 5: Complete internships at electronics or telecom companies.","Step 6: Get hired as Electronics/Communication/Hardware Engineer.","Pathway B: Master's & Research Route","Step 1: Complete B.Tech in ECE from a recognized university.","Step 2: Clear GATE exam for M.Tech admission or scholarships.","Step 3: Pursue M.Tech in VLSI/Embedded Systems/Telecommunications.","Step 4: Work on research projects in semiconductor or 5G domains.","Step 5: Join R&D labs like ISRO, DRDO, or CDAC.","Step 6: Work as Research Scientist or Senior Design Engineer.","Pathway C: Diploma & Skill-Based Route","Step 1: Complete Class 10th with Science and Mathematics.","Step 2: Pursue 3-year Diploma in Electronics or Communication.","Step 3: Learn PCB design, microcontrollers, and circuit testing.","Step 4: Get certified in AutoCAD, Arduino, or MATLAB tools.","Step 5: Complete apprenticeship at manufacturing or telecom firms.","Step 6: Work as Electronics Technician or Field Service Engineer."]
       },
       {
         id: "market",
@@ -11114,17 +10715,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: EXPLOSIVE. The Indian electronics market is expected to reach $300 Billion by 2026.",
-          "Hiring Trends: The government predicts a shortage of 10-15 Lakh skilled professionals in the ESDM (Electronics System Design & Manufacturing) sector by 2026.",
-          "Growth: The semiconductor industry alone is projected to grow at a CAGR of ~20%.",
-          "Entry-Level (Service Companies): Graduate Engineer Trainee: ₹4L–₹7L annually.",
-          "Entry-Level (Product/VLSI): Design Engineer: ₹12L–₹20L annually.",
-          "Mid-Level: Sr. Verification Engineer, Lead Architect: ₹25L–₹45L annually.",
-          "Senior-Level: Principal Engineer, Chip Architect: ₹50L–₹80L+ annually.",
-          "Leadership: Director of Engineering, CTO: ₹1Cr+ annually.",
-          "Note: Product companies (Intel/Nvidia) pay significantly more than Service companies (TCS/Wipro)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Crore – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 LPA – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹18 LPA – ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 LPA – ₹16 LPA","Entry Level (0–2 yrs): ₹4.5 LPA – ₹9 LPA","Note: VLSI and Embedded Systems skills offer 50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Noida, Chennai, Pune, Ahmedabad.","Top Industries: Semiconductors, 6G Telecom, Robotics, Automotive, Defence.","Global Demand: High demand in Taiwan, Germany, USA, Japan."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -11338,11 +10929,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) is the best route because modern GIS requires math and logic. Alternative: Humanities students with Geography can enter, but they must learn technical skills (coding/software) separately.",
-          "Step 2 - After Class 12: Undergraduate Degree (3-4 Years): B.Tech in Geoinformatics / Civil Engineering - the most technical and high-paying route. B.Sc. in Geography / Geology - a strong foundation, but needs a Master's for good jobs. B.C.A. / B.Sc. Computer Science - you can switch to GIS later if you love coding. Entrance Exams: JEE Mains, GATE (for M.Tech later), CUET.",
-          "Step 3 - After Graduation: Postgraduate (The 'Golden Ticket'): M.Tech / M.Sc. in Geoinformatics / Remote Sensing - this is the industry standard. P.G. Diploma in GIS - a quick 1-year route for graduates to get job-ready. Top Exam: GATE (Geomatics Engineering paper)."
-        ]
+        content: ["Pathway A: B.Tech/B.Sc Route (After Class 12th)","Step 1: Complete Class 12th with PCM or Science stream.","Step 2: Clear entrance exam for university or college admission.","Step 3: Pursue B.Tech/B.Sc in Geoinformatics or Geography.","Step 4: Learn ArcGIS, QGIS, Remote Sensing, and spatial analysis.","Step 5: Complete internships at survey or urban planning agencies.","Step 6: Get hired as GIS Analyst or Geospatial Executive.","Pathway B: Master's & Research Route","Step 1: Complete B.Tech/B.Sc in Geography, Civil, or Environmental Science.","Step 2: Pursue M.Tech/M.Sc in GIS and Remote Sensing.","Step 3: Study satellite imagery, geodatabases, and spatial modelling.","Step 4: Work on research projects with ISRO, NRSC, or universities.","Step 5: Publish research papers in geospatial technology journals.","Step 6: Work as GIS Scientist or Remote Sensing Specialist.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with any stream and computers.","Step 2: Earn Bachelor's degree in any relevant field.","Step 3: Complete GIS certifications from ESRI, IIRS, or Coursera.","Step 4: Learn ArcGIS, Google Earth Engine, and Python scripting.","Step 5: Build GIS projects in urban planning or disaster management.","Step 6: Apply for GIS Developer or Mapping Analyst roles."]
       },
       {
         id: "market",
@@ -11350,15 +10937,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: EXPLOSIVE. With the Indian government's National Geospatial Policy (2022) liberalizing the map sector, private companies are hiring aggressively.",
-          "Growth: The Indian geospatial economy is expected to cross ₹63,000 Crore by 2025, growing at 12-14%.",
-          "Entry-Level (GIS Analyst, LiDAR Technician): ₹3.5L–₹6L annually.",
-          "Mid-Level (Sr. GIS Developer, Photogrammetrist): ₹8L–₹15L annually.",
-          "Senior-Level (GIS Architect, Project Manager): ₹18L–₹30L annually.",
-          "Leadership (Director of Geospatial Strategy, CTO): ₹40L–₹80L+ annually.",
-          "Growth Trajectory: You can start as a 'Digitizer' (drawing maps) but quickly move to 'Developer' (coding map apps) where salaries double."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1 Crore – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 LPA – ₹28 LPA","Junior / Associate (3–5 yrs): ₹8 LPA – ₹14 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹7.5 LPA","Note: Metros and GeoAI skills offer 30–40% salary premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Noida, Pune, Mumbai, Chennai.","Top Industries: IT, Telecom, Urban Planning, Logistics, Agriculture, Defense.","Global Demand: Remote roles in USA, UAE, Europe; freelance rising."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -11573,11 +11152,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) is ideal because you need logic and math. However, smart students from any stream can learn hacking if they are tech-savvy. Action: Start learning Linux and Python online.",
-          "Step 2 - After Class 12: Undergraduate Degree (4 Years): B.Tech in Computer Science (Cybersecurity Specialization) - offered by many universities now, B.Sc. in Digital Forensics / Cybersecurity, BCA - a good option if you back it up with certifications. Entrance Exams: JEE Mains, VITEEE, SRMJEEE.",
-          "Step 3 - After Graduation: Certifications (The Real Degree): In this field, a certificate is often more valuable than a master's. CEH (Certified Ethical Hacker) - the entry-level standard, OSCP (Offensive Security Certified Professional) - the 'Gold Standard' for serious hackers (very tough practical exam). Postgraduate: M.Tech in Cybersecurity (Institutes like IIIT-Delhi or NFSU - National Forensic Sciences University)."
-        ]
+        content: ["Pathway A: B.Tech Route (After Class 12th)","Step 1: Complete Class 12th with PCM and Computer Science.","Step 2: Clear entrance exam for engineering college admission.","Step 3: Pursue B.Tech in Cybersecurity or Computer Science.","Step 4: Learn networking, Linux, Kali Linux, and penetration testing.","Step 5: Complete internships at cybersecurity firms or IT companies.","Step 6: Get hired as Ethical Hacker or Security Analyst.","Pathway B: Master's & Research Route","Step 1: Complete B.Tech/B.Sc in Computer Science or IT.","Step 2: Pursue M.Tech in Cybersecurity or Information Security.","Step 3: Study advanced cryptography, malware analysis, and forensics.","Step 4: Earn CEH, OSCP, or CISSP professional certifications.","Step 5: Join cybersecurity labs or government security agencies.","Step 6: Work as Security Architect or Cybersecurity Consultant.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with any stream and computers.","Step 2: Earn Bachelor's degree in any technical or IT field.","Step 3: Complete CEH certification from EC-Council or equivalent.","Step 4: Learn Burp Suite, Wireshark, Metasploit, and Nmap tools.","Step 5: Practice on CTF platforms like HackTheBox or TryHackMe.","Step 6: Apply for Penetration Tester or Bug Bounty Hunter roles."]
       },
       {
         id: "market",
@@ -11585,16 +11160,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: Massive. India is projected to have a shortage of 3.5 Million cybersecurity jobs globally, with a huge chunk in India.",
-          "Growth: The Indian cybersecurity market is growing at a CAGR of ~18%.",
-          "Trend: With the DPDP Act (Data Protection Law), every company must secure their data, leading to a hiring spree.",
-          "Entry-Level (Jr. Security Analyst, VAPT Intern): ₹4L–₹7L annually.",
-          "Mid-Level (Penetration Tester, Security Consultant): ₹10L–₹20L annually.",
-          "Senior-Level (Security Architect, Bug Bounty Hunter): ₹25L–₹50L annually.",
-          "Leadership (CISO - Chief Information Security Officer): ₹80L–₹2Cr+ annually.",
-          "Bug Bounties: Talented freelance hackers in India earn lakhs per month just by finding bugs in companies like Google, Facebook, and Zomato."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Crore – ₹3.5 Crore","Senior / Lead Role (10+ yrs): ₹45 LPA – ₹85 LPA","Mid-Level Professional (5–8 yrs): ₹20 LPA – ₹38 LPA","Junior / Associate (3–5 yrs): ₹10 LPA – ₹18 LPA","Entry Level (0–2 yrs): ₹5 LPA – ₹10 LPA","Note: OSCP/CISSP certifications and metros offer 40% salary premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Mumbai, Pune, Chennai.","Top Industries: BFSI, IT Services, E-commerce, Defense, Healthcare.","Global Demand: High remote demand in USA, Europe, and UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -11807,12 +11373,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Commerce or Science (PCM) are both excellent. Science helps with the technical logic. Commerce helps understand business finance and processes.",
-          "Step 2 - After Class 12: Undergraduate Degree (3-4 Years): B.Tech (CS/IT) - the strongest route for IT BAs. BCA / B.Sc. IT - good technical foundation. BBA / B.Com - valid, but you must learn IT concepts separately. Entrance Exams: JEE Mains, CUET, IPU-CET.",
-          "Step 3 - After Graduation: Direct Job: Join IT service companies (TCS, Infosys, Wipro) as a 'Systems Engineer' or 'Junior Analyst.' Postgraduate (The Accelerator): MBA in IT / Systems / Business Analytics - the golden ticket to senior roles. PGDM in Management - focus on Operations or IT. Entrance Exams: CAT, XAT, SNAP, MAT.",
-          "Step 4 - Lateral Entry: Software Developers often switch to BA roles if they love talking to people more than coding. QA/Testers make great BAs because they already know how the system breaks."
-        ]
+        content: ["Pathway A: B.Tech/BCA Route (After Class 12th)","Step 1: Complete Class 12th with any stream and Mathematics.","Step 2: Clear entrance exam for university or college admission.","Step 3: Pursue B.Tech in IT/CS or BCA with business electives.","Step 4: Learn SQL, Excel, Jira, and requirements gathering techniques.","Step 5: Complete internships in IT consulting or software companies.","Step 6: Get hired as Junior Business Analyst or IT Analyst.","Pathway B: MBA & Management Route","Step 1: Complete B.Tech/BCA/B.Com in any relevant discipline.","Step 2: Clear CAT/MAT/GMAT for MBA programme admission.","Step 3: Pursue MBA in IT Management or Systems Management.","Step 4: Study business process modelling, ERP, and agile methodology.","Step 5: Complete summer internship at IT or management consulting firm.","Step 6: Work as Senior Business Analyst or IT Project Manager.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with any stream and computers.","Step 2: Earn Bachelor's degree in any technical or commerce field.","Step 3: Complete CBAP, ECBA, or IIBA certification for business analysis.","Step 4: Learn Power BI, Tableau, Visio, and UML diagram tools.","Step 5: Build case studies in requirement documentation and workflow analysis.","Step 6: Apply for Business Analyst or Product Analyst roles."]
       },
       {
         id: "market",
@@ -11820,15 +11381,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: HIGH. With Global Capability Centers (GCCs) exploding in India (companies like JP Morgan, Walmart setting up tech hubs here), the demand for BAs who understand global business is soaring.",
-          "Growth: The Business Analysis job market in India is projected to grow at 14% CAGR, faster than traditional coding jobs.",
-          "Entry-Level (Jr. Business Analyst, Associate Consultant): ₹4.5L–₹7L annually.",
-          "Mid-Level (IT Business Analyst, Product Owner): ₹9L–₹16L annually.",
-          "Senior-Level (Sr. BA, Principal Consultant): ₹18L–₹30L annually.",
-          "Leadership (Director of Product, CIO): ₹45L–₹80L+ annually.",
-          "Metro Factor: Bengaluru and Pune pay the highest due to the product-company culture."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA – ₹30 LPA","Junior / Associate (3–5 yrs): ₹8 LPA – ₹16 LPA","Entry Level (0–2 yrs): ₹4.5 LPA – ₹9 LPA","Note: Metros and specialized Domain/Agile skills add 30–50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Mumbai, Pune.","Top Industries: BFSI, IT Services, Healthcare, E-commerce.","Global Demand: Remote roles in USA, Europe, and UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -12041,11 +11594,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) is the gold standard. You need Physics to understand circuits and Math for logic. Action: Buy an Arduino Starter Kit online and start building small projects at home.",
-          "Step 2 - After Class 12: Undergraduate Degree (4 Years): B.Tech in Electronics & Communication (ECE) - the best foundation for the hardware side. B.Tech in Computer Science (CSE) with IoT Specialization - best for the software/cloud side. B.Tech in Mechatronics - a great mix of mechanical and electronics. Entrance Exams: JEE Mains/Advanced, BITSAT, VITEEE, MHT-CET.",
-          "Step 3 - After Graduation: Postgraduate (Optional but Good): M.Tech in IoT & Sensor Systems, M.Tech in Embedded Systems. Lateral Entry (For Switchers): If you are a standard software engineer, you can switch to IoT by doing a 6-month certification course (e.g., from CDAC or NPTEL) focusing on Embedded C and IoT protocols."
-        ]
+        content: ["Pathway A: B.Tech Route (After Class 12th)","Step 1: Complete Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Clear JEE/state entrance exam for engineering admission.","Step 3: Pursue B.Tech in IoT, ECE, or Computer Science.","Step 4: Learn Arduino, Raspberry Pi, sensors, and embedded C.","Step 5: Complete internships at IoT or smart technology companies.","Step 6: Get hired as IoT Developer or Embedded Systems Engineer.","Pathway B: Master's & Research Route","Step 1: Complete B.Tech in ECE, CS, or Electrical Engineering.","Step 2: Pursue M.Tech in IoT, Embedded Systems, or VLSI.","Step 3: Study edge computing, wireless protocols, and cloud IoT.","Step 4: Work on research projects with industry or government labs.","Step 5: Publish papers in IoT or smart systems journals.","Step 6: Work as IoT Architect or Research Scientist.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with Science and Mathematics stream.","Step 2: Earn Bachelor's degree in any technical or engineering field.","Step 3: Complete IoT certifications from Coursera/NPTEL/Cisco.","Step 4: Learn MQTT, Node-RED, AWS IoT, and microcontroller programming.","Step 5: Build IoT projects like smart home or health monitors.","Step 6: Apply for IoT Solutions Developer or Systems Integrator roles."]
       },
       {
         id: "market",
@@ -12053,16 +11602,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: EXPLOSIVE. The Indian IoT market is projected to reach $3.62 Billion by 2034, growing at a rapid pace of over 10% annually.",
-          "Adoption: By 2026, India is expected to have over 500 million connected devices.",
-          "Hiring Trends: Major hiring is happening in Industrial IoT (IIoT)—factories making their machines 'smart.'",
-          "Entry-Level (IoT Developer, Embedded Engineer): ₹4.5L–₹8L annually.",
-          "Mid-Level (IoT Solutions Architect, Firmware Engineer): ₹12L–₹22L annually.",
-          "Senior-Level (IoT Program Manager, Principal Architect): ₹28L–₹55L annually.",
-          "Leadership (CTO, Head of Connected Products): ₹80L–₹1.5Cr+ annually.",
-          "Note: IoT professionals are paid a premium because they know both hardware and software."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Cr – ₹3.2 Cr","Senior / Lead Role (10+ yrs): ₹40 LPA – ₹85 LPA","Mid-Level Professional (5–8 yrs): ₹18 LPA – ₹38 LPA","Junior / Associate (3–5 yrs): ₹9 LPA – ₹17 LPA","Entry Level (0–2 yrs): ₹4.5 LPA – ₹8.5 LPA","Note: Metros and 5G/Edge AI skills add 40% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Mumbai, Gurgaon, Noida.","Top Industries: Manufacturing, Automotive, Healthcare, Smart Cities.","Global Demand: Remote roles in USA, UAE, and Europe."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -12276,11 +11816,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) is the best route because logic and math help in coding. Alternative: You can technically learn coding from any stream (Commerce/Arts) if you are passionate, but Science gives you a head start for engineering exams.",
-          "Step 2 - After Class 12: Undergraduate Degree (3-4 Years): B.Tech in Computer Science (CSE) / IT - the 'Gold Standard' degree. BCA (Bachelor of Computer Applications) - a great practical alternative focused on software. B.Sc. Computer Science - a strong theoretical foundation. Entrance Exams: JEE Mains (National), BITSAT, VITEEE, CUET (for Central Universities).",
-          "Step 3 - After Graduation: The 'Specialist' Route: Do a specialized course in Android or iOS Development. Colleges often teach general coding; you need specific skills for apps. Lateral Entry (For Non-CS Grads): Did Mechanical Engineering? No problem. Join a Coding Bootcamp (6 months) like Scaler or Masai School to learn App Development and switch careers."
-        ]
+        content: ["Pathway A: B.Tech/BCA Route (After Class 12th)","Step 1: Complete Class 12th with PCM or Computer Science.","Step 2: Clear entrance exam for engineering or university admission.","Step 3: Pursue B.Tech in CS/IT or BCA with programming focus.","Step 4: Learn Java, Kotlin, Swift, and Android/iOS development.","Step 5: Complete internships at app development or tech companies.","Step 6: Get hired as Android Developer or iOS Developer.","Pathway B: Master's & Specialization Route","Step 1: Complete B.Tech/BCA in Computer Science or IT.","Step 2: Pursue M.Tech/MCA in Mobile Computing or Software Engineering.","Step 3: Study cross-platform frameworks like Flutter and React Native.","Step 4: Build and publish apps on Google Play or App Store.","Step 5: Work on advanced projects in AR/VR or AI-based apps.","Step 6: Work as Senior Mobile Developer or Mobile App Architect.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with any stream and computers.","Step 2: Earn Bachelor's degree in any field with coding interest.","Step 3: Complete app development certifications from Google/Udemy/Coursera.","Step 4: Learn Flutter, React Native, Firebase, and REST APIs.","Step 5: Build portfolio with published apps and GitHub projects.","Step 6: Apply for Mobile App Developer or Freelance App Developer."]
       },
       {
         id: "market",
@@ -12288,15 +11824,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: EXPLOSIVE. India is the #1 country in the world for app downloads. Every business—from your local gym to Reliance—needs an app.",
-          "Hiring Trends: Companies are moving away from 'Android only' or 'iOS only.' The hot trend is 'Cross-Platform Developers' (Flutter/React Native) who can build one app that runs on both phones.",
-          "Entry-Level (Jr. Android/iOS Developer): ₹4L–₹8L annually.",
-          "Mid-Level (Sr. Flutter Developer / App Architect): ₹12L–₹22L annually.",
-          "Senior-Level (Lead Mobile Engineer / Tech Lead): ₹25L–₹45L annually.",
-          "Leadership (VP of Engineering / CTO): ₹60L–₹1.2Cr+ annually.",
-          "Metro vs. Non-Metro: Bengaluru and Gurugram pay the highest. However, remote work means you can earn a 'Bengaluru Salary' while living in Jaipur or Indore."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 LPA – ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA – ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 LPA – ₹15 LPA","Entry Level (0–2 yrs): ₹4.5 LPA – ₹8 LPA","Note: Tier-1 cities and Flutter/React Native skills add 40% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Pune, Mumbai, Chennai.","Top Industries: Fintech, E-commerce, Healthcare, Gaming, EdTech.","Global Demand: High remote demand in USA, Europe, and UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -12511,12 +12039,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Step 1 - After Class 10: Stream: Science (PCM) or Commerce are both fine. Science helps if you want to manage technical projects. Commerce/Arts: You can still be a PM, but you might manage business-process projects.",
-          "Step 2 - After Class 12: Undergraduate Degree (3-4 Years): B.Tech (CS/IT) - the most common route. Engineers often become the best PMs because they understand the work. BCA / B.Sc. IT - good technical base. BBA / BBM - focuses on management. You will need to learn IT concepts later. Entrance Exams: JEE Mains, CUET, CETs.",
-          "Step 3 - After Graduation: The 'Developer First' Route: Most PMs start as Software Developers or Testers. After 3-5 years, if they show leadership skills, they are promoted to Team Lead and then Project Manager. The 'Direct Management' Route: MBA in IT / Systems / Operations - you can join directly as a 'Junior PM' or 'Business Analyst' after an MBA. Entrance Exams: CAT, MAT, XAT, SNAP.",
-          "Step 4 - Certification (The Accelerator): Getting a PMP (Project Management Professional) or Scrum Master certification is almost mandatory to reach senior levels."
-        ]
+        content: ["Pathway A: B.Tech Route (After Class 12th)","Step 1: Complete Class 12th with any stream and Mathematics.","Step 2: Clear entrance exam for engineering college admission.","Step 3: Pursue B.Tech in Computer Science or Information Technology.","Step 4: Learn SDLC, Agile, Scrum, and project management basics.","Step 5: Work 2–3 years as Software Developer or Team Lead.","Step 6: Get promoted to IT Project Manager or Delivery Manager.","Pathway B: MBA & Management Route","Step 1: Complete B.Tech/BCA/B.Sc in any technical discipline.","Step 2: Clear CAT/MAT/GMAT for MBA programme admission.","Step 3: Pursue MBA in IT Management or Operations Management.","Step 4: Study stakeholder management, budgeting, and risk analysis.","Step 5: Complete summer internship at IT or consulting firm.","Step 6: Work as IT Project Manager or Programme Manager.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with any stream and computers.","Step 2: Earn Bachelor's degree in any technical or management field.","Step 3: Gain 2–3 years work experience in IT industry.","Step 4: Earn PMP, PRINCE2, or Certified ScrumMaster certification.","Step 5: Learn Jira, MS Project, Trello, and team leadership skills.","Step 6: Apply for IT Project Manager or Scrum Master roles."]
       },
       {
         id: "market",
@@ -12524,15 +12047,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Demand: HIGH. India is becoming the world's 'Digital Capability Center.' Every new office opened by a foreign company needs PMs to run it.",
-          "Growth: The demand for project management roles in India is expected to grow by 11-15% annually.",
-          "Entry-Level (Junior PM / Project Coordinator): ₹6L–₹10L annually.",
-          "Mid-Level (IT Project Manager / Scrum Master): ₹14L–₹25L annually.",
-          "Senior-Level (Senior PM / Delivery Manager): ₹28L–₹45L annually.",
-          "Leadership (Program Director / VP of Delivery): ₹60L–₹1Cr+ annually.",
-          "Note: Getting a PMP Certification instantly increases salary potential by ~20%."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹35 LPA – ₹75 LPA","Mid-Level Professional (5–8 yrs): ₹18 LPA – ₹38 LPA","Junior / Associate (3–5 yrs): ₹9 LPA – ₹17 LPA","Entry Level (0–2 yrs): ₹5 LPA – ₹9 LPA","Note: PMP/Agile certifications and metros add 30–50% salary premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Gurgaon, Mumbai, Noida.","Top Industries: IT Services, Fintech, Healthcare, BFSI, E-commerce.","Global Demand: High remote demand in USA, UK, Germany, UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -12745,11 +12260,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - The Traditional Engineering Route (Most Common): Class 10: Score well (Science & Math focus). Class 11-12: Choose Science Stream (PCM) - Physics, Chemistry, Math. Computer Science as an elective is a huge plus. Entrance Exams: Prepare for JEE Main (for NITs/IIITs), JEE Advanced (for IITs), or state exams like MHT-CET / KCET / WBJEE. Undergraduate Degree: B.Tech / B.E. in Computer Science Engineering (CSE) or Information Technology (IT). (4 Years).",
-          "Pathway B - The Non-Engineering Route: Class 12: Any stream (Science/Commerce/Arts) with Mathematics. Undergraduate: BCA (Bachelor of Computer Applications) or B.Sc. Computer Science (3 Years). Postgraduate (Recommended): MCA (Master of Computer Applications) or M.Sc. CS. This makes you equivalent to a B.Tech graduate in the job market.",
-          "Pathway C - The New-Age / Skills-Based Route: Complete any degree + Join a rigorous Coding Bootcamp (6-12 months). Build a strong Portfolio (projects on GitHub). Apply to startups that value skills over degrees."
-        ]
+        content: ["Pathway A: B.Tech Route (After Class 12th)","Step 1: Complete Class 12th with PCM and Computer Science.","Step 2: Clear JEE/state entrance exam for engineering admission.","Step 3: Pursue B.Tech in Computer Science or Software Engineering.","Step 4: Learn Java, Python, DSA, and software development frameworks.","Step 5: Complete internships at IT or product-based tech companies.","Step 6: Get hired as Software Developer or Software Engineer.","Pathway B: Master's & Specialization Route","Step 1: Complete B.Tech/BCA in Computer Science or IT.","Step 2: Clear GATE or entrance exam for M.Tech/MS admission.","Step 3: Pursue M.Tech/MS in Software Engineering or Cloud Computing.","Step 4: Study system design, DevOps, microservices, and architecture.","Step 5: Complete internships at top product or SaaS companies.","Step 6: Work as Senior Software Engineer or Solutions Architect.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with any stream and computers.","Step 2: Earn Bachelor's degree in any field with coding interest.","Step 3: Complete full-stack development courses from Udemy/Coursera/NPTEL.","Step 4: Learn HTML, CSS, JavaScript, React, Node.js, and databases.","Step 5: Build projects and contribute to open-source on GitHub.","Step 6: Apply for Full-Stack Developer or Junior Software Engineer."]
       },
       {
         id: "market",
@@ -12757,14 +12268,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: India's IT industry is projected to reach $300-350 Billion by 2026.",
-          "Hiring Trends: While mass hiring (hiring thousands of freshers for basic roles) has slowed slightly, 'value hiring' (hiring skilled talent in AI, Cloud, and Data) has exploded.",
-          "Entry-Level (Jr. Software Engineer, 0-2 Yrs): ₹6L–₹12L (Tier-1 cities), ₹3.5L–₹7L (Tier-2/3 cities). Top-tier product companies pay freshers ₹20L+.",
-          "Mid-Level (Sr. Software Engineer, 3-7 Yrs): ₹15L–₹35L (Tier-1 cities), ₹10L–₹20L (Tier-2/3 cities).",
-          "Senior-Level (Tech Lead / Architect, 8-12 Yrs): ₹40L–₹70L (Tier-1 cities), ₹25L–₹45L (Tier-2/3 cities).",
-          "Leadership (VP Engineering / CTO): ₹1Cr+ (Tier-1 cities), ₹60L+ (Tier-2/3 cities)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹3.5 Crore","Senior / Lead Role (10+ yrs): ₹35 – ₹80 LPA","Mid-Level Professional (5–8 yrs): ₹18 – ₹40 LPA","Junior / Associate (3–5 yrs): ₹9 – ₹20 LPA","Entry Level (0–2 yrs): ₹5 – ₹12 LPA","Note: Metros and AI/Cloud skills offer 50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Pune, Mumbai.","Top Industries: Fintech, E-commerce, Healthcare, IT Services.","Global Demand: High remote demand in USA, UAE, Germany."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -12978,10 +12482,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - The Engineering Route (High Growth / SDET Roles): Class 12: Science Stream (PCM). Degree: B.Tech/B.E. in CSE or IT. Campus Placement: Target roles like 'SDET' or 'Automation Engineer.' Growth: Fast track to Test Architect/Manager roles.",
-          "Pathway B - The Non-Engineering / Science Route: Class 12: Any stream with Math/Computer Science. Degree: BCA, B.Sc. (CS/IT), or even B.Com/B.A. (with strong aptitude). Training: Join a specialized Software Testing Training Institute (e.g., QSpiders, seedinfotech) for a 4-6 month diploma. Entry Role: Manual Tester or Junior QA Analyst. Upskill: Learn Automation (Selenium) within 2 years to jump to higher salary brackets."
-        ]
+        content: ["Pathway A: B.Tech/BCA Route (After Class 12th)","Step 1: Complete Class 12th with any stream and Mathematics.","Step 2: Clear entrance exam for engineering or university admission.","Step 3: Pursue B.Tech in CS/IT or BCA with testing electives.","Step 4: Learn manual testing, test cases, and bug tracking tools.","Step 5: Complete internships at software or QA testing companies.","Step 6: Get hired as QA Tester or Junior Test Engineer.","Pathway B: Master's & Specialization Route","Step 1: Complete B.Tech/BCA in Computer Science or IT.","Step 2: Pursue M.Tech/MCA in Software Engineering or Quality Assurance.","Step 3: Study automation frameworks, performance, and security testing.","Step 4: Learn Selenium, JMeter, Appium, and CI/CD pipeline testing.","Step 5: Complete internships at product-based or enterprise IT firms.","Step 6: Work as Senior QA Engineer or Test Automation Architect.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with any stream and computers.","Step 2: Earn Bachelor's degree in any technical or science field.","Step 3: Complete ISTQB, Selenium, or Certified Tester certifications.","Step 4: Learn Postman, TestNG, Cucumber, and API testing tools.","Step 5: Build testing portfolio with automation scripts and bug reports.","Step 6: Apply for QA Analyst or Automation Test Engineer roles."]
       },
       {
         id: "market",
@@ -12989,14 +12490,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: The India Software Testing market is growing at 15% CAGR. As AI and IoT grow, the need for testing grows faster than development.",
-          "Hiring Trends: The era of 'only Manual Testing' is fading. The market demands 'Full Stack QA'—testers who can check functionality, security, and speed, and can write code to automate it.",
-          "Entry-Level (QA Engineer / Tester, 0-2 Yrs): ₹3.5L–₹5L (Service-based), ₹6L–₹12L (Product-based).",
-          "Mid-Level (Automation Engineer, 3-6 Yrs): ₹7L–₹14L (Service-based), ₹15L–₹25L (Product-based).",
-          "Senior-Level (Test Lead / SDET II, 7-12 Yrs): ₹16L–₹25L (Service-based), ₹30L–₹50L+ (Product-based).",
-          "Leadership (QA Manager / Director): ₹30L+ (Service-based), ₹80L–₹1.5Cr (Product-based)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 LPA – ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 LPA – ₹16 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹8 LPA","Note: Metros and Automation skills offer 50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Gurgaon, Mumbai.","Top Industries: BFSI, E-commerce, Healthcare, SaaS.","Global Demand: Remote roles in USA, Europe, UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -13208,11 +12702,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "Pathway A - The Design Route (Focus on Creativity/Art): Class 12: Any stream (Arts/Humanities/Science). Entrance Exams: NID DAT (National Institute of Design), UCEED (for IIT Bombay), or private college exams. Undergraduate: B.Des (Bachelor of Design) in Interaction Design or Game Design (4 Years). Portfolio: Build a portfolio of paper prototypes and concept art.",
-          "Pathway B - The Technical Route (Focus on Logic/Coding): Class 12: Science Stream (PCM) is mandatory. Undergraduate: B.Tech in Computer Science (4 Years). Specialization: Do a certification or minor in Game Design/Development. Role: You enter as a 'Technical Game Designer' (Highly paid).",
-          "Pathway C - The Specialized Game Degree: Class 12: Any stream. Undergraduate: B.Sc. in Game Design & Development or B.A. in Digital Arts (3 Years). Institutions: Specialized private colleges like Backstage Pass or ICAT."
-        ]
+        content: ["Pathway A: B.Tech/B.Des Route (After Class 12th)","Step 1: Complete Class 12th with PCM or any stream with computers.","Step 2: Clear entrance exam for engineering or design college admission.","Step 3: Pursue B.Tech in CS or B.Des in Game Design.","Step 4: Learn Unity, Unreal Engine, C++, and 3D modelling basics.","Step 5: Complete internships at gaming studios or animation companies.","Step 6: Get hired as Game Designer or Game Developer.","Pathway B: Master's & Specialization Route","Step 1: Complete B.Tech/B.Des in CS, Animation, or Game Design.","Step 2: Pursue M.Des/M.Tech in Game Design or Interactive Media.","Step 3: Study game mechanics, level design, and narrative storytelling.","Step 4: Develop and publish original game projects or prototypes.","Step 5: Participate in game jams and build a strong portfolio.","Step 6: Work as Senior Game Designer or Game Art Director.","Pathway C: Certification & Skill-Based Route","Step 1: Complete Class 12th with any stream and creative interest.","Step 2: Earn Bachelor's degree in any field with gaming passion.","Step 3: Complete game design courses from Coursera/Udemy/Unity Learn.","Step 4: Learn Unity, Blender, Photoshop, and game scripting tools.","Step 5: Build portfolio with playable demos on Itch.io or Steam.","Step 6: Apply for Indie Game Developer or Game Level Designer."]
       },
       {
         id: "market",
@@ -13220,14 +12710,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: [
-          "Market Size: The Indian gaming market is projected to hit $8.9 Billion by 2030.",
-          "Growth: India has the largest number of mobile game downloads in the world. We are moving from 'playing' games to 'making' them.",
-          "Entry-Level (Jr. Game Designer / Level Designer, 0-2 Yrs): ₹4L–₹7L (Tier-1), ₹3L–₹5L (Tier-2).",
-          "Mid-Level (Game Designer / Systems Designer, 3-6 Yrs): ₹8L–₹18L (Tier-1), ₹6L–₹12L (Tier-2).",
-          "Senior-Level (Lead Designer / Creative Director, 7-10 Yrs): ₹20L–₹35L (Tier-1), ₹15L–₹25L (Tier-2).",
-          "Leadership (Game Director / Producer): ₹40L–₹80L+ (Tier-1), ₹30L+ (Tier-2)."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80L – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹25 LPA – ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹24 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹12 LPA","Entry Level (0–2 yrs): ₹3 LPA – ₹6 LPA","Note: Metros and Unreal/Unity skills offer 40% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Mumbai, Noida.","Top Industries: Gaming Studios, EdTech, AR/VR, Entertainment.","Global Demand: High remote demand in USA, Europe, UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -13441,12 +12924,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 12: BA/BSc in Anthropology (3 years) available in limited colleges, or BA in Sociology (3 years) with wider availability. Prefer Humanities, but Science students can enter.",
-          "After Graduation: MA/MSc in Anthropology (2 years) is essential for professional career. MPhil (1-2 years) is optional and being phased out. PhD (3-5 years) is for university teaching and senior research roles.",
-          "Entry Exams: CUET, CUET-PG, UGC NET (mandatory for teaching), IIT-JAM, and university-specific exams.",
-          "Top Institutions: Delhi University (500+ students, largest dept), Panjab University, Lucknow University, Calcutta University (oldest in Asia, est. 1920), Visva-Bharati, NEHU Shillong, Deccan College Pune, MSU Baroda, Dr. Harisingh Gour University Sagar, PRSU Raipur, and IGNOU (distance education)."
-        ]
+        content: ["Pathway A: Academic Route (After Class 12th)","Step 1: Pass Class 12th with Arts/Humanities stream.","Step 2: Complete B.A. in Anthropology from recognized university.","Step 3: Pursue M.A. in Anthropology or Social Anthropology.","Step 4: Gain fieldwork experience through research internships.","Step 5: Complete M.Phil./Ph.D. in Anthropology for specialization.","Step 6: Join as Lecturer, Research Scientist, or Museum Curator.","Pathway B: Applied Anthropology Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete B.A./B.Sc. in Anthropology or Sociology.","Step 3: Pursue M.A. in Applied/Biological Anthropology.","Step 4: Learn research tools like SPSS, ethnographic methods.","Step 5: Intern with NGOs, tribal welfare, or government agencies.","Step 6: Work as Development Consultant, Policy Researcher, or Analyst.","Pathway C: Civil Services / Government Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation in any discipline (B.A./B.Sc.).","Step 3: Choose Anthropology as optional in UPSC CSE.","Step 4: Join coaching or self-study for UPSC preparation.","Step 5: Clear Prelims, Mains, and Interview rounds successfully.","Step 6: Serve as IAS/IFS Officer in tribal/cultural departments."]
       },
       {
         id: "market",
@@ -13454,13 +12932,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (0-3 years): ₹2-5 LPA (Average: ₹3.5 LPA). Positions: Research Assistant, Junior Researcher.",
-          "Mid-Level (4-8 years): ₹5-10 LPA. Positions: Senior Researcher, UX Researcher (tech companies).",
-          "Senior-Level (8-15 years): ₹10-16 LPA. Positions: Professor, Research Director, Senior Consultant.",
-          "Leadership (15+ years): ₹16-25 LPA. Positions: Department Head, Institute Director.",
-          "Corporate Anthropologist/UX Researcher: ₹6-20 LPA (higher than academia). Growing sector in tech companies."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹50 LPA – ₹1.2 Crore","Senior Role (10+ yrs): ₹20 – ₹45 LPA","Mid-Level (5–8 yrs): ₹10 – ₹18 LPA","Junior (3–5 yrs): ₹5 – ₹9 LPA","Entry Level (0–2 yrs): ₹3 – ₹5 LPA","Note: Metros pay 30% more; PhD/NET boosts academic pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Kolkata, Hyderabad, Pune.","Top Industries: UX Research, NGOs, ASI, Market Research, CSR.","Global Demand: USA, UK, Australia; Rising remote freelance opportunities.","Top Institutions","Career Opportunities","Conventional","Academic Anthropologist","Museum Curator","Tribal Welfare Officer","Archaeological Research Assistant","New-age and AI driven","UX Researcher","Cultural Data Analyst","AI Ethics Research Associate","Digital Heritage Specialist","Remote/Entrepreneurship","Independent Research Consultant","Documentary Content Creator","Cultural Tourism Entrepreneur","Ethnographic Writing Freelancer"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -13689,13 +13161,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 12: Choose Humanities stream (History, Geography, Sociology). BA/BA (Hons) in Archaeology or History (3 years). Entrance Exams: CUET, university-specific exams.",
-          "After Graduation: MA in Archaeology/Ancient History/Heritage Management (2 years) is essential. PG Diploma in Archaeology from ASI Institute (2 years). Entrance Exams: CUET-PG, university-specific exams.",
-          "Doctoral Studies: PhD in Archaeology (3-5 years) for teaching and senior research roles. Entrance: UGC NET or university-specific exams.",
-          "ASI Entry Routes: Assistant Archaeologist (Group B) through SSC exam. Deputy Superintending Archaeologist (Group A) through UPSC exam. Direct recruitment for specialized positions.",
-          "Top Institutions: Banaras Hindu University (Varanasi), University of Delhi, Institute of Archaeology (ASI, New Delhi), Deccan College (Pune), Maharaja Sayajirao University (Baroda), University of Calcutta, University of Madras."
-        ]
+        content: ["Pathway A: Academic Route (After Class 12th)","Step 1: Pass Class 12th with Arts/Humanities stream.","Step 2: Complete B.A. in Archaeology or Ancient History.","Step 3: Pursue M.A. in Archaeology from recognized university.","Step 4: Participate in excavation fieldwork and research projects.","Step 5: Complete M.Phil./Ph.D. in Archaeology for specialization.","Step 6: Join as Professor, Research Scholar, or Museum Curator.","Pathway B: Applied / Field Archaeology Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete B.A. in History, Anthropology, or Archaeology.","Step 3: Pursue P.G. Diploma in Archaeology (ASI recognized).","Step 4: Learn GIS mapping, carbon dating, and documentation tools.","Step 5: Intern with ASI, state archaeology departments, or museums.","Step 6: Work as Field Archaeologist, Conservation Officer, or Consultant.","Pathway C: Government Service Route (ASI / State Dept.)","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation with History or Archaeology subject.","Step 3: Apply for ASI or State Archaeology Department recruitment.","Step 4: Prepare for written exam and interview selection process.","Step 5: Clear selection rounds for Archaeologist or Curator post.","Step 6: Serve as Government Archaeologist, Surveyor, or Heritage Officer."]
       },
       {
         id: "market",
@@ -13703,14 +13169,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (0-3 years): ₹1.5L–₹5L (Average: ₹3.5L). Positions: Research Assistant, Junior Researcher.",
-          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Researcher, Museum Curator, Conservation Officer.",
-          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Professor, Research Director, Senior Consultant.",
-          "Leadership (15+ years): ₹18L–₹30L+. Positions: Department Head, Institute Director, ASI Director-General.",
-          "Government (ASI): Assistant Archaeologist starts at ₹35,000-40,000/month (Level 6 pay scale, excluding allowances).",
-          "Metro vs. Tier-2/3: Metro cities (Delhi, Mumbai, Pune) offer 10-20% higher salaries. Tier-2/3 cities have lower salaries but greater fieldwork opportunities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹75 LPA","Senior / Lead Role (10+ yrs): ₹15 – ₹28 LPA","Mid-Level Professional (5–8 yrs): ₹8 – ₹14 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹7 LPA","Entry Level (0–2 yrs): ₹3 – ₹4.5 LPA","Note: Govt pay follows 7th/8th CPC; GIS/LiDAR skills pay more.","Where Are the Jobs?","Top Cities: Delhi, Vadodara, Chennai, Bhopal, Kolkata, Patna.","Top Industries: ASI, State Archaeology, Heritage Consulting, Digital Mapping, Museums.","Global Demand: UK, UAE, Saudi Arabia; Growth in digital heritage archiving.","Top Institutions","Career Opportunities","Conventional","Field Archaeologist","Museum Curator","Archaeological Survey Officer","Heritage Conservation Assistant","New-age and AI driven","GIS Archaeology Analyst","Remote Sensing Specialist","Digital Heritage Archivist","Archaeological Data Analyst","Remote/Entrepreneurship","Heritage Consultant","Archaeology Content Creator","Cultural Tourism Entrepreneur","Research Writing Freelancer"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -13950,13 +13409,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose any stream (Humanities, Commerce, or Science). Humanities helps with psychology; Commerce helps with numbers. Class 12 Boards.",
-          "After Class 12: Pursue Bachelor's in Fashion Management (B.F.M.) or Fashion Communication. Entrance Exams: NIFT Entrance Exam, CUET.",
-          "After Graduation: If you have BBA or B.Com, pursue MBA in Fashion Management or PG Diploma. Entrance Exams: NIFT (GAT), CAT, GMAT.",
-          "Top Institutions: NIFT (18 campuses), Pearl Academy (Delhi/Mumbai/Jaipur), FDDI (Noida/Chennai), Symbiosis Institute of Design (Pune).",
-          "Specializations: Retail Management, E-commerce, Merchandising, Brand Management, Sustainability."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue BBA/B.Sc. in Fashion Management (3-4 years)","Step 3: Complete MBA in Fashion/Luxury Brand Management","Step 4: Learn merchandising, retail strategy, trend forecasting","Step 5: Complete internship in fashion house/retail brand","Step 6: Join as Fashion Manager/Brand Manager/Retail Director","Pathway B: Design-to-Management Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue B.Des in Fashion Design from NIFT/NID (4 years)","Step 3: Learn fashion marketing, supply chain, visual merchandising","Step 4: Gain experience in fashion brand/export house","Step 5: Pursue PG Diploma/MBA in Fashion Business Management","Step 6: Join as Creative Director/Fashion Buyer/Collection Manager","Pathway C: Skill-Based/Certification Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (BA/BBA/B.Com)","Step 3: Complete diploma/certification in fashion merchandising","Step 4: Learn tools like Adobe Illustrator, PLM, social media marketing","Step 5: Build portfolio through fashion events/freelance styling","Step 6: Join as Visual Merchandiser/Fashion Stylist/E-commerce Manager"]
       },
       {
         id: "market",
@@ -13964,14 +13417,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Junior Merchandiser): ₹5L–₹8L per annum. Retail brands or e-commerce companies.",
-          "Mid-Level (Brand Manager): ₹12L–₹22L per annum. Leading teams and managing collections.",
-          "Senior/Leadership (Chief Merchandise Officer): ₹35L–₹65L+ per annum. Strategic leadership roles.",
-          "City Comparison: Mumbai and Delhi pay highest. Surat and Ludhiana are huge hubs for 'Export Management' roles.",
-          "Growth Trajectory: Industry growing at CAGR of 12.87%, with E-commerce roles growing even faster at 27%.",
-          "Market Size: India's fashion retail market expected to cross $124 billion by 2030."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA – ₹2.0 Cr+","Senior (10+ yrs): ₹25 – ₹50 LPA","Mid-Level (5–8 yrs): ₹14 – ₹25 LPA","Junior (3–5 yrs): ₹7 – ₹13 LPA","Entry Level (0–2 yrs): ₹4 – ₹7 LPA","Note: Metros pay 40% more. NIFT/MBA degrees boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bangalore, Hyderabad, Ahmedabad.","Top Industries: Luxury Retail, E-commerce, Export Houses, Branding.","Global Demand: USA, UK. Remote sustainability roles are rising.","Top Institutions","Government:","National Institute of Fashion Technology (NIFT), Delhi","National Institute of Design (NID), Ahmedabad","Indian Institute of Crafts & Design (IICD), Jaipur","Government College of Art & Craft, Kolkata","Private:","Pearl Academy, Delhi","Symbiosis Institute of Design, Pune","INIFD – Inter National Institute of Fashion Design","Lovely Professional University","Online:","NIFT Online Programs","IGNOU (Fashion Merchandising)","edX (Fashion Business courses)","Udemy (Fashion Management specializations)","Career Opportunities","Conventional","Fashion Merchandiser","Retail Store Manager","Buying Assistant","Visual Merchandiser","New-age and AI driven","Fashion E-commerce Manager","Omnichannel Fashion Analyst","AI Trend Forecasting Specialist","Fashion Data and CRM Analyst","Remote/entrepreneurship","Fashion Brand Consultant","Freelance Stylist","D2C Fashion Brand Founder","Fashion Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -14196,13 +13642,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 12: Choose Humanities stream (Geography, History, Economics). BA/BA (Hons) in Geography (3 years). Entrance: CUET, university-specific exams.",
-          "After Graduation: MA in Geography or specialized PG Diploma in Urban Planning/GIS (2 years). Entrance: CUET-PG, university-specific exams.",
-          "Doctoral Studies: PhD in Geography (3-5 years) for research and academic roles.",
-          "Government Entry: Urban Planner through UPSC, State Civil Services, or specialized recruitment.",
-          "Top Institutions: Delhi University, Banaras Hindu University, University of Mumbai, Jawaharlal Nehru University (JNU), University of Pune, University of Calcutta."
-        ]
+        content: ["Pathway A: Academic Route (After Class 12th)","Step 1: Pass Class 12th with Arts or Science stream.","Step 2: Complete B.A./B.Sc. in Geography from recognized university.","Step 3: Pursue M.A./M.Sc. in Geography or Applied Geography.","Step 4: Participate in fieldwork, surveys, and research projects.","Step 5: Complete M.Phil./Ph.D. in Geography for specialization.","Step 6: Join as Professor, Research Scientist, or Planning Analyst.","Pathway B: GIS & Remote Sensing Route","Step 1: Pass Class 12th with Science or Arts stream.","Step 2: Complete B.A./B.Sc. in Geography or Geoinformatics.","Step 3: Pursue P.G. Diploma/M.Sc. in GIS and Remote Sensing.","Step 4: Learn tools like ArcGIS, QGIS, Google Earth Engine.","Step 5: Intern with ISRO, Survey of India, or private firms.","Step 6: Work as GIS Analyst, Cartographer, or Spatial Data Scientist.","Pathway C: Government / Civil Services Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation with Geography as a subject.","Step 3: Choose Geography as optional in UPSC CSE exam.","Step 4: Prepare through coaching or dedicated self-study plan.","Step 5: Clear Prelims, Mains, and Interview rounds successfully.","Step 6: Serve as IAS Officer, Town Planner, or Survey Officer."]
       },
       {
         id: "market",
@@ -14210,14 +13650,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (0-3 years): ₹2.5L–₹4.5L. Positions: Junior Planner, GIS Analyst, Research Assistant.",
-          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Planner, GIS Specialist, Environmental Consultant.",
-          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Planning Director, Senior Consultant, Professor.",
-          "Leadership (15+ years): ₹18L–₹25L+. Positions: Chief Planner, Department Head, Institute Director.",
-          "Government (UPSC): Urban Planner starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
-          "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹22 – ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹20 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹5.5 LPA","Note: GIS/Remote Sensing skills boost pay by 40% in metros.","Where Are the Jobs?","Top Cities: Delhi, Bengaluru, Hyderabad, Mumbai, Pune, Kolkata.","Top Industries: Geospatial Tech, Urban Planning, Climate Research, NGOs, Government.","Global Demand: USA, UK, Australia; Remote GIS and ESG consulting trends.","Top Institutions","Career Opportunities","Conventional","Academic Geographer","Urban and Regional Planner","Cartographer","Environmental Consultant","New-age and AI driven","GIS Analyst","Remote Sensing Specialist","Spatial Data Analyst","Climate Risk Analyst","Remote/Entrepreneurship","GIS Freelance Consultant","Map Content Creator","Location Intelligence Entrepreneur","Geospatial Training Mentor"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -14448,13 +13881,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 12: Choose Humanities stream (Political Science, History, Economics). BA/BA (Hons) in Political Science (3 years). Entrance: CUET, university-specific exams.",
-          "After Graduation: MA in Political Science or specialized PG Diploma in Public Policy/International Relations (2 years). Entrance: CUET-PG, university-specific exams.",
-          "Doctoral Studies: PhD in Political Science (3-5 years) for research and academic roles.",
-          "Government Entry: IAS/IPS through UPSC, Policy Analyst through government recruitment, State Civil Services.",
-          "Top Institutions: Delhi University, Jawaharlal Nehru University (JNU), University of Mumbai, Banaras Hindu University, University of Pune, Ashoka University."
-        ]
+        content: ["Pathway A: Academic & Research Route (After Class 12th)","Step 1: Pass Class 12th with Arts/Humanities stream.","Step 2: Complete B.A. in Political Science from recognized university.","Step 3: Pursue M.A. in Political Science or International Relations.","Step 4: Qualify UGC NET/JRF for teaching and research eligibility.","Step 5: Complete M.Phil./Ph.D. in Political Science for specialization.","Step 6: Join as Professor, Research Fellow, or Policy Analyst.","Pathway B: Public Policy & Think Tank Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete B.A. in Political Science, Economics, or Sociology.","Step 3: Pursue M.A./M.P.P. in Public Policy or Governance Studies.","Step 4: Learn data analysis, policy drafting, and survey research tools.","Step 5: Intern with think tanks, policy institutes, or international organizations.","Step 6: Work as Policy Researcher, Political Analyst, or Programme Officer.","Pathway C: Civil Services / Government Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation with Political Science as a subject.","Step 3: Choose Political Science as optional in UPSC CSE.","Step 4: Prepare through coaching or structured self-study plan.","Step 5: Clear Prelims, Mains, and Interview rounds successfully.","Step 6: Serve as IAS/IFS Officer or Legislative Affairs Specialist."]
       },
       {
         id: "market",
@@ -14462,14 +13889,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (0-3 years): ₹2.5L–₹4.5L. Positions: Research Associate, Junior Policy Analyst, Teaching Assistant.",
-          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Researcher, Policy Analyst, Assistant Professor.",
-          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Research Director, Senior Policy Advisor, Associate Professor.",
-          "Leadership (15+ years): ₹18L–₹30L+. Positions: Think Tank Director, Department Head, Professor.",
-          "Government (UPSC): IAS starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
-          "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2.0 Crore","Senior / Lead Role (10+ yrs): ₹20 – ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 – ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹9 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹5.5 LPA","Note: Metros pay 30% more; UGC-NET/PhD boosts academic pay scales.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.","Top Industries: Think Tanks, NGOs, Political Consulting, Media, Corporate CSR.","Global Demand: USA, UK, UAE; Rising remote policy research roles.","Top Institutions","Government","Jawaharlal Nehru University (JNU), New Delhi","University of Delhi (DU), New Delhi","Banaras Hindu University (BHU), Varanasi","University of Hyderabad, Hyderabad","Private","Christ University, Bengaluru","Symbiosis School of Liberal Arts, Pune","Ashoka University, Sonipat","Jindal School of Government & Public Policy, Sonipat","Online","IGNOU (Indira Gandhi National Open University)","Coursera – Introduction to Political Science (various universities)","edX – Political Science & Government Courses","Swayam – NPTEL Political Science Courses","Career Opportunities","Conventional","Political Science Professor","Civil Services Officer","Policy Research Associate","Legislative Assistant","New-age and AI driven","Public Policy Analyst","Political Data Analyst","Government Affairs Specialist","Geopolitical Risk Analyst","Remote/Entrepreneurship","Political Consultant","Public Affairs Consultant","Policy Content Creator","Independent Research Consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -14699,13 +14119,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 12: Choose Humanities stream (History, Literature, Philosophy). BA/BA (Hons) in History (3 years). Entrance: CUET, university-specific exams.",
-          "After Graduation: MA in History or specialized PG Diploma in Heritage Management/Museum Studies (2 years). Entrance: CUET-PG, university-specific exams.",
-          "Doctoral Studies: PhD in History (3-5 years) for research and academic roles.",
-          "Government Entry: Historian through UPSC, State Civil Services, or specialized recruitment in cultural departments.",
-          "Top Institutions: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, University of Mumbai, University of Calcutta, Aligarh Muslim University."
-        ]
+        content: ["Pathway A: Academic Route (After Class 12th)","Step 1: Pass Class 12th with Arts/Humanities stream.","Step 2: Complete B.A. in History from recognized university.","Step 3: Pursue M.A. in History or Ancient/Medieval History.","Step 4: Qualify UGC NET/JRF for teaching and research eligibility.","Step 5: Complete M.Phil./Ph.D. in History for specialization.","Step 6: Join as Professor, Research Fellow, or Academic Author.","Pathway B: Museum & Archival Studies Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete B.A. in History, Archaeology, or Heritage Studies.","Step 3: Pursue P.G. Diploma/M.A. in Museology or Archival Studies.","Step 4: Learn preservation, cataloguing, and digital archiving tools.","Step 5: Intern with National Archives, museums, or heritage organizations.","Step 6: Work as Museum Curator, Archivist, or Heritage Consultant.","Pathway C: Civil Services / Government Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation with History as a subject.","Step 3: Choose History as optional in UPSC CSE exam.","Step 4: Prepare through coaching or structured self-study plan.","Step 5: Clear Prelims, Mains, and Interview rounds successfully.","Step 6: Serve as IAS/IFS Officer or Cultural Affairs Officer."]
       },
       {
         id: "market",
@@ -14713,14 +14127,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (0-3 years): ₹2.5L–₹4.5L. Positions: Research Assistant, Junior Curator, Lecturer.",
-          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Researcher, Museum Curator, Assistant Professor.",
-          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Professor, Research Director, Senior Curator.",
-          "Leadership (15+ years): ₹18L–₹28L+. Positions: Department Head, Institute Director, Chief Curator.",
-          "Government (UPSC): Historian starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
-          "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Kolkata) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities in heritage tourism."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹35L – ₹1Cr","Senior (10+ yrs): ₹16 – ₹30L","Mid (5–8 yrs): ₹9 – ₹15L","Junior (3–5 yrs): ₹5.5 – ₹8L","Entry (0–2 yrs): ₹3 – ₹5L","Note: PhD/NET boosts pay; Metros pay 25% extra.","Where Are the Jobs?","Top Cities: Delhi, Kolkata, Jaipur, Hyderabad, Mumbai.","Top Industries: Museums, Archives, Heritage Tourism, Academia.","Global Demand: UK, USA; Remote research is trending.","Top Institutions","Career Opportunities","Conventional","Academic Historian","Archivist","Museum Curator","History Teacher","New-age and AI driven","Digital Historian","Heritage Data Analyst","Public History Researcher","AI-assisted Archive Specialist","Remote/Entrepreneurship","History Content Creator","Independent Research Consultant","Heritage Tour Entrepreneur","Historical Writing Freelancer"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -14954,13 +14361,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 12: Choose Humanities stream (Sociology, History, Economics). BA/BA (Hons) in Sociology (3 years). Entrance: CUET, university-specific exams.",
-          "After Graduation: MA in Sociology or specialized PG Diploma in Social Development/Social Research (2 years). Entrance: CUET-PG, university-specific exams.",
-          "Doctoral Studies: PhD in Sociology (3-5 years) for research and academic roles.",
-          "Government Entry: Social Welfare Officer through UPSC, State Civil Services, or specialized recruitment.",
-          "Top Institutions: Delhi University, Jawaharlal Nehru University (JNU), University of Mumbai, Banaras Hindu University, University of Pune, University of Calcutta."
-        ]
+        content: ["Pathway A: Academic & Research Route (After Class 12th)","Step 1: Pass Class 12th with Arts/Humanities stream.","Step 2: Complete B.A. in Sociology from recognized university.","Step 3: Pursue M.A. in Sociology or Social Work.","Step 4: Qualify UGC NET/JRF for teaching and research eligibility.","Step 5: Complete M.Phil./Ph.D. in Sociology for specialization.","Step 6: Join as Professor, Research Fellow, or Social Analyst.","Pathway B: Development & NGO Sector Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete B.A. in Sociology, Social Work, or Anthropology.","Step 3: Pursue M.A. in Sociology or M.S.W. (Social Work).","Step 4: Learn field survey, SPSS, data analysis, and report writing.","Step 5: Intern with NGOs, UN agencies, or rural development programmes.","Step 6: Work as Development Officer, Programme Manager, or CSR Consultant.","Pathway C: Civil Services / Government Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation with Sociology as a subject.","Step 3: Choose Sociology as optional in UPSC CSE exam.","Step 4: Prepare through coaching or structured self-study plan.","Step 5: Clear Prelims, Mains, and Interview rounds successfully.","Step 6: Serve as IAS/IPS Officer or Social Welfare Officer."]
       },
       {
         id: "market",
@@ -14968,14 +14369,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (0-3 years): ₹2.5L–₹4.5L. Positions: Research Associate, Junior Social Researcher, Teaching Assistant.",
-          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Researcher, Social Program Manager, Assistant Professor.",
-          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Research Director, Senior Program Manager, Associate Professor.",
-          "Leadership (15+ years): ₹18L–₹25L+. Positions: Institute Director, Department Head, Professor.",
-          "Government (UPSC): Social Welfare Officer starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
-          "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18 – ₹32 LPA","Mid-Level Professional (5–8 yrs): ₹9 – ₹16 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹8.5 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹5 LPA","Note: Metros pay 30% more; PhD/NET impacts academic pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.","Top Industries: NGOs, CSR, Market Research, UX Research, Policy.","Global Demand: USA, UK; Remote social impact consulting.","Top Institutions","Career Opportunities","Conventional","Sociology Professor","Social Researcher","NGO Project Officer","Community Development Officer","New-age and AI driven","Social Data Analyst","UX Researcher","Policy Research Associate","Impact Evaluation Specialist","Remote/Entrepreneurship","Independent Social Research Consultant","Sociology Content Creator","Online Academic Mentor","Social Impact Consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",

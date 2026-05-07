@@ -170,14 +170,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a biochemist.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science stream (PCB or PCMB). Biology and Chemistry are non-negotiable.",
-          "After Class 12: Pursue a B.Sc. in Biochemistry or an Integrated M.Sc. (5 years). Entrance: CUET (for central universities), NEST, or State-level CETs.",
-          "After Graduation: Pursue an M.Sc. in Biochemistry or a specialized field like Biotechnology. Entrance: IIT-JAM, GAT-B, or CUET-PG.",
-          "Advanced: Pursue a Ph.D. at IISc, IITs, or TIFR for high-end research roles.",
-          "Specializations: Clinical Biochemistry, Molecular Biochemistry, Food Biochemistry, Environmental Biochemistry.",
-          "Career Switch: Chemistry or Biology graduates can pursue M.Sc. Biochemistry with bridge courses."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCB (Science)","Step 2: Pursue B.Sc. in Biochemistry (3 years)","Step 3: Complete M.Sc. in Biochemistry (2 years)","Step 4: Gain laboratory internship in research institute","Step 5: Pursue Ph.D. or NET/GATE for research","Step 6: Join as Scientist/Professor/Research Associate","Pathway B: Professional/Industry Route","Step 1: Complete Class 12th with PCB stream","Step 2: Pursue B.Tech Biotechnology/Biochemical Engineering (4 years)","Step 3: Learn tools like HPLC, PCR, chromatography","Step 4: Complete industry internship in pharma company","Step 5: Pursue M.Tech or MBA in Biotech Management","Step 6: Join as Biotech Analyst/Product Manager/QC Officer","Pathway C: Skill-Based Entry Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue diploma in Medical Lab Technology","Step 3: Get certified in clinical biochemistry techniques","Step 4: Join hospital/diagnostic lab as technician","Step 5: Gain experience and pursue part-time B.Sc.","Step 6: Advance as Senior Lab Technologist/Supervisor"]
       },
       {
         id: "market",
@@ -185,14 +178,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-level (Junior Researcher/Analyst): ₹3.5L–₹6.0L annually. Positions: Lab Technician, Research Associate, Junior Scientist.",
-          "Mid-level (Senior Scientist/Assistant Professor): ₹10L–₹18L annually. Positions: Senior Scientist, Lab Manager, Assistant Professor.",
-          "Senior-level (Principal Scientist/R&D Head): ₹25L–₹45L annually. Positions: Research Director, Institute Head, Chief Scientist.",
-          "Leadership (Director/CXO): ₹60L+ annually. Positions: VP Research, Chief Innovation Officer.",
-          "City Comparison: Hyderabad and Bangalore (The Biotech Hubs) pay the highest, followed by Pune and Ahmedabad.",
-          "Market Size: The Indian Diagnostic and Biotech market is growing at a CAGR of ~11%, projected to reach $34 Billion by 2030."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA – ₹1.5 Cr+","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹20 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Salary Note: Metros pay 30% more. NET/GATE exams boost entry salary.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Ahmedabad.","Top Industries: Pharma, Biotech, Diagnostics, Clinical Research.","Global Demand: High in USA, Germany. R&D outsourcing is growing.","Top Institutions","Government:","Indian Institute of Science (IISc), Bangalore","University of Delhi","Banaras Hindu University (BHU)","Jawaharlal Nehru University (JNU)","Private:","Manipal Academy of Higher Education","Amity University","SRM Institute of Science and Technology","Lovely Professional University","Online:","NPTEL (IIT/IISc courses)","IGNOU","Coursera (partnered Indian institutes)","SWAYAM Portal","Career Opportunities","Conventional","Biochemist","Research Associate","Quality Control Analyst","Clinical Laboratory Scientist","New-age and AI driven","Bioinformatics Analyst","Computational Biologist","Molecular Diagnostics Specialist","Drug Discovery Data Analyst","Remote/entrepreneurship","Scientific Content Creator","Medical Writer","Biotech Consultant","Diagnostic Startup Founder"]
       },
       {
         id: "locations",
@@ -428,14 +414,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a bioinformatician.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science (PCMB). Biology and Math are both critical!",
-          "After Class 12: Pursue B.Tech (Bioinformatics) or B.Sc. (Biotech/CS) with Bioinformatics. Entrance: JEE Main, VITEEE, or CUET.",
-          "After Graduation: Pursue M.Tech/M.Sc. in Bioinformatics or Data Science. Entrance: IIT-JAM, GAT-B, or CUET-PG.",
-          "Career Switch: CS/IT graduates can do a PG Diploma in Bioinformatics.",
-          "Specializations: Genomics, Computational Biology, Drug Discovery, Precision Medicine, Biostatistics.",
-          "Advanced: Post-doctoral research or leadership roles in biotech and pharmaceutical companies."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCB/PCM (Science)","Step 2: Pursue B.Sc. in Bioinformatics (3 years)","Step 3: Complete M.Sc. in Bioinformatics (2 years)","Step 4: Learn tools like BLAST, Python, R programming","Step 5: Pursue Ph.D. or clear GATE/NET exam","Step 6: Join as Bioinformatics Scientist/Professor/Researcher","Pathway B: Engineering/IT Route","Step 1: Complete Class 12th with PCM stream","Step 2: Pursue B.Tech in Bioinformatics/Computer Science (4 years)","Step 3: Learn genomics, machine learning, database management","Step 4: Complete internship in biotech/pharma/IT company","Step 5: Pursue M.Tech or MS in Computational Biology","Step 6: Join as Computational Biologist/Data Analyst/Software Developer","Pathway C: Skill-Based/Domain Switch Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue B.Sc. in Biology/Computer Science","Step 3: Complete certification in Bioinformatics (online/offline)","Step 4: Learn SQL, Python, genomic databases practically","Step 5: Gain internship in research lab/biotech startup","Step 6: Join as Bioinformatics Analyst/Lab Data Manager"]
       },
       {
         id: "market",
@@ -443,14 +422,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-level (Analyst): ₹4.5L–₹7.5L annually. Positions: Bioinformatics Analyst, Data Analyst, Junior Scientist.",
-          "Mid-level (Senior Scientist): ₹15L–₹28L annually. Positions: Senior Scientist, Project Lead, Computational Biologist.",
-          "Senior/Leadership (Principal Investigator/Lead): ₹35L–₹55L+ annually. Positions: Research Director, Lab Head, Chief Scientist.",
-          "CXO Level: ₹80L+ annually. Positions: VP Research, Chief Innovation Officer.",
-          "Growth Trajectory: The India Bioinformatics market is projected to reach $1.15 Billion by 2030, with a massive CAGR of ~19%.",
-          "Market Demand: High shortage of talent in AI-driven drug discovery and Genomics."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹30 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹28 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA","Entry Level (0–2 yrs): ₹5 – ₹9 LPA","Note: Metros pay 40% higher. AI/ML skills command a premium.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Chennai, Pune, Delhi-NCR.","Top Industries: Genomics, Pharma R&D, Agri-tech, Precision Medicine.","Global Demand: High in USA, UK. Remote freelance roles increasing.","Top Institutions","Government:","Jawaharlal Nehru University (JNU), Delhi","University of Hyderabad","Pondicherry University","Indian Institute of Science (IISc), Bangalore","Private:","Manipal Academy of Higher Education","Amity University","SRM Institute of Science and Technology","Vellore Institute of Technology (VIT)","Online:","NPTEL (IIT/IISc courses)","IGNOU","SWAYAM Portal","Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Bioinformatics Analyst","Genomics Data Analyst","Research Associate","Clinical Data Analyst","New-age and AI driven","Computational Biologist","AI-Driven Drug Discovery Analyst","Multi-Omics Data Scientist","Precision Medicine Analyst","Remote/entrepreneurship","Freelance Bioinformatics Consultant","Scientific Content Creator","Online Bioinformatics Trainer","Biotech Startup Founder"]
       },
       {
         id: "locations",
@@ -693,14 +665,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a geneticist.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science stream (PCB or PCMB). Focus on Biology.",
-          "After Class 12: Pursue B.Sc. in Genetics or B.Tech in Genetic Engineering. Exams: CUET, JEE, BITSAT.",
-          "After Graduation: Pursue M.Sc. in Human Genetics or Bioinformatics. Exams: GAT-B, IIT-JAM, CUET-PG.",
-          "The Final Step: Pursue a Ph.D. or a PG Diploma in Genetic Counseling. Licensing: Board Certification (BGC).",
-          "Specializations: Medical Genetics, Agricultural Genetics, Forensic Genetics, Bioinformatics.",
-          "Advanced: Post-doctoral research or leadership roles in biotech companies and research institutes."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCB (Science)","Step 2: Pursue B.Sc. in Genetics/Biotechnology (3 years)","Step 3: Complete M.Sc. in Genetics/Human Genetics (2 years)","Step 4: Gain research experience in genetics laboratory","Step 5: Pursue Ph.D. or clear GATE/NET/ICMR exam","Step 6: Join as Geneticist/Research Scientist/University Professor","Pathway B: Medical/Clinical Genetics Route","Step 1: Complete Class 12th with PCB stream","Step 2: Pursue MBBS or B.Sc. in Medical Genetics (4-5 years)","Step 3: Complete MD/M.Sc. in Medical/Clinical Genetics","Step 4: Learn genetic counselling and diagnostic techniques","Step 5: Get trained in cytogenetics, DNA sequencing tools","Step 6: Join as Genetic Counsellor/Clinical Geneticist/Diagnostic Specialist","Pathway C: Skill-Based/Certification Entry Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue any life sciences graduate degree","Step 3: Complete certification in genomics/genetic testing","Step 4: Learn tools like CRISPR, PCR, bioinformatics software","Step 5: Join diagnostic lab or biotech company as trainee","Step 6: Advance as Genomics Analyst/Lab Geneticist/Research Associate"]
       },
       {
         id: "market",
@@ -708,14 +673,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-level (Researcher/Technician): ₹4.0L–₹8.0L annually. Positions: Lab Technician, Research Associate, Junior Scientist.",
-          "Mid-level (Senior Scientist/Counselor): ₹12L–₹25L annually. Positions: Senior Scientist, Genetic Counselor, Lab Manager.",
-          "Senior/Leadership (Lab Director/CXO): ₹40L–₹75L+ annually. Positions: Research Director, Institute Head, Chief Scientific Officer.",
-          "City Comparison: Bangalore, Hyderabad, and Pune offer 20-30% higher pay than other cities due to high industry density.",
-          "Hiring Growth: The Indian human genetics market is growing at a 10.8% CAGR, reaching over $1.7 Billion in 2025.",
-          "Growth Path: It typically takes 5-7 years to move from an entry-level associate to a senior scientist role."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹55LPA–₹1.4Cr","Senior / Lead Role (10+ yrs): ₹22–₹42LPA","Mid-Level Professional (5–8 yrs): ₹11–₹19LPA","Junior / Associate (3–5 yrs): ₹6–₹10LPA","Entry Level (0–2 yrs): ₹3.5–₹5.5LPA","Salary Note: Metros pay 30% more. Specialized certifications boost entry pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Delhi-NCR.","Top Industries: Genomics R&D, Pharma, Diagnostics, Agri-biotech.","Global Demand: High in USA, UK. Remote data analysis growing.","Top Institutions","Government:","Indian Institute of Science (IISc), Bangalore","Indian Agricultural Research Institute (IARI), Delhi","Centre for Cellular and Molecular Biology (CCMB), Hyderabad","Banaras Hindu University (BHU)","Private:","Manipal Academy of Higher Education","Amity University","SRM Institute of Science and Technology","Birla Institute of Technology and Science (BITS), Pilani","Online:","NPTEL (IIT/IISc courses)","IGNOU","SWAYAM Portal","Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Geneticist","Cytogenetics Analyst","Molecular Genetics Scientist","Genetic Counselor","New-age and AI driven","Genomics Data Analyst","Computational Geneticist","Precision Medicine Analyst","AI-Driven Genomics Researcher","Remote/entrepreneurship","Genetics Consultant","Medical Genetics Writer","Online Genetics Trainer","Genomics Startup Founder"]
       },
       {
         id: "locations",
@@ -950,14 +908,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a microbiologist.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science stream (PCB). Focus on Biology and Chemistry.",
-          "After Class 12: Pursue B.Sc. in Microbiology or B.Tech in Biotechnology. Entrance: CUET, State-level CETs. Minimum 50% in Class 12.",
-          "After Graduation: Pursue an M.Sc. in Microbiology (Medical, Food, or Industrial). Exams: IIT-JAM, GAT-B, CUET-PG.",
-          "Lateral Entry: B.Sc. Botany/Zoology graduates can switch to M.Sc. Microbiology with bridge courses in lab techniques.",
-          "Advanced: PhD in Microbiology (3-5 years) for research and academic leadership roles.",
-          "Specializations: Medical Microbiology, Food Microbiology, Industrial Microbiology, Environmental Microbiology."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCB (Science)","Step 2: Pursue B.Sc. in Microbiology (3 years)","Step 3: Complete M.Sc. in Microbiology (2 years)","Step 4: Gain research experience in microbiology laboratory","Step 5: Pursue Ph.D. or clear GATE/NET/ICMR exam","Step 6: Join as Microbiologist/Research Scientist/University Professor","Pathway B: Medical/Clinical Microbiology Route","Step 1: Complete Class 12th with PCB stream","Step 2: Pursue MBBS or B.Sc. in Medical Microbiology","Step 3: Complete MD/M.Sc. in Clinical Microbiology","Step 4: Learn diagnostic techniques like ELISA, culture sensitivity","Step 5: Complete internship in hospital/diagnostic laboratory","Step 6: Join as Clinical Microbiologist/Infection Control Officer/Pathologist","Pathway C: Skill-Based/Industry Entry Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue diploma in Medical Lab Technology","Step 3: Get certified in food/water/environmental microbiology","Step 4: Learn quality control and sterility testing techniques","Step 5: Join pharma/food industry lab as lab technician","Step 6: Advance as QC Microbiologist/Senior Lab Analyst/Supervisor"]
       },
       {
         id: "market",
@@ -965,14 +916,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-level (Lab Analyst/QC Trainee): ₹3.0L–₹5.5L annually. Positions: Lab Technician, Quality Control Officer, Research Assistant.",
-          "Mid-level (Senior Scientist/Assistant Prof): ₹12L–₹22L annually. Positions: Senior Scientist, Lab Director, Assistant Professor.",
-          "Senior/Leadership (R&D Head/Director): ₹40L–₹75L+ annually. Positions: Research Director, Institute Head, Chief Scientist.",
-          "City Comparison: Bangalore, Hyderabad, and Pune pay 25% higher than Tier-2 cities due to being 'Biotech Hubs.'",
-          "Growth Path: Typically, it takes 3–5 years to move from a fresher to a Senior Scientist role.",
-          "Market Growth: The Indian microbiology testing market is growing at a 10.26% CAGR, reaching over $318 Million by 2030."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹20 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Salary Note: Metros pay 30% more. CSIR-NET/GATE exams boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Ahmedabad, Delhi-NCR.","Top Industries: Pharma R&D, Biotech, Food Processing, Diagnostics.","Global Demand: High in USA, Germany. Remote research roles rising.","Top Institutions","Government:","All India Institute of Medical Sciences (AIIMS), Delhi","Jawaharlal Nehru University (JNU), Delhi","University of Delhi (South Campus)","Maharaja Sayajirao University of Baroda","Private:","Manipal Academy of Higher Education","Amity University","VIT University, Vellore","Jain University, Bangalore","Online:","NPTEL (IIT/IISc courses)","IGNOU","SWAYAM Portal","Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Microbiologist","Quality Control Microbiologist","Clinical Microbiology Analyst","Food Safety Microbiologist","New-age and AI driven","Molecular Diagnostics Specialist","Bioinformatics-Microbiology Analyst","Industrial Fermentation Analyst","AI-Enabled Pathogen Surveillance Analyst","Remote/entrepreneurship","Microbiology Consultant","Regulatory Compliance Consultant","Scientific Content Creator","Diagnostic Startup Founder"]
       },
       {
         id: "locations",
@@ -1208,14 +1152,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a clinical researcher.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science (PCB/PCMB). Biology and Chemistry are essential.",
-          "After Class 12: Pursue B.Pharm, B.Sc (Life Sciences), MBBS, or BDS. Entrance: NEET, CUET, or State CETs.",
-          "Post-Graduation: Pursue a PG Diploma or M.Sc in Clinical Research. Entry Level Role: CRC or PV Associate.",
-          "Senior Level: Gain 3-5 years of experience + specialized certifications. Role: Senior CRA or Project Manager.",
-          "Specializations: Pharmacovigilance, Medical Writing, Data Management, Regulatory Affairs.",
-          "Advanced: Leadership roles in CROs, pharmaceutical companies, or regulatory bodies."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCB (Science)","Step 2: Pursue B.Sc. in Life Sciences/Pharmacy (3-4 years)","Step 3: Complete M.Sc. in Clinical Research (2 years)","Step 4: Learn ICH-GCP guidelines and regulatory affairs","Step 5: Complete internship in clinical research organization (CRO)","Step 6: Join as Clinical Research Associate/Clinical Project Manager","Pathway B: Pharmacy/Medical Route","Step 1: Complete Class 12th with PCB/PCM stream","Step 2: Pursue B.Pharm or MBBS degree (4-5 years)","Step 3: Get certified in Good Clinical Practice (GCP)","Step 4: Learn tools like Oracle, CTMS, EDC systems","Step 5: Gain experience in hospital/pharma clinical trials","Step 6: Join as Clinical Trial Manager/Medical Monitor/Drug Safety Officer","Pathway C: Certification/Skill-Based Entry Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue any life sciences graduate degree","Step 3: Complete PG Diploma in Clinical Research","Step 4: Get certified through ACRP or SoCRA certification","Step 5: Join CRO as Clinical Data Coordinator/Trainee","Step 6: Advance as Senior CRA/Pharmacovigilance Associate"]
       },
       {
         id: "market",
@@ -1223,14 +1160,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-level (CRC/Trainee): ₹3.5L–₹6.5L annually. Positions: Clinical Research Coordinator, Data Entry Operator, Patient Recruiter.",
-          "Mid-level (CRA/Manager): ₹12L–₹22L annually. Positions: Clinical Research Associate, Site Manager, Data Manager.",
-          "Senior-level (Clinical Director): ₹35L–₹60L annually. Positions: Clinical Director, Project Lead, Regulatory Manager.",
-          "Leadership (CXO/Head): ₹1 Crore+ annually. Positions: Chief Medical Officer, VP Clinical Operations.",
-          "Market Growth: The India Clinical Trials market is projected to reach $3.37 Billion by 2030, growing at ~8.6% annually.",
-          "Metro vs. Tier-2: Cities like Hyderabad and Bangalore pay 20% higher than Tier-2 cities due to concentration of biotech hubs."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹50 LPA – ₹1.2 Crore","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹22 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Salary Note: Metros pay 30% extra. GCP certification boosts pay.","Where Are the Jobs?","Top Cities: Mumbai, Bangalore, Hyderabad, Pune, Delhi.","Top Industries: CROs, Pharma, Healthcare, Biotech.","Global Demand: USA, UK. Remote monitoring is growing.","Top Institutions","Government:","All India Institute of Medical Sciences (AIIMS), Delhi","Indian Council of Medical Research (ICMR)","Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh","National Institute of Pharmaceutical Education & Research (NIPER)","Private:","Manipal Academy of Higher Education","SRM Institute of Science and Technology","Jamia Hamdard University, Delhi","Symbiosis International University, Pune","Online:","NPTEL (IIT/IISc courses)","IGNOU","SWAYAM Portal","Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Clinical Research Associate","Clinical Trial Coordinator","Clinical Data Manager","Pharmacovigilance Associate","New-age and AI driven","Clinical Data Scientist","AI-Driven Trial Analyst","Digital Health Research Associate","Real-World Evidence Analyst","Remote/entrepreneurship","Remote Clinical Research Consultant","Medical Writer","Clinical Research Trainer","CRO Startup Founder"]
       },
       {
         id: "locations",
@@ -1465,14 +1395,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a fishery biologist.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science (PCB/PCMB). Biology is non-negotiable.",
-          "After Class 12: Pursue a B.F.Sc. (Bachelor of Fishery Science)—a 4-year degree. Entrance: ICAR AIEEA, CUET, or State CETs.",
-          "After Graduation: Pursue an M.F.Sc. (2 years) or Ph.D. (for research roles). Entrance: ICAR AIEEA-PG/AICE-JRF/SRF.",
-          "Lateral Entry: B.Sc. Zoology/Life Sciences graduates can switch via an M.Sc. in Fisheries with bridge courses.",
-          "Specializations: Marine Fisheries, Inland Fisheries, Aquaculture, Fish Genetics, Fisheries Management.",
-          "Advanced: Post-doctoral research or leadership roles in government and international organizations."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCB (Science)","Step 2: Pursue B.F.Sc. in Fisheries Science (4 years)","Step 3: Complete M.F.Sc. in Fishery Biology (2 years)","Step 4: Gain fieldwork experience in fisheries research station","Step 5: Pursue Ph.D. or clear ICAR-NET/ARS exam","Step 6: Join as Fishery Scientist/Professor/Research Officer","Pathway B: Applied/Industry Route","Step 1: Complete Class 12th with PCB stream","Step 2: Pursue B.Sc. in Zoology/Aquaculture (3 years)","Step 3: Complete M.Sc. in Marine Biology/Aquaculture","Step 4: Learn fish taxonomy, water quality testing techniques","Step 5: Complete internship in CIFRI/CMFRI/state fisheries department","Step 6: Join as Aquaculture Manager/Fisheries Development Officer","Pathway C: Skill-Based/Diploma Entry Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue diploma in Fisheries Technology/Aquaculture","Step 3: Get trained in hatchery management practically","Step 4: Join fish farm or hatchery as technician","Step 5: Gain experience and pursue part-time B.F.Sc.","Step 6: Advance as Senior Fisheries Technologist/Farm Supervisor"]
       },
       {
         id: "market",
@@ -1480,14 +1403,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-level (Fisheries Officer/Researcher): ₹4.5L–₹8.4L annually. Positions: Research Assistant, Fisheries Officer, Farm Manager.",
-          "Mid-level (Senior Scientist/Farm Manager): ₹10L–₹18L annually. Positions: Senior Scientist, Lab Director, Aquaculture Manager.",
-          "Senior/Leadership (Director/Chief Scientist): ₹25L–₹45L+ annually. Positions: Research Director, Institute Head, Chief Scientist.",
-          "Salary Comparison: Metro cities (Mumbai/Chennai) offer higher corporate salaries, while Government roles in Tier-2/3 coastal towns offer stable pay with excellent perks.",
-          "Demand: India currently needs over 15,000 fisheries graduates annually, but supply is only around 4,500. This 'Manpower Gap' means huge job security.",
-          "Industry Growth: The sector is growing at ~10% annually, targeting a $15 Billion export market by 2030."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18 – ₹35 LPA","Mid-Level Professional (5–8 yrs): ₹9 – ₹16 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹9 LPA","Entry Level (0–2 yrs): ₹3 – ₹6 LPA","Note: Coastal regions pay 30% extra. ICAR-NET/ARS impact high.","Where Are the Jobs?","Top Cities: Kochi, Vizag, Chennai, Mumbai, Kolkata, Bhubaneswar.","Top Industries: Aquaculture, Seafood Export, Feed Mills, Research Institutes.","Global Demand: High in Norway, Canada. Remote data analysis growing.","Top Institutions","Government:","Central Institute of Fisheries Education (CIFE), Mumbai","Central Marine Fisheries Research Institute (CMFRI), Kochi","Central Inland Fisheries Research Institute (CIFRI), Kolkata","College of Fisheries, Mangalore (KVAFSU)","Private:","Amity University","Lovely Professional University","Sharda University","NIMS University, Jaipur","Online:","NPTEL (IIT/IISc courses)","IGNOU","SWAYAM Portal","Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Fishery Biologist","Aquatic Research Officer","Hatchery Biologist","Marine Resource Scientist","New-age and AI driven","Aquaculture Data Analyst","GIS-Based Fisheries Analyst","Marine Conservation Technologist","AI-Enabled Stock Assessment Analyst","Remote/entrepreneurship","Fisheries Consultant","Aquaculture Startup Founder","Scientific Content Creator","Online Fisheries Trainer","The future: Sustainability, marine conservation, and resource management = a high-growth future in fishery biology."]
       },
       {
         id: "locations",
@@ -1723,14 +1639,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a physiologist.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science (PCB). Focus on strong basics in Biology and Chemistry.",
-          "After Class 12: Option A (Academic): B.Sc. in Physiology (3 Years). Option B (Professional): MBBS (5.5 Years) followed by MD in Physiology (3 Years).",
-          "Exams: CUET (for B.Sc.), NEET-UG (for MBBS).",
-          "After Graduation: M.Sc. in Medical Physiology (2-3 Years). Path: Research Fellow (CSIR-NET) or Assistant Professor.",
-          "Activity: Participate in Science Olympiads and research projects.",
-          "Advanced: PhD in Physiology (3-5 years) for research and academic leadership roles."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCB (Science)","Step 2: Pursue B.Sc. in Physiology/Human Biology (3 years)","Step 3: Complete M.Sc. in Physiology (2 years)","Step 4: Gain research experience in physiology laboratory","Step 5: Pursue Ph.D. or clear GATE/NET/ICMR exam","Step 6: Join as Physiologist/Research Scientist/University Professor","Pathway B: Medical/Clinical Physiology Route","Step 1: Complete Class 12th with PCB stream","Step 2: Pursue MBBS or B.Sc. in Medical Physiology","Step 3: Complete MD/M.Sc. in Clinical Physiology","Step 4: Learn cardiac, respiratory, neurophysiology diagnostic techniques","Step 5: Complete clinical training in hospital/medical institute","Step 6: Join as Clinical Physiologist/Medical Researcher/Hospital Consultant","Pathway C: Skill-Based/Applied Entry Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue B.Sc. in any life sciences discipline","Step 3: Complete diploma/certification in exercise/sports physiology","Step 4: Learn tools like spirometry, ECG, EMG practically","Step 5: Join sports academy/rehabilitation centre as trainee","Step 6: Advance as Exercise Physiologist/Sports Scientist/Wellness Consultant"]
       },
       {
         id: "market",
@@ -1738,14 +1647,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-level (0-3 years): ₹4.5L–₹7.5L annually. Positions: Research Assistant, Lab Technician, Junior Lecturer.",
-          "Mid-level (4-8 years): ₹12L–₹22L annually. Positions: Senior Researcher, Lab Director, Assistant Professor.",
-          "Senior/Leadership (8+ years): ₹35L–₹65L+ annually. Positions: Professor, Research Director, Institute Head.",
-          "Comparison: Metros like Hyderabad and Bangalore pay ~20% more due to concentration of Biotech and Pharma hubs.",
-          "Demand: Hiring in 'Exercise Physiology' and 'Clinical Research' is growing at 12% annually.",
-          "Projections: By 2030, demand for non-clinical physiologists in fitness and tech industry is expected to double."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20 – ₹38 LPA","Mid-Level Professional (5–8 yrs): ₹10 – ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Note: Metros pay 30% more. MD/PhD degrees boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Delhi, Mumbai, Chennai, Pune.","Top Industries: Medical Academics, Pharma, Sports Science, Wellness.","Global Demand: USA, UAE. Remote health coaching is rising.","Top Institutions","Government:","All India Institute of Medical Sciences (AIIMS), Delhi","University of Calcutta, Kolkata","Banaras Hindu University (BHU)","University of Madras, Chennai","Private:","Manipal Academy of Higher Education","Kasturba Medical College, Mangalore","Amity University","Sri Ramachandra Institute of Higher Education, Chennai","Online:","NPTEL (IIT/IISc courses)","IGNOU","SWAYAM Portal","Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Physiologist","Clinical Physiologist","Research Associate","Physiology Faculty","New-age and AI driven","Exercise Physiologist","Neurophysiology Analyst","Digital Health Research Analyst","AI-Based Health Data Analyst","Remote/entrepreneurship","Online Physiology Trainer","Medical Content Creator","Health Research Consultant","Wellness Startup Founder"]
       },
       {
         id: "locations",
@@ -1989,14 +1891,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Multiple entry routes to become a biotech researcher.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science stream (PCB or PCMB). Biology and Chemistry are mandatory.",
-          "After Class 12: Pursue B.Tech Biotechnology or B.Sc. Biotechnology/Microbiology. Entrance: JEE Main (IITs/NITs), CUET (Central Universities), BITSAT.",
-          "After Graduation: Pursue M.Tech or M.Sc. in Biotechnology/Genetics/Bioinformatics. Entrance: GAT-B (DBT-supported seats), IIT-JAM, GATE.",
-          "The Final Step: Doctorate (Ph.D.) is essential for high-end research roles. Focus on a niche like 'Stem Cell Research' or 'Gene Therapy'.",
-          "Specializations: Molecular Biotechnology, Bioinformatics, Bioprocess Engineering, Synthetic Biology.",
-          "Advanced: Post-doctoral research or leadership roles in biotech companies and research institutes."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCB (Science)","Step 2: Pursue B.Sc. in Biotechnology (3 years)","Step 3: Complete M.Sc. in Biotechnology (2 years)","Step 4: Publish research papers in scientific journals","Step 5: Pursue Ph.D. or clear GATE/NET exam","Step 6: Join as Research Scientist/Professor/Lab Director","Pathway B: Engineering/Industry Research Route","Step 1: Complete Class 12th with PCB/PCM stream","Step 2: Pursue B.Tech in Biotechnology (4 years)","Step 3: Complete internship in biotech/pharma research lab","Step 4: Learn techniques like PCR, CRISPR, cell culture","Step 5: Pursue M.Tech or MBA in Biotech Management","Step 6: Join as R&D Scientist/Biotech Engineer/Product Researcher","Pathway C: Skill-Based Entry Route","Step 1: Complete Class 12th with Science stream","Step 2: Pursue diploma in Biotechnology/Lab Technology","Step 3: Get certified in molecular biology techniques","Step 4: Join research lab as Junior Research Fellow","Step 5: Gain experience and pursue part-time B.Sc./M.Sc.","Step 6: Advance as Senior Research Associate/Lab Supervisor"]
       },
       {
         id: "market",
@@ -2004,14 +1899,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: [
-          "Entry-level (Junior Research Fellow): ₹4.5L–₹7.0L annually. Positions: Research Associate, Lab Technician, Junior Scientist.",
-          "Mid-level (Senior Scientist): ₹12L–₹22L annually. Positions: Senior Scientist, Project Lead, Lab Manager.",
-          "Senior/Leadership (R&D Head): ₹35L–₹65L+ annually. Positions: Research Director, Institute Head, Chief Scientific Officer.",
-          "CXO Level: ₹1 Crore+ annually. Positions: VP Research, Chief Innovation Officer.",
-          "Metro vs. Tier-2: Bangalore, Hyderabad, and Pune pay 25% higher than other cities due to concentration of biotech hubs.",
-          "Market Demand: India has 3,500+ biotech startups, projected to hit 10,000+ by 2030. Industry growing at 17.9% CAGR."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹55 LPA – ₹1.4 Crore","Senior (10+ yrs): ₹22 – ₹45 LPA","Mid-Level (5–8 yrs): ₹11 – ₹19 LPA","Junior (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹5.5 LPA","Note: Metros pay 30% extra. PhD/GATE impacts entry pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Ahmedabad.","Top Industries: Pharma R&D, Bioprocessing, Agri-biotech, Clinical Research.","Global Demand: USA, Germany. Remote consulting is rising.","Top Institutions","Government:","Indian Institute of Science (IISc), Bangalore","Jawaharlal Nehru University (JNU), Delhi","Indian Institute of Technology (IIT), Delhi","National Institute of Immunology (NII), Delhi","Private:","Manipal Academy of Higher Education","Amity University","VIT University, Vellore","BITS Pilani","Online:","NPTEL (IIT/IISc courses)","IGNOU","SWAYAM Portal","Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Biotechnology Research Associate","Molecular Biology Scientist","Microbiology Research Scientist","Bioprocess Research Analyst","New-age and AI driven","Computational Biology Researcher","Synthetic Biology Researcher","Genomics Data Scientist","AI-Driven Drug Discovery Researcher","Remote/entrepreneurship","Freelance Research Consultant","Scientific Content Creator","Biotech Startup Founder","Online Research Trainer"]
       },
       {
         id: "locations",

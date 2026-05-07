@@ -86,11 +86,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "After Class 10: Enroll in a Diploma in Agriculture or Agri-Marketing (1–2 years). Start as a Field Assistant or Crop Technician.",
-          "After Class 12 (Science/Commerce/Humanities): Appear for CUET or State Agri Exams for a B.Sc. (Hons) Agriculture or BBA in Agribusiness. Secure roles as Sales Officers or Farm Supervisors.",
-          "After Graduation (B.Sc/B.Tech/BBA): Appear for CAT/XAT/CMAT for an MBA/PGDM in Agri-Business Management. Target Managerial roles in MNCs, Rural Banks, or Agritech startups."
-        ]
+        content: ["Pathway A: Degree Route","Step 1: Complete Class 12th (PCM/PCB/Commerce)","Step 2: Pursue BBA in Agri-Business / B.Sc Agriculture","Step 3: Do summer internships at agri-firms like ITC, Mahindra Agri","Step 4: Learn tools — SAP, MS Excel, supply chain basics","Step 5: Complete MBA in Agri-Business (MANAGE Hyderabad, IIM-A ABM)","Step 6: Join as Agri-Business Manager, Supply Chain Analyst, or Commodity Trader","Pathway B: Skill-Based Entry","Step 1: Complete Class 12th (any stream)","Step 2: Take diploma in Agriculture / Agri-Business","Step 3: Gain field experience — FPOs, cooperatives, mandis","Step 4: Learn digital tools — AgroStar, DeHaat platforms","Step 5: Get certified in agri-supply chain or rural management","Step 6: Work as Field Coordinator, Procurement Officer, or Agri-Sales Executive","Pathway C: Domain Switch Route","Step 1: Complete Class 12th (Commerce/Science)","Step 2: Pursue B.Com / BBA / B.Sc","Step 3: Work 1–2 years in sales, logistics, or banking","Step 4: Enroll in PG Diploma — Rural Management (IRMA) or Agri-Business","Step 5: Intern with agri-startups like Ninjacart, DeHaat","Step 6: Transition as Agri-Business Consultant, Rural Marketing Manager, or Agri-Finance Analyst"]
       },
       {
         id: "market",
@@ -98,14 +94,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: [
-          "Entry-level: ₹4.5 Lakhs – ₹8 Lakhs annually.",
-          "Mid-level (5–10 years): ₹15 Lakhs – ₹25 Lakhs annually.",
-          "Senior/Leadership: ₹35 Lakhs – ₹80 Lakhs annually.",
-          "CXO Level: ₹1 Crore+ (Common in top food processing and fertilizer giants).",
-          "Market Size: Indian agriculture market valued at $471 Billion in 2026, expected to reach $578 Billion by 2031.",
-          "Growth Rate: 4.21% CAGR (2026–2031) with 25% CAGR in organic product demand."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹15–50 LPA","Mid-Level Professional (5–8 yrs): ₹8–25 LPA","Junior / Associate (3–5 yrs): ₹4–12 LPA","Entry Level (0–2 yrs): ₹3–8 LPA","Note: Metro/agri-hubs (Delhi-NCR, Mumbai) pay 20–30% higher; MBA (Agri-Business) and supply-chain skills boost salary by 20–50%.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Pune, Hyderabad, Bengaluru, Ahmedabad","Top Industries: Agri Corporates, FMCG, Food Processing, AgriTech, Supply Chain, Government Projects","Global Demand: High in USA, Netherlands, Australia; rising remote consulting, agri-tech startups","Top Institutions","Top Institutions for Agri-Business Management in India","Government:","Indian Institute of Management, Ahmedabad (IIMA)","National Institute of Agricultural Extension Management (MANAGE), Hyderabad","Indian Agricultural Research Institute (IARI), New Delhi","Govind Ballabh Pant University of Agriculture & Technology, Pantnagar","Private:","ICFAI Business School (IBS)","Amity University","Lovely Professional University (LPU)","ITM Business School","Online:","IGNOU","Swayam/NPTEL","Jain University (Online)","Symbiosis Centre for Distance Learning (SCDL)","Career Opportunities","Here are the top career opportunities in Agri-Business Management in India:","Conventional","Farm Operations Manager","Agricultural Marketing Officer","Commodity Trading Analyst","Rural Banking & Agri-Credit Officer","New-Age & AI Driven","Precision Agriculture Data Analyst","Agri-Tech Product Manager","Drone-Based Crop Monitoring Specialist","AI-Powered Supply Chain Optimizer","Remote/Entrepreneurship","Agri E-Commerce Platform Founder","Farm-to-Fork Consulting (Freelance)","Organic Brand Builder & Online Retailer","Agri-Business Content Creator & Advisor"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -310,12 +299,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "After Class 10: Take a 3-Year Diploma in Agricultural Engineering → Lateral Entry to B.Tech. Exams: State Polytechnic Exams (e.g., JEECUP, DET).",
-          "After Class 12 (Science): Pursue 4-Year B.Tech/B.E. in Agricultural Engineering. Exams: JEE Main, ICAR AIEEA (UG), State CETs (e.g., MHT-CET, KCET).",
-          "After Graduation: Take 2-Year M.Tech or PhD for Research/Teaching roles. Exams: GATE (Agricultural Engineering Paper), ICAR AIEEA (PG).",
-          "Note: B.Tech requires Physics, Chemistry, and Math (PCM) in Class 12. Humanities and Commerce students can enter via Agri-Business Management but cannot pursue the 'Engineering' degree directly."
-        ]
+        content: ["Pathway A: B.Tech Route","Step 1: Complete Class 12th with PCM (Physics, Chemistry, Maths)","Step 2: Clear JEE/State CET and pursue B.Tech Agricultural Engineering (IITs, SAUs, GBPUAT)","Step 3: Do internships at ICAR, farm machinery companies, or agri-tech startups","Step 4: Learn tools — AutoCAD, MATLAB, GIS, drone technology","Step 5: Pursue M.Tech or MBA in Agri-Business (optional)","Step 6: Join as Agricultural Engineer, Farm Machinery Designer, or Irrigation Specialist","Pathway B: Diploma + Field Entry Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Agricultural Engineering (3 years, state polytechnics)","Step 3: Gain field experience — FPOs, KVKs, farm equipment dealers","Step 4: Learn basics — soil testing, irrigation systems, tractor mechanics","Step 5: Upgrade through lateral entry to B.Tech (optional)","Step 6: Work as Junior Engineer, Field Technician, or Agri-Equipment Supervisor","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCM","Step 2: Pursue B.Tech Agricultural Engineering","Step 3: Clear GATE and pursue M.Tech (IITs, IARI, CIAE Bhopal)","Step 4: Publish research in farm mechanization, renewable energy, or water management","Step 5: Clear ARS/NET, UPSC Engineering Services, or State PSC exams","Step 6: Join as Scientist at ICAR, Professor, or Government Engineer in agriculture department"]
       },
       {
         id: "market",
@@ -323,16 +307,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: [
-          "Entry-Level (Fresher): ₹3.5 Lakhs – ₹7 Lakhs annually.",
-          "Mid-Level (5–8 years): ₹10 Lakhs – ₹18 Lakhs annually.",
-          "Senior/Leadership: ₹20 Lakhs – ₹45 Lakhs annually.",
-          "CXO/Startup Founder: ₹60 Lakhs+ annually.",
-          "Metro Cities (Bengaluru, Pune): Higher starting pay (₹6L–₹8L) in Agri-Tech R&D centers.",
-          "Tier-2/3 Cities: Starting pay (₹3.5L–₹5L) but often includes housing/field allowances in manufacturing hubs.",
-          "Market Growth: Industry growing at CAGR of over 5.2%. Fastest-growing segments are Precision Farming and Automated Machinery.",
-          "Market Size: Indian Agricultural Equipment market expected to reach $13.79 Billion by 2030."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.5+ Crore","Senior / Lead Role (10+ yrs): ₹12–40 LPA","Mid-Level Professional (5–8 yrs): ₹6–20 LPA","Junior / Associate (3–5 yrs): ₹4–10 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: Metro/agri-industrial hubs (Pune, Hyderabad) pay 15–30% higher; skills in irrigation tech, GIS, farm mechanisation boost salary by 20–40%.","Where Are the Jobs?","Top Cities: Hyderabad, Pune, Bengaluru, Delhi-NCR, Ludhiana, Coimbatore","Top Industries: Farm Equipment, Irrigation, AgriTech, Food Processing, Government (ICAR), NGOs","Global Demand: High in Africa, Middle East, Australia; demand in precision farming, water management, remote consulting","Top Institutions","Government:","Indian Institute of Technology, Kharagpur (IIT-KGP)","Punjab Agricultural University (PAU), Ludhiana","Tamil Nadu Agricultural University (TNAU), Coimbatore","Govind Ballabh Pant University of Agriculture & Technology, Pantnagar","Private:","SRM Institute of Science and Technology, Chennai","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Sharda University, Greater Noida","Online:","IGNOU","Swayam/NPTEL","Coursera (IIT/IARI courses)","ICAR e-courses","Career Opportunities","Conventional Careers","Farm Machinery Design","Irrigation Engineer","Soil & Water Conservationist","New-Age / AI-Driven Careers","Drone Data Analyst","Precision Agriculture Specialist","Climate-Smart Systems Engineer","AI-Agriculture Specialist","Freelancing & Entrepreneurship","Independent Farm Consultant","Custom Hiring Center (CHC) Entrepreneur","Agri-Visualization Specialist"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -993,12 +968,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "After Class 10: Enroll in a 3-year Diploma in Dairy Technology. Start as a Plant Technician or Supervisor.",
-          "After Class 12 (Science PCM/PCB): Appear for ICAR AIEEA (UG) or State CETs. Enroll in a 4-year B.Tech in Dairy Technology.",
-          "After Graduation: Appear for ICAR AIEEA (PG) or GATE. Pursue M.Tech or PhD for Research/Teaching roles.",
-          "Note: For B.Tech degree, Maths (PCM) is usually mandatory, though some state universities allow PCB students."
-        ]
+        content: ["Career Pathways: Dairy Technology","Pathway A: B.Tech Dairy Technology Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Clear state CET/ICAR-AIEEA and pursue B.Tech Dairy Technology (4 years — NDRI Karnal, SMC Anand, AAU, Warner College)","Step 3: Do internships at dairy plants — Amul, Mother Dairy, Nestle, Britannia","Step 4: Learn skills — milk processing, pasteurization, packaging, quality testing, FSSAI standards","Step 5: Pursue M.Tech Dairy Technology / MBA Dairy Management (optional)","Step 6: Join as Dairy Technologist, Production Manager, Quality Assurance Officer, or R&D Scientist","Pathway B: Diploma + Field Entry Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Dairy Technology (2–3 years, state dairy institutes/polytechnics)","Step 3: Gain hands-on experience at milk cooperatives, chilling centers, or dairy booths","Step 4: Learn basics — milk collection, fat testing, paneer/curd/ghee making, cold chain management","Step 5: Upgrade to B.Tech Dairy Technology through lateral entry (optional)","Step 6: Work as Dairy Supervisor, Milk Plant Technician, Quality Checker, or Dairy Cooperative Manager","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Pursue B.Tech Dairy Technology from recognized institute (NDRI, SMC Anand)","Step 3: Clear GATE/ICAR-JRF and pursue M.Tech/Ph.D. in Dairy Science / Food Technology","Step 4: Publish research in dairy processing, value-added dairy products, or food safety","Step 5: Clear ARS/NET, UPSC, or State PSC exams","Step 6: Join as Scientist at NDRI/ICAR, Professor, FSSAI Officer, or Dairy Development Commissioner in government"]
       },
       {
         id: "market",
@@ -1006,15 +976,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: [
-          "Entry-Level (Fresher): ₹4 Lakhs – ₹7 Lakhs annually.",
-          "Mid-Level (5–10 years): ₹12 Lakhs – ₹22 Lakhs annually.",
-          "Senior/Plant Head: ₹30 Lakhs – ₹55 Lakhs annually.",
-          "Leadership/CXO: ₹80 Lakhs – ₹1.5 Crore+ (Common in top cooperatives like Amul).",
-          "Market Size: Indian dairy market valued at ₹21,318 Billion in 2025.",
-          "Growth Rate: Growing at massive 11.7% annually (Source: IMARC Group).",
-          "Demand: India accounts for 24% of global milk production. Thousands of new technologists needed."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹5–10 LPA","Entry Level (0–2 yrs): ₹3–6 LPA","Note: Private dairy & FMCG pay 20–40% more; cooperative sector stable; MBA (Dairy/Agri) boosts growth.","Where Are the Jobs?","Top Cities/Regions: Gujarat (Anand), Delhi-NCR, Pune, Bengaluru, Hyderabad, Ludhiana","Top Industries: Dairy (Amul, Mother Dairy), FMCG (Nestlé), Food Processing, Cold Chain, Govt Dairy Boards","Global Demand: High in New Zealand, Australia, EU; demand in dairy processing, supply chain, export management","Top Institutions","Top Institutions for Dairy Technology in India","Government:","National Dairy Research Institute (NDRI), Karnal","SMC College of Dairy Science, Anand (AAU)","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Warner College of Dairy Technology (SHUATS), Prayagraj","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","ITM University, Gwalior","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Dairy Technology Programs)","National Dairy Development Board (NDDB) Online Training","Career Opportunities","Conventional","Dairy Plant Production Manager","Milk Procurement & Quality Control Officer","Dairy Product Development Technologist","Cooperative Dairy Federation Officer (AMUL/NDDB)","New-Age & AI Driven","AI-Powered Milk Supply Chain Optimizer","IoT-Based Cold Chain Monitoring Specialist","Automated Dairy Processing Systems Engineer","Data-Driven Dairy Yield Prediction Analyst","Remote/Entrepreneurship","Artisan Cheese / Yogurt Brand Founder","Online Dairy Technology Consulting Provider","Dairy-Based Nutraceutical Startup Entrepreneur","Freelance Dairy FSSAI Compliance Consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1223,11 +1185,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "After Class 10: Continue to Class 11 & 12 with Science (PCM or PCB). This is the strongest foundation. Alternative: Some states offer a Diploma in Food Technology (3 years) for entry-level technician roles.",
-          "After Class 12: B.Tech in Food Technology: A 4-year engineering-heavy course (Recommended for machinery and large-scale factory work). B.Sc. in Food Science/Nutrition: A 3-year science-focused course (Recommended for R&D and lab work). Entrance Exams: JEE Main, ICAR AIEEA (UG), CUET, or state-level CETs.",
-          "After Graduation: M.Tech/M.Sc. in Food Technology: Essential for high-paying R&D or leadership roles. MBA in Agribusiness/Operations: For those who want to lead the business side of food giants like Nestlé or Amul."
-        ]
+        content: ["Career Pathways: Food Science","Pathway A: B.Tech Food Technology Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Pursue B.Tech Food Technology (CFTRI, NIFTEM)","Step 3: Intern at Nestle, ITC, Britannia, Parle","Step 4: Learn HACCP, FSSAI standards, food processing","Step 5: Pursue M.Tech Food Technology (optional)","Step 6: Join as Food Technologist or R&D Scientist","Pathway B: Diploma + Skill-Based Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Food Processing/Technology","Step 3: Gain experience at food plants, bakeries","Step 4: Learn food safety, packaging, cold chain","Step 5: Get FOSTAC or ISO 22000 certification","Step 6: Work as Quality Checker or Production Supervisor","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCM/PCB","Step 2: Pursue B.Tech/B.Sc Food Science","Step 3: Clear GATE/ICAR-JRF, pursue M.Tech/Ph.D.","Step 4: Research food fortification, nutraceuticals, food safety","Step 5: Clear ARS/NET or UPSC exams","Step 6: Join as Scientist at CFTRI/ICAR or Professor"]
       },
       {
         id: "market",
@@ -1235,14 +1193,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: [
-          "Entry-Level: ₹3.5 Lakhs – ₹6 Lakhs annually.",
-          "Mid-Level (5–10 years): ₹12 Lakhs – ₹22 Lakhs annually.",
-          "Senior/Plant Head: ₹30 Lakhs – ₹55 Lakhs annually.",
-          "Leadership/CXO: ₹80 Lakhs – ₹1.5 Crore+ (Top 10% earn > ₹33 Lakhs).",
-          "Market Size: Indian food processing industry expected to reach $700 Billion by 2030.",
-          "Growth Rate: Sector growing at CAGR of 14% (2024–2030). As middle class grows, demand for 'Ready-to-Eat' and healthy packaged snacks is exploding."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹25–70 LPA","Mid-Level Professional (5–8 yrs): ₹12–25 LPA","Junior / Associate (3–5 yrs): ₹6–12 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: FMCG & MNCs pay 20–50% more; metro cities higher; specialization (food safety, R&D) boosts salary.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Ahmedabad","Top Industries: FMCG (Nestlé, ITC, HUL), Food Processing, Quality Testing Labs, Packaging, Startups","Global Demand: High in USA, Canada, EU; roles in food safety, R&D, export quality, remote consulting","Top Institutions","Top Institutions for Food Science in India","Government:","Central Food Technological Research Institute (CFTRI), Mysuru","Indian Institute of Technology (IIT), Kharagpur","National Institute of Food Technology Entrepreneurship & Management (NIFTEM), Sonipat","University of Mysore, Mysuru","Private:","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","SRM Institute of Science and Technology, Chennai","Shoolini University, Solan","Online:","Swayam/NPTEL","IGNOU (Food Science & Nutrition Programs)","ICAR e-courses","Coursera (Food Science & Technology Courses)","Career Opportunities","Conventional","Food Quality Assurance & Safety Officer","Food Processing Plant Technologist","FSSAI Regulatory Affairs Specialist","Sensory Evaluation & Product Development Scientist","New-Age & AI Driven","AI-Powered Food Formulation Scientist","Blockchain-Based Food Traceability Analyst","Lab-Grown / Cultured Protein Technologist","Smart Packaging & Nano-Technology Food Engineer","Remote/Entrepreneurship","Health Food / Superfood Brand Founder","Freelance FSSAI & FDA Compliance Consultant","Online Food Science Education Platform Creator","Plant-Based / Vegan Product Startup Entrepreneur"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2125,13 +2076,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: [
-          "After Class 10: Focus on Science (PCB or PCM). This is mandatory for environmental science degrees. Board Exams (Focus: Chemistry and Biology).",
-          "After Class 12 (Science): Enroll in 3-year B.Sc. Environmental Science or 4-year B.Tech Environmental Engineering. Entrance Exams: CUET-UG, State-level entrance exams.",
-          "After Graduation: Specialize for higher pay and career advancement. Pursue M.Sc. or M.Tech in specialized areas like Climate Science, Toxicology, or Environmental Management. Entrance Exams: GATE, UGC-NET.",
-          "Top Institutions: Jawaharlal Nehru University (JNU) Delhi, Banaras Hindu University (BHU) Varanasi, Indian Institute of Science (IISc) Bengaluru, IIT Bombay & IIT Kanpur, Anna University Chennai.",
-          "Specializations: Climate Science, Toxicology, Waste Management, Water Resources, Air Quality Management, Environmental Impact Assessment."
-        ]
+        content: ["Pathway A: Traditional Science Route","Step 1: Complete Class 12th with Science (PCB/PCM)","Step 2: Pursue BSc in Environmental Science/Ecology","Step 3: Complete MSc in Environmental Science/Management","Step 4: Undertake research internship or fieldwork projects","Step 5: Clear UGC NET/GATE for higher opportunities","Step 6: Join as Environmental Scientist in government/private sector","Pathway B: Engineering Route","Step 1: Complete Class 12th with Science (PCM)","Step 2: Pursue BTech in Environmental Engineering","Step 3: Gain experience in pollution control or waste management","Step 4: Complete MTech or PG Diploma in Environment","Step 5: Work with industries on environmental compliance projects","Step 6: Become Environmental Scientist or Sustainability Consultant","Pathway C: Research and Policy Route","Step 1: Complete Class 12th with Science stream","Step 2: Graduate in Chemistry/Biology/Geography/Geology","Step 3: Pursue Masters in Environmental Policy/Climate Science","Step 4: Intern at environmental NGOs or research institutions","Step 5: Publish research papers in environmental journals","Step 6: Join as Environmental Scientist in research/policy organizations"]
       },
       {
         id: "market",
@@ -2139,15 +2084,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: RED2,
-        content: [
-          "Entry-Level (0-2 years): ₹4L–₹7L per annum. Government pollution control boards or private consultancies.",
-          "Mid-Level (5-10 years): ₹12L–₹18L per annum. Senior positions in consultancies or government agencies.",
-          "Senior-Level (10+ years): ₹20L–₹35L per annum. Leading environmental departments or consultancies.",
-          "Leadership/CXO (Sustainability Head): ₹50L–₹1.5Cr+ per annum. Common in MNCs with strong ESG goals.",
-          "Metro vs. Tier-2: Metros (Delhi, Mumbai, Bengaluru) highest salaries. Tier-2/3 (Vapi, Kanpur, Nagpur) growing demand in industrial hubs.",
-          "Market Size: India Environmental Testing market expected to reach $1.6B by 2030, growing at 8% annually.",
-          "Growth Trajectory: Entry to Senior Specialist takes 8-12 years with consistent experience and specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20 LPA – ₹40 LPA","Mid-Level Professional (5–8 yrs): ₹10 LPA – ₹18 LPA","Junior / Associate (3–5 yrs): ₹5 LPA – ₹9 LPA","Entry Level (0–2 yrs): ₹3 LPA – ₹5 LPA","Note: Metros pay 30% more; ESG/GIS skills boost income.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi, Hyderabad, Pune.","Top Industries: IT, Manufacturing, BFSI, Consulting, Government.","Global Demand: High in USA, UAE; Remote ESG roles rising.","Top Institutions","Government:","Jawaharlal Nehru University (JNU)","Indian Institute of Science (IISc), Bangalore","Forest Research Institute (FRI), Dehradun","Wildlife Institute of India (WII), Dehradun","Private:","TERI School of Advanced Studies","Amity Institute of Environmental Sciences","Lovely Professional University (LPU)","SRM Institute of Science & Technology","Online:","IGNOU (Environmental Science Programs)","Swayam (NPTEL Environment Courses)","Coursera (Environmental Science Specializations)","edX (IISc / IIT Environment Courses)","Career Opportunities","Conventional","Environmental Scientist","EIA Specialist","Pollution Control Officer","Environmental Compliance Analyst","New-age and AI driven","Climate Risk Analyst","ESG and Sustainability Analyst","Carbon Accounting Specialist","GIS and Remote Sensing Environmental Analyst","Remote/Entrepreneurship","Freelance Environmental Consultant","Sustainability Reporting Consultant","Environmental Data Researcher","Green Startup Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",

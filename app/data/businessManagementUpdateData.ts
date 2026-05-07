@@ -90,14 +90,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Pursue Class 12. Most BPOs require 10+2 qualification. Board Exams (Focus: English and Communication).",
-          "After Class 12: Apply for Domestic BPO roles or specialized Diploma courses. Certificate in BPO Soft Skills. Duration: 1-3 months.",
-          "After Graduation: Apply for International BPO/KPO roles. Any stream (Arts/Comm/Sci) works! B.A./B.Com/B.Sc Degree.",
-          "Career Growth: Associate → Team Lead (2-3 years) → Operations Manager (5-8 years) → Senior Management (10+ years).",
-          "Top Training Centers: IGNOU, NIESBUD, TimesPro, NIIT, Aptech.",
-          "Specializations: Voice Support, Non-Voice (Email/Chat), Technical Support, Finance & Accounting, Healthcare, Travel & Hospitality."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue BBA/B.Com in Management (3 years)","Step 3: Complete MBA in Operations/HR/Marketing Management","Step 4: Learn CRM tools, client management, process improvement","Step 5: Complete internship in BPO/KPO/shared services company","Step 6: Join as Process Manager/Operations Manager/BPO Head","Pathway B: Skill-Based Direct Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Develop strong English communication and computer skills","Step 3: Complete certification in customer service/call centre training","Step 4: Join BPO company as Customer Service Executive","Step 5: Gain experience and learn team management skills","Step 6: Advance as Team Leader/Quality Analyst/Floor Manager","Pathway C: Domain Specialisation Route","Step 1: Complete Class 12th with Commerce/Science stream","Step 2: Pursue B.Com/BBA/B.Sc. in relevant domain (3 years)","Step 3: Learn domain skills like accounting/healthcare/IT support","Step 4: Get certified in Six Sigma/ITIL/financial processes","Step 5: Join KPO/specialised BPO as domain associate","Step 6: Advance as Subject Matter Expert/Process Consultant/Transition Manager"]
       },
       {
         id: "market",
@@ -105,15 +98,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Associate, 0-2 years): ₹3L–₹4.5L per annum. Domestic or international voice/non-voice roles.",
-          "Mid-Level (Team Lead/TL, 2-5 years): ₹6L–₹10L per annum. Leading small teams and handling quality.",
-          "Senior (Operations Manager, 5-10 years): ₹15L–₹25L per annum. Managing large operations and processes.",
-          "Leadership (VP/Head, 10+ years): ₹35L–₹55L+ per annum. Strategic leadership and business development.",
-          "Market Size: Projected to hit $45B by late 2026. Growing at CAGR of ~13%, faster than traditional IT services.",
-          "City Trends: Bangalore, Delhi-NCR, Mumbai/Pune pay highest. Tier-2 cities (Jaipur, Indore, Coimbatore) booming with lower costs.",
-          "Growth Trajectory: You can move from Associate to Team Lead in just 2–3 years if high-performing."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA – ₹1.5 Cr+","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹22 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹5.5 LPA","Salary Note: Metros pay 30% more. AI/Language skills boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Gurgaon, Pune, Mumbai.","Top Industries: BFSI, E-commerce, Healthcare, Telecom.","Global Demand: USA, UK. Remote KPO roles rising.","Top Institutions","Government:","Indian Institute of Management (IIM), Bangalore","National Institute of Electronics & Information Technology (NIELIT)","Indian Institute of Foreign Trade (IIFT), Delhi","Indira Gandhi National Open University (IGNOU)","Private:","Indian School of Business (ISB), Hyderabad","Amity University","Symbiosis International University, Pune","NIIT University, Neemrana","Online:","NPTEL (IIT/IISc courses)","NASSCOM FutureSkills","Udemy Business (BPO Management courses)","Skill India Digital Hub (SIDH)","Career Opportunities","Conventional","Customer Support Executive","Process Associate","Quality Analyst","Team Leader","New-age and AI driven","Customer Experience Analyst","RPA Process Analyst","Workforce Management Analyst","Trust and Safety Associate","Remote/entrepreneurship","Remote Customer Support Specialist","BPO Process Consultant","Virtual Team Manager","Outsourcing Agency Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -347,15 +332,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Commerce or Science with Math. Math is 'language' of analytics. Class 12 Boards (Focus: Math and Economics).",
-          "After Class 12: Pursue degree in B.Tech, B.Sc (Stats/Math), BBA, or BCA. Graduation (3-4 years).",
-          "After Graduation: Get MBA in Business Analytics or PG Diploma (PGDBA). Post-Graduation (2 years).",
-          "Career Switchers: Professionals in Finance/HR take 6-month Certification bootcamps.",
-          "Key Entrance Exams: CAT, XAT, GMAT (for MBA); GATE (for M.Tech); CUET (for top undergrad colleges).",
-          "Top Institutions: IIM Bangalore (PGPBA), IIM Calcutta (PGDBA), ISB Hyderabad, SPJIMR Mumbai.",
-          "Specializations: Financial Analytics, Marketing Analytics, Supply Chain Analytics, Healthcare Analytics."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue BBA/B.Com/B.Sc. in Statistics (3 years)","Step 3: Complete MBA in Business Analytics (2 years)","Step 4: Learn tools like Excel, SQL, Tableau, Power BI","Step 5: Complete internship in analytics/consulting firm","Step 6: Join as Business Analyst/Analytics Manager/Strategy Consultant","Pathway B: Engineering/IT Route","Step 1: Complete Class 12th with PCM stream","Step 2: Pursue B.Tech in Computer Science/IT (4 years)","Step 3: Learn Python, R, machine learning, data visualization","Step 4: Complete internship in data analytics company","Step 5: Pursue PG Diploma/MS in Business Analytics","Step 6: Join as Data Analyst/BI Developer/Analytics Consultant","Pathway C: Certification/Skill-Based Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (B.Com/BA/B.Sc.)","Step 3: Complete certification from Google/IBM in data analytics","Step 4: Learn Excel, SQL, Tableau through online platforms","Step 5: Build portfolio with real-world analytics projects","Step 6: Join as Junior Analyst/MIS Executive/Data Associate"]
       },
       {
         id: "market",
@@ -363,15 +340,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Fresher, 0-2 years): ₹6L–₹9L per annum. Analytics departments or consulting firms.",
-          "Mid-Level (5-8 years): ₹15L–₹25L per annum. Senior positions in tech or finance companies.",
-          "Senior/Director (8+ years): ₹35L–₹60L per annum. Leading analytics teams and strategy.",
-          "CXO/Chief Data Officer (10+ years): ₹1.2Cr+ per annum. C-suite leadership roles.",
-          "Market Growth: Indian Data Analytics market growing at 35.8% CAGR, expected to reach $21B by 2030.",
-          "Hiring Trends: 40% shortage of skilled analysts in India in 2026. Job-seeker's market.",
-          "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Crore+","Senior / Lead Role (10+ yrs): ₹35 – ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹18 – ₹35 LPA","Junior / Associate (3–5 yrs): ₹10 – ₹18 LPA","Entry Level (0–2 yrs): ₹6 – ₹12 LPA","Salary Note: Metros pay 40% higher. AI/Cloud skills command premiums.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Gurgaon, Mumbai, Pune, Chennai.","Top Industries: FinTech, E-commerce, EdTech, Management Consulting, SaaS.","Global Demand: USA, UAE, UK. Remote freelance analytics booming.","Top Institutions","Government:","Indian Institute of Management (IIM), Calcutta","Indian Institute of Technology (IIT), Kharagpur","Indian Statistical Institute (ISI), Kolkata","Indian Institute of Management (IIM), Bangalore","Private:","Indian School of Business (ISB), Hyderabad","Great Lakes Institute of Management, Chennai","SP Jain Institute of Management & Research, Mumbai","BITS Pilani","Online:","NPTEL (IIT/IISc courses)","ISI Kolkata (Online Certificate Programs)","Great Learning (Analytics Programs)","edX (IIMBx Business Analytics)","Career Opportunities","Conventional","Business Analyst","Data Analyst","Business Intelligence Analyst","Reporting Analyst","New-age and AI driven","Product Analyst","AI Business Analyst","Decision Science Analyst","Customer Analytics Analyst","Remote/entrepreneurship","Freelance Analytics Consultant","Dashboard and Power BI Specialist","Analytics Trainer","Analytics Startup Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -605,14 +574,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Commerce with Mathematics. Math is 'alphabet' of finance. Board Exams (Focus: Accounting and Economics).",
-          "After Class 12: Pursue 3-year Bachelor's in Commerce or Management. B.Com (Hons) / BBA (Finance) / BMS. Duration: 3 years.",
-          "Professional Path: Start specialized certification right after Class 12. CA (ICAI) / CMA / CS. Duration: 4.5-5 years.",
-          "After Graduation: Pursue specialized Master's degree or global certification. MBA (Finance) / CFA / ACCA. Duration: 2 years or 3-4 years.",
-          "Top Institutions: SRCC (Delhi), IIM Bangalore, IIM Calcutta, JBIMS (Mumbai), SPJIMR (Mumbai).",
-          "Specializations: Investment Banking, Corporate Finance, Treasury Management, Risk Management, Wealth Management."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with Commerce/Maths stream","Step 2: Pursue B.Com/BBA in Finance (3 years)","Step 3: Complete MBA in Finance Management (2 years)","Step 4: Learn financial modelling, valuation, risk analysis","Step 5: Complete internship in bank/corporate finance department","Step 6: Join as Financial Manager/CFO/Corporate Finance Analyst","Pathway B: Professional Certification Route","Step 1: Complete Class 12th with Commerce stream","Step 2: Pursue B.Com and enrol for CA/CMA/CFA course","Step 3: Complete CA/CMA/CFA professional certification","Step 4: Learn tools like Tally, SAP, QuickBooks, Excel","Step 5: Gain articleship/internship in finance/audit firm","Step 6: Join as Chartered Accountant/Financial Controller/Investment Analyst","Pathway C: Skill-Based/Certification Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (B.Com/BA/BBA)","Step 3: Complete certification in financial planning (CFP/NISM)","Step 4: Learn taxation, budgeting, investment analysis practically","Step 5: Build experience in insurance/mutual fund/banking sector","Step 6: Join as Financial Planner/Tax Consultant/Wealth Advisor"]
       },
       {
         id: "market",
@@ -620,15 +582,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Fresher, 0-2 years): ₹6L–₹10L per annum. Finance departments or consulting firms.",
-          "Mid-Level (5-10 years): ₹15L–₹25L per annum. Senior positions in banks or tech companies.",
-          "Senior/VP Level (10+ years): ₹35L–₹60L+ per annum. Leading finance teams and strategy.",
-          "Leadership/CFO (15+ years): ₹1.5Cr+ per annum. C-suite leadership roles.",
-          "Market Size: Indian Financial Services market growing at 11% CAGR, driven by Fintech and Digital Banking.",
-          "City Trends: Mumbai (Financial Capital) offers highest salaries. GIFT City (Gujarat) emerging as massive hub for international finance.",
-          "Growth Trajectory: Entry to CFO typically takes 15–20 years with consistent performance."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹80 LPA – ₹2.5 Cr+","Senior (10+ yrs): ₹35 – ₹65 LPA","Mid-Level (5–8 yrs): ₹18 – ₹32 LPA","Junior (3–5 yrs): ₹10 – ₹17 LPA","Entry Level (0–2 yrs): ₹6 – ₹10 LPA","Salary Note: Metros pay 40% higher. CA/CFA/MBA boost entry pay.","Where Are the Jobs?","Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.","Top Industries: BFSI, Fintech, Consulting, E-commerce, MNC GCCs.","Global Demand: USA, UK, UAE. Remote strategic roles increasing.","Top Institutions","Government:","Indian Institute of Management (IIM), Ahmedabad","Indian Institute of Management (IIM), Bangalore","Faculty of Management Studies (FMS), University of Delhi","National Institute of Financial Management (NIFM), Faridabad","Private:","Indian School of Business (ISB), Hyderabad","XLRI – Xavier School of Management, Jamshedpur","SP Jain Institute of Management & Research, Mumbai","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","Online:","NPTEL (IIT/IISc courses)","National Institute of Financial Management (NIFM) Online","NSE Academy (Stock Exchange Certifications)","ICAI Online Learning (Chartered Accountancy)","Career Opportunities","Conventional","Corporate Finance Analyst","Financial Planning and Analysis Analyst","Treasury Analyst","Business Finance Executive","New-age and AI driven","Fintech Finance Analyst","AI-Driven Financial Analyst","Risk Analytics Specialist","Financial Modelling Analyst","Remote/entrepreneurship","Freelance Finance Consultant","Virtual CFO","Finance Content Creator","Financial Advisory Startup Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1380,14 +1334,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose any stream. Commerce or Humanities often preferred for focus on economics and geography. Class 12 Boards.",
-          "After Class 12: Pursue Bachelor's in Business Administration (BBA) with focus on International Business. Exams: CUET, SET, IPMAT.",
-          "After Graduation: Apply for MBA in International Business. Exams: CAT, XAT, GMAT, or IIFT Entrance Exam.",
-          "Lateral Entry: Professionals from Sales/Logistics can do 1-year PG Diploma.",
-          "Top Institutions: IIFT (Delhi/Kolkata) - The gold standard, MDI Gurgaon, Symbiosis, SPJIMR Mumbai, FORE School of Management.",
-          "Specializations: Export-Import, International Marketing, Global Supply Chain, International Finance."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with Commerce/any stream","Step 2: Pursue BBA/B.Com in International Business (3 years)","Step 3: Complete MBA in International Business Management (2 years)","Step 4: Learn global trade, foreign exchange, export-import regulations","Step 5: Complete internship in MNC/export-import company","Step 6: Join as International Business Manager/Export Manager/Global Strategist","Pathway B: Professional/Certification Route","Step 1: Complete Class 12th with Commerce/any stream","Step 2: Pursue any graduate degree (BBA/B.Com/BA/B.Sc.)","Step 3: Complete PG Diploma in Foreign Trade/IIFT certification","Step 4: Learn EXIM documentation, customs procedures, INCOTERMS","Step 5: Gain experience in trading/logistics/freight forwarding company","Step 6: Join as Trade Analyst/Customs Manager/International Marketing Manager","Pathway C: Skill-Based/Domain Switch Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree from recognised university","Step 3: Complete certification in DGFT procedures/export management","Step 4: Learn foreign languages like French, German, Mandarin","Step 5: Build experience in import-export/cross-border e-commerce","Step 6: Join as EXIM Executive/Foreign Trade Officer/Global Sourcing Analyst"]
       },
       {
         id: "market",
@@ -1395,15 +1342,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Management Trainee): ₹6L–₹12L per annum. Export-import or international operations roles.",
-          "Mid-Level (Export Manager/International Lead): ₹16L–₹28L per annum. Leading international teams and projects.",
-          "Senior-Level (Director/Country Head): ₹35L–₹60L per annum. Strategic leadership roles.",
-          "Leadership (Vice President/CXO): ₹1.2Cr+ per annum. C-suite international leadership.",
-          "Market Demand: India's exports targeted to reach $2 Trillion by 2030. Companies hiring thousands of IB experts.",
-          "Industry Growth: Growing at CAGR of ~12% in services and manufacturing sectors.",
-          "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹70L – ₹1.8Cr","Senior (10+ yrs): ₹30 – ₹55L","Mid-Level (5–8 yrs): ₹15 – ₹28L","Junior (3–5 yrs): ₹8 – ₹14L","Entry (0–2 yrs): ₹5 – ₹9L","Note: Metros pay 35% more. Tier-1 MBA/IIFT boosts pay.","Where Are the Jobs?","Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.","Sectors: MNCs, Logistics, Export, Consulting, BFSI.","Global: USA, UAE. Remote strategy roles rising.","Top Institutions","Government:","Indian Institute of Foreign Trade (IIFT), Delhi","Indian Institute of Management (IIM), Bangalore","Indian Institute of Management (IIM), Calcutta","Faculty of Management Studies (FMS), University of Delhi","Private:","Indian School of Business (ISB), Hyderabad","XLRI – Xavier School of Management, Jamshedpur","Symbiosis Institute of International Business, Pune","Amity International Business School, Noida","Online:","NPTEL (IIT/IISc courses)","IIFT Delhi (Online Certificate Programs)","edX (IIMBx International Business)","Coursera (ISB Global Business Strategies)","Career Opportunities","Conventional","Export-Import Manager","International Sales Executive","Trade Compliance Officer","Global Sourcing Executive","New-age and AI driven","Cross-Border E-commerce Manager","Global Trade Analytics Specialist","International Market Intelligence Analyst","Digital Supply Chain Analyst","Remote/entrepreneurship","Export Consultant","International Business Consultant","Cross-Border E-commerce Seller","Import-Export Agency Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1632,14 +1571,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose Science (PCM) or Commerce with Math/IP. Focus on logical reasoning and basic coding.",
-          "After Class 12: Pursue B.Tech (CS/IT), BCA, or B.Sc (IT). Clear entrance exams like JEE Main, MHT-CET, or VITEE.",
-          "After Graduation: Entry-level role as System Analyst or DevOps Engineer. Get specialized certifications (AWS, Cisco).",
-          "Career Growth: Pursue MBA (IT) or MCA for management roles. Lateral entry for Engineers with 3-5 years experience.",
-          "Top Institutions: IIT Bombay, IIT Delhi, NIT Trichy, IIIT Hyderabad, BITS Pilani, VIT Vellore.",
-          "Specializations: Cloud Architecture, Cybersecurity, DevOps, AI/ML, Enterprise Architecture."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with PCM/Commerce stream","Step 2: Pursue BCA/BBA in IT Management (3 years)","Step 3: Complete MBA in IT/Information Systems Management (2 years)","Step 4: Learn IT governance, project management, cloud computing","Step 5: Complete internship in IT company/corporate IT department","Step 6: Join as IT Manager/CTO/IT Project Director","Pathway B: Engineering/Technical Route","Step 1: Complete Class 12th with PCM stream","Step 2: Pursue B.Tech in Computer Science/IT (4 years)","Step 3: Learn ITIL, Agile, DevOps, cybersecurity frameworks","Step 4: Gain experience as software developer/system administrator","Step 5: Pursue MBA/PG Diploma in IT Management","Step 6: Join as Technology Manager/IT Consultant/Digital Transformation Lead","Pathway C: Certification/Skill-Based Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (BCA/B.Sc./B.Com)","Step 3: Complete certifications like PMP/ITIL/AWS/Azure","Step 4: Learn tools like Jira, ServiceNow, MS Project","Step 5: Build experience in IT support/helpdesk/infrastructure team","Step 6: Advance as IT Operations Manager/Service Delivery Manager/IT Head"]
       },
       {
         id: "market",
@@ -1647,15 +1579,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Systems Analyst): ₹5L–₹9L per annum. System administration and support roles.",
-          "Mid-Level (IT Manager): ₹15L–₹30L per annum. Managing teams and projects.",
-          "Senior-Level (Director of IT): ₹35L–₹75L per annum. Strategic IT leadership roles.",
-          "Leadership (CIO/CTO): ₹1.2Cr+ per annum. Chief Information/Technology Officer positions.",
-          "Metro vs. Tier-2: Bangalore and Hyderabad pay 20-30% more. Tier-2 cities like Jaipur and Kochi catching up.",
-          "Industry Growth: Growing at 13% CAGR (2025-2030). Massive demand for Cybersecurity and Cloud roles.",
-          "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Cr+","Senior / Lead Role (10+ yrs): ₹30 – ₹60 LPA","Mid-Level Professional (5–8 yrs): ₹18 – ₹32 LPA","Junior / Associate (3–5 yrs): ₹9 – ₹16 LPA","Entry Level (0–2 yrs): ₹5 – ₹9 LPA","Note: Metros pay 40% more. AI/Cloud skills command premiums.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Delhi-NCR, Mumbai.","Top Industries: Fintech, SaaS, Global Capability Centres (GCCs), E-commerce.","Global Demand: High in USA, UK. Remote management roles booming.","Top Institutions","Government:","Indian Institute of Management (IIM), Ahmedabad","Indian Institute of Technology (IIT), Delhi","Indian Institute of Management (IIM), Calcutta","National Institute of Electronics & Information Technology (NIELIT)","Private:","Indian School of Business (ISB), Hyderabad","International Institute of Information Technology (IIIT), Hyderabad","Symbiosis Institute of Computer Studies & Research, Pune","NIIT University, Neemrana","Online:","NPTEL (IIT/IISc courses)","NASSCOM FutureSkills","NIELIT (Online IT Certifications)","Coursera (IIT/ISB IT Management Programs)","Career Opportunities","Conventional","IT Project Manager","IT Operations Manager","IT Service Delivery Manager","IT Governance Manager","New-age and AI driven","AI Product Manager","Cloud Operations Manager","Cybersecurity Program Manager","Site Reliability Manager","Remote/entrepreneurship","IT Consultant","Virtual CTO","Managed Services Founder","Tech Transformation Advisor"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1885,14 +1809,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Choose any stream. Commerce or Science (PCM) preferred for logical grounding. Board Exams.",
-          "After Class 12: Pursue BBA, BMS, or B.Tech. Engineering great start for 'Technical PM' roles. Entrance: IPMAT, CUET, JEE.",
-          "After Graduation: Gain 2 years experience as Project Coordinator. Cert: CAPM (Entry-level).",
-          "Career Peak: Pursue MBA in Operations/Project Management or get PMP Certified. Cert: PMP (Senior level).",
-          "Top Institutions: IIT Delhi, IIM Calcutta, IIM Lucknow, NITIE (IIM Mumbai), Symbiosis Pune, S.P. Jain Mumbai.",
-          "Specializations: IT Project Management, Construction PM, Agile/Scrum, Program Management."
-        ]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue BBA/B.Tech/B.Com degree (3-4 years)","Step 3: Complete MBA in Project Management (2 years)","Step 4: Learn project planning, budgeting, risk management techniques","Step 5: Complete internship in consulting/IT/construction company","Step 6: Join as Project Manager/Program Manager/PMO Director","Pathway B: Professional Certification Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (BBA/B.Tech/B.Com/BA)","Step 3: Gain 2-3 years work experience in any industry","Step 4: Complete PMP/PRINCE2/Scrum Master professional certification","Step 5: Learn tools like MS Project, Jira, Asana, Trello","Step 6: Join as Certified Project Manager/Agile Coach/Delivery Manager","Pathway C: Skill-Based/Direct Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree from recognised university","Step 3: Complete diploma/certification in project management fundamentals","Step 4: Learn Agile, Scrum, Waterfall, Kanban methodologies practically","Step 5: Join any company as Project Coordinator/Team Assistant","Step 6: Advance as Senior Project Lead/Operations Manager/Project Consultant"]
       },
       {
         id: "market",
@@ -1900,15 +1817,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Project Coordinator): ₹4L–₹7.5L per annum. Coordinating small projects.",
-          "Mid-Level (Project Manager): ₹15L–₹25L per annum. Managing medium to large projects.",
-          "Senior-Level (Program/Portfolio Manager): ₹35L–₹60L+ per annum. Strategic project leadership.",
-          "City Comparison: Bangalore offers highest pay (20% above national average), followed by Gurgaon and Mumbai.",
-          "Market Size: India project management software market growing at 22.1% CAGR, reaching $1.16B by 2030.",
-          "Hiring Trends: Massive demand across IT, Construction, Healthcare, and Manufacturing sectors.",
-          "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹80 LPA – ₹2.5 Crore+","Senior (10+ yrs): ₹30 – ₹60 LPA","Mid-Level (5–8 yrs): ₹15 – ₹30 LPA","Junior (3–5 yrs): ₹8 – ₹15 LPA","Entry Level (0–2 yrs): ₹4.5 – ₹9 LPA","Note: Metros pay 35% more. PMP/Agile certifications boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Delhi-NCR, Chennai.","Top Industries: IT, Construction, BFSI, E-commerce, Pharma.","Global Demand: High in USA, UAE. Remote hybrid roles booming.","Top Institutions","Government:","Indian Institute of Management (IIM), Ahmedabad","Indian Institute of Management (IIM), Bangalore","Indian Institute of Technology (IIT), Delhi","National Institute of Construction Management & Research (NICMAR), Pune","Private:","Indian School of Business (ISB), Hyderabad","XLRI – Xavier School of Management, Jamshedpur","Symbiosis Institute of Business Management, Pune","SP Jain Institute of Management & Research, Mumbai","Online:","NPTEL (IIT/IISc courses)","PMI India (Project Management Certifications)","NICMAR Online Programs","Simplilearn (PMP & PRINCE2 Certifications)","Career Opportunities","Conventional","Project Manager","Program Manager","PMO Analyst","Delivery Manager","New-age and AI driven","AI Project Manager","Technical Program Manager","Product Operations Manager","Agile Transformation Manager","Remote/entrepreneurship","Freelance Project Consultant","Virtual PMO Specialist","Remote Delivery Consultant","Project Management Agency Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2142,14 +2051,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: [
-          "After Class 10: Complete Class 12. Focus on English and Communication. Choose Commerce or Humanities.",
-          "After Class 12: Pursue BBA in Retail Management or B.Voc in Retail. Entrance Exams: SET, CUET, NPAT.",
-          "After Graduation: Enroll in MBA in Retail Management or PGDM. Entrance Exams: CAT, MAT, XAT, CMAT.",
-          "Lateral Entry: Professionals from Marketing or Supply Chain can switch into Retail.",
-          "Top Institutions: BIMTECH (Noida), Welingkar (Mumbai), Loyola (Chennai), SCMS (Cochin), ITM (Navi Mumbai).",
-          "Specializations: Store Management, E-commerce, Visual Merchandising, Category Management."
-        ]
+        content: ["Career Pathways in Retail Management","Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with Commerce/any stream","Step 2: Pursue BBA/B.Com in Retail Management (3 years)","Step 3: Complete MBA in Retail/Marketing Management (2 years)","Step 4: Learn merchandising, inventory control, consumer behaviour","Step 5: Complete internship in retail chain/shopping mall/e-commerce","Step 6: Join as Retail Manager/Area Manager/Regional Sales Director","Pathway B: Professional/Specialisation Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (BBA/B.Com/BA)","Step 3: Complete PG Diploma in Retail Management from RAI","Step 4: Learn tools like POS systems, SAP Retail, CRM software","Step 5: Gain experience in visual merchandising/store operations","Step 6: Join as Store Manager/Category Manager/Retail Operations Head","Pathway C: Skill-Based/Direct Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Develop strong sales, communication, customer service skills","Step 3: Complete short-term certification in retail/sales management","Step 4: Join retail store as Sales Executive/Floor Associate","Step 5: Learn inventory management and team leadership practically","Step 6: Advance as Assistant Store Manager/Franchise Manager/Retail Trainer"]
       },
       {
         id: "market",
@@ -2157,15 +2059,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: [
-          "Entry-Level (Store Executive): ₹3.5L–₹6L per annum. Store operations and customer service.",
-          "Mid-Level (Store Manager): ₹12L–₹25L per annum. Managing store operations and teams.",
-          "Senior (Regional/National Manager): ₹35L–₹65L per annum. Strategic retail leadership.",
-          "Leadership (CXO/Director): ₹1.2Cr+ per annum. C-suite retail leadership.",
-          "Market Growth: India's retail sector projected to reach $1.93 Trillion by 2030.",
-          "City Comparison: Metro cities pay roughly 25% more. Tier-2 and Tier-3 cities account for 60% of e-commerce.",
-          "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore+","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹14 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA","Entry Level (0–2 yrs): ₹4 – ₹7 LPA","Note: Metros pay 40% more. MBA/AI skills boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune.","Top Industries: E-commerce, Luxury Retail, FMCG, Retail-Tech.","Global Demand: USA, UAE. Hybrid management roles rising.","Top Institutions","Government:","Indian Institute of Management (IIM), Ahmedabad","Indian Institute of Management (IIM), Bangalore","Faculty of Management Studies (FMS), University of Delhi","National Institute of Fashion Technology (NIFT), Delhi","Private:","Birla Institute of Management Technology (BIMTECH), Greater Noida","KJ Somaiya Institute of Management, Mumbai","Symbiosis Institute of Business Management, Pune","Lovely Professional University","Online:","NPTEL (IIT/IISc courses)","Retailers Association's Skill Council (RASCI)","edX (Retail Management courses)","Skill India Digital Hub (SIDH)","Career Opportunities","Conventional","Retail Store Manager","Merchandising Executive","Category Executive","Visual Merchandiser","New-age and AI driven","E-commerce Retail Manager","Omnichannel Retail Analyst","Retail Data Analyst","AI-Enabled Demand Planner","Remote/entrepreneurship","Retail Consultant","D2C Brand Founder","Online Store Manager","Retail Franchise Owner"]
       },{
         id: "costs",
         title: "What Will It Cost?",

@@ -2,7 +2,7 @@
 
 import { useTranslatedContent, useTranslatedContents } from "@/app/hooks/useTranslatedContent";
 import { useTranslation } from "@/app/context/TranslationContext";
-import { TranslatedText, TranslatedHeading, TranslatedParagraph } from "./TranslatedText";
+import { TranslatedText, TranslatedHeading } from "./TranslatedText";
 
 /**
  * Example component showing different ways to use the translation system
@@ -36,10 +36,10 @@ export function TranslationExample() {
           Why Choose Us
         </TranslatedHeading>
 
-        {/* Method 3: Using TranslatedParagraph component */}
-        <TranslatedParagraph className="text-slate-700 mb-6">
+        {/* Method 3: Using TranslatedText as paragraph */}
+        <TranslatedText as="p" className="text-slate-700 mb-6">
           Our platform provides comprehensive career guidance and personalized learning experiences.
-        </TranslatedParagraph>
+        </TranslatedText>
 
         {/* Method 4: Using multiple translated content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">

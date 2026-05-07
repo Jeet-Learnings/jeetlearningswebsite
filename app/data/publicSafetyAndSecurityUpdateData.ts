@@ -87,15 +87,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "Map",
         description: "Multiple entry routes to join the Indian Navy.",
         color: BLUE,
-        content: [
-          "Officer Route - Cadet Entry: Class 12 (PCM >70%) + JEE Mains → Direct SSB Call → INA, Ezhimala (4 Years).",
-          "Officer Route - NDA Entry: Class 12 (PCM) → NDA Exam (UPSC) → NDA Pune (3 Years) + INA (1 Year).",
-          "Officer Route - CDS Entry: Graduation (B.Tech/B.Sc) → CDS Exam (UPSC) → INA, Ezhimala.",
-          "Officer Route - Direct Entry: BE/B.Tech (Marks based) → Direct SSB Call → INA, Ezhimala.",
-          "Officer Route - NCC Entry: Graduate + NCC 'C' Certificate (Naval Wing) → Direct SSB Call → INA, Ezhimala.",
-          "Officer Route - INET (Indian Navy Entrance Test): Graduate (various streams) → Often merged with direct entries; check yearly notifications → INA, Ezhimala.",
-          "Sailor Route - Agniveer: Class 10 (Matric Recruit - MR) or Class 12 PCM (Senior Secondary Recruit - SSR) → Computer-based Test → Physical Fitness Test → Medicals → 4 Years Service (Top 25% retained permanently)."
-        ]
+        content: ["Pathway A: After Class 12th (NDA Route)","Step 1: Pass Class 12th with Physics and Maths.","Step 2: Clear NDA entrance exam after Class 12th.","Step 3: Complete three-year training at NDA, Pune.","Step 4: Undergo naval training at Indian Naval Academy, Ezhimala.","Step 5: Get commissioned as Sub-Lieutenant in Indian Navy.","Step 6: Serve in Executive/Engineering/Electrical branch at sea.","Pathway B: After Graduation (CDS/INET/SSC Route)","Step 1: Pass Class 12th in any stream.","Step 2: Complete B.Tech/B.Sc/graduation in relevant discipline.","Step 3: Clear CDS or INET entrance examination.","Step 4: Pass SSB interview and medical fitness test.","Step 5: Complete training at Indian Naval Academy, Ezhimala.","Step 6: Join as Officer in Technical/Executive/Logistics branch.","Pathway C: Skill-Based Entry (Sailor Route)","Step 1: Pass Class 10th or 12th with Science.","Step 2: Apply for Agniveer Navik recruitment online.","Step 3: Clear written exam and physical fitness test.","Step 4: Complete basic training at INS Chilka, Odisha.","Step 5: Get specialisation in technical or non-technical trade.","Step 6: Serve as Sailor in Indian Navy ships/establishments."]
       },
       {
         id: "market",
@@ -103,13 +95,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, expansion, and job security.",
         color: BLUE2,
-        content: [
-          "Expansion: The Navy plans to have 175-200 warships by 2035 (up from ~130 today). This means massive hiring for crews and officers.",
-          "Job Security: 100% for Officers. Agniveers have a 4-year tenure with retention chances for top 25%.",
-          "Officer Salaries (7th Pay Commission): Sub Lieutenant (Entry) - ₹56,100 basic, ₹85,000–₹1.1L gross. Lieutenant (2-5 yrs) - ₹61,300 basic, ₹1.1L–₹1.4L gross. Commander (Senior) - ₹1.2L basic, ₹2.2L+ gross. Vice Admiral (Leadership) - ₹2.25L basic, ₹3.5L+ gross.",
-          "Agniveer Salaries: Year 1 - ₹30,000/month. Year 4 - ₹40,000/month + Seva Nidhi (~₹11.7L) upon exit.",
-          "Unique Allowances: Sea Going Pay (very high), Submarine Pay (extremely high), Foreign Service Allowance, Ration Money."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹95 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹55 – ₹90 LPA","Mid-Level Professional (5–8 yrs): ₹28 – ₹52 LPA","Junior / Associate (3–5 yrs): ₹18 – ₹27 LPA","Entry Level (0–2 yrs): ₹12 – ₹18 LPA","Note: 8th Pay Commission and Sea/Flying pay boost income.","Where Are the Jobs?","Top Cities: Mumbai, Visakhapatnam, Kochi, Delhi, Karwar, Port Blair.","Top Industries: Defense, Shipbuilding, Maritime Security, Naval Aviation.","Global Demand: UN Missions, Indo-Pacific cooperation, Defense exports.","Top Institutions","Government / Government Funded Coaching Institutes","Rashtriya Indian Military College (RIMC), Dehradun","Sainik Schools (across India)","National Defence Academy (NDA), Khadakwasla, Pune","Indian Naval Academy (INA), Ezhimala, Kerala","Private Coaching Institutes","Cavalier India, New Delhi","Centurion Defence Academy, Lucknow","Shield Defence Academy, Chandigarh","Baalnoi Academy, Delhi","Online Coaching Institutes","Unacademy (NDA & CDS Naval Preparation)","Testbook (Navy AA/SSR & NDA Courses)","Adda247 (Indian Navy Exam Preparation)","Oliveboard","Career Opportunities","Conventional","Executive officer through NDA, CDS, or INET entry","Marine engineer in technical branch","Naval aviator (helicopter/maritime reconnaissance pilot)","Sailor in artificer or direct entry scheme","New-Age & AI-Driven","Submarine autonomous systems and robotics specialist","AI-driven maritime surveillance and threat detection analyst","Cyber warfare and naval network defence officer","Underwater drone and unmanned vessel technology operator","Remote / Entrepreneurship","Maritime security and defence consultancy founder","Online naval defence exam coaching and guidance provider","Shipbuilding and marine equipment startup entrepreneur","Freelance oceanography and maritime research consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -347,12 +333,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "Map",
         description: "Multiple entry routes to join the Indian Police.",
         color: BLUE,
-        content: [
-          "Constable Route (Entry Level): Class 12 pass → State Police Constable Recruitment or SSC GD (for CRPF/BSF) → Written Test → Physical Test → Medicals →  Constable → Head Constable → ASI.",
-          "Sub-Inspector Route (Mid-Level): Graduation (any degree) → State SI Exam or SSC CPO (for CAPFs) → Written → Physical Endurance Test → Medicals →  SI → Inspector → DySP/ACP.",
-          "IPS Route (Leadership Level): Graduation (any degree) → UPSC Civil Services Examination (CSE) → High rank required to choose IPS →  ASP → SP (District Chief) → DIG → IG → DGP (State Chief).",
-          "State Officer Route (PPS/TPS): State PSC Exam (e.g., UPPSC, MPSC) → DySP (Deputy Superintendent of Police) → Promoted to IPS after ~15-20 years."
-        ]
+        content: ["Pathway A: IPS/State PPS (Civil Services Route)","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation in any recognised discipline.","Step 3: Clear UPSC CSE or State PCS examination.","Step 4: Pass physical test, medical, and SSB interview.","Step 5: Complete training at LBSNAA or State Police Academy.","Step 6: Get posted as ASP/DSP in assigned cadre.","Pathway B: Inspector (State SI/CPO Route)","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation from any recognised university.","Step 3: Apply for State SI or SSC CPO exam.","Step 4: Clear written exam, physical, and medical test.","Step 5: Complete training at State Police Training Academy.","Step 6: Join as Sub-Inspector in State/Central Police Force.","Pathway C: Constable (Direct Recruitment Route)","Step 1: Pass Class 10th or 12th examination.","Step 2: Apply for State Police or SSC GD exam.","Step 3: Clear written exam and physical efficiency test.","Step 4: Pass medical examination and document verification.","Step 5: Complete basic training at Police Training Centre.","Step 6: Serve as Constable in State/Central Police Force."]
       },
       {
         id: "market",
@@ -360,15 +341,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, vacancies, and hiring trends.",
         color: BLUE2,
-        content: [
-          "Vacancy Crisis: India has a shortage of over 5 Lakh police personnel. States like UP, Bihar, and West Bengal are hiring aggressively.",
-          "Hiring Trends: Cyber Police - Every district is setting up a 'Cyber Cell.' Tech-savvy graduates are in high demand. Women Police - Government aims to increase women in police to 33% (currently ~10%).",
-          "Constable Salary: Basic ₹21,700, Gross ₹30,000–₹40,000/month.",
-          "Sub-Inspector Salary: Basic ₹35,400, Gross ₹50,000–₹65,000/month.",
-          "DSP/ACP Salary: Basic ₹56,100, Gross ₹75,000–₹90,000/month.",
-          "IPS Officer (SP) Salary: Basic ₹78,800, Gross ₹1.1L–₹1.4L/month.",
-          "DGP Salary: Basic ₹2,25,000, Gross ₹3.0L+/month."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹75 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹35 – ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹18 – ₹32 LPA","Junior / Associate (3–5 yrs): ₹10 – ₹17 LPA","Entry Level (0–2 yrs): ₹6 – ₹9 LPA","Note: 8th Pay Commission and Metros boost pay by 35%.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Kolkata, Chennai.","Top Industries: Government, Central Agencies, Private Security, Risk Management.","Global Demand: UN Peacekeeping, Interpol, Global Security Consulting.","Top Institutions","Government / Government Funded Coaching Institutes","Sardar Vallabhbhai Patel National Police Academy (SVPNPA), Hyderabad","State Public Service Commission Coaching Centres (across India)","Dr. Ambedkar Centre of Excellence, New Delhi","Jamia Millia Islamia (IAS/IPS Coaching Centre), New Delhi","Private Coaching Institutes","Drishti IAS, New Delhi","Vajirao & Reddy Institute, New Delhi","Rau’s IAS Study Circle, New Delhi","ALS IAS Academy, New Delhi","Online Coaching Institutes","Unacademy (UPSC CSE & State PSC Preparation)","Testbook (Police Exam Preparation Courses)","Byju’s Exam Prep (IPS & State Police Online Coaching)","Adda247 (Sub-Inspector & Constable Exam Preparation)","Career Opportunities","Conventional","IPS officer through UPSC Civil Services Examination","State police officer through State PSC examination","Sub-inspector through SSC or state-level recruitment","Assistant commandant in CAPFs through UPSC CAPF exam","New-Age & AI-Driven","AI-powered crime pattern analysis and prediction specialist","Cyber crime investigation and digital forensics officer","Facial recognition and smart surveillance systems expert","Social media intelligence and open-source data analyst","Remote / Entrepreneurship","Online police exam preparation and mentorship provider","Private investigation and security consultancy founder","Freelance cyber security and digital safety trainer","Law enforcement technology solutions startup entrepreneur"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -590,12 +563,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "Map",
         description: "Primary entry channels into IB, R&AW, and technical intelligence.",
         color: BLUE,
-        content: [
-          "Entry via SSC and UPSC: ACIO-II routes and civil services pathways (IPS/IFS) are common feeders for strategic assignments.",
-          "Specialized and Lateral Entry: Cybersecurity, cryptography, and data science experts are recruited for digital warfare domains.",
-          "Armed Forces Lateral Shift: Military intelligence experience often transitions into advanced technical organizations such as NTRO.",
-          "Professional Roadmap: Written selection, deep verification, specialized tradecraft training, then field and desk growth tracks."
-        ]
+        content: ["Pathway A: Officer Level (UPSC Civil Services Route)","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation in any recognised discipline.","Step 3: Clear UPSC Civil Services or CAPF examination.","Step 4: Serve in IPS/IRS/CAPF for required deputation years.","Step 5: Get selected for deputation to RAW or IB.","Step 6: Serve as Intelligence Officer in RAW/IB operations.","Pathway B: Direct Entry (SSC CGL/ACIO Route)","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation from any recognised university.","Step 3: Clear SSC CGL or IB ACIO examination.","Step 4: Pass interview, medical, and background verification.","Step 5: Complete intelligence training at designated academy.","Step 6: Join as ACIO/Inspector in IB or NIA.","Pathway C: Technical/Skill-Based Entry Route","Step 1: Pass Class 12th with Science or Maths.","Step 2: Complete B.Tech/B.Sc in IT/Cyber Security/Electronics.","Step 3: Gain expertise in cyber security or data analysis.","Step 4: Apply for technical posts in RAW/IB/NIA/NTRO.","Step 5: Clear selection process and background verification.","Step 6: Serve as Technical Analyst in intelligence agencies."]
       },
       {
         id: "market",
@@ -603,14 +571,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salary, growth outlook, and hiring priorities.",
         color: BLUE2,
-        content: [
-          "Entry-Level (0-2 years): approximately Rs9L-Rs13L gross annual range.",
-          "Mid-Level (7-12 years): approximately Rs16L-Rs26L annual range.",
-          "Senior (15-22 years): approximately Rs30L-Rs42L annual range.",
-          "Leadership (25+ years): approximately Rs45L-Rs60L+ annual range.",
-          "Compensation framework includes 7th Pay Commission structures with Special Security Allowance and foreign assignment benefits.",
-          "Budget trend shows sustained growth, with stronger demand in SIGINT, big data intelligence, and linguistic specialization."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹90 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹40 – ₹85 LPA","Mid-Level Professional (5–8 yrs): ₹20 – ₹38 LPA","Junior / Associate (3–5 yrs): ₹12 – ₹19 LPA","Entry Level (0–2 yrs): ₹7 – ₹11 LPA","Note: 20% Special Security Allowance and 8th Pay boost income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Kolkata, border zones, international embassies.","Top Industries: RAW, IB, NTRO, Cybersecurity, Strategic Consulting.","Global Demand: High in Geopolitics, Counter-terrorism, OSINT, Data Privacy.","Top Institutions","Government / Government Funded Coaching Institutes","Sardar Vallabhbhai Patel National Police Academy (SVPNPA), Hyderabad","Intelligence Bureau Training Centre (IBTC), New Delhi","State Government Free UPSC Coaching Centres (across India)","Dr. Ambedkar Centre of Excellence, New Delhi","Private Coaching Institutes","Drishti IAS, New Delhi","Vajirao & Reddy Institute, New Delhi","Rau's IAS Study Circle, New Delhi","Sriram's IAS, New Delhi","Online Coaching Institutes","Unacademy (UPSC CSE & ACIO Preparation)","Testbook (IB ACIO Exam Preparation)","Adda247 (Intelligence Bureau Exam Courses)","Byju's Exam Prep (UPSC & IB ACIO Online Coaching)","Career Opportunities","Conventional","RAW field officer through Cabinet Secretariat recruitment","IB intelligence officer through MHA deputation or ACIO exam","NIA investigating officer through UPSC or deputation","Defence Intelligence Agency analyst through military cadre","New-Age & AI-Driven","AI-driven signal intelligence and communication intercept analyst","Cyber espionage detection and counter-intelligence specialist","Open-source intelligence (OSINT) and data mining expert","Satellite imagery and geospatial intelligence technology analyst","Remote / Entrepreneurship","Private corporate intelligence and risk advisory founder","Freelance cyber threat analysis and security consultant","Online intelligence studies and strategic affairs educator","Background verification and due diligence startup entrepreneur"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -814,12 +775,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "Map",
         description: "Multiple entry routes to disaster management careers.",
         color: BLUE,
-        content: [
-          "Social Science/Humanities Route: Class 12 Humanities (Geography/Sociology helpful) → BA in Geography, Sociology, or Social Work → MA/M.Sc in Disaster Management → NGO Program Manager or Relief Coordinator.",
-          "Science/Technical Route: Class 12 Science (PCM/PCB) → B.Sc in Geology/Environmental Science or B.Tech (Civil/Environmental) → M.Sc in Disaster Management or M.Tech in Geoinformatics → GIS Specialist or Flood Risk Analyst.",
-          "Uniformed Services Route: Join NDRF (National Disaster Response Force) via paramilitary forces (BSF, CRPF, ITBP) or Fire Services → Direct action and rescue roles.",
-          "Corporate Route: MBA in Risk Management or Business Continuity → Corporate Disaster Management roles in large companies."
-        ]
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Pass Class 12th in any stream.","Step 2: Pursue B.Tech/B.Sc in Disaster Management.","Step 3: Complete internship with NDMA or NGOs.","Step 4: Earn M.Tech/M.Sc in Disaster Management.","Step 5: Get certified in GIS and remote sensing.","Step 6: Join as Disaster Management Officer/Analyst.","Pathway B: Civil Services Route (UPSC)","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation in any discipline.","Step 3: Study disaster management as optional subject.","Step 4: Clear UPSC Civil Services Examination.","Step 5: Get posted in NDMA or SDMA.","Step 6: Serve as IAS/IPS in disaster roles.","Pathway C: Skill-Based & Certification Route","Step 1: Pass Class 10th or 12th exam.","Step 2: Join diploma in disaster management.","Step 3: Learn first aid and emergency response.","Step 4: Get NIDM or Red Cross certification.","Step 5: Volunteer with disaster relief organizations regularly.","Step 6: Work as Field Coordinator or Relief Worker."]
       },
       {
         id: "market",
@@ -827,14 +783,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, growth, and hiring trends.",
         color: BLUE2,
-        content: [
-          "Market Growth: Jobs growing at 15% annually. Focus shifting from 'Relief' to 'Resilience' and prevention.",
-          "Hiring Trends: Corporate Sector - Big companies need 'Business Continuity Managers.' Tech - Demand for Drone pilots and GIS experts for damage assessment.",
-          "Entry-Level (0-2 years): Field Officer/Research Assistant - NGO/Govt ₹3L–₹5L, Corporate ₹6L–₹10L.",
-          "Mid-Level (3-7 years): Program Manager/DM Specialist - NGO/Govt ₹6L–₹12L, Corporate ₹15L–₹25L.",
-          "Senior-Level (8-15 years): State Project Officer/Director - NGO/Govt ₹15L–₹25L, International ₹30L–₹60L.",
-          "Leadership (15+ years): Country Head/Senior Consultant - NGO/Govt ₹30L–₹50L, International ₹80L–₹1.5Cr."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹11 LPA","Entry Level (0–2 yrs): ₹4 – ₹7 LPA","Note: Metros and certifications boost pay by 30%.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Chennai, Nagpur.","Top Industries: NDMA, NDRF, UNDP, Consulting, BFSI, Healthcare.","Global Demand: High in USA, Switzerland; Remote risk-analysis growing.","Top Institutions","Government Institutes","National Institute of Disaster Management (NIDM), New Delhi","Tata Institute of Social Sciences (TISS), Mumbai","Indira Gandhi National Open University (IGNOU), New Delhi","Sikkim University (Department of Peace & Conflict Studies)","Private Institutes","Amity Institute of Disaster Management, Noida","Jamsetji Tata School of Disaster Studies, Mumbai","Manipal Academy of Higher Education, Manipal","Guru Gobind Singh Indraprastha University, New Delhi","Online Institutes","SWAYAM (NIDM Disaster Management Courses)","Coursera (UN & World Bank Disaster Risk Reduction)","edX (Harvard & MIT Humanitarian Response)","NPTEL (IIT Disaster Preparedness Programmes)","Career Opportunities","Conventional","Disaster Management Officer in government agencies","Relief and Rehabilitation Coordinator","Emergency Response Planner in civil administration","National Disaster Response Force (NDRF) personnel","New-Age & AI-Driven","AI-based disaster prediction and early warning analyst","GIS and remote sensing specialist for hazard mapping","Drone-based disaster assessment and surveillance operator","Climate risk modelling and data analytics professional","Remote / Entrepreneurship","Freelance disaster preparedness training consultant","Online disaster risk communication and awareness creator","Disaster management SaaS product developer","Remote community resilience planning advisor"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1055,15 +1004,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "Map",
         description: "Multiple entry routes to join the Indian Army.",
         color: BLUE,
-        content: [
-          "Officer Route - NDA Entry: Class 12 (Any stream for Army; PCM for Air Force/Navy) → Age 16.5–19.5 years → NDA Exam (UPSC) → NDA Pune (3 Years) + IMA Dehradun (1 Year).",
-          "Officer Route - TES Entry: Class 12 (PCM >60%) + JEE Mains Rank → Direct SSB call → OTA Gaya or IMA (Men only).",
-          "Officer Route - CDS Entry: Graduation (Any Stream) → Age 19–25 years → CDS Exam (UPSC) → IMA (Permanent) or OTA (Short Service).",
-          "Officer Route - TGC/SSC-Tech: B.Tech/BE → Direct SSB call based on marks → IMA (TGC) or OTA (SSC).",
-          "Officer Route - JAG Entry: Law Graduate (55%) → Direct SSB → OTA Chennai.",
-          "Officer Route - NCC Entry: Graduate + NCC 'C' Certificate → Direct SSB → OTA Chennai.",
-          "Soldier Route - Agniveer: Class 10 or 12 Pass → Age 17.5–21 years → Common Entrance Exam (CEE) → Physical Fitness Test → Medicals → 4 Years Service (Top 25% retained permanently)."
-        ]
+        content: ["Pathway A: After Class 12th (NDA Route)","Step 1: Pass Class 12th with Physics and Maths.","Step 2: Clear NDA entrance exam after Class 12th.","Step 3: Complete three-year training at NDA, Pune.","Step 4: Undergo one-year training at IMA, Dehradun.","Step 5: Get commissioned as Lieutenant in Indian Army.","Step 6: Serve in Infantry/Artillery/Armoured Corps units.","Pathway B: After Graduation (CDS/TGC/SSC Route)","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation in any recognised discipline.","Step 3: Clear CDS exam or apply for TGC/SSC.","Step 4: Pass SSB interview and medical fitness test.","Step 5: Complete training at IMA or OTA, Chennai.","Step 6: Join as Officer in chosen Army branch.","Pathway C: Skill-Based Entry (Soldier Route)","Step 1: Pass Class 10th or 12th examination.","Step 2: Apply for Agniveer Army recruitment rally online.","Step 3: Clear physical test, medical, and written exam.","Step 4: Complete basic military training at regimental centre.","Step 5: Get posted to assigned regiment or corps.","Step 6: Serve as Agniveer/Soldier in field or support."]
       },
       {
         id: "market",
@@ -1071,16 +1012,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, job security, and hiring trends.",
         color: BLUE2,
-        content: [
-          "Job Security: For Commissioned Officers and Permanent Soldiers, it is 100% secure until retirement. For Agniveers, it is a 4-year tenure with a retention chance.",
-          "Demand: The Army always needs young blood. With modernization, demand for tech-savvy soldiers (Drone operators, Cyber specialists) is skyrocketing.",
-          "Lieutenant Salary: Basic ₹56,100, Gross ₹85,000–₹1.1L/month.",
-          "Captain Salary: Basic ₹61,300, Gross ₹1.0L–₹1.3L/month.",
-          "Colonel Salary: Basic ₹1.3L, Gross ₹2.3L+/month.",
-          "General Salary: Basic ₹2.5L (Fixed), Gross ₹3.5L+/month.",
-          "Agniveer Salary: Year 1 - ₹30,000/month (₹21,000 in-hand + Corpus).",
-          "Note: Allowances vary heavily based on location. A Lieutenant in Siachen gets a 'Siachen Allowance' of approx ₹42,500/month extra."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹95 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹55 – ₹90 LPA","Mid-Level Professional (5–8 yrs): ₹28 – ₹52 LPA","Junior / Associate (3–5 yrs): ₹18 – ₹27 LPA","Entry Level (0–2 yrs): ₹12 – ₹17 LPA","Note: 8th Pay Commission and Siachen/Flying pay boost income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Pune, Bengaluru, Jammu, Lucknow, Mhow.","Top Industries: Defense, Logistics, Corporate Security, Aviation, Risk Management.","Global Demand: UN Peacekeeping, Defense Consulting, Global Security.","Top Institutions","Government / Government Funded Coaching Institutes","Rashtriya Indian Military College (RIMC), Dehradun","Sainik Schools (across India)","National Defence Academy (NDA), Khadakwasla, Pune","Officers Training Academy (OTA), Chennai","Private Coaching Institutes","Cavalier India, New Delhi","Centurion Defence Academy, Lucknow","Major Kalshi Classes, Allahabad","Tara Institute, Mumbai","Online Coaching Institutes","Unacademy (NDA & CDS Preparation)","Testbook (NDA, CDS & CAPF Courses)","Adda247 (Defence Exam Preparation)","YouTube – SSBCrack","Career Opportunities","Conventional","Combat officer through NDA, CDS, or direct entry","Technical officer in Corps of Engineers or Signals","Army Medical Corps doctor or nursing officer","Short Service Commission officer in various arms","New-Age & AI-Driven","AI-powered battlefield intelligence and analytics officer","Cyber security and information warfare specialist","Drone and robotic warfare systems operator","Geospatial technology and satellite imagery analyst","Remote / Entrepreneurship","Defence consultancy and strategic advisory founder","Online defence exam preparation and mentorship provider","Military-grade fitness training entrepreneur","Ex-servicemen skill development and placement consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1304,14 +1236,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "Map",
         description: "Multiple entry routes to join the Indian Air Force.",
         color: BLUE,
-        content: [
-          "Officer Route - NDA Entry: Class 12 (PCM) → Age 16.5–19.5 years → NDA Exam (UPSC) → NDA Pune (3 Years) + AFA Dundigal (Training) → Flying/Ground Duty Officer.",
-          "Officer Route - CDSE Entry: Graduation (Any stream for Ground; Physics/Maths for Flying) → Age 19–25 years → CDSE Exam (UPSC) → AFA Dundigal → Flying Officer (Permanent Commission).",
-          "Officer Route - AFCAT Entry: Graduation (60% min) → AFCAT Exam → AFA Dundigal → Flying/Tech/Ground Duty (Short Service/Permanent).",
-          "Officer Route - NCC Entry: NCC Air Wing Senior Division 'C' Certificate → Direct SSB → AFA Dundigal → Flying Branch.",
-          "Officer Route - Weather Entry: Post Graduate (Science/Maths/Stats) → Meteorology Officer.",
-          "Agniveer Vayu Route: Class 12 (Science/Non-Science) or Diploma → Age 17.5–21 years → Agniveer Vayu Intake (Online Test + Physical + Medicals) → 4 Years Service (Top 25% retained permanently)."
-        ]
+        content: ["Pathway A: After Class 12th (NDA Route)","Step 1: Pass Class 12th with Physics and Maths.","Step 2: Clear NDA entrance exam after Class 12th.","Step 3: Complete three-year training at NDA, Pune.","Step 4: Undergo flying/technical training at Air Force Academy.","Step 5: Get commissioned as Flying/Technical Officer.","Step 6: Serve as Fighter/Transport/Helicopter Pilot in IAF.","Pathway B: After Graduation (CDS/AFCAT Route)","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation in any recognised discipline.","Step 3: Clear CDS or AFCAT entrance examination.","Step 4: Pass SSB interview and medical fitness test.","Step 5: Complete training at Air Force training establishments.","Step 6: Join as Officer in Flying/Technical/Administration branch.","Pathway C: Skill-Based Entry (Airmen Route)","Step 1: Pass Class 10th or 12th with Science.","Step 2: Apply for Agniveer Vayu recruitment online.","Step 3: Clear written exam and physical fitness test.","Step 4: Complete basic training at Airmen Training School.","Step 5: Get specialisation in technical or non-technical trade.","Step 6: Serve as Airman in IAF technical/support roles."]
       },
       {
         id: "market",
@@ -1319,16 +1244,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, job security, and hiring trends.",
         color: BLUE2,
-        content: [
-          "Job Security: 100% job security for commissioned officers and permanent airmen.",
-          "Compensation: The IAF offers a lifestyle, not just a salary. This includes free housing, medical for family, canteen facilities (CSD), and ration.",
-          "Flying Officer Salary: Basic ₹56,100, Gross ₹85,000–₹1.1L/month (+ Flying Allowance ₹25k/month).",
-          "Flight Lieutenant Salary: Basic ₹61,300, Gross ₹1.0L–₹1.3L/month.",
-          "Wing Commander Salary: Basic ₹1.2L, Gross ₹2.0L+/month.",
-          "Air Marshal Salary: Basic ₹2.0L+, Gross ₹3.0L+/month.",
-          "Agniveer Vayu Salary: Year 1 - ₹30,000/month, Year 4 - ₹40,000/month + Seva Nidhi (~₹11.7L).",
-          "Market Demand: The government is pushing for 'Aatmanirbhar Bharat' in defense. The IAF is expanding its technical wings to handle indigenous jets like Tejas and Prachand helicopters."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹95 LPA – ₹2.2 Crore","Senior / Lead Role (10+ yrs): ₹55 – ₹90 LPA","Mid-Level Professional (5–8 yrs): ₹28 – ₹50 LPA","Junior / Associate (3–5 yrs): ₹19 – ₹26 LPA","Entry Level (0–2 yrs): ₹12 – ₹18 LPA","Note: Flying branch and 8th Pay boost income significantly.","Where Are the Jobs?","Top Cities: Delhi, Bengaluru, Shillong, Prayagraj, Gandhinagar, Nagpur.","Top Industries: Operations, Engineering, Space, Logistics, UAVs.","Global Demand: UN Missions, France, USA, Defense exports.","Top Institutions","Government / Government Funded Coaching Institutes","Sainik Schools (across India)","Rashtriya Indian Military College (RIMC), Dehradun","National Defence Academy (NDA), Khadakwasla, Pune","Air Force Selection Boards (AFSB), Dehradun & Mysuru","Private Coaching Institutes","Cavalier India, New Delhi","Centurion Defence Academy, Lucknow","Shield Defence Academy, Chandigarh","Manasa Defence Academy, Visakhapatnam","Online Coaching Institutes","Testbook","Unacademy","Physics Wala","Gradeup","Career Opportunities","Conventional","Fighter/transport/helicopter pilot through AFCAT or NDA","Aeronautical engineer in technical branch","Ground duty officer in administration and logistics","Air traffic controller at IAF airfields","New-Age & AI-Driven","Unmanned aerial vehicle (UAV/drone) operator","AI-based radar and surveillance systems specialist","Cyber warfare and electronic countermeasures officer","Space and satellite communication technology expert","Remote / Entrepreneurship","Defence technology startup founder (post-retirement)","Freelance aviation safety and training consultant","Online defence exam coaching and mentorship provider","Aerospace component manufacturing entrepreneur"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1550,15 +1466,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "Map",
         description: "Multiple entry routes to join the Merchant Navy.",
         color: BLUE,
-        content: [
-          "Officer Route - B.Tech Entry: Class 12 (PCM >70%) + JEE Mains Rank → Direct SSB Call → INA, Ezhimala (4 Years).",
-          "Officer Route - NDA Entry: Class 12 (PCM) → NDA Exam (UPSC) → NDA Pune (3 Years) + INA (1 Year).",
-          "Officer Route - CDS Entry: Graduation (B.Tech/B.Sc) → CDS Exam (UPSC) → INA, Ezhimala.",
-          "Officer Route - Direct Entry: BE/B.Tech (Marks based) → Direct SSB Call → INA, Ezhimala.",
-          "Officer Route - NCC Entry: Graduate + NCC 'C' Certificate (Naval Wing) → Direct SSB Call → INA, Ezhimala.",
-          "Officer Route - INET Entry: Graduate (Various Streams) → Indian Navy Entrance Test → INA, Ezhimala.",
-          "Sailor Route - Agniveer: Class 10 (Matric Recruit - MR) or Class 12 PCM (Senior Secondary Recruit - SSR) → Computer-based Test → Physical Fitness Test → Medicals → 4 Years Service (Top 25% retained permanently)."
-        ]
+        content: ["Pathway A: After Class 10th (Diploma / Rating Route)","Step 1: Pass Class 10th with Science and Mathematics subjects.","Step 2: Complete 6-month GP Rating course from DGS-approved institute.","Step 3: Clear IMU-CET entrance exam and medical fitness test.","Step 4: Join merchant ship as Deck Rating or Engine Rating.","Step 5: Gain sea experience and pass competency certificate exams.","Step 6: Rise to Bosun or Engine Room Supervisor on ships.","Pathway B: After Class 12th (B.Sc. Nautical Science Route)","Step 1: Pass Class 12th with Physics, Chemistry, and Mathematics.","Step 2: Clear IMU-CET exam and IMARS online counselling process.","Step 3: Complete B.Sc. Nautical Science from DGS-approved college.","Step 4: Join shipping company as Deck Cadet for sea training.","Step 5: Pass MEO or Second Mate competency exams from DGS.","Step 6: Rise from Third Officer to Captain of the ship.","Pathway C: Engineering Graduate (Marine Engineering Route)","Step 1: Pass Class 12th with PCM and clear engineering entrance.","Step 2: Complete B.Tech Marine Engineering from DGS-approved institute.","Step 3: Join shipping company as Junior Marine Engineering trainee.","Step 4: Complete mandatory sea service and workshop training period.","Step 5: Pass MEO Class 4 competency certificate examination from DGS.","Step 6: Rise from Fourth Engineer to Chief Engineer on ships."]
       },
       {
         id: "market",
@@ -1566,16 +1474,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, expansion, and job security.",
         color: BLUE2,
-        content: [
-          "Expansion: The Navy plans to have 175-200 warships by 2035 (up from ~130 today). This means massive hiring for crews and officers.",
-          "Job Security: 100% for Officers. Agniveers have a 4-year tenure with retention chances.",
-          "Sub Lieutenant Salary: Basic ₹56,100, Gross ₹85,000–₹1.1L/month.",
-          "Lieutenant Salary: Basic ₹61,300, Gross ₹1.1L–₹1.4L/month.",
-          "Commander Salary: Basic ₹1.2L, Gross ₹2.2L+/month.",
-          "Vice Admiral Salary: Basic ₹2.25L, Gross ₹3.5L+/month.",
-          "Agniveer Sailor Salary: Year 1 - ₹30,000/month, Year 4 - ₹40,000/month + Seva Nidhi (~₹11.7L).",
-          "Unique Allowances: Sea Going Pay (very high), Submarine Pay (extremely high), Foreign Service Allowance, Ration Money."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Cr – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹45 – ₹85 LPA","Mid-Level Professional (5–8 yrs): ₹20 – ₹42 LPA","Junior / Associate (3–5 yrs): ₹10 – ₹18 LPA","Entry Level (0–2 yrs): ₹4 – ₹9 LPA","Note: Tankers pay 40% more. NRI status offers tax-free income.","Where Are the Jobs?","Top Cities: Mumbai, Chennai, Kolkata, Kochi, Navi Mumbai, Vizag.","Top Industries: Maersk, Synergy, Oil & Gas, Cargo, Cruise.","Global Demand: High in USA, UAE. Green-shipping skills rising."]
       },{
         id: "costs",
         title: "What Will It Cost?",
