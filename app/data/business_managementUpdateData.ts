@@ -3,14 +3,14 @@ import { CareerPageData } from './careerPageData';
 const RED = "#C20000";
 const RED2 = "#DA1313";
 
-export const agricultureUpdateData: Record<string, CareerPageData> = {
-  agri_business_management: {
-    slug: "agri_business_management",
+export const business_managementUpdateData: Record<string, CareerPageData> = {
+  business_analytics: {
+    slug: "business_analytics",
     badge: "Career Exploration for Class 10+",
-    heading: "Agri-Business Management",
-    subheading: "Explore opportunities in Agri-Business Management.",
+    heading: "Business Analytics",
+    subheading: "Explore opportunities in Business Analytics.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Agri-Business Management.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Business Analytics.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -29,10 +29,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Agri-Business Management.",
+        description: "Understanding Business Analytics.",
         color: RED,
         content: [
-          "Agri-Business Management is a dynamic and rewarding career path.",
+          "Business Analytics is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -123,13 +123,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  agricultural_engineering: {
-    slug: "agricultural_engineering",
+  business_financial_management: {
+    slug: "business_financial_management",
     badge: "Career Exploration for Class 10+",
-    heading: "Agricultural Engineering",
-    subheading: "Explore opportunities in Agricultural Engineering.",
+    heading: "Business Financial Management",
+    subheading: "Explore opportunities in Business Financial Management.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Agricultural Engineering.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Business Financial Management.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -148,10 +148,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Agricultural Engineering.",
+        description: "Understanding Business Financial Management.",
         color: RED,
         content: [
-          "Agricultural Engineering is a dynamic and rewarding career path.",
+          "Business Financial Management is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -242,13 +242,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  agriculture_research: {
-    slug: "agriculture_research",
+  business_operations_management: {
+    slug: "business_operations_management",
     badge: "Career Exploration for Class 10+",
-    heading: "Agriculture Research",
-    subheading: "Explore opportunities in Agriculture Research.",
+    heading: "Business Operations Management",
+    subheading: "Explore opportunities in Business Operations Management.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Agriculture Research.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Business Operations Management.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -267,10 +267,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Agriculture Research.",
+        description: "Understanding Business Operations Management.",
         color: RED,
         content: [
-          "Agriculture Research is a dynamic and rewarding career path.",
+          "Business Operations Management is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -361,13 +361,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  animal_veterinary_science: {
-    slug: "animal_veterinary_science",
+  business_process_outsourcing_bpo: {
+    slug: "business_process_outsourcing_bpo",
     badge: "Career Exploration for Class 10+",
-    heading: "Animal / Veterinary Science",
-    subheading: "Explore opportunities in Animal / Veterinary Science.",
+    heading: "Business Process Outsourcing (BPO)",
+    subheading: "Explore opportunities in Business Process Outsourcing (BPO).",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Animal / Veterinary Science.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Business Process Outsourcing (BPO).", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -386,10 +386,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Animal / Veterinary Science.",
+        description: "Understanding Business Process Outsourcing (BPO).",
         color: RED,
         content: [
-          "Animal / Veterinary Science is a dynamic and rewarding career path.",
+          "Business Process Outsourcing (BPO) is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -480,13 +480,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  apiculture: {
-    slug: "apiculture",
+  fashion_management: {
+    slug: "fashion_management",
     badge: "Career Exploration for Class 10+",
-    heading: "Apiculture",
-    subheading: "Explore opportunities in Apiculture.",
+    heading: "Fashion Management",
+    subheading: "Explore opportunities in Fashion Management.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Apiculture.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Fashion Management.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -505,10 +505,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Apiculture.",
+        description: "Understanding Fashion Management.",
         color: RED,
         content: [
-          "Apiculture is a dynamic and rewarding career path.",
+          "Fashion Management is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -599,13 +599,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  aquaculture: {
-    slug: "aquaculture",
+  human_resources_management_hrm: {
+    slug: "human_resources_management_hrm",
     badge: "Career Exploration for Class 10+",
-    heading: "Aquaculture",
-    subheading: "Explore opportunities in Aquaculture.",
+    heading: "Human Resources Management (HRM)",
+    subheading: "Explore opportunities in Human Resources Management (HRM).",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Aquaculture.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Human Resources Management (HRM).", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -624,10 +624,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Aquaculture.",
+        description: "Understanding Human Resources Management (HRM).",
         color: RED,
         content: [
-          "Aquaculture is a dynamic and rewarding career path.",
+          "Human Resources Management (HRM) is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -718,13 +718,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  dairy_technology: {
-    slug: "dairy_technology",
+  international_business_management: {
+    slug: "international_business_management",
     badge: "Career Exploration for Class 10+",
-    heading: "Dairy Technology",
-    subheading: "Explore opportunities in Dairy Technology.",
+    heading: "International Business Management",
+    subheading: "Explore opportunities in International Business Management.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Dairy Technology.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in International Business Management.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -743,10 +743,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Dairy Technology.",
+        description: "Understanding International Business Management.",
         color: RED,
         content: [
-          "Dairy Technology is a dynamic and rewarding career path.",
+          "International Business Management is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -837,13 +837,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  florist: {
-    slug: "florist",
+  information_technology_it_management: {
+    slug: "information_technology_it_management",
     badge: "Career Exploration for Class 10+",
-    heading: "Florist",
-    subheading: "Explore opportunities in Florist.",
+    heading: "Information Technology (IT) Management",
+    subheading: "Explore opportunities in Information Technology (IT) Management.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Florist.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Information Technology (IT) Management.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -862,10 +862,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Florist.",
+        description: "Understanding Information Technology (IT) Management.",
         color: RED,
         content: [
-          "Florist is a dynamic and rewarding career path.",
+          "Information Technology (IT) Management is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -956,13 +956,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  food_science: {
-    slug: "food_science",
+  project_management: {
+    slug: "project_management",
     badge: "Career Exploration for Class 10+",
-    heading: "Food Science",
-    subheading: "Explore opportunities in Food Science.",
+    heading: "Project Management",
+    subheading: "Explore opportunities in Project Management.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Food Science.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Project Management.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -981,10 +981,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Food Science.",
+        description: "Understanding Project Management.",
         color: RED,
         content: [
-          "Food Science is a dynamic and rewarding career path.",
+          "Project Management is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -1075,13 +1075,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  horticulture: {
-    slug: "horticulture",
+  retail_management: {
+    slug: "retail_management",
     badge: "Career Exploration for Class 10+",
-    heading: "Horticulture",
-    subheading: "Explore opportunities in Horticulture.",
+    heading: "Retail Management",
+    subheading: "Explore opportunities in Retail Management.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Horticulture.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Retail Management.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -1100,367 +1100,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Horticulture.",
+        description: "Understanding Retail Management.",
         color: RED,
         content: [
-          "Horticulture is a dynamic and rewarding career path.",
-          "It offers opportunities for growth and development.",
-          "Professionals in this field make a significant impact.",
-          "The industry is evolving with new technologies.",
-          "Career prospects are excellent for qualified candidates."
-        ]
-      },
-      {
-        id: "education",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Educational journey from Class 10 onwards.",
-        color: RED,
-        content: [
-          "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue relevant bachelor's degree",
-          "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
-          "Step 6: Advance to senior positions",
-          "Pathway B: Skill-Based Entry",
-          "Step 1: Complete Class 12th",
-          "Step 2: Take specialized training courses",
-          "Step 3: Gain hands-on experience",
-          "Step 4: Get industry certifications",
-          "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
-        ]
-      },
-      {
-        id: "salary",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
-        content: [
-          "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
-          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
-          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
-          "Entry Level (0–2 yrs): ₹3–8 LPA",
-          "Note: Salaries vary by location, experience, and specialization."
-        ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top cities and industries.",
-        color: RED2,
-        content: [
-          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
-          "Top Industries: Various sectors offering opportunities",
-          "Global Demand: High in developed markets"
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building2",
-        description: "Top institutions across India.",
-        color: RED,
-        content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Various career roles.",
-        color: RED2,
-        content: [
-          "Conventional: Traditional roles in the industry",
-          "New-Age & AI Driven: Emerging roles with technology",
-          "Remote/Entrepreneurship: Freelance and startup opportunities"
-        ]
-      }
-    ]
-  },
-  poultry: {
-    slug: "poultry",
-    badge: "Career Exploration for Class 10+",
-    heading: "Poultry",
-    subheading: "Explore opportunities in Poultry.",
-    whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Poultry.", borderColor: "#10B981" },
-      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
-      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
-      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
-      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
-      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "what",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "Understanding Poultry.",
-        color: RED,
-        content: [
-          "Poultry is a dynamic and rewarding career path.",
-          "It offers opportunities for growth and development.",
-          "Professionals in this field make a significant impact.",
-          "The industry is evolving with new technologies.",
-          "Career prospects are excellent for qualified candidates."
-        ]
-      },
-      {
-        id: "education",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Educational journey from Class 10 onwards.",
-        color: RED,
-        content: [
-          "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue relevant bachelor's degree",
-          "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
-          "Step 6: Advance to senior positions",
-          "Pathway B: Skill-Based Entry",
-          "Step 1: Complete Class 12th",
-          "Step 2: Take specialized training courses",
-          "Step 3: Gain hands-on experience",
-          "Step 4: Get industry certifications",
-          "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
-        ]
-      },
-      {
-        id: "salary",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
-        content: [
-          "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
-          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
-          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
-          "Entry Level (0–2 yrs): ₹3–8 LPA",
-          "Note: Salaries vary by location, experience, and specialization."
-        ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top cities and industries.",
-        color: RED2,
-        content: [
-          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
-          "Top Industries: Various sectors offering opportunities",
-          "Global Demand: High in developed markets"
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building2",
-        description: "Top institutions across India.",
-        color: RED,
-        content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Various career roles.",
-        color: RED2,
-        content: [
-          "Conventional: Traditional roles in the industry",
-          "New-Age & AI Driven: Emerging roles with technology",
-          "Remote/Entrepreneurship: Freelance and startup opportunities"
-        ]
-      }
-    ]
-  },
-  sericulture: {
-    slug: "sericulture",
-    badge: "Career Exploration for Class 10+",
-    heading: "Sericulture",
-    subheading: "Explore opportunities in Sericulture.",
-    whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Sericulture.", borderColor: "#10B981" },
-      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
-      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
-      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
-      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
-      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "what",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "Understanding Sericulture.",
-        color: RED,
-        content: [
-          "Sericulture is a dynamic and rewarding career path.",
-          "It offers opportunities for growth and development.",
-          "Professionals in this field make a significant impact.",
-          "The industry is evolving with new technologies.",
-          "Career prospects are excellent for qualified candidates."
-        ]
-      },
-      {
-        id: "education",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Educational journey from Class 10 onwards.",
-        color: RED,
-        content: [
-          "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue relevant bachelor's degree",
-          "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
-          "Step 6: Advance to senior positions",
-          "Pathway B: Skill-Based Entry",
-          "Step 1: Complete Class 12th",
-          "Step 2: Take specialized training courses",
-          "Step 3: Gain hands-on experience",
-          "Step 4: Get industry certifications",
-          "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
-        ]
-      },
-      {
-        id: "salary",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
-        content: [
-          "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
-          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
-          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
-          "Entry Level (0–2 yrs): ₹3–8 LPA",
-          "Note: Salaries vary by location, experience, and specialization."
-        ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top cities and industries.",
-        color: RED2,
-        content: [
-          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
-          "Top Industries: Various sectors offering opportunities",
-          "Global Demand: High in developed markets"
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building2",
-        description: "Top institutions across India.",
-        color: RED,
-        content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Various career roles.",
-        color: RED2,
-        content: [
-          "Conventional: Traditional roles in the industry",
-          "New-Age & AI Driven: Emerging roles with technology",
-          "Remote/Entrepreneurship: Freelance and startup opportunities"
-        ]
-      }
-    ]
-  },
-  vertical_farming: {
-    slug: "vertical_farming",
-    badge: "Career Exploration for Class 10+",
-    heading: "Vertical Farming",
-    subheading: "Explore opportunities in Vertical Farming.",
-    whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Vertical Farming.", borderColor: "#10B981" },
-      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
-      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
-      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
-      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
-      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "what",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "Understanding Vertical Farming.",
-        color: RED,
-        content: [
-          "Vertical Farming is a dynamic and rewarding career path.",
+          "Retail Management is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",

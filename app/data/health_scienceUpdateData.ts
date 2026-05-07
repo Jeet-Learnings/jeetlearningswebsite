@@ -3,14 +3,14 @@ import { CareerPageData } from './careerPageData';
 const RED = "#C20000";
 const RED2 = "#DA1313";
 
-export const agricultureUpdateData: Record<string, CareerPageData> = {
-  agri_business_management: {
-    slug: "agri_business_management",
+export const health_scienceUpdateData: Record<string, CareerPageData> = {
+  alternative_medicine: {
+    slug: "alternative_medicine",
     badge: "Career Exploration for Class 10+",
-    heading: "Agri-Business Management",
-    subheading: "Explore opportunities in Agri-Business Management.",
+    heading: "Alternative Medicine",
+    subheading: "Explore opportunities in Alternative Medicine.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Agri-Business Management.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Alternative Medicine.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -29,10 +29,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Agri-Business Management.",
+        description: "Understanding Alternative Medicine.",
         color: RED,
         content: [
-          "Agri-Business Management is a dynamic and rewarding career path.",
+          "Alternative Medicine is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -123,13 +123,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  agricultural_engineering: {
-    slug: "agricultural_engineering",
+  audiologist: {
+    slug: "audiologist",
     badge: "Career Exploration for Class 10+",
-    heading: "Agricultural Engineering",
-    subheading: "Explore opportunities in Agricultural Engineering.",
+    heading: "Audiologist",
+    subheading: "Explore opportunities in Audiologist.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Agricultural Engineering.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Audiologist.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -148,10 +148,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Agricultural Engineering.",
+        description: "Understanding Audiologist.",
         color: RED,
         content: [
-          "Agricultural Engineering is a dynamic and rewarding career path.",
+          "Audiologist is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -242,13 +242,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  agriculture_research: {
-    slug: "agriculture_research",
+  dentist: {
+    slug: "dentist",
     badge: "Career Exploration for Class 10+",
-    heading: "Agriculture Research",
-    subheading: "Explore opportunities in Agriculture Research.",
+    heading: "Dentist",
+    subheading: "Explore opportunities in Dentist.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Agriculture Research.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Dentist.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -267,10 +267,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Agriculture Research.",
+        description: "Understanding Dentist.",
         color: RED,
         content: [
-          "Agriculture Research is a dynamic and rewarding career path.",
+          "Dentist is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -361,13 +361,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  animal_veterinary_science: {
-    slug: "animal_veterinary_science",
+  dietician: {
+    slug: "dietician",
     badge: "Career Exploration for Class 10+",
-    heading: "Animal / Veterinary Science",
-    subheading: "Explore opportunities in Animal / Veterinary Science.",
+    heading: "Dietician",
+    subheading: "Explore opportunities in Dietician.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Animal / Veterinary Science.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Dietician.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -386,10 +386,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Animal / Veterinary Science.",
+        description: "Understanding Dietician.",
         color: RED,
         content: [
-          "Animal / Veterinary Science is a dynamic and rewarding career path.",
+          "Dietician is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -480,13 +480,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  apiculture: {
-    slug: "apiculture",
+  homeopathy: {
+    slug: "homeopathy",
     badge: "Career Exploration for Class 10+",
-    heading: "Apiculture",
-    subheading: "Explore opportunities in Apiculture.",
+    heading: "Homeopathy",
+    subheading: "Explore opportunities in Homeopathy.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Apiculture.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Homeopathy.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -505,10 +505,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Apiculture.",
+        description: "Understanding Homeopathy.",
         color: RED,
         content: [
-          "Apiculture is a dynamic and rewarding career path.",
+          "Homeopathy is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -599,13 +599,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  aquaculture: {
-    slug: "aquaculture",
+  hospital_management: {
+    slug: "hospital_management",
     badge: "Career Exploration for Class 10+",
-    heading: "Aquaculture",
-    subheading: "Explore opportunities in Aquaculture.",
+    heading: "Hospital Management",
+    subheading: "Explore opportunities in Hospital Management.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Aquaculture.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Hospital Management.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -624,10 +624,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Aquaculture.",
+        description: "Understanding Hospital Management.",
         color: RED,
         content: [
-          "Aquaculture is a dynamic and rewarding career path.",
+          "Hospital Management is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -718,13 +718,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  dairy_technology: {
-    slug: "dairy_technology",
+  medical_diagnostic_services: {
+    slug: "medical_diagnostic_services",
     badge: "Career Exploration for Class 10+",
-    heading: "Dairy Technology",
-    subheading: "Explore opportunities in Dairy Technology.",
+    heading: "Medical Diagnostic Services",
+    subheading: "Explore opportunities in Medical Diagnostic Services.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Dairy Technology.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Medical Diagnostic Services.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -743,10 +743,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Dairy Technology.",
+        description: "Understanding Medical Diagnostic Services.",
         color: RED,
         content: [
-          "Dairy Technology is a dynamic and rewarding career path.",
+          "Medical Diagnostic Services is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -837,13 +837,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  florist: {
-    slug: "florist",
+  medical_doctor: {
+    slug: "medical_doctor",
     badge: "Career Exploration for Class 10+",
-    heading: "Florist",
-    subheading: "Explore opportunities in Florist.",
+    heading: "Medical Doctor",
+    subheading: "Explore opportunities in Medical Doctor.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Florist.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Medical Doctor.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -862,10 +862,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Florist.",
+        description: "Understanding Medical Doctor.",
         color: RED,
         content: [
-          "Florist is a dynamic and rewarding career path.",
+          "Medical Doctor is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -956,13 +956,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  food_science: {
-    slug: "food_science",
+  medical_transcription: {
+    slug: "medical_transcription",
     badge: "Career Exploration for Class 10+",
-    heading: "Food Science",
-    subheading: "Explore opportunities in Food Science.",
+    heading: "Medical Transcription",
+    subheading: "Explore opportunities in Medical Transcription.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Food Science.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Medical Transcription.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -981,10 +981,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Food Science.",
+        description: "Understanding Medical Transcription.",
         color: RED,
         content: [
-          "Food Science is a dynamic and rewarding career path.",
+          "Medical Transcription is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -1075,13 +1075,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  horticulture: {
-    slug: "horticulture",
+  nurse_and_medical_assistant: {
+    slug: "nurse_and_medical_assistant",
     badge: "Career Exploration for Class 10+",
-    heading: "Horticulture",
-    subheading: "Explore opportunities in Horticulture.",
+    heading: "Nurse and Medical Assistant",
+    subheading: "Explore opportunities in Nurse and Medical Assistant.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Horticulture.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Nurse and Medical Assistant.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -1100,10 +1100,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Horticulture.",
+        description: "Understanding Nurse and Medical Assistant.",
         color: RED,
         content: [
-          "Horticulture is a dynamic and rewarding career path.",
+          "Nurse and Medical Assistant is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -1194,13 +1194,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  poultry: {
-    slug: "poultry",
+  operation_theatre_technician: {
+    slug: "operation_theatre_technician",
     badge: "Career Exploration for Class 10+",
-    heading: "Poultry",
-    subheading: "Explore opportunities in Poultry.",
+    heading: "Operation Theatre Technician",
+    subheading: "Explore opportunities in Operation Theatre Technician.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Poultry.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Operation Theatre Technician.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -1219,10 +1219,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Poultry.",
+        description: "Understanding Operation Theatre Technician.",
         color: RED,
         content: [
-          "Poultry is a dynamic and rewarding career path.",
+          "Operation Theatre Technician is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -1313,13 +1313,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  sericulture: {
-    slug: "sericulture",
+  optometry: {
+    slug: "optometry",
     badge: "Career Exploration for Class 10+",
-    heading: "Sericulture",
-    subheading: "Explore opportunities in Sericulture.",
+    heading: "Optometry",
+    subheading: "Explore opportunities in Optometry.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Sericulture.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Optometry.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -1338,10 +1338,10 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Sericulture.",
+        description: "Understanding Optometry.",
         color: RED,
         content: [
-          "Sericulture is a dynamic and rewarding career path.",
+          "Optometry is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -1432,13 +1432,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  vertical_farming: {
-    slug: "vertical_farming",
+  pharmacist: {
+    slug: "pharmacist",
     badge: "Career Exploration for Class 10+",
-    heading: "Vertical Farming",
-    subheading: "Explore opportunities in Vertical Farming.",
+    heading: "Pharmacist",
+    subheading: "Explore opportunities in Pharmacist.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Vertical Farming.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Pharmacist.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -1457,10 +1457,367 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Vertical Farming.",
+        description: "Understanding Pharmacist.",
         color: RED,
         content: [
-          "Vertical Farming is a dynamic and rewarding career path.",
+          "Pharmacist is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "education",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: RED,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue relevant bachelor's degree",
+          "Step 3: Gain practical experience through internships",
+          "Step 4: Pursue advanced certifications",
+          "Step 5: Build professional network",
+          "Step 6: Advance to senior positions",
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th",
+          "Step 2: Take specialized training courses",
+          "Step 3: Gain hands-on experience",
+          "Step 4: Get industry certifications",
+          "Step 5: Build portfolio",
+          "Step 6: Transition to professional roles",
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue master's degree",
+          "Step 3: Specialize in specific domain",
+          "Step 4: Conduct research or projects",
+          "Step 5: Publish work or build portfolio",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "salary",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: RED2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED2,
+        content: [
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
+          "Top Industries: Various sectors offering opportunities",
+          "Global Demand: High in developed markets"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government:\nTop government institutions offering programs",
+          "Private:\nLeading private institutions",
+          "Online:\nOnline learning platforms and courses"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: RED2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+  public_healthcare_administration: {
+    slug: "public_healthcare_administration",
+    badge: "Career Exploration for Class 10+",
+    heading: "Public Healthcare Administration",
+    subheading: "Explore opportunities in Public Healthcare Administration.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Public Healthcare Administration.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Public Healthcare Administration.",
+        color: RED,
+        content: [
+          "Public Healthcare Administration is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "education",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: RED,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue relevant bachelor's degree",
+          "Step 3: Gain practical experience through internships",
+          "Step 4: Pursue advanced certifications",
+          "Step 5: Build professional network",
+          "Step 6: Advance to senior positions",
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th",
+          "Step 2: Take specialized training courses",
+          "Step 3: Gain hands-on experience",
+          "Step 4: Get industry certifications",
+          "Step 5: Build portfolio",
+          "Step 6: Transition to professional roles",
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue master's degree",
+          "Step 3: Specialize in specific domain",
+          "Step 4: Conduct research or projects",
+          "Step 5: Publish work or build portfolio",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "salary",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: RED2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED2,
+        content: [
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
+          "Top Industries: Various sectors offering opportunities",
+          "Global Demand: High in developed markets"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government:\nTop government institutions offering programs",
+          "Private:\nLeading private institutions",
+          "Online:\nOnline learning platforms and courses"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: RED2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+  radiology_technician: {
+    slug: "radiology_technician",
+    badge: "Career Exploration for Class 10+",
+    heading: "Radiology Technician",
+    subheading: "Explore opportunities in Radiology Technician.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Radiology Technician.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Radiology Technician.",
+        color: RED,
+        content: [
+          "Radiology Technician is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "education",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: RED,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue relevant bachelor's degree",
+          "Step 3: Gain practical experience through internships",
+          "Step 4: Pursue advanced certifications",
+          "Step 5: Build professional network",
+          "Step 6: Advance to senior positions",
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th",
+          "Step 2: Take specialized training courses",
+          "Step 3: Gain hands-on experience",
+          "Step 4: Get industry certifications",
+          "Step 5: Build portfolio",
+          "Step 6: Transition to professional roles",
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue master's degree",
+          "Step 3: Specialize in specific domain",
+          "Step 4: Conduct research or projects",
+          "Step 5: Publish work or build portfolio",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "salary",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: RED2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED2,
+        content: [
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
+          "Top Industries: Various sectors offering opportunities",
+          "Global Demand: High in developed markets"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government:\nTop government institutions offering programs",
+          "Private:\nLeading private institutions",
+          "Online:\nOnline learning platforms and courses"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: RED2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+  therapy_science: {
+    slug: "therapy_science",
+    badge: "Career Exploration for Class 10+",
+    heading: "Therapy Science",
+    subheading: "Explore opportunities in Therapy Science.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Therapy Science.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Therapy Science.",
+        color: RED,
+        content: [
+          "Therapy Science is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",

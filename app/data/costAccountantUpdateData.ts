@@ -98,29 +98,20 @@ export const costAccountantUpdateData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
         content: [
-          "Pathway A: CA (Chartered Accountant) Route",
-          "Step 1: Complete Class 12th (Commerce stream preferred)",
-          "Step 2: Pursue B.Com (Hons) or B.Com (General)",
-          "Step 3: Register for CA articleship (5.5 years of practical training)",
-          "Step 4: Complete CA Foundation, Intermediate, and Final exams",
-          "Step 5: Gain experience in cost accounting roles",
-          "Step 6: Become a qualified CA with cost accounting specialization",
-          "",
-          "Pathway B: CMA (Cost Management Accountant) Route",
-          "Step 1: Complete Class 12th (any stream with Maths)",
-          "Step 2: Pursue B.Com or BBA Finance",
-          "Step 3: Register for CMA course with Institute of Cost Accountants of India (ICAI)",
-          "Step 4: Complete CMA Foundation, Intermediate, and Final exams",
-          "Step 5: Gain practical experience in cost accounting",
-          "Step 6: Become a qualified CMA (Cost Accountant)",
-          "",
-          "Pathway C: Diploma + Job Route",
-          "Step 1: Complete Class 12th (Commerce preferred)",
-          "Step 2: Pursue Diploma in Cost Accounting or Financial Accounting",
-          "Step 3: Join as Cost Accountant or Junior Cost Analyst",
-          "Step 4: Gain 2-3 years of practical experience",
-          "Step 5: Pursue professional certifications (CMA or CA)",
-          "Step 6: Progress to Senior Cost Accountant or Cost Manager roles"
+          "Pathway A: Direct CMA Route (After 12th)",
+          "Step 1: Complete Class 12th (Commerce preferred, any stream accepted)",
+          "Step 2: Register and clear CMA Foundation (4 papers)",
+          "Step 3: Clear CMA Intermediate (2 groups — 8 papers)",
+          "Step 4: Clear CMA Final (2 groups — 8 papers)",
+          "Step 5: Complete 3 years of practical training under a practicing Cost Accountant",
+          "Step 6: Become Cost Accountant",
+          "Pathway B: Graduation + CMA Route",
+          "Step 1: Complete Class 12th (any stream)",
+          "Step 2: Pursue B.Com / BBA / B.Com (Hons) alongside CMA preparation",
+          "Step 3: Graduates can directly register for CMA Intermediate (skip Foundation)",
+          "Step 4: Clear CMA Intermediate and Final programmes",
+          "Step 5: Learn tools — SAP FICO, Tally, Excel, costing software, GST portal",
+          "Step 6: Join as Cost Accountant, Management Accountant, or Pricing Manager"
         ]
       },
       {
@@ -131,12 +122,12 @@ export const costAccountantUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2+ Crore",
-          "Senior / Lead Role (10+ yrs): ₹30–80 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹12–30 LPA",
-          "Junior / Associate (3–5 yrs): ₹6–15 LPA",
-          "Entry Level (0–2 yrs): ₹4–8 LPA",
-          "Note: Metro cities (Mumbai, Delhi, Bengaluru) pay 25–40% more; each certification adds ₹1–3 LPA; performance bonuses can add 15–30% to base salary."
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹8–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–12 LPA",
+          "Entry Level (0–2 yrs): ₹3–7 LPA",
+          "Note: Metro cities (Mumbai, Bengaluru) pay 20–35% higher; SAP/ERP skills and industry exposure boost salary by 20–40%."
         ]
       },
       {
@@ -146,9 +137,9 @@ export const costAccountantUpdateData: Record<string, CareerPageData> = {
         description: "Top cities and industries.",
         color: BLUE2,
         content: [
-          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai",
-          "Top Industries: Manufacturing, Pharmaceuticals, Textiles, Chemicals, Automotive, IT Services, Retail, Hospitality",
-          "Opportunities: High demand in manufacturing hubs; growing opportunities in startups and fintech; international roles in multinational companies"
+          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Chennai, Hyderabad, Pune",
+          "Top Industries: Manufacturing, FMCG, Pharma, Consulting, Banking, IT/ERP Firms",
+          "Opportunities: High demand in cost control, budgeting, analytics; global demand (Middle East, Africa); freelance and advisory roles growing"
         ]
       },
       {
@@ -158,24 +149,9 @@ export const costAccountantUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government",
-          "Delhi University (Faculty of Commerce)",
-          "Mumbai University (Department of Commerce)",
-          "Calcutta University",
-          "Banaras Hindu University (BHU)",
-          "University of Madras",
-          "Private",
-          "Amity University (Noida)",
-          "Christ University (Bengaluru)",
-          "NMIMS (Mumbai)",
-          "FLAME University (Pune)",
-          "Symbiosis (Pune)",
-          "Professional Bodies",
-          "Institute of Cost Accountants of India (ICAI)",
-          "Institute of Chartered Accountants of India (ICAI)",
-          "Online/Distance",
-          "IGNOU",
-          "Indira Gandhi National Open University"
+          "Government:\nInstitute of Cost Accountants of India (ICMAI)\nIndian Institute of Corporate Affairs (IICA)\nUniversity of Delhi (Department of Commerce)\nBanaras Hindu University (BHU)",
+          "Private:\nNarsee Monjee Institute (NMIMS), Mumbai\nLoyola College, Chennai\nSt. Xavier's College, Kolkata\nChrist University, Bangalore",
+          "Online:\nICMAI e-Learning Portal\nUnacademy CMA Programs\nSWAYAM / NPTEL\nCAclubindia Online Courses"
         ]
       },
       {
@@ -214,11 +190,9 @@ export const costAccountantUpdateData: Record<string, CareerPageData> = {
         description: "Conventional and emerging roles.",
         color: BLUE2,
         content: [
-          "Conventional: Cost Accountant, Senior Cost Accountant, Cost Manager, Cost Controller, Financial Analyst, Budget Analyst, Internal Auditor.",
-          "New-Age: Data Analytics Specialist (cost data), Business Intelligence Analyst, Process Improvement Consultant, Sustainability Cost Analyst.",
-          "Entrepreneurship: Starting a cost accounting consultancy, financial advisory firm, or business process outsourcing company.",
-          "Government: Ministry of Finance, SEBI, RBI for policy-making and regulatory roles.",
-          "International: High demand in USA, UK, UAE, Singapore for Indian cost accountants with global certifications."
+          "Conventional: Cost Auditor, Management Accountant, Budget Planning & Control Manager, Pricing & Costing Analyst",
+          "New-Age and AI-Driven: AI-powered Cost Optimization Specialist, Predictive Cost Analytics Expert, Robotic Process Automation (RPA) in Costing, Data-Driven Supply Chain Cost Analyst",
+          "Remote/Entrepreneurship: Freelance Cost Audit Consultant, Virtual Management Accounting Services, Online CMA Exam Coaching, Cost Optimization Advisory Firm Founder"
         ]
       },
       {

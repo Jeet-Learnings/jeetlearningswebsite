@@ -3,14 +3,14 @@ import { CareerPageData } from './careerPageData';
 const RED = "#C20000";
 const RED2 = "#DA1313";
 
-export const environmentUpdateData: Record<string, CareerPageData> = {
-  environmental_scientist: {
-    slug: "environmental_scientist",
+export const human_social_sciencesUpdateData: Record<string, CareerPageData> = {
+  anthropologist: {
+    slug: "anthropologist",
     badge: "Career Exploration for Class 10+",
-    heading: "Environmental Scientist",
-    subheading: "Explore opportunities in Environmental Scientist.",
+    heading: "Anthropologist",
+    subheading: "Explore opportunities in Anthropologist.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Environmental Scientist.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Anthropologist.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -29,10 +29,10 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Environmental Scientist.",
+        description: "Understanding Anthropologist.",
         color: RED,
         content: [
-          "Environmental Scientist is a dynamic and rewarding career path.",
+          "Anthropologist is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -123,13 +123,13 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  forest_officer: {
-    slug: "forest_officer",
+  archaeologist: {
+    slug: "archaeologist",
     badge: "Career Exploration for Class 10+",
-    heading: "Forest Officer",
-    subheading: "Explore opportunities in Forest Officer.",
+    heading: "Archaeologist",
+    subheading: "Explore opportunities in Archaeologist.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Forest Officer.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Archaeologist.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -148,10 +148,10 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Forest Officer.",
+        description: "Understanding Archaeologist.",
         color: RED,
         content: [
-          "Forest Officer is a dynamic and rewarding career path.",
+          "Archaeologist is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -242,13 +242,13 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  geology: {
-    slug: "geology",
+  clinical_psychologist: {
+    slug: "clinical_psychologist",
     badge: "Career Exploration for Class 10+",
-    heading: "Geology",
-    subheading: "Explore opportunities in Geology.",
+    heading: "Clinical Psychologist",
+    subheading: "Explore opportunities in Clinical Psychologist.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Geology.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Clinical Psychologist.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -267,10 +267,10 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Geology.",
+        description: "Understanding Clinical Psychologist.",
         color: RED,
         content: [
-          "Geology is a dynamic and rewarding career path.",
+          "Clinical Psychologist is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -361,13 +361,13 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  oceanography: {
-    slug: "oceanography",
+  geographer: {
+    slug: "geographer",
     badge: "Career Exploration for Class 10+",
-    heading: "Oceanography",
-    subheading: "Explore opportunities in Oceanography.",
+    heading: "Geographer",
+    subheading: "Explore opportunities in Geographer.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Oceanography.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Geographer.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -386,10 +386,10 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Oceanography.",
+        description: "Understanding Geographer.",
         color: RED,
         content: [
-          "Oceanography is a dynamic and rewarding career path.",
+          "Geographer is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -480,13 +480,13 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  wildlife_biologist: {
-    slug: "wildlife_biologist",
+  historian: {
+    slug: "historian",
     badge: "Career Exploration for Class 10+",
-    heading: "Wildlife Biologist",
-    subheading: "Explore opportunities in Wildlife Biologist.",
+    heading: "Historian",
+    subheading: "Explore opportunities in Historian.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Wildlife Biologist.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Historian.", borderColor: "#10B981" },
       { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
       { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
       { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
@@ -505,10 +505,486 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding Wildlife Biologist.",
+        description: "Understanding Historian.",
         color: RED,
         content: [
-          "Wildlife Biologist is a dynamic and rewarding career path.",
+          "Historian is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "education",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: RED,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue relevant bachelor's degree",
+          "Step 3: Gain practical experience through internships",
+          "Step 4: Pursue advanced certifications",
+          "Step 5: Build professional network",
+          "Step 6: Advance to senior positions",
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th",
+          "Step 2: Take specialized training courses",
+          "Step 3: Gain hands-on experience",
+          "Step 4: Get industry certifications",
+          "Step 5: Build portfolio",
+          "Step 6: Transition to professional roles",
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue master's degree",
+          "Step 3: Specialize in specific domain",
+          "Step 4: Conduct research or projects",
+          "Step 5: Publish work or build portfolio",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "salary",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: RED2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED2,
+        content: [
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
+          "Top Industries: Various sectors offering opportunities",
+          "Global Demand: High in developed markets"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government:\nTop government institutions offering programs",
+          "Private:\nLeading private institutions",
+          "Online:\nOnline learning platforms and courses"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: RED2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+  home_science: {
+    slug: "home_science",
+    badge: "Career Exploration for Class 10+",
+    heading: "Home Science",
+    subheading: "Explore opportunities in Home Science.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Home Science.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Home Science.",
+        color: RED,
+        content: [
+          "Home Science is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "education",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: RED,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue relevant bachelor's degree",
+          "Step 3: Gain practical experience through internships",
+          "Step 4: Pursue advanced certifications",
+          "Step 5: Build professional network",
+          "Step 6: Advance to senior positions",
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th",
+          "Step 2: Take specialized training courses",
+          "Step 3: Gain hands-on experience",
+          "Step 4: Get industry certifications",
+          "Step 5: Build portfolio",
+          "Step 6: Transition to professional roles",
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue master's degree",
+          "Step 3: Specialize in specific domain",
+          "Step 4: Conduct research or projects",
+          "Step 5: Publish work or build portfolio",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "salary",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: RED2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED2,
+        content: [
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
+          "Top Industries: Various sectors offering opportunities",
+          "Global Demand: High in developed markets"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government:\nTop government institutions offering programs",
+          "Private:\nLeading private institutions",
+          "Online:\nOnline learning platforms and courses"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: RED2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+  mentor_and_coach: {
+    slug: "mentor_and_coach",
+    badge: "Career Exploration for Class 10+",
+    heading: "Mentor and Coach",
+    subheading: "Explore opportunities in Mentor and Coach.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Mentor and Coach.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Mentor and Coach.",
+        color: RED,
+        content: [
+          "Mentor and Coach is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "education",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: RED,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue relevant bachelor's degree",
+          "Step 3: Gain practical experience through internships",
+          "Step 4: Pursue advanced certifications",
+          "Step 5: Build professional network",
+          "Step 6: Advance to senior positions",
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th",
+          "Step 2: Take specialized training courses",
+          "Step 3: Gain hands-on experience",
+          "Step 4: Get industry certifications",
+          "Step 5: Build portfolio",
+          "Step 6: Transition to professional roles",
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue master's degree",
+          "Step 3: Specialize in specific domain",
+          "Step 4: Conduct research or projects",
+          "Step 5: Publish work or build portfolio",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "salary",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: RED2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED2,
+        content: [
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
+          "Top Industries: Various sectors offering opportunities",
+          "Global Demand: High in developed markets"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government:\nTop government institutions offering programs",
+          "Private:\nLeading private institutions",
+          "Online:\nOnline learning platforms and courses"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: RED2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+  political_scientist: {
+    slug: "political_scientist",
+    badge: "Career Exploration for Class 10+",
+    heading: "Political Scientist",
+    subheading: "Explore opportunities in Political Scientist.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Political Scientist.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Political Scientist.",
+        color: RED,
+        content: [
+          "Political Scientist is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "education",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: RED,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue relevant bachelor's degree",
+          "Step 3: Gain practical experience through internships",
+          "Step 4: Pursue advanced certifications",
+          "Step 5: Build professional network",
+          "Step 6: Advance to senior positions",
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th",
+          "Step 2: Take specialized training courses",
+          "Step 3: Gain hands-on experience",
+          "Step 4: Get industry certifications",
+          "Step 5: Build portfolio",
+          "Step 6: Transition to professional roles",
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th",
+          "Step 2: Pursue master's degree",
+          "Step 3: Specialize in specific domain",
+          "Step 4: Conduct research or projects",
+          "Step 5: Publish work or build portfolio",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "salary",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: RED2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED2,
+        content: [
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
+          "Top Industries: Various sectors offering opportunities",
+          "Global Demand: High in developed markets"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government:\nTop government institutions offering programs",
+          "Private:\nLeading private institutions",
+          "Online:\nOnline learning platforms and courses"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: RED2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+  sociologist: {
+    slug: "sociologist",
+    badge: "Career Exploration for Class 10+",
+    heading: "Sociologist",
+    subheading: "Explore opportunities in Sociologist.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Sociologist.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Sociologist.",
+        color: RED,
+        content: [
+          "Sociologist is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",

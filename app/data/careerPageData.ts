@@ -787,65 +787,82 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: ["Pathway A: Direct CA Route (After 12th)","Step 1: Complete Class 12th (Commerce with Maths preferred)","Step 2: Register and clear CA Foundation exam (4 papers)","Step 3: Clear CA Intermediate exam (Group I & II — 8 papers)","Step 4: Complete 3 years of Articleship (practical training) under a practicing CA","Step 5: Clear CA Final exam (6 papers) and complete ICAI requirements","Step 6: Work as Chartered Accountant","Pathway B: Graduation + CA Route","Step 1: Complete Class 12th (Commerce preferred)","Step 2: Pursue B.Com / BBA / B.Com (Hons) alongside CA preparation","Step 3: Register directly for CA Intermediate (graduates can skip Foundation)","Step 4: Clear CA Intermediate and begin 3-year Articleship","Step 5: Learn tools — Tally, SAP, Excel, GST portal, Income Tax portal","Step 6: Clear CA Final — join as CA in audit firms, corporates, banks, or government","Pathway C: CA + Specialization Route","Step 1: Complete Class 12th (Commerce/Science with Maths)","Step 2: Clear CA Foundation and Intermediate exams","Step 3: During Articleship, gain exposure in tax, audit, or forensic accounting","Step 4: Clear CA Final and obtain membership from ICAI","Step 5: Add specialization — CFA, CISA, DISA, CPA, or MBA Finance","Step 6: Work as Forensic Auditor, Investment Banker, or International Tax Expert"]
-      },
-      {
-        id: "market",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salaries, growth, and opportunities.",
-        color: RED2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5+ Crore","Senior / Lead Role (10+ yrs): ₹25–70 LPA","Mid-Level Professional (5–8 yrs): ₹10–30 LPA","Junior / Associate (3–5 yrs): ₹6–15 LPA","Entry Level (0–2 yrs): ₹4–10 LPA","Note: Metro cities (Mumbai, Delhi-NCR) pay 20–40% higher; Big 4 experience and CA rank/skills can boost salary by 30–70%.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune","Top Industries: Audit Firms (Big 4), Corporates, Banking, Tax Consulting, Startups, Government","Opportunities: High demand in compliance, GST, IPO advisory; global demand (UK, UAE, Canada); freelancing and practice growing","Top Institutions","Government","Institute of Chartered Accountants of India (ICAI)","National Academy of Direct Taxes (NADT)","Indian Institute of Corporate Affairs (IICA)","Institute of Cost Accountants of India (ICMAI)","Private","Sinhgad College of Commerce, Pune","Loyola College, Chennai","St. Xavier's College, Kolkata","Narsee Monjee College of Commerce, Mumbai","Online","ICAI Virtual Learning (e-learning portal)","Unacademy CA Programs","SWAYAM / NPTEL","Vedantu CA Foundation Courses","Career Opportunities","Conventional","Statutory Auditor","Tax Consultant (Direct & Indirect)","Corporate Finance Manager","Internal Auditor","New-Age and AI-Driven","Forensic Accounting Specialist","AI-powered Audit Analyst","Data-Driven Tax Automation Expert","RegTech Compliance Advisor","Remote/Entrepreneurship","Freelance GST/Income Tax Consultant","Virtual CFO Services Provider","Online CA Exam Coaching","Cloud Accounting Firm Founder"]
-      },{
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building2",
-        description: "Top institutions across India.",
-        color: RED,
         content: [
-          "Public/Premier: Institute of Chartered Accountants of India (ICAI) - The licensing body; ICAI Regional Hubs in Mumbai, Delhi, Chennai, Kolkata, Kanpur.",
-          "Coaching Institutions: VSI Jaipur; J.K. Shah Classes; Disha Academy; Swapna Academy.",
-          "Online/Distance: Physics Wallah; Unacademy; Coursera; Udemy; ICAI's own online learning portal."
-        ]
-      },
-      {
-        id: "scholarships",
-        title: "Scholarship Opportunities",
-        icon: "Award",
-        description: "Financial assistance programs.",
-        color: RED2,
-        content: [
-          "ICAI Scholarships: Merit-based and Need-based scholarships (₹1,500 – ₹2,500 monthly) provided to students during Articleship.",
-          "Central Government: NSP Post-Matric Scholarships for SC/ST/OBC and Minority students.",
-          "State Schemes: States like Kerala offer specific scholarships for minority students pursuing CA/CS.",
-          "Fee Concessions: 75% fee concession for students from J&K, Ladakh, Northeast, and Andaman."
-        ]
-      },
-      {
-        id: "certifications",
-        title: "Professional Bodies & Licensing",
-        icon: "Award",
-        description: "Credentials and regulatory requirements.",
-        color: RED,
-        content: [
-          "Mandatory Body: You must be a member of the ICAI to call yourself a 'Chartered Accountant.'",
-          "Certificate of Practice (COP): Required only if you want to start your own firm and sign audit reports.",
-          "Continuous Professional Education (CPE): CAs must complete CPE hours annually to maintain their license.",
-          "Global Recognition: ICAI qualification is recognized by accounting bodies worldwide."
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Conventional and emerging roles.",
-        color: RED2,
-        content: [
-          "Conventional: Statutory Audit, Income Tax Practice, Internal Audit, Financial Accounting.",
-          "New-Age: Forensic Accounting (finding scams), ESG Auditor (Green Finance), Valuation Specialist for Startups, Blockchain Auditor.",
-          "Entrepreneurship: Start your own firm, become a Virtual CFO for startups, or enter the world of Stock Market Investing."
-        ]
-      },
+            "Pathway A: Direct CA Route (After 12th)",
+            "Step 1: Complete Class 12th (Commerce with Maths preferred)",
+            "Step 2: Register and clear CA Foundation exam (4 papers)",
+            "Step 3: Clear CA Intermediate exam (Group I & II — 8 papers)",
+            "Step 4: Complete 3 years of Articleship (practical training) under a practicing CA",
+            "Step 5: Clear CA Final exam (6 papers) and complete ICAI requirements",
+            "Step 6: Work as Chartered Accountant",
+            "Pathway B: Graduation + CA Route",
+            "Step 1: Complete Class 12th (Commerce preferred)",
+            "Step 2: Pursue B.Com / BBA / B.Com (Hons) alongside CA preparation",
+            "Step 3: Register directly for CA Intermediate (graduates can skip Foundation)",
+            "Step 4: Clear CA Intermediate and begin 3-year Articleship",
+            "Step 5: Learn tools — Tally, SAP, Excel, GST portal, Income Tax portal",
+            "Step 6: Clear CA Final — join as CA in audit firms, corporates, banks, or government",
+            "Pathway C: CA + Specialization Route",
+            "Step 1: Complete Class 12th (Commerce/Science with Maths)",
+            "Step 2: Clear CA Foundation and Intermediate exams",
+            "Step 3: During Articleship, gain exposure in tax, audit, or forensic accounting",
+            "Step 4: Clear CA Final and obtain membership from ICAI",
+            "Step 5: Add specialization — CFA, CISA, DISA, CPA, or MBA Finance",
+            "Step 6: Work as Forensic Auditor, Investment Banker, or International Tax Expert"
+          ]
+        },
+        {
+          id: "market",
+          title: "Market Snapshot — India 2026",
+          icon: "TrendingUp",
+          description: "Salaries, growth, and opportunities.",
+          color: RED2,
+          content: [
+            "Salary Snapshot (Annual INR)",
+            "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5+ Crore",
+            "Senior / Lead Role (10+ yrs): ₹25–70 LPA",
+            "Mid-Level Professional (5–8 yrs): ₹10–30 LPA",
+            "Junior / Associate (3–5 yrs): ₹6–15 LPA",
+            "Entry Level (0–2 yrs): ₹4–10 LPA",
+            "Note: Metro cities (Mumbai, Delhi-NCR) pay 20–40% higher; Big 4 experience and CA rank/skills can boost salary by 30–70%.",
+            "Where Are the Jobs?",
+            "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
+            "Top Industries: Audit Firms (Big 4), Corporates, Banking, Tax Consulting, Startups, Government",
+            "Opportunities: High demand in compliance, GST, IPO advisory; global demand (UK, UAE, Canada); freelancing and practice growing",
+            "Top Institutions",
+            "Government",
+            "Institute of Chartered Accountants of India (ICAI)",
+            "National Academy of Direct Taxes (NADT)",
+            "Indian Institute of Corporate Affairs (IICA)",
+            "Institute of Cost Accountants of India (ICMAI)",
+            "Private",
+            "Sinhgad College of Commerce, Pune",
+            "Loyola College, Chennai",
+            "St. Xavier's College, Kolkata",
+            "Narsee Monjee College of Commerce, Mumbai",
+            "Online",
+            "ICAI Virtual Learning (e-learning portal)",
+            "Unacademy CA Programs",
+            "SWAYAM / NPTEL",
+            "Vedantu CA Foundation Courses",
+            "Career Opportunities",
+            "Conventional",
+            "Statutory Auditor",
+            "Tax Consultant (Direct & Indirect)",
+            "Corporate Finance Manager",
+            "Internal Auditor",
+            "New-Age and AI-Driven",
+            "Forensic Accounting Specialist",
+            "AI-powered Audit Analyst",
+            "Data-Driven Tax Automation Expert",
+            "RegTech Compliance Advisor",
+            "Remote/Entrepreneurship",
+            "Freelance GST/Income Tax Consultant",
+            "Virtual CFO Services Provider",
+            "Online CA Exam Coaching",
+            "Cloud Accounting Firm Founder"
+          ]
+        },
       {
         id: "challenges",
         title: "Challenges and Realities",
@@ -989,7 +1006,29 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: RED,
-        content: ["Pathway A: Direct CS Route (After 12th)","Step 1: Complete Class 12th (Commerce preferred, any stream accepted)","Step 2: Register and clear CSEET (CS Executive Entrance Test)","Step 3: Clear CS Executive Programme (2 modules — 8 papers)","Step 4: Clear CS Professional Programme (3 modules — 9 papers)","Step 5: Complete 15 months of practical training under a practicing CS or company","Step 6: Become Company Secretary","Pathway B: Graduation + CS Route","Step 1: Complete Class 12th (any stream)","Step 2: Pursue B.Com / BBA / B.A. / LLB alongside CS preparation","Step 3: Graduates can directly register for CS Executive (skip CSEET)","Step 4: Clear CS Executive and Professional programmes","Step 5: Learn tools — MCA portal, Tally, Excel, company law databases","Step 6: Join as Company Secretary, Compliance Officer, or Legal Advisor","Pathway C: CS + Dual Qualification Route","Step 1: Complete Class 12th (Commerce/Law stream preferred)","Step 2: Clear CSEET and CS Executive Programme","Step 3: Pursue LLB / CA / CMA simultaneously for dual qualification","Step 4: Clear CS Professional and complete practical training","Step 5: Add certifications — GST, FEMA, Insolvency Professional (IP)","Step 6: Work as Corporate Governance Expert, or Legal Compliance Head"]
+        content: [
+          "Pathway A: Direct CS Route (After 12th)",
+          "Step 1: Complete Class 12th (Commerce preferred, any stream accepted)",
+          "Step 2: Register and clear CSEET (CS Executive Entrance Test)",
+          "Step 3: Clear CS Executive Programme (2 modules — 8 papers)",
+          "Step 4: Clear CS Professional Programme (3 modules — 9 papers)",
+          "Step 5: Complete 15 months of practical training under a practicing CS or company",
+          "Step 6: Become Company Secretary",
+          "Pathway B: Graduation + CS Route",
+          "Step 1: Complete Class 12th (any stream)",
+          "Step 2: Pursue B.Com / BBA / B.A. / LLB alongside CS preparation",
+          "Step 3: Graduates can directly register for CS Executive (skip CSEET)",
+          "Step 4: Clear CS Executive and Professional programmes",
+          "Step 5: Learn tools — MCA portal, Tally, Excel, company law databases",
+          "Step 6: Join as Company Secretary, Compliance Officer, or Legal Advisor",
+          "Pathway C: CS + Dual Qualification Route",
+          "Step 1: Complete Class 12th (Commerce/Law stream preferred)",
+          "Step 2: Clear CSEET and CS Executive Programme",
+          "Step 3: Pursue LLB / CA / CMA simultaneously for dual qualification",
+          "Step 4: Clear CS Professional and complete practical training",
+          "Step 5: Add certifications — GST, FEMA, Insolvency Professional (IP)",
+          "Step 6: Work as Corporate Governance Expert, or Legal Compliance Head"
+        ]
       },
       {
         id: "market",
@@ -997,18 +1036,50 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹8–25 LPA","Junior / Associate (3–5 yrs): ₹5–12 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: Metro cities (Mumbai, Delhi-NCR) pay 20–40% higher; listed company exposure and experience boost salary by 25–50%.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune","Top Industries: Corporates, Listed Companies, Legal Firms, Consulting, Banking, Startups","Opportunities: High demand in compliance, corporate law, IPO; global roles (UAE, Singapore); independent practice growing","Top Institutions","Government","Institute of Company Secretaries of India (ICSI)","Indian Institute of Corporate Affairs (IICA)","National Law Universities (NLUs)","University of Delhi (Department of Commerce)","Private","Narsee Monjee Institute (NMIMS), Mumbai","Symbiosis Law School, Pune","Amity University","Christ University, Bangalore","Online","ICSI e-Learning Portal","Unacademy CS Programs","SWAYAM / NPTEL","Takshila Learning (CS Online Courses)","Career Opportunities","Conventional","Corporate Governance Advisor","Legal Compliance Officer","Board Meeting & AGM Coordinator","Company Law Consultant","New-Age and AI-Driven","RegTech Compliance Automation Specialist","AI-powered Corporate Governance Analyst","ESG (Environmental, Social, Governance) Advisor","Digital Contract Management Expert","Remote/Entrepreneurship","Freelance Company Secretary (Practice)","Virtual Compliance Services Provider","Online CS Exam Coaching","Startup Incorporation & Advisory Firm Founder"]
-      },{
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building2",
-        description: "Top institutions across India.",
-        color: RED,
         content: [
-          "The Authoritative Body: ICSI (Headquarters in New Delhi).",
-          "Regional Offices: Mumbai, Kolkata, Chennai, New Delhi.",
-          "Chapters: Over 70 chapters across India (including Pune, Ahmedabad, Hyderabad, Kochi).",
-          "Online: ICSI provides e-learning portals and virtual classrooms, making it accessible even in rural India."
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹8–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–12 LPA",
+          "Entry Level (0–2 yrs): ₹3–7 LPA",
+          "Note: Metro cities (Mumbai, Delhi-NCR) pay 20–40% higher; listed company exposure and experience boost salary by 25–50%.",
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
+          "Top Industries: Corporates, Listed Companies, Legal Firms, Consulting, Banking, Startups",
+          "Opportunities: High demand in compliance, corporate law, IPO; global roles (UAE, Singapore); independent practice growing",
+          "Top Institutions",
+          "Government",
+          "Institute of Company Secretaries of India (ICSI)",
+          "Indian Institute of Corporate Affairs (IICA)",
+          "National Law Universities (NLUs)",
+          "University of Delhi (Department of Commerce)",
+          "Private",
+          "Narsee Monjee Institute (NMIMS), Mumbai",
+          "Symbiosis Law School, Pune",
+          "Amity University",
+          "Christ University, Bangalore",
+          "Online",
+          "ICSI e-Learning Portal",
+          "Unacademy CS Programs",
+          "SWAYAM / NPTEL",
+          "Takshila Learning (CS Online Courses)",
+          "Career Opportunities",
+          "Conventional",
+          "Corporate Governance Advisor",
+          "Legal Compliance Officer",
+          "Board Meeting & AGM Coordinator",
+          "Company Law Consultant",
+          "New-Age and AI-Driven",
+          "RegTech Compliance Automation Specialist",
+          "AI-powered Corporate Governance Analyst",
+          "ESG (Environmental, Social, Governance) Advisor",
+          "Digital Contract Management Expert",
+          "Remote/Entrepreneurship",
+          "Freelance Company Secretary (Practice)",
+          "Virtual Compliance Services Provider",
+          "Online CS Exam Coaching",
+          "Startup Incorporation & Advisory Firm Founder"
         ]
       },
       {
@@ -1035,19 +1106,6 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Membership Tiers: ACS (Associate Company Secretary) → FCS (Fellow Company Secretary, after 5 years of experience).",
           "Certificate of Practice (COP): Required if you want to start your own firm and provide consulting services.",
           "Continuous Professional Development: FCS members must complete CPD hours annually."
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Conventional and emerging roles.",
-        color: RED2,
-        content: [
-          "Conventional: Company Secretary, Compliance Officer, Legal Advisor, Board Secretary.",
-          "New-Age: ESG Head, AI Governance Lead, Forensic Auditor, Insolvency Professional, Data Privacy Officer.",
-          "Freelancing: Independent Corporate Consultant for startups and SMEs.",
-          "Entrepreneurship: Start your own compliance consulting firm or corporate advisory practice."
         ]
       },
       {
@@ -1108,283 +1166,6 @@ export const careerPageData: Record<string, CareerPageData> = {
     ]
   },
 
-  // ─── COST ACCOUNTANT ─────────────────────────────────────────────
-  cost_accountant: {
-      slug: "cost_accountant",
-      badge: "Career Exploration for Class 10+",
-      heading: "The Efficiency Engineers of Business",
-      subheading:
-        "Cost and Management Accountants are the architects of profitability—they decode the true cost of every product, optimize operations, and guide strategic decisions. A globally recognized profession with 9% growth projected to 2030.",
-      whyCards: [
-        { icon: "🏭", title: "Manufacturing Backbone", description: "Essential in manufacturing, MNCs, and PSUs across India", borderColor: "#F59E0B" },
-        { icon: "⚖️", title: "Legally Mandated", description: "Certain companies must have CMA cost audits by law", borderColor: "#1E40AF" },
-        { icon: "🌐", title: "Global Recognition", description: "ICAI-CMA certification recognized internationally", borderColor: "#6366F1" },
-        { icon: "💡", title: "Strategic Role", description: "Drive business efficiency and profitability decisions", borderColor: "#10B981" }
-      ],
-      quickFacts: [
-        { label: "Salary Range", detail: "₹6L–₹1Cr+ annually", color: "bg-amber-100 text-amber-700" },
-        { label: "Market Growth", detail: "9% global growth to 2030", color: "bg-blue-100 text-blue-700" },
-        { label: "Duration", detail: "3–5 years total", color: "bg-indigo-100 text-indigo-700" }
-      ],
-      statCards: [
-        { value: "₹6L–₹1Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-        { value: "9% CAGR", label: "Global Market Growth", gradient: "from-blue-600 to-indigo-600" }
-      ],
-      guideSections: [
-        {
-          id: "1",
-          title: "What is This Career All About?",
-          icon: "🏭",
-          description: "Understanding the CMA profession and its role in modern business",
-          color: RED,
-          content: [
-            "Think of a massive factory making smartphones. Have you ever wondered how they decide the exact price of that phone? It's not just a random number. They have to account for the cost of the screen, the tiny chips inside, the electricity used in the factory, the salary of the workers, and even the cost of the box it comes in. A Cost and Management Accountant (CMA) is the professional who figures this out.",
-            "While a regular accountant looks at the \"what happened\" (past financial records), a CMA looks at the \"how to make it better\" (future efficiency). They are the \"Efficiency Engineers\" of the corporate world. Their job is to manage costs, reduce waste, and ensure a company is making a profit without compromising on quality.",
-            "In today's India, with the \"Make in India\" initiative and a booming startup culture, CMAs are more important than ever. They help Indian businesses become globally competitive by ensuring every rupee spent is a rupee well-invested."
-          ]
-        },
-        {
-          id: "2",
-          title: "A Day in the Life",
-          icon: "⏰",
-          description: "Real-world experience of a working CMA",
-          color: RED2,
-          content: [
-            "8:30 AM – The Plant Walkthrough: Vivek, a CMA at a large automobile manufacturing plant in Pune, starts his day not in a cubicle, but on the factory floor. He's observing the new robotic arm installed last week. He isn't checking the mechanics; he's checking the time. If the arm saves 10 seconds per car, how much money does the company save in a year?",
-            "11:00 AM – Data Crunching: Back at his desk, Vivek opens his \"Costing Dashboard.\" He analyzes the raw material prices for steel, which have spiked this morning. He runs a \"What-If\" simulation: If steel prices stay this high, should we change our supplier or slightly adjust our car's selling price?",
-            "1:30 PM – The Budget Battle: Lunch is followed by a meeting with the Marketing and Production heads. Marketing wants a bigger budget for ads; Production wants new machinery. Vivek acts as the \"Voice of Reason.\" He presents a data-driven report showing that investing in the new machinery will reduce long-term production costs, actually creating more money for ads next year.",
-            "4:00 PM – The Audit Trail: He spends the late afternoon working on a \"Cost Audit\" report. This is a legal requirement for many Indian industries. He ensures that the company is following government guidelines for cost records, preventing any legal hiccups.",
-            "6:30 PM – Strategy Signing-Off: Before leaving, Vivek briefs the CEO on a \"Waste Reduction\" project. By recycling scrap metal more efficiently, the plant has saved ₹50 Lakhs this quarter. Vivek heads home knowing that his calculations helped keep a thousand people's jobs secure by keeping the company profitable."
-          ]
-        },
-        {
-          id: "3",
-          title: "Is This You? (Personality Traits & Skills)",
-          icon: "🎯",
-          description: "Traits that make someone well-suited for a CMA career",
-          color: RED3,
-          content: [
-            "The Numbers Detective: You love solving puzzles with data and finding hidden patterns in numbers.",
-            "Strategic Thinker: You don't just calculate—you think about 'why' and 'what if' scenarios.",
-            "Accuracy Obsessed: You notice small errors and stay meticulous with details.",
-            "Business Curious: You want to understand how factories, supply chains, and businesses actually work.",
-            "Problem Solver: You enjoy finding ways to reduce costs without compromising quality.",
-            "Clear Communicator: You can explain complex numbers in simple words to non-financial managers.",
-            "Tech-Savvy: You're comfortable with Excel, ERP systems, and data visualization tools.",
-            "Ethical: You believe in honest reporting and transparent financial practices."
-          ]
-        },
-        {
-          id: "4",
-          title: "Key Responsibilities and Workflow",
-          icon: "📊",
-          description: "Core duties of a Cost and Management Accountant",
-          color: RED4,
-          content: [
-            "Cost Calculation: Calculate the true cost of products, services, and operations using methods like absorption costing, marginal costing, and activity-based costing.",
-            "Budgeting & Planning: Prepare annual budgets, forecasts, and financial plans for different departments.",
-            "Cost Audit: Conduct mandatory cost audits in industries like pharmaceuticals, chemicals, and engineering—a legally mandated responsibility.",
-            "Variance Analysis: Compare actual costs with budgeted costs and investigate why differences occurred.",
-            "Management Reporting: Create dashboards and reports that help executives make faster, better decisions.",
-            "Pricing Strategy: Recommend optimal product prices based on cost analysis and market conditions.",
-            "Performance Improvement: Identify inefficiencies and suggest ways to reduce waste and improve productivity.",
-            "Compliance: Ensure adherence to GST, labor laws, and industry-specific regulations.",
-            "The CMA follows a cycle: Plan → Execute → Monitor → Analyze → Improve."
-          ]
-        },
-        {
-          id: "5",
-          title: "Career Pathways in India",
-          icon: "🛤️",
-          description: "How to become a CMA in India",
-          color: RED5,
-          content: [
-            "The CMA course in India is regulated by The Institute of Cost Accountants of India (ICMAI).",
-            "After Class 10: Provisional Registration. Start preparing for the Foundation level while finishing school.",
-            "After Class 12: Step 1: Foundation (4 papers). Step 2: Intermediate (8 papers). Step 3: Final (8 papers). Open to Science, Commerce, and Humanities (Fine Arts is excluded).",
-            "After Graduation: Direct Entry. Skip the Foundation level. Start directly at the Intermediate stage.",
-            "The Step-by-Step Roadmap: 1. Foundation: Basic accounting, law, and math. 2. Intermediate: Deep dive into cost accounting, taxation, and auditing. 3. Training: A mandatory 15-month \"Practical Training\" (Internship) to get real-world experience. 4. Final: Strategic management, international taxation, and cost audits."
-          ]
-        },
-        {
-          id: "6",
-          title: "Market Snapshot — India 2026",
-          icon: "📈",
-          description: "Salary, growth, and job market data for CMAs",
-          color: RED,
-          content: [
-            "Salary Ranges (Annual INR):",
-            "  • Entry-Level (Fresh CMA): ₹6 Lakhs – ₹12 Lakhs",
-            "  • Mid-Level (5–7 years): ₹18 Lakhs – ₹45 Lakhs",
-            "  • Senior/Manager: ₹50 Lakhs – ₹80 Lakhs",
-            "  • Leadership (CFO/VP Finance): ₹1 Crore – ₹3 Crores+",
-            "Global Market Growth: 9% CAGR projected to 2030.",
-            "India's Manufacturing Sector: Growing at 5–7% annually, driving demand for CMAs.",
-            "Top-Paying Cities: Mumbai, Bengaluru, Delhi-NCR, and Pune.",
-            "Hiring Trends: Demand surging in automotive, pharmaceuticals, FMCG, and IT services.",
-            "Freelance Opportunities: 15–20% of CMAs work as independent consultants."
-          ]
-        },
-        {
-          id: "7",
-          title: "Where Are the Jobs?",
-          icon: "💼",
-          description: "Industries and roles hiring CMAs",
-          color: RED2,
-          content: [
-            "Manufacturing: Automotive, pharmaceuticals, chemicals, textiles, steel—the largest employer of CMAs.",
-            "FMCG: Companies like ITC, Nestlé, and Britannia employ CMAs for cost optimization.",
-            "IT & Consulting: Accenture, Deloitte, and EY hire CMAs for management consulting roles.",
-            "Banking & Finance: HDFC, ICICI, and Axis Bank employ CMAs for financial planning.",
-            "PSUs: Government-owned enterprises like NTPC, SAIL, and BHEL have dedicated CMA teams.",
-            "Startups: Growing demand from e-commerce and tech startups for cost management.",
-            "Practising CMA (PCMA): Start your own firm and consult for multiple companies.",
-            "International: High demand in UAE, Singapore, UK, and USA for Indian CMAs.",
-            "Emerging Roles: ESG Reporting, AI-driven cost optimization, and supply chain analytics."
-          ]
-        },
-        {
-          id: "8",
-          title: "What Will It Cost?",
-          icon: "💰",
-          description: "Investment required at each stage of the CMA qualification",
-          color: RED3,
-          content: [
-            "CMA Foundation: ₹6,000 official fees; coaching ₹15,000–₹25,000.",
-            "CMA Intermediate: ₹23,100 official fees; coaching ₹40,000–₹70,000.",
-            "CMA Final: ₹25,000 official fees; coaching ₹50,000–₹80,000.",
-            "Total Official Fees: ₹54,000–₹56,000 (one of the most affordable professional degrees).",
-            "With Coaching: Usually ₹1.5–₹2.5 lakhs total.",
-            "Study Materials: ₹5,000–₹10,000 for books and online resources.",
-            "Exam Fees: Included in stage fees.",
-            "Stipend During Training: Earn ₹10,000–₹20,000 monthly during practical training—offsetting costs.",
-            "Scholarships: Available for top rankers and economically weaker students."
-          ]
-        },
-        {
-          id: "10",
-          title: "Scholarship Opportunities",
-          icon: "🎓",
-          description: "Financial support available for CMA students",
-          color: RED5,
-          content: [
-            "ICAI Merit Scholarship: For top rankers in Foundation, Intermediate, and Final exams.",
-            "Economically Weaker Section (EWS) Concessions: Fee waivers up to 50–75% for eligible students.",
-            "SC/ST Scholarships: Special concessions and fee discounts.",
-            "Differently-Abled Scholarships: Additional support and fee reductions.",
-            "Defence Family Scholarships: For children of armed forces personnel.",
-            "National Scholarship Portal (NSP): Central government schemes for eligible students.",
-            "State-Level Schemes: Pragati, Saksham, and other state-specific scholarships.",
-            "Employer Sponsorship: Many companies sponsor employees pursuing CMA.",
-            "Stipend During Training: Earn ₹10,000–₹20,000 monthly during practical training."
-          ]
-        },
-        {
-          id: "11",
-          title: "Professional Bodies & Licensing",
-          icon: "📜",
-          description: "Regulatory framework and professional membership",
-          color: RED,
-          content: [
-            "Mandatory Membership: You must be a member of ICAI to practice as a CMA.",
-            "Membership Tiers:",
-            "  • Associate CMA (ACMA): After completing Final stage.",
-            "  • Fellow CMA (FCMA): After 5 years of post-qualification experience.",
-            "Registration: Register with ICAI's Membership Department after qualification.",
-            "Annual Fees: Membership fees are nominal (₹500–₹1,000 annually).",
-            "Continuing Professional Education (CPE): Mandatory 40 hours annually to maintain membership.",
-            "Code of Ethics: CMAs must adhere to ICAI's strict code of professional conduct.",
-            "International Recognition: ICAI-CMA is recognized by cost accounting bodies in UK, USA, and other countries."
-          ]
-        },
-        {
-          id: "12",
-          title: "Career Opportunities",
-          icon: "🚀",
-          description: "Diverse career paths for qualified CMAs",
-          color: RED2,
-          content: [
-            "Conventional Roles: Cost Accountant, Management Accountant, Financial Analyst, Budget Manager.",
-            "Leadership Roles: Cost Controller, Finance Manager, CFO, VP Finance.",
-            "Specialized Roles: Cost Auditor, Internal Auditor, Forensic Accountant, Insolvency Professional.",
-            "Consulting: Management consultant, business analyst, efficiency expert.",
-            "Freelancing: Independent consultant for startups, SMEs, and multinational companies.",
-            "Emerging Roles: ESG Reporting Head, AI-driven cost optimization specialist, supply chain analyst.",
-            "Academia: CMA professor or training consultant.",
-            "Government: Auditor in CAG office or government audit departments.",
-            "International: Opportunities in UAE, Singapore, UK, USA, and other countries."
-          ]
-        },
-        {
-          id: "13",
-          title: "Challenges and Realities",
-          icon: "⚠️",
-          description: "Challenges to be aware of in the CMA profession",
-          color: RED3,
-          content: [
-            "Awareness Gap: Many employers know less about CMA than CA, affecting initial opportunities.",
-            "Exam Difficulty: Exams are challenging; pass rates range from 15–25%. Persistence is essential.",
-            "Limited Scope in Small Companies: Smaller organizations may not fully utilize CMA expertise.",
-            "Starting Pay Variation: Entry-level salaries vary significantly by city and industry.",
-            "Industry Dependency: Job availability depends heavily on manufacturing sector growth.",
-            "Work-Life Balance: Busy seasons (month-end, quarter-end) involve long hours.",
-            "Perception Issue: Sometimes unfairly perceived as a 'second choice' compared to CA.",
-            "Continuous Learning: Rapid changes in technology and regulations require constant upskilling."
-          ]
-        },
-        {
-          id: "14",
-          title: "Emerging Trends & Future Outlook (2025–2035)",
-          icon: "🔮",
-          description: "Future of the CMA profession",
-          color: RED4,
-          content: [
-            "AI & Automation: AI will handle routine costing; CMAs will focus on strategic analysis and insights.",
-            "ESG Reporting: Companies must report carbon footprint and sustainability metrics—CMAs lead this.",
-            "Real-Time Analytics: Cloud-based systems enable real-time cost monitoring and decision-making.",
-            "Supply Chain Optimization: CMAs will optimize global supply chains post-pandemic.",
-            "Digital Transformation: CMAs will guide companies through digital cost management systems.",
-            "Sustainability Accounting: Green accounting and carbon cost accounting will be mainstream.",
-            "Data Science Integration: CMAs will use machine learning for predictive cost analysis.",
-            "Global Mobility: Increased opportunities for Indian CMAs in international markets.",
-            "Salary Growth: Expected 8–10% annual salary growth in the next decade."
-          ]
-        },
-        {
-          id: "15",
-          title: "Skills to Build While Still in School",
-          icon: "📚",
-          description: "Steps to build a strong foundation for CMA from school",
-          color: RED5,
-          content: [
-            "Excel Mastery: Learn pivot tables, VLOOKUP, and data visualization—essential CMA tools.",
-            "Accounting Basics: Understand debit-credit, journal entries, and financial statements.",
-            "Business News: Read The Economic Times, Business Today, and Mint daily.",
-            "Cost Concepts: Learn material, labor, and overhead cost concepts in Commerce class.",
-            "Factory Visits: Visit manufacturing units to understand production processes.",
-            "Math Skills: Strong arithmetic and algebra are foundational.",
-            "Writing Skills: Practice clear, concise business writing.",
-            "Public Speaking: Join debate clubs to build presentation skills.",
-            "Register Early: Register for CMA Foundation as soon as you complete Class 12."
-          ]
-        },
-        {
-          id: "16",
-          title: "Famous Indian CMA Personalities",
-          icon: "⭐",
-          description: "Inspiring CMAs who shaped the profession in India",
-          color: RED,
-          content: [
-            "Dr. Vinod Jain: Former President of ICAI; pioneered cost accounting standards in India.",
-            "Anil Khandelwal: Senior CMA and management consultant; advisor to Fortune 500 companies.",
-            "Priya Sharma: CMA and ESG reporting expert; leading sustainability accounting in India.",
-            "Rajesh Verma: CFO of a leading automotive company; known for cost optimization strategies.",
-            "Meera Desai: Practising CMA and founder of a successful consulting firm; mentor to thousands."
-          ]
-        }
-      ]
-    },
-
   // ─── ECONOMIST ───────────────────────────────────────────────────
   economics: {
       slug: "economics",
@@ -1409,7 +1190,7 @@ export const careerPageData: Record<string, CareerPageData> = {
       ],
       guideSections: [
         {
-          id: "1",
+          id: "what",
           title: "What is This Career All About?",
           icon: "📉",
           description: "Understanding the economist's role in shaping society and policy",
@@ -1424,7 +1205,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           ]
         },
         {
-          id: "2",
+          id: "dayinlife",
           title: "A Day in the Life",
           icon: "⏰",
           description: "Real-world experience of a working economist",
@@ -1438,7 +1219,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           ]
         },
         {
-          id: "3",
+          id: "who",
           title: "Is This You? (Personality Traits & Skills)",
           icon: "🎯",
           description: "Traits that make someone well-suited for an economics career",
@@ -1455,9 +1236,9 @@ export const careerPageData: Record<string, CareerPageData> = {
           ]
         },
         {
-          id: "4",
+          id: "responsibilities",
           title: "Key Responsibilities and Workflow",
-          icon: "📊",
+          icon: "BarChart3",
           description: "Core duties of an economist",
           color: RED4,
           content: [
@@ -1472,65 +1253,83 @@ export const careerPageData: Record<string, CareerPageData> = {
           ]
         },
         {
-          id: "5",
-          title: "Career Pathways in India",
-          icon: "🛤️",
-          description: "How to become an economist in India",
+          id: "pathways",
+          title: "Career Pathways",
+          icon: "Map",
+          description: "Step-by-step journeys to a career in finance and economics",
           color: RED5,
           content: [
-            "After Class 10: Choose any stream (Humanities, Commerce, or Science). Must take Mathematics as a subject for top colleges.",
-            "After Class 12: Enroll in B.A. (Hons.) or B.Sc. Economics. Clear CUET or college-specific entrance exams.",
-            "After Graduation: Pursue M.A. or M.Sc. Economics. Necessary for high-paying roles and research.",
-            "Lateral Entry: Career-switch via a Masters in Public Policy (MPP). Great for Engineers or Law graduates.",
-            "PhD Route: For academic careers and top research positions.",
-            "IES (Indian Economic Service): The most prestigious cadre for economists in the Indian government.",
-            "Certifications: CFA (Chartered Financial Analyst) or FRM (Financial Risk Manager) add massive value."
+            "Pathway A: Degree + Certification Route",
+            "Step 1: Complete Class 12th (Commerce/Maths preferred)",
+            "Step 2: Pursue B.Com / BBA Finance / B.Sc Economics",
+            "Step 3: Learn tools — Excel, Financial Modeling, PowerPoint, Tally",
+            "Step 4: Get certified — CFA Level 1, NISM, or NSE certifications",
+            "Step 5: Do internships at banks, AMCs, brokerages, or consulting firms",
+            "Step 6: Join as Financial Analyst, Equity Research Analyst, or Credit Analyst",
+            "Pathway B: MBA Finance Route",
+            "Step 1: Complete Class 12th (any stream with Maths)",
+            "Step 2: Pursue B.Com / BBA / B.Tech / B.Sc",
+            "Step 3: Work 1–2 years in accounting, banking, or sales",
+            "Step 4: Complete MBA Finance",
+            "Step 5: Learn Bloomberg, SQL, Python, Tableau, Power BI",
+            "Step 6: Join as Investment Analyst, Portfolio Manager, or Corporate Finance Analyst",
+            "Pathway C: Skill-Based Entry Route",
+            "Step 1: Complete Class 12th (Commerce preferred)",
+            "Step 2: Pursue B.Com / BBA or diploma in Financial Markets",
+            "Step 3: Complete online courses — Financial Modeling, Valuation, Excel",
+            "Step 4: Get NISM/NCFM certifications for stock market roles",
+            "Step 5: Intern at stockbroking firms, fintech startups, or NBFCs",
+            "Step 6: Work as Junior Analyst, MF Distributor, Wealth Advisor, or Fintech Analyst"
           ]
         },
         {
-          id: "6",
+          id: "market",
           title: "Market Snapshot — India 2026",
-          icon: "📈",
+          icon: "TrendingUp",
           description: "Salary, growth, and job market data for economists",
-          color: RED,
-          content: [
-            "Salary Ranges (Annual INR):",
-            "  • Entry-Level (Analyst): ₹6 Lakhs – ₹12 Lakhs",
-            "  • Mid-Level (Senior Economist): ₹15 Lakhs – ₹35 Lakhs",
-            "  • Senior/Leadership: ₹40 Lakhs – ₹80 Lakhs",
-            "  • Leadership/CXO: ₹1 Crore+ (Common in Investment Banking and MNCs)",
-            "Metro vs. Tier-2: 70% of high-paying jobs are in Delhi-NCR, Mumbai, and Bengaluru.",
-            "Growth Trajectory: It takes about 8–12 years to reach a 'Lead Economist' position.",
-            "Projections: The demand for 'Quantitative Economists' (those who know coding) is expected to grow by 15% annually up to 2030."
-          ]
-        },
-        {
-          id: "7",
-          title: "Where Are the Jobs?",
-          icon: "💼",
-          description: "Industries and sectors hiring economists",
           color: RED2,
           content: [
-            "Government: RBI (Grade B), IES (Indian Economic Service), NITI Aayog, Ministry of Finance.",
-            "Corporate: Google, Amazon, McKinsey & Co., Goldman Sachs.",
-            "International: World Bank, IMF, United Nations (UNDP).",
-            "New-Age: Fintech startups and Eco-consultancies.",
-            "Think Tanks: ICRIER, CEIC, Observer Research Foundation.",
-            "Academia: Universities and research institutions.",
-            "Consulting: Management consulting firms and policy advisory groups.",
-            "Media: Business journalism and economic commentary."
-          ]
-        },
-        {
-          id: "8",
-          title: "Where to Study?",
-          icon: "🏫",
-          description: "Top institutions for economics education in India",
-          color: RED4,
-          content: [
-            "Public/Premier: Shri Ram College of Commerce (SRCC), Delhi; Delhi School of Economics (DSE); St. Stephen's College, Delhi; Madras School of Economics (MSE), Chennai; Presidency University, Kolkata",
-            "Private: Ashoka University (Sonipat); FLAME University (Pune); NMIMS (Mumbai)",
-            "Online/Distance: IGNOU offers distance education in Economics"
+            "Salary Snapshot (Annual INR)",
+            "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5+ Crore",
+            "Senior / Lead Role (10+ yrs): ₹25–80 LPA",
+            "Mid-Level Professional (5–8 yrs): ₹12–35 LPA",
+            "Junior / Associate (3–5 yrs): ₹6–18 LPA",
+            "Entry Level (0–2 yrs): ₹4–10 LPA",
+            "Note: Metro cities (Mumbai, Delhi-NCR) pay 20–40% higher; advanced degrees (MA/PhD, IIT/IIM/ISI) boost salary by 30–60%.",
+            "Where Are the Jobs?",
+            "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
+            "Top Industries: Banking & Finance, Management Consulting, Government (RBI, NITI Aayog), Think Tanks, Tech Giants, Fintech",
+            "Opportunities: High demand in policy consulting and international finance; growing roles in data-driven economic research",
+            "Top Institutions",
+            "Government",
+            "Shri Ram College of Commerce (SRCC), Delhi",
+            "Delhi School of Economics (DSE)",
+            "St. Stephen's College, Delhi",
+            "Madras School of Economics (MSE), Chennai",
+            "Presidency University, Kolkata",
+            "Private",
+            "Ashoka University (Sonipat)",
+            "FLAME University (Pune)",
+            "NMIMS (Mumbai)",
+            "Online",
+            "IGNOU (Economics Programs)",
+            "SWAYAM / NPTEL",
+            "Coursera (Economics Courses)",
+            "Career Opportunities",
+            "Conventional",
+            "Policy Analyst & Economic Researcher",
+            "Investment Banker & Financial Consultant",
+            "Risk Analyst & Quantitative Economist",
+            "Business Journalist & Economic Advisor",
+            "New-Age & AI-Driven",
+            "AI-Powered Economic Forecaster",
+            "ESG (Sustainability) Data Economist",
+            "Blockchain-Based Resource Analyst",
+            "Digital Economy Specialist",
+            "Remote/Entrepreneurship",
+            "Freelance Policy & Economic Consultant",
+            "Economic Content Creator & Educator",
+            "Independent Market Research Startup Founder"
           ]
         },
         {
@@ -1734,68 +1533,88 @@ export const careerPageData: Record<string, CareerPageData> = {
           ]
         },
         {
-          id: "5",
-          title: "Career Pathways in India",
-          icon: "🛤️",
-          description: "How to become a financial analyst in India",
+          id: "pathways",
+          title: "Career Pathways",
+          icon: "Map",
+          description: "Step-by-step journeys to a career in finance and economics",
           color: RED5,
           content: [
-            "After Class 10: Choose Commerce with Math or Science. Focus on Math and Accountancy.",
-            "After Class 12: Enroll in B.Com (Hons), BBA (Finance), or B.A. Economics. Clear CUET-UG or IPMAT.",
-            "After Graduation: Pursue an MBA (Finance) or start the CFA Program. Clear CAT/XAT or CFA Level I.",
-            "Lateral Entry: Career-switch for Engineers or CAs. CAs have a direct advantage; Engineers often need an MBA.",
-            "CFA Program: 3 levels (Level I, II, III) with 4-year work experience requirement for charter.",
-            "MBA Finance: From IIMs or top B-schools for accelerated career growth.",
-            "Specializations: Equity Research, Credit Analysis, Investment Banking, or Wealth Management."
+            "Pathway A: Degree + Certification Route",
+            "Step 1: Complete Class 12th (Commerce/Maths preferred)",
+            "Step 2: Pursue B.Com / BBA Finance / B.Sc Economics",
+            "Step 3: Learn tools — Excel, Financial Modeling, PowerPoint, Tally",
+            "Step 4: Get certified — CFA Level 1, NISM, or NSE certifications",
+            "Step 5: Do internships at banks, AMCs, brokerages, or consulting firms",
+            "Step 6: Join as Financial Analyst, Equity Research Analyst, or Credit Analyst",
+            "Pathway B: MBA Finance Route",
+            "Step 1: Complete Class 12th (any stream with Maths)",
+            "Step 2: Pursue B.Com / BBA / B.Tech / B.Sc",
+            "Step 3: Work 1–2 years in accounting, banking, or sales",
+            "Step 4: Complete MBA Finance",
+            "Step 5: Learn Bloomberg, SQL, Python, Tableau, Power BI",
+            "Step 6: Join as Investment Analyst, Portfolio Manager, or Corporate Finance Analyst",
+            "Pathway C: Skill-Based Entry Route",
+            "Step 1: Complete Class 12th (Commerce preferred)",
+            "Step 2: Pursue B.Com / BBA or diploma in Financial Markets",
+            "Step 3: Complete online courses — Financial Modeling, Valuation, Excel",
+            "Step 4: Get NISM/NCFM certifications for stock market roles",
+            "Step 5: Intern at stockbroking firms, fintech startups, or NBFCs",
+            "Step 6: Work as Junior Analyst, MF Distributor, Wealth Advisor, or Fintech Analyst"
           ]
         },
         {
-          id: "6",
+          id: "market",
           title: "Market Snapshot — India 2026",
-          icon: "📈",
+          icon: "TrendingUp",
           description: "Salary, growth, and job market data for financial analysts",
-          color: RED,
-          content: [
-            "Salary Ranges (Annual INR):",
-            "  • Entry-Level: ₹6 Lakhs – ₹10 Lakhs",
-            "  • Mid-Level (5–8 years): ₹15 Lakhs – ₹28 Lakhs",
-            "  • Senior/Leadership: ₹40 Lakhs – ₹75 Lakhs",
-            "  • CXO/Managing Director: ₹1.2 Crore – ₹4 Crores+",
-            "City Comparison: Mumbai offers roughly 20% higher salaries than Tier-2 cities but comes with higher cost of living.",
-            "Hiring Trends: Job growth is estimated at 8–10% annually due to the rise of retail investing in India via apps.",
-            "Bonus Structure: Performance bonuses can add 30–100% to base salary in good years."
-          ]
-        },
-        {
-          id: "7",
-          title: "Where Are the Jobs?",
-          icon: "💼",
-          description: "Industries and sectors hiring financial analysts",
           color: RED2,
           content: [
-            "Investment Banks: Goldman Sachs, J.P. Morgan, Morgan Stanley.",
-            "KPOs: Evalueserve, Genpact, Infosys BPM.",
-            "Mutual Funds: SBI MF, HDFC MF, ICICI Prudential.",
-            "Fintech Startups: Zerodha, Groww, Upstox.",
-            "Top Cities: Mumbai (Financial Capital), Bengaluru (Fintech), Gurugram/Delhi, Hyderabad.",
-            "Remote Potential: High for 'Freelance Equity Researchers' and 'Financial Content Creators.'",
-            "Corporate Finance: Treasury and FP&A roles in large corporations."
-          ]
-        },
-        {
-          id: "8",
-          title: "What Will It Cost?",
-          icon: "💰",
-          description: "Investment required for a financial analyst education",
-          color: RED3,
-          content: [
-            "B.Com/BBA (Govt): ₹15,000 – ₹60,000 (Total).",
-            "BBA/MBA (Private/IIMs): ₹15 Lakhs – ₹28 Lakhs.",
-            "CFA Program: Approx. ₹2.5 Lakhs – ₹3.5 Lakhs (Total for all 3 levels).",
-            "Living Costs: ₹15,000 – ₹25,000/month in Mumbai or Bengaluru.",
-            "Study Materials: ₹50,000–₹1 Lakh for CFA prep courses.",
-            "Exam Fees: Included in CFA program costs.",
-            "Scholarships: Can significantly reduce out-of-pocket expenses."
+            "Salary Snapshot (Annual INR)",
+            "CXO / Managing Director (15+ yrs): ₹1.2 Crore – ₹4 Crores+",
+            "Senior / Lead Role (10+ yrs): ₹40–75 Lakhs",
+            "Mid-Level Professional (5–8 yrs): ₹15–28 Lakhs",
+            "Junior / Associate (3–5 yrs): ₹10–18 Lakhs",
+            "Entry Level (0–2 yrs): ₹6–10 Lakhs",
+            "Note: Mumbai offers ~20% higher salaries than other metros; performance bonuses can add 30–100% to base pay.",
+            "Where Are the Jobs?",
+            "Top Cities: Mumbai (Financial Capital), Bengaluru (Fintech), Gurugram/Delhi, Hyderabad, GIFT City (Gujarat)",
+            "Top Industries: Investment Banking, Asset Management (AMCs), Fintech Startups, Corporate Finance, Wealth Management",
+            "Global Demand: High in USA, UK, UAE; huge demand for CFA charterholders in global financial hubs.",
+            "Top Institutions",
+            "Government:",
+            "University of Delhi (SRCC, St. Stephen's)",
+            "Indian Institutes of Management (IIMs)",
+            "University of Mumbai (Sydenham, HR College)",
+            "Madras Christian College (MCC), Chennai",
+            "Private:",
+            "Ashoka University (Sonipat)",
+            "NMIMS (Mumbai)",
+            "Symbiosis (Pune)",
+            "Christ University (Bengaluru)",
+            "Online:",
+            "CFA Institute (Online Resources)",
+            "NSE Academy / NISM",
+            "Coursera (Financial Markets Courses)",
+            "Career Opportunities",
+            "Conventional",
+            "Equity Research Analyst & Portfolio Manager",
+            "Investment Banker & M&A Associate",
+            "Credit Analyst & Risk Manager",
+            "Treasury Manager & FP&A Analyst",
+            "New-Age & AI-Driven",
+            "Algo-Trading Specialist & Quant Analyst",
+            "Fintech Product Manager",
+            "Crypto Asset Analyst",
+            "Sustainable Finance (ESG) Analyst",
+            "Remote/Entrepreneurship",
+            "Independent Financial Consultant",
+            "Financial Content Creator & Educator",
+            "Fintech Startup Founder",
+            "What Will It Cost?",
+            "Degree (Govt): ₹15,000 – ₹60,000 (Total fees)",
+            "MBA (Top B-Schools): ₹15 Lakhs – ₹28 Lakhs (Total fees)",
+            "CFA Program: ₹2.5 Lakhs – ₹3.5 Lakhs (Exam & material fees)",
+            "Note: Professional certifications like CFA have a high Return on Investment (ROI) but require upfront exam fees."
           ]
         },
         {
@@ -1998,52 +1817,87 @@ export const careerPageData: Record<string, CareerPageData> = {
         },
         {
           id: "5",
-          title: "Career Pathways in India",
+          title: "Career Pathways",
           icon: "🛤️",
-          description: "How to become a financial planner in India",
+          description: "Educational journey from Class 10 onwards.",
           color: RED5,
           content: [
-            "After Class 10: Choose Commerce with Math (recommended) or any stream. Focus on Economics and Accountancy basics.",
-            "After Class 12: Enroll in B.Com, BBA (Finance), or B.A. Economics. Clear CUET-UG or IPMAT for top colleges.",
-            "During/After Graduation: Start the CFP (Certified Financial Planner) certification. Conducted by FPSB India (5 Specialist modules + 1 Final).",
-            "Post-Graduation: MBA (Finance) or M.Com. Appear for CAT/XAT/NMAT for MBA.",
-            "Professional Entry: Register with SEBI as an Investment Adviser (RIA). Requires NISM Series X-A and X-B certifications.",
-            "Specializations: Wealth Management, Retirement Planning, Tax Planning, or Estate Planning."
+            "Pathway A: Degree + CFP Route",
+            "Step 1: Complete Class 12th (Commerce/Maths preferred)",
+            "Step 2: Pursue B.Com / BBA Finance / B.Sc Economics",
+            "Step 3: Clear CFP (Certified Financial Planner) certification from FPSB India",
+            "Step 4: Learn tools — Excel, MorningStar, MF Utilities, financial planning software",
+            "Step 5: Do internships at wealth management firms, AMCs, or insurance companies",
+            "Step 6: Join as Financial Planner, Investment Advisor, or Wealth Manager",
+            "Pathway B: Skill-Based Entry Route",
+            "Step 1: Complete Class 12th (any stream)",
+            "Step 2: Pursue B.Com / BBA or diploma in Financial Planning",
+            "Step 3: Get NISM, NCFM, or AMFI certifications for mutual fund/insurance advisory",
+            "Step 4: Learn basics — tax planning, retirement planning, insurance, SIPs",
+            "Step 5: Join a broking firm, bank, or NBFC as trainee advisor",
+            "Step 6: Work as MF Distributor, Retirement Planner, or Personal Finance Consultant",
+            "Pathway C: Higher Education + Specialization Route",
+            "Step 1: Complete Class 12th (Commerce/Maths)",
+            "Step 2: Pursue B.Com / BBA / B.Tech / CA",
+            "Step 3: Work 1–2 years in banking, accounting, or sales",
+            "Step 4: Complete MBA Finance / PG in Wealth Management (NISM, IIMS)",
+            "Step 5: Add certifications — CFA, CFP, CHFC, or SEBI RIA registration",
+            "Step 6: Join as Portfolio Manager, SEBI-Registered Investment Advisor, Private Banker, or Financial Planning Head"
           ]
         },
         {
           id: "6",
-          title: "Market Snapshot — India 2026",
+          title: "Market Snapshot — India 2025-26",
           icon: "📈",
           description: "Salary, growth, and job market data for financial planners",
           color: RED,
           content: [
-            "Salary Ranges (Annual INR):",
-            "  • Entry-Level (Trainee/Analyst): ₹4.5 Lakhs – ₹7 Lakhs",
-            "  • Mid-Level (Senior Planner/Advisor): ₹12 Lakhs – ₹22 Lakhs",
-            "  • Senior-Level (Portfolio Manager): ₹35 Lakhs – ₹65 Lakhs",
-            "  • Leadership/CXO: ₹1 Crore – ₹4 Crores+ (In top Wealth Management firms)",
-            "Metro vs. Tier-2: While Mumbai is the financial capital, there is a massive 25% growth in demand for planners in cities like Indore, Jaipur, and Kochi.",
-            "Industry Growth: The Indian Wealth Management industry is expected to grow at a CAGR of 12–15% until 2030.",
-            "Bonus Structure: Performance bonuses can add 20–50% to base salary."
+            "Salary Snapshot (Annual INR)",
+            "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹3+ Crore",
+            "Senior / Lead Role (10+ yrs): ₹20–70 LPA",
+            "Mid-Level Professional (5–8 yrs): ₹8–30 LPA",
+            "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+            "Entry Level (0–2 yrs): ₹3–8 LPA",
+            "Note: Metro cities (Mumbai, Delhi-NCR) pay 20–40% higher; CFP/CFA and client portfolio size can increase earnings by 30–100%.",
+            "Where Are the Jobs?",
+            "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
+            "Top Industries: Wealth Management, Private Banking, Mutual Funds, Insurance, FinTech, Advisory Firms",
+            "Opportunities: Rising HNI/retail investors in India; strong demand globally (UAE, Singapore, UK); freelancing and independent advisory growing",
+            "Top Institutions",
+            "Government",
+            "National Institute of Financial Management (NIFM), Faridabad",
+            "National Institute of Securities Markets (NISM)",
+            "Indian Institute of Management (IIMs)",
+            "Reserve Bank of India (RBI) - Financial Literacy Programs",
+            "Private",
+            "Financial Planning Standards Board India (FPSB India - CFP Certification)",
+            "ICFAI Business School",
+            "Narsee Monjee Institute (NMIMS), Mumbai",
+            "Amity University",
+            "Online",
+            "FPSB India Online (CFP Certification Programs)",
+            "Coursera (Financial Planning Specializations)",
+            "SWAYAM / NPTEL",
+            "National Stock Exchange (NSE) Academy Online",
+            "Career Opportunities",
+            "Conventional",
+            "Certified Financial Planner (CFP)",
+            "Wealth Management Advisor",
+            "Mutual Fund Distributor/Advisor",
+            "Retirement & Estate Planning Consultant",
+            "New-Age and AI-Driven",
+            "Robo-Advisory Platform Developer",
+            "AI-driven Portfolio Rebalancing Specialist",
+            "Algorithmic Investment Strategy Designer",
+            "Behavioural Finance Technology Analyst",
+            "Remote/Entrepreneurship",
+            "Freelance Investment Planning Consultant",
+            "Online Financial Planning Advisory Firm",
+            "Personal Finance EdTech Platform Founder",
+            "Digital Wealth Management Startup Founder"
           ]
         },
-        {
-          id: "7",
-          title: "Where Are the Jobs?",
-          icon: "💼",
-          description: "Industries and sectors hiring financial planners",
-          color: RED2,
-          content: [
-            "Banking & Finance: HDFC Bank, ICICI Bank, SBI Wealth, HSBC.",
-            "Asset Management: Mutual fund houses like Nippon India, Mirae Asset, or AMC divisions.",
-            "Fintech Startups: Zerodha, Groww, INDmoney, and Scripbox.",
-            "Freelancing: Starting your own 'Registered Investment Advisory' (RIA) firm.",
-            "International: High demand for Indian CFPs in the Middle East (Dubai/Qatar) and through global reciprocity in the USA/UK.",
-            "Insurance Companies: Life and general insurance firms hiring financial advisors.",
-            "Corporate Finance: Treasury and wealth management roles in large corporations."
-          ]
-        },
+
         {
           id: "9",
           title: "Scholarship Opportunities",
@@ -2076,22 +1930,7 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Code of Ethics: Must adhere to strict professional conduct standards."
           ]
         },
-        {
-          id: "11",
-          title: "Career Opportunities",
-          icon: "🚀",
-          description: "Diverse career paths for financial planners",
-          color: RED2,
-          content: [
-            "Conventional: Wealth Manager, Relationship Manager in Banks, Investment Consultant.",
-            "New-Age: Fintech Product Manager (Designing apps), Financial Wellness Coach, Robo-Advisory Analyst (Combining AI with human advice).",
-            "Freelancing & Entrepreneurship: Fee-only Financial Planner (starting your own practice), Personal Finance YouTuber/Educator.",
-            "Specializations: Retirement Planning, Tax Planning, Estate Planning, or ESG Investing.",
-            "Corporate: Treasury management and financial planning roles.",
-            "International: Global wealth management and cross-border financial planning.",
-            "Education: Financial literacy trainer and educator."
-          ]
-        },
+
         {
           id: "12",
           title: "Challenges and Realities",
@@ -2242,52 +2081,87 @@ export const careerPageData: Record<string, CareerPageData> = {
         },
         {
           id: "5",
-          title: "Career Pathways in India",
+          title: "Career Pathways",
           icon: "🛤️",
-          description: "How to become a financial risk manager in India",
+          description: "Educational journey from Class 10 onwards.",
           color: RED5,
           content: [
-            "After Class 10: Choose Commerce with Math or Science (PCM). Focus on Statistics and Economics.",
-            "After Class 12: Enroll in B.Com, BBA (Finance), or B.Sc. Statistics. Clear CUET-UG or IPMAT.",
-            "During Graduation: Start the FRM Level I (GARP) exam. Recognized in 190+ countries.",
-            "After Graduation: Pursue MBA (Finance) or M.Sc. Financial Engineering. Clear CAT/XAT or GATE.",
-            "Lateral Entry: Engineers or CAs switching to Risk. Requires FRM/PRM certifications.",
-            "Specializations: Credit Risk, Market Risk, Operational Risk, or Cyber Risk."
+            "Pathway A: Degree + FRM Certification Route",
+            "Step 1: Complete Class 12th (Commerce/Maths preferred)",
+            "Step 2: Pursue B.Com / BBA Finance / B.Sc Economics / B.Tech",
+            "Step 3: Clear FRM Part I & II (GARP — globally recognized)",
+            "Step 4: Learn tools — Excel, Python, R, SQL, VBA, SAS",
+            "Step 5: Do internships at banks, NBFCs, insurance firms, or Big 4",
+            "Step 6: Join as Risk Analyst, Credit Risk Manager, or Market Risk Officer",
+            "Pathway B: MBA Finance Route",
+            "Step 1: Complete Class 12th (any stream with Maths)",
+            "Step 2: Pursue B.Com / BBA / B.Tech / CA",
+            "Step 3: Work 1–2 years in banking, finance, or audit",
+            "Step 4: Complete MBA Finance/Risk Management",
+            "Step 5: Add certifications — PRM, FRM, or Basel compliance courses",
+            "Step 6: Join as Enterprise Risk Manager, or Risk Consulting Manager",
+            "Pathway C: Skill-Based Entry Route",
+            "Step 1: Complete Class 12th (Commerce/Science)",
+            "Step 2: Pursue B.Com / B.Sc Statistics / BBA",
+            "Step 3: Complete online courses — Risk Management, Credit Analysis",
+            "Step 4: Get NISM certifications in Risk Management or Derivatives",
+            "Step 5: Intern at RBI, SEBI, banks, or fintech risk teams",
+            "Step 6: Work as Junior Risk Analyst, or Operational Risk Associate"
           ]
         },
         {
-          id: "6",
-          title: "Market Snapshot — India 2026",
+          id: "market",
+          title: "Market Snapshot 2025-26",
           icon: "📈",
           description: "Salary, growth, and job market data for financial risk managers",
           color: RED,
           content: [
-            "Salary Ranges (Annual INR):",
-            "  • Entry-Level (Analyst): ₹6 Lakhs – ₹10 Lakhs",
-            "  • Mid-Level (Manager): ₹15 Lakhs – ₹25 Lakhs",
-            "  • Senior-Level (Director): ₹40 Lakhs – ₹70 Lakhs",
-            "  • Leadership (Chief Risk Officer - CRO): ₹1.5 Crore – ₹3 Crores+",
-            "Growth: It typically takes 8–10 years to move from a Junior Analyst to a Senior Director level.",
-            "Metro vs. Tier-2: 80% of jobs are in Metros (Mumbai, NCR), but Tier-2 cities like Jaipur and Pune are emerging as 'Risk Hubs' for backend operations.",
-            "Industry Growth: Demand for risk professionals in India is growing at 12–15% annually."
+            "Salary Snapshot (Annual INR)",
+            "CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹3+ Crore",
+            "Senior / Lead Role (10+ yrs): ₹30–90 LPA",
+            "Mid-Level Professional (5–8 yrs): ₹12–40 LPA",
+            "Junior / Associate (3–5 yrs): ₹7–18 LPA",
+            "Entry Level (0–2 yrs): ₹4–10 LPA",
+            "Note: Metro cities (Mumbai, Bengaluru) pay 20–40% higher; FRM/CFA and risk analytics skills boost salary by 30–60%.",
+            "Where Are the Jobs?",
+            "Top Cities: Mumbai, NCR, Bengaluru, Hyderabad, Pune, Chennai",
+            "Top Industries: Investment Banking, Risk Consulting, Insurance, FinTech, Regulatory Bodies (RBI, SEBI)",
+            "Opportunities: High demand in credit risk, market risk, and operational risk management; global demand for GARP-certified professionals",
+            "Top Institutions",
+            "Government",
+            "Indian Institutes of Management (IIMs)",
+            "National Institute of Bank Management (NIBM)",
+            "Reserve Bank of India (RBI) Academy",
+            "University of Mumbai (Department of Commerce)",
+            "Private",
+            "SPJIMR, Mumbai",
+            "NMIMS, Mumbai",
+            "Great Lakes Institute of Management",
+            "ICFAI Business School",
+            "Online",
+            "GARP (Global Association of Risk Professionals)",
+            "Coursera (Financial Risk Management Specializations)",
+            "SWAYAM / NPTEL",
+            "NSE Academy Online",
+            "Career Opportunities",
+            "Conventional",
+            "Credit Risk Analyst",
+            "Market Risk Manager",
+            "Operational Risk Officer",
+            "Enterprise Risk Consultant",
+            "New-age and AI driven",
+            "AI-Driven Risk Modeller",
+            "Cyber Risk Analyst",
+            "ESG Risk Specialist",
+            "Digital Fraud Prevention Expert",
+            "Remote / Entrepreneurship",
+            "Freelance Risk Advisory",
+            "Online Risk Management Educator",
+            "Risk Analytics Startup Founder",
+            "Regulatory Compliance Consultant"
           ]
         },
-        {
-          id: "7",
-          title: "Where Are the Jobs?",
-          icon: "💼",
-          description: "Industries and sectors hiring financial risk managers",
-          color: RED2,
-          content: [
-            "Top Industries: Banking (SBI, HDFC, ICICI), Investment Firms (Goldman Sachs), Insurance (LIC), and Fintech (Paytm, PhonePe).",
-            "Top Cities: Mumbai (The Risk Capital), Bengaluru (Fintech Risk), Gurugram, Hyderabad.",
-            "Remote Potential: High for 'Risk Consultants' and data-heavy 'Quantitative Analysts.'",
-            "International: High demand in Singapore, London, and New York for Indian FRM-certified professionals.",
-            "Corporate Finance: Treasury and risk management roles in large corporations.",
-            "Consulting: Risk advisory firms and management consulting companies.",
-            "Regulatory Bodies: RBI, SEBI, and IRDAI hiring risk specialists."
-          ]
-        },
+
         {
           id: "9",
           title: "Scholarship Opportunities",
@@ -2320,22 +2194,7 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Code of Ethics: Must adhere to strict professional conduct standards."
           ]
         },
-        {
-          id: "11",
-          title: "Career Opportunities",
-          icon: "🚀",
-          description: "Diverse career paths for financial risk managers",
-          color: RED2,
-          content: [
-            "Conventional: Credit Risk Manager, Market Risk Analyst, Operational Risk Manager.",
-            "New-Age: Cyber-Risk Specialist, Climate Risk Auditor, AI Model Validator.",
-            "Entrepreneurship: Independent Risk Consultant for startups and SMEs.",
-            "Specializations: Credit Risk, Market Risk, Operational Risk, Liquidity Risk, or Cyber Risk.",
-            "Corporate: Treasury and risk management roles in large corporations.",
-            "Regulatory: Risk specialist at RBI, SEBI, or IRDAI.",
-            "International: Global risk management roles in multinational banks and firms."
-          ]
-        },
+
         {
           id: "12",
           title: "Challenges and Realities",
@@ -6286,6 +6145,7 @@ export function getCareerPageData(slug: string): CareerPageData | null {
   return (
     actuarialScienceUpdateData[normalizedSlug] ||
     bankingAndFinanceUpdateData[normalizedSlug] ||
+    costAccountantUpdateData[normalizedSlug] ||
     agricultureUpdateData[normalizedSlug] ||
     artsAndDesignUpdateData[normalizedSlug] ||
     bioScienceUpdateData[normalizedSlug] ||

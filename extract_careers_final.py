@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Improved career data extraction from DOCX files.
-Handles multiple careers per document with better parsing.
+Final career data extraction from DOCX files.
+Properly handles the document structure with career titles separated by empty paragraphs.
 """
 
 import os
@@ -39,114 +39,70 @@ CATEGORY_MAPPING = {
     "Comined File - Public Safety and Security.docx": ("public_safety_security", "Public Safety & Security"),
 }
 
-def extract_paragraphs_from_docx(file_path: str) -> List[str]:
-    """Extract all paragraphs from a DOCX file."""
+def extract_careers_from_docx(file_path: str) -> List[Dict[str, Any]]:
+    """Extract all careers from a DOCX file."""
     try:
         doc = Document(file_path)
-        paragraphs = [para.text.strip() for para in doc.paragraphs if para.text.strip()]
-        return paragraphs
+        careers = []
+        
+        # Get all paragraphs
+        all_paras = doc.paragraphs
+        
+        # Find career titles (non-empty paragraphs followed by empty ones)
+        career_indices = []
+        for i, para in enumerate(all_paras):
+            if para.text.strip() and (i == 0 or not all_paras[i-1].text.strip()):
+                # This might be a career title
+                # Check if it's followed by empty paragraphs
+                if i + 1 < len(all_paras) and not all_paras[i+1].text.strip():
+                    career_indices.append(i)
+        
+        # Extract career data for each title
+        for idx, career_idx in enumerate(career_indices):
+            career_title = all_paras[career_idx].text.strip()
+            
+            # Determine the end index (start of next career or end of document)
+            if idx + 1 < len(career_indices):
+                end_idx = career_indices[idx + 1]
+            else:
+                end_idx = len(all_paras)
+            
+            # Extract content between this career and the next
+            content_paras = []
+            for i in range(career_idx + 1, end_idx):
+                text = all_paras[i].text.strip()
+                if text:
+                    content_paras.append(text)
+            
+            career_data = {
+                "title": career_title,
+                "slug": create_career_slug(career_title),
+                "content": content_paras,
+                "raw_content": "\n".join(content_paras)
+            }
+            
+            careers.append(career_data)
+        
+        return careers
     except Exception as e:
         print(f"Error reading {file_path}: {e}")
         return []
 
-def identify_career_titles(paragraphs: List[str]) -> List[Tuple[int, str]]:
-    """
-    Identify career titles in the document.
-    Career titles are typically followed by "Career Pathways" or similar sections.
-    """
-    career_titles = []
-    
-    for i, para in enumerate(paragraphs):
-        # Look for patterns that indicate a career title
-        # Usually followed by "Career Pathways", "Market Snapshot", etc.
-        if i + 1 < len(paragraphs):
-            next_para = paragraphs[i + 1]
-            
-            # Check if next paragraph contains career-related keywords
-            if any(keyword in next_para for keyword in ["Career Pathways", "Pathway A", "Pathway B", "Market Snapshot", "Where Are the Jobs"]):
-                # This paragraph is likely a career title
-                if len(para) > 3 and len(para) < 150 and not para.isupper():
-                    career_titles.append((i, para))
-    
-    return career_titles
-
-def extract_section_content(paragraphs: List[str], start_idx: int, end_idx: int, section_keyword: str) -> List[str]:
-    """Extract content for a specific section."""
-    content = []
-    in_section = False
-    
-    for i in range(start_idx, min(end_idx, len(paragraphs))):
-        para = paragraphs[i]
-        
-        if section_keyword in para:
-            in_section = True
-            continue
-        
-        if in_section:
-            # Stop if we hit another major section
-            if any(keyword in para for keyword in ["Career Pathways", "Market Snapshot", "Where Are the Jobs", "Where to Study", "Career Opportunities", "Challenges", "Future", "Start Now"]):
-                if section_keyword not in para:
-                    break
-            
-            if para and not para.isupper():
-                content.append(para)
-    
-    return content
-
 def create_career_slug(career_name: str) -> str:
     """Convert career name to slug format."""
-    return career_name.lower().replace(" ", "_").replace("&", "and").replace("/", "_").replace("-", "_")
+    # Remove parentheses and special characters
+    slug = career_name.lower()
+    slug = re.sub(r'[()&/\-\s]+', '_', slug)  # Replace special chars and spaces with underscore
+    slug = re.sub(r'_+', '_', slug)  # Replace multiple underscores with single
+    slug = slug.strip('_')  # Remove leading/trailing underscores
+    return slug
 
-def extract_careers_from_document(paragraphs: List[str]) -> List[Dict[str, Any]]:
-    """Extract all careers from document paragraphs."""
-    careers = []
-    career_titles = identify_career_titles(paragraphs)
-    
-    for idx, (title_idx, title) in enumerate(career_titles):
-        # Determine the end index for this career's content
-        if idx + 1 < len(career_titles):
-            end_idx = career_titles[idx + 1][0]
-        else:
-            end_idx = len(paragraphs)
-        
-        career_data = {
-            "title": title,
-            "slug": create_career_slug(title),
-            "title_idx": title_idx,
-            "end_idx": end_idx,
-            "paragraphs": paragraphs[title_idx:end_idx]
-        }
-        
-        careers.append(career_data)
-    
-    return careers
-
-def generate_career_typescript(career: Dict[str, Any], category_slug: str) -> str:
+def generate_career_typescript(career: Dict[str, Any]) -> str:
     """Generate TypeScript code for a single career."""
     
     title = career.get('title', 'Unknown Career')
     slug = career.get('slug', 'unknown_career')
-    paragraphs = career.get('paragraphs', [])
-    
-    # Extract key sections from paragraphs
-    education_content = []
-    salary_content = []
-    jobs_content = []
-    institutions_content = []
-    opportunities_content = []
-    
-    # Simple extraction - look for keywords
-    for para in paragraphs:
-        if "Pathway" in para or "Step" in para:
-            education_content.append(para)
-        elif "Salary" in para or "LPA" in para or "Crore" in para:
-            salary_content.append(para)
-        elif "Top Cities" in para or "Top Industries" in para:
-            jobs_content.append(para)
-        elif "Government" in para or "Private" in para or "Online" in para or "Institution" in para:
-            institutions_content.append(para)
-        elif "Conventional" in para or "New-Age" in para or "Entrepreneurship" in para:
-            opportunities_content.append(para)
+    content = career.get('content', [])
     
     # Build TypeScript object
     ts_code = f'''  {slug}: {{
@@ -284,7 +240,7 @@ export const {category_slug}UpdateData: Record<string, CareerPageData> = {{
 '''
     
     for career in careers:
-        ts_content += generate_career_typescript(career, category_slug)
+        ts_content += generate_career_typescript(career)
     
     ts_content += '''};
 '''
@@ -298,7 +254,7 @@ def main():
     
     output_path.mkdir(parents=True, exist_ok=True)
     
-    print("Starting improved career data extraction...")
+    print("Starting final career data extraction...")
     print(f"Looking for files in: {base_path}\n")
     
     extracted_data = {}
@@ -312,12 +268,8 @@ def main():
         
         print(f"[*] Processing: {docx_file}")
         
-        # Extract paragraphs
-        paragraphs = extract_paragraphs_from_docx(str(file_path))
-        print(f"  [+] Extracted {len(paragraphs)} paragraphs")
-        
         # Extract careers
-        careers = extract_careers_from_document(paragraphs)
+        careers = extract_careers_from_docx(str(file_path))
         print(f"  [+] Found {len(careers)} careers")
         
         if careers:

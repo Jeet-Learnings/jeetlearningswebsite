@@ -43,6 +43,10 @@ import {
   Target,
   FileText,
   Layers,
+  CircleDollarSign,
+  Home,
+  PlusCircle,
+  Building,
 } from 'lucide-react';
 
 interface CareerPageDynamicProps {
@@ -59,6 +63,7 @@ const iconMap: Record<string, any> = {
   Info, Clock, Brain, GraduationCap, DollarSign, Building2, TrendingUp,
   AlertTriangle, CheckCircle, Lightbulb, BarChart3, Monitor, MapPin,
   Award, Briefcase, Sparkles, Rocket, User, Map, BookOpen, Target: Info,
+  CircleDollarSign, Home, PlusCircle, Building,
 };
 
 export function CareerPageDynamic({
@@ -1069,12 +1074,24 @@ export function CareerPageDynamic({
 
         // ── market / salary snapshot ───────────────────────────────
         if (section.id === 'market' || section.id === 'salary') {
-          // Separate salary rows (contain ₹ or "annually") from extra info rows
+          // Separate salary rows from notes and headers
           const salaryRows = section.content?.filter((item: string) =>
-            item.includes('₹') || item.toLowerCase().includes('annually') || item.toLowerCase().includes('per year')
+            (item.includes('₹') || item.toLowerCase().includes(' lpa') || item.toLowerCase().includes(' crore')) && 
+            !item.toLowerCase().includes('snapshot') &&
+            !item.toLowerCase().startsWith('note:')
           ) || [];
+          
+          const notes = section.content?.filter((item: string) => 
+            item.toLowerCase().startsWith('note:')
+          ) || [];
+
           const extraRows = section.content?.filter((item: string) =>
-            !item.includes('₹') && !item.toLowerCase().includes('annually') && !item.toLowerCase().includes('per year')
+            !salaryRows.includes(item) && 
+            !notes.includes(item) &&
+            !item.toLowerCase().includes('snapshot') &&
+            !item.toLowerCase().includes('where are the jobs') &&
+            !item.toLowerCase().includes('top institutions') &&
+            !item.toLowerCase().includes('career opportunities')
           ) || [];
 
           return (
@@ -1103,7 +1120,6 @@ export function CareerPageDynamic({
                          details = tier.substring(colonIdx + 1).trim();
                       }
                       
-                      // Sometimes details is "₹5,00,000 – ₹8,00,000. Positions: Data Analyst"
                       const dotIdx = details.indexOf('.');
                       const posIdx = details.indexOf('Positions:');
                       let salary = details;
@@ -1117,7 +1133,6 @@ export function CareerPageDynamic({
                          pos = details.substring(dotIdx + 1).replace('Positions:', '').trim();
                       }
 
-                      // Clean up hyphen spacing
                       salary = salary.replace(/\s*-\s*/g, ' - ').replace(/\s*–\s*/g, ' - ');
 
                       return (
@@ -1129,7 +1144,7 @@ export function CareerPageDynamic({
                                </div>
                                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Tier {idx + 1}</span>
                              </div>
-                             <h4 className="text-lg font-bold text-slate-900 mb-2"><TranslatedText as="span">{level}</TranslatedText></h4>
+                             <h4 className="text-lg font-bold text-slate-900 mb-2 tracking-tight leading-snug"><TranslatedText as="span">{level}</TranslatedText></h4>
                              <div className="text-2xl font-black text-blue-600 mb-4 tracking-tight"><TranslatedText as="span">{salary}</TranslatedText></div>
                            </div>
                            {pos && (
@@ -1141,6 +1156,21 @@ export function CareerPageDynamic({
                         </div>
                       )
                     })}
+                  </div>
+                )}
+
+                {notes.length > 0 && (
+                  <div className="mb-8 space-y-3">
+                    {notes.map((note: string, nIdx: number) => (
+                      <div key={nIdx} className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-5 rounded-r-xl flex gap-3 sm:gap-4 items-start shadow-sm">
+                        <div className="mt-0.5 bg-blue-100 rounded-full p-1">
+                          <Zap className="w-4 h-4 text-blue-600" />
+                        </div>
+                        <p className="text-sm sm:text-base text-blue-900 font-medium leading-relaxed">
+                          <TranslatedText as="span">{note}</TranslatedText>
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 )}
 
@@ -1256,24 +1286,37 @@ export function CareerPageDynamic({
           const groupedContent: Record<string, string[]> = {};
           let currentGroup = "Public/Premier";
           
-          (section.content || []).forEach((item: string) => {
+          const content = section.content || [];
+          const flattenedContent: string[] = [];
+          content.forEach((item: string) => {
+            if (typeof item === 'string' && item.includes('\n')) {
+              flattenedContent.push(...item.split('\n').map(s => s.trim()).filter(s => s));
+            } else {
+              flattenedContent.push(item);
+            }
+          });
+
+          flattenedContent.forEach((item: string) => {
             const colonIndex = item.indexOf(":");
             if (colonIndex > -1 && item.includes(";")) {
               const type = item.substring(0, colonIndex).trim();
-              const content = item.substring(colonIndex + 1).trim();
-              const institutions = content.split(";").map(i => i.trim()).filter(i => i);
+              const contentStr = item.substring(colonIndex + 1).trim();
+              const institutions = contentStr.split(";").map(i => i.trim()).filter(i => i);
               groupedContent[type] = institutions;
             } else {
-              const isHeader = !item.includes(":") && item.split(" ").length <= 4 && 
-                ["government", "private", "online", "public", "central", "state", "top institutions", "north", "south", "east", "west"].some(h => item.toLowerCase().includes(h));
+              const trimmed = item.trim();
+              const isHeader = (
+                (!trimmed.includes(":") || (trimmed.endsWith(":") && trimmed.split(" ").length <= 4)) && 
+                ["government", "private", "online", "public", "central", "state", "top institutions", "north", "south", "east", "west", "premier"].some(h => trimmed.toLowerCase().includes(h))
+              );
               
               if (isHeader) {
-                 currentGroup = item.replace(":", "").trim();
+                 currentGroup = trimmed.replace(":", "").trim();
                  if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
               } else {
                  if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
                  let cleaned = item;
-                 if (cleaned.toLowerCase() === "top institutions for agri-business management in india") return;
+                 if (cleaned.toLowerCase().includes("top institutions for") && cleaned.toLowerCase().includes("in india")) return;
                  if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
                  if (cleaned) {
                     groupedContent[currentGroup].push(cleaned);
@@ -1526,6 +1569,78 @@ export function CareerPageDynamic({
           );
         }
 
+        // ── costs / investment ─────────────────────────────────────
+        if (section.id === 'costs' || section.id === 'investment') {
+          return (
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <CircleDollarSign className="w-8 sm:w-10 h-8 sm:h-10 text-emerald-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      <TranslatedText as="span">{section.title}</TranslatedText>
+                    </h2>
+                  </div>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    <TranslatedText as="span">{section.description}</TranslatedText>
+                  </p>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
+                  {section.content?.map((item: string, idx: number) => {
+                    const colonIdx = item.indexOf(':');
+                    let label = item;
+                    let details = '';
+                    if (colonIdx !== -1) {
+                      label = item.substring(0, colonIdx).trim();
+                      details = item.substring(colonIdx + 1).trim();
+                    }
+                    
+                    const costIcons: Record<string, any> = {
+                      'government': Building2,
+                      'private': Building,
+                      'living': Home,
+                      'additional': PlusCircle,
+                      'preparation': BookOpen,
+                      'duration': Clock,
+                      'exam': FileText,
+                      'coaching': GraduationCap,
+                      'scholarship': Award,
+                      'laptop': Monitor,
+                      'fees': DollarSign,
+                      'registration': FileText
+                    };
+                    
+                    let IconComponent = CircleDollarSign;
+                    const lowerLabel = label.toLowerCase();
+                    for (const [key, icon] of Object.entries(costIcons)) {
+                      if (lowerLabel.includes(key)) {
+                        IconComponent = icon;
+                        break;
+                      }
+                    }
+
+                    return (
+                      <div key={idx} className="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-emerald-300 hover:shadow-xl transition-all group flex flex-col justify-between">
+                        <div>
+                          <div className="flex items-center justify-between mb-4">
+                            <div className="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 group-hover:scale-110 transition-transform">
+                              <IconComponent className="w-5 h-5" />
+                            </div>
+                            <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Estimate</span>
+                          </div>
+                          <h4 className="text-lg font-bold text-slate-900 mb-2 tracking-tight leading-snug"><TranslatedText as="span">{label}</TranslatedText></h4>
+                          <div className="text-xl font-black text-emerald-600 mb-4 tracking-tight"><TranslatedText as="span">{details}</TranslatedText></div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          );
+        }
+
         // Generic section for other content
         return (
           <section key={sectionIdx} className={`py-20 px-4 sm:px-8 ${sectionIdx % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
@@ -1574,14 +1689,17 @@ export function CareerPageDynamic({
       })}
 
       {/* Cost Breakdown Section */}
-      <section className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
-        <CostBreakdown
-          title="What Will It Cost?"
-          subtitle="Complete financial breakdown for your career journey"
-          careerSlug={career}
-          categorySlug={category}
-        />
-      </section>
+      {category !== 'agriculture' && (
+        <section className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
+          <CostBreakdown
+            title="What Will It Cost?"
+            subtitle="Complete financial breakdown for your career journey"
+            careerSlug={career}
+            categorySlug={category}
+          />
+        </section>
+      )}
+
 
       {/* Videos Section */}
       {videos && videos.length > 0 && (

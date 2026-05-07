@@ -426,45 +426,57 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
     East: { icon: "MapPin", color: "#7C3AED" },
     West: { icon: "MapPin", color: "#EA580C" },
     Government: { icon: "Building2", color: "#1E40AF" },
+    Online: { icon: "Monitor", color: "#0EA5E9" },
   };
 
   const fallbackColors = ["#1E40AF", "#7C3AED", "#0EA5E9", "#059669", "#EA580C", "#EC4899"];
 
   const groupedContent: Record<string, string[]> = {};
-  const ungroupedContent: string[] = [];
-  let currentGroup = "Public/Premier";
+  let noteContent = "";
   
   section.content.forEach((item: string) => {
-    // Skip empty strings
     if (!item || !item.trim()) return;
     
-    const colonIndex = item.indexOf(":");
-    if (colonIndex > -1 && item.includes(";")) {
-      const type = item.substring(0, colonIndex).trim();
-      const content = item.substring(colonIndex + 1).trim();
-      const institutions = content.split(";").map(i => i.trim()).filter(i => i);
-      groupedContent[type] = institutions;
-    } else {
-      const isHeader = !item.includes(":") && item.split(" ").length <= 4 && 
-        ["government", "private", "online", "public", "central", "state", "top institutions", "north", "south", "east", "west"].some(h => item.toLowerCase().includes(h));
-      
-      if (isHeader) {
-         currentGroup = item.replace(":", "").trim();
-         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
-      } else {
-         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
-         let cleaned = item;
-         if (cleaned.toLowerCase() === "top institutions for agri-business management in india") return;
-         if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
-         if (cleaned) {
-            groupedContent[currentGroup].push(cleaned);
-         }
+    // Check for note
+    if (item.trim().toLowerCase().startsWith("note:")) {
+      noteContent = item.substring(item.indexOf(":") + 1).trim();
+      return;
+    }
+    
+    const trimmed = item.trim();
+    
+    // Check each known header type
+    const headers = [
+      { prefix: "Government:", key: "Government" },
+      { prefix: "Private:", key: "Private" },
+      { prefix: "Online:", key: "Online" },
+      { prefix: "Public/Premier:", key: "Public/Premier" },
+      { prefix: "Online/Distance:", key: "Online/Distance" },
+      { prefix: "North:", key: "North" },
+      { prefix: "South:", key: "South" },
+      { prefix: "East:", key: "East" },
+      { prefix: "West:", key: "West" }
+    ];
+    
+    for (const header of headers) {
+      if (trimmed.startsWith(header.prefix)) {
+        let content = trimmed.substring(header.prefix.length);
+        
+        // Check if content has newlines (newline format) or commas (comma format)
+        if (content.includes('\n')) {
+          // Newline format: "Government:\nICMAI\nIICA"
+          const institutions = content.split('\n').map(s => s.trim()).filter(s => s);
+          groupedContent[header.key] = institutions;
+        } else {
+          // Comma format: "Government: ICMAI, IICA, Delhi"
+          content = content.trim();
+          if (content.endsWith('.')) content = content.slice(0, -1);
+          const institutions = content.split(',').map(s => s.trim()).filter(s => s);
+          groupedContent[header.key] = institutions;
+        }
+        return;
       }
     }
-  });
-
-  Object.keys(groupedContent).forEach(key => {
-    if (groupedContent[key].length === 0) delete groupedContent[key];
   });
 
   const dynamicTypes = Object.keys(groupedContent).map((type, idx) => {
@@ -486,11 +498,9 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
         <SectionHeader section={section} light={false} />
 
         {/* Institution Types Grid - Only Show Categories with Institutions */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
           {typesToRender.map((instType, idx) => {
-              const institutions = dynamicTypes.length > 0
-                ? (groupedContent[instType.type] || [])
-                : ungroupedContent;
+              const institutions = groupedContent[instType.type] || [];
 
               return (
                 <div
@@ -534,6 +544,15 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
               );
             })}
         </div>
+
+        {/* Note Section - Full Width */}
+        {noteContent && (
+          <div className="w-full bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+            <p className="text-slate-700 text-base leading-relaxed">
+              <span className="font-bold text-slate-900">Note:</span> {noteContent}
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Improved career data extraction from DOCX files.
-Handles multiple careers per document with better parsing.
+Extract career data from DOCX files and generate TypeScript career data files.
+This script processes all Combined File DOCX files and creates structured career data.
 """
 
 import os
@@ -11,10 +11,11 @@ from docx import Document
 from typing import Dict, List, Tuple, Any
 import json
 
-# Color constants
+# Color constants for TypeScript
 RED = "#C20000"
 RED2 = "#DA1313"
 
+# Mapping of DOCX files to category slugs and display names
 CATEGORY_MAPPING = {
     "Combined File - Information Technology.docx": ("information_technology", "Information Technology"),
     "Combined - Science, Maths and Engineering.docx": ("science_mathematics_engineering", "Science, Mathematics & Engineering"),
@@ -39,123 +40,112 @@ CATEGORY_MAPPING = {
     "Comined File - Public Safety and Security.docx": ("public_safety_security", "Public Safety & Security"),
 }
 
-def extract_paragraphs_from_docx(file_path: str) -> List[str]:
-    """Extract all paragraphs from a DOCX file."""
+def extract_text_from_docx(file_path: str) -> str:
+    """Extract all text from a DOCX file."""
     try:
         doc = Document(file_path)
-        paragraphs = [para.text.strip() for para in doc.paragraphs if para.text.strip()]
-        return paragraphs
+        text = "\n".join([para.text for para in doc.paragraphs])
+        return text
     except Exception as e:
         print(f"Error reading {file_path}: {e}")
-        return []
+        return ""
 
-def identify_career_titles(paragraphs: List[str]) -> List[Tuple[int, str]]:
+def parse_career_sections(text: str) -> Dict[str, Any]:
     """
-    Identify career titles in the document.
-    Career titles are typically followed by "Career Pathways" or similar sections.
+    Parse career data from extracted text.
+    Looks for career titles and their associated content sections.
     """
-    career_titles = []
+    careers = {}
     
-    for i, para in enumerate(paragraphs):
-        # Look for patterns that indicate a career title
-        # Usually followed by "Career Pathways", "Market Snapshot", etc.
-        if i + 1 < len(paragraphs):
-            next_para = paragraphs[i + 1]
-            
-            # Check if next paragraph contains career-related keywords
-            if any(keyword in next_para for keyword in ["Career Pathways", "Pathway A", "Pathway B", "Market Snapshot", "Where Are the Jobs"]):
-                # This paragraph is likely a career title
-                if len(para) > 3 and len(para) < 150 and not para.isupper():
-                    career_titles.append((i, para))
+    # Split by career titles (usually followed by "Career Pathways" or similar)
+    # This is a simplified parser - adjust based on actual document structure
+    lines = text.split('\n')
+    current_career = None
+    current_section = None
+    current_content = []
     
-    return career_titles
-
-def extract_section_content(paragraphs: List[str], start_idx: int, end_idx: int, section_keyword: str) -> List[str]:
-    """Extract content for a specific section."""
-    content = []
-    in_section = False
-    
-    for i in range(start_idx, min(end_idx, len(paragraphs))):
-        para = paragraphs[i]
-        
-        if section_keyword in para:
-            in_section = True
+    for line in lines:
+        line = line.strip()
+        if not line:
             continue
-        
-        if in_section:
-            # Stop if we hit another major section
-            if any(keyword in para for keyword in ["Career Pathways", "Market Snapshot", "Where Are the Jobs", "Where to Study", "Career Opportunities", "Challenges", "Future", "Start Now"]):
-                if section_keyword not in para:
-                    break
             
-            if para and not para.isupper():
-                content.append(para)
-    
-    return content
+        # Detect career title (usually all caps or followed by specific keywords)
+        if any(keyword in line for keyword in ["Career Pathways", "Market Snapshot", "Where Are the Jobs"]):
+            if current_career and current_section:
+                if current_career not in careers:
+                    careers[current_career] = {}
+                careers[current_career][current_section] = current_content
+            current_section = line
+            current_content = []
+        elif line and not current_career:
+            # First non-empty line is likely the career title
+            current_career = line
+            
+    return careers
 
 def create_career_slug(career_name: str) -> str:
     """Convert career name to slug format."""
-    return career_name.lower().replace(" ", "_").replace("&", "and").replace("/", "_").replace("-", "_")
+    return career_name.lower().replace(" ", "_").replace("&", "and").replace("/", "_")
 
-def extract_careers_from_document(paragraphs: List[str]) -> List[Dict[str, Any]]:
-    """Extract all careers from document paragraphs."""
+def extract_career_data_from_text(text: str) -> List[Dict[str, Any]]:
+    """
+    Extract structured career data from document text.
+    Returns a list of career dictionaries.
+    """
     careers = []
-    career_titles = identify_career_titles(paragraphs)
     
-    for idx, (title_idx, title) in enumerate(career_titles):
-        # Determine the end index for this career's content
-        if idx + 1 < len(career_titles):
-            end_idx = career_titles[idx + 1][0]
-        else:
-            end_idx = len(paragraphs)
+    # Split text into sections by common delimiters
+    sections = re.split(r'\n(?=[A-Z][A-Z\s]+(?:Career|Market|Where|What|How|Why|Salary|Institution|Opportunity|Challenge|Future|Start))', text)
+    
+    for section in sections:
+        if not section.strip():
+            continue
+            
+        lines = section.strip().split('\n')
+        if not lines:
+            continue
+            
+        # First line is typically the career title
+        career_title = lines[0].strip()
         
+        # Skip if it's too short or doesn't look like a career title
+        if len(career_title) < 3 or career_title.isupper() and len(career_title) > 100:
+            continue
+            
         career_data = {
-            "title": title,
-            "slug": create_career_slug(title),
-            "title_idx": title_idx,
-            "end_idx": end_idx,
-            "paragraphs": paragraphs[title_idx:end_idx]
+            "title": career_title,
+            "slug": create_career_slug(career_title),
+            "content": lines[1:],
+            "raw_text": section
         }
         
         careers.append(career_data)
     
     return careers
 
-def generate_career_typescript(career: Dict[str, Any], category_slug: str) -> str:
-    """Generate TypeScript code for a single career."""
+def generate_typescript_file(category_slug: str, category_name: str, careers: List[Dict[str, Any]]) -> str:
+    """Generate TypeScript file content for a category."""
     
-    title = career.get('title', 'Unknown Career')
-    slug = career.get('slug', 'unknown_career')
-    paragraphs = career.get('paragraphs', [])
+    ts_content = f'''import {{ CareerPageData }} from './careerPageData';
+
+const RED = "{RED}";
+const RED2 = "{RED2}";
+
+export const {category_slug}UpdateData: Record<string, CareerPageData> = {{
+'''
     
-    # Extract key sections from paragraphs
-    education_content = []
-    salary_content = []
-    jobs_content = []
-    institutions_content = []
-    opportunities_content = []
-    
-    # Simple extraction - look for keywords
-    for para in paragraphs:
-        if "Pathway" in para or "Step" in para:
-            education_content.append(para)
-        elif "Salary" in para or "LPA" in para or "Crore" in para:
-            salary_content.append(para)
-        elif "Top Cities" in para or "Top Industries" in para:
-            jobs_content.append(para)
-        elif "Government" in para or "Private" in para or "Online" in para or "Institution" in para:
-            institutions_content.append(para)
-        elif "Conventional" in para or "New-Age" in para or "Entrepreneurship" in para:
-            opportunities_content.append(para)
-    
-    # Build TypeScript object
-    ts_code = f'''  {slug}: {{
-    slug: "{slug}",
+    for i, career in enumerate(careers):
+        career_slug = career.get('slug', create_career_slug(career.get('title', f'career_{i}')))
+        career_title = career.get('title', f'Career {i}')
+        
+        # Create basic career entry
+        ts_content += f'''  {career_slug}: {{
+    slug: "{career_slug}",
     badge: "Career Exploration for Class 10+",
-    heading: "{title}",
-    subheading: "Explore opportunities in {title}.",
+    heading: "{career_title}",
+    subheading: "Explore opportunities in {career_title}.",
     whyCards: [
-      {{ icon: "Briefcase", title: "Career Growth", description: "Build a successful career in {title}.", borderColor: "#10B981" }},
+      {{ icon: "Briefcase", title: "Career Growth", description: "Build a successful career in {career_title}.", borderColor: "#10B981" }},
       {{ icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" }},
       {{ icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" }},
       {{ icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }}
@@ -174,10 +164,10 @@ def generate_career_typescript(career: Dict[str, Any], category_slug: str) -> st
         id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "Understanding {title}.",
+        description: "Understanding {career_title}.",
         color: RED,
         content: [
-          "{title} is a dynamic and rewarding career path.",
+          "{career_title} is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
           "Professionals in this field make a significant impact.",
           "The industry is evolving with new technologies.",
@@ -270,22 +260,6 @@ def generate_career_typescript(career: Dict[str, Any], category_slug: str) -> st
   }},
 '''
     
-    return ts_code
-
-def generate_typescript_file(category_slug: str, category_name: str, careers: List[Dict[str, Any]]) -> str:
-    """Generate complete TypeScript file for a category."""
-    
-    ts_content = f'''import {{ CareerPageData }} from './careerPageData';
-
-const RED = "{RED}";
-const RED2 = "{RED2}";
-
-export const {category_slug}UpdateData: Record<string, CareerPageData> = {{
-'''
-    
-    for career in careers:
-        ts_content += generate_career_typescript(career, category_slug)
-    
     ts_content += '''};
 '''
     
@@ -296,33 +270,34 @@ def main():
     base_path = Path("public/extradata")
     output_path = Path("app/data")
     
+    # Create output directory if it doesn't exist
     output_path.mkdir(parents=True, exist_ok=True)
     
-    print("Starting improved career data extraction...")
-    print(f"Looking for files in: {base_path}\n")
+    print("Starting career data extraction from DOCX files...")
+    print(f"Looking for files in: {base_path}")
     
     extracted_data = {}
     
+    # Process each DOCX file
     for docx_file, (category_slug, category_name) in CATEGORY_MAPPING.items():
         file_path = base_path / docx_file
         
         if not file_path.exists():
-            print(f"[!] File not found: {file_path}")
+            print(f"⚠️  File not found: {file_path}")
             continue
         
-        print(f"[*] Processing: {docx_file}")
+        print(f"\n📄 Processing: {docx_file}")
         
-        # Extract paragraphs
-        paragraphs = extract_paragraphs_from_docx(str(file_path))
-        print(f"  [+] Extracted {len(paragraphs)} paragraphs")
+        # Extract text from DOCX
+        text = extract_text_from_docx(str(file_path))
         
-        # Extract careers
-        careers = extract_careers_from_document(paragraphs)
-        print(f"  [+] Found {len(careers)} careers")
+        if not text:
+            print(f"  ❌ Failed to extract text from {docx_file}")
+            continue
         
-        if careers:
-            for career in careers:
-                print(f"    - {career['title']}")
+        # Extract career data
+        careers = extract_career_data_from_text(text)
+        print(f"  ✓ Found {len(careers)} careers")
         
         # Generate TypeScript file
         ts_content = generate_typescript_file(category_slug, category_name, careers)
@@ -332,7 +307,7 @@ def main():
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(ts_content)
         
-        print(f"  [+] Generated: {output_file}\n")
+        print(f"  ✓ Generated: {output_file}")
         
         extracted_data[category_slug] = {
             "category_name": category_name,
@@ -340,8 +315,8 @@ def main():
             "count": len(careers)
         }
     
-    # Summary
-    print("="*60)
+    # Generate summary report
+    print("\n" + "="*60)
     print("EXTRACTION SUMMARY")
     print("="*60)
     
@@ -350,12 +325,16 @@ def main():
     print(f"Total Careers: {total_careers}")
     
     for category_slug, data in extracted_data.items():
-        print(f"\n{data['category_name']}")
+        print(f"\n{data['category_name']} ({category_slug})")
         print(f"  Careers: {data['count']}")
-        for career in data['careers']:
-            print(f"    - {career}")
+        if data['count'] > 0:
+            for career in data['careers'][:3]:
+                print(f"    - {career}")
+            if data['count'] > 3:
+                print(f"    ... and {data['count'] - 3} more")
     
-    print("\n[OK] Extraction complete!")
+    print("\n✅ Extraction complete!")
+    print(f"Generated files in: {output_path}")
 
 if __name__ == "__main__":
     main()
