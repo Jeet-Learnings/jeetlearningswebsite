@@ -343,6 +343,9 @@ function SectionMarketSnapshot({ section, careerName }: { section: CareerGuideSe
     .filter((row): row is { level: string; salary: string } => !!row);
 
   const infoBullets = section.content.filter((item) => {
+    // Skip empty strings
+    if (!item || !item.trim()) return false;
+    
     const colonIndex = item.indexOf(":");
     if (colonIndex <= 0) return true;
     const details = item.substring(colonIndex + 1).trim();
@@ -432,6 +435,9 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
   let currentGroup = "Public/Premier";
   
   section.content.forEach((item: string) => {
+    // Skip empty strings
+    if (!item || !item.trim()) return;
+    
     const colonIndex = item.indexOf(":");
     if (colonIndex > -1 && item.includes(";")) {
       const type = item.substring(0, colonIndex).trim();
@@ -718,22 +724,35 @@ function SectionPathways({ section, careerName }: { section: CareerGuideSection;
   let currentPathway: { title: string; steps: string[] } | null = null;
 
   for (const item of section.content) {
-    if ((item.toLowerCase().includes('pathway ') || item.toLowerCase().includes('route')) && !item.toLowerCase().startsWith('step')) {
-      if (currentPathway) pathways.push(currentPathway);
+    // Skip empty strings
+    if (!item || !item.trim()) continue;
+    
+    // Check if this is a pathway header
+    const isPathwayHeader = (item.toLowerCase().includes('pathway ') || item.toLowerCase().includes('route')) && !item.toLowerCase().startsWith('step');
+    
+    if (isPathwayHeader) {
+      // Save previous pathway if it has steps
+      if (currentPathway && currentPathway.steps.length > 0) {
+        pathways.push(currentPathway);
+      }
+      // Start new pathway
       currentPathway = { title: item, steps: [] };
     } else if (item.toLowerCase().startsWith('step ')) {
-      if (currentPathway) currentPathway.steps.push(item);
-      else {
+      // Add step to current pathway
+      if (currentPathway) {
+        currentPathway.steps.push(item);
+      } else {
+        // Create new pathway if none exists
         currentPathway = { title: 'Career Path', steps: [item] };
       }
-    } else {
-      if (currentPathway) currentPathway.steps.push(item);
-      else {
-        currentPathway = { title: item, steps: [] };
-      }
     }
+    // Ignore any other lines (don't add them to steps)
   }
-  if (currentPathway) pathways.push(currentPathway);
+  
+  // Don't forget to add the last pathway
+  if (currentPathway && currentPathway.steps.length > 0) {
+    pathways.push(currentPathway);
+  }
 
   return (
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden border-b border-slate-200">
@@ -906,75 +925,6 @@ function SectionJobs({ section, careerName }: { section: CareerGuideSection; car
                       <span className="text-blue-500 mt-0.5 text-lg font-bold">*</span>
                       <span className="text-base text-slate-600 font-medium group-hover/item:text-slate-900 transition-colors">
                         <TranslatedText as="span">{it}</TranslatedText>
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ─── SECTION INSTITUTIONS ───────────────────────────────────────────────
-function SectionInstitutions({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
-  const groupedContent: Record<string, string[]> = {};
-  let currentGroup = "Top Institutions";
-  
-  (section.content || []).forEach((item: string) => {
-    const trimmed = item.trim();
-    if (!trimmed) return;
-
-    const colonIndex = trimmed.indexOf(":");
-    if (colonIndex > -1 && trimmed.includes(";")) {
-      const type = trimmed.substring(0, colonIndex).trim();
-      const subItems = trimmed.substring(colonIndex + 1).split(";").map(i => i.trim()).filter(i => i);
-      groupedContent[type] = subItems;
-    } else {
-      const isHeader = !trimmed.includes(':') && trimmed.split(' ').length <= 4 && 
-        ["government", "private", "online", "public", "central", "state", "top institutions", "north", "south", "east", "west"].some(h => trimmed.toLowerCase().includes(h));
-      
-      if (isHeader) {
-         currentGroup = trimmed.replace(/:$/, '').trim();
-         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
-      } else {
-         if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
-         let cleaned = trimmed;
-         if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
-         if (cleaned) {
-            groupedContent[currentGroup].push(cleaned);
-         }
-      }
-    }
-  });
-
-  const finalEntries = Object.entries(groupedContent).filter(([_, items]) => items.length > 0);
-  const instIcons = [Building2, GraduationCap, School, BookOpen, Award, Globe];
-
-  return (
-    <section className="py-12 sm:py-16 bg-white border-b border-slate-200 px-4">
-      <div className="max-w-6xl mx-auto">
-        <SectionHeader section={section} light={false} />
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {finalEntries.map(([type, insts], idx) => {
-            const Icon = instIcons[idx % instIcons.length];
-            return (
-              <div key={type} className="group p-6 sm:p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:border-indigo-300 hover:shadow-xl transition-all group">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-sm">
-                    <Icon className="w-6 h-6 text-indigo-600" />
-                  </div>
-                  <h4 className="text-xl font-bold text-slate-900 leading-tight">{type}</h4>
-                </div>
-                <ul className="space-y-3">
-                  {insts.map((inst, i) => (
-                    <li key={i} className="flex gap-3 items-start group/item">
-                      <span className="text-indigo-500 mt-0.5 text-lg font-bold">*</span>
-                      <span className="text-base text-slate-600 font-medium group-hover/item:text-slate-900 transition-colors">
-                        <TranslatedText as="span">{inst}</TranslatedText>
                       </span>
                     </li>
                   ))}

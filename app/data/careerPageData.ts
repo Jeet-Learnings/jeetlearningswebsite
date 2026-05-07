@@ -12,6 +12,8 @@ import { environmentUpdateData } from './environmentUpdateData';
 import { mentorAndCoachUpdateData } from './mentorAndCoachUpdateData';
 import { actuarialScienceUpdateData } from './actuarialScienceUpdateData';
 import { scienceMathematicsEngineeringUpdateData } from './scienceMathematicsEngineeringUpdateData';
+import { bankingAndFinanceUpdateData } from './bankingAndFinanceUpdateData';
+import { costAccountantUpdateData } from './costAccountantUpdateData';
 export interface CareerHeroStat {
   value: string;
   label: string;
@@ -6283,6 +6285,7 @@ export function getCareerPageData(slug: string): CareerPageData | null {
 
   return (
     actuarialScienceUpdateData[normalizedSlug] ||
+    bankingAndFinanceUpdateData[normalizedSlug] ||
     agricultureUpdateData[normalizedSlug] ||
     artsAndDesignUpdateData[normalizedSlug] ||
     bioScienceUpdateData[normalizedSlug] ||

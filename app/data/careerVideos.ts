@@ -560,13 +560,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
       id: 2,
       title: "Auditing, Taxation & Financial Advisory",
       url: "https://www.youtube.com/embed/CqZSxeo9gUQ",
+
     },
   ],
   company_secretary: [
     {
       id: 1,
       title: "Company Secretary Career Overview - The Backbone of Corporate Governance",
-      url: "https://www.youtube.com/embed/1_ih99HhknK",
+      url: "https://www.youtube.com/embed/1_ih99Hhknk",
     },
   ],
   cost_accountant: [
