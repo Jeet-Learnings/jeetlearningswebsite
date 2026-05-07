@@ -110,9 +110,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: National Institute of Fashion Technology (NIFT), National Institute of Design (NID), Indian Institute of Crafts & Design (IICD), Footwear Design & Development Institute (FDDI)",
-          "Private: Pearl Academy, ARCH College of Design & Business, Vogue Institute of Fashion Technology, JD Institute of Fashion Technology",
-          "Online: NIFT Online Programs, Coursera (Fashion & Design Courses), Udemy (Accessory Design Courses), Domestika (Fashion Accessories Design)"
+          "Government: National Institute of Fashion Technology, National Institute of Design, Indian Institute of Crafts and Design, Footwear Design and Development Institute",
+          "Private: Pearl Academy, ARCH College of Design and Business, Vogue Institute of Fashion Technology, JD Institute of Fashion Technology",
+          "Online: NIFT Online Programs, Coursera Fashion Design Courses, Udemy Accessory Design Courses, Domestika Fashion Accessories Design"
         ]
       },
       {
@@ -328,9 +328,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: National Institute of Design (NID), Satyajit Ray Film & Television Institute (SRFTI), Indian Institute of Technology (IIT Bombay - IDC), National Institute of Film & Fine Arts (NIFFA)",
-          "Private: Arena Animation, Frameboxx Animation & Visual Effects, Maya Academy of Advanced Cinematics (MAAC), DSK International Campus",
-          "Online: Coursera (Animation & 3D Courses), Udemy (Animation Masterclasses), Animschool, Skillshare (Motion Design & Animation)"
+          "Government: National Institute of Design, Satyajit Ray Film and Television Institute, IIT Bombay IDC, National Institute of Film and Fine Arts",
+          "Private: Arena Animation, Frameboxx Animation and Visual Effects, Maya Academy of Advanced Cinematics, DSK International Campus",
+          "Online: Coursera Animation and 3D Courses, Udemy Animation Masterclasses, Animschool, Skillshare Motion Design and Animation"
         ]
       },
       {
@@ -555,9 +555,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Government Institute of Cosmetology Chennai, Rajiv Gandhi University of Health Sciences (RGUHS), Government Polytechnic for Women (Various States), National Skill Training Institute (NSTI)",
-          "Private: VLCC Institute of Beauty & Nutrition, Lakme Academy powered by Aptech, Shahnaz Husain Beauty Academy, Pivot Point India",
-          "Online: Coursera (Beauty & Cosmetology Courses), Udemy (Cosmetology & Skincare Courses), Skillshare (Makeup & Beauty Techniques), VLCC Online Learning Programs"
+          "Government: Government Institute of Cosmetology Chennai, Rajiv Gandhi University of Health Sciences, Government Polytechnic for Women, National Skill Training Institute",
+          "Private: VLCC Institute of Beauty and Nutrition, Lakme Academy powered by Aptech, Shahnaz Husain Beauty Academy, Pivot Point India",
+          "Online: Coursera Beauty and Cosmetology Courses, Udemy Cosmetology and Skincare Courses, Skillshare Makeup and Beauty Techniques, VLCC Online Learning Programs"
         ]
       },
       {
@@ -590,9 +590,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Government Institute of Cosmetology Chennai, Rajiv Gandhi University of Health Sciences (RGUHS), Government Polytechnic for Women (Various States), National Skill Training Institute (NSTI)",
-          "Private: VLCC Institute of Beauty & Nutrition, Lakme Academy powered by Aptech, Shahnaz Husain Beauty Academy, Pivot Point India",
-          "Online: Coursera (Beauty & Cosmetology Courses), Udemy (Cosmetology & Skincare Courses), Skillshare (Makeup & Beauty Techniques), VLCC Online Learning Programs"
+          "Government: Government Institute of Cosmetology Chennai, Rajiv Gandhi University of Health Sciences, Government Polytechnic for Women, National Skill Training Institute",
+          "Private: VLCC Institute of Beauty and Nutrition, Lakme Academy powered by Aptech, Shahnaz Husain Beauty Academy, Pivot Point India",
+          "Online: Coursera Beauty and Cosmetology Courses, Udemy Cosmetology and Skincare Courses, Skillshare Makeup and Beauty Techniques, VLCC Online Learning Programs"
         ]
       },
       {
@@ -793,9 +793,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Jawaharlal Nehru University (JNU) New Delhi, University of Delhi (DU), English and Foreign Languages University (EFLU) Hyderabad, Central University of Hyderabad",
-          "Private: Ashoka University, Symbiosis School for Liberal Arts Pune, Shiv Nadar University, Manipal Academy of Higher Education",
-          "Online: Coursera (Creative Writing Specialization), Udemy (Fiction & Non-Fiction Writing), MasterClass (Writing by Renowned Authors), Skillshare (Storytelling & Writing Craft)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -828,9 +828,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Jawaharlal Nehru University (JNU) New Delhi, University of Delhi (DU), English and Foreign Languages University (EFLU) Hyderabad, Central University of Hyderabad",
-          "Private: Ashoka University, Symbiosis School for Liberal Arts Pune, Shiv Nadar University, Manipal Academy of Higher Education",
-          "Online: Coursera (Creative Writing Specialization), Udemy (Fiction & Non-Fiction Writing), MasterClass (Writing by Renowned Authors), Skillshare (Storytelling & Writing Craft)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -1031,9 +1031,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: National Institute of Fashion Technology (NIFT), National Institute of Design (NID), Indian Institute of Crafts & Design (IICD) Jaipur, Footwear Design & Development Institute (FDDI)",
-          "Private: Pearl Academy, ARCH College of Design & Business Jaipur, Symbiosis Institute of Design Pune, JD Institute of Fashion Technology",
-          "Online: Coursera (Fashion Design & History Courses), Udemy (Fashion Design Masterclass), Skillshare (Fashion Illustration & Design), Domestika (Fashion & Textile Design)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -1067,9 +1067,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Public/Govt: NIFT (18 campuses across India), National Institute of Design (NID) (Ahmedabad/Gandhinagar), Footwear Design and Development Institute (FDDI).",
-          "Private: Pearl Academy (Delhi/Mumbai/Jaipur), Symbiosis Institute of Design (Pune), Srishti Manipal (Bangalore).",
-          "Regional Diversity: North (NIFT Delhi), South (NIFT Chennai), West (NID Gandhinagar), East (NIFT Kolkata)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -1279,9 +1279,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: NIFT (Multiple campuses—Delhi, Bangalore, and Mumbai are top-ranked), Institute of Chemical Technology (ICT) Mumbai",
-          "Private: Pearl Academy, Amity School of Fashion Technology, Symbiosis Institute of Design, World University of Design (Sonipat)",
-          "Geographic Diversity: North (NIFT Delhi/Noida), South (NIFT Bangalore/Chennai), West (NIFT Mumbai/Gandhinagar), East (NIFT Kolkata/Patna)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -1495,9 +1495,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Faculty of Fine Arts, MSU Baroda, Government College of Fine Arts, Chennai, Sir J.J. School of Art, Mumbai, College of Art, University of Delhi",
-          "Private: Srishti Manipal Institute of Art, Design & Technology, Symbiosis School of Visual Arts & Photography, Pune, Amity School of Fine Arts, Noida, Chitrakala Parishath College of Fine Arts, Bangalore",
-          "Online: Coursera (Art & Art History Courses), Udemy (Drawing, Painting & Sculpture), Skillshare (Fine Arts & Illustration), Domestika (Painting & Mixed Media Techniques)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -1530,9 +1530,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Faculty of Fine Arts, MSU Baroda, Government College of Fine Arts, Chennai, Sir J.J. School of Art, Mumbai, College of Art, University of Delhi",
-          "Private: Srishti Manipal Institute of Art, Design & Technology, Symbiosis School of Visual Arts & Photography, Pune, Amity School of Fine Arts, Noida, Chitrakala Parishath College of Fine Arts, Bangalore",
-          "Online: Coursera (Art & Art History Courses), Udemy (Drawing, Painting & Sculpture), Skillshare (Fine Arts & Illustration), Domestika (Painting & Mixed Media Techniques)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -1748,9 +1748,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: National Institute of Design (NID) Ahmedabad, Industrial Design Centre (IDC) IIT Bombay, College of Art University of Delhi, Government College of Fine Arts Chennai",
-          "Private: Pearl Academy, Srishti Manipal Institute of Art Design & Technology, Arena Animation, Symbiosis Institute of Design Pune",
-          "Online: Coursera (Graphic Design Specialization by CalArts), Udemy (Graphic Design Masterclass), Skillshare (Logo, Branding & Visual Design), Domestika (Typography & Digital Illustration)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -1965,9 +1965,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: School of Planning & Architecture (SPA) New Delhi, National Institute of Design (NID) Ahmedabad, CEPT University Ahmedabad, Government College of Architecture Lucknow",
-          "Private: Pearl Academy, Lovely Professional University (LPU) Punjab, JD Institute of Fashion Technology, Vogue Institute of Fashion Technology Bangalore",
-          "Online: Coursera (Interior Design & Home Décor Courses), Udemy (Interior Design Masterclass), Skillshare (Space Planning & Interior Styling), Domestika (Interior Design & 3D Visualization)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -2192,9 +2192,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Jawaharlal Nehru University (JNU) New Delhi, English and Foreign Languages University (EFLU) Hyderabad, University of Delhi (DU), Banaras Hindu University (BHU) Varanasi",
-          "Private: Symbiosis International University Pune, Amity School of Languages Noida, Christ University Bangalore, Lovely Professional University (LPU) Punjab",
-          "Online: Coursera (Translation & Interpreting Courses), Udemy (Professional Translation Masterclass), EdX (Linguistics & Translation Studies), Skillshare (Language & Translation Skills)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -2289,9 +2289,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Jawaharlal Nehru University (JNU) New Delhi, English and Foreign Languages University (EFLU) Hyderabad, University of Delhi (DU), Banaras Hindu University (BHU) Varanasi",
-          "Private: Symbiosis International University Pune, Amity School of Languages Noida, Christ University Bangalore, Lovely Professional University (LPU) Punjab",
-          "Online: Coursera (Translation & Interpreting Courses), Udemy (Professional Translation Masterclass), EdX (Linguistics & Translation Studies), Skillshare (Language & Translation Skills)"
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -2398,8 +2398,45 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 35–55% more. Ashoka/FLAME/Symbiosis graduates command premium packages. Specialization in policy/data/UX boosts salary significantly.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Pune, Hyderabad, Chennai","Top Industries: Think tanks, NGOs, media houses, consulting firms, edtech, policy research, McKinsey, Dalberg, UNDP, Teach For India, Scroll, The Ken","Global Demand: Liberal arts graduates valued in tech for UX/content/ethics roles. Strong demand in USA, UK, Europe.","Top Institutions","Government:","Jawaharlal Nehru University (JNU), New Delhi","University of Delhi (DU)","Presidency University, Kolkata","Tata Institute of Social Sciences (TISS), Mumbai","Private:","Ashoka University, Sonipat","FLAME University, Pune","Symbiosis School for Liberal Arts, Pune","Jindal School of Liberal Arts & Humanities (JSLH)","Online:","Coursera (Liberal Arts & Humanities Courses)","EdX (Harvard & Yale Liberal Arts Programs)","Udemy (Philosophy, History & Social Sciences)","Skillshare (Critical Thinking & Humanities)","Career Opportunities","Conventional","Journalist/Editor at newspapers, magazines, and media houses","Public Policy Analyst/Researcher in government and think tanks","Educator/Professor at schools and universities","Diplomat/Civil Services officer (IAS, IFS through UPSC)","New-Age & AI-Driven","Digital Marketing Strategist and Content Analyst for tech firms","UX Researcher combining psychology, sociology, and design thinking","Data-driven Market Research Analyst using AI tools","ESG (Environmental, Social, Governance) and DEI Consultant for corporates","Remote/Entrepreneurship","Freelance writer, researcher, or policy consultant","Founder of an NGO, social enterprise, or ed-tech startup","Independent podcast host, cultural commentator, or newsletter creator","Online educator and interdisciplinary course designer on edX/Coursera"]
-      },{
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹12–22 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹6–11 LPA",
+          "Junior / Associate (3–5 yrs): ₹3.5–6 LPA",
+          "Entry Level (0–2 yrs): ₹2.5–4 LPA",
+          "Note: Metro cities pay 35–55% more. Ashoka/FLAME/Symbiosis graduates command premium packages. Specialization in policy/data/UX boosts salary significantly.",
+          "Where Are the Jobs?",
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Pune, Hyderabad, Chennai",
+          "Top Industries: Think tanks, NGOs, media houses, consulting firms, edtech, policy research, McKinsey, Dalberg, UNDP, Teach For India, Scroll, The Ken",
+          "Global Demand: Liberal arts graduates valued in tech for UX/content/ethics roles. Strong demand in USA, UK, Europe."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Jawaharlal Nehru University (JNU) New Delhi, University of Delhi (DU), Presidency University Kolkata, Tata Institute of Social Sciences (TISS) Mumbai",
+          "Private: Ashoka University Sonipat, FLAME University Pune, Symbiosis School for Liberal Arts Pune, Jindal School of Liberal Arts & Humanities (JSLH)",
+          "Online: Coursera (Liberal Arts & Humanities Courses), EdX (Harvard & Yale Liberal Arts Programs), Udemy (Philosophy, History & Social Sciences), Skillshare (Critical Thinking & Humanities)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE,
+        content: [
+          "Conventional: Journalist/Editor at newspapers, magazines, and media houses, Public Policy Analyst/Researcher in government and think tanks, Educator/Professor at schools and universities, Diplomat/Civil Services officer (IAS, IFS through UPSC)",
+          "New-Age & AI-Driven: Digital Marketing Strategist and Content Analyst for tech firms, UX Researcher combining psychology, sociology, and design thinking, Data-driven Market Research Analyst using AI tools, ESG (Environmental, Social, Governance) and DEI Consultant for corporates",
+          "Remote/Entrepreneurship: Freelance writer, researcher, or policy consultant, Founder of an NGO, social enterprise, or ed-tech startup, Independent podcast host, cultural commentator, or newsletter creator, Online educator and interdisciplinary course designer on edX/Coursera"
+        ]
+      },
+      {
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2419,9 +2456,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Private Pioneers: Ashoka University (Sonipat), FLAME University (Pune), O.P. Jindal (Sonipat), Krea University (Andhra Pradesh).",
-          "Public Excellence: Lady Shri Ram (Delhi), St. Stephen's (Delhi), St. Xavier's (Mumbai), Loyola (Chennai).",
-          "Regional Options: Azim Premji University (Bangalore), Shiv Nadar (Greater Noida), Ahmedabad University."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -2602,7 +2639,15 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1.5 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly unpredictable; top performers earn exponentially more. Metro exposure essential for visibility. NSD/FTII/Kalakshetra alumni get industry recognition faster.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Chennai, Kolkata, Bengaluru, Hyderabad","Top Industries: Film/OTT platforms, theatre companies, dance academies, event management, TV channels, Netflix, Amazon Prime, Prithvi Theatre, NSD Repertory, Rangashankara, Zee/Sony","Global Demand: Strong demand in USA, UK, UAE, Southeast Asia. Remote teaching/workshops gaining popularity post-pandemic.","Top Institutions","Government:","National School of Drama (NSD), New Delhi","Satyajit Ray Film & Television Institute (SRFTI), Kolkata","Faculty of Music & Fine Arts, University of Delhi","Bhatkhande Sanskriti Vishwavidyalaya, Lucknow","Private:","Whistling Woods International, Mumbai","Barry John Acting Studio, Mumbai & Delhi","Anupam Kher's Actor Prepares, Mumbai","Pearl Academy (Performing Arts Programs)","Online:","Coursera (Theatre, Music & Dance Courses)","Udemy (Acting & Theatre Masterclass)","MasterClass (Performing Arts by Industry Experts)","Skillshare (Voice, Dance & Stage Performance)","Career Opportunities","Conventional","Actor in films, television, theatre, and OTT platforms","Classical/Contemporary Dancer or Choreographer for stage and cinema","Musician/Singer at music labels, orchestras, and live events","Theatre Director or Stage Manager at repertory companies","New-Age & AI-Driven","Motion capture artist for VFX, gaming, and virtual productions","AI-music composer and sound designer for digital media","Virtual/Augmented Reality performance and immersive experience creator","Voiceover artist and AI-voice trainer for dubbing and audiobook platforms","Remote/Entrepreneurship","YouTube/Instagram performing arts content creator and influencer","Own dance academy, music school, or theatre company","Freelance session musician, voice artist, or event performer","Online performing arts coach and masterclass instructor"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1.5 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly unpredictable; top performers earn exponentially more. Metro exposure essential for visibility. NSD/FTII/Kalakshetra alumni get industry recognition faster."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Mumbai, Delhi-NCR, Chennai, Kolkata, Bengaluru, Hyderabad","Top Industries: Film/OTT platforms, theatre companies, dance academies, event management, TV channels, Netflix, Amazon Prime, Prithvi Theatre, NSD Repertory, Rangashankara, Zee/Sony","Global Demand: Strong demand in USA, UK, UAE, Southeast Asia. Remote teaching/workshops gaining popularity post-pandemic."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2622,10 +2667,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Drama: National School of Drama (NSD), Delhi; Film and Television Institute of India (FTII), Pune.",
-          "Dance: Kalakshetra Foundation, Chennai; Kathak Kendra, Delhi; Nalanda Nritya Kala Mahavidyalaya, Mumbai.",
-          "Music: KM Music Conservatory, Chennai; Prayag Sangeet Samiti, Allahabad; Visva-Bharati, Santiniketan.",
-          "Private Excellence: Whistling Woods International, Mumbai; The Barry John Acting Studio."
+          "Government: National School of Drama (NSD) New Delhi, Satyajit Ray Film & Television Institute (SRFTI) Kolkata, Faculty of Music & Fine Arts University of Delhi, Bhatkhande Sanskriti Vishwavidyalaya Lucknow",
+          "Private: Whistling Woods International Mumbai, Barry John Acting Studio Mumbai & Delhi, Anupam Kher's Actor Prepares Mumbai, Pearl Academy (Performing Arts Programs)",
+          "Online: Coursera (Theatre, Music & Dance Courses), Udemy (Acting & Theatre Masterclass), MasterClass (Performing Arts by Industry Experts), Skillshare (Voice, Dance & Stage Performance)"
         ]
       },
       {
@@ -2807,7 +2851,15 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹1.2 Crore+","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly project-based; wedding/commercial photographers earn significantly more. Metro cities pay 40–55% higher. Strong portfolio and social media presence matter most.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Kolkata, Jaipur","Top Industries: Wedding industry, advertising agencies, media houses, e-commerce, film production, fashion brands, Shutterstock, Getty Images, Conde Nast, Amazon, Myntra","Global Demand: Stock photography generating passive income globally. Indian wedding photographers in demand in USA, UK, UAE.","Top Institutions","overnment:","Film and Television Institute of India (FTII), Pune","Satyajit Ray Film & Television Institute (SRFTI), Kolkata","National Institute of Design (NID), Ahmedabad","AJK Mass Communication Research Centre, Jamia Millia Islamia, Delhi","Private:","Light & Life Academy, Ooty","Sri Aurobindo Centre for Arts & Communication, New Delhi","Creative Hut Institute of Photography, Kerala","Asian Academy of Film & Television (AAFT), Noida","Online:","Coursera (Photography Basics & Beyond)","Udemy (Photography Masterclass)","Skillshare (Portrait, Landscape & Street Photography)","Domestika (Creative Photography & Editing)","Career Opportunities","Conventional","Wedding and Event Photographer","Fashion/Editorial Photographer for magazines and brands","Photojournalist for newspapers, news agencies, and media houses","Commercial/Product Photographer for e-commerce and advertising","New-Age & AI-Driven","AI-enhanced photo editor and computational photography specialist","Drone and Aerial Photographer for real estate, mapping, and films","360°/Virtual Tour Photographer for hospitality and real estate","NFT and digital fine art photographer for blockchain platforms","Remote/Entrepreneurship","Freelance photographer with own studio or on-location business","Stock photography contributor on Shutterstock, Getty, and Adobe Stock","Photography influencer, YouTuber, and online course creator","Photo editing and retouching service provider for global clients"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹1.2 Crore+","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly project-based; wedding/commercial photographers earn significantly more. Metro cities pay 40–55% higher. Strong portfolio and social media presence matter most."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Kolkata, Jaipur","Top Industries: Wedding industry, advertising agencies, media houses, e-commerce, film production, fashion brands, Shutterstock, Getty Images, Conde Nast, Amazon, Myntra","Global Demand: Stock photography generating passive income globally. Indian wedding photographers in demand in USA, UK, UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2827,10 +2879,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North: Delhi College of Photography (DCOP), AJK-MCRC (Jamia Millia Islamia).",
-          "South: Light & Life Academy (Ooty), JNAFAU (Hyderabad), Creative Hut (Kerala).",
-          "West: National Institute of Design (NID, Ahmedabad), National Institute of Photography (NIP, Mumbai).",
-          "East/Central: Visva-Bharati (Santiniketan), AAFT (Noida/Raipur)."
+          "Government: Film and Television Institute of India (FTII) Pune, Satyajit Ray Film & Television Institute (SRFTI) Kolkata, National Institute of Design (NID) Ahmedabad, AJK Mass Communication Research Centre Jamia Millia Islamia Delhi",
+          "Private: Light & Life Academy Ooty, Sri Aurobindo Centre for Arts & Communication New Delhi, Creative Hut Institute of Photography Kerala, Asian Academy of Film & Television (AAFT) Noida",
+          "Online: Coursera (Photography Basics & Beyond), Udemy (Photography Masterclass), Skillshare (Portrait, Landscape & Street Photography), Domestika (Creative Photography & Editing)"
         ]
       },
       {
@@ -2864,9 +2915,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Conventional and emerging roles.",
         color: BLUE,
         content: [
-          "Conventional: Wedding, Fashion, and Portrait Photographer.",
-          "New-Age: Drone/Aerial Photographer, Food Stylist & Photographer, AI-Hybrid Visualizer, Real Estate 3D-Tour Creator.",
-          "Freelancing: Selling 'Stock Photos' on sites like Shutterstock or Getty Images."
+          "Conventional: Wedding and Event Photographer, Fashion/Editorial Photographer for magazines and brands, Photojournalist for newspapers and media houses, Commercial/Product Photographer for e-commerce and advertising",
+          "New-Age & AI-Driven: AI-enhanced photo editor and computational photography specialist, Drone and Aerial Photographer for real estate and films, 360°/Virtual Tour Photographer for hospitality and real estate, NFT and digital fine art photographer for blockchain platforms",
+          "Remote/Entrepreneurship: Freelance photographer with own studio or on-location business, Stock photography contributor on Shutterstock and Getty, Photography influencer and online course creator, Photo editing and retouching service provider for global clients"
         ]
       },
       {
@@ -3014,7 +3065,15 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹18–32 LPA","Mid-Level Professional (5–8 yrs): ₹9–17 LPA","Junior / Associate (3–5 yrs): ₹5–9 LPA","Entry Level (0–2 yrs): ₹3.5–5 LPA","Note: Metro cities pay 45–65% more. UX/UI product designers earn highest in tech. IIT/NID/IDC graduates command top-tier packages consistently.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai","Top Industries: Tech startups, SaaS companies, e-commerce, consumer electronics, automotive, Google, Microsoft, Flipkart, Razorpay, CRED, Titan, Tata Elxsi","Global Demand: Indian product designers highly sought in USA, Europe, Singapore. Remote-first roles widely available at global companies. Freelance UX consulting booming on Toptal/Upwork.","Top Institutions","Government:","National Institute of Design (NID), Ahmedabad","Industrial Design Centre (IDC), IIT Bombay","Indian Institute of Technology (IIT), Delhi","Indian Institute of Science (IISc), Bangalore","Private:","Srishti Manipal Institute of Art, Design & Technology","Pearl Academy","DSK International Campus, Pune","Symbiosis Institute of Design, Pune","Online:","Coursera (Product Design & UX Courses)","Udemy (Industrial & Product Design Masterclass)","Skillshare (3D Modeling & Prototyping)","Domestika (Creative Product Design & Innovation)","Career Opportunities","Conventional","Industrial/Product Designer at consumer goods and manufacturing companies","Furniture and Home Products Designer at design studios","Packaging Designer for FMCG and retail brands","Automobile/Automotive Designer at vehicle manufacturers","New-Age & AI-Driven","UX/UI Product Designer at tech startups and SaaS companies (Razorpay, CRED, Zoho)","IoT and Wearable Technology Product Designer","AI-augmented design strategist using generative design tools","Sustainable/Circular Design Specialist for eco-conscious brands","Remote/Entrepreneurship","Freelance product designer on Upwork, Toptal, and Dribbble","Own product design studio or D2C product brand","3D printing and rapid prototyping service entrepreneur","Online product design mentor and course creator on Skillshare/Udemy"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹18–32 LPA","Mid-Level Professional (5–8 yrs): ₹9–17 LPA","Junior / Associate (3–5 yrs): ₹5–9 LPA","Entry Level (0–2 yrs): ₹3.5–5 LPA","Note: Metro cities pay 45–65% more. UX/UI product designers earn highest in tech. IIT/NID/IDC graduates command top-tier packages consistently."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai","Top Industries: Tech startups, SaaS companies, e-commerce, consumer electronics, automotive, Google, Microsoft, Flipkart, Razorpay, CRED, Titan, Tata Elxsi","Global Demand: Indian product designers highly sought in USA, Europe, Singapore. Remote-first roles widely available at global companies. Freelance UX consulting booming on Toptal/Upwork."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -3035,9 +3094,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government (Public): NID Ahmedabad (Branches in Bhopal, Vijayawada, Kurukshetra), IDC-IIT Bombay, IIT Delhi, DoD-IIT Guwahati.",
-          "Private Excellence: MIT Institute of Design (Pune), Srishti Manipal (Bangalore), Unitedworld Institute of Design (UID, Ahmedabad), Pearl Academy.",
-          "Regional Hubs: IIFD Chandigarh (North), Woxsen University, Hyderabad (South), Avantika University, Ujjain (Central)."
+          "Government: National Institute of Design (NID) Ahmedabad, Industrial Design Centre (IDC) IIT Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Science (IISc) Bangalore",
+          "Private: Srishti Manipal Institute of Art, Design & Technology, Pearl Academy, DSK International Campus Pune, Symbiosis Institute of Design Pune",
+          "Online: Coursera (Product Design & UX Courses), Udemy (Industrial & Product Design Masterclass), Skillshare (3D Modeling & Prototyping), Domestika (Creative Product Design & Innovation)"
         ]
       },
       {
@@ -3070,9 +3129,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Conventional and emerging roles.",
         color: BLUE,
         content: [
-          "Conventional: Industrial Designer, Furniture Designer, Toy Designer.",
-          "New-Age: UX/UI Product Designer, Sustainable Material Specialist, Human-Robot Interaction (HRI) Designer, Wearable Tech Designer.",
-          "Entrepreneurship: Launching your own D2C brand on Instagram or starting a Design Consultancy."
+          "Conventional: Industrial/Product Designer at consumer goods and manufacturing companies, Furniture and Home Products Designer at design studios, Packaging Designer for FMCG and retail brands, Automobile/Automotive Designer at vehicle manufacturers",
+          "New-Age & AI-Driven: UX/UI Product Designer at tech startups and SaaS companies (Razorpay, CRED, Zoho), IoT and Wearable Technology Product Designer, AI-augmented design strategist using generative design tools, Sustainable/Circular Design Specialist for eco-conscious brands",
+          "Remote/Entrepreneurship: Freelance product designer on Upwork, Toptal, and Dribbble, Own product design studio or D2C product brand, 3D printing and rapid prototyping service entrepreneur, Online product design mentor and course creator on Skillshare/Udemy"
         ]
       },
       {
@@ -3219,7 +3278,15 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹28 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–25 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. Full-stack design + development skills double earning potential. Strong GitHub/Behance portfolio outweighs formal degrees significantly.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai","Top Industries: IT companies, digital agencies, startups, e-commerce, SaaS firms, TCS, Infosys, Webchutney, WPP, Freshworks, Zoho, Razorpay","Global Demand: Massive demand in USA, UK, Australia, Canada. Platforms like Toptal/Fiverr/Webflow creating steady income.","Top Institutions","Government","National Institute of Design (NID), Ahmedabad","IDC School of Design, IIT Bombay","Department of Design, IIT Guwahati","Design Discipline, IIITDM Jabalpur","Private","MIT Institute of Design, Pune","Pearl Academy","Arena Animation","MAAC","Online","Coursera","upGrad","Great Learning","Udemy","Career Opportunities","Conventional","Web Designer","UI Designer","Front-End Designer","WordPress Designer","New-age and AI driven","UX/UI Product Designer","Webflow Designer","Shopify Store Designer","AI-Assisted Website Designer","Remote/entrepreneurship","Freelance Website Designer","Agency Website Consultant","No-Code Website Creator","Personal Brand Web Studio"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹28 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–25 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. Full-stack design + development skills double earning potential. Strong GitHub/Behance portfolio outweighs formal degrees significantly."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai","Top Industries: IT companies, digital agencies, startups, e-commerce, SaaS firms, TCS, Infosys, Webchutney, WPP, Freshworks, Zoho, Razorpay","Global Demand: Massive demand in USA, UK, Australia, Canada. Platforms like Toptal/Fiverr/Webflow creating steady income."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -3239,9 +3306,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: NID (Ahmedabad/Gandhinagar), IDC-IIT Bombay, IIT Guwahati (DoD), NIFT (various campuses).",
-          "Private: Srishti Manipal (Bangalore), MIT-ID (Pune), Pearl Academy, UPES (Dehradun).",
-          "Online: Interaction Design Foundation (IxDF), Google UX Certificate, Udemy/Coursera."
+          "Government: National Institute of Design (NID) Ahmedabad, IDC School of Design IIT Bombay, Department of Design IIT Guwahati, Design Discipline IIITDM Jabalpur",
+          "Private: MIT Institute of Design Pune, Pearl Academy, Arena Animation, MAAC",
+          "Online: Coursera, upGrad, Great Learning, Udemy"
         ]
       },
       {
@@ -3274,9 +3341,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Conventional and emerging roles.",
         color: BLUE,
         content: [
-          "Conventional: Web Designer, Graphic Designer, Front-end Stylist.",
-          "New-Age: UI/UX Designer, Interaction Designer, Design System Lead, AI-Interface Designer.",
-          "Freelancing: Starting a Digital Agency or selling 'Web Templates' on platforms like Envato or Webflow."
+          "Conventional: Web Designer, UI Designer, Front-End Designer, WordPress Designer",
+          "New-Age & AI-Driven: UX/UI Product Designer, Webflow Designer, Shopify Store Designer, AI-Assisted Website Designer",
+          "Remote/Entrepreneurship: Freelance Website Designer, Agency Website Consultant, No-Code Website Creator, Personal Brand Web Studio"
         ]
       },
       {
@@ -3391,6 +3458,54 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Editing: Assembling the story and adding effects.",
           "Optimization: Creating thumbnails and SEO titles.",
           "Analytics: Using data to improve the next video."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: ["Pathway A: After Class 12th (Media/Communication Route)","Step 1: Complete Class 12th (any stream).","Step 2: Pursue BA in Mass Communication/Film/Media Studies.","Step 3: Earn degree from recognised university (3 years).","Step 4: Learn video editing, scripting, and content strategy skills.","Step 5: Start YouTube channel and post content consistently.","Step 6: Grow as Professional YouTuber, Content Strategist, or Producer.","Pathway B: Diploma/Certification Route","Step 1: Complete Class 10th or 12th.","Step 2: Join diploma in Video Editing/Digital Media/Filmmaking.","Step 3: Learn Premiere Pro, Final Cut Pro, and DaVinci Resolve.","Step 4: Study YouTube SEO, thumbnails, and audience engagement.","Step 5: Launch channel and build subscriber base through niche content.","Step 6: Earn through AdSense, brand deals, sponsorships, or merchandise.","Pathway C: Self-Taught/Creator Route","Step 1: Complete Class 12th (any stream).","Step 2: Learn video creation using smartphone and free editing apps.","Step 3: Study successful YouTubers and analyse content trends.","Step 4: Create and upload videos regularly in chosen niche.","Step 5: Grow audience using social media, Shorts, and collaborations.","Step 6: Monetise channel and expand into personal brand or business."]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot 2025-26",
+        icon: "TrendingUp",
+        description: "Salaries, growth, and opportunities.",
+        color: BLUE2,
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1 Crore – ₹50 Crore+","Senior / Lead Role (10+ yrs): ₹25–80 LPA","Mid-Level Professional (5–8 yrs): ₹8–20 LPA","Junior / Associate (3–5 yrs): ₹3–8 LPA","Entry Level (0–2 yrs): ₹0.5–3 LPA","Note: Income extremely variable; depends on niche/subscribers/brand deals. Consistency and audience engagement matter more than any degree."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Jaipur, Chennai","Top Industries: Entertainment, education, gaming, tech reviews, food/travel, fitness, brand sponsorships, YouTube AdSense, affiliate marketing, merchandise sales","Global Demand: India is YouTube's largest market by users. Multi-platform expansion to Instagram Reels/Shorts essential. Global audiences accessible from anywhere in India."]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Indian Institute of Mass Communication (IIMC), Film and Television Institute of India (FTII), Satyajit Ray Film and Television Institute (SRFTI), AJK Mass Communication Research Centre Jamia Millia Islamia",
+          "Private: Whistling Woods International, AAFT School of Digital Marketing, Symbiosis Institute of Media and Communication, Pearl Academy",
+          "Online: YouTube Creators Academy, upGrad, Great Learning, Udemy"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE,
+        content: [
+          "Conventional: YouTube Channel Host, Video Content Creator, Script Writer, Video Editor",
+          "New-Age & AI-Driven: AI Content Strategist, Short-Form Video Creator, Thumbnail Designer, Analytics and SEO Creator",
+          "Remote/Entrepreneurship: Independent YouTuber, Niche Channel Owner, Brand Collaboration Creator, Digital Course Creator"
         ]
       },
       {
@@ -6597,12 +6712,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for mathematics in India.",
         color: BLUE,
         content: [
-          "North: University of Delhi, IIT Kanpur, ISI Delhi, Delhi University.",
-          "South: Chennai Mathematical Institute (CMI), IISc Bengaluru, University of Hyderabad, IIT Madras.",
-          "East: Indian Statistical Institute (ISI) Kolkata, IIT Kharagpur, Jadavpur University.",
-          "West: TIFR Mumbai, IIT Bombay, Savitribai Phule Pune University, IIT Gandhinagar.",
-          "Northeast: IIT Guwahati, Tezpur University.",
-          "Tier-2 Excellence: Banaras Hindu University (BHU), Aligarh Muslim University (AMU)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -6842,11 +6954,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for nanotechnology in India.",
         color: BLUE,
         content: [
-          "Government Leaders: IIT Madras, IISc Bengaluru (Centre for Nano Science and Engineering), IIT Bombay, Jadavpur University (Kolkata), IIT Kanpur.",
-          "Private Excellence: SRM Institute (Chennai), Amity University (Noida), VIT Vellore, Manipal Institute.",
-          "Northeast: IIT Guwahati, Central University of Gujarat (Northwest).",
-          "Research Centers: CSIR labs, DST-funded Nano Mission centers, TIFR Mumbai.",
-          "International Collaborations: Many Indian institutions partner with MIT, Stanford, and ETH Zurich for advanced research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -7073,11 +7183,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for robotics in India.",
         color: BLUE,
         content: [
-          "Public Leaders: IIT Delhi (Program for Autonomous Systems), IIT Kanpur (Center for Robotics), IISc Bengaluru, Jadavpur University, IIT Bombay.",
-          "Private Excellence: SRM Institute (Chennai), VIT Vellore, MIT World Peace University (Pune), Amrita Vishwa Vidyapeetham, Manipal Institute.",
-          "Online Learning: Coursera and Udacity offer 'Nanodegrees' in Robotics and Self-Driving Cars.",
-          "Research Centers: CSIR labs, DRDO facilities, ISRO centers for space robotics.",
-          "International Collaborations: Many Indian institutions partner with MIT, Carnegie Mellon, and ETH Zurich for advanced robotics research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -7304,11 +7412,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for statistics in India.",
         color: BLUE,
         content: [
-          "Public Leaders: Indian Statistical Institute (ISI) Kolkata/Delhi/Bengaluru, IIT Bombay/Kanpur (M.Sc. Stats), Hindu College (DU), Loyola College (Chennai).",
-          "Private Excellence: NMIMS (Mumbai), Symbiosis (Pune), Christ University (Bengaluru), Manipal Institute.",
-          "Northeast: IIT Guwahati, Tezpur University.",
-          "Research Centers: CSIR labs, DST-funded research centers, IGIDR (Indira Gandhi Institute of Development Research).",
-          "International Collaborations: Many Indian institutions partner with top universities for advanced statistics research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -7534,11 +7640,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for advertising in India.",
         color: BLUE,
         content: [
-          "Government Leaders: Indian Institute of Mass Communication (IIMC) New Delhi, AJK MCRC Jamia Millia Islamia, Delhi University (Indraprastha College/DCAC), FTII Pune.",
-          "Private Excellence: MICA Ahmedabad (The 'Mecca of Marketing'), Xavier Institute of Communications (XIC) Mumbai, Symbiosis Institute of Media & Communication (SIMC) Pune, Asian College of Journalism (ACJ) Chennai, Manipal Institute of Communication.",
-          "Online Learning: Coursera, edX, and YouTube channels for digital marketing and copywriting basics.",
-          "Industry Certifications: Google Ads Academy, Meta Blueprint, HubSpot Academy.",
-          "International Collaborations: Many Indian institutions partner with top universities for advanced advertising research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -7765,11 +7869,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for digital marketing in India.",
         color: BLUE,
         content: [
-          "Specialized Digital Institutes: IIDE (Indian Institute of Digital Education) Mumbai (Known as 'Harvard of Digital Marketing'), Kraftshala (Famous for 'Marketing Launchpad'), Digital Vidya (One of the oldest players).",
-          "Formal Degree Colleges: MICA Ahmedabad (Premier for Strategic Marketing), Symbiosis Institute of Media & Communication (SIMC) Pune, NMIMS Mumbai (MBA in Digital Transformation), IIMs (Executive Certifications).",
-          "Online Platforms: Google Digital Garage (Free), HubSpot Academy (Free), Meta Blueprint (Free), Coursera, edX, Udemy.",
-          "Bootcamp Platforms: UpGrad, Simplilearn, IIDE, Kraftshala, Digital Vidya.",
-          "International Collaborations: Many Indian institutions partner with top universities for advanced digital marketing research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -7996,11 +8098,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for management in India.",
         color: BLUE,
         content: [
-          "Government Leaders: IIM Ahmedabad, Bangalore, Calcutta (ABC)—The 'Holy Trinity' of management. FMS (Faculty of Management Studies) Delhi—Extremely low fees, ultra-high placement. IIFT (Indian Institute of Foreign Trade)—Best for International Business. IIM Indore/Rohtak—Famous for 5-year IPM course (After Class 12).",
-          "Private Excellence: ISB (Indian School of Business) Hyderabad—1-Year Global MBA (requires work ex). XLRI Jamshedpur—Best for HR and Business Management. SPJIMR Mumbai—Known for values-based leadership. NMIMS Mumbai—Strong corporate connections. Symbiosis (SIBM) Pune.",
-          "Startup Incubators: T-Hub (Hyderabad), NASSCOM 10000 Startups, IIM Bangalore's NSRCEL, IIT Delhi's Incubation Cell.",
-          "Online Learning: Coursera, edX, LinkedIn Learning for management fundamentals.",
-          "International Collaborations: Many Indian institutions partner with top universities for advanced management research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -8227,11 +8327,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for marketing in India.",
         color: BLUE,
         content: [
-          "Government Leaders: IIM Ahmedabad, Bangalore, Calcutta—The holy trinity for Marketing. FMS (Faculty of Management Studies) Delhi—Known as the 'Marketing Campus of India.' IIM Indore—Known for strong marketing curriculum.",
-          "Private Excellence: XLRI Jamshedpur—Excellent for Business Management. SPJIMR Mumbai—Known for 'marketing with social impact' pedagogy. MICA Ahmedabad—Only institute dedicated entirely to Strategic Marketing and Communication. NMIMS Mumbai—Factory for producing top-class Brand Managers. Symbiosis SIBM/SCMHRD Pune.",
-          "Online Learning: Coursera, edX, LinkedIn Learning for marketing fundamentals.",
-          "Industry Certifications: Google Ads Academy, Meta Blueprint, HubSpot Academy.",
-          "International Collaborations: Many Indian institutions partner with top universities for advanced marketing research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -8462,11 +8560,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for sales in India.",
         color: BLUE,
         content: [
-          "Government Leaders: IIM Indore/Kozhikode—Known for strong Sales & Marketing placements. FMS Delhi—Best ROI for Sales/Marketing MBA. IIFT—Best for International Business Sales.",
-          "Private Excellence: SPJIMR Mumbai—Dedicated specialization in Sales Management. NMIMS Mumbai—Excellent for FMCG sales roles. Symbiosis SCMHRD/SIBM—Strong corporate connections.",
-          "Specialized Bootcamps: Kraftshala—Specialized online bootcamps training specifically for sales roles with placements. UpGrad—Sales-focused programs.",
-          "Online Learning: HubSpot Academy (Free), Salesforce Trailhead (Free), LinkedIn Learning, Coursera.",
-          "On-the-Job Training: Many companies have internal sales training programs. You can learn while earning."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -8694,11 +8790,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for visual merchandising in India.",
         color: BLUE,
         content: [
-          "Government Leaders: National Institute of Fashion Technology (NIFT) (18 Campuses)—B.Des in Fashion Communication is most respected degree. Footwear Design & Development Institute (FDDI)—Specialized Retail & Fashion Merchandise courses. National Institute of Design (NID) Ahmedabad/Gandhinagar—Great for Exhibition & Retail Design.",
-          "Private Excellence: Pearl Academy Delhi/Mumbai—Excellent industry exposure and placements with luxury brands. JD Institute of Fashion Technology—Good for shorter Diploma courses. Srishti Manipal Institute Bangalore—Focuses on creative and experimental space design. MIT Institute of Design (MIT-ID) Pune—Strong Retail Design program. Indian Institute of Art and Design (IIAD) Delhi—Collaborates with Kingston University, London.",
-          "Online Learning: Coursera, edX, LinkedIn Learning for design fundamentals.",
-          "Industry Certifications: Adobe Creative Cloud, SketchUp, AutoCAD.",
-          "International Collaborations: Many Indian institutions partner with top universities for advanced design research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -8927,10 +9021,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for aeronautical engineering in India.",
         color: BLUE,
         content: [
-          "Government Leaders: Indian Institute of Space Science and Technology (IIST) Thiruvananthapuram—Only institute in Asia dedicated to space. Direct ISRO recruitment potential. IIT Bombay & IIT Madras—Premier institutes for Aerospace Engineering. IIT Kanpur—Known for own airfield and flight testing laboratory. Madras Institute of Technology (MIT) Chennai—Legendary institute (Dr. Kalam's alma mater).",
-          "Private Excellence: Manipal Institute of Technology (MIT) Manipal—Excellent student projects and labs. Amity University Noida—Strong aerospace department. Hindustan Institute of Technology and Science (HITS) Chennai—Known for aviation focus. IIAEIT Pune—Specialized aeronautical institute.",
-          "Research Centers: ISRO, DRDO, HAL, NAL offer internships and research opportunities.",
-          "International Collaborations: Many Indian institutions partner with top universities for advanced aerospace research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -9157,11 +9250,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for air traffic control in India.",
         color: BLUE,
         content: [
-          "For Qualifying Degree (B.Sc/B.Tech): IITs/NITs (B.Tech in any branch), Delhi University/BHU (B.Sc Physics/Maths), Anna University Chennai, Mumbai University.",
-          "For Professional Training (After Selection): Civil Aviation Training College (CATC) Prayagraj—Alma mater of every Indian ATC. NIATAM (National Institute of Aviation Training and Management) Gondia—Satellite training center.",
-          "Online Learning: Coursera, edX for physics and mathematics fundamentals.",
-          "Coaching Centers: Various institutes offer AAI JE exam coaching with mock tests and study materials.",
-          "International Collaborations: CATC partners with international ATC training centers for advanced techniques."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -9391,10 +9482,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for automotive design in India.",
         color: BLUE,
         content: [
-          "Government (Public) - The Holy Grails: National Institute of Design (NID) Ahmedabad & Gandhinagar, IDC School of Design IIT Bombay (Mobility & Vehicle Design), IIT Delhi & IIT Guwahati (Strong design departments).",
-          "Private - Excellent Infrastructure: MIT Institute of Design (MIT-ID) Pune (Located in auto-hub, excellent industry connect), Strate School of Design Bangalore (French design pedagogy), UPES Dehradun (Transportation Design), DYPDC School of Design Pune (Collaboration with Dilip Chhabria), UID Ahmedabad.",
-          "Industry Partnerships: Many institutes partner with OEMs for student projects and internships.",
-          "Online & Blended: Coursera, Udemy offer automotive design courses for skill enhancement."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -9621,10 +9711,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for aviation management in India.",
         color: BLUE,
         content: [
-          "Government/Public: Jamia Millia Islamia (New Delhi) - B.Sc. in Aeronautics, University of Mumbai (GICED) - Garware Institute, Rajiv Gandhi National Aviation University (RGNAU) Amethi - India's first central aviation university.",
-          "Private Institutions: University of Petroleum and Energy Studies (UPES) Dehradun - Highly reputed for BBA/MBA in Aviation Management, Hindustan Institute of Technology and Science (HITS) Chennai - Strong legacy in aviation, Amity University (Noida/Gurgaon), Kristu Jayanti College Bangalore, AIMS Institutes Bangalore.",
-          "Online/Distance: IATA Training - Offers global certifications online (Montreal based), UPES CCE - Distance MBA in Aviation.",
-          "Industry Partnerships: Many airlines and airports offer internship programs and apprenticeships."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -9849,10 +9938,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for pilot training in India.",
         color: BLUE,
         content: [
-          "Government (Public): Indira Gandhi Rashtriya Uran Akademi (IGRUA) Raebareli - The 'IIT' of aviation. Entrance exam required. National Flying Training Institute (NFTI) Gondia - Joint venture with CAE.",
-          "Private Flying Clubs (India): Madhya Pradesh Flying Club (MPFC) Indore/Bhopal, Chimes Aviation Academy (CAA) Dhana MP, Bombay Flying Club Mumbai, GATI (Government Aviation Training Institute) Bhubaneswar.",
-          "Cadet Program Partners (International): Many Indian students go to flight schools in USA, New Zealand, or South Africa (faster completion due to better weather) and convert their license to Indian DGCA license later.",
-          "Online Resources: DGCA website for regulations, Flight simulation software for practice."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -10079,9 +10167,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for merchant navy training in India.",
         color: BLUE,
         content: [
-          "Government (Public): Indian Maritime University (IMU) - Campuses in Chennai, Kolkata (MERI), Mumbai (LBS), Visakhapatnam. T.S. Chanakya Navi Mumbai - Legendary institute for Deck Officers. Marine Engineering and Research Institute (MERI) Kolkata.",
-          "Private (With Best Sponsorship Records): Anglo-Eastern Maritime Academy (AEMA) Karjat - Top Recommendation. They select you first, give you a job letter, and then train you. Tolani Maritime Institute (TMI) Pune - Owned by a shipping company. Great Eastern Institute of Maritime Studies (GEIMS) Lonavala. Samundra Institute of Maritime Studies (SIMS) Lonavala - World-class infrastructure.",
-          "Always check if the college has a 'Ship-in-Campus' facility for practical training."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -10307,10 +10395,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for supply chain management in India.",
         color: BLUE,
         content: [
-          "Government (Public): IIM Mumbai (formerly NITIE) - The Mecca of Supply Chain in India. If you want to be a CEO in this field, aim for this. IIM Bangalore/Calcutta - Excellent Operations specialization. Indian Institute of Foreign Trade (IIFT) - Best for Export-Import SCM.",
-          "Private: Symbiosis Institute of Operations Management (SIOM) Nashik - Dedicated exclusively to Operations/SCM. SP Jain Institute of Management (SPJIMR) Mumbai - Top-tier Operations program. Amity University/UPES - Good BBA/MBA programs in Logistics. CII Institute of Logistics Chennai.",
-          "Online/Distance: Many universities offer distance MBA in SCM for working professionals.",
-          "Industry Partnerships: Many companies offer in-house training programs."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -10535,11 +10622,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for AI in India.",
         color: BLUE,
         content: [
-          "North: IIT Delhi (School of Artificial Intelligence - ScAI), IIIT Delhi (Specialized AI research center).",
-          "South: IIT Hyderabad (The first in India to launch a full B.Tech in AI), IISc Bengaluru (The holy grail for AI Research - M.Tech/PhD), Vellore Institute of Technology (VIT) (Strong placements).",
-          "West: IIT Bombay (Top-tier research), Jio Institute Navi Mumbai (New-age AI programs).",
-          "East: IIT Kharagpur (Center of Excellence in AI), ISI Kolkata (Best for the mathematical foundations of AI).",
-          "Online: Coursera, edX, DeepLearning.AI (Andrew Ng's courses)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -10763,9 +10848,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for blockchain in India.",
         color: BLUE,
         content: [
-          "Government: IIT Kanpur (known for blockchain research and cybersecurity), IIT Bombay (has active student Web3 clubs), IIIT Hyderabad (excellent research in distributed ledger technology), Kerala Blockchain Academy (KBA) (govt initiative offering specific diplomas).",
-          "Private: BITS Pilani (offers a PGP in Full Stack Engineering - Blockchain track), UPES Dehradun (B.Tech CSE Blockchain & IoT), Amity University (Blockchain specializations).",
-          "Online/Alternative: UpGrad/Simplilearn (professional certifications), 100xDevs/Superteam (community-led cohorts - often free and very high quality)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -10987,11 +11072,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions for data science in India.",
         color: BLUE,
         content: [
-          "North: IIT Delhi/IIT Kanpur (Top-tier research in AI/Data), IIIT Delhi (Specialized in CS and AI).",
-          "East: Indian Statistical Institute (ISI) Kolkata (The 'Mecca' of Statistics in India), IIT Kharagpur.",
-          "West: IIT Bombay (Innovative Data Science programs), NMIMS Mumbai (Strong Business Analytics programs).",
-          "South: Chennai Mathematical Institute (CMI) (World-class for Math/CS), IIT Madras (Offers a unique Online B.Sc. in Data Science - open to all), IISc Bengaluru (Best for research - M.Tech/PhD).",
-          "Online: IIT Madras Online B.Sc. in Data Science (accessible to all)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -11212,10 +11295,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North: IIT Delhi / IIT Roorkee (Premier institutes), BITS Pilani (Pilani Campus - excellent industry connections), Thapar Institute, Patiala.",
-          "South: IIT Madras (Known for the 'Shakti Processor' - India's first indigenous microprocessor), IISc Bengaluru (Best for M.Tech/Research in Nano-electronics), Manipal Institute of Technology (MIT - Satya Nadella's alma mater), VIT Vellore.",
-          "West: IIT Bombay (Top-tier VLSI research), COEP Tech University (Pune - strong legacy).",
-          "East: IIT Kharagpur (Strong Electronics & Electrical dept), Jadavpur University, Kolkata (High ROI - low fees, good placement)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -11434,11 +11516,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "The 'Holy Grail': Indian Institute of Remote Sensing (IIRS), Dehradun - ISRO's own training center. Getting in here is prestigious.",
-          "North: IIT Kanpur / IIT Roorkee - top Geomatics departments. Jamia Millia Islamia, Delhi - M.Sc. in Disaster Management & Climate Sustainability Studies (GIS focused).",
-          "South: Anna University, Chennai - Institute of Remote Sensing. JNTU Hyderabad - hub for GIS studies.",
-          "West: Symbiosis Institute of Geoinformatics (SIG), Pune - excellent private institute with good placements. CEPT University, Ahmedabad - best for Urban Planning GIS.",
-          "East: IIT Kharagpur - strong research. BIT Mesra, Ranchi."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -11657,9 +11737,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: National Forensic Sciences University (NFSU), Gandhinagar - the premier institute for cyber forensics. IIIT Delhi / IIIT Allahabad - excellent M.Tech programs in Security. IIT Kanpur - C3i Hub for cybersecurity.",
-          "Private: Amrita Vishwa Vidyapeetham - top-ranked for cybersecurity research (CTF team bi0s). SRM University / VIT - good B.Tech specializations. Manipal Institute of Technology - strong cybersecurity programs.",
-          "Online: Coursera, Udemy, HackTheBox, TryHackMe - excellent for self-paced learning and practical skills."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -11877,9 +11957,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "For MBA/PGDM (The Best Route for BAs): IIM Bangalore / Calcutta - top-tier Business Analytics programs. Symbiosis (SCMHRD/SICSR), Pune - famous for IT/Systems MBA. Great Lakes Institute, Chennai - known for Analytics/Tech MBA. NMIMS, Mumbai - strong industry connections. IIIT Bangalore/Hyderabad - M.Tech programs with a strong product focus. Delhi School of Economics - affordable and high quality.",
-          "For B.Tech: IIT Delhi, IIT Bombay, BITS Pilani - strong CS/IT programs with business focus.",
-          "Online: Coursera, edX - MBA and BA certification programs."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -12099,10 +12179,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North: IIT Delhi - Centre for Sensors, Instrumentation and Cyber-Physical Systems Engineering (SeNSE). BITS Pilani - excellent innovative culture.",
-          "South: IIT Madras - has a dedicated 'Pravartak' center for sensors. VIT Vellore - B.Tech with IoT specialization. Manipal Institute of Technology - strong in mechatronics/electronics.",
-          "West: COEP Tech University (Pune) - deep ties with the automotive industry. Symbiosis Institute of Technology - IoT specializations.",
-          "East: IIT Kharagpur - strong Embedded Systems research."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -12321,10 +12400,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North: IIIT Delhi - excellent for specialized CS branches. DTU / NSUT (Delhi) - strong coding culture.",
-          "South: IIIT Hyderabad - the best coding college in India (even better than some IITs for CS). VIT Vellore / SRM Chennai - good exposure to companies. PES University, Bengaluru.",
-          "West: VJTI Mumbai / COEP Pune - top government colleges. Symbiosis Institute of Computer Studies (Pune).",
-          "Online: Scaler / UpGrad / Masai - excellent for learning specific app development skills if your college curriculum is outdated."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -12543,9 +12621,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "For MBA/PGDM (Management Route): IIMs (Indore/Kozhikode/Lucknow) - offer great Operations/IT electives. NITIE (IIM Mumbai) - best for Operations & Project Management. Symbiosis (SCMHRD/SICSR), Pune - IT-focused MBA. SP Jain (SPJIMR), Mumbai - known for Information Management.",
-          "For B.Tech: IIT Delhi, IIT Bombay, BITS Pilani - strong CS/IT programs with management focus.",
-          "Online/Executive Education: UpGrad / Great Learning - offer PGP in Management for working professionals."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -12767,9 +12845,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government (Public): IITs: Bombay, Delhi, Madras, Kanpur, Kharagpur (The 'Holy Grails'). NITs: Trichy, Warangal, Surathkal (Excellent placements). IIITs: Hyderabad (Top tier for coding), Bangalore, Delhi. Jadavpur University, Kolkata: Extremely low fees, high ROI.",
-          "Private: BITS Pilani: (Pilani, Goa, Hyderabad campuses). Comparable to IITs. VIT: Vellore. Thapar Institute: Patiala. Manipal Institute of Technology: Manipal. SRM Institute: Chennai.",
-          "Online: Coursera, edX, Udacity - for specialized skills and certifications."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -12987,9 +13065,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Formal Degree (B.Tech/MCA): IITs/NITs/IIITs - best for getting directly into top product firms as SDETs. VIT/Manipal/SRM - strong campus placements for QA roles.",
-          "Specialized Testing Training (The 'Finishing Schools'): C-DAC (Centre for Development of Advanced Computing) - Govt of India. Offers PG Diploma in Advanced Computing/Mobile Computing (highly respected). QSpiders / JSpiders - chains across India (Bangalore, Pune, Delhi) famous for placement-linked testing training. Seed Infotech (Pune) - a veteran institute for testing. MindScripts - specialized in QA training.",
-          "Online: Coursera, Udacity - for specialized QA and automation courses."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -13208,9 +13286,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government (Public): National Institute of Design (NID) - (Ahmedabad/Bangalore/Gandhinagar). Offers 'New Media Design' or 'Digital Game Design.' Top tier. IDC School of Design, IIT Bombay - offers Interaction Design/Animation. Excellent for the technical + creative mix.",
-          "Private & Specialized: Backstage Pass Institute of Gaming (Hyderabad/Bangalore) - one of the few colleges dedicated only to gaming. Srishti Manipal Institute of Art, Design and Technology (Bangalore) - known for artistic and experimental game design. ICAT Design & Media College - (Chennai/Bangalore/Hyderabad). UPES (Dehradun) - School of Design offers B.Des in Game Design. Asian Academy of Film & Television (AAFT), Noida - offers B.Sc in Game Design.",
-          "Online: Coursera, Udacity - for specialized game design courses."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -13430,12 +13508,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North: Delhi University (500+ students, largest dept), Panjab University (Chandigarh), Lucknow University.",
-          "East: Calcutta University (oldest in Asia, est. 1920), Visva-Bharati (Shantiniketan), NEHU Shillong.",
-          "West: Deccan College Pune (premier research institute), MSU Baroda.",
-          "Central: Dr. Harisingh Gour University Sagar, PRSU Raipur.",
-          "Distance Education: IGNOU offers BA in Anthropology.",
-          "Specializations: Deccan College is known for Archaeology. Delhi University for Cultural Anthropology. Calcutta University for Physical Anthropology."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -13668,13 +13743,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North India: Banaras Hindu University (Varanasi), University of Delhi, Institute of Archaeology (ASI, New Delhi), Kurukshetra University, Panjab University (Chandigarh), Lucknow University, Allahabad University.",
-          "West India: Maharaja Sayajirao University of Baroda (Gujarat), Deccan College Post-Graduate and Research Institute (Pune), University of Mumbai.",
-          "South India: University of Madras (Chennai), University of Mysore (Karnataka), Kannur University (Kerala), Andhra University (Visakhapatnam), Bangalore University.",
-          "East India: University of Calcutta, Visva-Bharati University (Shantiniketan, West Bengal).",
-          "Central India: Dr. Harisingh Gour University (Sagar, MP), Vikram University (Ujjain, MP), Indira Gandhi National Tribal University (Amarkantak, MP).",
-          "Northeast India: Gauhati University (Assam), North Eastern Hill University (Meghalaya).",
-          "Private: St. Xavier's College (Mumbai), K J Somaiya Institute of Dharma Studies (Mumbai), Jain University (Bangalore)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -13917,10 +13988,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top fashion management institutes across India.",
         color: BLUE,
         content: [
-          "Government: NIFT (18 campuses: Delhi, Mumbai, Bangalore, Jodhpur, Kolkata, Chennai, Hyderabad, Gandhinagar), FDDI (Noida, Chennai).",
-          "Private: Pearl Academy (Delhi, Mumbai, Jaipur), Amity School of Fashion Technology, Symbiosis Institute of Design (Pune), ISDI (Delhi).",
-          "Geographic Diversity: North (NIFT Delhi, Pearl Delhi), South (NIFT Bangalore, FDDI Chennai), West (NIFT Mumbai, Pearl Mumbai), East (NIFT Kolkata).",
-          "Note: Choose institutes with strong faculty, industry connections, and good placement record."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -14149,12 +14219,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North India: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, Panjab University (Chandigarh), Lucknow University.",
-          "West India: University of Mumbai, University of Pune, Maharaja Sayajirao University (Baroda), Gujarat University.",
-          "South India: University of Madras, University of Mysore, Bangalore University, Andhra University.",
-          "East India: University of Calcutta, Visva-Bharati University, Assam University.",
-          "Central India: Banaras Hindu University, Dr. Harisingh Gour University (Sagar).",
-          "Private: Ashoka University (Haryana), FLAME University (Pune), Symbiosis (Pune)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -14388,12 +14455,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North India: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, Panjab University (Chandigarh), Lucknow University.",
-          "West India: University of Mumbai, University of Pune, Maharaja Sayajirao University (Baroda), Gujarat University.",
-          "South India: University of Madras, University of Mysore, Bangalore University, Andhra University.",
-          "East India: University of Calcutta, Visva-Bharati University, Assam University.",
-          "Central India: Banaras Hindu University, Dr. Harisingh Gour University (Sagar).",
-          "Private: Ashoka University (Haryana), FLAME University (Pune), Symbiosis (Pune)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -14626,12 +14690,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North India: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, Panjab University (Chandigarh), Lucknow University, Aligarh Muslim University.",
-          "West India: University of Mumbai, University of Pune, Maharaja Sayajirao University (Baroda), Gujarat University.",
-          "South India: University of Madras, University of Mysore, Bangalore University, Andhra University.",
-          "East India: University of Calcutta, Visva-Bharati University, Assam University.",
-          "Central India: Banaras Hindu University, Dr. Harisingh Gour University (Sagar).",
-          "Private: Ashoka University (Haryana), FLAME University (Pune), Symbiosis (Pune)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
@@ -14868,12 +14929,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North India: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, Panjab University (Chandigarh), Lucknow University.",
-          "West India: University of Mumbai, University of Pune, Maharaja Sayajirao University (Baroda), Gujarat University.",
-          "South India: University of Madras, University of Mysore, Bangalore University, Andhra University.",
-          "East India: University of Calcutta, Visva-Bharati University, Assam University.",
-          "Central India: Banaras Hindu University, Dr. Harisingh Gour University (Sagar).",
-          "Private: Ashoka University (Haryana), FLAME University (Pune), Symbiosis (Pune)."
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
         ]
       },
       {
