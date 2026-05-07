@@ -1,7 +1,7 @@
 import { CareerPageData } from './careerPageData';
 
-const RED = "#C20000";
-const RED2 = "#DA1313";
+const COLOR1 = "#059669";
+const COLOR2 = "#10B981";
 
 export const science_mathematics_engineeringUpdateData: Record<string, CareerPageData> = {
   astronomy: {
@@ -30,7 +30,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Astronomy.",
-        color: RED,
+        color: "#059669",
         content: [
           "Astronomy is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -40,18 +40,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -59,22 +101,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -90,7 +125,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -102,11 +137,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -114,7 +149,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",
@@ -149,7 +184,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Biomedical Engineering.",
-        color: RED,
+        color: "#059669",
         content: [
           "Biomedical Engineering is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -159,18 +194,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -178,22 +255,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -209,7 +279,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -221,11 +291,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -233,7 +303,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",
@@ -268,7 +338,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Chemical Engineering.",
-        color: RED,
+        color: "#059669",
         content: [
           "Chemical Engineering is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -278,18 +348,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -297,22 +409,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -328,7 +433,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -340,11 +445,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -352,7 +457,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",
@@ -387,7 +492,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Engineering & Technology.",
-        color: RED,
+        color: "#059669",
         content: [
           "Engineering & Technology is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -397,18 +502,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -416,22 +563,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -447,7 +587,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -459,11 +599,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -471,7 +611,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",
@@ -506,7 +646,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Mathematician.",
-        color: RED,
+        color: "#059669",
         content: [
           "Mathematician is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -516,18 +656,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -535,22 +717,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -566,7 +741,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -578,11 +753,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -590,7 +765,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",
@@ -625,7 +800,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Mechatronics.",
-        color: RED,
+        color: "#059669",
         content: [
           "Mechatronics is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -635,18 +810,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -654,22 +871,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -685,7 +895,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -697,11 +907,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -709,7 +919,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",
@@ -744,7 +954,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Nanotechnology.",
-        color: RED,
+        color: "#059669",
         content: [
           "Nanotechnology is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -754,18 +964,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -773,22 +1025,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -804,7 +1049,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -816,11 +1061,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -828,7 +1073,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",
@@ -863,7 +1108,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Robotics.",
-        color: RED,
+        color: "#059669",
         content: [
           "Robotics is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -873,18 +1118,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -892,22 +1179,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -923,7 +1203,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -935,11 +1215,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -947,7 +1227,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",
@@ -982,7 +1262,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "What is This Career All About?",
         icon: "Target",
         description: "Understanding Statistician.",
-        color: RED,
+        color: "#059669",
         content: [
           "Statistician is a dynamic and rewarding career path.",
           "It offers opportunities for growth and development.",
@@ -992,18 +1272,60 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         ]
       },
       {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Real workflow of a professional.",
+        color: "#10B981",
+        content: [
+          "8:30 AM - Morning briefing and planning",
+          "10:30 AM - Core work activities and analysis",
+          "1:30 PM - Problem-solving and collaboration",
+          "4:00 PM - Meetings and strategic planning",
+          "6:00 PM - Review and preparation for next day"
+        ]
+      },
+      {
+        id: "skills",
+        title: "Is This You? Personality Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#059669",
+        content: [
+          "Analytical mindset",
+          "Problem-solving ability",
+          "Communication skills",
+          "Attention to detail",
+          "Continuous learning attitude"
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete professional process.",
+        color: "#10B981",
+        content: [
+          "Planning and analysis",
+          "Implementation and execution",
+          "Monitoring and evaluation",
+          "Reporting and documentation",
+          "Continuous improvement"
+        ]
+      },
+      {
         id: "education",
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: RED,
+        color: "#059669",
         content: [
           "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th",
+          "Step 1: Complete Class 12th with relevant subjects",
           "Step 2: Pursue relevant bachelor's degree",
           "Step 3: Gain practical experience through internships",
-          "Step 4: Pursue advanced certifications",
-          "Step 5: Build professional network",
+          "Step 4: Pursue advanced certifications or specializations",
+          "Step 5: Build professional network and skills",
           "Step 6: Advance to senior positions",
           "Pathway B: Skill-Based Entry",
           "Step 1: Complete Class 12th",
@@ -1011,22 +1333,15 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
           "Step 3: Gain hands-on experience",
           "Step 4: Get industry certifications",
           "Step 5: Build portfolio",
-          "Step 6: Transition to professional roles",
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th",
-          "Step 2: Pursue master's degree",
-          "Step 3: Specialize in specific domain",
-          "Step 4: Conduct research or projects",
-          "Step 5: Publish work or build portfolio",
-          "Step 6: Join as specialist or researcher"
+          "Step 6: Transition to professional roles"
         ]
       },
       {
         id: "salary",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
-        color: RED2,
+        description: "Salaries, growth, and opportunities.",
+        color: "#10B981",
         content: [
           "Salary Snapshot (Annual INR)",
           "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
@@ -1042,7 +1357,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
           "Top Industries: Various sectors offering opportunities",
@@ -1054,11 +1369,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: RED,
+        color: "#059669",
         content: [
-          "Government:\nTop government institutions offering programs",
-          "Private:\nLeading private institutions",
-          "Online:\nOnline learning platforms and courses"
+          "Government:\\nTop government institutions offering programs",
+          "Private:\\nLeading private institutions",
+          "Online:\\nOnline learning platforms and courses"
         ]
       },
       {
@@ -1066,7 +1381,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Various career roles.",
-        color: RED2,
+        color: "#10B981",
         content: [
           "Conventional: Traditional roles in the industry",
           "New-Age & AI Driven: Emerging roles with technology",

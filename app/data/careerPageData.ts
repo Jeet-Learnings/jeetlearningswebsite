@@ -2820,103 +2820,262 @@ export const careerPageData: Record<string, CareerPageData> = {
   // ─── AGRICULTURAL ENGINEERING ─────────────────────────────────────
   agricultural_engineer: {
     slug: "agricultural_engineer",
-    badge: "⚙️ Career Exploration for Class 10+",
+    badge: "Engineering the Future of Food for Class 10+",
     heading: "Agricultural Engineering",
-    subheading: "Applying engineering principles to optimize agricultural production and processing systems.",
+    subheading: "Apply engineering principles to solve the Food-Energy-Water puzzle. Design drones, automated systems, and sustainable technologies for modern farming.",
     whyCards: [
-      { icon: "🛠️", title: "Role Defined", description: "Optimize production and processing systems", borderColor: "#F59E0B" },
-      { icon: "🤖", title: "Tech Integration", description: "Drones, automated irrigation, and robots", borderColor: "#1E40AF" },
-      { icon: "💧", title: "National Priority", description: "Solve the 'Food-Energy-Water' puzzle", borderColor: "#6366F1" },
-      { icon: "🌿", title: "Sustainable Future", description: "High-tech, profitable 21st-century industry", borderColor: "#10B981" }
+      { icon: "Cpu", title: "Precision Farming", description: "Use drones for soil mapping and precision robotic harvesters that don't bruise delicate fruits.", borderColor: "#10B981" },
+      { icon: "Tractor", title: "Resource Optimization", description: "Solve the Food-Energy-Water puzzle for 1.4 billion people with smart systems.", borderColor: "#059669" },
+      { icon: "Droplets", title: "Smart Systems", description: "Design automated irrigation and high-tech processing systems that save water and energy.", borderColor: "#3B82F6" },
+      { icon: "Leaf", title: "Sustainable Innovation", description: "Transform traditional farming into a high-tech, profitable, and sustainable industry.", borderColor: "#F59E0B" }
     ],
     quickFacts: [
-      { label: "4-Year B.Tech", detail: "Foundational engineering degree", color: "bg-amber-100 text-amber-700" },
-      { label: "Tech Mastery", detail: "Drones, Soil mapping, Robotics", color: "bg-blue-100 text-blue-700" },
-      { label: "Massive Impact", detail: "Feeding 1.4 billion people sustainably", color: "bg-indigo-100 text-indigo-700" }
+      { label: "Duration", detail: "4 Years (B.Tech) or 3 Years (Diploma)", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "₹3.5L–₹60L+", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "5.2% CAGR, $13.79B Market by 2030", color: "bg-purple-100 text-purple-700" }
     ],
     statCards: [
-      { value: "1.4 Billion", label: "People to Feed", gradient: "from-amber-500 to-amber-600" },
-      { value: "4 Years", label: "Duration to Qualify", gradient: "from-blue-600 to-indigo-600" }
+      { value: "1.4B", label: "People to Feed", gradient: "from-green-500 to-green-600" },
+      { value: "5.2%", label: "Industry CAGR", gradient: "from-blue-500 to-blue-600" }
     ],
     guideSections: [
       {
-        id: "1",
-        title: "What is Agricultural Engineering?",
-        icon: "⚙️",
-        description: "Optimizing farming through engineering innovation",
-        color: RED,
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Engineering solutions for modern agriculture.",
+        color: "#C20000",
         content: [
-          "It applies engineering principles to optimize agricultural production and processing systems",
-          "Focuses on using drones for soil mapping, automated irrigation, and precision robotic harvesters",
-          "In India, these professionals solve the 'Food-Energy-Water' puzzle to feed 1.4 billion people",
-          "They transform traditional farming into a high-tech, profitable, and resource-efficient 21st-century industry"
+          "The Brain and Hands: If a Farmer is the 'Heart' of Indian agriculture, an Agricultural Engineer is the 'Brain' and 'Hands' that make the system smarter and more powerful.",
+          "Agricultural Engineering is the branch of engineering that applies the principles of science and technology to agricultural production and processing.",
+          "Beyond Tractors: It's not just about tractors; it's about using drones to map soil health, designing automated irrigation systems that save every drop of water, and creating robotic harvesters that can pick delicate fruits without bruising them.",
+          "Solving the Puzzle: With a population of over 1.4 billion, we need to grow more food using less land and less water. Agricultural Engineers solve the 'Food-Energy-Water' puzzle.",
+          "Modern Industry: They ensure that farming is not just a tradition, but a high-tech, profitable, and sustainable industry for the 21st century.",
+          "Global Priority: In today's India, this career is a global priority as we become a leader in agricultural innovation."
         ]
       },
       {
-        id: "2",
-        title: "Who Should Consider This Career?",
-        icon: "🧠",
-        description: "Traits of an agricultural engineer",
-        color: RED2,
+        id: "dayinlife",
+        title: "A Day in the Life: Arjun, Agricultural Engineer at Agri-Tech Startup",
+        icon: "Clock",
+        description: "Real workflow of an agricultural engineer.",
+        color: "#DA1313",
         content: [
-          "Natural interest in mechanics, engines, and building complex systems",
-          "Strong foundation in Math and Physics for data-driven problem-solving",
-          "Comfortable in both high-tech labs and rugged, dusty farm environments",
-          "Deep commitment to climate change and sustainable innovation"
+          "8:30 AM - The Field Briefing: Arjun starts his day on a sprawling farm in Pune. He isn't holding a shovel; he's holding a tablet. He's checking the telemetry data from a fleet of autonomous tractors currently tilling the soil. One tractor has flagged a sensor error, and Arjun quickly recalibrates the GPS settings from his screen.",
+          "10:30 AM - Drone Scouting: He launches a thermal-imaging drone to fly over the 50-acre wheat field. As the drone sends back live data, Arjun identifies a 'stressed' patch of crops that isn't getting enough nitrogen. He sends a command to the automated sprinkler system to deliver a precise dose of liquid fertilizer to only that specific patch. This is Precision Agriculture in action.",
+          "1:30 PM - Designing the Future: After lunch, Arjun heads to the R&D lab. He's working on a 3D model of a new 'Solar-Powered Cold Storage' unit. In India, 40% of fresh produce is wasted due to heat. Arjun's design uses affordable, locally sourced materials and solar panels to keep vegetables fresh in remote villages without electricity.",
+          "4:00 PM - The Client Meeting: He meets with a group of local farmers to explain how a new moisture-sensing probe works. He translates complex engineering jargon into simple language, showing them how they can save 30% on their water bills.",
+          "6:30 PM - Data Analytics: Before leaving, Arjun reviews the day's data logs. He prepares a report for his manager on how the new robotic seeder performed compared to manual labor. As he drives home, he sees the green fields and feels proud—he didn't just 'work' today; he helped secure the food on a thousand plates."
         ]
       },
       {
-        id: "3",
-        title: "Key Responsibilities & Work Process",
-        icon: "📋",
-        description: "From problem analysis to field execution",
-        color: RED3,
+        id: "who",
+        title: "Is This You? Personality Traits & Skills Required",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: "#C20000",
         content: [
-          "Analysis & Design: Analyzing farm issues like water loss and designing solutions using AutoCAD or SolidWorks",
-          "Prototyping: Building lab models and conducting rigorous field tests under real-world weather",
-          "Execution: Overseeing quality control and providing technical training and maintenance support"
+          "Mechanical Interest: You like building things, fixing broken toys, or understanding how engines run.",
+          "Analytical Mind: You enjoy Math and Physics and like using data to solve puzzles.",
+          "Environmental Sensitivity: You care about nature, water conservation, and climate change.",
+          "Resilience: You are comfortable spending time in the sun and dust of a farm as much as a clean, air-conditioned lab.",
+          "Problem-Solving Skills: When a machine breaks or a crop fails, you don't panic—you look for the 'Why' and the 'How to fix.'"
         ]
       },
       {
-        id: "4",
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete agricultural engineering cycle.",
+        color: "#DA1313",
+        content: [
+          "Requirement Analysis: Talking to farmers or companies to understand a problem (e.g., 'We are losing too much water during irrigation').",
+          "Design & Modeling: Using software like AutoCAD or SolidWorks to design a solution (e.g., a smart drip-irrigation valve).",
+          "Prototyping: Building a small version of the machine or system in a lab.",
+          "Field Testing: Taking the prototype to a real farm to see if it works under heat, rain, and mud.",
+          "Quality Control: Ensuring the final product follows safety codes and is durable.",
+          "Maintenance & Support: Teaching others how to use the technology and fixing it if it malfunctions."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: "#C20000",
+        content: [
+          "Pathway A: B.Tech Route",
+          "Step 1: Complete Class 12th with PCM (Physics, Chemistry, Maths)",
+          "Step 2: Clear JEE/State CET and pursue B.Tech Agricultural Engineering (IITs, SAUs, GBPUAT)",
+          "Step 3: Do internships at ICAR, farm machinery companies, or agri-tech startups",
+          "Step 4: Learn tools — AutoCAD, MATLAB, GIS, drone technology",
+          "Step 5: Pursue M.Tech or MBA in Agri-Business (optional)",
+          "Step 6: Join as Agricultural Engineer, Farm Machinery Designer, or Irrigation Specialist",
+          "Pathway B: Diploma + Field Entry Route",
+          "Step 1: Complete Class 10th/12th with Science",
+          "Step 2: Pursue Diploma in Agricultural Engineering (3 years, state polytechnics)",
+          "Step 3: Gain field experience — FPOs, KVKs, farm equipment dealers",
+          "Step 4: Learn basics — soil testing, irrigation systems, tractor mechanics",
+          "Step 5: Upgrade through lateral entry to B.Tech (optional)",
+          "Step 6: Work as Junior Engineer, Field Technician, or Agri-Equipment Supervisor",
+          "Pathway C: Research + Government Route",
+          "Step 1: Complete Class 12th with PCM",
+          "Step 2: Pursue B.Tech Agricultural Engineering",
+          "Step 3: Clear GATE and pursue M.Tech (IITs, IARI, CIAE Bhopal)",
+          "Step 4: Publish research in farm mechanization, renewable energy, or water management",
+          "Step 5: Clear ARS/NET, UPSC Engineering Services, or State PSC exams",
+          "Step 6: Join as Scientist at ICAR, Professor, or Government Engineer in agriculture department"
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, growth, and opportunities.",
+        color: "#DA1313",
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "Entry-Level (Fresher): ₹3.5 Lakhs – ₹7 Lakhs",
+          "Mid-Level (5–8 years): ₹10 Lakhs – ₹18 Lakhs",
+          "Senior/Leadership: ₹20 Lakhs – ₹45 Lakhs",
+          "CXO/Startup Founder: ₹60 Lakhs+",
+          "Salary Comparison: Metro Cities (Bengaluru, Pune) pay higher starting salaries (₹6L–₹8L) in Agri-Tech R&D centers. Tier-2/3 Cities offer starting pay (₹3.5L–₹5L) but often include housing/field allowances in manufacturing hubs.",
+          "Market Growth: The industry is growing at a CAGR of over 5.2%. The fastest-growing segments are Precision Farming and Automated Machinery.",
+          "Note: The Indian Agricultural Equipment market is expected to reach $13.79 Billion by 2030."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: "#DA1313",
+        content: [
+          "Top Industries: Farm Machinery (Tractors/Harvesters), Irrigation Systems, Food Processing, Agri-Tech Startups, Renewable Energy (Biofuels)",
+          "Top Companies: Mahindra & Mahindra, John Deere, TAFE, Jain Irrigation, ITC, Nestlé, Amul",
+          "Government Sector: ICAR (Scientist), FCI (Technical Officer), State Water Resources Departments, NABARD",
+          "Remote Work: High for Design Engineers, Data Analysts, and Remote Sensing specialists",
+          "International: Huge demand in the USA, Germany, and Israel for Indian engineers with expertise in tropical agriculture",
+          "Top Cities: Hyderabad, Pune, Bengaluru, Delhi-NCR, Ludhiana, Coimbatore"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: "#C20000",
+        content: [
+          "Public/Government: IIT Kharagpur (West), Punjab Agricultural University (PAU), Ludhiana (North), Tamil Nadu Agricultural University (TNAU), Coimbatore (South), GB Pant University of Agriculture & Technology, Pantnagar (North)",
+          "Private: Vellore Institute of Technology (VIT), Lovely Professional University (LPU), SRM University",
+          "Distance/Online: Not recommended for B.Tech as this is a highly hands-on lab-based field"
+        ]
+      },
+      {
+        id: "cost",
         title: "What Will It Cost?",
-        icon: "💰",
-        description: "B.Tech investment breakdown",
-        color: RED4,
+        icon: "CircleDollarSign",
+        description: "Course fees and additional expenses.",
+        color: "#C20000",
         content: [
-          "Govt Fees: ₹50,000 – ₹2.5 Lakh for 4 years",
-          "Private Fees: ₹4 Lakh – ₹12 Lakh for 4 years",
-          "Living Costs: ₹8,000 – ₹15,000 monthly",
-          "Extras: ~₹60,000 for laptop and exam fees"
+          "Government Institutions: ₹50,000 – ₹2,50,000 (Total 4-year degree fees)",
+          "Private Institutions: ₹4,00,000 – ₹12,00,000 (Total 4-year degree fees)",
+          "Duration: 4 Years (B.Tech)",
+          "Living/Hostel Costs: ₹8,000 – ₹15,000 per month in cities like Pantnagar, Ludhiana, or Coimbatore",
+          "Additional Costs: High-end laptop (₹60k+), certification exams (₹5k–₹15k)"
         ]
       },
       {
-        id: "5",
+        id: "scholarships",
         title: "Scholarship Opportunities",
-        icon: "🎓",
-        description: "Financial aid for engineering students",
-        color: RED5,
-        content: ["Pathway A: B.Tech Route","Step 1: Complete Class 12th with PCM (Physics, Chemistry, Maths)","Step 2: Clear JEE/State CET and pursue B.Tech Agricultural Engineering (IITs, SAUs, GBPUAT)","Step 3: Do internships at ICAR, farm machinery companies, or agri-tech startups","Step 4: Learn tools — AutoCAD, MATLAB, GIS, drone technology","Step 5: Pursue M.Tech or MBA in Agri-Business (optional)","Step 6: Join as Agricultural Engineer, Farm Machinery Designer, or Irrigation Specialist","Pathway B: Diploma + Field Entry Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Agricultural Engineering (3 years, state polytechnics)","Step 3: Gain field experience — FPOs, KVKs, farm equipment dealers","Step 4: Learn basics — soil testing, irrigation systems, tractor mechanics","Step 5: Upgrade through lateral entry to B.Tech (optional)","Step 6: Work as Junior Engineer, Field Technician, or Agri-Equipment Supervisor","Pathway C: Research + Government Route","Step 1: Complete Class 12th with PCM","Step 2: Pursue B.Tech Agricultural Engineering","Step 3: Clear GATE and pursue M.Tech (IITs, IARI, CIAE Bhopal)","Step 4: Publish research in farm mechanization, renewable energy, or water management","Step 5: Clear ARS/NET, UPSC Engineering Services, or State PSC exams","Step 6: Join as Scientist at ICAR, Professor, or Government Engineer in agriculture department"]
-      },
-      {
-        id: "6",
-        title: "Key Challenges",
-        icon: "⚠️",
-        description: "Environment and scaling issues",
-        color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.5+ Crore","Senior / Lead Role (10+ yrs): ₹12–40 LPA","Mid-Level Professional (5–8 yrs): ₹6–20 LPA","Junior / Associate (3–5 yrs): ₹4–10 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: Metro/agri-industrial hubs (Pune, Hyderabad) pay 15–30% higher; skills in irrigation tech, GIS, farm mechanisation boost salary by 20–40%.","Where Are the Jobs?","Top Cities: Hyderabad, Pune, Bengaluru, Delhi-NCR, Ludhiana, Coimbatore","Top Industries: Farm Equipment, Irrigation, AgriTech, Food Processing, Government (ICAR), NGOs","Global Demand: High in Africa, Middle East, Australia; demand in precision farming, water management, remote consulting","Top Institutions","Government:","Indian Institute of Technology, Kharagpur (IIT-KGP)","Punjab Agricultural University (PAU), Ludhiana","Tamil Nadu Agricultural University (TNAU), Coimbatore","Govind Ballabh Pant University of Agriculture & Technology, Pantnagar","Private:","SRM Institute of Science and Technology, Chennai","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Sharda University, Greater Noida","Online:","IGNOU","Swayam/NPTEL","Coursera (IIT/IARI courses)","ICAR e-courses","Career Opportunities","Conventional Careers","Farm Machinery Design","Irrigation Engineer","Soil & Water Conservationist","New-Age / AI-Driven Careers","Drone Data Analyst","Precision Agriculture Specialist","Climate-Smart Systems Engineer","AI-Agriculture Specialist","Freelancing & Entrepreneurship","Independent Farm Consultant","Custom Hiring Center (CHC) Entrepreneur","Agri-Visualization Specialist"]
-      },
-      {
-        id: "7",
-        title: "Start Now (Class 9–12)",
-        icon: "📚",
-        description: "Roadmap from school to engineering",
-        color: RED2,
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: "#DA1313",
         content: [
-          "Master Physics (Mechanics) and Geometry — they are foundation pillars",
-          "Learn Python — the essential language for agricultural AI and drone analysis",
-          "Visit 'Kisan Melas' to study farm machinery and equipment failures",
-          "Build simple solar lamps or automated balcony irrigation systems"
+          "Central: NSP (National Scholarship Portal), AICTE Pragati (₹50k/year for girls)",
+          "ICAR: National Talent Scholarship (NTS) for students moving to a different state for studies",
+          "State: e.g., Krishi Vidya Nidhi (Odisha) or MOMA scholarship for minorities",
+          "Private: Corteva Agriscience Scholarship (₹25k–₹50k) for students in agri-allied streams"
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Credentials and regulatory requirements.",
+        color: "#C20000",
+        content: [
+          "ISAE (Indian Society of Agricultural Engineers): The primary professional body for networking",
+          "Certifications: Drone Pilot License (DGCA approved), GIS & Remote Sensing (IIRS/ISRO), Data Analytics (Google/IBM)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: "#DA1313",
+        content: [
+          "Conventional: Farm Machinery Design, Irrigation Engineer, Soil & Water Conservationist",
+          "New-Age: Drone Data Analyst, Precision Agriculture Specialist, Climate-Smart Systems Engineer, AI-Agriculture Specialist",
+          "Freelancing: Independent Farm Consultant, Custom Hiring Center (CHC) Entrepreneur, Agri-Visualization Specialist"
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of the profession.",
+        color: "#C20000",
+        content: [
+          "Physical Environment: You will often work in dusty, hot, and muddy conditions",
+          "Seasonal Peak: During harvest seasons, your workload might triple",
+          "Translational Gap: Designing a machine in a lab is easy; making it work for a small Indian farmer with a 1-acre plot is the real, hard challenge",
+          "Field Work Demands: You will spend significant time in challenging field conditions — heat, dust, rain, and remote locations",
+          "Weather Dependency: Your work is heavily dependent on weather patterns and seasonal cycles",
+          "Technology Adoption: Farmers may resist new technologies; you need patience and communication skills to convince them",
+          "Budget Constraints: Many farms operate on tight budgets; solutions must be affordable and practical",
+          "Continuous Learning: Agricultural technology evolves rapidly; staying updated with new tools and methods is mandatory"
+        ]
+      },
+      {
+        id: "trends",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in agricultural engineering.",
+        color: "#DA1313",
+        content: [
+          "The Drone Revolution: By 2030, drones will be used for everything from spraying pesticides to planting seeds",
+          "Vertical Farming: Engineering farms inside urban skyscrapers to grow 'Zero-Mile' food",
+          "AI & IoT: Sensors in the soil that 'talk' to the farmer's phone, telling them exactly when the plant is thirsty",
+          "Precision Farming: Advanced data analytics and machine learning for crop optimization",
+          "Renewable Energy: Integration of solar and biogas systems in agricultural operations"
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: "#C20000",
+        content: [
+          "Science & Math: Focus on Mechanics (Physics) and Geometry",
+          "Coding: Learn basic Python. It's the language of AI and drone data",
+          "Observation: Visit a local farm or a 'Kisan Mela.' Ask how a tractor works or why a pump fails",
+          "Projects: Build a simple solar-powered lamp or a DIY watering system for your balcony plants"
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Personalities in Agricultural Engineering",
+        icon: "User",
+        description: "Inspiring figures in the industry.",
+        color: "#DA1313",
+        content: [
+          "Dr. A.M. Michael: A pioneer in Irrigation Engineering who revolutionized how India manages its water resources",
+          "Vidyut Mohan: A young innovator (Takachar) who turned farm waste into biofuel and won the Earthshot Prize",
+          "Bhavarlal Jain: Founder of Jain Irrigation; he pioneered drip irrigation in India, saving billions of liters of water",
+          "M.S. Swaminathan: Though a scientist, his vision for 'Farm Mechanization' as part of the Green Revolution paved the way for modern agricultural engineering"
         ]
       }
     ]
@@ -2945,9 +3104,9 @@ export const careerPageData: Record<string, CareerPageData> = {
     ],
     guideSections: [
       {
-        id: "1",
+        id: "what",
         title: "What is Agriculture Research?",
-        icon: "🔬",
+        icon: "Target",
         description: "Solving global challenges through plant science",
         color: RED,
         content: [
@@ -2957,9 +3116,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
-        id: "2",
+        id: "who",
         title: "Who Should Consider This Career?",
-        icon: "🎯",
+        icon: "User",
         description: "Traits of a scientific researcher",
         color: RED2,
         content: [
@@ -2971,9 +3130,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
-        id: "3",
+        id: "responsibilities",
         title: "Key Responsibilities & Work Process",
-        icon: "📋",
+        icon: "Briefcase",
         description: "From lab DNA work to field extension",
         color: RED3,
         content: [
@@ -2983,9 +3142,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
-        id: "4",
+        id: "cost",
         title: "What Will It Cost?",
-        icon: "💰",
+        icon: "CircleDollarSign",
         description: "Education and stipend details",
         color: RED4,
         content: [
@@ -2997,25 +3156,65 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
-        id: "5",
-        title: "Scholarship Opportunities",
-        icon: "🎓",
-        description: "Funding for research careers",
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
         color: RED5,
         content: ["Pathway A: B.Sc + Research Route","Step 1: Complete Class 12th with PCB/PCM","Step 2: Pursue B.Sc Agriculture (4 years — SAUs, IARI, BHU, GBPUAT)","Step 3: Clear ICAR-JRF/SRF and pursue M.Sc Agriculture (specialization — Agronomy, Plant Breeding, Soil Science)","Step 4: Learn tools — SPSS, R, GIS, remote sensing, lab techniques","Step 5: Pursue Ph.D. in Agriculture and publish research papers","Step 6: Join as Scientist at ICAR/CSIR, Professor, or Research Fellow at international organizations (ICRISAT, IRRI)","Pathway B: Diploma + Field Research Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Agriculture (2 years, state polytechnics)","Step 3: Work at KVKs, seed companies, or fertilizer research labs","Step 4: Upgrade to B.Sc Agriculture through lateral entry","Step 5: Gain field research experience — crop trials, soil testing, pest management","Step 6: Work as Research Assistant, Lab Technician, or Agricultural Field Officer","Pathway C: B.Tech + Agri-Tech Research Route","Step 1: Complete Class 12th with PCM","Step 2: Pursue B.Tech Agricultural Engineering / Biotechnology","Step 3: Clear GATE and pursue M.Tech (IARI, IITs, CIAE)","Step 4: Specialize in precision farming, drone technology, or agri-biotech","Step 5: Intern/work at agri-tech startups — CropIn, DeHaat, Ninjacart","Step 6: Join as Agri-Tech Researcher, R&D Engineer, or Innovation Scientist at ICAR, private firms, or global research centers"]
       },
       {
-        id: "6",
-        title: "Key Challenges",
-        icon: "⚠️",
-        description: "Timelines and physical demands",
-        color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1+ Crore","Senior / Lead Role (10+ yrs): ₹18–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–18 LPA","Junior / Associate (3–5 yrs): ₹5–8 LPA","Entry Level (0–2 yrs): ₹3–5 LPA","Note: Govt (ICAR) stable but lower; private agri-biotech pays 20–40% more; PhD/NET boosts salary significantly.","Where Are the Jobs?","Top Cities: Delhi, Hyderabad, Bengaluru, Ludhiana, Pune, Varanasi","Top Industries: ICAR institutes, Agri Universities, Seed & Biotech (Syngenta, Bayer), NGOs, Policy Think Tanks","Global Demand: High in USA, Australia, Africa; roles in climate research, crop science, remote data analysis","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","National Dairy Research Institute (NDRI), Karnal","Central Institute of Fisheries Education (CIFE), Mumbai","Indian Veterinary Research Institute (IVRI), Bareilly","Private:","Amity Institute of Biotechnology, Noida","Sam Higginbottom University (SHUATS), Prayagraj","Shoolini University, Solan","DY Patil University, Pune","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU","Coursera (Agriculture Research Programs)","Career Opportunities","Conventional","ICAR/IARI Research Scientist","Plant Breeding & Genetics Researcher","Soil Science & Fertility Researcher","Entomology & Pest Management Researcher","New-Age & AI Driven","Genomics & Bioinformatics Research Analyst","AI-Based Crop Prediction Modelling Researcher","Remote Sensing & GIS Agri-Researcher","Climate Change & Agriculture Impact Analyst","Remote/Entrepreneurship","Freelance Agri-Research Consultant","Independent Seed Technology Innovator","Agri-Research Publication & Journal Editor","Online Agri-Science Training Platform Founder"]
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Funding for research careers",
+        color: RED5,
+        content: ["Central: NSP (National Scholarship Portal), AICTE Pragati (₹50k/year for girls)","ICAR: National Talent Scholarship (NTS) for students moving to a different state for studies","State: e.g., Krishi Vidya Nidhi (Odisha) or MOMA scholarship for minorities","Private: Corteva Agriscience Scholarship (₹25k–₹50k) for students in agri-allied streams"]
       },
       {
-        id: "7",
-        title: "Start Now (Class 9–12)",
-        icon: "📚",
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and career growth.",
+        color: RED,
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1+ Crore","Senior / Lead Role (10+ yrs): ₹18–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–18 LPA","Junior / Associate (3–5 yrs): ₹5–8 LPA","Entry Level (0–2 yrs): ₹3–5 LPA","Note: Govt (ICAR) stable but lower; private agri-biotech pays 20–40% more; PhD/NET boosts salary significantly."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED,
+        content: ["Top Cities: Delhi, Hyderabad, Bengaluru, Ludhiana, Pune, Varanasi","Top Industries: ICAR institutes, Agri Universities, Seed & Biotech (Syngenta, Bayer), NGOs, Policy Think Tanks","Global Demand: High in USA, Australia, Africa; roles in climate research, crop science, remote data analysis"]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: ["Government: Indian Agricultural Research Institute (IARI), New Delhi; National Dairy Research Institute (NDRI), Karnal; Central Institute of Fisheries Education (CIFE), Mumbai; Indian Veterinary Research Institute (IVRI), Bareilly","Private: Amity Institute of Biotechnology, Noida; Sam Higginbottom University (SHUATS), Prayagraj; Shoolini University, Solan; DY Patil University, Pune","Online: ICAR e-courses; Swayam/NPTEL; IGNOU; Coursera (Agriculture Research Programs)"]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: RED,
+        content: ["Conventional: ICAR/IARI Research Scientist; Plant Breeding & Genetics Researcher; Soil Science & Fertility Researcher; Entomology & Pest Management Researcher","New-Age & AI Driven: Genomics & Bioinformatics Research Analyst; AI-Based Crop Prediction Modelling Researcher; Remote Sensing & GIS Agri-Researcher; Climate Change & Agriculture Impact Analyst","Remote/Entrepreneurship: Freelance Agri-Research Consultant; Independent Seed Technology Innovator; Agri-Research Publication & Journal Editor; Online Agri-Science Training Platform Founder"]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of the profession.",
+        color: RED,
+        content: ["Long Timeline: 7–12 years to develop a new crop variety","Patience Required: Experiments fail frequently; persistence is key","Field Unpredictability: Weather, pests, and soil variations complicate research","Limited Immediate Impact: Results take years to reach farmers","Funding Constraints: Research budgets are often limited in government sectors","Publication Pressure: Need to publish regularly to advance career"]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
         description: "Preparing for a research career",
         color: RED2,
         content: [
@@ -3102,20 +3301,92 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
-        id: "5",
+        id: "scholarships",
         title: "Scholarship Opportunities",
-        icon: "🎓",
+        icon: "Award",
         description: "Aid for animal science students",
+        color: RED5,
+        content: [
+          "Central: NSP (National Scholarship Portal), AICTE Pragati (₹50k/year for girls)",
+          "ICAR: National Talent Scholarship (NTS) for students moving to a different state",
+          "State: Various state-level scholarships for veterinary students",
+          "Private: Zoetis Scholarship, Boehringer Ingelheim Veterinary Scholarship"
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
         color: RED5,
         content: ["Pathway A: B.V.Sc Degree Route","Step 1: Complete Class 12th with PCB (Physics, Chemistry, Biology)","Step 2: Clear NEET and pursue B.V.Sc & AH (5.5 years — including 1 year internship)","Step 3: Do clinical training at veterinary hospitals, dairy farms, poultry units","Step 4: Learn tools — ultrasound, lab diagnostics, animal nutrition software","Step 5: Register with State Veterinary Council","Step 6: Work as Veterinary Doctor, Livestock Officer, or start own veterinary clinic","Pathway B: Research + Government Route","Step 1: Complete Class 12th with PCB","Step 2: Pursue B.V.Sc & AH from recognized college (IVRI, GADVASU, TANUVAS)","Step 3: Clear ICAR-JRF/SRF and pursue M.V.Sc (specialization — Surgery, Pathology, Animal Genetics)","Step 4: Publish research and pursue Ph.D. in Veterinary Science","Step 5: Clear ARS/NET, UPSC Veterinary Services, or State PSC exams","Step 6: Join as Scientist at ICAR/IVRI, Professor, Government Veterinary Officer, or WHO/FAO Consultant","Pathway C: Diploma + Field Entry Route","Step 1: Complete Class 10th/12th with Science","Step 2: Pursue Diploma in Animal Husbandry / Veterinary Science (2 years, state institutes)","Step 3: Gain field experience — dairy cooperatives, poultry farms, animal shelters","Step 4: Learn basics — vaccination, first aid, artificial insemination, feed management","Step 5: Upgrade to B.V.Sc through lateral entry or bridge courses (optional)","Step 6: Work as Veterinary Technician, Livestock Supervisor, Dairy Manager, or Animal Welfare Officer"]
       },
       {
-        id: "6",
-        title: "Key Challenges",
-        icon: "⚠️",
-        description: "Risks and emotional demands",
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, growth, and opportunities.",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5+ Crore","Senior / Lead Role (10+ yrs): ₹20–50 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹6–10 LPA","Entry Level (0–2 yrs): ₹4–8 LPA","Note: Private pet care & dairy sectors pay 20–40% more; govt vets stable; specialization (surgery, dairy tech) increases income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai, Ludhiana","Top Industries: Veterinary Hospitals, Dairy (Amul), Poultry, Pharma (Zoetis), Pet Care Industry","Global Demand: High in Canada, Australia, UK; demand in livestock management, pet healthcare, remote advisory roles","Top Institutions","Government:","Indian Veterinary Research Institute (IVRI), Bareilly","National Dairy Research Institute (NDRI), Karnal","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Maharashtra Animal & Fishery Sciences University (MAFSU), Nagpur","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Rajiv Gandhi Institute of Veterinary Education & Research, Puducherry","Apollo College of Veterinary Medicine, Jaipur","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Animal Husbandry Programs)","Coursera (Veterinary Science Courses)","Career Opportunities","Conventional","Government Veterinary Officer","Livestock Development Officer","Animal Nutritionist & Feed Specialist","Dairy Farm Operations Manager","New-Age & AI Driven","AI-Based Animal Health Diagnostics Specialist","Precision Livestock Farming Technologist","Genetic Engineering & Cloning Researcher","IoT-Enabled Smart Dairy Management Expert","Remote/Entrepreneurship","Online Veterinary Telemedicine Provider","Pet Care & Wellness Startup Founder","Freelance Animal Husbandry Consultant","Organic Dairy / Poultry Brand Entrepreneur"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–50 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–20 LPA",
+          "Junior / Associate (3–5 yrs): ₹6–10 LPA",
+          "Entry Level (0–2 yrs): ₹4–8 LPA",
+          "Note: Private pet care & dairy sectors pay 20–40% more; govt vets stable; specialization (surgery, dairy tech) increases income."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: RED,
+        content: [
+          "Top Cities: Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai, Ludhiana",
+          "Top Industries: Veterinary Hospitals, Dairy (Amul), Poultry, Pharma (Zoetis), Pet Care Industry",
+          "Global Demand: High in Canada, Australia, UK; demand in livestock management, pet healthcare, remote advisory roles"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government: Indian Veterinary Research Institute (IVRI), Bareilly; National Dairy Research Institute (NDRI), Karnal; Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana; Maharashtra Animal & Fishery Sciences University (MAFSU), Nagpur",
+          "Private: Sam Higginbottom University (SHUATS), Prayagraj; Rajiv Gandhi Institute of Veterinary Education & Research, Puducherry; Apollo College of Veterinary Medicine, Jaipur; Shoolini University, Solan",
+          "Online: ICAR e-courses; Swayam/NPTEL; IGNOU (Animal Husbandry Programs); Coursera (Veterinary Science Courses)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: RED,
+        content: [
+          "Conventional: Government Veterinary Officer; Livestock Development Officer; Animal Nutritionist & Feed Specialist; Dairy Farm Operations Manager",
+          "New-Age & AI Driven: AI-Based Animal Health Diagnostics Specialist; Precision Livestock Farming Technologist; Genetic Engineering & Cloning Researcher; IoT-Enabled Smart Dairy Management Expert",
+          "Remote/Entrepreneurship: Online Veterinary Telemedicine Provider; Pet Care & Wellness Startup Founder; Freelance Animal Husbandry Consultant; Organic Dairy / Poultry Brand Entrepreneur"
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "Risks and emotional demands.",
+        color: RED,
+        content: [
+          "Emotional Toll: Dealing with animal suffering and euthanasia decisions",
+          "Physical Demands: Long hours, exposure to diseases, and physical strain",
+          "Financial Pressure: High education costs and variable income in private practice",
+          "Work-Life Balance: Emergency calls and on-call duties disrupt personal time",
+          "Market Competition: Saturated urban markets and low rural demand",
+          "Regulatory Compliance: Navigating complex animal welfare and food safety laws"
+        ]
       },
       {
         id: "7",

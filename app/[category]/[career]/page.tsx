@@ -6,6 +6,7 @@ import { CareerPageDynamic } from "./CareerPageDynamic";
 import { getCareerPageData } from "@/app/data/careerPageData";
 import { getCareerVideos } from "@/app/data/careerVideos";
 import { careerImagesMap } from "@/app/data/careerImagesMap.js";
+import { CareerPageDynamicContent } from "@/app/components/CareerPageDynamicContent";
 
 interface PageProps {
   params: Promise<{
@@ -55,17 +56,14 @@ export default async function CareerPage({ params }: PageProps) {
     );
   }
 
+  // Use dynamic content extraction for careers without pre-built pageData
   return (
-    <CareerPageClientNew
+    <CareerPageDynamicContent
       category={category}
       career={career}
       careerName={careerName}
       categoryName={categoryName}
-      careerDetail={careerDetail}
-      categoryData={categoryData}
-      pageData={pageData}
       imageUrl={imageUrl}
-      videos={videos}
     />
   );
 }

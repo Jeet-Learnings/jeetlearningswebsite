@@ -93,7 +93,39 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2–3.5 LPA","Note: Metro cities pay 30–50% more. NID/NIFT graduates earn higher starting salaries.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Jaipur, Chennai, Kolkata","Top Industries: Fashion brands, jewellery houses, leather goods, export houses, Titan, Tanishq, Hidesign","Global Demand: Freelancing rising on Etsy/Shopify. High demand in Italy, UAE, USA. Remote design roles growing steadily.","Top Institutions","Government:","National Institute of Fashion Technology (NIFT)","National Institute of Design (NID)","Indian Institute of Crafts & Design (IICD)","Footwear Design & Development Institute (FDDI)","Private:","Pearl Academy","ARCH College of Design & Business","Vogue Institute of Fashion Technology","JD Institute of Fashion Technology","Online:","NIFT Online Programs","Coursera (Fashion & Design Courses)","Udemy (Accessory Design Courses)","Domestika (Fashion Accessories Design)","Career Opportunities","Conventional","Jewellery Designer at export houses or branded jewellery firms","Footwear/Leather Accessories Designer at manufacturing companies","Accessory Designer at fashion houses (e.g., Ritu Kumar, NIFT placements)","Design Faculty/Researcher at government design colleges","New-Age & AI-Driven","AI-assisted accessory design using generative design tools","3D-printed accessories and wearable tech designer","AR/VR-based virtual accessory try-on experience designer","Sustainable/eco-friendly accessories designer for D2C brands","Remote/Entrepreneurship","Freelance accessory designer for global design firms","Own D2C accessory brand via e-commerce platforms","Digital accessory designer for metaverse/gaming avatars","Online accessory design consultant and trend forecaster"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2–3.5 LPA","Note: Metro cities pay 30–50% more. NID/NIFT graduates earn higher starting salaries."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Mumbai, Delhi-NCR, Bengaluru, Jaipur, Chennai, Kolkata","Top Industries: Fashion brands, jewellery houses, leather goods, export houses, Titan, Tanishq, Hidesign","Global Demand: Freelancing rising on Etsy/Shopify. High demand in Italy, UAE, USA. Remote design roles growing steadily."]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: National Institute of Fashion Technology (NIFT), National Institute of Design (NID), Indian Institute of Crafts & Design (IICD), Footwear Design & Development Institute (FDDI)",
+          "Private: Pearl Academy, ARCH College of Design & Business, Vogue Institute of Fashion Technology, JD Institute of Fashion Technology",
+          "Online: NIFT Online Programs, Coursera (Fashion & Design Courses), Udemy (Accessory Design Courses), Domestika (Fashion Accessories Design)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Jewellery Designer at export houses or branded jewellery firms, Footwear/Leather Accessories Designer at manufacturing companies, Accessory Designer at fashion houses (e.g., Ritu Kumar, NIFT placements), Design Faculty/Researcher at government design colleges",
+          "New-Age & AI-Driven: AI-assisted accessory design using generative design tools, 3D-printed accessories and wearable tech designer, AR/VR-based virtual accessory try-on experience designer, Sustainable/eco-friendly accessories designer for D2C brands",
+          "Remote/Entrepreneurship: Freelance accessory designer for global design firms, Own D2C accessory brand via e-commerce platforms, Digital accessory designer for metaverse/gaming avatars, Online accessory design consultant and trend forecaster"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -279,7 +311,39 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. Strong demo reel matters more than degree. VFX/3D skills boost salary significantly.","Where Are the Jobs?","Top Cities: Mumbai, Hyderabad, Bengaluru, Chennai, Pune, Delhi-NCR","Top Industries: Film/OTT studios, gaming companies, ad agencies, edtech, DNEG, Prime Focus, Technicolor, Green Gold Animation","Global Demand: Huge outsourcing from Hollywood/Netflix studios. Freelancing booming on Upwork/Fiverr. High demand in USA, Canada, South Korea. Remote work widely accepted.","Top Institutions","Government:","National Institute of Design (NID)","Satyajit Ray Film & Television Institute (SRFTI)","Indian Institute of Technology (IIT Bombay - IDC)","National Institute of Film & Fine Arts (NIFFA)","Private:","Arena Animation","Frameboxx Animation & Visual Effects","Maya Academy of Advanced Cinematics (MAAC)","DSK International Campus","Online:","Coursera (Animation & 3D Courses)","Udemy (Animation Masterclasses)","Animschool","Skillshare (Motion Design & Animation)","Career Opportunities","Conventional","2D/3D Animator at film and television studios","VFX Artist at production houses (e.g., DNEG, Prime Focus)","Storyboard Artist for advertising and media agencies","Animation Faculty at design institutes (NIFT, NID, AAFT)","New-Age & AI-Driven","AI-assisted animation and generative motion designer","AR/VR Animator for immersive experiences and metaverse","Real-time game animator using Unreal Engine","Motion capture and virtual production specialist","Remote/Entrepreneurship","Freelance animator for global studios and OTT platforms","Own animation studio for explainer videos and brand content","YouTube/social media animation content creator","Online animation tutor and course creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. Strong demo reel matters more than degree. VFX/3D skills boost salary significantly."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE,
+        content: ["Top Cities: Mumbai, Hyderabad, Bengaluru, Chennai, Pune, Delhi-NCR","Top Industries: Film/OTT studios, gaming companies, ad agencies, edtech, DNEG, Prime Focus, Technicolor, Green Gold Animation","Global Demand: Huge outsourcing from Hollywood/Netflix studios. Freelancing booming on Upwork/Fiverr. High demand in USA, Canada, South Korea. Remote work widely accepted."]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: National Institute of Design (NID), Satyajit Ray Film & Television Institute (SRFTI), Indian Institute of Technology (IIT Bombay - IDC), National Institute of Film & Fine Arts (NIFFA)",
+          "Private: Arena Animation, Frameboxx Animation & Visual Effects, Maya Academy of Advanced Cinematics (MAAC), DSK International Campus",
+          "Online: Coursera (Animation & 3D Courses), Udemy (Animation Masterclasses), Animschool, Skillshare (Motion Design & Animation)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: 2D/3D Animator at film and television studios, VFX Artist at production houses (e.g., DNEG, Prime Focus), Storyboard Artist for advertising and media agencies, Animation Faculty at design institutes (NIFT, NID, AAFT)",
+          "New-Age & AI-Driven: AI-assisted animation and generative motion designer, AR/VR Animator for immersive experiences and metaverse, Real-time game animator using Unreal Engine, Motion capture and virtual production specialist",
+          "Remote/Entrepreneurship: Freelance animator for global studios and OTT platforms, Own animation studio for explainer videos and brand content, YouTube/social media animation content creator, Online animation tutor and course creator"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -292,18 +356,6 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Duration: 3-4 years (Degree) or 1-2 years (Diploma).",
           "Living Costs: ₹15,000–₹25,000/month in major cities.",
           "Additional: Powerful PC/Laptop needed (approx. ₹80k–₹1.5L)."
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building2",
-        description: "Top institutions across India.",
-        color: BLUE,
-        content: [
-          "Government: NID Ahmedabad, IDC-IIT Bombay, Satyajit Ray Film & Television Institute (Kolkata).",
-          "Private: MIT-ID (Pune), UPES (Dehradun), Srishti Manipal (Bangalore), Artemisia College (Bhopal).",
-          "Online: Animation Mentor, CG Spectrum, Coursera."
         ]
       },
       {
@@ -486,7 +538,39 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹3–5 LPA","Entry Level (0–2 yrs): ₹1.8–3 LPA","Note: Metro salaries 40–50% higher. CIDESCO/VLCC certified professionals earn more. Celebrity/bridal makeup artists earn significantly higher.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Kolkata, Jaipur","Top Industries: Salon chains, beauty brands, film/TV, bridal industry, spas/wellness, Lakmé, VLCC, Enrich, L'Oréal, Nykaa","Global Demand: Indian beauty professionals in demand in UAE, UK, Singapore. Freelance bridal/editorial makeup growing fast. YouTube/Instagram creating self-employment opportunities globally.","Top Institutions","Government:","Government Institute of Cosmetology, Chennai","Rajiv Gandhi University of Health Sciences (RGUHS)","Government Polytechnic for Women (Various States)","National Skill Training Institute (NSTI)","Private:","VLCC Institute of Beauty & Nutrition","Lakme Academy powered by Aptech","Shahnaz Husain Beauty Academy","Pivot Point India","Online:","Coursera (Beauty & Cosmetology Courses)","Udemy (Cosmetology & Skincare Courses)","Skillshare (Makeup & Beauty Techniques)","VLCC Online Learning Programs","Career Opportunities","Conventional","Salon/Spa Cosmetologist at premium beauty studios","Bridal and Editorial Makeup Artist","Trichologist (Hair & Scalp Specialist) at dermatology clinics","Aesthetic Therapist at medical aesthetics centres","New-Age & AI-Driven","AI-based skin diagnostic and personalized skincare consultant","Laser and non-invasive aesthetic treatment specialist","Cosmetic formulation scientist for D2C beauty brands","Virtual beauty consultation and AR-based try-on specialist","Remote/Entrepreneurship","Own beauty salon, wellness centre, or aesthetic clinic","Freelance celebrity/fashion makeup artist","Beauty blogger, vlogger, or social media influencer","Online cosmetology trainer and academy founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹3–5 LPA","Entry Level (0–2 yrs): ₹1.8–3 LPA","Note: Metro salaries 40–50% higher. CIDESCO/VLCC certified professionals earn more. Celebrity/bridal makeup artists earn significantly higher."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Kolkata, Jaipur","Top Industries: Salon chains, beauty brands, film/TV, bridal industry, spas/wellness, Lakmé, VLCC, Enrich, L'Oréal, Nykaa","Global Demand: Indian beauty professionals in demand in UAE, UK, Singapore. Freelance bridal/editorial makeup growing fast. YouTube/Instagram creating self-employment opportunities globally."]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Government Institute of Cosmetology Chennai, Rajiv Gandhi University of Health Sciences (RGUHS), Government Polytechnic for Women (Various States), National Skill Training Institute (NSTI)",
+          "Private: VLCC Institute of Beauty & Nutrition, Lakme Academy powered by Aptech, Shahnaz Husain Beauty Academy, Pivot Point India",
+          "Online: Coursera (Beauty & Cosmetology Courses), Udemy (Cosmetology & Skincare Courses), Skillshare (Makeup & Beauty Techniques), VLCC Online Learning Programs"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Salon/Spa Cosmetologist at premium beauty studios, Bridal and Editorial Makeup Artist, Trichologist (Hair & Scalp Specialist) at dermatology clinics, Aesthetic Therapist at medical aesthetics centres",
+          "New-Age & AI-Driven: AI-based skin diagnostic and personalized skincare consultant, Laser and non-invasive aesthetic treatment specialist, Cosmetic formulation scientist for D2C beauty brands, Virtual beauty consultation and AR-based try-on specialist",
+          "Remote/Entrepreneurship: Own beauty salon, wellness centre, or aesthetic clinic, Freelance celebrity/fashion makeup artist, Beauty blogger, vlogger, or social media influencer, Online cosmetology trainer and academy founder"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -506,9 +590,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Public/Govt: Meerabai Delhi Skill University (DSEU), Rashtrasant Tukadoji Maharaj Nagpur University, NIFT Delhi (for Fashion/Lifestyle focus).",
-          "Private: Lakmé Academy, VLCC Institute, Orane International, Pearl Academy, Indian Institute of Aesthetic Medicine (IIAM).",
-          "Online: Skill India Digital, LTA School of Beauty (Blended models)."
+          "Government: Government Institute of Cosmetology Chennai, Rajiv Gandhi University of Health Sciences (RGUHS), Government Polytechnic for Women (Various States), National Skill Training Institute (NSTI)",
+          "Private: VLCC Institute of Beauty & Nutrition, Lakme Academy powered by Aptech, Shahnaz Husain Beauty Academy, Pivot Point India",
+          "Online: Coursera (Beauty & Cosmetology Courses), Udemy (Cosmetology & Skincare Courses), Skillshare (Makeup & Beauty Techniques), VLCC Online Learning Programs"
         ]
       },
       {
@@ -692,7 +776,39 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2–3.5 LPA","Note: Metro cities pay 35–50% more. Published authors/screenwriters earn royalties separately. Strong portfolio matters more than formal degree.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune","Top Industries: Ad agencies, OTT platforms, publishing houses, gaming studios, content marketing firms, Netflix, Amazon, Ogilvy, Penguin Random House, TVF","Global Demand: Freelance content writing booming globally. High demand in USA, UK, UAE. Ghostwriting/scriptwriting highly paid remotely. AI-assisted writing creating new hybrid roles.","Top Institutions","Government:","Jawaharlal Nehru University (JNU), New Delhi","University of Delhi (DU)","English and Foreign Languages University (EFLU), Hyderabad","Central University of Hyderabad","Private:","Ashoka University","Symbiosis School for Liberal Arts, Pune","Shiv Nadar University","Manipal Academy of Higher Education","Online:","Coursera (Creative Writing Specialization)","Udemy (Fiction & Non-Fiction Writing)","MasterClass (Writing by Renowned Authors)","Skillshare (Storytelling & Writing Craft)","Career Opportunities","Conventional","Screenwriter/Scriptwriter for films, TV, and OTT platforms","Copywriter at advertising and media agencies","Author/Novelist with publishing houses","Content Writer/Editor for magazines, newspapers, and digital media","New-Age & AI-Driven","AI-prompt engineer and AI-assisted content strategist","UX Writer/Conversational Designer for tech products","Narrative Designer for video games and interactive media","SEO-driven creative content specialist for D2C brands","Remote/Entrepreneurship","Freelance ghostwriter, blogger, or scriptwriter","Self-published author on Amazon Kindle/Notion Press","Content creator and storytelling-based social media influencer","Online creative writing coach and workshop facilitator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2–3.5 LPA","Note: Metro cities pay 35–50% more. Published authors/screenwriters earn royalties separately. Strong portfolio matters more than formal degree."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune","Top Industries: Ad agencies, OTT platforms, publishing houses, gaming studios, content marketing firms, Netflix, Amazon, Ogilvy, Penguin Random House, TVF","Global Demand: Freelance content writing booming globally. High demand in USA, UK, UAE. Ghostwriting/scriptwriting highly paid remotely. AI-assisted writing creating new hybrid roles."]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Jawaharlal Nehru University (JNU) New Delhi, University of Delhi (DU), English and Foreign Languages University (EFLU) Hyderabad, Central University of Hyderabad",
+          "Private: Ashoka University, Symbiosis School for Liberal Arts Pune, Shiv Nadar University, Manipal Academy of Higher Education",
+          "Online: Coursera (Creative Writing Specialization), Udemy (Fiction & Non-Fiction Writing), MasterClass (Writing by Renowned Authors), Skillshare (Storytelling & Writing Craft)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Screenwriter/Scriptwriter for films, TV, and OTT platforms, Copywriter at advertising and media agencies, Author/Novelist with publishing houses, Content Writer/Editor for magazines, newspapers, and digital media",
+          "New-Age & AI-Driven: AI-prompt engineer and AI-assisted content strategist, UX Writer/Conversational Designer for tech products, Narrative Designer for video games and interactive media, SEO-driven creative content specialist for D2C brands",
+          "Remote/Entrepreneurship: Freelance ghostwriter, blogger, or scriptwriter, Self-published author on Amazon Kindle/Notion Press, Content creator and storytelling-based social media influencer, Online creative writing coach and workshop facilitator"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -712,9 +828,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Public: FTII Pune (The gold standard for scripts), Delhi University, Jadavpur University (Kolkata), University of Hyderabad.",
-          "Private: Xavier Institute of Communications (Mumbai), Symbiosis (Pune), Srishti Manipal (Bangalore), Ashoka University (Sonipat).",
-          "Online: IGNOU (Diploma in Creative Writing), MICA (Copywriting specialized)."
+          "Government: Jawaharlal Nehru University (JNU) New Delhi, University of Delhi (DU), English and Foreign Languages University (EFLU) Hyderabad, Central University of Hyderabad",
+          "Private: Ashoka University, Symbiosis School for Liberal Arts Pune, Shiv Nadar University, Manipal Academy of Higher Education",
+          "Online: Coursera (Creative Writing Specialization), Udemy (Fiction & Non-Fiction Writing), MasterClass (Writing by Renowned Authors), Skillshare (Storytelling & Writing Craft)"
         ]
       },
       {
@@ -898,7 +1014,39 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹15–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–14 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. NIFT/NID graduates command premium salaries. Own label designers earn unlimited through entrepreneurship.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Jaipur, Kolkata, Chennai","Top Industries: Luxury fashion houses, retail brands, export houses, textile firms, e-commerce, Reliance Brands, Aditya Birla Fashion, Myntra, Fabindia, Sabyasachi, Tarun Tahiliani","Global Demand: Indian designers valued in Milan, Paris, London. Sustainable/ethical fashion creating new global roles. Freelancing via Instagram/Etsy rising fast. Remote design consulting growing steadily.","Top Institutions","Government:","National Institute of Fashion Technology (NIFT)","National Institute of Design (NID)","Indian Institute of Crafts & Design (IICD), Jaipur","Footwear Design & Development Institute (FDDI)","Private:","Pearl Academy","ARCH College of Design & Business, Jaipur","Symbiosis Institute of Design, Pune","JD Institute of Fashion Technology","Online:","Coursera (Fashion Design & History Courses)","Udemy (Fashion Design Masterclass)","Skillshare (Fashion Illustration & Design)","Domestika (Fashion & Textile Design)","Career Opportunities","Conventional","Fashion Designer at established brands and couture houses","Textile Designer at mills and export houses","Fashion Stylist for films, advertising, and celebrities","Fashion Merchandiser/Buyer at retail chains","New-Age & AI-Driven","Digital/Virtual Fashion Designer for metaverse and NFTs","AI-powered trend forecasting and data-driven design specialist","Sustainable/Eco-fashion Designer using smart textiles","3D/CLO Virtual Garment Designer for e-commerce","Remote/Entrepreneurship","Own fashion label or D2C brand via e-commerce platforms","Freelance costume designer for OTT and film productions","Fashion influencer, blogger, and personal styling consultant","Online fashion design educator and course creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹15–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–14 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. NIFT/NID graduates command premium salaries. Own label designers earn unlimited through entrepreneurship."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE2,
+        content: ["Top Cities: Mumbai, Delhi-NCR, Bengaluru, Jaipur, Kolkata, Chennai","Top Industries: Luxury fashion houses, retail brands, export houses, textile firms, e-commerce, Reliance Brands, Aditya Birla Fashion, Myntra, Fabindia, Sabyasachi, Tarun Tahiliani","Global Demand: Indian designers valued in Milan, Paris, London. Sustainable/ethical fashion creating new global roles. Freelancing via Instagram/Etsy rising fast. Remote design consulting growing steadily."]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: National Institute of Fashion Technology (NIFT), National Institute of Design (NID), Indian Institute of Crafts & Design (IICD) Jaipur, Footwear Design & Development Institute (FDDI)",
+          "Private: Pearl Academy, ARCH College of Design & Business Jaipur, Symbiosis Institute of Design Pune, JD Institute of Fashion Technology",
+          "Online: Coursera (Fashion Design & History Courses), Udemy (Fashion Design Masterclass), Skillshare (Fashion Illustration & Design), Domestika (Fashion & Textile Design)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Fashion Designer at established brands and couture houses, Textile Designer at mills and export houses, Fashion Stylist for films, advertising, and celebrities, Fashion Merchandiser/Buyer at retail chains",
+          "New-Age & AI-Driven: Digital/Virtual Fashion Designer for metaverse and NFTs, AI-powered trend forecasting and data-driven design specialist, Sustainable/Eco-fashion Designer using smart textiles, 3D/CLO Virtual Garment Designer for e-commerce",
+          "Remote/Entrepreneurship: Own fashion label or D2C brand via e-commerce platforms, Freelance costume designer for OTT and film productions, Fashion influencer, blogger, and personal styling consultant, Online fashion design educator and course creator"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1012,6 +1160,229 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
+  fashion_technology: {
+    slug: "fashion_technology",
+    badge: "The Tech-Style Pioneer for Class 10+",
+    heading: "Fashion Technology",
+    subheading: "Imagine you are standing in front of your bedroom mirror. You aren't just looking at your reflection; the mirror is a high-tech screen. With a simple swipe of your hand in the air, the clothes on your body change digitally. This is the everyday reality for a Fashion Technologist.",
+    whyCards: [
+      { icon: "Zap", title: "Smart Textiles Revolution", description: "Develop fabrics that can change color, track your heart rate, or cool you down on a hot day.", borderColor: "#10B981" },
+      { icon: "Factory", title: "Manufacturing Excellence", description: "Use robotics and automation to ensure thousands of garments are made perfectly without wasting fabric.", borderColor: "#059669" },
+      { icon: "Code", title: "Tech-Driven Design", description: "Use 3D software (CAD, CLO 3D) to create digital versions of clothes before physical production.", borderColor: "#3B82F6" },
+      { icon: "TrendingUp", title: "AI & Data Mastery", description: "Use AI to analyze millions of Instagram posts and shopping habits to predict what will be a 'hit' next season.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "4 Years (BFTech) + 2 Years (MFTech)", color: "bg-green-100 text-green-700" },
+      { label: "Software", detail: "CAD, CLO 3D, Python, Excel, AI Tools", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹4.5L–₹65L+ (Entry to Senior)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "12%", label: "Annual Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "2030", label: "India's Global Leadership Target", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Where creativity meets engineering, logistics, and computer science.",
+        color: BLUE,
+        content: [
+          "Fashion Technology (BFTech) is the study of the manufacturing and technical side of the fashion industry.",
+          "The Fabric Inventor: Develop 'Smart Textiles'—fabrics that can change color, track your heart rate, or cool you down.",
+          "The Factory Pilot: Use robotics and automation to ensure thousands of garments are made perfectly without wasting fabric.",
+          "The Digital Sculptor: Using 3D software (CAD, CLO 3D), create digital versions of clothes so companies don't waste real fabric making 'samples.'",
+          "The Data Analyst: Use AI to look at millions of Instagram posts and shopping habits to tell a brand exactly which jacket will be a 'hit' next winter.",
+          "Why it matters: India is one of the world's largest exporters of clothing. We need technologists to ensure our factories are green, our clothes are high-quality, and our designs are delivered using the latest AI and 3D tech."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: The Tech-Style Pioneer",
+        icon: "Clock",
+        description: "Real workflow of a Fashion Technologist.",
+        color: BLUE2,
+        content: [
+          "9:00 AM - The Virtual Fitting Room: Your day begins at a high-tech studio in Bangalore or Gurgaon. You start with a VR (Virtual Reality) headset, reviewing a 3D digital prototype of a new sportswear line. You notice the digital fabric 'pulls' too tight around the shoulder. You tweak the code, not the cloth.",
+          "11:30 AM - The Lab Huddle: You move to the textile lab. Today, you are testing a new 'Bio-leather' made from pineapple waste. You use a machine to test its 'tensile strength' (how hard you can pull it before it rips). It's 100% eco-friendly and surprisingly strong.",
+          "1:30 PM - The Supply Chain Sync: Over lunch, you check an app on your phone showing real-time data from a factory in Tirupur. The robots are currently laser-cutting 500 shirts. You monitor the 'wastage percentage'—it's at an all-time low of 2%. You smile; efficiency is your middle name.",
+          "4:00 PM - The AI Trend Forecast: You spend the afternoon with the data team. Your AI model has flagged a rising trend: 'Vintage Indian Block Prints' are trending among Gen-Z in London. You immediately send a report to the production team.",
+          "6:30 PM - The Sustainability Audit: Before heading home, you verify the 'Blockchain' data for a new collection. This ensures that every customer can scan a QR code on their shirt and see exactly which farm the cotton came from."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? (Personality & Skills)",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "The 'How' Thinker: You don't just like a shirt; you wonder how it was stitched and if a machine did it.",
+          "Analytical & Logical: You enjoy Math and Science and love finding the most 'efficient' way to do a task.",
+          "Detail-Oriented: You notice if a button is 2 millimeters off or if a color shade is slightly 'yellowish.'",
+          "Tech-Curious: You are the first among your friends to try new apps, gadgets, or AI tools.",
+          "Hard Skills to Master: CAD/CAM (Computer-Aided Design and Manufacturing), Textile Science (Understanding fibers and chemicals), Data Analytics (Using Excel and AI tools to read trends)."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities and Workflow",
+        icon: "Briefcase",
+        description: "Managing the Apparel Production Cycle.",
+        color: BLUE2,
+        content: [
+          "Sourcing: Finding the right raw materials (fabric, thread, buttons).",
+          "Pattern Engineering: Creating the technical 'blueprints' for the garment.",
+          "Production Planning: Organizing the machines and people to make the clothes.",
+          "Quality Assurance: Using machines to test if the clothes shrink, fade, or tear.",
+          "Distribution: Using tech to track the clothes until they reach the customer."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (Science stream—PCM required).","Step 2: Clear NIFT Entrance Exam (GAT) or NID DAT.","Step 3: Earn Bachelor of Fashion Technology (BFTech)—4 years.","Step 4: Master CAD/CAM, Textile Science, and Data Analytics.","Step 5: Complete internship at a fashion tech company or textile lab.","Step 6: Join as Production Manager, Quality Controller, or 3D Garment Engineer.","Pathway B: After Graduation (PG Route)","Step 1: Complete BFTech or related engineering degree.","Step 2: Pursue M.FTech or MBA in Fashion Management (2 years).","Step 3: Specialize in Sustainable Fashion or AI-Driven Production.","Step 4: Work as Senior Production Manager or Director of Operations.","Pathway C: Career-Switchers","Step 1: Have a bachelor's degree in any field.","Step 2: Take a PG Diploma in Apparel Production (1–2 years).","Step 3: Build a 'Tech Portfolio' showing 3D models or research.","Step 4: Join as Production Consultant or Technical Designer."]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, cities, and industry growth.",
+        color: BLUE2,
+        content: [
+          "Entry-level (Management Trainee): ₹4.5 L – ₹8.5 L",
+          "Mid-level (Production Manager/Buyer): ₹12 L – ₹25 L",
+          "Senior/Leadership (VP Operations/Director): ₹35 L – ₹65 L+",
+          "Leadership (CHRO/CEO): ₹1.2 Crore+",
+          "Market Growth: The Indian Fashion Tech industry is growing at ~12% annually. By 2030, India is expected to be a global leader in 'Smart Garment' manufacturing."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "Briefcase",
+        description: "Top industries and cities.",
+        color: BLUE,
+        content: [
+          "Top Industries: Export Houses (Shahi Exports), Retail Giants (Reliance Trends, Aditya Birla Fashion), Tech Startups (Myntra, Flipkart), and Textile Labs.",
+          "Top Cities: Bangalore (Tech-Fashion), Gurgaon (Corporate HQ), Tirupur (The Knitwear Capital), and Surat (Textile Hub).",
+          "Remote/Freelance: High potential in 3D Technical Design and Fashion Data Consulting."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: NIFT (Multiple campuses—Delhi, Bangalore, and Mumbai are top-ranked), Institute of Chemical Technology (ICT) Mumbai",
+          "Private: Pearl Academy, Amity School of Fashion Technology, Symbiosis Institute of Design, World University of Design (Sonipat)",
+          "Geographic Diversity: North (NIFT Delhi/Noida), South (NIFT Bangalore/Chennai), West (NIFT Mumbai/Gandhinagar), East (NIFT Kolkata/Patna)"
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "DollarSign",
+        description: "Course fees and living expenses.",
+        color: BLUE2,
+        content: [
+          "Course Fees (Total Degree): Government (NIFT): ₹12 L – ₹16 L (4 years); Private (Pearl/Amity): ₹18 L – ₹28 L.",
+          "Duration: 4 years for BFTech; 2 years for MFTech.",
+          "Living Costs: ₹15,000 – ₹25,000/month in major education hubs."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE,
+        content: [
+          "NIFT Sarthak: Financial assistance providing up to 100% tuition fee waiver for low-income families.",
+          "NIFT Udaan: Merit-based scholarship for studying a semester abroad at global universities.",
+          "Central Govt (NSP): Post-matric scholarships for SC/ST/OBC students."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Credentials that boost your resume.",
+        color: BLUE2,
+        content: [
+          "Certifications: CLO 3D Certification, Adobe Illustrator for Fashion, Six Sigma (for production quality).",
+          "Bodies: The Textile Association (India), AEPC (Apparel Export Promotion Council)."
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE,
+        content: [
+          "Conventional: Production Manager, Quality Controller, Apparel Merchandiser.",
+          "New-Age: 3D Garment Engineer, Sustainability Auditor, AI Fashion Analyst, Wearable Tech Designer.",
+          "Entrepreneurship: Starting an On-Demand 3D Printing Lab for custom clothes or an AI-based Wardrobe Stylist App."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of the profession.",
+        color: BLUE2,
+        content: [
+          "Factory Environment: You may spend a lot of time in noisy, busy factory settings rather than 'glamorous' studios.",
+          "Technical Rigor: It is a math-heavy and logic-heavy field. If you hate numbers, this might be tough.",
+          "Global Deadlines: You'll be working with international brands in different time zones, meaning long hours."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in fashion technology.",
+        color: BLUE,
+        content: [
+          "3D Printing: Clothes will be printed at home like a PDF document.",
+          "Blockchain for Fashion: You scan a tag to see every hand that touched your garment.",
+          "Robo-Stitching: Soft-robotics that can sew fabrics with 100% precision."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Master Excel: It's the 'Magic Wand' of the fashion tech world.",
+          "Learn Python: Basic coding helps you understand AI trend models.",
+          "Doodle in 3D: Try free tools like Tinkercad to understand shapes.",
+          "Sustainability Diary: Start reading labels on your clothes. Where was it made? What is the fabric?"
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Personalities",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "Shantanu & Nikhil: Known for their architectural silhouettes, they use high-tech cutting and draping techniques.",
+          "Anju Modi: Famous for her research-heavy approach to reviving ancient Indian technical textiles.",
+          "Senthil Sankar: Co-founder of Shiva Texyarn, leading the charge in 'Smart Textiles' and technical garments in India.",
+          "B.S. Nagesh: Founder of TRRAIN; though a retail leader, his focus on technology in fashion supply chains changed India."
+        ]
+      }
+    ]
+  },
   fine_arts: {
     slug: "fine_arts",
     badge: "The Visionary's Canvas for Class 10+",
@@ -1099,11 +1470,47 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       },
       {
         id: "market",
-        title: "Market Snapshot — India 2026",
+        title: "Market Snapshot 2025-26",
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly variable; gallery-represented artists earn exponentially more. Metro exposure crucial. BFA/MFA from top colleges boosts credibility significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Kolkata, Baroda (Vadodara), Chennai","Top Industries: Art galleries, museums, auction houses, advertising, film/set design, art education, Christie's, Sotheby's, Kiran Nadar Museum, India Art Fair, DAG","Global Demand: Indian contemporary art gaining global recognition. NFT/digital art creating new revenue streams. Freelancing via Saatchi Art/Artsy growing. Strong demand in USA, UK, UAE, Singapore.","Top Institutions","Government:","Faculty of Fine Arts, MSU Baroda","Government College of Fine Arts, Chennai","Sir J.J. School of Art, Mumbai","College of Art, University of Delhi","Private:","Srishti Manipal Institute of Art, Design & Technology","Symbiosis School of Visual Arts & Photography, Pune","Amity School of Fine Arts, Noida","Chitrakala Parishath College of Fine Arts, Bangalore","Online:","Coursera (Art & Art History Courses)","Udemy (Drawing, Painting & Sculpture)","Skillshare (Fine Arts & Illustration)","Domestika (Painting & Mixed Media Techniques)","Career Opportunities","Conventional","Visual Artist/Painter exhibiting at galleries and art fairs","Art Director in advertising, films, or publishing","Sculptor/Muralist for public art and architectural projects","Fine Arts Professor/Teacher at universities and colleges","New-Age & AI-Driven","Digital Illustrator and Concept Artist for gaming/VFX studios","AI-assisted generative art and computational art creator","UI/UX Designer blending fine arts with tech products","NFT and digital art creator for blockchain platforms","Remote/Entrepreneurship","Freelance artist selling on online galleries, Etsy, and Instagram","Independent art studio owner and commissioned portrait artist","Art curator, critic, or blogger with a personal brand","Online fine arts tutor and workshop conductor"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1 Crore+",
+          "Senior / Lead Role (10+ yrs): ₹10–18 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹5–9 LPA",
+          "Junior / Associate (3–5 yrs): ₹2.5–5 LPA",
+          "Entry Level (0–2 yrs): ₹1–2 LPA",
+          "Note: Income highly variable; gallery-represented artists earn exponentially more. Metro exposure crucial. BFA/MFA from top colleges boosts credibility significantly.",
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Kolkata, Baroda (Vadodara), Chennai",
+          "Top Industries: Art galleries, museums, auction houses, advertising, film/set design, art education, Christie's, Sotheby's, Kiran Nadar Museum, India Art Fair, DAG",
+          "Global Demand: Indian contemporary art gaining global recognition. NFT/digital art creating new revenue streams. Freelancing via Saatchi Art/Artsy growing. Strong demand in USA, UK, UAE, Singapore."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Faculty of Fine Arts, MSU Baroda, Government College of Fine Arts, Chennai, Sir J.J. School of Art, Mumbai, College of Art, University of Delhi",
+          "Private: Srishti Manipal Institute of Art, Design & Technology, Symbiosis School of Visual Arts & Photography, Pune, Amity School of Fine Arts, Noida, Chitrakala Parishath College of Fine Arts, Bangalore",
+          "Online: Coursera (Art & Art History Courses), Udemy (Drawing, Painting & Sculpture), Skillshare (Fine Arts & Illustration), Domestika (Painting & Mixed Media Techniques)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE,
+        content: [
+          "Conventional: Visual Artist/Painter exhibiting at galleries and art fairs, Art Director in advertising, films, or publishing, Sculptor/Muralist for public art and architectural projects, Fine Arts Professor/Teacher at universities and colleges",
+          "New-Age & AI-Driven: Digital Illustrator and Concept Artist for gaming/VFX studios, AI-assisted generative art and computational art creator, UI/UX Designer blending fine arts with tech products, NFT and digital art creator for blockchain platforms",
+          "Remote/Entrepreneurship: Freelance artist selling on online galleries, Etsy, and Instagram, Independent art studio owner and commissioned portrait artist, Art curator, critic, or blogger with a personal brand, Online fine arts tutor and workshop conductor"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1123,10 +1530,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North: College of Art (Delhi), BHU (Varanasi).",
-          "South: Government College of Fine Arts (Chennai), Srishti Manipal (Bangalore).",
-          "East: Kala Bhavana, Visva Bharati (Santiniketan), Government College of Art & Craft (Kolkata).",
-          "West: Sir J.J. School of Art (Mumbai), MSU (Baroda)."
+          "Government: Faculty of Fine Arts, MSU Baroda, Government College of Fine Arts, Chennai, Sir J.J. School of Art, Mumbai, College of Art, University of Delhi",
+          "Private: Srishti Manipal Institute of Art, Design & Technology, Symbiosis School of Visual Arts & Photography, Pune, Amity School of Fine Arts, Noida, Chitrakala Parishath College of Fine Arts, Bangalore",
+          "Online: Coursera (Art & Art History Courses), Udemy (Drawing, Painting & Sculpture), Skillshare (Fine Arts & Illustration), Domestika (Painting & Mixed Media Techniques)"
         ]
       },
       {
@@ -1309,7 +1715,19 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹28 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–25 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–55% more. UI/UX + motion graphics skills boost salary heavily. Strong Behance/Dribbble portfolio outweighs formal degrees.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai","Top Industries: IT firms, ad agencies, startups, e-commerce, media houses, Accenture, WPP, Flipkart, Swiggy, Zomato, DentsuMB","Global Demand: One of the most freelanced careers worldwide. Massive demand in USA, UK, Australia, UAE. Platforms like Fiverr/99designs creating steady income. Remote-first roles widely available globally.","Top Institutions","Government:","National Institute of Design (NID), Ahmedabad","Industrial Design Centre (IDC), IIT Bombay","College of Art, University of Delhi","Government College of Fine Arts, Chennai","Private:","Pearl Academy","Srishti Manipal Institute of Art, Design & Technology","Arena Animation","Symbiosis Institute of Design, Pune","Online:","Coursera (Graphic Design Specialization by CalArts)","Udemy (Graphic Design Masterclass)","Skillshare (Logo, Branding & Visual Design)","Domestika (Typography & Digital Illustration)","Career Opportunities","Conventional","Graphic Designer at advertising agencies and publishing houses","Brand Identity/Logo Designer at corporate firms","Packaging Designer for FMCG and consumer brands","Art Director at media, TV, and production houses","New-Age & AI-Driven","UI/UX Designer for tech startups and app companies","Motion Graphics and Animation Designer for OTT/digital media","AI-augmented designer using Adobe Firefly, Midjourney, and DALL·E","Data Visualization and Infographic Designer for analytics firms","Remote/Entrepreneurship","Freelance graphic designer on Fiverr, Upwork, Behance, and Dribbble","Own design studio or creative agency","Social media design specialist and visual content creator","Online graphic design tutor and Skillshare/Udemy course creator"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹28 LPA – ₹1.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹14–25 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹7–13 LPA",
+          "Junior / Associate (3–5 yrs): ₹4–7 LPA",
+          "Entry Level (0–2 yrs): ₹2.5–4 LPA",
+          "Note: Metro cities pay 40–55% more. UI/UX + motion graphics skills boost salary heavily. Strong Behance/Dribbble portfolio outweighs formal degrees.",
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai",
+          "Top Industries: IT firms, ad agencies, startups, e-commerce, media houses, Accenture, WPP, Flipkart, Swiggy, Zomato, DentsuMB",
+          "Global Demand: One of the most freelanced careers worldwide. Massive demand in USA, UK, Australia, UAE. Platforms like Fiverr/99designs creating steady income. Remote-first roles widely available globally."
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1330,9 +1748,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: NID Ahmedabad, IDC-IIT Bombay, NIFT Delhi, College of Art (Delhi).",
-          "Private: Pearl Academy (Mumbai/Delhi), Symbiosis Institute of Design (Pune), Srishti Manipal (Bangalore), MIT-ID (Pune).",
-          "Online: Coursera (CalArts), Udemy, and Interaction Design Foundation."
+          "Government: National Institute of Design (NID) Ahmedabad, Industrial Design Centre (IDC) IIT Bombay, College of Art University of Delhi, Government College of Fine Arts Chennai",
+          "Private: Pearl Academy, Srishti Manipal Institute of Art Design & Technology, Arena Animation, Symbiosis Institute of Design Pune",
+          "Online: Coursera (Graphic Design Specialization by CalArts), Udemy (Graphic Design Masterclass), Skillshare (Logo, Branding & Visual Design), Domestika (Typography & Digital Illustration)"
         ]
       },
       {
@@ -1514,7 +1932,19 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹15–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–14 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 45–60% more. Own practice/firm owners earn significantly higher. CEED/NID/NIFT qualified professionals command premium fees.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai","Top Industries: Real estate developers, architecture firms, hospitality chains, retail brands, film sets, Godrej Interio, Livspace, HomeLane, DesignCafe, Sobha Group","Global Demand: Indian interior designers valued in UAE, Singapore, UK. Luxury hospitality sector creating global opportunities. Freelancing via Houzz/Instagram growing rapidly. Virtual design consultations expanding remote work scope.","Top Institutions","Government:","School of Planning & Architecture (SPA), New Delhi","National Institute of Design (NID), Ahmedabad","CEPT University, Ahmedabad","Government College of Architecture, Lucknow","Private:","Pearl Academy","Lovely Professional University (LPU), Punjab","JD Institute of Fashion Technology","Vogue Institute of Fashion Technology, Bangalore","Online:","Coursera (Interior Design & Home Décor Courses)","Udemy (Interior Design Masterclass)","Skillshare (Space Planning & Interior Styling)","Domestika (Interior Design & 3D Visualization)","Career Opportunities","Conventional","Residential Interior Designer at design firms (e.g., Design Cafe, HomeLane)","Commercial/Corporate Interior Designer for offices, hotels, and retail","Furniture Designer at manufacturing or bespoke design studios","Set/Exhibition Designer for films, events, and trade shows","New-Age & AI-Driven","Smart-home and IoT-integrated interior designer","3D Visualization and VR Walkthrough Specialist","Sustainable/Biophilic Interior Designer using green materials","AI-assisted space planning and generative layout designer","Remote/Entrepreneurship","Freelance interior designer and consultant for residential projects","Own interior design studio or boutique firm","Interior design influencer, blogger, or YouTube content creator","Online interior design consultant and e-design service provider"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹2 Crore+",
+          "Senior / Lead Role (10+ yrs): ₹15–28 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹7–14 LPA",
+          "Junior / Associate (3–5 yrs): ₹4–7 LPA",
+          "Entry Level (0–2 yrs): ₹2.5–4 LPA",
+          "Note: Metro cities pay 45–60% more. Own practice/firm owners earn significantly higher. CEED/NID/NIFT qualified professionals command premium fees.",
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai",
+          "Top Industries: Real estate developers, architecture firms, hospitality chains, retail brands, film sets, Godrej Interio, Livspace, HomeLane, DesignCafe, Sobha Group",
+          "Global Demand: Indian interior designers valued in UAE, Singapore, UK. Luxury hospitality sector creating global opportunities. Freelancing via Houzz/Instagram growing rapidly. Virtual design consultations expanding remote work scope."
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1535,9 +1965,21 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Public: National Institute of Design (NID) Ahmedabad, CEPT University (Ahmedabad), Sir J.J. School of Art (Mumbai), SPA Delhi.",
-          "Private: Pearl Academy (Delhi/Mumbai/Jaipur), Manipal School of Architecture & Planning, Symbiosis (Pune), RV College of Architecture (Bangalore).",
-          "Online/Distance: IGNOU (Diploma) and JD Institute (Online certifications)."
+          "Government: School of Planning & Architecture (SPA) New Delhi, National Institute of Design (NID) Ahmedabad, CEPT University Ahmedabad, Government College of Architecture Lucknow",
+          "Private: Pearl Academy, Lovely Professional University (LPU) Punjab, JD Institute of Fashion Technology, Vogue Institute of Fashion Technology Bangalore",
+          "Online: Coursera (Interior Design & Home Décor Courses), Udemy (Interior Design Masterclass), Skillshare (Space Planning & Interior Styling), Domestika (Interior Design & 3D Visualization)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE,
+        content: [
+          "Conventional: Residential Interior Designer at design firms (e.g., Design Cafe, HomeLane), Commercial/Corporate Interior Designer for offices, hotels, and retail, Furniture Designer at manufacturing or bespoke design studios, Set/Exhibition Designer for films, events, and trade shows",
+          "New-Age & AI-Driven: Smart-home and IoT-integrated interior designer, 3D Visualization and VR Walkthrough Specialist, Sustainable/Biophilic Interior Designer using green materials, AI-assisted space planning and generative layout designer",
+          "Remote/Entrepreneurship: Freelance interior designer and consultant for residential projects, Own interior design studio or boutique firm, Interior design influencer, blogger, or YouTube content creator, Online interior design consultant and e-design service provider"
         ]
       },
       {
@@ -1718,7 +2160,19 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹3–5 LPA","Entry Level (0–2 yrs): ₹2–3 LPA","Note: Metro cities pay 35–50% more. Rare language pairs (Japanese, Korean, German) command premium rates. UN/diplomatic interpreters earn significantly higher.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Chennai, Hyderabad, Kolkata","Top Industries: Embassies, MNCs, IT/BPO firms, publishing, legal firms, tourism, UN agencies, Google, Amazon, TransPerfect, Lionbridge, SDL","Global Demand: AI translation creating hybrid human+AI roles. Freelancing on ProZ/TranslatorsCafe booming. High demand in USA, EU, Japan, South Korea. Remote interpreting via Zoom widely accepted now.","Top Institutions","Government:","Jawaharlal Nehru University (JNU), New Delhi","English and Foreign Languages University (EFLU), Hyderabad","University of Delhi (DU)","Banaras Hindu University (BHU), Varanasi","Private:","Symbiosis International University, Pune","Amity School of Languages, Noida","Christ University, Bangalore","Lovely Professional University (LPU), Punjab","Online:","Coursera (Translation & Interpreting Courses)","Udemy (Professional Translation Masterclass)","EdX (Linguistics & Translation Studies)","Skillshare (Language & Translation Skills)","Career Opportunities","Conventional","Government Translator/Interpreter (courts, ministries, embassies)","Conference Interpreter for international summits and diplomatic events","Literary Translator for publishing houses and academic journals","Corporate Interpreter at MNCs and foreign companies (Japanese, Korean, French, German)","New-Age & AI-Driven","AI/Machine Translation post-editor and quality specialist","Localization Specialist for tech companies, apps, and gaming","NLP (Natural Language Processing) data trainer for AI language models","Multilingual voice-over and dubbing specialist for OTT platforms","Remote/Entrepreneurship","Freelance translator on platforms like Upwork, Fiverr, and ProZ","Own translation agency or localization consultancy","Remote telephonic/video interpreter for global healthcare and legal firms","Online language tutor and translation course creator"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹1 Crore+",
+          "Senior / Lead Role (10+ yrs): ₹10–20 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹5–9 LPA",
+          "Junior / Associate (3–5 yrs): ₹3–5 LPA",
+          "Entry Level (0–2 yrs): ₹2–3 LPA",
+          "Note: Metro cities pay 35–50% more. Rare language pairs (Japanese, Korean, German) command premium rates. UN/diplomatic interpreters earn significantly higher.",
+          "Where Are the Jobs?",
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Chennai, Hyderabad, Kolkata",
+          "Top Industries: Embassies, MNCs, IT/BPO firms, publishing, legal firms, tourism, UN agencies, Google, Amazon, TransPerfect, Lionbridge, SDL",
+          "Global Demand: AI translation creating hybrid human+AI roles. Freelancing on ProZ/TranslatorsCafe booming. High demand in USA, EU, Japan, South Korea. Remote interpreting via Zoom widely accepted now."
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1738,11 +2192,21 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North: Jawaharlal Nehru University (JNU), University of Delhi, Jamia Millia Islamia.",
-          "South: English and Foreign Languages University (EFLU), Hyderabad; University of Madras.",
-          "West: Savitribai Phule Pune University, Mumbai University.",
-          "East: Visva-Bharati, Santiniketan; EFLU (Regional Center, Shillong).",
-          "Distance Learning: IGNOU (offers the famous PGDT course)."
+          "Government: Jawaharlal Nehru University (JNU) New Delhi, English and Foreign Languages University (EFLU) Hyderabad, University of Delhi (DU), Banaras Hindu University (BHU) Varanasi",
+          "Private: Symbiosis International University Pune, Amity School of Languages Noida, Christ University Bangalore, Lovely Professional University (LPU) Punjab",
+          "Online: Coursera (Translation & Interpreting Courses), Udemy (Professional Translation Masterclass), EdX (Linguistics & Translation Studies), Skillshare (Language & Translation Skills)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE,
+        content: [
+          "Conventional: Government Translator/Interpreter (courts, ministries, embassies), Conference Interpreter for international summits and diplomatic events, Literary Translator for publishing houses and academic journals, Corporate Interpreter at MNCs and foreign companies (Japanese, Korean, French, German)",
+          "New-Age & AI-Driven: AI/Machine Translation post-editor and quality specialist, Localization Specialist for tech companies, apps, and gaming, NLP (Natural Language Processing) data trainer for AI language models, Multilingual voice-over and dubbing specialist for OTT platforms",
+          "Remote/Entrepreneurship: Freelance translator on platforms like Upwork, Fiverr, and ProZ, Own translation agency or localization consultancy, Remote telephonic/video interpreter for global healthcare and legal firms, Online language tutor and translation course creator"
         ]
       },
       {
@@ -1816,6 +2280,18 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Watch with Subs: Watch foreign movies with subtitles; try to spot when the translation is 'off.'",
           "Use Free Apps: Start with Duolingo or Memrise to build a foundation.",
           "Volunteer: Try translating a Wikipedia article or subtitles for a YouTube video in your favorite hobby."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Jawaharlal Nehru University (JNU) New Delhi, English and Foreign Languages University (EFLU) Hyderabad, University of Delhi (DU), Banaras Hindu University (BHU) Varanasi",
+          "Private: Symbiosis International University Pune, Amity School of Languages Noida, Christ University Bangalore, Lovely Professional University (LPU) Punjab",
+          "Online: Coursera (Translation & Interpreting Courses), Udemy (Professional Translation Masterclass), EdX (Linguistics & Translation Studies), Skillshare (Language & Translation Skills)"
         ]
       },
       {

@@ -104,10 +104,13 @@ export function CareerPageDynamic({
     else if (titleLower.includes('day in the life')) id = 'dayinlife';
     else if (titleLower.includes('is this you') || titleLower.includes('traits') || titleLower.includes('personality')) id = 'who';
     else if (titleLower.includes('responsibilities') || titleLower.includes('workflow')) id = 'responsibilities';
-    else if (titleLower.includes('what will it cost') || titleLower.includes('investment required')) id = 'salary';
+    else if (titleLower.includes('what will it cost') || titleLower.includes('investment required')) id = 'cost';
     else if (titleLower.includes('challenges')) id = 'challenges';
     else if (titleLower.includes('emerging trends') || titleLower.includes('future') || titleLower.includes('outlook')) id = 'future';
     else if (titleLower.includes('skills to build') || titleLower.includes('school')) id = 'startnow';
+    else if (titleLower.includes('famous') || titleLower.includes('personalities')) id = 'personalities';
+    else if (titleLower.includes('scholarship')) id = 'scholarships';
+    else if (titleLower.includes('certification') || titleLower.includes('professional bodies')) id = 'certifications';
     else if (titleLower.includes('famous') || titleLower.includes('personalities')) id = 'personalities';
     
     if (id === 'market' || id === 'salary') {
@@ -1284,43 +1287,24 @@ export function CareerPageDynamic({
         // ── institutions / study / locations ───────────────────────
         if (section.id === 'institutions' || section.id === 'locations' || section.id === 'study') {
           const groupedContent: Record<string, string[]> = {};
-          let currentGroup = "Public/Premier";
           
           const content = section.content || [];
-          const flattenedContent: string[] = [];
+          
+          // Parse each line which may contain "Type: item1, item2, item3"
           content.forEach((item: string) => {
-            if (typeof item === 'string' && item.includes('\n')) {
-              flattenedContent.push(...item.split('\n').map(s => s.trim()).filter(s => s));
-            } else {
-              flattenedContent.push(item);
-            }
-          });
-
-          flattenedContent.forEach((item: string) => {
             const colonIndex = item.indexOf(":");
-            if (colonIndex > -1 && item.includes(";")) {
+            if (colonIndex > -1) {
               const type = item.substring(0, colonIndex).trim();
               const contentStr = item.substring(colonIndex + 1).trim();
-              const institutions = contentStr.split(";").map(i => i.trim()).filter(i => i);
-              groupedContent[type] = institutions;
-            } else {
-              const trimmed = item.trim();
-              const isHeader = (
-                (!trimmed.includes(":") || (trimmed.endsWith(":") && trimmed.split(" ").length <= 4)) && 
-                ["government", "private", "online", "public", "central", "state", "top institutions", "north", "south", "east", "west", "premier"].some(h => trimmed.toLowerCase().includes(h))
-              );
               
-              if (isHeader) {
-                 currentGroup = trimmed.replace(":", "").trim();
-                 if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
-              } else {
-                 if (!groupedContent[currentGroup]) groupedContent[currentGroup] = [];
-                 let cleaned = item;
-                 if (cleaned.toLowerCase().includes("top institutions for") && cleaned.toLowerCase().includes("in india")) return;
-                 if (cleaned.endsWith(":")) cleaned = cleaned.slice(0, -1).trim();
-                 if (cleaned) {
-                    groupedContent[currentGroup].push(cleaned);
-                 }
+              // Split by comma or semicolon to get individual institutions
+              const institutions = contentStr
+                .split(/[,;]/)
+                .map(i => i.trim())
+                .filter(i => i && !i.toLowerCase().includes("not recommended"));
+              
+              if (institutions.length > 0) {
+                groupedContent[type] = institutions;
               }
             }
           });
@@ -1569,8 +1553,112 @@ export function CareerPageDynamic({
           );
         }
 
+        // ── scholarships ──────────────────────────────────────────────
+        if (section.id === 'scholarships') {
+          return (
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Award className="w-8 sm:w-10 h-8 sm:h-10 text-amber-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      <TranslatedText as="span">{section.title}</TranslatedText>
+                    </h2>
+                  </div>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    <TranslatedText as="span">{section.description}</TranslatedText>
+                  </p>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
+                  {section.content?.map((item: string, idx: number) => {
+                    const colonIdx = item.indexOf(':');
+                    let label = item;
+                    let details = '';
+                    if (colonIdx !== -1) {
+                      label = item.substring(0, colonIdx).trim();
+                      details = item.substring(colonIdx + 1).trim();
+                    }
+                    
+                    const scholarshipIcons = [Award, Trophy, Lightbulb, Zap, Globe, BookOpen];
+                    const IconComponent = scholarshipIcons[idx % scholarshipIcons.length];
+                    
+                    return (
+                      <div key={idx} className="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-amber-300 hover:shadow-lg transition-all">
+                        <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
+                          <IconComponent className="w-6 h-6 text-amber-600 flex-shrink-0 mt-0.5" />
+                          <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
+                            <TranslatedText as="span">{label}</TranslatedText>
+                          </h4>
+                        </div>
+                        {colonIdx !== -1 && (
+                          <p className="text-sm text-slate-600 leading-relaxed pl-9 sm:pl-10">
+                            <TranslatedText as="span">{details}</TranslatedText>
+                          </p>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          );
+        }
+
+        // ── certifications ────────────────────────────────────────────
+        if (section.id === 'certifications') {
+          return (
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Award className="w-8 sm:w-10 h-8 sm:h-10 text-blue-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      <TranslatedText as="span">{section.title}</TranslatedText>
+                    </h2>
+                  </div>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    <TranslatedText as="span">{section.description}</TranslatedText>
+                  </p>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
+                  {section.content?.map((item: string, idx: number) => {
+                    const colonIdx = item.indexOf(':');
+                    let label = item;
+                    let details = '';
+                    if (colonIdx !== -1) {
+                      label = item.substring(0, colonIdx).trim();
+                      details = item.substring(colonIdx + 1).trim();
+                    }
+                    
+                    const certIcons = [Award, Trophy, Lightbulb, Zap, Globe, BookOpen];
+                    const IconComponent = certIcons[idx % certIcons.length];
+                    
+                    return (
+                      <div key={idx} className="bg-slate-50 rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all">
+                        <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
+                          <IconComponent className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
+                          <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
+                            <TranslatedText as="span">{label}</TranslatedText>
+                          </h4>
+                        </div>
+                        {colonIdx !== -1 && (
+                          <p className="text-sm text-slate-600 leading-relaxed pl-9 sm:pl-10">
+                            <TranslatedText as="span">{details}</TranslatedText>
+                          </p>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          );
+        }
+
         // ── costs / investment ─────────────────────────────────────
-        if (section.id === 'costs' || section.id === 'investment') {
+        if (section.id === 'costs' || section.id === 'investment' || section.id === 'cost') {
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
@@ -1630,7 +1718,7 @@ export function CareerPageDynamic({
                             <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Estimate</span>
                           </div>
                           <h4 className="text-lg font-bold text-slate-900 mb-2 tracking-tight leading-snug"><TranslatedText as="span">{label}</TranslatedText></h4>
-                          <div className="text-xl font-black text-emerald-600 mb-4 tracking-tight"><TranslatedText as="span">{details}</TranslatedText></div>
+                          <div className="text-lg text-slate-700 mb-4 tracking-tight"><TranslatedText as="span">{details}</TranslatedText></div>
                         </div>
                       </div>
                     );
