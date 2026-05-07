@@ -98,8 +98,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹15 LPA – ₹25 LPA","Mid-Level Professional (5–8 yrs): ₹9 LPA – ₹15 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹9 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹6 LPA","Note: International routes and metros offer significantly higher pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Kolkata.","Top Industries: Commercial Airlines, Private Charters, Luxury Hospitality.","Global Demand: High demand in UAE, Qatar, and Singapore.","Top Institutions","Government","Indira Gandhi Institute of Aeronautics (IGIA), New Delhi","Rajiv Gandhi National Aviation Academy, Hyderabad","National Institute of Aviation Management and Research (NIAMAR), Delhi","Airports Authority of India Training Centre (AAITC), New Delhi","Private","Frankfinn Institute of Air Hostess Training, Pan-India","Air Hostess Academy (AHA), Bangalore","Jet Airways Training Academy, Mumbai","Universal Aviation Academy, Chennai","Online","Udemy — Cabin Crew & Air Hostess Training Course","Coursera — Aviation Management & Hospitality Modules","IATA Training — Cabin Crew Safety & Service Programme","Simplilearn — Airline & Hospitality Service Certification","Career Opportunities","Conventional","Cabin Crew / Air Hostess","Senior Cabin Crew","Inflight Supervisor","Ground Services Executive","New-age and AI driven","Crew Compliance & Analytics Executive","Customer Experience Executive","Digital Service Trainer","Airline Safety Data Coordinator","Remote / Entrepreneurship","Aviation Grooming Trainer","Cabin Crew Interview Coach","Travel Content Creator","Airline Hospitality Consultant"]
-      },{
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹15 LPA – ₹25 LPA","Mid-Level Professional (5–8 yrs): ₹9 LPA – ₹15 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹9 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹6 LPA","Note: International routes and metros offer significantly higher pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Kolkata.","Top Industries: Commercial Airlines, Private Charters, Luxury Hospitality.","Global Demand: High demand in UAE, Qatar, and Singapore."]
+      },
+      {
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -121,12 +122,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top training institutes across India.",
         color: BLUE,
         content: [
-          "North: New Delhi YMCA (Delhi), Indira Gandhi Institute of Aeronautics (Nagpur/Jaipur), Frankfinn Institute (Delhi, Jaipur).",
-          "South: Remo International College (Chennai), Universal Aviation Academy (Chennai), Frankfinn Institute (Bangalore, Hyderabad).",
-          "East: Airway India (Kolkata), Frankfinn Institute (Kolkata).",
-          "West: Bombay Flying Club (Mumbai), Panache Academy (Ahmedabad), Frankfinn Institute (Mumbai, Pune).",
-          "Northeast: Frankfinn Centers (Guwahati, Shillong).",
-          "Note: Most institutes offer both classroom training and practical exposure. Choose institutes with DGCA recognition and airline partnerships."
+          "Government: Indira Gandhi Institute of Aeronautics (IGIA) New Delhi; Rajiv Gandhi National Aviation Academy Hyderabad; National Institute of Aviation Management and Research (NIAMAR) Delhi; Airports Authority of India Training Centre (AAITC) New Delhi",
+          "Private: Frankfinn Institute of Air Hostess Training Pan-India; Air Hostess Academy (AHA) Bangalore; Jet Airways Training Academy Mumbai; Universal Aviation Academy Chennai",
+          "Online: Udemy — Cabin Crew & Air Hostess Training Course; Coursera — Aviation Management & Hospitality Modules; IATA Training — Cabin Crew Safety & Service Programme; Simplilearn — Airline & Hospitality Service Certification"
         ]
       },
       {
@@ -335,7 +333,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹18 LPA – ₹35 LPA","Mid-Level Professional (5–8 yrs): ₹9 LPA – ₹16 LPA","Junior / Associate (3–5 yrs): ₹5 LPA – ₹9 LPA","Entry Level (0–2 yrs): ₹3 LPA – ₹5 LPA","Note: 5-star hotels pay higher than standalone cafes.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Goa, Hyderabad, Jaipur.","Top Industries: Luxury Hotels, Cruise Lines, Cloud Kitchens, Catering.","Global Demand: High demand in Australia, Canada, UAE, Europe.","Top Institutions","Government","Institute of Hotel Management (IHM), New Delhi","Institute of Hotel Management (IHM), Mumbai","Institute of Hotel Management (IHM), Chennai","Dr. Ambedkar Institute of Hotel Management, Chandigarh","Private","Welcomgroup Graduate School of Hotel Administration, Manipal","Culinary Academy of India (CAI), Hyderabad","International Institute of Culinary Arts (IICA), New Delhi","Lavonne Academy of Baking Science & Pastry Arts, Bangalore","Online","Udemy — Professional Cooking & Culinary Arts Course","Coursera — Food & Beverage Management Programme","NCHM Online — Basic Food Production Certificate","Alison — International Culinary Arts Diploma","Career Opportunities","Conventional","Chef","Sous Chef","Pastry Chef","Bakery Chef","New-age and AI driven","Recipe Development Executive","Food Innovation Executive","Menu Research Analyst","Culinary Content Specialist","Remote / Entrepreneurship","Home Chef","Cloud Kitchen Founder","Food Blogger / Content Creator","Culinary Consultant"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹18 LPA – ₹35 LPA","Mid-Level Professional (5–8 yrs): ₹9 LPA – ₹16 LPA","Junior / Associate (3–5 yrs): ₹5 LPA – ₹9 LPA","Entry Level (0–2 yrs): ₹3 LPA – ₹5 LPA","Note: 5-star hotels pay higher than standalone cafes.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Goa, Hyderabad, Jaipur.","Top Industries: Luxury Hotels, Cruise Lines, Cloud Kitchens, Catering.","Global Demand: High demand in Australia, Canada, UAE, Europe."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -358,11 +356,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top culinary institutes across India.",
         color: BLUE,
         content: [
-          "Government: IHM Pusa (Delhi), IHM Mumbai, Indian Culinary Institute (Noida & Tirupati), ICI Bangalore.",
-          "Private: Culinary Academy of India (Hyderabad), WGSHA (Manipal), Symbiosis School of Culinary Arts (Pune), Institute of Hotel Management (Bangalore).",
-          "Specialized: Academy of Pastry & Culinary Arts (APCA) - multiple locations for baking lovers, Institute of Bakery & Culinary Arts (IBCA).",
-          "Online/Hybrid: Many institutes now offer online theory with in-person practical sessions.",
-          "Note: Choose institutes with NCHMC recognition, industry partnerships, and strong placement records."
+          "Government: Institute of Hotel Management (IHM), New Delhi; Institute of Hotel Management (IHM), Mumbai; Institute of Hotel Management (IHM), Chennai; Dr. Ambedkar Institute of Hotel Management, Chandigarh",
+          "Private: Welcomgroup Graduate School of Hotel Administration, Manipal; Culinary Academy of India (CAI), Hyderabad; International Institute of Culinary Arts (IICA), New Delhi; Lavonne Academy of Baking Science & Pastry Arts, Bangalore",
+          "Online: Udemy — Professional Cooking & Culinary Arts Course; Coursera — Food & Beverage Management Programme; NCHM Online — Basic Food Production Certificate; Alison — International Culinary Arts Diploma"
         ]
       },
       {
@@ -571,7 +567,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹1.5Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹10L – ₹18L","Junior / Associate (3–5 yrs): ₹6L – ₹10L","Entry Level (0–2 yrs): ₹3.5L – ₹6L","Note: Metros and luxury weddings offer the highest pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Hyderabad, Jaipur.","Top Industries: MICE, Weddings, Corporate, Entertainment.","Global Demand: UAE, Singapore; AI-driven hybrid event trends.","Top Institutions","Government","Indian Institute of Tourism & Travel Management (IITTM), Gwalior","Institute of Hotel Management (IHM), New Delhi","National Institute of Fashion Technology (NIFT), New Delhi","Chandigarh University (State Government), Chandigarh","Private","National Academy of Event Management & Development (NAEMD), Mumbai","Whistling Woods International, Mumbai","Amity Institute of Event Management, New Delhi","Pearl Academy of Event Management, New Delhi","Online","Udemy — Event Planning & Management Masterclass","Coursera — Event Management & Hospitality Programme","Alison — Professional Event Planning Diploma","NIEM Online — Certified Event Management Course","Career Opportunities","Conventional","Event Planner","Event Coordinator","Wedding Planner","Exhibition Manager","New-age and AI driven","Experiential Marketing Executive","Event Technology Specialist","Customer Experience Strategist","Event Data & Analytics Executive","Remote / Entrepreneurship","Freelance Event Consultant","Virtual Event Manager","Event Content Creator","Event Décor Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹1.5Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹10L – ₹18L","Junior / Associate (3–5 yrs): ₹6L – ₹10L","Entry Level (0–2 yrs): ₹3L – ₹6L","Note: Metros and luxury weddings offer the highest pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Hyderabad, Jaipur.","Top Industries: MICE, Weddings, Corporate, Entertainment.","Global Demand: UAE, Singapore; AI-driven hybrid event trends."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -594,11 +590,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top event management institutes across India.",
         color: BLUE,
         content: [
-          "National: National Institute of Event Management (NIEM - Mumbai, Pune, Ahmedabad), NAEMD (Mumbai, Delhi, Jaipur).",
-          "North: Amity School of Communication (Noida), Tritya Institute (TIEM - Delhi), Delhi University (Hospitality Dept).",
-          "South: Indian School of Media (Bangalore), University of Mumbai (Hospitality Dept), Christ University (Bangalore).",
-          "Online: Wizcraft Online Programs via Talentedge, Coursera, Udemy.",
-          "Note: Choose institutes with industry partnerships, strong placement records, and practical exposure."
+          "Government: Indian Institute of Tourism & Travel Management (IITTM), Gwalior; Institute of Hotel Management (IHM), New Delhi; National Institute of Fashion Technology (NIFT), New Delhi; Chandigarh University (State Government), Chandigarh",
+          "Private: National Academy of Event Management & Development (NAEMD), Mumbai; Whistling Woods International, Mumbai; Amity Institute of Event Management, New Delhi; Pearl Academy of Event Management, New Delhi",
+          "Online: Udemy — Event Planning & Management Masterclass; Coursera — Event Management & Hospitality Programme; Alison — Professional Event Planning Diploma; NIEM Online — Certified Event Management Course"
         ]
       },
       {
@@ -808,7 +802,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹2Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹45L","Mid-Level Professional (5–8 yrs): ₹10L – ₹18L","Junior / Associate (3–5 yrs): ₹6L – ₹9L","Entry Level (0–2 yrs): ₹3.5L – ₹5.5L","Note: Metros and luxury brands pay significantly higher.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Goa, Jaipur.","Top Industries: Luxury Hotels, Cruise Lines, Resorts.","Global Demand: High demand in UAE, Maldives, USA, UK.","Top Institutions","Government","Institute of Hotel Management (IHM), New Delhi","Institute of Hotel Management (IHM), Mumbai","Institute of Hotel Management (IHM), Bangalore","National Council for Hotel Management & Catering Technology (NCHMCT), Noida","Private","Welcomgroup Graduate School of Hotel Administration, Manipal","Oberoi Centre of Learning & Development, New Delhi","Institute of Hotel Management (IHM), Aurangabad (Taj Group)","Amity School of Hospitality, Noida","Online","Coursera — Hotel Management & Hospitality Programme","Udemy — Hotel Management & Operations Masterclass","NCHM Online — Food & Beverage Service Certificate","Alison — International Hotel Management Diploma","Career Opportunities","Conventional","Hotel Manager","Front Office Executive","Food & Beverage Manager","Housekeeping Executive","New-age and AI driven","Revenue Management Executive","Guest Experience Manager","Hospitality Data Analyst","Digital Reservation Specialist","Remote / Entrepreneurship","Homestay Owner","Hospitality Consultant","Travel & Hotel Content Creator","Boutique Stay Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹2Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹45L","Mid-Level Professional (5–8 yrs): ₹10L – ₹18L","Junior / Associate (3–5 yrs): ₹6L – ₹9L","Entry Level (0–2 yrs): ₹3.5L – ₹5.5L","Note: Metros and luxury brands pay significantly higher.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Goa, Jaipur.","Top Industries: Luxury Hotels, Cruise Lines, Resorts.","Global Demand: High demand in UAE, Maldives, USA, UK."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -831,12 +825,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top hotel management institutes across India.",
         color: BLUE,
         content: [
-          "North: IHM Pusa (Delhi), IHM Chandigarh, Amity School of Hospitality (Noida).",
-          "West: IHM Mumbai, IHM Aurangabad (Taj Group), Welcomgroup Graduate School (Manipal).",
-          "South: IHM Bangalore, Welcomgroup Graduate School (Manipal), Christ University (Bangalore).",
-          "East: IHM Kolkata, IHM Shillong.",
-          "Private: Institute of Hotel Management Aurangabad, Aptech Institute of Hotel Management.",
-          "Note: Choose institutes with NCHMC recognition, industry partnerships, and strong placement records."
+          "Government: Institute of Hotel Management (IHM), New Delhi; Institute of Hotel Management (IHM), Mumbai; Institute of Hotel Management (IHM), Bangalore; National Council for Hotel Management & Catering Technology (NCHMCT), Noida",
+          "Private: Welcomgroup Graduate School of Hotel Administration, Manipal; Oberoi Centre of Learning & Development, New Delhi; Institute of Hotel Management (IHM) Aurangabad (Taj Group); Amity School of Hospitality, Noida",
+          "Online: Coursera — Hotel Management & Hospitality Programme; Udemy — Hotel Management & Operations Masterclass; NCHM Online — Food & Beverage Service Certificate; Alison — International Hotel Management Diploma"
         ]
       },
       {
@@ -1045,7 +1036,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹40L – ₹1.5Cr","Senior (10+ yrs): ₹15L – ₹30L","Mid-Level (5–8 yrs): ₹8L – ₹14L","Junior (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros and niche tourism offer higher pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Kochi, Goa.","Top Industries: OTAs, Tour Operators, Airlines, MICE.","Global Demand: UAE, Singapore, Thailand, Australia.","Top Institutions","Government","Indian Institute of Tourism & Travel Management (IITTM), Gwalior","National Institute of Water Sports (NIWS), Goa","Institute of Hotel Management (IHM), New Delhi","Food Craft Institute (FCI), Patna (Ministry of Tourism)","Private","Amity Institute of Travel & Tourism, Noida","Institute of Tourism & Future Management Trends (ITFT), Chandigarh","Frank Finn Institute of Travel & Tourism, Pan-India","Kuoni Academy of Travel & Tourism, Mumbai","Online","Coursera — Travel & Tourism Management Programme","Udemy — Travel Agency & Tourism Business Masterclass","Alison — International Tourism & Hospitality Diploma","IATA Training — Travel & Tourism Foundation Certificate","Career Opportunities","Conventional","Travel Consultant","Tour Manager","Ticketing Executive","Destination Manager","New-age and AI driven","Digital Travel Specialist","Travel Data Analyst","Customer Experience Executive","Tourism Partnerships Executive","Remote / Entrepreneurship","Freelance Travel Planner","Virtual Travel Consultant","Travel Content Creator","Tour Startup Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹40L – ₹1.5Cr","Senior (10+ yrs): ₹15L – ₹30L","Mid-Level (5–8 yrs): ₹8L – ₹14L","Junior (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros and niche tourism offer higher pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Kochi, Goa.","Top Industries: OTAs, Tour Operators, Airlines, MICE.","Global Demand: UAE, Singapore, Thailand, Australia."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1068,11 +1059,18 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top travel and tourism institutes across India.",
         color: BLUE,
         content: [
-          "Government: IITTM (Gwalior, Noida, Bhubaneswar, Nellore), IHM (various locations), IGNOU (Distance Learning).",
-          "Private: Amity Institute of Travel & Tourism, Christ University (Bangalore), Banaras Hindu University (BHU), Symbiosis Institute of Travel & Tourism.",
-          "Specialized: IATA Training Centers across India, Travel Academy India.",
-          "Online: IGNOU offers distance learning programs in Tourism Studies.",
-          "Note: Choose institutes with IATA recognition, industry partnerships, and strong placement records."
+          "Government: Indian Institute of Tourism & Travel Management (IITTM), Gwalior",
+          "National Institute of Water Sports (NIWS), Goa",
+          "Institute of Hotel Management (IHM), New Delhi",
+          "Food Craft Institute (FCI), Patna (Ministry of Tourism)",
+          "Private: Amity Institute of Travel & Tourism, Noida",
+          "Institute of Tourism & Future Management Trends (ITFT), Chandigarh",
+          "Frank Finn Institute of Travel & Tourism, Pan-India",
+          "Kuoni Academy of Travel & Tourism, Mumbai",
+          "Online: Coursera — Travel & Tourism Management Programme",
+          "Udemy — Travel Agency & Tourism Business Masterclass",
+          "Alison — International Tourism & Hospitality Diploma",
+          "IATA Training — Travel & Tourism Foundation Certificate"
         ]
       },
       {
@@ -1282,7 +1280,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60L – ₹2Cr","Senior / Lead Role (10+ yrs): ₹25L – ₹45L","Mid-Level Professional (5–8 yrs): ₹12L – ₹20L","Junior / Associate (3–5 yrs): ₹7L – ₹12L","Entry Level (0–2 yrs): ₹4L – ₹7L","Note: Luxury segment and destination weddings pay significantly more.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Jaipur, Udaipur, Hyderabad, Goa.","Top Industries: Luxury Event Agencies, Hospitality, Independent Consultancy.","Global Demand: High demand in UAE, Italy, Thailand, Turkey.","Top Institutions","Government","Indian Institute of Tourism & Travel Management (IITTM), Gwalior","Institute of Hotel Management (IHM), New Delhi","National Institute of Fashion Technology (NIFT), New Delhi","Jamia Millia Islamia — Department of Mass Communication & Event Studies, New Delhi","Private","National Academy of Event Management & Development (NAEMD), Mumbai","Wedding Academy of India (WAI), New Delhi","Amity Institute of Event Management, Noida","Pearl Academy — Event & Experiential Design, New Delhi","Online","Udemy — Wedding Planning & Management Masterclass","Coursera — Event & Wedding Management Programme","Alison — Professional Wedding Planning Diploma","Shaw Academy — Certified Wedding Planner Course","Career Opportunities","Conventional","Wedding Planner","Wedding Coordinator","Wedding Operations Manager","Venue Coordinator","New-age and AI driven","Wedding Experience Designer","Event Technology Specialist","Client Relationship Executive","Wedding Data & Budget Analyst","Remote / Entrepreneurship","Destination Wedding Consultant","Wedding Content Creator","Bridal Services Entrepreneur","Wedding Décor Consultant"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60L – ₹2Cr","Senior / Lead Role (10+ yrs): ₹25L – ₹45L","Mid-Level Professional (5–8 yrs): ₹12L – ₹20L","Junior / Associate (3–5 yrs): ₹7L – ₹12L","Entry Level (0–2 yrs): ₹4L – ₹7L","Note: Luxury segment and destination weddings pay significantly more.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Jaipur, Udaipur, Hyderabad, Goa.","Top Industries: Luxury Event Agencies, Hospitality, Independent Consultancy.","Global Demand: High demand in UAE, Italy, Thailand, Turkey."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1305,12 +1303,18 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top wedding planning institutes across India.",
         color: BLUE,
         content: [
-          "North: TIEM (Delhi), WedCell Institute (Delhi), Amity School of Communication (Noida).",
-          "West: NIEM (Mumbai/Pune), NAEMD (Ahmedabad), Institute of Hotel Management (Mumbai).",
-          "South: Asian Institute of Event Management (Bangalore/Kolkata), Christ University (Bangalore).",
-          "East: IIEM (Bhubaneswar), Institute of Hotel Management (Kolkata).",
-          "Online: Many institutes offer online courses and certifications in wedding planning.",
-          "Note: Choose institutes with industry partnerships, strong placement records, and practical exposure."
+          "Government: Indian Institute of Tourism & Travel Management (IITTM), Gwalior",
+          "Institute of Hotel Management (IHM), New Delhi",
+          "National Institute of Fashion Technology (NIFT), New Delhi",
+          "Jamia Millia Islamia — Department of Mass Communication & Event Studies, New Delhi",
+          "Private: National Academy of Event Management & Development (NAEMD), Mumbai",
+          "Wedding Academy of India (WAI), New Delhi",
+          "Amity Institute of Event Management, Noida",
+          "Pearl Academy — Event & Experiential Design, New Delhi",
+          "Online: Udemy — Wedding Planning & Management Masterclass",
+          "Coursera — Event & Wedding Management Programme",
+          "Alison — Professional Wedding Planning Diploma",
+          "Shaw Academy — Certified Wedding Planner Course"
         ]
       },
       {

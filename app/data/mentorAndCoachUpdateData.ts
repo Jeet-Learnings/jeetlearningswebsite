@@ -45,12 +45,12 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
         description: "Real-world workflow of a mentor and coach.",
         color: PURPLE2,
         content: [
-          "8:00 AM: Start the day with meditation. To guide others, your own mind must be clear. Review notes for your first client, a VP at a tech startup struggling with 'Imposter Syndrome.'",
-          "10:00 AM: Zoom call begins. The client is stressed. You don't offer advice immediately. Instead, you ask, 'What is the evidence that you are not good enough?' By 11:00 AM, the client has realized their fear was irrational and leaves feeling empowered.",
-          "1:00 PM: Lunch with a young college graduate you're mentoring pro-bono. Unlike the morning coaching session, here you're more directive, sharing specific contacts and resume tips to help them land a job.",
-          "3:00 PM: Put on your 'content creator' hat. Record a 60-second video for LinkedIn titled '3 Ways to Say No Without Guilt.' In this career, building a personal brand is how you get clients.",
-          "5:00 PM: Head to a co-working space to conduct a group workshop on 'Emotional Intelligence for Sales Teams.' The energy is high, and you use role-playing games to teach empathy.",
-          "7:30 PM: Back home, spend an hour studying for your Master Certified Coach (MCC) exam. The learning never stops. Sleep knowing you helped at least five people fight their battles today."
+          "8:00 AM - Start the day with meditation. To guide others, your own mind must be clear. Review notes for your first client, a VP at a tech startup struggling with 'Imposter Syndrome.'",
+          "10:00 AM - Zoom call begins. The client is stressed. You don't offer advice immediately. Instead, you ask, 'What is the evidence that you are not good enough?' By 11:00 AM, the client has realized their fear was irrational and leaves feeling empowered.",
+          "1:00 PM - Lunch with a young college graduate you're mentoring pro-bono. Unlike the morning coaching session, here you're more directive, sharing specific contacts and resume tips to help them land a job.",
+          "3:00 PM - Put on your 'content creator' hat. Record a 60-second video for LinkedIn titled '3 Ways to Say No Without Guilt.' In this career, building a personal brand is how you get clients.",
+          "5:00 PM - Head to a co-working space to conduct a group workshop on 'Emotional Intelligence for Sales Teams.' The energy is high, and you use role-playing games to teach empathy.",
+          "7:30 PM - Back home, spend an hour studying for your Master Certified Coach (MCC) exam. The learning never stops. Sleep knowing you helped at least five people fight their battles today."
         ]
       },
       {

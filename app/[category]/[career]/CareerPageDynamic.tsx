@@ -1330,29 +1330,35 @@ export function CareerPageDynamic({
                   </p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
-                  {Object.entries(groupedContent).map(([type, insts], idx) => {
-                    const IconComponent = locIcons[idx % locIcons.length];
-                    return (
-                      <div key={idx} className="bg-slate-50 border border-slate-200 p-5 sm:p-6 rounded-xl hover:border-blue-300 hover:shadow-md transition-all">
-                        <div className="flex items-start gap-3 sm:gap-4 mb-4">
-                          <div className="w-9 sm:w-10 h-9 sm:h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <IconComponent className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600" />
+                  {Object.entries(groupedContent).length > 0 ? (
+                    Object.entries(groupedContent).map(([type, insts], idx) => {
+                      const IconComponent = locIcons[idx % locIcons.length];
+                      return (
+                        <div key={idx} className="bg-slate-50 border border-slate-200 p-5 sm:p-6 rounded-xl hover:border-blue-300 hover:shadow-md transition-all">
+                          <div className="flex items-start gap-3 sm:gap-4 mb-4">
+                            <div className="w-9 sm:w-10 h-9 sm:h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                              <IconComponent className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600" />
+                            </div>
+                            <h4 className="text-base sm:text-lg font-bold text-slate-900 mt-1">
+                              <TranslatedText as="span">{type}</TranslatedText>
+                            </h4>
                           </div>
-                          <h4 className="text-base sm:text-lg font-bold text-slate-900 mt-1">
-                            <TranslatedText as="span">{type}</TranslatedText>
-                          </h4>
+                          <ul className="space-y-2 pl-2">
+                            {insts.map((inst, i) => (
+                               <li key={i} className="flex gap-2 items-start text-sm text-slate-600">
+                                 <span className="text-blue-500 mt-0.5">•</span>
+                                 <span><TranslatedText as="span">{inst}</TranslatedText></span>
+                               </li>
+                            ))}
+                          </ul>
                         </div>
-                        <ul className="space-y-2 pl-2">
-                          {insts.map((inst, i) => (
-                             <li key={i} className="flex gap-2 items-start text-sm text-slate-600">
-                               <span className="text-blue-500 mt-0.5">•</span>
-                               <span><TranslatedText as="span">{inst}</TranslatedText></span>
-                             </li>
-                          ))}
-                        </ul>
-                      </div>
-                    );
-                  })}
+                      );
+                    })
+                  ) : (
+                    <div className="col-span-full text-center py-8">
+                      <p className="text-slate-500">No institutions data available</p>
+                    </div>
+                  )}
                 </div>
               </div>
             </section>

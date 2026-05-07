@@ -56,7 +56,7 @@ export default async function CareerPage({ params }: PageProps) {
     );
   }
 
-  // Use dynamic content extraction for careers without pre-built pageData
+  // Fallback: Use dynamic content extraction for careers without pre-built pageData
   return (
     <CareerPageDynamicContent
       category={category}

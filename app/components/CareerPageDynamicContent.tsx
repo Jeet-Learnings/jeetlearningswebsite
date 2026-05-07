@@ -177,7 +177,7 @@ export function CareerPageDynamicContent({
         const SectionIcon = iconMap[section.icon] || Info;
 
         // ── Pathways Section ──────────────────────────────────────
-        if (section.id === 'career_pathways') {
+        if (section.id === 'pathways') {
           const pathways: { title: string; steps: string[] }[] = [];
           let currentPathway: { title: string; steps: string[] } | null = null;
 
@@ -259,8 +259,110 @@ export function CareerPageDynamicContent({
           );
         }
 
+        // ── Institutions Section ──────────────────────────────────
+        if (section.id === 'institutions') {
+          const institutionTypes: { type: string; institutions: string[] }[] = [];
+
+          section.content.forEach((item: string) => {
+            const lower = item.toLowerCase();
+            
+            // Check if line contains type header with colon (e.g., "Government: inst1; inst2")
+            if (lower.startsWith('government:') || lower.startsWith('private:') || lower.startsWith('online:')) {
+              const colonIdx = item.indexOf(':');
+              const typeLabel = item.substring(0, colonIdx).trim();
+              const institutionsList = item.substring(colonIdx + 1).trim();
+              
+              const institutions = institutionsList
+                .split(';')
+                .map((inst: string) => inst.trim())
+                .filter((inst: string) => inst);
+              
+              institutionTypes.push({
+                type: typeLabel,
+                institutions: institutions
+              });
+            }
+          });
+
+          // If no structured data found, render content as-is
+          if (institutionTypes.length === 0) {
+            return (
+              <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto">
+                  <div className="mb-10 sm:mb-12">
+                    <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                      <Building2 className="w-8 sm:w-10 h-8 sm:h-10 text-blue-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                        {section.title}
+                      </h2>
+                    </div>
+                    <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                      {section.description}
+                    </p>
+                  </div>
+                  <div className="space-y-4 sm:space-y-5 md:space-y-6">
+                    {section.content.map((item: string, idx: number) => (
+                      <div
+                        key={idx}
+                        className="p-4 sm:p-5 md:p-6 bg-white rounded-lg sm:rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all"
+                      >
+                        <p className="text-sm sm:text-base text-slate-700 leading-relaxed break-words">
+                          {item}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            );
+          }
+
+          return (
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Building2 className="w-8 sm:w-10 h-8 sm:h-10 text-blue-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      {section.title}
+                    </h2>
+                  </div>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    {section.description}
+                  </p>
+                </div>
+
+                <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                  {institutionTypes.map((instType, tIdx) => (
+                    <div
+                      key={tIdx}
+                      className="bg-white rounded-xl sm:rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col hover:shadow-md transition-shadow"
+                    >
+                      <div className="p-4 sm:p-5 md:p-6 bg-slate-50 border-b border-slate-200 border-t-4 border-blue-500">
+                        <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-900 leading-tight">
+                          {instType.type}
+                        </h3>
+                      </div>
+                      <div className="p-4 sm:p-5 md:p-6 flex-1 flex flex-col gap-2 sm:gap-3">
+                        {instType.institutions.map((institution, iIdx) => (
+                          <div key={iIdx} className="flex items-start gap-3 sm:gap-4">
+                            <div className="w-2 h-2 rounded-full bg-blue-600 flex-shrink-0 mt-2 sm:mt-2.5"></div>
+                            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed break-words">
+                              {institution}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          );
+        }
+
         // ── Market/Salary Section ─────────────────────────────────
-        if (section.id === 'market_snapshot') {
+        if (section.id === 'market') {
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">

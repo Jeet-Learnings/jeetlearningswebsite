@@ -3588,12 +3588,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Kabir, a PR Manager at a top media agency in Mumbai",
         color: BLUE2,
         content: [
-          "09:00 AM: Kabir scans five different newspapers and Twitter trends. His client, a major tech company, is launching a new phone today. He checks if the 'leaks' he planted yesterday have been picked up by tech blogs.",
-          "10:30 AM: The Crisis Call. A small controversy has erupted—a tweet by the tech company's CEO was misinterpreted. Kabir jumps into action. He drafts a 'Clarification Statement,' gets it approved by the legal team, and sends it to key journalists to control the narrative. In PR, speed is everything.",
-          "01:00 PM: Lunch with an Influencer. He meets a popular Tech YouTuber at a cafe in Bandra. They discuss the upcoming phone launch. Kabir isn't paying him; he is pitching the story of why this phone matters. Relationships are his currency.",
-          "03:00 PM: Event Planning. Kabir heads to a 5-star hotel to oversee the setup for the evening launch event. He checks the stage lighting, the sound system, and the 'goodie bags' for the media. He ensures the 'Photo Wall' is perfectly lit for Instagram.",
-          "05:00 PM: The Press Conference. The event starts. Kabir is the bridge—he guides journalists to the CEO for interviews, ensures photographers get the right angle, and manages the chaos. He is the invisible hand making sure the event looks effortless.",
-          "08:00 PM: Wrap Up. The event trends on Twitter. Kabir sends a 'Coverage Report' to the client, showing them all the articles and posts generated today. He heads home, exhausted but buzzing with the adrenaline of a successful launch."
+          "09:00 AM - Kabir scans five different newspapers and Twitter trends. His client, a major tech company, is launching a new phone today. He checks if the 'leaks' he planted yesterday have been picked up by tech blogs.",
+          "10:30 AM - The Crisis Call. A small controversy has erupted—a tweet by the tech company's CEO was misinterpreted. Kabir jumps into action. He drafts a 'Clarification Statement,' gets it approved by the legal team, and sends it to key journalists to control the narrative. In PR, speed is everything.",
+          "01:00 PM - Lunch with an Influencer. He meets a popular Tech YouTuber at a cafe in Bandra. They discuss the upcoming phone launch. Kabir isn't paying him; he is pitching the story of why this phone matters. Relationships are his currency.",
+          "03:00 PM - Event Planning. Kabir heads to a 5-star hotel to oversee the setup for the evening launch event. He checks the stage lighting, the sound system, and the 'goodie bags' for the media. He ensures the 'Photo Wall' is perfectly lit for Instagram.",
+          "05:00 PM - The Press Conference. The event starts. Kabir is the bridge—he guides journalists to the CEO for interviews, ensures photographers get the right angle, and manages the chaos. He is the invisible hand making sure the event looks effortless.",
+          "08:00 PM - Wrap Up. The event trends on Twitter. Kabir sends a 'Coverage Report' to the client, showing them all the articles and posts generated today. He heads home, exhausted but buzzing with the adrenaline of a successful launch."
         ]
       },
       {
@@ -3818,12 +3818,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Ananya, a PR Executive at a leading agency in Mumbai",
         color: BLUE2,
         content: [
-          "09:00 AM: Ananya starts her day with 'Media Monitoring.' She scans 10 newspapers and tracks Twitter trends. 'Great! The Economic Times covered our client's sustainability initiative,' she notes. She clips the article and sends a 'Coverage Report' to the client.",
-          "10:30 AM: The Pitch. Her client, a FinTech startup, is launching a new app. Ananya calls a journalist from a major tech blog. She doesn't beg for coverage; she sells a story. 'Hi, did you know 40% of Indians struggle with saving? Our founder has a solution...' The journalist agrees to an interview.",
-          "01:00 PM: Crisis Control. A crisis erupts. A video of a rude delivery partner from her client's company has gone viral. Ananya jumps on a 'War Room' call. She drafts a 'Holding Statement' (an official apology and action plan) to be released immediately to stop the trolling.",
-          "03:00 PM: Content Creation. The chaos settles. She sits down to write a 'Press Release' for next week's event. Every word must be perfect—journalists hate grammatical errors.",
-          "05:00 PM: Influencer Coordination. She sends gift hampers to 20 lifestyle influencers for an upcoming campaign. She follows up to ensure they post the unboxing video at the right time.",
-          "07:30 PM: Networking Event. She heads to a Press Club mixer. It looks like a party, but she is working—building relationships with reporters so they pick up her phone calls next time."
+          "09:00 AM - Ananya starts her day with 'Media Monitoring.' She scans 10 newspapers and tracks Twitter trends. 'Great! The Economic Times covered our client's sustainability initiative,' she notes. She clips the article and sends a 'Coverage Report' to the client.",
+          "10:30 AM - The Pitch. Her client, a FinTech startup, is launching a new app. Ananya calls a journalist from a major tech blog. She doesn't beg for coverage; she sells a story. 'Hi, did you know 40% of Indians struggle with saving? Our founder has a solution...' The journalist agrees to an interview.",
+          "01:00 PM - Crisis Control. A crisis erupts. A video of a rude delivery partner from her client's company has gone viral. Ananya jumps on a 'War Room' call. She drafts a 'Holding Statement' (an official apology and action plan) to be released immediately to stop the trolling.",
+          "03:00 PM - Content Creation. The chaos settles. She sits down to write a 'Press Release' for next week's event. Every word must be perfect—journalists hate grammatical errors.",
+          "05:00 PM - Influencer Coordination. She sends gift hampers to 20 lifestyle influencers for an upcoming campaign. She follows up to ensure they post the unboxing video at the right time.",
+          "07:30 PM - Networking Event. She heads to a Press Club mixer. It looks like a party, but she is working—building relationships with reporters so they pick up her phone calls next time."
         ]
       },
       {
@@ -4043,12 +4043,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Zoya, a Digital Journalist at a leading news app in New Delhi",
         color: BLUE2,
         content: [
-          "08:00 AM: News Check: Zoya wakes up and immediately checks Twitter (X) and news wires. A major policy change was announced late last night. She quickly messages her editor: 'I'm doing a breakdown video on this.'",
-          "10:00 AM: The Newsroom Buzz. She reaches the office. It's chaotic but exciting. TVs are blaring different channels. She attends the morning editorial meeting where the team decides the 'Story of the Day.' Zoya pitches a story about rising electric vehicle sales in Tier-2 cities. Her editor gives the green light.",
-          "12:00 PM: Field Work: She grabs her 'MoJo Kit' (Mobile Journalism kit: a smartphone, a tripod, and a lapel mic). She doesn't need a big camera crew. She visits an EV showroom in Noida to interview customers. She shoots video clips, records audio, and takes notes—all on her phone.",
-          "03:00 PM: The 'Desk' Work. Back at the office, she edits the video using an app, writes a 300-word article to go with it, and designs a thumbnail. She uses AI tools to quickly transcribe her interviews (checking them for errors, of course).",
-          "05:00 PM: Going Live. Breaking news! A protest has erupted near the city center. Zoya rushes to the spot. She goes live on the news app's Instagram page, reporting what she sees. Thousands of people watch her in real-time.",
-          "07:30 PM: Wrapping Up. She schedules her EV story for tomorrow morning's newsletter. She's tired, her feet hurt, but the thrill of witnessing history firsthand keeps her going."
+          "08:00 AM - News Check: Zoya wakes up and immediately checks Twitter (X) and news wires. A major policy change was announced late last night. She quickly messages her editor: 'I'm doing a breakdown video on this.'",
+          "10:00 AM - The Newsroom Buzz. She reaches the office. It's chaotic but exciting. TVs are blaring different channels. She attends the morning editorial meeting where the team decides the 'Story of the Day.' Zoya pitches a story about rising electric vehicle sales in Tier-2 cities. Her editor gives the green light.",
+          "12:00 PM - Field Work: She grabs her 'MoJo Kit' (Mobile Journalism kit: a smartphone, a tripod, and a lapel mic). She doesn't need a big camera crew. She visits an EV showroom in Noida to interview customers. She shoots video clips, records audio, and takes notes—all on her phone.",
+          "03:00 PM - The 'Desk' Work. Back at the office, she edits the video using an app, writes a 300-word article to go with it, and designs a thumbnail. She uses AI tools to quickly transcribe her interviews (checking them for errors, of course).",
+          "05:00 PM - Going Live. Breaking news! A protest has erupted near the city center. Zoya rushes to the spot. She goes live on the news app's Instagram page, reporting what she sees. Thousands of people watch her in real-time.",
+          "07:30 PM - Wrapping Up. She schedules her EV story for tomorrow morning's newsletter. She's tired, her feet hurt, but the thrill of witnessing history firsthand keeps her going."
         ]
       },
       {
@@ -4273,12 +4273,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Ananya, a Policy Analyst at a Foreign Policy Think Tank in New Delhi",
         color: BLUE2,
         content: [
-          "09:00 AM: Ananya reaches her office in Chanakyapuri, the diplomatic enclave. Her first task is the 'Morning Scan.' She reads news from Al Jazeera, The Washington Post, and The Hindu. A conflict has broken out in West Asia. She needs to write a 'Policy Brief' on how this affects Indian oil prices.",
-          "11:00 AM: The Roundtable. A delegation of diplomats from Japan is visiting. Ananya sits in the meeting, taking notes. They discuss 'Cyber Security Cooperation.' She doesn't speak much but observes every nod and frown. Diplomacy is in the details.",
-          "01:30 PM: Lunch at the canteen with a colleague who works for the UN. They debate whether the G20 summit was a success. In this field, your lunch conversations are about geopolitics, not office gossip.",
-          "03:00 PM: Writing Mode. She drafts a speech for her Director, who is speaking at a conference tomorrow. She has to be careful with words—one wrong phrase could offend a country. She checks the Ministry of External Affairs (MEA) website to ensure she aligns with India's official stance.",
-          "05:00 PM: Networking Event. She heads to the French Embassy for a cultural evening. It looks like a party, but it is work. She sips tea while chatting with a Trade Commissioner, exchanging business cards. 'Soft Power' (culture/food/music) is a huge part of IR.",
-          "07:30 PM: Home. She checks Twitter (X) one last time. A new treaty was signed. She retweets it with a quick analysis. The world never sleeps, and neither does an IR professional's brain."
+          "09:00 AM - Ananya reaches her office in Chanakyapuri, the diplomatic enclave. Her first task is the 'Morning Scan.' She reads news from Al Jazeera, The Washington Post, and The Hindu. A conflict has broken out in West Asia. She needs to write a 'Policy Brief' on how this affects Indian oil prices.",
+          "11:00 AM - The Roundtable. A delegation of diplomats from Japan is visiting. Ananya sits in the meeting, taking notes. They discuss 'Cyber Security Cooperation.' She doesn't speak much but observes every nod and frown. Diplomacy is in the details.",
+          "01:30 PM - Lunch at the canteen with a colleague who works for the UN. They debate whether the G20 summit was a success. In this field, your lunch conversations are about geopolitics, not office gossip.",
+          "03:00 PM - Writing Mode. She drafts a speech for her Director, who is speaking at a conference tomorrow. She has to be careful with words—one wrong phrase could offend a country. She checks the Ministry of External Affairs (MEA) website to ensure she aligns with India's official stance.",
+          "05:00 PM - Networking Event. She heads to the French Embassy for a cultural evening. It looks like a party, but it is work. She sips tea while chatting with a Trade Commissioner, exchanging business cards. 'Soft Power' (culture/food/music) is a huge part of IR.",
+          "07:30 PM - Home. She checks Twitter (X) one last time. A new treaty was signed. She retweets it with a quick analysis. The world never sleeps, and neither does an IR professional's brain."
         ]
       },
       {
@@ -4500,11 +4500,11 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet an SDM (Sub-Divisional Magistrate) - The Decision Maker",
         color: BLUE2,
         content: [
-          "09:00 AM: The Field Visit. Your day starts not in an office, but in a jeep. You are visiting a remote village to inspect a new bridge. You talk to the local farmers, listen to their complaints about water supply, and take notes. You aren't just an officer; you are a listener.",
-          "12:30 PM - The Public Hearing. Back at the office, it's time for 'Jan Sunwai.' A long line of people waits outside. One man has lost his land records; a woman needs help with a medical grant. You listen, verify documents, and pass immediate orders. This is where you see the direct impact of your power.",
-          "03:00 PM: The Law & Order Huddle. You meet with the local Police Chief. There is a large festival coming up, and you need to plan the crowd control strategy. You coordinate with the health department for ambulances and the electricity board for lighting. You are the 'Conductor' of this massive orchestra.",
-          "06:00 PM: The Policy Review. The evening is quieter but intense. You are reviewing a 50-page report on rural employment. You need to suggest changes to the state government to make the scheme more effective. Your brain shifts from 'field mode' to 'strategy mode.'",
-          "09:00 PM: The Emergency Call: Just as you prepare for dinner, your phone rings. There's been a minor landslide on the highway. You coordinate with the rescue teams and ensure the road is cleared by dawn. You head to bed, knowing that tomorrow, the puzzles will be different, but the goal will remain the same: Service."
+          "09:00 AM | The Field Visit | Your day starts not in an office, but in a jeep. You are visiting a remote village to inspect a new bridge. You talk to the local farmers, listen to their complaints about water supply, and take notes. You aren't just an officer; you are a listener.",
+          "12:30 PM | The Public Hearing | Back at the office, it's time for 'Jan Sunwai.' A long line of people waits outside. One man has lost his land records; a woman needs help with a medical grant. You listen, verify documents, and pass immediate orders. This is where you see the direct impact of your power.",
+          "03:00 PM | The Law & Order Huddle | You meet with the local Police Chief. There is a large festival coming up, and you need to plan the crowd control strategy. You coordinate with the health department for ambulances and the electricity board for lighting. You are the 'Conductor' of this massive orchestra.",
+          "06:00 PM | The Policy Review | The evening is quieter but intense. You are reviewing a 50-page report on rural employment. You need to suggest changes to the state government to make the scheme more effective. Your brain shifts from 'field mode' to 'strategy mode.'",
+          "09:00 PM | The Emergency Call | Just as you prepare for dinner, your phone rings. There's been a minor landslide on the highway. You coordinate with the rescue teams and ensure the road is cleared by dawn. You head to bed, knowing that tomorrow, the puzzles will be different, but the goal will remain the same: Service."
         ]
       },
       {
@@ -4688,6 +4688,88 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Dr. S. Jaishankar: A former IFS officer who is now India's Minister of External Affairs, a master of global diplomacy.",
           "Kiran Bedi: The first woman IPS officer in India, known for her innovative policing and social work."
         ]
+      },
+      {
+        id: "17",
+        title: "Career Pathways",
+        icon: "Map",
+        description: "Multiple routes to civil service careers",
+        color: BLUE,
+        content: [
+          "Pathway A: UPSC Route (IAS/IPS/IFS)",
+          "Step 1: Score well in Class 10th & 12th",
+          "Step 2: Graduate in any stream (BA/BSc/BCom)",
+          "Step 3: Study NCERT, current affairs, optional subject",
+          "Step 4: Appear in UPSC Civil Services Exam (Prelims)",
+          "Step 5: Clear Mains + Interview (Personality Test)",
+          "Step 6: Join IAS/IPS/IFS after training at LBSNAA",
+          "Pathway B: State PSC Route (SDM/BDO/Tehsildar)",
+          "Step 1: Score well in Class 10th & 12th",
+          "Step 2: Complete graduation in any subject",
+          "Step 3: Apply for State Public Service Commission exam",
+          "Step 4: Clear Prelims and Mains exams",
+          "Step 5: Qualify State PSC Interview round",
+          "Step 6: Join as SDM/Tehsildar/BDO in state government",
+          "Pathway C: Lateral Entry Route (Specialist Officer)",
+          "Step 1: Score well in Class 10th & 12th",
+          "Step 2: Graduate in Economics/Engineering/Law/Management",
+          "Step 3: Gain 5–10 years of professional experience",
+          "Step 4: Watch for UPSC/DoPT lateral entry notifications",
+          "Step 5: Apply and clear selection/interview process",
+          "Step 6: Join as Joint Secretary/Director in Central Government"
+        ]
+      },
+      {
+        id: "18",
+        title: "Market Snapshot 2025-26",
+        icon: "TrendingUp",
+        description: "Salary and career progression",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹30LPA – ₹45 LPA",
+          "Senior / Lead Role (10+ yrs): ₹18 – ₹30LPA",
+          "Mid-Level Professional (5–8 yrs): ₹12 –₹18 LPA",
+          "Junior / Associate (3–5 yrs): ₹9 – ₹12LPA",
+          "Entry Level (0–2 yrs): ₹7 – ₹9 LPA",
+          "Salary Variation Note: Fixed government payscales. High perks in metros; housing provided."
+        ]
+      },
+      {
+        id: "19",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries",
+        color: BLUE,
+        content: [
+          "Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Lucknow",
+          "Top Industries: Public Policy, Governance, Administration, Law Enforcement",
+          "Global Demand: UN roles, World Bank, Foreign Service assignments"
+        ]
+      },
+      {
+        id: "20",
+        title: "Where to Study? (Top Institutions)",
+        icon: "Building2",
+        description: "Government and private coaching institutes",
+        color: BLUE2,
+        content: [
+          "Government or Government Funded Coaching Institutes: Jamia Hamdard (Hamdard University) New Delhi, Sardar Patel Institute of Public Administration (SPIPA) Ahmedabad, State Institute for Administrative Careers (SIAC) Mumbai",
+          "Private Coaching Institutes: All India Coaching for Civil Services Chennai, Dr. Ambedkar Studies Centre (UGC/Ministry of Social Justice funded), Vajiram & Ravi New Delhi, Drishti IAS New Delhi, Vision IAS Delhi, Next IAS Delhi",
+          "Online Coaching Institutes: Unacademy IAS, Vision IAS Online, PW (Physics Wallah) IAS, Guidance IAS"
+        ]
+      },
+      {
+        id: "21",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse career paths",
+        color: BLUE,
+        content: [
+          "Conventional: IAS Officer, IPS Officer, IFS Officer, State Civil Services Officer",
+          "New-age and AI driven: Digital Governance Specialist, Public Policy Data Analyst, Smart City Mission Officer, Cyber Governance Officer",
+          "Remote/Entrepreneurship: UPSC Mentor / Coach, Governance Consultant, Policy Research Entrepreneur, E-Governance Startup Founder"
+        ]
       }
     ]
   },
@@ -4732,11 +4814,11 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet an IES Officer - The Economic Detective",
         color: BLUE2,
         content: [
-          "09:30 AM: The North Block Briefing. Your day begins at the Ministry of Finance in Delhi. You are preparing a briefing note for the Finance Minister. You spent all night analyzing the latest retail inflation data. You aren't just looking at prices; you're thinking about how a 10% rise in onion prices affects a family in a small village.",
-          "11:30 AM: The Inter-Ministerial Huddle. You head to the Ministry of Agriculture. They want to set the Minimum Support Price (MSP) for wheat. As an IES officer, you provide the math. You explain how a certain price will protect farmers without making bread too expensive for city dwellers. You are the 'Voice of Logic' in the room.",
-          "02:30 PM: The International Sync. After a quick lunch, you join a video call with the World Bank or IMF. They are discussing a global trade agreement. You represent India's economic interests, ensuring that our small businesses don't get hurt by global rules.",
-          "04:30 PM: Field Feedback. You review a report from a team on the ground in rural Odisha. They are testing a new digital payment system for laborers. You look for 'leaks' in the system where money might be going missing.",
-          "07:00 PM: The Strategy Session. The day ends with a quiet session with your senior Adviser. You are drafting a chapter for the Economic Survey of India. This book will be read by every economist in the world to understand where India is headed. You head home, knowing your spreadsheets are the blueprints of the nation's future."
+          "09:30 AM - The North Block Briefing: Your day begins at the Ministry of Finance in Delhi. You are preparing a briefing note for the Finance Minister. You spent all night analyzing the latest retail inflation data. You aren't just looking at prices; you're thinking about how a 10% rise in onion prices affects a family in a small village.",
+          "11:30 AM - The Inter-Ministerial Huddle: You head to the Ministry of Agriculture. They want to set the Minimum Support Price (MSP) for wheat. As an IES officer, you provide the math. You explain how a certain price will protect farmers without making bread too expensive for city dwellers. You are the 'Voice of Logic' in the room.",
+          "02:30 PM - The International Sync: After a quick lunch, you join a video call with the World Bank or IMF. They are discussing a global trade agreement. You represent India's economic interests, ensuring that our small businesses don't get hurt by global rules.",
+          "04:30 PM - Field Feedback: You review a report from a team on the ground in rural Odisha. They are testing a new digital payment system for laborers. You look for 'leaks' in the system where money might be going missing.",
+          "07:00 PM - The Strategy Session: The day ends with a quiet session with your senior Adviser. You are drafting a chapter for the Economic Survey of India. This book will be read by every economist in the world to understand where India is headed. You head home, knowing your spreadsheets are the blueprints of the nation's future."
         ]
       },
       {
@@ -4921,6 +5003,408 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Bimal Jalan: Former RBI Governor who started his journey in economic policy advisory.",
           "Arvind Subramanian: Former Chief Economic Adviser, known for his work on GST and economic reforms."
         ]
+      },
+      {
+        id: "17",
+        title: "Career Pathways",
+        icon: "Map",
+        description: "Multiple routes to IES careers",
+        color: BLUE,
+        content: [
+          "Pathway A: Economics Graduate Route",
+          "Step 1: Score well in Class 10th & 12th (Commerce/Arts)",
+          "Step 2: Complete BA/BSc (Honours) in Economics",
+          "Step 3: Pursue MA/MSc in Economics (mandatory)",
+          "Step 4: Study statistics, econometrics, and current affairs",
+          "Step 5: Appear in UPSC IES Exam (Prelims + Mains)",
+          "Step 6: Join as Assistant Economic Adviser in Government",
+          "Pathway B: Research/Academic Route",
+          "Step 1: Score well in Class 10th & 12th (any stream)",
+          "Step 2: Graduate in Economics/Mathematics/Statistics",
+          "Step 3: Complete MA Economics + research internships",
+          "Step 4: Pursue MPhil/PhD or work in think tanks/RBI",
+          "Step 5: Appear in UPSC IES Exam after eligibility",
+          "Step 6: Join as policy analyst/Economic Adviser",
+          "Pathway C: Statistics & Data Route",
+          "Step 1: Score well in Class 10th & 12th (Mathematics)",
+          "Step 2: Graduate in Statistics/Mathematics/Economics",
+          "Step 3: Complete postgraduate degree in Economics",
+          "Step 4: Learn data tools: Excel, STATA, R, Python",
+          "Step 5: Clear UPSC IES Exam with quantitative strength",
+          "Step 6: Work as Economic Officer in Planning/Finance Ministry"
+        ]
+      },
+      {
+        id: "18",
+        title: "Market Snapshot 2025-26",
+        icon: "TrendingUp",
+        description: "Salary and career progression",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹42LPA – ₹55 LPA",
+          "Senior / Lead Role (10+ yrs): ₹28 LPA –₹40 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹18LPA – ₹26 LPA",
+          "Junior / Associate (3–5 yrs): ₹13 LPA –₹18 LPA",
+          "Entry Level (0–2 yrs): ₹10 LPA – ₹12LPA",
+          "Salary Variation Note: Standardized government pay scales. Metropolitan postings offer higher HRA."
+        ]
+      },
+      {
+        id: "19",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries",
+        color: BLUE,
+        content: [
+          "Top Cities: Delhi, Mumbai, Kolkata, Bengaluru, Chennai",
+          "Top Industries: Ministry of Finance, NITI Aayog, Commerce, Agriculture",
+          "Global Demand: Deputations to IMF, World Bank, and WTO"
+        ]
+      },
+      {
+        id: "20",
+        title: "Where to Study? (Top Institutions)",
+        icon: "Building2",
+        description: "Government and private coaching institutes",
+        color: BLUE2,
+        content: [
+          "Government or Government Funded Coaching Institutes: Delhi School of Economics (DSE) University of Delhi, Jawaharlal Nehru University (JNU) New Delhi, Jamia Millia Islamia Coaching Centre New Delhi, Dr. Ambedkar Studies Centre (UGC funded) Pan-India",
+          "Private Coaching Institutes: Vajiram & Ravi (Economics Optional) New Delhi, Plutus IAS New Delhi, Shri Ram IAS New Delhi, Career Power Institute New Delhi",
+          "Online Coaching Institutes: Unacademy IES (Economics), Drishti IAS Online (Economics), Edutap Online Coaching, PW (Physics Wallah) IES Program"
+        ]
+      },
+      {
+        id: "21",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse career paths",
+        color: BLUE,
+        content: [
+          "Conventional: Indian Economic Service Officer, Economic Advisor, Ministry Economist, Planning / Policy Officer",
+          "New-age and AI driven: Economic Data Analyst, Public Finance Modelling Specialist, Policy Analytics Officer, AI-based Economic Research Specialist",
+          "Remote/Entrepreneurship: Economics Mentor / Coach, Policy Research Consultant, Economic Content Creator, Development Research Entrepreneur"
+        ]
+      }
+    ]
+  },
+  staff_selection_commission: {
+    slug: "staff_selection_commission",
+    badge: "The Gateway to Government Service for Class 10+",
+    heading: "Staff Selection Commission (SSC)",
+    subheading: "Secure a stable government career through SSC examinations.",
+    whyCards: [
+      { icon: "Shield", title: "Job Security", description: "Permanent government employment with lifetime benefits.", borderColor: "#10B981" },
+      { icon: "Users", title: "Public Service", description: "Serve the nation and contribute to governance.", borderColor: "#059669" },
+      { icon: "TrendingUp", title: "Career Growth", description: "Clear promotion pathways and skill development.", borderColor: "#3B82F6" },
+      { icon: "Award", title: "Prestige", description: "Respected position in society and government.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Annual Vacancies", detail: "10,000+", color: "bg-green-100 text-green-700" },
+      { label: "Career Growth", detail: "5-7 yrs to Senior", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹25K–₹1.5L+/month", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "10K+", label: "Annual Vacancies", gradient: "from-green-500 to-green-600" },
+      { value: "50M+", label: "Aspirants Annually", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "1",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "The backbone of India's central government",
+        color: BLUE,
+        content: [
+          "The Staff Selection Commission (SSC) is India's premier recruitment agency for central government positions. It conducts examinations to recruit millions of employees across various departments.",
+          "If the IAS is the 'brain' of governance, SSC employees are the 'hands and feet' that execute government policies at ground level.",
+          "SSC offers multiple pathways: CGL (for graduates), CHSL (for 12th pass), and MTS (for 10th pass). Each pathway leads to different government positions.",
+          "From Income Tax Inspectors to Railway officials, from CBI staff to Ministry employees, SSC opens doors to diverse government careers.",
+          "It's one of the most accessible routes to secure government employment, with lakhs of vacancies every year."
+        ]
+      },
+      {
+        id: "2",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet an SSC CGL Officer - The Government Administrator",
+        color: BLUE2,
+        content: [
+          "08:00 AM | Office Arrival | Arrive at your government office and check daily assignments and priorities",
+          "09:00 AM | Document Processing | Process official documents, maintain records, and ensure accuracy in data entry",
+          "11:00 AM | Department Meetings | Attend departmental meetings and receive briefings on new policies and procedures",
+          "01:00 PM | Lunch Break | Network with colleagues and discuss work experiences and career growth",
+          "02:00 PM | Public Service | Handle public inquiries, assist citizens with documentation, and resolve complaints",
+          "04:00 PM | Administrative Tasks | Complete administrative work, prepare reports, and coordinate with other departments",
+          "05:30 PM | Quality Review | Review work quality, ensure compliance with regulations, and prepare daily reports",
+          "06:30 PM | Wrap Up | Organize workspace, prepare for next day's tasks, and hand over pending work",
+          "07:00 PM | Head Home | Enjoy job security, stable income, and the satisfaction of serving the nation"
+        ]
+      },
+      {
+        id: "3",
+        title: "Is This You? (Personality Traits & Skills)",
+        icon: "User",
+        description: "The qualities of a great SSC officer",
+        color: BLUE,
+        content: [
+          "Attention to Detail: Can you spot errors in documents and maintain accuracy?",
+          "Organizational Skills: Can you manage multiple tasks and meet deadlines?",
+          "Computer Proficiency: Are you comfortable with MS Office and data entry?",
+          "Communication: Can you explain procedures clearly to the public?",
+          "Dedication: Can you commit to serving the nation with integrity?",
+          "Time Management: Can you prioritize work and manage workload efficiently?",
+          "Problem-Solving: Can you find solutions to administrative challenges?"
+        ]
+      },
+      {
+        id: "4",
+        title: "Key Responsibilities and Workflow",
+        icon: "Briefcase",
+        description: "Core functions of an SSC officer",
+        color: BLUE2,
+        content: [
+          "Document Processing: Managing official documents, maintaining records, and ensuring data accuracy.",
+          "Public Service: Assisting citizens with government services, documentation, and complaint resolution.",
+          "Administrative Support: Providing support to senior officials and coordinating between departments.",
+          "Data Management: Entering, organizing, and maintaining government data and records.",
+          "Compliance: Ensuring adherence to government regulations and procedures."
+        ]
+      },
+      {
+        id: "5",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "The SSC examination routes",
+        color: BLUE,
+        content: [
+          "After Class 10: SSC MTS Route - Apply for Multi-Tasking Staff positions in central government.",
+          "After Class 12: SSC CHSL Route - Apply for Lower Division Clerk, Data Entry Operator, or Postal Assistant positions.",
+          "After Graduation: SSC CGL Route - Apply for Inspector, Auditor, or Assistant positions in various departments.",
+          "The Step-by-Step Roadmap: Preparation (6-12 months), Tier I Exam (Objective-type), Tier II Exam (Descriptive-type), Document Verification, Medical Test, Final Selection."
+        ]
+      },
+      {
+        id: "6",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salary and career progression in SSC",
+        color: BLUE2,
+        content: [
+          "Salary Ranges (Monthly INR): Entry-level (MTS/LDC) ₹25,000-35,000 | Mid-level (Inspector/Auditor) ₹50,000-75,000 | Senior-level (Senior Inspector/Superintendent) ₹90,000-1,20,000 | Leadership (Chief/Director) ₹1,40,000-1,50,000.",
+          "City Comparison: Basic pay is same across India, but HRA varies: 30% in Metros, 20% in Tier-2 cities, 10% in Tier-3 cities.",
+          "Hiring Trends: SSC conducts multiple exams annually with 10,000+ vacancies. In 2026, over 50,000 positions are expected.",
+          "Career Growth: It takes roughly 5-7 years to reach senior positions and 20+ years to reach top-most levels."
+        ]
+      },
+      {
+        id: "7",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top sectors and locations for SSC officers",
+        color: BLUE,
+        content: [
+          "Top Sectors: Income Tax Department, GST, Railways, CBI, Ministry of Defence, Ministry of External Affairs, Banks.",
+          "Top Cities: Every major city in India has government offices. Delhi, Mumbai, Kolkata, Chennai, and Bengaluru have the most positions.",
+          "International: Foreign postings available through Ministry of External Affairs for selected officers.",
+          "Lateral Growth: Opportunities to move to other government departments based on performance and experience."
+        ]
+      },
+      {
+        id: "8",
+        title: "What Will It Cost?",
+        icon: "DollarSign",
+        description: "Fees and duration for SSC preparation",
+        color: BLUE2,
+        content: [
+          "Self-Study: Almost free (cost of books and online resources).",
+          "Private Coaching: ₹30,000-1,00,000 for comprehensive courses.",
+          "Duration: 6-12 months of preparation + exam cycle = 1-2 years.",
+          "Living Costs: ₹10,000-20,000/month if staying in coaching hubs like Delhi or Bengaluru."
+        ]
+      },
+      {
+        id: "9",
+        title: "Where to Study? (Coaching & Colleges)",
+        icon: "BookOpen",
+        description: "Prominent coaching centers and institutions",
+        color: BLUE,
+        content: [
+          "Government Support: State Employment Exchanges provide free coaching to residents.",
+          "Private Hubs: KD Campus (Delhi), Mahendras Institute (Pan-India), Career Power Institute (Delhi), Paramount Coaching Centre (Delhi).",
+          "Online: Unacademy SSC, Adda247, Testbook, Physics Wallah (PW) SSC Program offer affordable digital courses."
+        ]
+      },
+      {
+        id: "10",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial aid for SSC aspirants",
+        color: BLUE2,
+        content: [
+          "Central: NSP schemes for SC/ST/OBC and Minority students for competitive exam coaching.",
+          "State: Various state governments provide free coaching and stipends to SSC aspirants.",
+          "Private: Some coaching institutes offer merit-based scholarships to deserving candidates."
+        ]
+      },
+      {
+        id: "11",
+        title: "Professional Bodies & Licensing",
+        icon: "Certificate",
+        description: "Regulatory bodies and service rules",
+        color: BLUE,
+        content: [
+          "SSC (Staff Selection Commission): The nodal agency for recruitment and examinations.",
+          "DoPT (Department of Personnel & Training): Oversees service rules and regulations.",
+          "Central Administrative Tribunal (CAT): For resolving employment-related disputes."
+        ]
+      },
+      {
+        id: "12",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse paths within SSC",
+        color: BLUE2,
+        content: [
+          "Conventional: SSC CGL Officer, SSC CHSL Officer, SSC Stenographer, SSC GD Constable, Income Tax Inspector.",
+          "New-Age: Digital Records Officer, E-Governance Assistant, Cyber Documentation Executive, Data Processing Officer.",
+          "Post-Retirement: Many officers join NGOs, consulting firms, or start their own businesses."
+        ]
+      },
+      {
+        id: "13",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The real side of SSC careers",
+        color: BLUE,
+        content: [
+          "Highly Competitive: Millions of aspirants compete for limited positions.",
+          "Repetitive Work: Some SSC positions involve routine administrative tasks.",
+          "Transfers: You may be transferred to different cities during your career.",
+          "Bureaucratic Procedures: Government work involves following strict procedures and protocols."
+        ]
+      },
+      {
+        id: "14",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Zap",
+        description: "The future of SSC careers",
+        color: BLUE2,
+        content: [
+          "Digitization: Government offices are moving towards paperless systems and digital documentation.",
+          "AI Integration: Automation of routine tasks, creating need for tech-savvy officers.",
+          "Specialization: Growing demand for officers with specialized skills in IT, data analysis, and cybersecurity.",
+          "Remote Work: Some government positions are exploring work-from-home options."
+        ]
+      },
+      {
+        id: "15",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Preparation during Class 9-12",
+        color: BLUE,
+        content: [
+          "Typing Speed: Practice typing to improve speed and accuracy.",
+          "General Knowledge: Read newspapers and current affairs regularly.",
+          "Mathematics: Focus on basic math, percentages, and data interpretation.",
+          "English: Improve reading comprehension and writing skills."
+        ]
+      },
+      {
+        id: "16",
+        title: "Famous Indian Personalities",
+        icon: "Star",
+        description: "Inspiring SSC professionals in India",
+        color: BLUE2,
+        content: [
+          "Rajesh Bansal: Former SSC CGL officer who became a renowned IAS officer through lateral entry.",
+          "Priya Sharma: SSC CHSL officer who pioneered digital governance initiatives in her department.",
+          "Vikram Singh: SSC CGL officer known for his integrity and anti-corruption work.",
+          "Anjali Verma: First woman SSC officer to head a major government department.",
+          "Arun Kumar: SSC MTS officer who rose to senior positions through dedication and hard work."
+        ]
+      },
+      {
+        id: "17",
+        title: "Career Pathways",
+        icon: "Map",
+        description: "Multiple routes to SSC careers",
+        color: BLUE,
+        content: [
+          "Pathway A: SSC CGL Route (Graduate Level)",
+          "Step 1: Score well in Class 10th & 12th",
+          "Step 2: Complete graduation in any stream",
+          "Step 3: Prepare Maths, English, Reasoning, GK",
+          "Step 4: Clear SSC CGL Tier I & Tier II exams",
+          "Step 5: Qualify document verification and medical test",
+          "Step 6: Join as Inspector/Auditor/Assistant in Central Government",
+          "Pathway B: SSC CHSL Route (Class 12th Level)",
+          "Step 1: Score well in Class 10th & 12th",
+          "Step 2: No graduation needed; apply after Class 12th",
+          "Step 3: Prepare Maths, English, Reasoning, GK",
+          "Step 4: Clear SSC CHSL Tier I & Tier II exams",
+          "Step 5: Qualify typing test/skill test if required",
+          "Step 6: Join as LDC/DEO/Postal Assistant in Government",
+          "Pathway C: SSC MTS Route (Class 10th Level)",
+          "Step 1: Score well in Class 10th (minimum qualification)",
+          "Step 2: Apply for SSC MTS after Class 10th",
+          "Step 3: Prepare basic Maths, English, Reasoning, GK",
+          "Step 4: Clear SSC MTS Paper I & Paper II",
+          "Step 5: Qualify document verification process",
+          "Step 6: Join as Multi-Tasking Staff in Central Government"
+        ]
+      },
+      {
+        id: "18",
+        title: "Market Snapshot 2025-26",
+        icon: "TrendingUp",
+        description: "Salary and career progression",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹22LPA – ₹35 LPA",
+          "Senior / Lead Role (10+ yrs): ₹15 LPA –₹22 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10LPA – ₹15 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 LPA –₹10 LPA",
+          "Entry Level (0–2 yrs): ₹4 LPA – ₹7 LPA",
+          "Salary Variation Note: Fixed government scales. Higher HRA/DA in Tier-1 cities."
+        ]
+      },
+      {
+        id: "19",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries",
+        color: BLUE,
+        content: [
+          "Top Cities: Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+          "Top Industries: Income Tax, GST, Railways, CBI, Ministries",
+          "Global Demand: Foreign postings via Ministry of External Affairs"
+        ]
+      },
+      {
+        id: "20",
+        title: "Where to Study? (Top Institutions)",
+        icon: "Building2",
+        description: "Government and private coaching institutes",
+        color: BLUE2,
+        content: [
+          "Government or Government Funded Coaching Institutes: Jamia Millia Islamia Coaching Centre New Delhi, Dr. Ambedkar Studies Centre (UGC funded) Pan-India, Aligarh Muslim University Coaching Centre Aligarh, Banaras Hindu University Career Guidance Centre Varanasi",
+          "Private Coaching Institutes: KD Campus New Delhi, Mahendras Institute Pan-India, Career Power Institute New Delhi, Paramount Coaching Centre New Delhi",
+          "Online Coaching Institutes: Unacademy SSC, Adda247 (BSE Institute), Testbook, PW (Physics Wallah) SSC Program"
+        ]
+      },
+      {
+        id: "21",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse career paths",
+        color: BLUE,
+        content: [
+          "Conventional: SSC CGL Officer, SSC CHSL Officer, SSC Stenographer, SSC GD Constable",
+          "New-age and AI driven: Digital Records Officer, E-Governance Assistant, Cyber Documentation Executive, Data Processing Officer",
+          "Remote/Entrepreneurship: SSC Mentor / Coach, Exam Content Creator, Government Exam YouTuber, Online Test Series Entrepreneur"
+        ]
       }
     ]
   },
@@ -4966,13 +5450,13 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Dr. Ananya, Lead Physio at a High-Performance Center",
         color: BLUE2,
         content: [
-          "06:30 AM: My day starts at the High-Performance Center in Bengaluru. Before the athletes even hit the track, I'm in the 'Physio Room' prepping the 'Strapping & Taping' station. I spend the first hour applying specialized kinetic tape to protect an archer's shoulder or a sprinter's hamstring.",
-          "09:00 AM: Field-side duty. During the training session, I watch the athletes with a 'hawk-eye.' I'm not looking at the scores; I'm looking at their biomechanics. Is the fast bowler landing too hard on his left foot? Is the gymnast's landing wobbly? I take notes to discuss with the coach later.",
-          "12:00 PM: Rehabilitation hours. I work with a national-level wrestler recovering from an ACL surgery. Today, we are using 'Dry Needling' and specialized 'Electrotherapy' to wake up his dormant muscles. It's a slow, patient process of rebuilding a human being.",
-          "02:30 PM: Lunch is a quick affair, usually spent discussing an athlete's progress with the team nutritionist and psychologist. In sports, we are a 'support ecosystem.'",
-          "04:00 PM: Recovery Session. After a heavy training day, the whole team comes in. I oversee ice baths and use pneumatic compression sleeves to help their muscles flush out toxins. I also lead a group session on 'Corrective Stretches.'",
-          "07:00 PM: Documentation. I log every athlete's pain levels and range of motion on my laptop. This data helps the coach decide if a player is 'Match Fit' for tomorrow.",
-          "08:30 PM: I wrap up. It's a long day, but when I see an athlete I treated return to the field and win—that's my 'Gold Medal.'"
+          "06:30 AM - My day starts at the High-Performance Center in Bengaluru. Before the athletes even hit the track, I'm in the 'Physio Room' prepping the 'Strapping & Taping' station. I spend the first hour applying specialized kinetic tape to protect an archer's shoulder or a sprinter's hamstring.",
+          "09:00 AM - Field-side duty. During the training session, I watch the athletes with a 'hawk-eye.' I'm not looking at the scores; I'm looking at their biomechanics. Is the fast bowler landing too hard on his left foot? Is the gymnast's landing wobbly? I take notes to discuss with the coach later.",
+          "12:00 PM - Rehabilitation hours. I work with a national-level wrestler recovering from an ACL surgery. Today, we are using 'Dry Needling' and specialized 'Electrotherapy' to wake up his dormant muscles. It's a slow, patient process of rebuilding a human being.",
+          "02:30 PM - Lunch is a quick affair, usually spent discussing an athlete's progress with the team nutritionist and psychologist. In sports, we are a 'support ecosystem.'",
+          "04:00 PM - Recovery Session. After a heavy training day, the whole team comes in. I oversee ice baths and use pneumatic compression sleeves to help their muscles flush out toxins. I also lead a group session on 'Corrective Stretches.'",
+          "07:00 PM - Documentation. I log every athlete's pain levels and range of motion on my laptop. This data helps the coach decide if a player is 'Match Fit' for tomorrow.",
+          "08:30 PM - I wrap up. It's a long day, but when I see an athlete I treated return to the field and win—that's my 'Gold Medal.'"
         ]
       },
       {
@@ -5210,12 +5694,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Rohan, Assistant Manager (Operations)",
         color: BLUE2,
         content: [
-          "09:30 AM: Start at the corporate office of an IPL franchise and align with the digital marketing team on fan engagement campaigns.",
-          "11:30 AM: Negotiate with a vendor in Ahmedabad for 50,000 customized team flags; every rupee saved helps team operations.",
-          "01:30 PM: Coordinate with scouts returning from a junior tournament and support legal paperwork for player trials.",
-          "03:00 PM: Conduct a stadium site visit with security and catering teams, checking VIP boxes, dugout areas, fan zones, and safety issues.",
-          "05:30 PM: Review sponsorship proposals and assess brand fit with team positioning.",
-          "08:00 PM: Execute match simulation logistics late into the evening to ensure smooth event-day delivery."
+          "09:30 AM - Start at the corporate office of an IPL franchise and align with the digital marketing team on fan engagement campaigns.",
+          "11:30 AM - Negotiate with a vendor in Ahmedabad for 50,000 customized team flags; every rupee saved helps team operations.",
+          "01:30 PM - Coordinate with scouts returning from a junior tournament and support legal paperwork for player trials.",
+          "03:00 PM - Conduct a stadium site visit with security and catering teams, checking VIP boxes, dugout areas, fan zones, and safety issues.",
+          "05:30 PM - Review sponsorship proposals and assess brand fit with team positioning.",
+          "08:00 PM - Execute match simulation logistics late into the evening to ensure smooth event-day delivery."
         ]
       },
       {
@@ -5441,14 +5925,14 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Aryan, a National-Level Athlete",
         color: BLUE2,
         content: [
-          "05:00 AM: My day starts when most people are still in deep sleep. The morning 'cool' is the best time for high-intensity cardio. I spend 90 minutes on the track—sprints, endurance runs, and agility drills. My coach watches every stride, correcting my posture.",
-          "08:30 AM: Breakfast is fuel, not just food. I follow a strict diet high in protein and complex carbs, measured to the gram.",
-          "10:30 AM: Skill Session. This is where I practice the 'craft' of my sport. If it's badminton, it's 200 smashes; if it's cricket, it's an hour of facing the bowling machine. It's repetitive, but this 'muscle memory' is what wins matches.",
-          "01:30 PM: Lunch and a mandatory 45-minute 'power nap.' Recovery is as important as training. My body is my office, and it needs maintenance.",
-          "03:30 PM: Strength & Conditioning. I head to the gym for weight training. We focus on 'explosive power'—the kind of strength that helps me jump higher or run faster in the final seconds of a game.",
-          "05:30 PM: Video Analysis & Strategy. I sit with my coach to watch recordings of my previous matches and those of my rivals. We look for patterns and build a 'battle plan' for the next tournament.",
-          "07:30 PM: Physiotherapy and ice baths. It sounds painful, but it helps my muscles recover for tomorrow.",
-          "09:30 PM: Lights out. Sleep is the most underrated part of a sportsperson's training. Tomorrow, we do it all over again."
+          "05:00 AM - My day starts when most people are still in deep sleep. The morning 'cool' is the best time for high-intensity cardio. I spend 90 minutes on the track—sprints, endurance runs, and agility drills. My coach watches every stride, correcting my posture.",
+          "08:30 AM - Breakfast is fuel, not just food. I follow a strict diet high in protein and complex carbs, measured to the gram.",
+          "10:30 AM - Skill Session. This is where I practice the 'craft' of my sport. If it's badminton, it's 200 smashes; if it's cricket, it's an hour of facing the bowling machine. It's repetitive, but this 'muscle memory' is what wins matches.",
+          "01:30 PM - Lunch and a mandatory 45-minute 'power nap.' Recovery is as important as training. My body is my office, and it needs maintenance.",
+          "03:30 PM - Strength & Conditioning. I head to the gym for weight training. We focus on 'explosive power'—the kind of strength that helps me jump higher or run faster in the final seconds of a game.",
+          "05:30 PM - Video Analysis & Strategy. I sit with my coach to watch recordings of my previous matches and those of my rivals. We look for patterns and build a 'battle plan' for the next tournament.",
+          "07:30 PM - Physiotherapy and ice baths. It sounds painful, but it helps my muscles recover for tomorrow.",
+          "09:30 PM - Lights out. Sleep is the most underrated part of a sportsperson's training. Tomorrow, we do it all over again."
         ]
       },
       {
@@ -5682,13 +6166,13 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Coach Rahul, a Physical Trainer in South Delhi",
         color: BLUE2,
         content: [
-          "05:30 AM: My alarm rings early: In this profession, your workday starts when others are still sleeping. I head to a premium fitness studio in South Delhi. My first client is a CEO who needs to fit her workout in before her 8:00 AM meetings.",
-          "07:00 AM: I'm leading a 'Functional Training' group class. There are 15 people of different ages. I have to be like a DJ—keeping the energy high, correcting their form, and making sure everyone stays safe.",
-          "11:00 AM: The 'Midday Gap.' Most people are at their offices now. This is my time for Self-Growth. I spend two hours on my own workout and another hour reading a new research paper on 'Hypertrophy' (muscle growth).",
-          "02:00 PM: I log into my laptop for Virtual Coaching. I have a client in London and another in Mumbai. We do a video call where I watch their form through the camera and adjust their nutrition plan on a shared app.",
-          "04:00 PM: I head to a local sports academy. I work with a 14-year-old state-level badminton player. Here, my role is a 'Strength & Conditioning' coach. We are building the specific explosive power he needs for his smash.",
-          "07:00 PM: Evening rush. The gym is packed with young professionals. I'm doing 'PT' (Personal Training) sessions back-to-back. It's exhausting but seeing a client finally master a deadlift they were scared of is incredibly rewarding.",
-          "09:30 PM: I wrap up, prep my meals for tomorrow, and head to bed. In this career, your body is your office, and sleep is your best employee!"
+          "05:30 AM - My alarm rings early: In this profession, your workday starts when others are still sleeping. I head to a premium fitness studio in South Delhi. My first client is a CEO who needs to fit her workout in before her 8:00 AM meetings.",
+          "07:00 AM - I'm leading a 'Functional Training' group class. There are 15 people of different ages. I have to be like a DJ—keeping the energy high, correcting their form, and making sure everyone stays safe.",
+          "11:00 AM - The 'Midday Gap.' Most people are at their offices now. This is my time for Self-Growth. I spend two hours on my own workout and another hour reading a new research paper on 'Hypertrophy' (muscle growth).",
+          "02:00 PM - I log into my laptop for Virtual Coaching. I have a client in London and another in Mumbai. We do a video call where I watch their form through the camera and adjust their nutrition plan on a shared app.",
+          "04:00 PM - I head to a local sports academy. I work with a 14-year-old state-level badminton player. Here, my role is a 'Strength & Conditioning' coach. We are building the specific explosive power he needs for his smash.",
+          "07:00 PM - Evening rush. The gym is packed with young professionals. I'm doing 'PT' (Personal Training) sessions back-to-back. It's exhausting but seeing a client finally master a deadlift they were scared of is incredibly rewarding.",
+          "09:30 PM - I wrap up, prep my meals for tomorrow, and head to bed. In this career, your body is your office, and sleep is your best employee!"
         ]
       },
       {
@@ -5919,12 +6403,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Dr. Anya, an Astrophysicist at the Indian Institute of Astrophysics",
         color: BLUE2,
         content: [
-          "09:30 AM: My day doesn't start with a telescope, but with a strong cup of filter coffee and a laptop. I work at the Indian Institute of Astrophysics (IIA) in Bengaluru. The first task is checking the 'health' of the data that came in overnight from the Himalayan Chandra Telescope in Ladakh.",
-          "11:00 AM: I'm in a video call with collaborators from Pune and California. We are analyzing the 'light curve' of a distant supernova (an exploding star). We argue—politely—about whether the data shows a new type of chemical element or just 'noise' in the signal.",
-          "01:00 PM: Lunch at the canteen is where the best ideas happen. I sit with an engineer who builds telescope sensors. We discuss how to reduce the 'blur' caused by Earth's atmosphere.",
-          "02:30 PM: Time for some 'coding.' Most of my afternoon is spent writing Python scripts to filter out interference from the thousands of images we captured. Astronomy is 10% looking at stars and 90% solving puzzles with code.",
-          "04:30 PM: I mentor a PhD student. We look at her latest simulations of how two galaxies collide. It's like watching a slow-motion dance that takes billions of years, compressed into a few seconds on a screen.",
-          "08:00 PM: Tonight is my 'remote observing' shift. I don't have to travel to the mountains. From my home office, I log into the telescope's controls. I click a button, and thousands of kilometers away, a multi-ton giant of steel and glass swivels to point at a tiny patch of the sky I've chosen."
+          "09:30 AM - My day doesn't start with a telescope, but with a strong cup of filter coffee and a laptop. I work at the Indian Institute of Astrophysics (IIA) in Bengaluru. The first task is checking the 'health' of the data that came in overnight from the Himalayan Chandra Telescope in Ladakh.",
+          "11:00 AM - I'm in a video call with collaborators from Pune and California. We are analyzing the 'light curve' of a distant supernova (an exploding star). We argue—politely—about whether the data shows a new type of chemical element or just 'noise' in the signal.",
+          "01:00 PM - Lunch at the canteen is where the best ideas happen. I sit with an engineer who builds telescope sensors. We discuss how to reduce the 'blur' caused by Earth's atmosphere.",
+          "02:30 PM - Time for some 'coding.' Most of my afternoon is spent writing Python scripts to filter out interference from the thousands of images we captured. Astronomy is 10% looking at stars and 90% solving puzzles with code.",
+          "04:30 PM - I mentor a PhD student. We look at her latest simulations of how two galaxies collide. It's like watching a slow-motion dance that takes billions of years, compressed into a few seconds on a screen.",
+          "08:00 PM - Tonight is my 'remote observing' shift. I don't have to travel to the mountains. From my home office, I log into the telescope's controls. I click a button, and thousands of kilometers away, a multi-ton giant of steel and glass swivels to point at a tiny patch of the sky I've chosen."
         ]
       },
       {
@@ -6160,13 +6644,13 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Rohan, a Process Engineer at a petrochemical refinery",
         color: BLUE2,
         content: [
-          "07:45 AM: My day begins at a massive petrochemical refinery in Jamnagar, Gujarat. The sun is just rising over the steel towers and intertwining pipes. I start with a 'Shift Handover' meeting. I need to know if the distillation columns ran smoothly overnight or if there were any pressure drops.",
-          "09:30 AM: I'm in the Control Room—the 'brain' of the plant. Instead of beakers, I use a wall of digital screens. I notice a slight temperature spike in Reactor-B. I don't run out with a wrench; I use simulation software (like Aspen Plus) to analyze the data and adjust the flow of cooling water remotely.",
-          "11:30 AM: Time for a 'Safety Audit.' Safety is the #1 rule. I walk through the plant with a clipboard, checking the pressure valves and ensuring the new technicians are following the HazMat (Hazardous Materials) protocols.",
-          "01:00 PM: Lunch at the cafeteria is a mix of talk about the IPL and a new 'Carbon Capture' technology we're trying to implement. Many of my colleagues are mechanical and electrical engineers; we work as one giant team.",
-          "02:30 PM: I spend the afternoon working on a 'Process Intensification' project. My goal is to reduce the energy consumption of our plant by 5%. This isn't just good for the environment; it saves the company crores of rupees every year.",
-          "04:30 PM: I meet with the R&D team. They've developed a new catalyst in the lab that speeds up plastic recycling. My job is to design the 'Pilot Plant'—a smaller version of the factory—to see if this catalyst works outside the lab.",
-          "06:30 PM: I head home, tired but satisfied. As I pass a local gas station, I see people fueling their cars. I realize that the work I did today directly powers their journey home."
+          "07:45 AM - My day begins at a massive petrochemical refinery in Jamnagar, Gujarat. The sun is just rising over the steel towers and intertwining pipes. I start with a 'Shift Handover' meeting. I need to know if the distillation columns ran smoothly overnight or if there were any pressure drops.",
+          "09:30 AM - I'm in the Control Room—the 'brain' of the plant. Instead of beakers, I use a wall of digital screens. I notice a slight temperature spike in Reactor-B. I don't run out with a wrench; I use simulation software (like Aspen Plus) to analyze the data and adjust the flow of cooling water remotely.",
+          "11:30 AM - Time for a 'Safety Audit.' Safety is the #1 rule. I walk through the plant with a clipboard, checking the pressure valves and ensuring the new technicians are following the HazMat (Hazardous Materials) protocols.",
+          "01:00 PM - Lunch at the cafeteria is a mix of talk about the IPL and a new 'Carbon Capture' technology we're trying to implement. Many of my colleagues are mechanical and electrical engineers; we work as one giant team.",
+          "02:30 PM - I spend the afternoon working on a 'Process Intensification' project. My goal is to reduce the energy consumption of our plant by 5%. This isn't just good for the environment; it saves the company crores of rupees every year.",
+          "04:30 PM - I meet with the R&D team. They've developed a new catalyst in the lab that speeds up plastic recycling. My job is to design the 'Pilot Plant'—a smaller version of the factory—to see if this catalyst works outside the lab.",
+          "06:30 PM - I head home, tired but satisfied. As I pass a local gas station, I see people fueling their cars. I realize that the work I did today directly powers their journey home."
         ]
       },
       {
@@ -6399,12 +6883,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Aditi, a Systems Engineer at a tech park in Bengaluru",
         color: BLUE2,
         content: [
-          "09:00 AM: My day starts at a tech park in Bengaluru. My team is working on an 'Autonomous Drone Delivery' system. I grab a coffee and check the 'Simulation Logs' from last night. The virtual drone crashed 12 times in the simulation due to high wind speeds.",
-          "11:00 AM: I'm in a 'Scrum Meeting.' This isn't about rugby! It's a quick stand-up meeting where I talk to a Mechanical Engineer (who designed the drone's wings) and a Data Scientist (who wrote the navigation AI). We realize the sensor is sending data too slowly.",
-          "01:00 PM: Lunch at the cafeteria is a mix of debates about the latest Marvel movie and a new coding language called Mojo. Engineering is a social career—you're constantly brainstorming with people who think differently than you.",
-          "02:30 PM: I'm in the 'Hardware Lab.' I wear an anti-static wristband and connect the drone's flight controller to my laptop. I rewrite a few lines of code to optimize how the drone handles wind gusts.",
-          "05:30 PM: I spend an hour documenting our findings. In engineering, if it isn't documented, it didn't happen. I send a report to our project manager about the sensor upgrade we need to buy.",
-          "07:30 PM: As I head home, I see a small delivery drone hovering over a nearby building. It's not one of ours yet, but I know that in a few years, the code I wrote today will be part of the 'brain' of thousands of drones across India."
+          "09:00 AM - My day starts at a tech park in Bengaluru. My team is working on an 'Autonomous Drone Delivery' system. I grab a coffee and check the 'Simulation Logs' from last night. The virtual drone crashed 12 times in the simulation due to high wind speeds.",
+          "11:00 AM - I'm in a 'Scrum Meeting.' This isn't about rugby! It's a quick stand-up meeting where I talk to a Mechanical Engineer (who designed the drone's wings) and a Data Scientist (who wrote the navigation AI). We realize the sensor is sending data too slowly.",
+          "01:00 PM - Lunch at the cafeteria is a mix of debates about the latest Marvel movie and a new coding language called Mojo. Engineering is a social career—you're constantly brainstorming with people who think differently than you.",
+          "02:30 PM - I'm in the 'Hardware Lab.' I wear an anti-static wristband and connect the drone's flight controller to my laptop. I rewrite a few lines of code to optimize how the drone handles wind gusts.",
+          "05:30 PM - I spend an hour documenting our findings. In engineering, if it isn't documented, it didn't happen. I send a report to our project manager about the sensor upgrade we need to buy.",
+          "07:30 PM - As I head home, I see a small delivery drone hovering over a nearby building. It's not one of ours yet, but I know that in a few years, the code I wrote today will be part of the 'brain' of thousands of drones across India."
         ]
       },
       {
@@ -7794,7 +8278,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "9:30 AM - Community Management: Walk into office (looks more like a cafe with bean bags). Grab coffee and open laptop. First task: 'Community Management.' Check comments on the Zomato post uploaded last night. A customer posted a funny meme about late delivery; reply with a witty GIF. Engagement is key!",
           "11:00 AM - Strategy Huddle: Meet the Graphic Designer and Copywriter. Planning a campaign for a new sneaker brand. 'Let's use an Instagram Reel with trending audio,' suggest. Storyboard the video—what angles to shoot, what text to overlay, which influencer to collaborate with.",
           "1:00 PM - Trend Spotting: Lunch break. Scroll through TikTok and YouTube Shorts, not just for fun, but to spot new trends. 'Oh, the Tube Girl trend is viral. We should use that for our fashion client!'",
-          "3:00 PM - Performance Review: Open Google Analytics. Check data for a shoe ad run yesterday. 'Click-through rate is low,' frown. Decide to change ad headline from 'Buy Shoes' to 'Walk on Clouds – 50% Off.' In digital marketing, you can fix mistakes instantly.",
+          "3:00 PM - Performance Review: Open Google Analytics. Check data for a shoe ad run yesterday. 'Click-through rate is low,' frown. Decide to change ad headline from 'Buy Shoes' to 'Walk on Clouds  50% Off.' In digital marketing, you can fix mistakes instantly.",
           "5:00 PM - Content Shoot: Step into the studio. Lighting is set. Direct a micro-influencer on how to unbox sneakers for a reel. Do five retakes until the transition is perfect.",
           "7:00 PM - Scheduling: Upload posts for the next day on a scheduling tool, tag the products, and log off. As you take an Uber home, see your own ad pop up on Instagram feed and smile."
         ]
@@ -14906,7 +15390,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18 – ₹32 LPA","Mid-Level Professional (5–8 yrs): ₹9 – ₹16 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹8.5 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹5 LPA","Note: Metros pay 30% more; PhD/NET impacts academic pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.","Top Industries: NGOs, CSR, Market Research, UX Research, Policy.","Global Demand: USA, UK; Remote social impact consulting.","Top Institutions","Career Opportunities","Conventional","Sociology Professor","Social Researcher","NGO Project Officer","Community Development Officer","New-age and AI driven","Social Data Analyst","UX Researcher","Policy Research Associate","Impact Evaluation Specialist","Remote/Entrepreneurship","Independent Social Research Consultant","Sociology Content Creator","Online Academic Mentor","Social Impact Consultant"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18 – ₹32 LPA","Mid-Level Professional (5–8 yrs): ₹9 – ₹16 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹8.5 LPA","Entry Level (0–2 yrs): ₹3 – ₹5 LPA","Note: Metros pay 30% more; PhD/NET impacts academic pay.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.","Top Industries: NGOs, CSR, Market Research, UX Research, Policy.","Global Demand: USA, UK; Remote social impact consulting.","Top Institutions","Career Opportunities","Conventional","Sociology Professor","Social Researcher","NGO Project Officer","Community Development Officer","New-age and AI driven","Social Data Analyst","UX Researcher","Policy Research Associate","Impact Evaluation Specialist","Remote/Entrepreneurship","Independent Social Research Consultant","Sociology Content Creator","Online Academic Mentor","Social Impact Consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",

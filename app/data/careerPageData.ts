@@ -14,6 +14,11 @@ import { actuarialScienceUpdateData } from './actuarialScienceUpdateData';
 import { scienceMathematicsEngineeringUpdateData } from './scienceMathematicsEngineeringUpdateData';
 import { bankingAndFinanceUpdateData } from './bankingAndFinanceUpdateData';
 import { costAccountantUpdateData } from './costAccountantUpdateData';
+import { government_servicesUpdateData } from './government_servicesUpdateData';
+import { legalServicesUpdateData } from './legalServicesUpdateData';
+import { manufacturingUpdateData } from './manufacturingUpdateData';
+import { marketing_advertisingUpdateData } from './marketing_advertisingUpdateData';
+
 export interface CareerHeroStat {
   value: string;
   label: string;
@@ -4365,12 +4370,12 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working forensic scientist",
         color: RED2,
         content: [
-          "08:30 AM: Arjun clocks in at the State Forensic Science Laboratory (FSL) in Lucknow. The smell of chemicals hangs faintly in the air. He dons his white coat and checks the 'Chain of Custody' log. A sealed packet arrived last night from a robbery case.",
-          "10:00 AM: Lab Analysis. Arjun specializes in Serology (body fluids). He carefully opens the packet containing a stained shirt. Using a high-powered microscope and chemical reagents, he tests the stain. Is it blood? Yes. Is it human? Yes. He prepares the sample for DNA profiling.",
-          "01:00 PM: Lunch. He eats quickly with colleagues from the Ballistics division. They discuss a new case involving a country-made pistol.",
-          "02:30 PM: Court Summons. Arjun has to testify in the High Court today regarding a case he analyzed two years ago. He stands in the witness box, facing a barrage of questions from the defense lawyer. 'Dr. Arjun, are you 100% sure the sample wasn't contaminated?' He calmly explains his scientific process.",
-          "05:00 PM: Back to the Lab. A rush request comes in from the Cyber Cell. They need help lifting latent fingerprints from a seized hard drive before they analyze the data. Arjun dusts the drive using magnetic powder, photographs the prints, and uploads them to the database.",
-          "06:30 PM: Paperwork. He spends an hour writing a detailed report. In forensics, if you didn't document it, you didn't do it. He logs off, mentally tired but knowing his work today moved three cases closer to justice."
+          "08:30 AM - Arjun clocks in at the State Forensic Science Laboratory (FSL) in Lucknow: The smell of chemicals hangs faintly in the air. He dons his white coat and checks the 'Chain of Custody' log. A sealed packet arrived last night from a robbery case.",
+          "10:00 AM - Lab Analysis. Arjun specializes in Serology (body fluids): He carefully opens the packet containing a stained shirt. Using a high-powered microscope and chemical reagents, he tests the stain. Is it blood? Yes. Is it human? Yes. He prepares the sample for DNA profiling.",
+          "01:00 PM - Lunch :He eats quickly with colleagues from the Ballistics division. They discuss a new case involving a country-made pistol.",
+          "02:30 PM - Court Summons: Arjun has to testify in the High Court today regarding a case he analyzed two years ago. He stands in the witness box, facing a barrage of questions from the defense lawyer. 'Dr. Arjun, are you 100% sure the sample wasn't contaminated?' He calmly explains his scientific process.",
+          "05:00 PM - Back to the Lab: A rush request comes in from the Cyber Cell. They need help lifting latent fingerprints from a seized hard drive before they analyze the data. Arjun dusts the drive using magnetic powder, photographs the prints, and uploads them to the database.",
+          "06:30 PM - Paperwork: He spends an hour writing a detailed report. In forensics, if you didn't document it, you didn't do it. He logs off, mentally tired but knowing his work today moved three cases closer to justice."
         ]
       },
       {
@@ -4637,13 +4642,13 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working lawyer",
         color: RED2,
         content: [
-          "09:00 AM: Ananya reaches her office at a Law Firm in New Delhi. There is no court hearing today, so she is in 'Drafting Mode.' She grabs a coffee and opens her laptop. A client—a large shoe company—is being sued for a trademark violation. She needs to draft a 'Written Statement' (a formal reply) to defend them.",
-          "11:00 AM: Research time. She logs into Manupatra (a legal search engine) to find past Supreme Court judgments that support her client's case. Law is built on 'precedents'—what judges decided in the past matters today. She reads through 50 pages of judgments to find one golden paragraph she can use.",
-          "01:30 PM: Lunch with colleagues. They discuss the new Bharatiya Nyaya Sanhita (BNS) laws that recently replaced the old penal code. Staying updated is survival in this field.",
-          "03:00 PM: Client Meeting. The CEO of a tech startup walks in. He wants to know if his new app violates any privacy laws. She explains complex legal rules in simple English. She isn't just a lawyer here; she is a business advisor.",
-          "05:00 PM: Court Clerk visit. She rushes to the Delhi High Court registry to physically file a petition before the counter closes. The digital world hasn't fully replaced the physical paperwork yet!",
-          "07:30 PM: Back at the desk. She reviews a contract for a senior partner. She spots a tiny error in Clause 4 that could have cost the client lakhs. She fixes it. Precision is her superpower.",
-          "08:30 PM: Logs off. It was a long day, but she feels the thrill of knowing her arguments might win the case next week."
+          "09:00 AM - Ananya reaches her office at a Law Firm in New Delhi. There is no court hearing today, so she is in 'Drafting Mode.' She grabs a coffee and opens her laptop. A client—a large shoe company—is being sued for a trademark violation. She needs to draft a 'Written Statement' (a formal reply) to defend them.",
+          "11:00 AM - Research time. She logs into Manupatra (a legal search engine) to find past Supreme Court judgments that support her client's case. Law is built on 'precedents'—what judges decided in the past matters today. She reads through 50 pages of judgments to find one golden paragraph she can use.",
+          "01:30 PM - Lunch with colleagues. They discuss the new Bharatiya Nyaya Sanhita (BNS) laws that recently replaced the old penal code. Staying updated is survival in this field.",
+          "03:00 PM - Client Meeting. The CEO of a tech startup walks in. He wants to know if his new app violates any privacy laws. She explains complex legal rules in simple English. She isn't just a lawyer here; she is a business advisor.",
+          "05:00 PM - Court Clerk visit. She rushes to the Delhi High Court registry to physically file a petition before the counter closes. The digital world hasn't fully replaced the physical paperwork yet!",
+          "07:30 PM - Back at the desk. She reviews a contract for a senior partner. She spots a tiny error in Clause 4 that could have cost the client lakhs. She fixes it. Precision is her superpower.",
+          "08:30 PM - Logs off. It was a long day, but she feels the thrill of knowing her arguments might win the case next week."
         ]
       },
       {
@@ -4906,14 +4911,14 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working judge",
         color: RED2,
         content: [
-          "08:00 AM: Justice Ramakrishnan arrives at the Delhi High Court. He has 5 cases on his docket today. His chambers staff briefs him on each case file.",
-          "09:00 AM: First hearing. A writ petition is filed challenging a government policy. He listens to arguments from both the petitioner's lawyer and the government counsel for 2 hours. He takes detailed notes and reserves judgment.",
-          "11:30 AM: Lunch break. He reviews written submissions from yesterday's cases. Judges don't just listen in court; they spend hours reading legal briefs and precedents.",
-          "01:00 PM: Criminal case hearing. A criminal defense lawyer argues that his client's confession was coerced. The judge questions both sides to unearth the truth.",
-          "03:00 PM: Administrative work. He reviews case schedules, meets with the High Court registrar about court resource allocation, and handles judicial matters.",
-          "04:30 PM: Judgment Delivery. He announces a written judgment in a civil dispute case. It took him 3 days to write because every sentence has legal weight.",
-          "05:30 PM: Chambers time. He dictates notes for upcoming judgments to his secretary. Judges often work late into the evening.",
-          "06:30 PM: Goes home knowing that his decisions today will impact families, businesses, and the country's legal landscape."
+          "08:00 AM - Justice Ramakrishnan arrives at the Delhi High Court. He has 5 cases on his docket today. His chambers staff briefs him on each case file.",
+          "09:00 AM - First hearing. A writ petition is filed challenging a government policy. He listens to arguments from both the petitioner's lawyer and the government counsel for 2 hours. He takes detailed notes and reserves judgment.",
+          "11:30 AM - Lunch break. He reviews written submissions from yesterday's cases. Judges don't just listen in court; they spend hours reading legal briefs and precedents.",
+          "01:00 PM - Criminal case hearing. A criminal defense lawyer argues that his client's confession was coerced. The judge questions both sides to unearth the truth.",
+          "03:00 PM - Administrative work. He reviews case schedules, meets with the High Court registrar about court resource allocation, and handles judicial matters.",
+          "04:30 PM - Judgment Delivery. He announces a written judgment in a civil dispute case. It took him 3 days to write because every sentence has legal weight.",
+          "05:30 PM - Chambers time. He dictates notes for upcoming judgments to his secretary. Judges often work late into the evening.",
+          "06:30 PM - Goes home knowing that his decisions today will impact families, businesses, and the country's legal landscape."
         ]
       },
       {
@@ -5194,11 +5199,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "How SSC work looks inside a ministry office.",
         color: RED2,
         content: [
-          "9:30 AM: Enter South Block in New Delhi and settle into a desk surrounded by legacy files and high-speed systems.",
-          "11:00 AM: Draft a brief for a senior diplomat or officer by coordinating inputs from multiple departments.",
-          "1:30 PM: Discuss policy, finance, and administration over lunch with colleagues from different ministries.",
-          "3:30 PM: Work on e-Office, tagging digital files and ensuring sensitive records are searchable and properly indexed.",
-          "6:30 PM: Review an RTI query before leaving, knowing that accuracy and transparency are part of the job."
+          "9:30 AM - Enter South Block in New Delhi and settle into a desk surrounded by legacy files and high-speed systems.",
+          "11:00 AM - Draft a brief for a senior diplomat or officer by coordinating inputs from multiple departments.",
+          "1:30 PM - Discuss policy, finance, and administration over lunch with colleagues from different ministries.",
+          "3:30 PM - Work on e-Office, tagging digital files and ensuring sensitive records are searchable and properly indexed.",
+          "6:30 PM - Review an RTI query before leaving, knowing that accuracy and transparency are part of the job."
         ]
       },
       {
@@ -5410,13 +5415,13 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working industrial designer",
         color: RED2,
         content: [
-          "09:30 AM: Riya walks into her studio at a consumer electronics company in Bangalore. It's a creative mess—sketches on the walls, 3D printed models on desks, and material samples everywhere. She grabs her iPad Pro. The brief today is to design a new 'Smart Wearable' for senior citizens that monitors heart rate but looks like jewelry, not a hospital gadget.",
-          "10:30 AM: Sketching Phase. Riya puts on her headphones and starts drawing. She doesn't just draw one idea; she draws 50. Some are sleek, some are chunky, some look like bracelets. She focuses on the 'form factor'—it needs to be easy for shaky hands to wear.",
-          "12:30 PM: The Prototype Lab. She takes her best sketch to the 3D printing room. She loads a file into the printer. While it prints, she meets with the engineering team. 'Riya, this curve is too tight; the battery won't fit inside,' the engineer says. Back to the drawing board. Design is a constant negotiation with physics.",
-          "02:00 PM: Lunch. She eats with the UX (User Experience) designers. They discuss how the digital screen on her device will interact with the physical button she designed.",
-          "03:30 PM: User Testing. A group of elderly users has been invited to test a foam model of the device. Riya watches silently. She notices one user struggling to find the 'Panic Button' because it's too small. She notes this down: 'Make the button red and tactile.'",
-          "05:00 PM: Rendering. Back at her desk, she uses software like KeyShot to create a photorealistic image of the final design. She adds textures—gold finish, matte black silicon. It looks so real you could touch it.",
-          "07:00 PM: She logs off. On her way home, she sees someone wearing headphones she designed two years ago. That thrill—seeing a stranger use your creation—never gets old."
+          "09:30 AM - Riya walks into her studio at a consumer electronics company in Bangalore. It's a creative mess—sketches on the walls, 3D printed models on desks, and material samples everywhere. She grabs her iPad Pro. The brief today is to design a new 'Smart Wearable' for senior citizens that monitors heart rate but looks like jewelry, not a hospital gadget.",
+          "10:30 AM - Sketching Phase. Riya puts on her headphones and starts drawing. She doesn't just draw one idea; she draws 50. Some are sleek, some are chunky, some look like bracelets. She focuses on the 'form factor'—it needs to be easy for shaky hands to wear.",
+          "12:30 PM - The Prototype Lab. She takes her best sketch to the 3D printing room. She loads a file into the printer. While it prints, she meets with the engineering team. 'Riya, this curve is too tight; the battery won't fit inside,' the engineer says. Back to the drawing board. Design is a constant negotiation with physics.",
+          "02:00 PM - Lunch. She eats with the UX (User Experience) designers. They discuss how the digital screen on her device will interact with the physical button she designed.",
+          "03:30 PM - User Testing. A group of elderly users has been invited to test a foam model of the device. Riya watches silently. She notices one user struggling to find the 'Panic Button' because it's too small. She notes this down: 'Make the button red and tactile.'",
+          "05:00 PM - Rendering. Back at her desk, she uses software like KeyShot to create a photorealistic image of the final design. She adds textures—gold finish, matte black silicon. It looks so real you could touch it.",
+          "07:00 PM - She logs off. On her way home, she sees someone wearing headphones she designed two years ago. That thrill—seeing a stranger use your creation—never gets old."
         ]
       },
       {
@@ -5681,13 +5686,13 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working industrial engineer",
         color: RED2,
         content: [
-          "08:30 AM: Rohan walks onto the warehouse floor at a massive E-commerce Fulfillment Center (like Amazon/Flipkart) in Bhiwandi, near Mumbai. It's the 'Big Billion Days' sale week. The noise of conveyor belts and scanners is deafening. He checks his tablet: Order volume is up 40% today.",
-          "09:30 AM: The Bottleneck. He notices a jam in the packing section. Packages are piling up because the label printers are slow. Rohan doesn't fix the printer; he re-organizes the line. He instructs the team to split the flow into two lines—one for small packets, one for big boxes. The jam clears in 20 minutes.",
-          "11:00 AM: Time Study. Rohan stands with a stopwatch (or an iPad app) observing a worker packing a mobile phone. Reach, Grab, Box, Tape, Label. It takes 45 seconds. Rohan realizes if he moves the tape dispenser 6 inches closer, it saves 2 seconds per box. In a day with 10,000 boxes, he just saved 5.5 hours of labor!",
-          "01:00 PM: Lunch. He eats quickly with the Operations Manager. They discuss 'Kaizen' (continuous improvement). Rohan suggests a new layout for the loading dock to reduce truck waiting time.",
-          "03:00 PM: Data Crunching. Back at his desk, he analyzes data on Excel/PowerBI. He spots a trend: 15% of returns are happening because of 'damaged packaging.' He schedules a meeting with the cardboard supplier to upgrade the material quality.",
-          "05:00 PM: Safety Walk. He walks the floor to ensure no one is lifting heavy boxes incorrectly. Safety is efficient; accidents stop work.",
-          "06:30 PM: Rohan logs off. Today, his small changes helped ship 5,000 extra parcels. He didn't invent the product, but he made sure it reached the customer on time."
+          "08:30 AM - Rohan walks onto the warehouse floor at a massive E-commerce Fulfillment Center (like Amazon/Flipkart) in Bhiwandi, near Mumbai: It's the 'Big Billion Days' sale week. The noise of conveyor belts and scanners is deafening. He checks his tablet: Order volume is up 40% today.",
+          "09:30 AM - The Bottleneck: He notices a jam in the packing section. Packages are piling up because the label printers are slow. Rohan doesn't fix the printer; he re-organizes the line. He instructs the team to split the flow into two lines—one for small packets, one for big boxes. The jam clears in 20 minutes.",
+          "11:00 AM - Time Study: Rohan stands with a stopwatch (or an iPad app) observing a worker packing a mobile phone. Reach, Grab, Box, Tape, Label. It takes 45 seconds. Rohan realizes if he moves the tape dispenser 6 inches closer, it saves 2 seconds per box. In a day with 10,000 boxes, he just saved 5.5 hours of labor!",
+          "01:00 PM - Lunch: He eats quickly with the Operations Manager. They discuss 'Kaizen' (continuous improvement). Rohan suggests a new layout for the loading dock to reduce truck waiting time.",
+          "03:00 PM - Data Crunching: Back at his desk, he analyzes data on Excel/PowerBI. He spots a trend: 15% of returns are happening because of 'damaged packaging.' He schedules a meeting with the cardboard supplier to upgrade the material quality.",
+          "05:00 PM - Safety Walk: He walks the floor to ensure no one is lifting heavy boxes incorrectly. Safety is efficient; accidents stop work.",
+          "06:30 PM - Rohan logs off: Today, his small changes helped ship 5,000 extra parcels. He didn't invent the product, but he made sure it reached the customer on time."
         ]
       },
       {
@@ -5949,14 +5954,14 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working mechanical engineer",
         color: RED2,
         content: [
-          "08:30 AM: Karthik arrives at the R&D center of an Electric Vehicle (EV) startup in Pune. The air buzzes with the hum of 3D printers and the smell of coffee. He doesn't wear a suit; jeans and a polo t-shirt are the norm here.",
-          "09:00 AM: The Huddle. The team gathers around a whiteboard. They are designing a new battery cooling system for an electric scooter. The challenge? It needs to be 10% lighter but cool 20% faster. Karthik sketches a rough idea involving a new honeycomb structure.",
-          "10:30 AM: CAD Time. Karthik sits at his dual-monitor workstation. He opens SolidWorks (a 3D design software). For the next two hours, he is in 'the zone,' turning his rough sketch into a precise, 3D digital model.",
-          "01:00 PM: Lunch at the canteen. He sits with the manufacturing team. They joke about a robot arm that kept dropping bolts yesterday. These informal chats are crucial—designers need to know what happens on the factory floor.",
-          "02:00 PM: The Prototype Lab. This is the fun part. Karthik puts on safety goggles and heads to the lab. A 3D-printed version of his cooling part is ready. He fits it onto a test scooter. Does it fit? Yes. Does it vibrate too much? He uses a sensor to check.",
-          "04:30 PM: Vendor Call. He calls a supplier in Chennai who makes aluminum parts. They discuss material grades. Karthik needs '6061 Aluminum,' but the supplier suggests '7075' for better strength.",
-          "06:00 PM: Documentation. In engineering, if you didn't document it, you didn't do it. Karthik updates the 'Bill of Materials' (BOM)—a list of every single screw and washer needed for his design.",
-          "07:00 PM: He logs off. As he rides his own electric scooter home, he smiles, knowing that the cooling system keeping his battery safe was designed by him."
+          "08:30 AM - Karthik arrives at the R&D center of an Electric Vehicle (EV) startup in Pune. The air buzzes with the hum of 3D printers and the smell of coffee. He doesn't wear a suit; jeans and a polo t-shirt are the norm here.",
+          "09:00 AM - The Huddle. The team gathers around a whiteboard. They are designing a new battery cooling system for an electric scooter. The challenge? It needs to be 10% lighter but cool 20% faster. Karthik sketches a rough idea involving a new honeycomb structure.",
+          "10:30 AM - CAD Time. Karthik sits at his dual-monitor workstation. He opens SolidWorks (a 3D design software). For the next two hours, he is in 'the zone,' turning his rough sketch into a precise, 3D digital model.",
+          "01:00 PM - Lunch at the canteen. He sits with the manufacturing team. They joke about a robot arm that kept dropping bolts yesterday. These informal chats are crucial—designers need to know what happens on the factory floor.",
+          "02:00 PM - The Prototype Lab. This is the fun part. Karthik puts on safety goggles and heads to the lab. A 3D-printed version of his cooling part is ready. He fits it onto a test scooter. Does it fit? Yes. Does it vibrate too much? He uses a sensor to check.",
+          "04:30 PM - Vendor Call. He calls a supplier in Chennai who makes aluminum parts. They discuss material grades. Karthik needs '6061 Aluminum,' but the supplier suggests '7075' for better strength.",
+          "06:00 PM - Documentation. In engineering, if you didn't document it, you didn't do it. Karthik updates the 'Bill of Materials' (BOM)—a list of every single screw and washer needed for his design.",
+          "07:00 PM - He logs off. As he rides his own electric scooter home, he smiles, knowing that the cooling system keeping his battery safe was designed by him."
         ]
       },
       {
@@ -6392,7 +6397,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       }
     ]
-  }
+  },
+  ...legalServicesUpdateData,
+  ...manufacturingUpdateData
 };
 
 export function getCareerPageData(slug: string): CareerPageData | null {
@@ -6426,10 +6433,14 @@ export function getCareerPageData(slug: string): CareerPageData | null {
     homeScienceUpdateData[normalizedSlug] ||
     publicSafetyAndSecurityUpdateData[normalizedSlug] ||
     environmentUpdateData[normalizedSlug] ||
+    government_servicesUpdateData[normalizedSlug] ||
     mentorAndCoachUpdateData[normalizedSlug] ||
     healthScienceUpdateData[normalizedSlug] ||
     hospitalityUpdateData[normalizedSlug] ||
     scienceMathematicsEngineeringUpdateData[normalizedSlug] ||
+    legalServicesUpdateData[normalizedSlug] ||
+    manufacturingUpdateData[normalizedSlug] ||
+    marketing_advertisingUpdateData[normalizedSlug] ||
     careerPageData[normalizedSlug] ||
     null
   );

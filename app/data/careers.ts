@@ -185,7 +185,7 @@ export const careerCategories = {
   },
   legal_services: {
     name: "Legal Services",
-    careers: ["forensic_scientist", "lawyer", "judge"],
+    careers: ["forensic_scientist", "lawyer", "judiciary"],
   },
   logistics_and_transportation: {
     name: "Logistics & Transportation",
@@ -202,9 +202,9 @@ export const careerCategories = {
   manufacturing: {
     name: "Manufacturing",
     careers: [
-      "industrial_engineering_management",
-      "industrial_designer",
-      "mechanical_engineer",
+      "industrial_design",
+      "industrial_engineering",
+      "mechanical_engineering",
     ],
   },
   marketing_and_advertising: {

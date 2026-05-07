@@ -117,7 +117,14 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
           "Entry Level (0–2 yrs): ₹3–8 LPA",
-          "Note: Salaries vary by location, experience, and specialization."
+          "Note: Salaries vary by location, experience, and specialization.",
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune",
+          "Top Industries: Various sectors offering opportunities",
+          "Global Demand: High in developed markets",
+          "Top Institutions",
+          "Government: Jawaharlal Nehru University (JNU), Indian Institute of Science (IISc), Bangalore, Forest Research Institute (FRI), Dehradun, Wildlife Institute of India (WII), Dehradun",
+          "Private: TERI School of Advanced Studies, Amity Institute of Environmental Sciences, Lovely Professional University (LPU), SRM Institute of Science & Technology",
+          "Online: IGNOU (Environmental Science Programs), Swayam (NPTEL Environment Courses), Coursera (Environmental Science Specializations), edX (IISc / IIT Environment Courses)"
         ]
       },
       {
@@ -139,9 +146,9 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: "#059669",
         content: [
-          "Government:\\nTop government institutions offering programs",
-          "Private:\\nLeading private institutions",
-          "Online:\\nOnline learning platforms and courses"
+          "Government: Jawaharlal Nehru University (JNU), Indian Institute of Science (IISc), Bangalore, Forest Research Institute (FRI), Dehradun, Wildlife Institute of India (WII), Dehradun",
+          "Private: TERI School of Advanced Studies, Amity Institute of Environmental Sciences, Lovely Professional University (LPU), SRM Institute of Science & Technology",
+          "Online: IGNOU (Environmental Science Programs), Swayam (NPTEL Environment Courses), Coursera (Environmental Science Specializations), edX (IISc / IIT Environment Courses)"
         ]
       },
       {
@@ -293,9 +300,9 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: "#059669",
         content: [
-          "Government:\\nTop government institutions offering programs",
-          "Private:\\nLeading private institutions",
-          "Online:\\nOnline learning platforms and courses"
+          "Government: Indira Gandhi National Forest Academy (IGNFA), Dehradun, Forest Research Institute (FRI), Dehradun, Wildlife Institute of India (WII), Dehradun, Indian Institute of Forest Management (IIFM), Bhopal",
+          "Private: TERI School of Advanced Studies, Amity Institute of Forestry & Wildlife, Lovely Professional University (LPU), Dolphin PG Institute of Biomedical & Natural Sciences",
+          "Online: IGNOU (Environmental Science / Forestry), Swayam (NPTEL Forestry Courses), Coursera (Forest & Wildlife Management), Unacademy (UPSC IFS Preparation)"
         ]
       },
       {
@@ -447,9 +454,9 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: "#059669",
         content: [
-          "Government:\\nTop government institutions offering programs",
-          "Private:\\nLeading private institutions",
-          "Online:\\nOnline learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT), Kharagpur, Indian School of Mines (IIT-ISM), Dhanbad, Banaras Hindu University (BHU), University of Delhi (DU)",
+          "Private: Manipal Institute of Technology, Lovely Professional University (LPU), Amity University, BITS Pilani",
+          "Online: IGNOU (Geology Programs), Swayam (NPTEL Geology Courses), Coursera (Earth Science Specializations), edX (Geology & Geoscience Courses)"
         ]
       },
       {
@@ -601,9 +608,9 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: "#059669",
         content: [
-          "Government:\\nTop government institutions offering programs",
-          "Private:\\nLeading private institutions",
-          "Online:\\nOnline learning platforms and courses"
+          "Government: National Institute of Oceanography (NIO), Goa, Indian Institute of Technology (IIT), Madras, Cochin University of Science & Technology (CUSAT), Andhra University, Visakhapatnam",
+          "Private: Amity Institute of Marine Science & Technology, SRM Institute of Science & Technology, Lovely Professional University (LPU), Manipal Academy of Higher Education",
+          "Online: IGNOU (Marine Science Programs), Swayam (NPTEL Oceanography Courses), Coursera (Marine & Ocean Science Courses), edX (Oceanography Specializations)"
         ]
       },
       {
@@ -755,9 +762,9 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: "#059669",
         content: [
-          "Government:\\nTop government institutions offering programs",
-          "Private:\\nLeading private institutions",
-          "Online:\\nOnline learning platforms and courses"
+          "Government: Wildlife Institute of India (WII), Dehradun, Forest Research Institute (FRI), Dehradun, Aligarh Muslim University (AMU), University of Mysore",
+          "Private: TERI School of Advanced Studies, Amity Institute of Forestry & Wildlife, Guru Gobind Singh Indraprastha University, Sálim Ali Centre for Ornithology & Natural History (SACON)",
+          "Online: IGNOU (Wildlife & Biodiversity Programs), Swayam (NPTEL Wildlife Biology Courses), Coursera (Conservation & Wildlife Specializations), edX (Ecology & Wildlife Courses)"
         ]
       },
       {
