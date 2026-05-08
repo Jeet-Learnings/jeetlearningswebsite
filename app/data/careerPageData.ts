@@ -164,7 +164,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5+ Crore","Senior / Lead Role (10+ yrs): ₹40–80 LPA","Mid-Level Professional (5–8 yrs): ₹20–40 LPA","Junior / Associate (3–5 yrs): ₹10–20 LPA","Entry Level (0–2 yrs): ₹4–8 LPA","Note: Metro cities (Mumbai, Gurugram) pay 20–40% more; each actuarial exam cleared adds ~10–15% salary growth.","Where Are the Jobs?","Top Cities: Mumbai, Gurugram/Delhi-NCR, Bengaluru, Hyderabad, Pune","Top Industries: Insurance (LIC, HDFC Life), Consulting (Aon, WTW, PwC, Deloitte), Reinsurance, Banking, Pensions, InsurTech","Opportunities: High global demand (UK, USA, UAE, Singapore); growing remote, consulting, and freelance roles","Top Institutions","Government","Institute of Actuaries of India (IAI)","University of Mumbai (Department of Statistics)","Maharaja Sayajirao University, Baroda","Aligarh Muslim University (AMU)","Private","Bishop Heber College, Tiruchirappalli","Narsee Monjee Institute (NMIMS)","Manipal Academy of Higher Education","Amity University","Online","Institute and Faculty of Actuaries (IFoA) - UK (available in India)","SWAYAM / NPTEL","Coursera (with university partners)","NIIT Online Programs","Career Opportunities","Conventional","Life Insurance Actuary","General Insurance Actuary","Pension & Retirement Fund Actuary","Health Insurance Actuary","New-Age and AI-Driven","Predictive Analytics Actuary","Insurtech Data Scientist","AI-based Catastrophe Risk Modeller","Machine Learning Pricing Specialist","Remote/Entrepreneurship","Freelance Actuarial Consultant","Online Actuarial Exam Coaching","Micro-Insurance Platform Founder","Actuarial Analytics SaaS Startup"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5+ Crore","Senior / Lead Role (10+ yrs): ₹40–80 LPA","Mid-Level Professional (5–8 yrs): ₹20–40 LPA","Junior / Associate (3–5 yrs): ₹10–20 LPA","Entry Level (0–2 yrs): ₹4–8 LPA","Note: Metro cities (Mumbai, Gurugram) pay 20–40% more; each actuarial exam cleared adds ~10–15% salary growth.","Where Are the Jobs?","Top Cities: Mumbai, Gurugram/Delhi-NCR, Bengaluru, Hyderabad, Pune","Top Industries: Insurance (LIC, HDFC Life), Consulting (Aon, WTW, PwC, Deloitte), Reinsurance, Banking, Pensions, InsurTech","Opportunities: High global demand (UK, USA, UAE, Singapore); growing remote, consulting, and freelance roles"]
       },
      
       {
@@ -174,9 +174,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: RED,
         content: [
-          "Public/Premier: Institute of Actuaries of India (IAI) (The licensing body); University of Mumbai; University of Delhi; Bishop Heber College (Trichy).",
-          "Private: Amity University (Noida); Christ University (Bengaluru); Patkar-Varde College (Mumbai - Accredited by IFoA UK).",
-          "Online/Distance: Limited options; most actuarial education requires classroom interaction and practical problem-solving."
+          "Government: Institute of Actuaries of India, University of Mumbai, University of Delhi, Bishop Heber College",
+          "Private: Amity University, Christ University, Patkar-Varde College, VIT Vellore, Manipal Academy",
+          "Online: SWAYAM, NPTEL, Coursera, NIIT"
         ]
       },
       {
