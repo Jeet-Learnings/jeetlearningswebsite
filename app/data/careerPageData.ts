@@ -11,13 +11,15 @@ import { publicSafetyAndSecurityUpdateData } from './publicSafetyAndSecurityUpda
 import { environmentUpdateData } from './environmentUpdateData';
 import { mentorAndCoachUpdateData } from './mentorAndCoachUpdateData';
 import { actuarialScienceUpdateData } from './actuarialScienceUpdateData';
-import { scienceMathematicsEngineeringUpdateData } from './scienceMathematicsEngineeringUpdateData';
+import { science_mathematics_engineeringUpdateData } from './science_mathematics_engineeringUpdateData';
 import { bankingAndFinanceUpdateData } from './bankingAndFinanceUpdateData';
 import { costAccountantUpdateData } from './costAccountantUpdateData';
 import { government_servicesUpdateData } from './government_servicesUpdateData';
 import { legalServicesUpdateData } from './legalServicesUpdateData';
 import { manufacturingUpdateData } from './manufacturingUpdateData';
 import { marketing_advertisingUpdateData } from './marketing_advertisingUpdateData';
+import { sports_and_physical_activitiesUpdateData } from './sports_and_physical_activitiesUpdateData';
+import { media_and_communicationUpdateData } from './media_and_communicationUpdateData';
 
 export interface CareerHeroStat {
   value: string;
@@ -6437,10 +6439,12 @@ export function getCareerPageData(slug: string): CareerPageData | null {
     mentorAndCoachUpdateData[normalizedSlug] ||
     healthScienceUpdateData[normalizedSlug] ||
     hospitalityUpdateData[normalizedSlug] ||
-    scienceMathematicsEngineeringUpdateData[normalizedSlug] ||
+    science_mathematics_engineeringUpdateData[normalizedSlug] ||
     legalServicesUpdateData[normalizedSlug] ||
     manufacturingUpdateData[normalizedSlug] ||
     marketing_advertisingUpdateData[normalizedSlug] ||
+    sports_and_physical_activitiesUpdateData[normalizedSlug] ||
+    media_and_communicationUpdateData[normalizedSlug] ||
     careerPageData[normalizedSlug] ||
     null
   );

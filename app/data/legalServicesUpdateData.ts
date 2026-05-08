@@ -134,7 +134,7 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Junior / Associate (3–5 yrs): ₹6 LPA –₹11 LPA",
           "Entry Level (0–2 yrs): ₹3 LPA – ₹6 LPA",
           "Note: Digital Forensics and Cyber skills offer 40% salary premium.",
-          "",
+           
           "Where Are the Jobs?",
           "Top Cities: Delhi, Gandhinagar, Hyderabad, Bengaluru, Mumbai, Pune.",
           "Top Industries: Government Labs, Cyber-Security, BFSI, Healthcare, Legal Firms.",
@@ -197,11 +197,11 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "UGC-NET (Forensic Science): Mandatory if you want to become a Professor or go into research (JRF)",
           "CHFI (Computer Hacking Forensic Investigator): Essential for digital forensics",
           "CFE (Certified Fraud Examiner): Great for corporate jobs",
-          "",
+           
           "Professional Bodies:",
           "Indian Academy of Forensic Medicine (IAFM)",
           "International Society of Forensic Genetics (ISFG)",
-          "",
+           
           "Continuing Education: Mandatory CPD (Continuing Professional Development) hours annually"
         ]
       },
@@ -216,12 +216,12 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Forensic Toxicologist: Finds poisons/drugs in body fluids",
           "Ballistics Expert: Studies guns and bullets",
           "Forensic Serologist: Analyzes blood and biological stains",
-          "",
+           
           "New-Age Careers:",
           "Digital Forensic Analyst: Recovering data from smashed phones or cloud servers",
           "Forensic Odontologist: Identifying victims via dental records",
           "Forensic Psychologist: Profiling criminals' minds",
-          "",
+           
           "Freelancing:",
           "Questioned Document Examiner: Checking fake wills/cheques",
           "Legal Consultant: Advising lawyers on scientific validity of evidence"
@@ -375,7 +375,7 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Step 4: Do internship under practicing advocate or law firm.",
           "Step 5: Enroll with State Bar Council after degree completion.",
           "Step 6: Practice as Advocate in district or high court.",
-          "",
+           
           "Pathway B: After Graduation (3-Year LLB Route)",
           "Step 1: Pass Class 12th and complete any graduation degree.",
           "Step 2: Clear entrance exam for 3-year LLB programme.",
@@ -383,7 +383,7 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Step 4: Specialize in Criminal, Civil, Corporate, or Tax law.",
           "Step 5: Register with Bar Council of India after LLB.",
           "Step 6: Join law firm or start independent legal practice.",
-          "",
+           
           "Pathway C: Judicial Services / Government Law Route",
           "Step 1: Pass Class 12th and pursue integrated or regular LLB.",
           "Step 2: Complete LLB and gain minimum required practice experience.",
@@ -407,7 +407,7 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Junior / Associate (3–5 yrs): ₹7L – ₹15L",
           "Entry Level (0–2 yrs): ₹4L – ₹9L",
           "Note: Tier-1 firms and metros offer 100% salary premium.",
-          "",
+           
           "Where Are the Jobs?",
           "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.",
           "Top Industries: Corporate Law, BFSI, Tech-Legal, Real Estate.",
@@ -470,12 +470,12 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Bar Council Registration: Mandatory after LLB to practice law.",
           "Bar Exam: State-level bar exam to get enrollment certificate.",
           "Continuing Legal Education (CLE): Mandatory CPD hours annually.",
-          "",
+           
           "Professional Bodies:",
           "Bar Council of India (BCI): Supreme regulatory body for lawyers.",
           "State Bar Councils: Regulate lawyers at state level.",
           "Indian Bar Association: Professional association for lawyers.",
-          "",
+           
           "Specialization Certifications:",
           "Cyber Law Certification",
           "Intellectual Property Law Certification",
@@ -495,13 +495,13 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Civil Lawyer: Handling property, family, and contract disputes.",
           "Corporate Lawyer: Advising companies on mergers, contracts, compliance.",
           "Tax Lawyer: Specializing in tax law and financial regulations.",
-          "",
+           
           "New-Age Careers:",
           "Cyber Lawyer: Handling data privacy, cybercrime, digital rights.",
           "Environmental Lawyer: Protecting environment through legal action.",
           "Intellectual Property Lawyer: Protecting patents, trademarks, copyrights.",
           "Tech-Legal Specialist: Advising tech startups on legal compliance.",
-          "",
+           
           "Entrepreneurship:",
           "Solo Practice: Starting your own law firm.",
           "Legal Consulting: Advising corporations on legal strategy.",
@@ -690,7 +690,7 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Junior / Associate (3–5 yrs): ₹14 LPA –₹22 LPA",
           "Entry Level (0–2 yrs): ₹9 LPA – ₹15 LPA",
           "Note: Perks and Judicial Service exams significantly impact pay.",
-          "",
+           
           "Where Are the Jobs?",
           "Top Cities: Delhi, Mumbai, Bengaluru, Prayagraj, Kolkata.",
           "Top Industries: Government Judiciary, Tribunals, Arbitration.",
@@ -754,12 +754,12 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "Bar Council Registration: Mandatory after LLB to practice law.",
           "Bar Exam: State-level bar exam to get enrollment certificate.",
           "PCS-J Examination: State Judicial Services Examination (mandatory for lower judiciary).",
-          "",
+           
           "Professional Bodies:",
           "Bar Council of India (BCI): Supreme regulatory body.",
           "State Bar Councils: Regulate lawyers at state level.",
           "Supreme Court Collegium: Recommends judges for higher courts.",
-          "",
+           
           "Judicial Training:",
           "National Judicial Academy: Provides training for newly appointed judges.",
           "State Judicial Academies: Ongoing judicial education and development.",
@@ -778,13 +778,13 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "High Court Judge: Hearing appellate cases and constitutional matters.",
           "Supreme Court Judge: Deciding cases of national importance.",
           "Tribunal Member: Adjudicating specialized disputes (tax, labor, etc.).",
-          "",
+           
           "Specialized Roles:",
           "Constitutional Court Judge: Focusing on constitutional law.",
           "Commercial Court Judge: Handling complex commercial disputes.",
           "Family Court Judge: Presiding over family law matters.",
           "Environmental Court Judge: Addressing environmental disputes.",
-          "",
+           
           "Post-Retirement:",
           "International Arbitrator: Resolving international disputes.",
           "Legal Consultant: Advising on judicial matters.",

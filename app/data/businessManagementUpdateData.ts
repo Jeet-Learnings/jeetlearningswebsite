@@ -1081,12 +1081,29 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
         content: [
-          "After Class 10: Choose any stream. Humanities (Psychology/Sociology) or Commerce (Business Studies) ideal. Class 12 Boards.",
-          "After Class 12: Pursue BBA (HR), BMS, or degree in Psychology/Law. Entrance: CUET, SET, NPAT.",
-          "After Graduation: Pursue MBA in HR or MA in HRM & Labour Relations. Entrance: CAT, XAT, TISSNET, CUET-PG.",
-          "Lateral Entry: Professionals from Sales or Ops can switch by doing PG Diploma in HRM. Cert: SHRM-CP.",
-          "Top Institutions: XLRI Jamshedpur (The 'Mecca' of HR), TISS Mumbai, MDI Gurgaon, IIM Ranchi.",
-          "Specializations: Talent Acquisition, Learning & Development, Compensation & Benefits, Employee Relations."
+          "Pathway A: Traditional Academic Route",
+          "Step 1: Complete Class 12th with any stream",
+          "Step 2: Pursue BBA/BA in Human Resource Management (3 years)",
+          "Step 3: Complete MBA in HR/Personnel Management (2 years)",
+          "Step 4: Learn recruitment, payroll, labour law, performance management",
+          "Step 5: Complete internship in corporate HR department",
+          "Step 6: Join as HR Manager/Talent Acquisition Manager/HR Director",
+          
+          "Pathway B: Professional Certification Route",
+          "Step 1: Complete Class 12th with any stream",
+          "Step 2: Pursue any graduate degree (BA/BBA/B.Com/B.Sc.)",
+          "Step 3: Complete SHRM/HRCI/CIPD professional HR certification",
+          "Step 4: Learn tools like SAP HR, Workday, Zoho People",
+          "Step 5: Gain experience in recruitment agency/staffing firm",
+          "Step 6: Join as HR Business Partner/Compensation Analyst/L&D Manager",
+         
+          "Pathway C: Skill-Based/Direct Entry Route",
+          "Step 1: Complete Class 12th with any stream",
+          "Step 2: Pursue any graduate degree from recognised university",
+          "Step 3: Complete diploma in HR/Labour Law/Payroll Management",
+          "Step 4: Develop strong communication and people management skills",
+          "Step 5: Join any company as HR Executive/Recruitment Coordinator",
+          "Step 6: Advance as Senior HR Executive/Employee Relations Manager/HR Head"
         ]
       },
       {
@@ -1101,7 +1118,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Senior-Level (Director of HR): ₹35L–₹65L+ per annum. Strategic HR leadership roles.",
           "Leadership (CHRO): ₹1.5Cr+ per annum. Chief Human Resources Officer at large organizations.",
           "Market Growth: Hiring for HR roles projected to grow 15% annually as more GCCs open in India.",
-          "Metro vs. Tier-2: Bangalore and Mumbai pay most. Tier-2 cities like Visakhapatnam and Indore seeing 20% jump in HR hiring.",
+          "Metro vs Tier-2: Bangalore and Mumbai pay most. Tier-2 cities like Visakhapatnam and Indore seeing 20% jump in HR hiring.",
           "Industry Trends: Tech companies and startups hiring aggressively. Remote HR roles increasing."
         ]
       },{

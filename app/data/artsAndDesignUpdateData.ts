@@ -4273,12 +4273,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Ananya, a Policy Analyst at a Foreign Policy Think Tank in New Delhi",
         color: BLUE2,
         content: [
-          "09:00 AM - Ananya reaches her office in Chanakyapuri, the diplomatic enclave. Her first task is the 'Morning Scan.' She reads news from Al Jazeera, The Washington Post, and The Hindu. A conflict has broken out in West Asia. She needs to write a 'Policy Brief' on how this affects Indian oil prices.",
-          "11:00 AM - The Roundtable. A delegation of diplomats from Japan is visiting. Ananya sits in the meeting, taking notes. They discuss 'Cyber Security Cooperation.' She doesn't speak much but observes every nod and frown. Diplomacy is in the details.",
-          "01:30 PM - Lunch at the canteen with a colleague who works for the UN. They debate whether the G20 summit was a success. In this field, your lunch conversations are about geopolitics, not office gossip.",
-          "03:00 PM - Writing Mode. She drafts a speech for her Director, who is speaking at a conference tomorrow. She has to be careful with words—one wrong phrase could offend a country. She checks the Ministry of External Affairs (MEA) website to ensure she aligns with India's official stance.",
-          "05:00 PM - Networking Event. She heads to the French Embassy for a cultural evening. It looks like a party, but it is work. She sips tea while chatting with a Trade Commissioner, exchanging business cards. 'Soft Power' (culture/food/music) is a huge part of IR.",
-          "07:30 PM - Home. She checks Twitter (X) one last time. A new treaty was signed. She retweets it with a quick analysis. The world never sleeps, and neither does an IR professional's brain."
+          "09:00 AM - Ananya reaches her office in Chanakyapuri, the diplomatic enclave: Her first task is the 'Morning Scan.' She reads news from Al Jazeera, The Washington Post, and The Hindu. A conflict has broken out in West Asia. She needs to write a 'Policy Brief' on how this affects Indian oil prices.",
+          "11:00 AM - The Roundtable: A delegation of diplomats from Japan is visiting. Ananya sits in the meeting, taking notes. They discuss 'Cyber Security Cooperation.' She doesn't speak much but observes every nod and frown. Diplomacy is in the details.",
+          "01:30 PM - Lunch at the canteen with a colleague who works for the UN: They debate whether the G20 summit was a success. In this field, your lunch conversations are about geopolitics, not office gossip.",
+          "03:00 PM - Writing Mode: She drafts a speech for her Director, who is speaking at a conference tomorrow. She has to be careful with words—one wrong phrase could offend a country. She checks the Ministry of External Affairs (MEA) website to ensure she aligns with India's official stance.",
+          "05:00 PM - Networking Event: She heads to the French Embassy for a cultural evening. It looks like a party, but it is work. She sips tea while chatting with a Trade Commissioner, exchanging business cards. 'Soft Power' (culture/food/music) is a huge part of IR.",
+          "07:30 PM - Home: She checks Twitter (X) one last time. A new treaty was signed. She retweets it with a quick analysis. The world never sleeps, and neither does an IR professional's brain."
         ]
       },
       {
@@ -5408,960 +5408,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  sports_physiotherapist: {
-    slug: "sports_physiotherapist",
-    badge: "The Body Mechanics of Sports for Class 10+",
-    heading: "The Body Mechanics of Sports",
-    subheading: "Healing athletes and optimizing performance through specialized rehabilitation.",
-    whyCards: [
-      { icon: "Heart", title: "Injury Prevention", description: "Design pre-hab exercises to strengthen weak areas before injuries occur.", borderColor: "#10B981" },
-      { icon: "Zap", title: "Acute Care Expert", description: "Provide immediate field-side treatment and emergency response.", borderColor: "#059669" },
-      { icon: "TrendingUp", title: "Performance Optimizer", description: "Tailor rehab plans that make athletes stronger than before.", borderColor: "#3B82F6" },
-      { icon: "Users", title: "Team Player", description: "Collaborate with coaches, nutritionists, and psychologists for holistic athlete care.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Growth Rate", detail: "35% by 2030", color: "bg-green-100 text-green-700" },
-      { label: "Career Growth", detail: "8-10 yrs to Senior", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹3.5L–₹1Cr+", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "35%", label: "Expected Demand Growth by 2030", gradient: "from-green-500 to-green-600" },
-      { value: "25%", label: "Higher Salaries in Metro Cities", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "1",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The body mechanic of the athletic world",
-        color: BLUE,
-        content: [
-          "Imagine an athlete like Neeraj Chopra or PV Sindhu mid-game. Suddenly, there is a sharp twinge in the shoulder or a twist in the ankle. Who is the first person to run onto the field with a medical bag? That is the Sports Physiotherapist.",
-          "Sports Physiotherapy is a specialized branch of healthcare focused on the prevention, diagnosis, and treatment of injuries related to sports and exercise.",
-          "It's not just about applying an ice pack; it's a high-stakes blend of biology, mechanics, and psychology. In jargon-free terms, a sports physio is the 'body mechanic' of the athletic world.",
-          "Why does it matter? In today's India, sports have exploded beyond just cricket. With professional leagues in Kabaddi, Football, and Badminton, and India's growing Olympic ambitions, athletes are pushing their bodies to the absolute limit.",
-          "One wrong move can end a career. Sports physiotherapists are the reason modern athletes can play longer, recover faster, and perform better. They are the invisible force behind every medal India wins."
-        ]
-      },
-      {
-        id: "2",
-        title: "A Day in the Life: Dr. Ananya, Lead Physio",
-        icon: "Clock",
-        description: "Meet Dr. Ananya, Lead Physio at a High-Performance Center",
-        color: BLUE2,
-        content: [
-          "06:30 AM - My day starts at the High-Performance Center in Bengaluru. Before the athletes even hit the track, I'm in the 'Physio Room' prepping the 'Strapping & Taping' station. I spend the first hour applying specialized kinetic tape to protect an archer's shoulder or a sprinter's hamstring.",
-          "09:00 AM - Field-side duty. During the training session, I watch the athletes with a 'hawk-eye.' I'm not looking at the scores; I'm looking at their biomechanics. Is the fast bowler landing too hard on his left foot? Is the gymnast's landing wobbly? I take notes to discuss with the coach later.",
-          "12:00 PM - Rehabilitation hours. I work with a national-level wrestler recovering from an ACL surgery. Today, we are using 'Dry Needling' and specialized 'Electrotherapy' to wake up his dormant muscles. It's a slow, patient process of rebuilding a human being.",
-          "02:30 PM - Lunch is a quick affair, usually spent discussing an athlete's progress with the team nutritionist and psychologist. In sports, we are a 'support ecosystem.'",
-          "04:00 PM - Recovery Session. After a heavy training day, the whole team comes in. I oversee ice baths and use pneumatic compression sleeves to help their muscles flush out toxins. I also lead a group session on 'Corrective Stretches.'",
-          "07:00 PM - Documentation. I log every athlete's pain levels and range of motion on my laptop. This data helps the coach decide if a player is 'Match Fit' for tomorrow.",
-          "08:30 PM - I wrap up. It's a long day, but when I see an athlete I treated return to the field and win—that's my 'Gold Medal.'"
-        ]
-      },
-      {
-        id: "3",
-        title: "Is This You? (Traits & Skills)",
-        icon: "User",
-        description: "Check if you have the 'Physio Quotient'",
-        color: BLUE,
-        content: [
-          "Observation Skills: You must be able to spot tiny 'glitches' in how a person moves before they turn into injuries.",
-          "Empathy & Patience: Injured athletes are often frustrated. You need to be their 'calm' during their most stressful times.",
-          "Physical Stamina: You'll be on your feet all day, sometimes bending and lifting to assist movements.",
-          "Decision-Making: On the field, you have seconds to decide: 'Can this player continue, or will they risk permanent damage?'",
-          "Communication: You have to explain complex medical issues to coaches and parents in simple, honest terms."
-        ]
-      },
-      {
-        id: "4",
-        title: "Key Responsibilities and Workflow",
-        icon: "Briefcase",
-        description: "The P-R-E-P model: Prevention, Rescue, Evaluation, Performance",
-        color: BLUE2,
-        content: [
-          "The professional workflow generally follows the P-R-E-P model.",
-          "Prevention: Designing 'Pre-hab' exercises to strengthen weak areas before an injury happens.",
-          "Rescue (Acute Care): Providing immediate treatment (like the 'RICE' method—Rest, Ice, Compression, Elevation) on the field.",
-          "Evaluation: Using tests to diagnose the exact muscle or ligament involved.",
-          "Performance: Tailoring a rehab plan that doesn't just heal the injury but makes the athlete stronger than before."
-        ]
-      },
-      {
-        id: "5",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "The BPT and MPT route to sports physiotherapy",
-        color: BLUE,
-        content: [
-          "After Class 10: The Science Choice: You must choose the Science stream with Biology, Physics, and Chemistry (PCB).",
-          "After Class 12: Step 1: Complete a Bachelor of Physiotherapy (BPT). This is a 4.5-year degree (4 years of study + 6 months of mandatory internship).",
-          "After Class 12: Entrance Exams: NEET (for some govt. colleges), IPU CET, KCET, or university-specific tests like the CMC Vellore Entrance.",
-          "After Graduation: Step 2: Specialize with a Master of Physiotherapy (MPT) in Sports. This is a 2-year program that focuses exclusively on sports medicine.",
-          "After Graduation: Step 3: Gain Certifications. While not mandatory, short courses in Kinesio Taping, Manual Therapy, or CSCS (Certified Strength and Conditioning Specialist) make you highly employable."
-        ]
-      },
-      {
-        id: "6",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salary and career progression in sports physiotherapy",
-        color: BLUE2,
-        content: [
-          "Estimates based on data from Payscale, IHS Bhubaneswar, and industry growth reports.",
-          "Entry-Level (Assistant Physio): ₹3.5 Lakh - ₹6 Lakh annually.",
-          "Mid-Level (State Team/Academy Physio): ₹7 Lakh - ₹15 Lakh annually.",
-          "Senior-Level (National Team/Lead Physio): ₹18 Lakh - ₹35 Lakh annually.",
-          "Leadership (Director of Rehab/Clinic Owner): ₹40 Lakh - ₹1 Crore+ annually.",
-          "Growth Trajectory: Entry to Senior typically takes 8-10 years.",
-          "Metro vs. Tier-2: Metro cities like Mumbai and Bengaluru offer 25% higher salaries, but Tier-2 cities are seeing a surge in 'Private Sports Clinics.'",
-          "Demand: The demand for sports physios is expected to grow by 35% by 2030 (SGT University Report)."
-        ]
-      },
-      {
-        id: "7",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top sectors and locations for sports physiotherapists",
-        color: BLUE,
-        content: [
-          "Professional Teams: IPL, ISL, Pro Kabaddi League, and National Federations (BCCI, AIFF).",
-          "Government Organizations: Sports Authority of India (SAI), Army Sports Institute.",
-          "Private Sector: Multi-specialty hospitals (Apollo, Max), Sports Clinics (AktivHealth), Fitness Hubs (Cult.fit).",
-          "Freelance: Working as a private consultant for elite individual athletes.",
-          "International: High demand for Indian physios in the Middle East and South East Asia for their sports clubs."
-        ]
-      },
-      {
-        id: "8",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Fees and duration for sports physiotherapy education",
-        color: BLUE2,
-        content: [
-          "BPT Course Fees: Government Colleges: ₹10,000 - ₹1 Lakh (Total).",
-          "BPT Course Fees: Private Colleges: ₹4 Lakh - ₹12 Lakh (Total).",
-          "MPT Course Fees: ₹1.5L-6L (2 years).",
-          "Living Costs: ₹1 Lakh - ₹2 Lakh per year in student hubs like Delhi, Pune, or Mangalore."
-        ]
-      },
-      {
-        id: "9",
-        title: "Where to Study?",
-        icon: "BookOpen",
-        description: "Prominent institutions for sports physiotherapy in India",
-        color: BLUE,
-        content: [
-          "North: Jamia Millia Islamia (New Delhi), PGIMER (Chandigarh), KGMU (Lucknow).",
-          "South: CMC Vellore, St. John's Medical College (Bengaluru), SRMIST (Chennai), MAHE (Manipal).",
-          "East: Indian Institute of Health Sciences (IHS, Bhubaneswar), IPGMER (Kolkata).",
-          "West: Seth G.S. Medical College (KEM, Mumbai), Government Physiotherapy College (Ahmedabad)."
-        ]
-      },
-      {
-        id: "10",
-        title: "Scholarship Opportunities",
-        icon: "Award",
-        description: "Financial aid for sports physiotherapy students",
-        color: BLUE2,
-        content: [
-          "National Scholarship (NSP): For meritorious students from EWS categories (up to ₹15,000/month).",
-          "AICTE Pragati Scheme: For girl students pursuing technical degrees (₹50,000/year).",
-          "Institutional Merit: Colleges like SRM and LPU offer up to 100% tuition waivers for top entrance rankers.",
-          "TATA Trusts Education Grant: For students pursuing medical and health-related degrees."
-        ]
-      },
-      {
-        id: "11",
-        title: "Professional Bodies & Licensing",
-        icon: "Certificate",
-        description: "Registration and professional credentials",
-        color: BLUE,
-        content: [
-          "The 'Dr.' Title: In India, BPT graduates are ethically permitted to use the 'Dr.' prefix (Physiotherapist).",
-          "Registration: You must register with the State Physiotherapy Council (e.g., DCPTOT for Delhi) or the Indian Association of Physiotherapists (IAP).",
-          "Add-ons: FIFA Diploma in Football Medicine (Free online) is a great value-add.",
-          "Continuing Education: Regular workshops and certifications to stay updated with latest techniques."
-        ]
-      },
-      {
-        id: "12",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Diverse paths in sports physiotherapy",
-        color: BLUE2,
-        content: [
-          "Conventional: Hospital-based Physiotherapist, Clinic Owner, Lecturer.",
-          "New-Age: Sports Data Analyst (integrating injury data with AI), Ergonomic Consultant for e-Sports teams, Tele-Physio Specialist.",
-          "Entrepreneurship: Starting a 'Sports Rehab Tech' startup or a chain of specialized recovery centers.",
-          "International: Working with international sports teams and organizations."
-        ]
-      },
-      {
-        id: "13",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of sports physiotherapy careers",
-        color: BLUE,
-        content: [
-          "Emotional Stress: Seeing an athlete's dreams crushed by an injury can be tough.",
-          "Odd Hours: Athletes train early and play late. You are often the last person to leave the field.",
-          "Travel: Professional team physios spend 6-8 months a year living out of suitcases.",
-          "Physical Fatigue: Demonstrating exercises and performing manual therapy is physically demanding.",
-          "High Expectations: Athletes and coaches expect immediate results and perfect outcomes."
-        ]
-      },
-      {
-        id: "14",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of sports physiotherapy",
-        color: BLUE2,
-        content: [
-          "Wearable Tech: Physios will use AI to track 'Muscle Fatigue' in real-time through smart fabrics.",
-          "Robotic Rehab: Using mechanical exoskeletons to help paralyzed or severely injured athletes walk again.",
-          "Preventive AI: Software that predicts injury risk based on an athlete's sleep, nutrition, and training load.",
-          "Telemedicine: Remote consultations and monitoring for athletes in remote areas."
-        ]
-      },
-      {
-        id: "15",
-        title: "Skills to Build While Still in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12",
-        color: BLUE,
-        content: [
-          "Volunteer: Ask your school's sports coach if you can help during the next Sports Day.",
-          "Study Human Biology: Focus on the skeletal and muscular systems—they are your 'map.'",
-          "Learn First Aid: Take a certified Red Cross or St. John Ambulance first aid course.",
-          "Physical Fitness: To be a sports physio, you need to stay fit yourself! Join a sport to understand what it feels like to be an athlete."
-        ]
-      },
-      {
-        id: "16",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring sports physiotherapists in India",
-        color: BLUE2,
-        content: [
-          "Dr. Ali Irani: Former Head Physio of the Indian Cricket Team; a pioneer who brought modern sports medicine to India.",
-          "Dr. Nitin Patel: Currently a key figure with the BCCI/National Cricket Academy; he has managed the injuries of India's top cricketers for decades.",
-          "Dr. Heath Matthews: Though born in South Africa, he is a legend in India, having worked with the Indian boxing and wrestling teams at the Olympics.",
-          "Dr. Rajani Patil: A leading sports physio in Mumbai specializing in marathon runners and endurance athletes.",
-          "Dr. Jaspal Singh: A renowned expert in spinal manual therapy and sports rehab in North India."
-        ]
-      }
-    ]
-  },
-  sports_management: {
-    slug: "sports_management",
-    badge: "Sports Management Career in India for Class 10+",
-    heading: "Sports Management Career in India",
-    subheading: "The business side of sports where strategy, operations, branding, and people management power every major league and event.",
-    whyCards: [
-      { icon: "Briefcase", title: "Business Side of Sports", description: "Plan, organize, direct, and budget sports organizations and events.", borderColor: "#10B981" },
-      { icon: "TrendingUp", title: "High-Growth Industry", description: "India's sports economy is expanding across leagues, media, and tech.", borderColor: "#059669" },
-      { icon: "Users", title: "Massive Team Impact", description: "Support athletes, fans, sponsors, and operations behind every match.", borderColor: "#3B82F6" },
-      { icon: "Target", title: "Future Global Ambition", description: "Help build infrastructure for Olympic-scale opportunities in India.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Entry Salary", detail: "₹4L-₹8L", color: "bg-green-100 text-green-700" },
-      { label: "Projected Industry Size", detail: "$130B by 2030", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth Rate", detail: "14% CAGR", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "$130B", label: "Indian Sports Industry by 2030", gradient: "from-green-500 to-green-600" },
-      { value: "14%", label: "Projected CAGR", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "1",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The business engine behind teams, leagues, and events",
-        color: BLUE,
-        content: [
-          "When you watch a nail-biting IPL final or the electric atmosphere of the Pro Kabaddi League, you are seeing the result of thousands of hours of behind-the-scenes work.",
-          "Sports Management is the business side of sports. It involves planning, organizing, directing, and budgeting of anything related to a sports organization or event.",
-          "Professionals in this field handle everything from social media and talent scouting to sponsorship negotiations and stadium operations.",
-          "India is no longer a one-sport nation. With IPL, ISL, PKL, WPL, and global event ambitions, the country needs smart young managers to build infrastructure and scale sports professionally."
-        ]
-      },
-      {
-        id: "2",
-        title: "A Day in the Life",
-        icon: "Clock",
-        description: "Meet Rohan, Assistant Manager (Operations)",
-        color: BLUE2,
-        content: [
-          "09:30 AM - Start at the corporate office of an IPL franchise and align with the digital marketing team on fan engagement campaigns.",
-          "11:30 AM - Negotiate with a vendor in Ahmedabad for 50,000 customized team flags; every rupee saved helps team operations.",
-          "01:30 PM - Coordinate with scouts returning from a junior tournament and support legal paperwork for player trials.",
-          "03:00 PM - Conduct a stadium site visit with security and catering teams, checking VIP boxes, dugout areas, fan zones, and safety issues.",
-          "05:30 PM - Review sponsorship proposals and assess brand fit with team positioning.",
-          "08:00 PM - Execute match simulation logistics late into the evening to ensure smooth event-day delivery."
-        ]
-      },
-      {
-        id: "3",
-        title: "Is This You? (Traits & Skills Required)",
-        icon: "User",
-        description: "Check if you have the Manager's DNA",
-        color: BLUE,
-        content: [
-          "Passionate but Objective: Love sports but take tough business decisions without emotional bias.",
-          "Multitasking Genius: Handle sponsorship discussions while managing venue and seating details.",
-          "Negotiation Skills: Work with vendors, agents, and brands to secure high-value deals.",
-          "Tech-Savvy: Use analytics, AI insights, and data tools for pricing, scouting, and fan engagement.",
-          "Crisis Management: Stay calm and solve issues quickly during high-pressure match situations."
-        ]
-      },
-      {
-        id: "4",
-        title: "Key Responsibilities and Workflow",
-        icon: "Briefcase",
-        description: "The season cycle of a sports manager",
-        color: BLUE2,
-        content: [
-          "Pre-Season: Research market trends, sign sponsors, and plan team travel and logistics.",
-          "During Season: Run on-ground operations, manage social media execution, and ensure fan safety.",
-          "Post-Season: Analyze ROI, review player and campaign performance, and begin next-cycle brand planning."
-        ]
-      },
-      {
-        id: "5",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Routes after Class 10, Class 12, and Graduation",
-        color: BLUE,
-        content: ["Pathway A: Degree Route (After Class 12th)","Step 1: Pass Class 12th in any stream.","Step 2: Pursue BBA or B.Sc in Sports Management.","Step 3: Complete internship with sports club or federation.","Step 4: Earn MBA in Sports Management for advancement.","Step 5: Join as sports manager, event coordinator, or analyst.","Step 6: Rise to director-level in sports organizations.","Pathway B: Certification & Skill-Based Route","Step 1: Pass Class 12th in any stream.","Step 2: Take diploma in sports management or event management.","Step 3: Learn tools: event planning, marketing, and sponsorship.","Step 4: Volunteer or intern at sports events and leagues.","Step 5: Get hired by IPL teams, ISL clubs, or agencies.","Step 6: Specialize in athlete management, marketing, or operations.","Pathway C: Commerce/MBA Route (Domain Switch)","Step 1: Pass Class 12th with Commerce or Humanities.","Step 2: Complete BBA, B.Com, or BA in any field.","Step 3: Pursue MBA in Sports Management (IISM/TISS).","Step 4: Complete internship with sports federation or brand.","Step 5: Work as sports marketing or operations manager.","Step 6: Advance to CEO, league director, or sports consultant."]
-      },
-      {
-        id: "6",
-        title: "Market Snapshot - India 2026",
-        icon: "TrendingUp",
-        description: "Compensation and growth projections",
-        color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹11 LPA","Entry Level (0–2 yrs): ₹4 – ₹8 LPA","Note: MBA in Sports Management, AI-analytics skills, and the 8th Pay Commission (for government roles) boost pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Pune, Hyderabad.","Top Industries: Franchise Leagues (IPL, ISL, PKL), Sports Tech/Gaming, Digital Media, Marketing Agencies, Retail (e.g., Decathlon).","Global Demand: High in USA, UK, UAE. Remote \"Fan Engagement\" and \"Sports Data Science\" roles are booming.","Top Institutions","Career Opportunities","Conventional","Sports Event Manager","League / Franchise Operations Executive","Athlete Management Executive","Sports Marketing Manager","New-age and AI driven","Sports Analytics Specialist","Fan Engagement / Digital Sports Manager","Sports Data Analyst","Performance Insights Analyst","Remote / Entrepreneurship","Sports Consultant","Sports Content Creator","Online Sports Business Trainer","Sports Academy / Event Startup Founder"]
-      },
-      {
-        id: "7",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top sectors, cities, and global routes",
-        color: BLUE,
-        content: [
-          "Top Industries: Professional leagues (IPL, ISL, PKL), sports marketing agencies (IMG Reliance, JSW Sports), sports tech startups (Dream11), and government organizations (SAI).",
-          "Top Cities: Mumbai (HQ ecosystem), Bengaluru (sports tech), Delhi-NCR (federations), and Pune.",
-          "International: Opportunities with FIFA, ICC, NBA, often via Indian agencies or advanced global programs."
-        ]
-      },
-      {
-        id: "8",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Course fees, living costs, and extras",
-        color: BLUE2,
-        content: [
-          "Government Institutions: ₹30,000-₹2L total course cost.",
-          "Private Institutions: ₹8L-₹18L total for a 3-year degree.",
-          "Living Costs in Metros: ₹1.5L-₹2.5L per year.",
-          "Extra Certifications: Data analytics or digital marketing courses typically cost ₹20,000-₹50,000."
-        ]
-      },
-      {
-        id: "9",
-        title: "Where to Study?",
-        icon: "BookOpen",
-        description: "Leading institutes and programs",
-        color: BLUE,
-        content: [
-          "Government: Garware Institute (Mumbai University), Tamil Nadu Physical Education and Sports University (Chennai), IIM Rohtak (Executive and specialized programs).",
-          "Private: IISM Mumbai, Symbiosis School of Sports Sciences Pune, NASM Ahmedabad/Jaipur, Sister Nivedita University Kolkata.",
-          "Choose institutes with real-event internships and strong league-industry exposure."
-        ]
-      },
-      {
-        id: "10",
-        title: "Scholarship Opportunities",
-        icon: "Award",
-        description: "Funding support and fee waivers",
-        color: BLUE2,
-        content: [
-          "REVA University Sports Scholarship: Up to 100% fee waiver for state and national level athletes.",
-          "IndianOil Acers Scholarship: Monthly stipends for budding talent.",
-          "Institutional Merit Scholarships: Many private colleges offer 25-50% fee waivers for top entrance rankers."
-        ]
-      },
-      {
-        id: "11",
-        title: "Professional Bodies & Certifications",
-        icon: "Certificate",
-        description: "Regulators and high-value credentials",
-        color: BLUE,
-        content: [
-          "Professional Bodies: Sports Authority of India (SAI), All India Football Federation (AIFF).",
-          "Certifications: AISTS India postgraduate certifications, FIFA Diploma in Football Management.",
-          "Skill Add-ons: Data science and analytics credentials from Coursera or Google can improve employability."
-        ]
-      },
-      {
-        id: "12",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Conventional, new-age, and entrepreneurial paths",
-        color: BLUE2,
-        content: [
-          "Conventional Roles: Team Manager, Sports Agent, Event Coordinator.",
-          "New-Age Roles: eSports Manager, Sports Data Scientist, Athlete Branding Specialist, Anti-Doping Officer.",
-          "Entrepreneurship: Start a sports academy, sports travel agency, or fantasy sports app."
-        ]
-      },
-      {
-        id: "13",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "Ground realities of the profession",
-        color: BLUE,
-        content: [
-          "Long Hours: Match calendars include weekends and holidays; downtime is often only after the season.",
-          "High Pressure: A poor sponsorship decision or security lapse can cause financial and brand damage.",
-          "Networking Heavy: Career growth depends on both skills and industry relationships."
-        ]
-      },
-      {
-        id: "14",
-        title: "Emerging Trends (2025-2035)",
-        icon: "Zap",
-        description: "Where the next decade is headed",
-        color: BLUE2,
-        content: [
-          "AI and AR: Stadium experiences will include immersive live-stat overlays and smarter fan personalization.",
-          "eSports Boom: Managing virtual teams and digital tournaments is becoming a mainstream management career.",
-          "Women's Sports Growth: WPL momentum signals strong long-term expansion in women's sports business."
-        ]
-      },
-      {
-        id: "15",
-        title: "Skills to Build While Still in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12",
-        color: BLUE,
-        content: [
-          "Volunteer: Manage scoreboards, registrations, or logistics for inter-school matches.",
-          "Master Excel: Build confidence in budgeting and player/event data handling.",
-          "Communication: Start a sports blog or YouTube channel reviewing matches.",
-          "Language Skills: Learning Spanish or German can open global opportunities, especially in football ecosystems."
-        ]
-      },
-      {
-        id: "16",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Leaders who shaped sports business in India",
-        color: BLUE2,
-        content: [
-          "Nita Ambani: Chairperson of Football Sports Development Limited and a key force in modern Indian football development.",
-          "Mustafa Ghouse: CEO of JSW Sports; helped build India's private sports ecosystem.",
-          "Deepthi Bopaiah: CEO of GoSports Foundation; known for supporting Olympic athlete development.",
-          "Bunty Sajdeh: Founder of Cornerstone; built athlete brand-management pathways for top Indian stars.",
-          "Tenzing Niyogi: CEO of Ultimate Kho Kho; demonstrated commercial potential of traditional Indian sports."
-        ]
-      },
-      {
-        id: "17",
-        title: "Sources & Further Reading",
-        icon: "BookOpen",
-        description: "Reference reports and guides",
-        color: BLUE,
-        content: [
-          "6figr Sports Management Salary Data 2026",
-          "Mordor Intelligence: India Spectator Sports Market Report 2031",
-          "Havas Media Network: The Rise of Emerging Sports in India 2025",
-          "IISM Mumbai: Career Pathways after 12th Guide",
-          "National Sports Policy 2025 Draft"
-        ]
-      }
-    ]
-  },
-  sportsperson: {
-    slug: "sportsperson",
-    badge: "The Champions of India for Class 10+",
-    heading: "The Champions of India",
-    subheading: "Competing at the highest levels and inspiring millions through athletic excellence.",
-    whyCards: [
-      { icon: "Trophy", title: "Peak Performer", description: "Train relentlessly to achieve excellence in your chosen sport.", borderColor: "#10B981" },
-      { icon: "Heart", title: "Mental Champion", description: "Develop the mental resilience to perform under extreme pressure.", borderColor: "#059669" },
-      { icon: "Zap", title: "National Icon", description: "Represent your country and inspire millions across the nation.", borderColor: "#3B82F6" },
-      { icon: "TrendingUp", title: "Global Competitor", description: "Compete on international stages and achieve global recognition.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Market Size", detail: "$60.1B by 2033", color: "bg-green-100 text-green-700" },
-      { label: "E-Sports Growth", detail: "25% CAGR", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹3L–₹15Cr+", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "$60.1B", label: "Indian Sports Market by 2033", gradient: "from-green-500 to-green-600" },
-      { value: "25%", label: "E-Sports Growth Rate (CAGR)", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "1",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The performers of the sports industry",
-        color: BLUE,
-        content: [
-          "Being a professional sportsperson is more than just 'playing a game'—it is a full-time commitment to physical excellence, mental resilience, and representing something bigger than yourself.",
-          "A professional sportsperson competes in organized sporting events at the district, state, national, or international levels. They are the 'performers' of the sports industry. Their job is to train, compete, and constantly improve their skills to achieve peak performance.",
-          "In today's India, sports have transformed from a 'hobby' into a massive industry. With the success of the Khelo India movement and the rise of global stars like Neeraj Chopra and PV Sindhu, India is becoming a multi-sport nation.",
-          "Sportspersons are national icons who inspire millions, promote a healthy lifestyle, and contribute to India's 'soft power' on the global stage."
-        ]
-      },
-      {
-        id: "2",
-        title: "A Day in the Life",
-        icon: "Clock",
-        description: "Meet Aryan, a National-Level Athlete",
-        color: BLUE2,
-        content: [
-          "05:00 AM - My day starts when most people are still in deep sleep. The morning 'cool' is the best time for high-intensity cardio. I spend 90 minutes on the track—sprints, endurance runs, and agility drills. My coach watches every stride, correcting my posture.",
-          "08:30 AM - Breakfast is fuel, not just food. I follow a strict diet high in protein and complex carbs, measured to the gram.",
-          "10:30 AM - Skill Session. This is where I practice the 'craft' of my sport. If it's badminton, it's 200 smashes; if it's cricket, it's an hour of facing the bowling machine. It's repetitive, but this 'muscle memory' is what wins matches.",
-          "01:30 PM - Lunch and a mandatory 45-minute 'power nap.' Recovery is as important as training. My body is my office, and it needs maintenance.",
-          "03:30 PM - Strength & Conditioning. I head to the gym for weight training. We focus on 'explosive power'—the kind of strength that helps me jump higher or run faster in the final seconds of a game.",
-          "05:30 PM - Video Analysis & Strategy. I sit with my coach to watch recordings of my previous matches and those of my rivals. We look for patterns and build a 'battle plan' for the next tournament.",
-          "07:30 PM - Physiotherapy and ice baths. It sounds painful, but it helps my muscles recover for tomorrow.",
-          "09:30 PM - Lights out. Sleep is the most underrated part of a sportsperson's training. Tomorrow, we do it all over again."
-        ]
-      },
-      {
-        id: "3",
-        title: "Is This You? (Personality Traits & Skills)",
-        icon: "User",
-        description: "Check if you have the 'Champion's DNA'",
-        color: BLUE,
-        content: [
-          "Physical Resilience: You must be able to push your body through pain and fatigue every single day.",
-          "Mental Toughness: Sports are 90% mental. You need to stay calm when the score is against you.",
-          "Discipline: You can't miss practice because it's raining or you're 'not in the mood.'",
-          "Sportsmanship: You must be humble in victory and accept defeat gracefully.",
-          "Strategic Thinking: You need to 'read' the game and your opponent's next move.",
-          "Hard Skills: Sport-specific techniques, fitness, and tactical knowledge.",
-          "Soft Skills: Leadership, teamwork, and emotional intelligence."
-        ]
-      },
-      {
-        id: "4",
-        title: "Key Responsibilities and Workflow",
-        icon: "Briefcase",
-        description: "The continuous cycle of a sportsperson",
-        color: BLUE2,
-        content: [
-          "Preparation (Off-Season): Building base strength, fixing technique flaws, and setting goals.",
-          "Competition (In-Season): Traveling for tournaments, executing game plans, and managing pressure.",
-          "Analysis: Reviewing performance with coaches and data analysts.",
-          "Recovery: Physical therapy and mental rest to prevent 'burnout.'",
-          "Training: Daily skill development and fitness maintenance.",
-          "Nutrition & Health: Maintaining peak physical condition through diet and medical care."
-        ]
-      },
-      {
-        id: "5",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Three phases to becoming a professional sportsperson",
-        color: BLUE,
-        content: [
-          "Phase 1 - After Class 10: Join a specialized Sports Academy (e.g., JSW's Inspire Institute of Sport or a SAI Center). Opt for a school that supports athletes with flexible attendance.",
-          "Phase 2 - After Class 12: Pursue a B.P.Ed (Bachelor of Physical Education) or B.Sc. in Sports Science. Aim for NIS Patiala certifications or university-level sports quota trials.",
-          "Phase 3 - After Graduation: Transition into Coaching (Diploma in Sports Coaching) or Sports Management. Professional athletes often get direct recruitment into Government organizations through the Sports Quota."
-        ]
-      },
-      {
-        id: "6",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salary and career progression for sportspersons",
-        color: BLUE2,
-        content: [
-          "Salary Ranges (Annual): Entry-Level (State/Junior) ₹3L-7L (mostly through stipends and prize money) | Mid-Level (National/Pro-Leagues) ₹15L-40L (Contract based) | Senior-Level (International/Capped) ₹60L-5Cr+ | Elite/Leadership (Icon Players) ₹15Cr+ (including endorsements).",
-          "Growth Trajectory: The E-Sports segment is the fastest-growing, projected to grow at 25% CAGR through 2035.",
-          "Market Size: The Indian sports event market is projected to reach $60.1 Billion by 2033.",
-          "Career Span: Most athletes retire by age 35, requiring planning for a 'second career.'"
-        ]
-      },
-      {
-        id: "7",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top sectors and locations for sportspersons",
-        color: BLUE,
-        content: [
-          "Professional Leagues: IPL (Cricket), ISL (Football), PKL (Kabaddi), PVL (Volleyball).",
-          "Government Sector: Indian Railways, Services (Army/Navy/Air Force), and PSUs like BPCL or ONGC.",
-          "Top Cities: Bengaluru (Training Hub), Delhi (Federations), Pune (High-Performance Centers), Mumbai.",
-          "International: Representation in global leagues (NBA, European Football Leagues, County Cricket)."
-        ]
-      },
-      {
-        id: "9",
-        title: "Where to Study?",
-        icon: "BookOpen",
-        description: "Prominent institutions for sports education in India",
-        color: BLUE,
-        content: [
-          "Government: NSNIS Patiala (Asia's largest), LNIPE Gwalior, Indira Gandhi Institute of Physical Education (Delhi).",
-          "Private: LPU (Punjab), Symbiosis School of Sports Sciences (Pune), IISM (Mumbai).",
-          "Northeast: National Sports University (Manipur)."
-        ]
-      },
-      {
-        id: "10",
-        title: "Scholarship Opportunities",
-        icon: "Award",
-        description: "Financial aid for aspiring sportspersons",
-        color: BLUE2,
-        content: [
-          "IndianOil Sports Scholarship: Up to ₹19,000/month for young talent (Elite Scholar category).",
-          "Khelo India Scholarship: ₹5L per annum for 8 years for identified talent.",
-          "GIIS Global Sports Scholarship: 100% fee waiver for national/international winners.",
-          "Reliance Foundation Scholarships: Supports 100+ athletes across various Olympic disciplines."
-        ]
-      },
-      {
-        id: "11",
-        title: "Professional Bodies & Licensing",
-        icon: "Certificate",
-        description: "Regulatory bodies and certifications",
-        color: BLUE,
-        content: [
-          "National Level: Sports Authority of India (SAI) and Indian Olympic Association (IOA).",
-          "Sport-Specific: BCCI (Cricket), AIFF (Football), BAI (Badminton).",
-          "Certifications: Anti-Doping (WADA/NADA) awareness certifications are mandatory for international play.",
-          "Registration: Athletes must register with their respective sport federations."
-        ]
-      },
-      {
-        id: "12",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Diverse paths for sportspersons",
-        color: BLUE2,
-        content: [
-          "Conventional: Professional Player, Sports Coach, Physical Education Teacher.",
-          "New-Age: E-Sports Athlete, Sports Data Analyst, Performance Bio-mechanist, Sports Influencer.",
-          "Entrepreneurship: Starting a Sports Academy, Fitness App, or Sports Apparel brand.",
-          "Post-Retirement: Commentary, Sports Management, or Government positions."
-        ]
-      },
-      {
-        id: "13",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of professional sports careers",
-        color: BLUE,
-        content: [
-          "Injury Risk: One bad fall can end a career. Insurance and recovery are critical.",
-          "Short Career Span: Most athletes retire by age 35. You must plan for a 'second career.'",
-          "Extreme Pressure: Representing 1.4 billion people comes with immense mental stress and public scrutiny.",
-          "Financial Uncertainty: Income depends on performance, sponsorships, and tournament winnings.",
-          "Burnout: The constant training and competition can lead to physical and mental exhaustion."
-        ]
-      },
-      {
-        id: "14",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of professional sports",
-        color: BLUE2,
-        content: [
-          "AI in Training: Wearables and AI-driven biomechanical analysis will become standard (25% growth in AI-sports market).",
-          "VR Training: Athletes will use VR to simulate match scenarios without physical strain.",
-          "Gamification: The lines between physical sports and E-sports will blur, creating 'Phygital' athletes.",
-          "Data Analytics: Performance metrics and predictive analytics will guide training and strategy."
-        ]
-      },
-      {
-        id: "15",
-        title: "Skills to Build While Still in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12",
-        color: BLUE,
-        content: [
-          "Master Your Basics: Don't just play; learn the theory of your game.",
-          "Build Your Brand: Use social media to document your training journey.",
-          "Learn Nutrition: Understand how your body uses fuel.",
-          "Mental Drills: Practice meditation and visualization—the 'Inner Game.'"
-        ]
-      },
-      {
-        id: "16",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring sportspersons in India",
-        color: BLUE2,
-        content: [
-          "Major Dhyan Chand: The 'Wizard' of Hockey whose birthday is celebrated as National Sports Day.",
-          "Mary Kom: The only woman to become World Amateur Boxing champion six times.",
-          "Neeraj Chopra: First Indian to win a gold in track and field at the Olympics.",
-          "Sunil Chhetri: One of the world's highest active goal-scorers in international football.",
-          "Avani Lekhara: First Indian woman to win two Paralympic medals (Shooting)."
-        ]
-      },
-      {
-        id: "17",
-        title: "Sources and Further Reading",
-        icon: "BookOpen",
-        description: "Reference reports and guides",
-        color: BLUE,
-        content: [
-          "Edumilestones: Sportsperson Career Pathways Guide",
-          "6figr: India Sports Salary Data 2026",
-          "Grand View Research: India Sports Market Outlook 2033",
-          "Market Research Future: AI in Sports Market Report 2035",
-          "ScholarshipsX: IndianOil Sports Scholarship Scheme 2026"
-        ]
-      }
-    ]
-  },
-  physical_trainer: {
-    slug: "physical_trainer",
-    badge: "The Architects of Health for Class 10+",
-    heading: "The Architects of Health",
-    subheading: "Building stronger bodies and transforming lives through fitness and wellness.",
-    whyCards: [
-      { icon: "Heart", title: "Health Architect", description: "Design personalized fitness programs that transform lives.", borderColor: "#10B981" },
-      { icon: "Zap", title: "Motivator", description: "Inspire and empower clients to achieve their fitness goals.", borderColor: "#059669" },
-      { icon: "TrendingUp", title: "Performance Coach", description: "Enhance athletic performance through scientific training methods.", borderColor: "#3B82F6" },
-      { icon: "Users", title: "Wellness Expert", description: "Guide clients through nutrition, recovery, and lifestyle changes.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Market Growth", detail: "15% CAGR to 2030", color: "bg-green-100 text-green-700" },
-      { label: "Market Size", detail: "₹37,700 Cr by 2030", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹2.5L–₹1Cr+", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "₹37,700 Cr", label: "Fitness Market by 2030", gradient: "from-green-500 to-green-600" },
-      { value: "15%", label: "Annual Growth Rate (CAGR)", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "1",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The architect of a healthier India",
-        color: BLUE,
-        content: [
-          "In an era where 'health is wealth' has moved from a proverb to a lifestyle, a Physical Trainer (or Fitness Professional) is the architect of a healthier India.",
-          "Gone are the days when a gym trainer was just someone who showed you how to lift a dumbbell. Today, a Physical Trainer is a multi-talented professional—part coach, part scientist, and part motivator.",
-          "They understand human anatomy, nutrition, and psychology. Their primary goal? To design and oversee exercise programs that help people reach their fitness goals—whether that's losing weight, building muscle for a sport, or recovering from an injury.",
-          "India is currently facing a 'lifestyle disease' crisis, but there is also a massive surge in health awareness. As a Physical Trainer, you aren't just helping people look better; you are helping a nation stay alive and productive."
-        ]
-      },
-      {
-        id: "2",
-        title: "A Day in the Life",
-        icon: "Clock",
-        description: "Meet Coach Rahul, a Physical Trainer in South Delhi",
-        color: BLUE2,
-        content: [
-          "05:30 AM - My alarm rings early: In this profession, your workday starts when others are still sleeping. I head to a premium fitness studio in South Delhi. My first client is a CEO who needs to fit her workout in before her 8:00 AM meetings.",
-          "07:00 AM - I'm leading a 'Functional Training' group class. There are 15 people of different ages. I have to be like a DJ—keeping the energy high, correcting their form, and making sure everyone stays safe.",
-          "11:00 AM - The 'Midday Gap.' Most people are at their offices now. This is my time for Self-Growth. I spend two hours on my own workout and another hour reading a new research paper on 'Hypertrophy' (muscle growth).",
-          "02:00 PM - I log into my laptop for Virtual Coaching. I have a client in London and another in Mumbai. We do a video call where I watch their form through the camera and adjust their nutrition plan on a shared app.",
-          "04:00 PM - I head to a local sports academy. I work with a 14-year-old state-level badminton player. Here, my role is a 'Strength & Conditioning' coach. We are building the specific explosive power he needs for his smash.",
-          "07:00 PM - Evening rush. The gym is packed with young professionals. I'm doing 'PT' (Personal Training) sessions back-to-back. It's exhausting but seeing a client finally master a deadlift they were scared of is incredibly rewarding.",
-          "09:30 PM - I wrap up, prep my meals for tomorrow, and head to bed. In this career, your body is your office, and sleep is your best employee!"
-        ]
-      },
-      {
-        id: "3",
-        title: "Is This You? (Personality Traits & Skills)",
-        icon: "User",
-        description: "The qualities of a great physical trainer",
-        color: BLUE,
-        content: [
-          "High Energy & Positivity: You are the 'spark plug.' If you are tired, your client will be too.",
-          "Patience: Everyone learns at a different pace. You might have to explain the same squat form 100 times.",
-          "Observational Skills: You need to spot a 'rounded back' or a 'wobbly knee' instantly to prevent injuries.",
-          "Communication: You must explain complex science (like metabolism) in simple words that a 14-year-old can understand.",
-          "Discipline: You are the role model. You cannot tell a client to eat clean if you are living on junk food.",
-          "Hard Skills: Anatomy, Exercise Science, Nutrition, and Programming.",
-          "Soft Skills: Motivation, Empathy, and Problem-Solving."
-        ]
-      },
-      {
-        id: "4",
-        title: "Key Responsibilities and Workflow",
-        icon: "Briefcase",
-        description: "The Client Lifecycle model",
-        color: BLUE2,
-        content: [
-          "Assessment: Checking the client's current fitness level, medical history, and goals.",
-          "Programming: Creating a custom 'Periodization' plan (a roadmap for 3-6 months).",
-          "Instruction: Teaching the correct technique for every exercise.",
-          "Monitoring: Tracking progress through measurements and strength tests.",
-          "Motivation & Adjustment: Changing the plan when the client hits a 'plateau' (stops seeing results).",
-          "Recovery Management: Ensuring proper rest and nutrition for optimal results."
-        ]
-      },
-      {
-        id: "5",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Three main routes to become a physical trainer",
-        color: BLUE,
-        content: [
-          "Pathway 1 - After Class 10: Start by participating in sports and maintaining your own fitness. Enroll in basic 'Gym Instructor' certificates from local academies.",
-          "Pathway 2 - After Class 12 (Any Stream): Pursue a B.P.Ed. (Bachelor of Physical Education) or B.Sc. in Sports Science/Exercise Science. International certifications like ACE or NASM are highly valued.",
-          "Pathway 3 - After Graduation: Pursue an M.P.Ed. or PG Diploma in Sports Coaching from NIS Patiala. Career Switch: If you have any degree, do a 6-month intensive certification to transition into personal training."
-        ]
-      },
-      {
-        id: "6",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salary and career progression for physical trainers",
-        color: BLUE2,
-        content: [
-          "Salary Ranges (Annual): Entry-Level (Floor Trainer) ₹2.5L-4L | Mid-Level (Certified Personal Trainer) ₹5L-10L | Senior-Level (Master Trainer/Manager) ₹12L-25L+ | Elite/Celebrity Trainer ₹50L-1Cr+ (per individual contract).",
-          "Metro vs. Tier-2: Salaries in Mumbai/Delhi are significantly higher, but the 'Online Coaching' boom allows trainers in Tier-2 cities to earn 'Metro salaries' from home.",
-          "Industry Growth: The fitness market is set to grow from ₹16,200 crore in 2024 to ₹37,700 crore by 2030 (15% CAGR).",
-          "Remote Potential: Extremely High. Hybrid models (2 days in-person, 3 days online) are becoming the norm."
-        ]
-      },
-      {
-        id: "7",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top sectors and locations for physical trainers",
-        color: BLUE,
-        content: [
-          "Industries: Fitness Clubs (Cult.fit, Anytime Fitness), Sports Academies, Luxury Hotels, Corporate Wellness Programs, Private Households.",
-          "Top Cities: Bengaluru, Mumbai, Delhi-NCR, Pune, Hyderabad.",
-          "Remote Potential: Extremely High. Hybrid models are becoming the norm.",
-          "International: Certifications like ACE and NASM are valid in over 80 countries, making it easy to work in the UAE, UK, or USA."
-        ]
-      },
-      {
-        id: "8",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Fees and duration for physical trainer education",
-        color: BLUE2,
-        content: [
-          "Bachelor's (B.P.Ed) Government: ₹10,000 – ₹30,000/yr (3–4 Years)",
-          "Bachelor's (B.Sc) Private: ₹1 Lakh – ₹3 Lakh/yr (3 Years)",
-          "Certification (ACE/NASM) Global Bodies: ₹45,000 – ₹80,000 (3–6 Months)",
-          "Specialized Diploma NIS Patiala: ₹20,000 – ₹50,000 (1 Year)"
-        ]
-      },
-      {
-        id: "9",
-        title: "Where to Study?",
-        icon: "BookOpen",
-        description: "Prominent institutions for physical trainer education",
-        color: BLUE,
-        content: [
-          "Public: Lakshmibai National Institute of Physical Education (LNIPE) Gwalior, Indira Gandhi Institute of Physical Education (IGIPESS) New Delhi, Netaji Subhas National Institute of Sports (NSNIS) Patiala.",
-          "Private: Symbiosis School of Sports Sciences Pune, Amity School of Physical Education Noida, Manipal Academy of Higher Education Manipal."
-        ]
-      },
-      {
-        id: "10",
-        title: "Scholarship Opportunities",
-        icon: "Award",
-        description: "Financial aid for physical trainer students",
-        color: BLUE2,
-        content: [
-          "National Scholarship Portal (NSP): Various merit-based schemes for B.P.Ed students.",
-          "IndianOil Sports Scholarship: Provides monthly stipends and travel support to promising young athletes/trainers.",
-          "Khelo India Scholarships: Aimed at talented youngsters identified through national games.",
-          "University Merit Scholarships: Many institutions offer tuition waivers for top performers."
-        ]
-      },
-      {
-        id: "11",
-        title: "Professional Bodies & Certifications",
-        icon: "Certificate",
-        description: "Credentials and professional organizations",
-        color: BLUE,
-        content: [
-          "ACE (American Council on Exercise): Gold standard for personal training.",
-          "NASM (National Academy of Sports Medicine): Best for corrective exercise and performance.",
-          "NSDC (National Skill Development Corporation): Provides local Indian certifications under the 'Fit India' banner.",
-          "ISSA (International Sports Sciences Association): Recognized globally for fitness certifications."
-        ]
-      },
-      {
-        id: "12",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Diverse paths in physical training",
-        color: BLUE2,
-        content: [
-          "Conventional: Gym Trainer, Physical Education (PE) Teacher, Sports Coach.",
-          "New-Age: Bio-hacking Coach, Corrective Exercise Specialist, AI-Fitness Content Creator, Corporate Wellness Strategist.",
-          "Freelance: Independent Personal Trainer, Nutrition Consultant, YouTube Fitness Influencer.",
-          "Entrepreneurship: Starting your own gym, fitness app, or online coaching platform."
-        ]
-      },
-      {
-        id: "13",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of physical trainer careers",
-        color: BLUE,
-        content: [
-          "Income Fluctuations: If you are a freelancer, some months (like January—New Year's resolutions!) are busy, while others can be slow.",
-          "Physical Toll: Standing and demonstrating exercises for 8-10 hours a day is physically draining.",
-          "Odd Hours: Your work often happens when others are at leisure—mornings, evenings, and weekends.",
-          "Client Retention: Keeping clients motivated and committed is a constant challenge."
-        ]
-      },
-      {
-        id: "14",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of physical training",
-        color: BLUE2,
-        content: [
-          "Wearable Tech: Trainers will use data from Smartwatches (sleep, heart rate, recovery) to adjust workouts daily.",
-          "Virtual Reality (VR) Training: Leading clients through immersive VR environments from across the globe.",
-          "Longevity Coaching: Focus shifting from 'looking fit' to 'living to 100' with high quality of life.",
-          "AI-Powered Personalization: AI algorithms will create hyper-personalized workout plans based on individual genetics and preferences."
-        ]
-      },
-      {
-        id: "15",
-        title: "Skills to Build While Still in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12",
-        color: BLUE,
-        content: [
-          "Play Multiple Sports: Don't just stick to one. Learn the mechanics of football, swimming, and athletics.",
-          "Basic Anatomy: Pay attention in your 9th and 10th grade Biology classes!",
-          "Communication: Join your school's debate or drama club to build confidence in speaking.",
-          "Volunteer: Help your PE teacher organize sports day or assist younger kids with their exercises."
-        ]
-      },
-      {
-        id: "16",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring physical trainers in India",
-        color: BLUE2,
-        content: [
-          "Kris Gethin: Known for transforming Bollywood stars like Hrithik Roshan; he helped bring scientific training to the Indian mainstream.",
-          "Prashant Sawant: The man behind Shah Rukh Khan's fitness journey for over two decades.",
-          "Yasmin Karachiwala: A pioneer of Pilates in India, showing that training isn't just about heavy weights.",
-          "Coach Shayamal Vallabhjee: A sports scientist who works with elite Indian athletes to blend psychology and performance.",
-          "Namrata Purohit: One of the youngest certified Stott Pilates instructors in the world, an inspiration for young fitness enthusiasts."
-        ]
-      }
-    ]
-  },
+  // REMOVED: sportsperson, sports_physiotherapist, sports_management, physical_trainer entries moved to sports_and_physical_activitiesUpdateData.ts
   astronomer: {
     slug: "astronomer",
     badge: "The Cosmic Detectives for Class 10+",
@@ -6644,13 +5691,13 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Rohan, a Process Engineer at a petrochemical refinery",
         color: BLUE2,
         content: [
-          "07:45 AM - My day begins at a massive petrochemical refinery in Jamnagar, Gujarat. The sun is just rising over the steel towers and intertwining pipes. I start with a 'Shift Handover' meeting. I need to know if the distillation columns ran smoothly overnight or if there were any pressure drops.",
-          "09:30 AM - I'm in the Control Room—the 'brain' of the plant. Instead of beakers, I use a wall of digital screens. I notice a slight temperature spike in Reactor-B. I don't run out with a wrench; I use simulation software (like Aspen Plus) to analyze the data and adjust the flow of cooling water remotely.",
-          "11:30 AM - Time for a 'Safety Audit.' Safety is the #1 rule. I walk through the plant with a clipboard, checking the pressure valves and ensuring the new technicians are following the HazMat (Hazardous Materials) protocols.",
-          "01:00 PM - Lunch at the cafeteria is a mix of talk about the IPL and a new 'Carbon Capture' technology we're trying to implement. Many of my colleagues are mechanical and electrical engineers; we work as one giant team.",
-          "02:30 PM - I spend the afternoon working on a 'Process Intensification' project. My goal is to reduce the energy consumption of our plant by 5%. This isn't just good for the environment; it saves the company crores of rupees every year.",
-          "04:30 PM - I meet with the R&D team. They've developed a new catalyst in the lab that speeds up plastic recycling. My job is to design the 'Pilot Plant'—a smaller version of the factory—to see if this catalyst works outside the lab.",
-          "06:30 PM - I head home, tired but satisfied. As I pass a local gas station, I see people fueling their cars. I realize that the work I did today directly powers their journey home."
+          "07:45 AM - My day begins at a massive petrochemical refinery in Jamnagar, Gujarat: The sun is just rising over the steel towers and intertwining pipes. I start with a 'Shift Handover' meeting. I need to know if the distillation columns ran smoothly overnight or if there were any pressure drops.",
+          "09:30 AM - I'm in the Control Room—the 'brain' of the plant: Instead of beakers, I use a wall of digital screens. I notice a slight temperature spike in Reactor-B. I don't run out with a wrench; I use simulation software (like Aspen Plus) to analyze the data and adjust the flow of cooling water remotely.",
+          "11:30 AM - Time for a 'Safety Audit.' Safety is the #1 rule: I walk through the plant with a clipboard, checking the pressure valves and ensuring the new technicians are following the HazMat (Hazardous Materials) protocols.",
+          "01:00 PM - Lunch at the cafeteria is a mix of talk about the IPL and a new 'Carbon Capture' technology we're trying to implement: Many of my colleagues are mechanical and electrical engineers; we work as one giant team.",
+          "02:30 PM - I spend the afternoon working on a 'Process Intensification' project: My goal is to reduce the energy consumption of our plant by 5%. This isn't just good for the environment; it saves the company crores of rupees every year.",
+          "04:30 PM - I meet with the R&D team: They've developed a new catalyst in the lab that speeds up plastic recycling: My job is to design the 'Pilot Plant'—a smaller version of the factory—to see if this catalyst works outside the lab.",
+          "06:30 PM - I head home, tired but satisfied: As I pass a local gas station, I see people fueling their cars. I realize that the work I did today directly powers their journey home."
         ]
       },
       {
@@ -6691,9 +5738,29 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Three main routes to become a chemical engineer",
         color: BLUE,
         content: [
-          "After Class 10: Diploma Route - Enroll in a 3-year Diploma in Chemical Engineering. Enter the workforce as a Junior Plant Operator or use 'Lateral Entry' to join the 2nd year of a B.Tech degree.",
-          "After Class 12: Science Stream (PCM required). Entrance Exams: JEE Main (NITs), JEE Advanced (IITs), BITSAT, or State exams. Degree: B.Tech or B.E. in Chemical Engineering (4 years).",
-          "After Graduation: Higher Studies - Pursue M.Tech (via GATE) or MS/PhD for research roles. Management - Many pursue MBA (via CAT) for Supply Chain or Plant Management. Career Switch - B.Sc. Chemistry graduates can switch via M.Tech after clearing GATE."
+          "Pathway A: Core Engineering Route",
+          "Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.",
+          "Step 2: Clear JEE/State CET for engineering admission.",
+          "Step 3: Pursue B.Tech in Chemical Engineering.",
+          "Step 4: Complete internship at refineries or chemical plants.",
+          "Step 5: Pursue M.Tech in Chemical or Process Engineering.",
+          "Step 6: Work as Chemical Engineer or Process Design Engineer.",
+         
+          "Pathway B: Research & Higher Studies Route",
+          "Step 1: Complete Class 12th with PCM subjects.",
+          "Step 2: Pursue B.Tech/B.E. in Chemical or Petrochemical Engineering.",
+          "Step 3: Learn tools like Aspen Plus, MATLAB, and AutoCAD.",
+          "Step 4: Clear GATE exam for M.Tech or PSU recruitment.",
+          "Step 5: Pursue M.Tech/Ph.D. from IITs, NITs, or IIChE labs.",
+          "Step 6: Join as Research Scientist or PSU Officer.",
+
+          "Pathway C: Industrial Safety & Environment Route",
+          "Step 1: Complete Class 12th with Science stream.",
+          "Step 2: Pursue B.Sc. in Chemistry or Industrial Chemistry.",
+          "Step 3: Complete diploma in Industrial Safety or Fire Engineering.",
+          "Step 4: Gain practical training in factory safety management.",
+          "Step 5: Get NEBOSH or IOSH safety certification.",
+          "Step 6: Work as Safety Officer or Environmental Compliance Engineer."
         ]
       },
       {
@@ -6703,10 +5770,18 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Salary and career progression for chemical engineers",
         color: BLUE2,
         content: [
-          "Salary Ranges (Annual): Entry-Level (Fresher) ₹4.5L-9L | Mid-Level (4-8 years) ₹12L-18L | Senior-Level (9+ years) ₹20L-35L+ | Leadership (Plant Head/CXO) ₹50L-1.2Cr+.",
-          "Metro vs. Tier-2: Unlike IT, many high-paying jobs are in 'Industrial Towns' like Jamnagar, Vadodara, Digboi, and Vizag, where salaries are high but cost of living is low.",
-          "Growth Rate: The industry is projected to grow at 9.3% CAGR through 2030, driven by Specialty Chemicals and Renewable Energy sectors.",
-          "International Opportunities: Huge demand in the Middle East (UAE, Saudi Arabia) and Germany/USA for advanced materials."
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹35 – ₹70 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 – ₹32 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 – ₹8 LPA",
+          "Note: Metros and GATE/Aspen Plus boost pay by 35%.",
+           
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Ahmedabad, Vadodara, Pune, Bharuch, Chennai.",
+          "Top Industries: Petrochemicals, Pharma, Specialty Chemicals, Energy, PSUs.",
+          "Global Demand: High in USA, Germany. Green Hydrogen, AI trends."
         ]
       },
       {
@@ -6781,10 +5856,23 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Diverse paths in chemical engineering",
         color: BLUE2,
         content: [
-          "Conventional: Process Engineer, Production Manager, Safety Officer, Quality Assurance Manager.",
-          "New-Age: Green Hydrogen Specialist, Battery Tech Engineer (for EVs), AI-Process Automation Lead, Sustainability Consultant.",
-          "Entrepreneurship: Starting a specialty chemical unit (e.g., organic dyes, essential oils) or an environmental consultancy.",
-          "International: Working with global chemical companies and research institutions."
+          "Conventional",
+          "Process Engineer",
+          "Production Engineer",
+          "Petrochemical Engineer",
+          "Process Safety Engineer",
+           
+          "New-Age and AI Driven",
+          "Process Automation Engineer",
+          "Green / Sustainability Engineer",
+          "Bioprocess Engineer",
+          "Digital Twin / Process Simulation Engineer",
+           
+          "Remote / Entrepreneurship",
+          "Chemical Process Consultant",
+          "Process Design Freelancer",
+          "Industrial Safety Trainer",
+          "Specialty Chemicals Startup Founder"
         ]
       },
       {
@@ -6883,12 +5971,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Aditi, a Systems Engineer at a tech park in Bengaluru",
         color: BLUE2,
         content: [
-          "09:00 AM - My day starts at a tech park in Bengaluru. My team is working on an 'Autonomous Drone Delivery' system. I grab a coffee and check the 'Simulation Logs' from last night. The virtual drone crashed 12 times in the simulation due to high wind speeds.",
-          "11:00 AM - I'm in a 'Scrum Meeting.' This isn't about rugby! It's a quick stand-up meeting where I talk to a Mechanical Engineer (who designed the drone's wings) and a Data Scientist (who wrote the navigation AI). We realize the sensor is sending data too slowly.",
-          "01:00 PM - Lunch at the cafeteria is a mix of debates about the latest Marvel movie and a new coding language called Mojo. Engineering is a social career—you're constantly brainstorming with people who think differently than you.",
-          "02:30 PM - I'm in the 'Hardware Lab.' I wear an anti-static wristband and connect the drone's flight controller to my laptop. I rewrite a few lines of code to optimize how the drone handles wind gusts.",
-          "05:30 PM - I spend an hour documenting our findings. In engineering, if it isn't documented, it didn't happen. I send a report to our project manager about the sensor upgrade we need to buy.",
-          "07:30 PM - As I head home, I see a small delivery drone hovering over a nearby building. It's not one of ours yet, but I know that in a few years, the code I wrote today will be part of the 'brain' of thousands of drones across India."
+          "09:00 AM - My day starts at a tech park in Bengaluru: My team is working on an 'Autonomous Drone Delivery' system. I grab a coffee and check the 'Simulation Logs' from last night. The virtual drone crashed 12 times in the simulation due to high wind speeds.",
+          "11:00 AM - I'm in a 'Scrum Meeting.': This isn't about rugby! It's a quick stand-up meeting where I talk to a Mechanical Engineer (who designed the drone's wings) and a Data Scientist (who wrote the navigation AI). We realize the sensor is sending data too slowly.",
+          "01:00 PM - Lunch: at the cafeteria is a mix of debates about the latest Marvel movie and a new coding language called Mojo. Engineering is a social career—you're constantly brainstorming with people who think differently than you.",
+          "02:30 PM - I'm in the 'Hardware Lab.': I wear an anti-static wristband and connect the drone's flight controller to my laptop. I rewrite a few lines of code to optimize how the drone handles wind gusts.",
+          "05:30 PM - I spend an hour documenting our findings: In engineering, if it isn't documented, it didn't happen. I send a report to our project manager about the sensor upgrade we need to buy.",
+          "07:30 PM - As I head home: I see a small delivery drone hovering over a nearby building. It's not one of ours yet, but I know that in a few years, the code I wrote today will be part of the 'brain' of thousands of drones across India."
         ]
       },
       {
@@ -7300,248 +6388,6 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Manjul Bhargava: The first person of Indian origin to win the Fields Medal (the 'Nobel Prize of Math'). Proved the Bhargava Cube theorem.",
           "Neena Gupta: A young star who solved a 70-year-old problem called the Zariski Cancellation Conjecture. Recipient of the TWAS Prize.",
           "Shakuntala Devi: The 'Human Computer' who showed the world the speed of the Indian mathematical mind. Could calculate complex problems mentally."
-        ]
-      }
-    ]
-  },
-  nanotechnologist: {
-    slug: "nanotechnologist",
-    badge: "The Atomic Architect for Class 10+",
-    heading: "Nanotechnologist",
-    subheading: "Manipulating atoms and molecules to create materials with 'superpowers'—from life-saving drugs to next-gen semiconductors.",
-    whyCards: [
-      { icon: "Zap", title: "19% CAGR Market Growth", description: "India's Nanomaterials market is growing at 19% CAGR (2024–2030), driven by semiconductors and EV batteries.", borderColor: "#10B981" },
-      { icon: "Globe", title: "National Nano Mission", description: "India has launched the National Nano Mission to become a global leader in nanotechnology and advanced materials.", borderColor: "#059669" },
-      { icon: "Microscope", title: "Cutting-Edge Labs", description: "Work in state-of-the-art cleanrooms with Scanning Electron Microscopes and molecular simulation supercomputers.", borderColor: "#3B82F6" },
-      { icon: "Heart", title: "Life-Changing Impact", description: "From nano-medicine targeting cancer cells to nano-filters purifying water—your work saves lives and solves global problems.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Duration", detail: "4 Years (B.Tech) + 2 Years (M.Tech) + 4-5 Years (PhD, optional)", color: "bg-green-100 text-green-700" },
-      { label: "Tools", detail: "SEM, TEM, MATLAB, Python, Molecular Simulation Software", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹4.5L–₹1.2Cr+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "19%", label: "Nanomaterials Market CAGR", gradient: "from-green-500 to-green-600" },
-      { value: "8-10 yrs", label: "Path to Senior Researcher", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "what",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The science of the incredibly small with superpowers.",
-        color: BLUE,
-        content: [
-          "Nanotechnology Defined: The science of working at the scale of a nanometer (one-billionth of a meter). A single strand of human hair is about 80,000 to 100,000 nanometers wide!",
-          "Material Superpowers: At this tiny scale, materials behave differently—copper can become transparent, and gold can turn liquid at room temperature.",
-          "The Nanotechnologist's Role: Design, create, and manipulate microscopic structures in labs called 'Cleanrooms' (where even a speck of dust is a giant obstacle).",
-          "Real-World Applications: Scratch-resistant glasses, high-performance sports equipment, life-saving drugs, nano-LEDs that save 80% energy, water-purification membranes.",
-          "Why It Matters in India: India has launched the National Nano Mission to become a global leader. As the world moves toward sustainable energy and advanced healthcare, India needs nanotechnologists to build better solar cells, purify water, and develop next-generation semiconductors for 'Digital India.'",
-          "The Future: By 2030, graphene-based electronics, nanobots performing invisible surgeries, and thousands of jobs in Chip Fab units."
-        ]
-      },
-      {
-        id: "dayinlife",
-        title: "A Day in the Life: Dr. Ishaan, Research Scientist",
-        icon: "Clock",
-        description: "Real workflow in a nanotechnology lab.",
-        color: BLUE2,
-        content: [
-          "8:30 AM - The Gowning Room: Day starts not in an office, but in a 'Gowning Room.' Must wear a 'bunny suit'—a full-body white suit with mask and gloves. Why? Because a single skin cell is like a mountain that could crush the nanomaterials being worked on.",
-          "10:00 AM - Scanning Electron Microscope: At the SEM, checking if the 'Nano-silver' coating developed for surgical bandages is spread evenly. On the screen, bandage fibers look like giant redwood trees covered in tiny glowing dust.",
-          "12:30 PM - Medical Collaboration: Meeting with doctors on a 'Lab-on-a-chip' project. Goal: create a device no bigger than a thumbnail that can detect malaria from a single drop of blood in minutes.",
-          "2:00 PM - Lunch & Brainstorming: Quick lunch at the canteen with the Synthesis Team. Brainstorm why the latest batch of carbon nanotubes didn't conduct electricity as expected. Best breakthroughs happen over samosas!",
-          "3:30 PM - Molecular Simulations: Spend the afternoon running simulations on a supercomputer. Before building something in the expensive lab, 'build' it on a computer to see how atoms will react. Like playing high-stakes Minecraft with real-world physics.",
-          "6:00 PM - Documentation: Document every result. In nanotechnology, a change in temperature by even half a degree can change the outcome. Check emails—a lab in Germany wants to collaborate on a water-purification membrane.",
-          "7:30 PM - Reflection: Driving home, look at streetlights using nano-LEDs that save 80% more energy. Quiet reminder that while the work is invisible to the eye, its impact is everywhere."
-        ]
-      },
-      {
-        id: "who",
-        title: "Is This You? The Nanotechnologist's DNA",
-        icon: "User",
-        description: "Self-assessment for the ideal candidate.",
-        color: BLUE,
-        content: [
-          "Extreme Patience: Working with atoms is slow and requires hundreds of attempts to get right.",
-          "Interdisciplinary Mind: You need to enjoy a 'cocktail' of Physics, Chemistry, and Biology.",
-          "Precision: You are working at a scale where 'almost right' is a total failure.",
-          "Coding Skills (Python/MATLAB): You'll spend a lot of time 'simulating' molecules on computers.",
-          "Hand-Eye Coordination: Essential for handling delicate instruments and specialized tools.",
-          "Curiosity: You want to understand how things work at the atomic level.",
-          "The Self-Check: Do you love microscopes and precision? Do you enjoy both theory and hands-on lab work? If yes, you have the Nanotechnologist's DNA."
-        ]
-      },
-      {
-        id: "responsibilities",
-        title: "Key Responsibilities & Workflow",
-        icon: "Briefcase",
-        description: "The four-step nanotechnology cycle.",
-        color: BLUE2,
-        content: [
-          "Synthesis: Chemically growing or mechanically building the nanomaterials.",
-          "Characterization: Using massive microscopes (SEM, TEM) to see what you've actually made.",
-          "Testing: Seeing if the material does its job (e.g., Does this nano-paint really repel water?).",
-          "Scaling: Figuring out how to move from a tiny lab sample to making tons of it for a factory.",
-          "Documentation: Recording every detail—temperature, humidity, timing—because precision is everything.",
-          "Collaboration: Working with physicists, chemists, biologists, and engineers to solve complex problems."
-        ]
-      },
-      {
-        id: "pathways",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Educational journey from Class 10 onwards.",
-        color: BLUE,
-        content: [
-          "After Class 10: Diploma Route: Enroll in a Diploma in Nanotechnology or related field like Chemical or Mechanical Engineering (3 years). Use 'Lateral Entry' to join 2nd year of B.Tech.",
-          "After Class 12: Science Stream: Must have Physics, Chemistry, and Mathematics (PCM). Biology is an added advantage for Nano-medicine. Entrance Exams: JEE Main, JEE Advanced, BITSAT, or state-level exams like WBJEE/MHT-CET.",
-          "Degrees: B.Tech in Nanotechnology (4 years) or B.Sc. in Nanoscience/Physics/Chemistry (3-4 years).",
-          "After Graduation: Masters: M.Tech or M.Sc. in Nanotechnology (Entry via GATE or JAM). Research: PhD is highly recommended if you want to lead research teams or work in high-end R&D.",
-          "Top Institutions: IIT Madras, IISc Bengaluru (Centre for Nano Science and Engineering), IIT Bombay, Jadavpur University, SRM Institute Chennai, VIT Vellore."
-        ]
-      },
-      {
-        id: "market",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salaries, growth, and industry trends.",
-        color: BLUE2,
-        content: [
-          "Entry-Level (Junior Scientist/Engineer): ₹4.5 Lakh – ₹8 Lakh annually.",
-          "Mid-Level (Senior Technologist/Associate): ₹12 Lakh – ₹18 Lakh annually.",
-          "Senior-Level (Principal Scientist/Manager): ₹22 Lakh – ₹38 Lakh annually.",
-          "Leadership (Director of R&D/CXO): ₹55 Lakh – ₹1.2 Crore+ annually.",
-          "Growth Trajectory: India Nanomaterials market is growing at 19% CAGR (2024–2030).",
-          "Demand Shift: Hiring is shifting from pure academic research to Industrial R&D in semiconductors, EV batteries, and pharmaceuticals.",
-          "International Salaries: USA and Europe offer 2-3x higher salaries for nanotechnologists."
-        ]
-      },{
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Fees and living expenses.",
-        color: BLUE2,
-        content: [
-          "Government Institutions: IITs/NITs: ₹6 Lakh – ₹10 Lakh (Total for 4 years).",
-          "Private Universities: ₹10 Lakh – ₹18 Lakh (Total).",
-          "Specialized Training: Certifications in Electron Microscopy or Nanofabrication (₹20,000 – ₹50,000).",
-          "Living Costs: ₹1.2 Lakh – ₹2 Lakh per year in student cities.",
-          "Duration: 4 years (Bachelors) + 2 years (Masters) + 4-5 years (PhD, optional).",
-          "Scholarships: Nano Mission Fellowships, INSPIRE Scholarship, AICTE Pragati, JRF/SRF stipends (₹37,000+/month)."
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building",
-        description: "Top institutions for nanotechnology in India.",
-        color: BLUE,
-        content: [
-          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
-          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
-          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
-        ]
-      },
-      {
-        id: "scholarships",
-        title: "Scholarship Opportunities",
-        icon: "Gift",
-        description: "Financial aid and support programs.",
-        color: BLUE2,
-        content: [
-          "Nano Mission Fellowships: Dedicated PhD and Post-doc fellowships by the Department of Science & Technology (DST).",
-          "INSPIRE Scholarship: For students in basic sciences (₹80,000/year).",
-          "AICTE Pragati: For girl students in technical degrees (₹50,000/year).",
-          "JRF/SRF: Clearing NET/GATE grants you a monthly stipend (₹37,000+) during research years.",
-          "Merit-Based: Most universities offer merit scholarships for top performers.",
-          "Industry Sponsorships: Companies like Reliance and TCS sponsor research in nanotechnology."
-        ]
-      },
-      {
-        id: "certifications",
-        title: "Professional Bodies & Certifications",
-        icon: "Certificate",
-        description: "Professional organizations and credentials.",
-        color: BLUE,
-        content: [
-          "Bodies: Nano Science and Technology Consortium (NSTC), Indian National Academy of Engineering (INAE), Materials Research Society of India.",
-          "Certifications: Nanofabrication Techniques, Molecular Modeling, ISO quality standards for nanomaterials, Electron Microscopy.",
-          "International Recognition: IEEE Nanotechnology Council, American Chemical Society (Nanotechnology Division).",
-          "Continuing Education: Regular workshops and certifications in emerging areas like Graphene and Quantum Dots."
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Diverse paths in nanotechnology.",
-        color: BLUE2,
-        content: [
-          "Conventional: Research Associate, Quality Control Engineer, University Professor, Government Scientist.",
-          "New-Age: Nano-toxicologist (studying safety), AI-Materials Engineer, Precision Medicine Specialist, Graphene Electronics Designer.",
-          "Industry R&D: Semiconductor Fab Engineer, Battery Technology Specialist, Nano-coating Developer.",
-          "Entrepreneurship: Founding a startup for nano-coatings, air filters, sustainable packaging (e.g., E-Spin Nanotech).",
-          "International: Working with global research institutions and multinational companies in advanced materials."
-        ]
-      },
-      {
-        id: "challenges",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of nanotechnology careers.",
-        color: BLUE,
-        content: [
-          "Long Study Path: To get the best jobs, a Master's or PhD is almost always needed (8–10 years total).",
-          "Health & Safety: Working with unknown particles requires strict discipline to avoid inhalation or skin contact.",
-          "High Costs: You cannot do this at home; you are dependent on expensive lab equipment (SEM costs ₹1+ Crore).",
-          "Slow Progress: Experiments can take weeks or months to yield results.",
-          "Niche Field: Fewer job openings compared to IT or traditional engineering.",
-          "Funding Challenges: Research funding can be competitive and limited."
-        ]
-      },
-      {
-        id: "future",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of nanotechnology.",
-        color: BLUE2,
-        content: [
-          "Graphene-Based Electronics: By 2030, computers that don't heat up and are 100x faster than current chips.",
-          "Nanobots: Microscopic robots moving through veins to perform 'invisible surgeries' and targeted drug delivery.",
-          "Semiconductor Push: India's semiconductor ambitions will create thousands of jobs for nanotechnologists in Chip Fab units.",
-          "Sustainable Materials: Nano-coatings for solar panels, water purification membranes, and biodegradable packaging.",
-          "Quantum Dots: Next-generation displays and medical imaging using quantum-confined nanoparticles.",
-          "Space Applications: Nano-materials for lightweight spacecraft and advanced propulsion systems."
-        ]
-      },
-      {
-        id: "startnow",
-        title: "Skills to Build While Still in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12.",
-        color: BLUE,
-        content: [
-          "Watch Science Vlogs: Follow channels like Veritasium or NanoHub to see nano-physics in action.",
-          "Learn Python: It is the standard language for molecular modeling and simulations.",
-          "Join Science Clubs: Participate in the National Science Olympiad and science fairs.",
-          "Read & Research: Stay updated with news from the DST Nano Mission website and science journals.",
-          "Online Courses: Explore platforms like Coursera, edX, or MIT OpenCourseWare for nanotechnology basics.",
-          "Hands-On Projects: Build simple experiments with household materials to understand material properties."
-        ]
-      },
-      {
-        id: "personalities",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring nanotechnologists from India.",
-        color: BLUE2,
-        content: [
-          "Prof. C.N.R. Rao: A Bharat Ratna awardee and global pioneer in solid-state and materials chemistry. Founder of the Jawaharlal Nehru Centre for Advanced Scientific Research.",
-          "Dr. Sandip Patil: An IIT Kanpur alumnus who founded E-Spin Nanotech, making India self-reliant in nano-fiber machines. Pioneer in nano-fiber technology.",
-          "Prof. Ashutosh Sharma: Former Secretary of DST and renowned expert in nanofabrication and 'soft' nanotechnology. Advocate for India's Nano Mission.",
-          "Dr. Bhawana Pathak: Dean at Central University of Gujarat, leading environmental nanotechnology research. Focus on water purification and sustainable materials.",
-          "Dr. A. Sivathanu Pillai: While known for the BrahMos missile, he is a major advocate for nanotechnology in aerospace and defense applications."
         ]
       }
     ]
@@ -8100,7 +6946,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹55 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹28 – ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹14 – ₹26 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹13 LPA","Entry Level (0–2 yrs): ₹4 – ₹7.5 LPA","Note: Metros and Digital/AI skills boost pay by 40%.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Pune, Hyderabad.","Top Industries: FMCG, E-commerce, BFSI, Digital Agencies, EdTech.","Global Demand: High in USA, UK, UAE. Remote freelancing is booming.","Top Institutions","Government Institutes","Indian Institute of Mass Communication (IIMC), New Delhi","Mudra Institute of Communications (MICA), Ahmedabad","University of Delhi (Delhi School of Journalism)","Jamia Millia Islamia, New Delhi","Private Institutes","Xavier Institute of Communications (XIC), Mumbai","Symbiosis Institute of Media & Communication, Pune","Pearl Academy, New Delhi","Whistling Woods International, Mumbai","Online Institutes","NPTEL (Media & Communication Courses)","Coursera (Digital Marketing & Advertising)","Udemy (Advertising & Brand Communication)","Google Skillshop (Digital Advertising Certification)","Career Opportunities","Conventional","Copywriter/Creative Director at advertising agencies","Media Planner at media buying firms","Public Relations Officer at corporate houses","Communication Officer at government ministries","New-Age & AI-Driven","Performance Marketing Specialist at D2C and e-commerce brands","AI-Powered Content Strategist at digital marketing agencies","Programmatic Advertising Specialist at adtech platforms","Influencer Marketing Manager at social media-driven brands and startups","Remote/Entrepreneurship","Freelance Brand Strategist and Copywriter for global clients","Founder of digital advertising or social media marketing agency","Remote Content Marketing Specialist for international SaaS companies","Advertising and Communication Educator and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹55 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹28 – ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹14 – ₹26 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹13 LPA","Entry Level (0–2 yrs): ₹4 – ₹7.5 LPA","Note: Metros and Digital/AI skills boost pay by 40%.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Pune, Hyderabad.","Top Industries: FMCG, E-commerce, BFSI, Digital Agencies, EdTech.","Global Demand: High in USA, UK, UAE. Remote freelancing is booming.","Top Institutions","Government Institutes: Indian Institute of Mass Communication (IIMC) New Delhi,Mudra Institute of Communications (MICA) Ahmedabad , University of Delhi (Delhi School of Journalism), Jamia Millia Islamia New Delhi","Private Institutes : Xavier Institute of Communications (XIC) Mumbai,Symbiosis Institute of Media & Communication Pune,Pearl Academy New Delhi,Whistling Woods International Mumbai","Online Institutes: NPTEL (Media & Communication Courses),Coursera (Digital Marketing & Advertising),Udemy (Advertising & Brand Communication),Google Skillshop (Digital Advertising Certification)","Career Opportunities","Conventional","Copywriter/Creative Director at advertising agencies","Media Planner at media buying firms","Public Relations Officer at corporate houses","Communication Officer at government ministries","New-Age & AI-Driven","Performance Marketing Specialist at D2C and e-commerce brands","AI-Powered Content Strategist at digital marketing agencies","Programmatic Advertising Specialist at adtech platforms","Influencer Marketing Manager at social media-driven brands and startups","Remote/Entrepreneurship","Freelance Brand Strategist and Copywriter for global clients","Founder of digital advertising or social media marketing agency","Remote Content Marketing Specialist for international SaaS companies","Advertising and Communication Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -8329,7 +7175,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹3.0 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Note: AI-driven marketing and Metros boost pay by 45%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune.","Top Industries: E-commerce, EdTech, Fintech, Consumer Goods, Media.","Global Demand: High in USA, UK, Canada. Remote freelancing surging.","Top Institutions","Government Institutes","Indian Institute of Mass Communication (IIMC), New Delhi","National Institute of Electronics & IT (NIELIT)","IIM Bangalore (Digital Marketing Programme)","University of Delhi (Department of Commerce)","Private Institutes","MICA, Ahmedabad","Symbiosis Institute of Business Management, Pune","Internet and Mobile Association of India (IAMAI)","Digital Vidya, New Delhi","Online Institutes","Google Digital Garage (Free Certification)","HubSpot Academy (Inbound Marketing)","Coursera (Meta & Google Digital Marketing)","Udemy (Complete Digital Marketing Courses)","Career Opportunities","Conventional","Digital Marketing Manager at corporate houses","SEO/SEM Specialist at IT companies","Social Media Manager at media houses","Email Marketing Executive at banks and insurance firms","New-Age & AI-Driven","Performance Marketing Specialist at D2C startups","AI-Driven Marketing Automation Specialist at martech companies","Programmatic Advertising Manager at adtech platforms","Growth Hacker at fintech/edtech startups","Remote/Entrepreneurship","Freelance Digital Marketing Consultant on global platforms","Founder of digital marketing or performance marketing agency","Remote SEO/Content Strategist for international brands and SaaS companies","Digital Marketing Educator and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹3.0 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Note: AI-driven marketing and Metros boost pay by 45%.","Where Are the Jobs?","Top Institutions","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune.","Top Industries: E-commerce, EdTech, Fintech, Consumer Goods, Media.","Global Demand: High in USA, UK, Canada. Remote freelancing surging.","Top Institutions","Government Institutes","Indian Institute of Mass Communication (IIMC), New Delhi","National Institute of Electronics & IT (NIELIT)","IIM Bangalore (Digital Marketing Programme)","University of Delhi (Department of Commerce)","Private Institutes","MICA, Ahmedabad","Symbiosis Institute of Business Management, Pune","Internet and Mobile Association of India (IAMAI)","Digital Vidya, New Delhi","Online Institutes","Google Digital Garage (Free Certification)","HubSpot Academy (Inbound Marketing)","Coursera (Meta & Google Digital Marketing)","Udemy (Complete Digital Marketing Courses)","Career Opportunities","Conventional","Digital Marketing Manager at corporate houses","SEO/SEM Specialist at IT companies","Social Media Manager at media houses","Email Marketing Executive at banks and insurance firms","New-Age & AI-Driven","Performance Marketing Specialist at D2C startups","AI-Driven Marketing Automation Specialist at martech companies","Programmatic Advertising Manager at adtech platforms","Growth Hacker at fintech/edtech startups","Remote/Entrepreneurship","Freelance Digital Marketing Consultant on global platforms","Founder of digital marketing or performance marketing agency","Remote SEO/Content Strategist for international brands and SaaS companies","Digital Marketing Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -8558,7 +7404,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹3.5 Crore","Senior / Lead Role (10+ yrs): ₹35 – ₹75 LPA","Mid-Level Professional (5–8 yrs): ₹16 – ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹15 LPA","Entry Level (0–2 yrs): ₹4 – ₹9 LPA","Note: Tier-1 MBA and Metro locations boost pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Ahmedabad.","Top Industries: Tech-Startups, Fintech, E-commerce, Consulting, FMCG.","Global Demand: High in USA, UAE, UK; Remote leadership roles.","Top Institutions","Government Institutes","IIM Ahmedabad (Centre for Innovation, Incubation & Entrepreneurship)","IIM Bangalore (NS Raghavan Centre for Entrepreneurial Learning)","IIT Bombay (Desai Sethi School of Entrepreneurship)","EDII Ahmedabad (Entrepreneurship Development Institute of India)","Private Institutes","ISB Hyderabad (Indian School of Business)","SP Jain Institute of Management & Research, Mumbai","Amity Business School, Noida","FLAME University, Pune","Online Institutes","Coursera (IIM & Stanford Entrepreneurship Courses)","NPTEL (IIT Entrepreneurship Programmes)","edX (Babson & MIT Entrepreneurship)","Udemy (Business & Startup Management)","Career Opportunities","Conventional","Management Trainee at corporate houses","Operations Manager at FMCG companies","Business Development Manager at banks and financial firms","Administrative Officer through government exams","New-Age & AI-Driven","Startup Founder supported by incubators","Venture Capital Analyst at investment firms","Product Manager at tech startups","Social Enterprise Leader at impact-driven organizations","Remote/Entrepreneurship","Freelance Management Consultant for international businesses","Founder of D2C brand or bootstrapped SaaS startup","Remote Business Strategist for global companies and venture firms","Entrepreneurship and Management Educator and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹3.5 Crore","Senior / Lead Role (10+ yrs): ₹35 – ₹75 LPA","Mid-Level Professional (5–8 yrs): ₹16 – ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹15 LPA","Entry Level (0–2 yrs): ₹4 – ₹9 LPA","Note: Tier-1 MBA and Metro locations boost pay by 40%.","Where Are the Jobs?","Top institutions","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Ahmedabad.","Top Industries: Tech-Startups, Fintech, E-commerce, Consulting, FMCG.","Global Demand: High in USA, UAE, UK; Remote leadership roles.","Top Institutions","Government Institutes","IIM Ahmedabad (Centre for Innovation, Incubation & Entrepreneurship)","IIM Bangalore (NS Raghavan Centre for Entrepreneurial Learning)","IIT Bombay (Desai Sethi School of Entrepreneurship)","EDII Ahmedabad (Entrepreneurship Development Institute of India)","Private Institutes","ISB Hyderabad (Indian School of Business)","SP Jain Institute of Management & Research, Mumbai","Amity Business School, Noida","FLAME University, Pune","Online Institutes","Coursera (IIM & Stanford Entrepreneurship Courses)","NPTEL (IIT Entrepreneurship Programmes)","edX (Babson & MIT Entrepreneurship)","Udemy (Business & Startup Management)","Career Opportunities","Conventional","Management Trainee at corporate houses","Operations Manager at FMCG companies","Business Development Manager at banks and financial firms","Administrative Officer through government exams","New-Age & AI-Driven","Startup Founder supported by incubators","Venture Capital Analyst at investment firms","Product Manager at tech startups","Social Enterprise Leader at impact-driven organizations","Remote/Entrepreneurship","Freelance Management Consultant for international businesses","Founder of D2C brand or bootstrapped SaaS startup","Remote Business Strategist for global companies and venture firms","Entrepreneurship and Management Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -8787,7 +7633,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹6 LPA","Note: AI skills and Metros boost pay by 35%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Ahmedabad.","Top Industries: FMCG, E-commerce, BFSI, Tech/SaaS, EdTech.","Global Demand: High in USA, UK, UAE. Remote freelancing surging.","Top Institutions","Government Institutes","IIM Ahmedabad","IIM Calcutta","IIM Lucknow","Faculty of Management Studies (FMS), University of Delhi","Private Institutes","XLRI Jamshedpur","SP Jain Institute of Management & Research, Mumbai","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","Symbiosis Institute of Business Management, Pune","Online Institutes","Coursera (Kellogg & Wharton Marketing Courses)","NPTEL (IIM Marketing Management Programmes)","edX (Columbia & Berkeley Marketing Specializations)","Google Skillshop (Google Ads & Analytics Certification)","Career Opportunities","Conventional","Brand Manager at FMCG companies","Marketing Executive at automobile firms","Sales and Marketing Officer at banks","Market Research Analyst at research firms","New-Age & AI-Driven","Growth Marketing Manager at D2C startups","AI-Driven Consumer Insights Analyst at martech companies","Community and Creator Marketing Manager at social commerce platforms","Conversational Marketing Specialist at chatbot and AI-driven CRM firms","Remote/Entrepreneurship","Freelance Brand and Marketing Consultant for global clients","Founder of marketing consultancy or niche branding agency","Remote Product Marketing Manager for international SaaS companies","Marketing Educator and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹6 LPA","Note: AI skills and Metros boost pay by 35%.","Where Are the Jobs?","Top institutions","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune, Ahmedabad.","Top Industries: FMCG, E-commerce, BFSI, Tech/SaaS, EdTech.","Global Demand: High in USA, UK, UAE. Remote freelancing surging.","Top Institutions","Government Institutes","IIM Ahmedabad","IIM Calcutta","IIM Lucknow","Faculty of Management Studies (FMS), University of Delhi","Private Institutes","XLRI Jamshedpur","SP Jain Institute of Management & Research, Mumbai","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","Symbiosis Institute of Business Management, Pune","Online Institutes","Coursera (Kellogg & Wharton Marketing Courses)","NPTEL (IIM Marketing Management Programmes)","edX (Columbia & Berkeley Marketing Specializations)","Google Skillshop (Google Ads & Analytics Certification)","Career Opportunities","Conventional","Brand Manager at FMCG companies","Marketing Executive at automobile firms","Sales and Marketing Officer at banks","Market Research Analyst at research firms","New-Age & AI-Driven","Growth Marketing Manager at D2C startups","AI-Driven Consumer Insights Analyst at martech companies","Community and Creator Marketing Manager at social commerce platforms","Conversational Marketing Specialist at chatbot and AI-driven CRM firms","Remote/Entrepreneurship","Freelance Brand and Marketing Consultant for global clients","Founder of marketing consultancy or niche branding agency","Remote Product Marketing Manager for international SaaS companies","Marketing Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -9019,7 +7865,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹3.2 Crore","Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹29 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹7 LPA","Note: Incentives and Tier-1 MBA boost pay by 50%.","Where Are the Jobs?","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune, Chennai.","Top Industries: BFSI, FMCG, Tech/SaaS, E-commerce, Pharma, Real Estate.","Global Demand: High in USA, UAE, Singapore; Remote B2B roles.","Top Institutions","Government Institutes","IIM Ahmedabad (Sales & Distribution Management)","IIM Kozhikode","National Institute of Sales (NIS), New Delhi","Faculty of Management Studies (FMS), University of Delhi","Private Institutes","XLRI Jamshedpur (Sales & Marketing Programme)","ISB Hyderabad (Certificate in Sales Management)","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","T.A. Pai Management Institute (TAPMI), Manipal","Online Institutes","Coursera (HubSpot Sales Training)","NPTEL (IIM Sales Management Courses)","LinkedIn Learning (Sales Strategy & Skills)","Udemy (B2B & B2C Sales Mastery)","Career Opportunities","Conventional","Sales Executive at FMCG companies","Regional Sales Manager at automobile firms","Relationship Manager at banks and insurance firms","Area Sales Officer at pharmaceutical companies","New-Age & AI-Driven","Inside Sales Specialist at SaaS and tech startups","AI-Powered Sales Analyst at CRM-driven organizations","Social Selling Specialist at D2C and e-commerce brands","Revenue Operations (RevOps) Manager at data-driven sales organizations","Remote/Entrepreneurship","Freelance Sales Consultant for international B2B clients","Founder of sales outsourcing or lead generation agency","Remote Account Executive for global SaaS and tech companies","Sales Training Coach and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹3.2 Crore","Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹29 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹7 LPA","Note: Incentives and Tier-1 MBA boost pay by 50%.","Where Are the Jobs?","Top institutions","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune, Chennai.","Top Industries: BFSI, FMCG, Tech/SaaS, E-commerce, Pharma, Real Estate.","Global Demand: High in USA, UAE, Singapore; Remote B2B roles.","Top Institutions","Government Institutes","IIM Ahmedabad (Sales & Distribution Management)","IIM Kozhikode","National Institute of Sales (NIS), New Delhi","Faculty of Management Studies (FMS), University of Delhi","Private Institutes","XLRI Jamshedpur (Sales & Marketing Programme)","ISB Hyderabad (Certificate in Sales Management)","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","T.A. Pai Management Institute (TAPMI), Manipal","Online Institutes","Coursera (HubSpot Sales Training)","NPTEL (IIM Sales Management Courses)","LinkedIn Learning (Sales Strategy & Skills)","Udemy (B2B & B2C Sales Mastery)","Career Opportunities","Conventional","Sales Executive at FMCG companies","Regional Sales Manager at automobile firms","Relationship Manager at banks and insurance firms","Area Sales Officer at pharmaceutical companies","New-Age & AI-Driven","Inside Sales Specialist at SaaS and tech startups","AI-Powered Sales Analyst at CRM-driven organizations","Social Selling Specialist at D2C and e-commerce brands","Revenue Operations (RevOps) Manager at data-driven sales organizations","Remote/Entrepreneurship","Freelance Sales Consultant for international B2B clients","Founder of sales outsourcing or lead generation agency","Remote Account Executive for global SaaS and tech companies","Sales Training Coach and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -9250,7 +8096,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹22 – ₹48 LPA","Mid-Level Professional (5–8 yrs): ₹11 – ₹21 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3 – ₹5.5 LPA","Note: Metros and NIFT degrees boost pay by 35%.","Where Are the Jobs?","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune.","Top Industries: Fashion, E-commerce, Electronics, Luxury, Home Decor.","Global Demand: High in UAE, USA. Digital/AI VM trends rising.","Top Institutions","Government Institutes","National Institute of Fashion Technology (NIFT), New Delhi","National Institute of Design (NID), Ahmedabad","NIFT Hyderabad","NIFT Mumbai","Private Institutes","Pearl Academy, New Delhi","JD Institute of Fashion Technology, Mumbai","Arch College of Design & Business, Jaipur","Hamstech Institute of Fashion, Hyderabad","Online Institutes","Coursera (Visual Merchandising & Display)","Udemy (Retail Visual Merchandising Courses)","Skillshare (Store Design & Display Techniques)","LinkedIn Learning (Visual Merchandising Fundamentals)","Career Opportunities","Conventional","Visual Merchandiser at retail chains","Display Designer at luxury brands","Store Planner at departmental stores","Visual Merchandising Executive at jewellery brands","New-Age & AI-Driven","Digital Visual Merchandiser at e-commerce platforms","AR/VR Experience Designer at virtual retail and metaverse stores","AI-Driven Product Display Analyst at D2C brands","Omnichannel Visual Strategist at phygital retail companies","Remote/Entrepreneurship","Freelance Visual Merchandising Consultant for retail brands globally","Founder of visual merchandising and retail design consultancy","Remote E-Commerce Visual Strategist for international online stores","Visual Merchandising Educator and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹22 – ₹48 LPA","Mid-Level Professional (5–8 yrs): ₹11 – ₹21 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3 – ₹5.5 LPA","Note: Metros and NIFT degrees boost pay by 35%.","Where Are the Jobs?","Top institutions","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune.","Top Industries: Fashion, E-commerce, Electronics, Luxury, Home Decor.","Global Demand: High in UAE, USA. Digital/AI VM trends rising.","Top Institutions","Government Institutes","National Institute of Fashion Technology (NIFT), New Delhi","National Institute of Design (NID), Ahmedabad","NIFT Hyderabad","NIFT Mumbai","Private Institutes","Pearl Academy, New Delhi","JD Institute of Fashion Technology, Mumbai","Arch College of Design & Business, Jaipur","Hamstech Institute of Fashion, Hyderabad","Online Institutes","Coursera (Visual Merchandising & Display)","Udemy (Retail Visual Merchandising Courses)","Skillshare (Store Design & Display Techniques)","LinkedIn Learning (Visual Merchandising Fundamentals)","Career Opportunities","Conventional","Visual Merchandiser at retail chains","Display Designer at luxury brands","Store Planner at departmental stores","Visual Merchandising Executive at jewellery brands","New-Age & AI-Driven","Digital Visual Merchandiser at e-commerce platforms","AR/VR Experience Designer at virtual retail and metaverse stores","AI-Driven Product Display Analyst at D2C brands","Omnichannel Visual Strategist at phygital retail companies","Remote/Entrepreneurship","Freelance Visual Merchandising Consultant for retail brands globally","Founder of visual merchandising and retail design consultancy","Remote E-Commerce Visual Strategist for international online stores","Visual Merchandising Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",

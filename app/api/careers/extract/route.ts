@@ -178,7 +178,7 @@ function parseGuideSections(
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const category = searchParams.get('category');
+    let category = searchParams.get('category');
     const career = searchParams.get('career');
 
     if (!category || !career) {
@@ -188,7 +188,15 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    const fileName = CATEGORY_FILE_MAP[category];
+    // Normalize category slug: convert underscores to hyphens for lookup
+    const normalizedCategory = category.replace(/_/g, '-');
+    
+    let fileName = CATEGORY_FILE_MAP[normalizedCategory];
+    if (!fileName) {
+      // Try original category if normalized doesn't work
+      fileName = CATEGORY_FILE_MAP[category];
+    }
+    
     if (!fileName) {
       return NextResponse.json(
         { error: `Category not found: ${category}` },
