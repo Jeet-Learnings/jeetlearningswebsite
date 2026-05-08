@@ -207,21 +207,21 @@ export function CareerPageDynamic({
 
       {/* Hero Section */}
       <section className="relative min-h-[80vh] sm:min-h-[85vh] md:min-h-[90vh] flex items-center pt-16 sm:pt-18 md:pt-20 pb-12 sm:pb-14 md:pb-16 px-3 sm:px-4 md:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center w-full">
-          <div className="space-y-6 sm:space-y-7 md:space-y-8 order-2 lg:order-1">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center w-full">
+          <div className="space-y-6 sm:space-y-7 md:space-y-8 order-2 lg:order-1 w-full">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-blue-200 bg-blue-50 text-blue-700 text-xs sm:text-sm font-semibold">
               <span className="flex h-2.5 w-2.5 rounded-full bg-blue-600 animate-pulse" />
               <TranslatedText as="span">{categoryName}</TranslatedText>
             </div>
 
             <div className="space-y-3 sm:space-y-4">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-slate-900">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black leading-tight text-slate-900 whitespace-normal">
                 <TranslatedText as="span">{careerName}</TranslatedText>
               </h1>
               <div className="h-1 w-16 sm:w-20 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full"></div>
             </div>
 
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-600 max-w-xl leading-relaxed font-medium">
+            <p className="text-sm sm:text-base md:text-lg lg:text-lg text-slate-600 max-w-xl leading-relaxed font-medium">
               <TranslatedText>{pageData?.subheading}</TranslatedText>
             </p>
 
@@ -237,9 +237,9 @@ export function CareerPageDynamic({
               </Link>
             </div>
 
-            <div className="pt-4 sm:pt-6 flex items-center gap-6 sm:gap-8 text-xs sm:text-sm text-slate-600">
+            <div className="pt-4 sm:pt-6 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 md:gap-8 text-xs sm:text-sm text-slate-600">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 flex items-center justify-center">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
                   <svg className="w-4 sm:w-5 h-4 sm:h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
@@ -247,7 +247,7 @@ export function CareerPageDynamic({
                 <span><TranslatedText>Comprehensive Guide</TranslatedText></span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 flex items-center justify-center">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
                   <svg className="w-4 sm:w-5 h-4 sm:h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
@@ -257,7 +257,7 @@ export function CareerPageDynamic({
             </div>
           </div>
 
-          <div className="relative order-1 lg:order-2">
+          <div className="relative order-1 lg:order-2 w-full max-w-sm lg:max-w-md">
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 z-10"></div>
               <img
@@ -267,8 +267,8 @@ export function CareerPageDynamic({
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 via-transparent to-transparent rounded-2xl sm:rounded-3xl"></div>
             </div>
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 sm:w-32 sm:h-32 bg-blue-600 rounded-full opacity-10 blur-3xl"></div>
-            <div className="absolute -top-4 -left-4 w-32 h-32 sm:w-40 sm:h-40 bg-purple-600 rounded-full opacity-10 blur-3xl"></div>
+            <div className="absolute -bottom-4 -right-4 w-20 h-20 sm:w-24 sm:h-24 bg-blue-600 rounded-full opacity-10 blur-3xl"></div>
+            <div className="absolute -top-4 -left-4 w-24 h-24 sm:w-32 sm:h-32 bg-purple-600 rounded-full opacity-10 blur-3xl"></div>
           </div>
         </div>
       </section>

@@ -1,14 +1,15 @@
 // Auto-generated institutions data for all careers
 // Copy and paste the relevant sections into your data files
 
-// Biotechnology Research
-// institutions section:
-{
+export const institutionsSnippets = [
+  // Biotechnology Research
+  // institutions section:
+  {
   id: "institutions",
   title: "Where to Study?",
   icon: "Building2",
   description: "Top institutions across India.",
-  color: BLUE,
+  color: "BLUE",
   content: [
     "Government: Indian Institute of Science (IISc), Bangalore, University of Delhi, Banaras Hindu University (BHU), Jawaharlal Nehru University (JNU)",
     "Private: Manipal Academy of Higher Education, Amity University, SRM Institute of Science and Technology, Lovely Professional University",
@@ -23,7 +24,7 @@
   title: "Where to Study?",
   icon: "Building2",
   description: "Top institutions across India.",
-  color: BLUE,
+  color: "BLUE",
   content: [
     "Government: Indian Institute of Management (IIM), Calcutta, Indian Institute of Technology (IIT), Kharagpur, Indian Statistical Institute (ISI), Kolkata, Indian Institute of Management (IIM), Bangalore",
     "Private: Indian School of Business (ISB), Hyderabad, Great Lakes Institute of Management, Chennai, SP Jain Institute of Management & Research, Mumbai, BITS Pilani",
@@ -38,7 +39,7 @@
   title: "Where to Study?",
   icon: "Building2",
   description: "Top institutions across India.",
-  color: BLUE,
+  color: "BLUE",
   content: [
     "Government: Jawaharlal Nehru University (JNU), Delhi, University of Hyderabad, Pondicherry University, Indian Institute of Science (IISc), Bangalore",
     "Private: Manipal Academy of Higher Education, Amity University, SRM Institute of Science and Technology, Vellore Institute of Technology (VIT)",
@@ -53,7 +54,7 @@
   title: "Where to Study?",
   icon: "Building2",
   description: "Top institutions across India.",
-  color: BLUE,
+  color: "BLUE",
   content: [
     "Government: Jawaharlal Nehru University (JNU), Indian Institute of Science (IISc), Bangalore, Forest Research Institute (FRI), Dehradun, Wildlife Institute of India (WII), Dehradun",
     "Private: TERI School of Advanced Studies, Amity Institute of Environmental Sciences, Lovely Professional University (LPU), SRM Institute of Science & Technology",
@@ -68,7 +69,7 @@
   title: "Where to Study?",
   icon: "Building2",
   description: "Top institutions across India.",
-  color: BLUE,
+  color: "BLUE",
   content: [
     "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Bangalore, Faculty of Management Studies (FMS), University of Delhi, National Institute of Financial Management (NIFM), Faridabad",
     "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, SP Jain Institute of Management & Research, Mumbai, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
@@ -83,7 +84,7 @@
   title: "Where to Study?",
   icon: "Building2",
   description: "Top institutions across India.",
-  color: BLUE,
+  color: "BLUE",
   content: [
     "Government: Indian Institute of Management (IIMs), National Institute of Training and Development, Indian Society for Training and Development (ISTD), Central Board for Workers Education",
     "Private: XLRI Jamshedpur, Symbiosis Institute of Business Management, Dale Carnegie Training India, T.V. Rao Learning Systems",
@@ -98,7 +99,7 @@
   title: "Where to Study?",
   icon: "Building2",
   description: "Top institutions across India.",
-  color: BLUE,
+  color: "BLUE",
   content: [
     "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Calcutta, Indian Institute of Technology (IIT), Bombay, National Institute of Industrial Engineering (NITIE), Mumbai",
     "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, Symbiosis Institute of Operations Management, Nashik, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
@@ -113,11 +114,11 @@
   title: "Where to Study?",
   icon: "Building2",
   description: "Top institutions across India.",
-  color: BLUE,
+  color: "BLUE",
   content: [
     "Government: National Institute of Fashion Technology (NIFT), Indian Institute of Art & Design (IIAD), National Institute of Design (NID), Government College of Fine Arts, Chennai",
     "Private: Image Consulting Business Institute (ICBI), Pearl Academy, Conselle Institute of Image Management, Wigan & Leigh College (India Campus)",
     "Online: Udemy, Coursera, Sterling Style Academy (Online), Image Consulting Business Institute (ICBI Online), Career Opportunities, Conventional, Personal Image Consultant, Corporate Grooming Trainer, Etiquette and Soft Skills Coach, Wardrobe and Styling Consultant, New-age and AI driven, Personal Branding Consultant, Digital Presence Coach, Virtual Styling Consultant, AI-Assisted Image Strategist, Remote/Entrepreneurship, Freelance Image Consultant, Online Style Coach, Influencer Branding Consultant, Image Consulting Studio Founder"
   ]
 },
-
+];

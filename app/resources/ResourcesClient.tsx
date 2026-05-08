@@ -65,7 +65,16 @@ export default function ResourcesClient() {
       try {
         const response = await fetch('/resources.txt');
         const text = await response.text();
-        setResourcesData(parseResourcesText(text));
+        const data = parseResourcesText(text);
+        setResourcesData(data);
+        // Expand all careers by default
+        const allKeys = new Set<string>();
+        data.forEach((section, sIdx) => {
+          section.careers.forEach((_, cIdx) => {
+            allKeys.add(`${sIdx}-${cIdx}`);
+          });
+        });
+        setExpandedCareers(allKeys);
       } catch (error) {
         console.error('Error fetching resources:', error);
       } finally {
@@ -177,35 +186,35 @@ export default function ResourcesClient() {
       <NavbarWrapper />
 
       {/* ── Hero ─────────────────────────────────────────────── */}
-      <section className="pt-28 pb-16 px-4 sm:px-8 border-b border-[#EEEEEE]">
+      <section className="pt-20 sm:pt-28 pb-12 sm:pb-16 px-4 sm:px-6 md:px-8 border-b border-[#EEEEEE]">
         <div className="max-w-[1090px] mx-auto">
-          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
+          <div className="flex flex-col gap-8 sm:gap-10 md:gap-12">
 
             {/* Left */}
             <div className="max-w-2xl">
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#EEEEEE] bg-[#FFF5F5] text-[#C20000] text-xs font-semibold font-poppins mb-5">
-                <Globe2 className="w-3.5 h-3.5" />
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#EEEEEE] bg-[#FFF5F5] text-[#C20000] text-xs font-semibold font-poppins mb-4 sm:mb-5">
+                <Globe2 className="w-3.5 h-3.5 flex-shrink-0" />
                 <TranslatedText>Career Resources</TranslatedText>
               </div>
-              <h1 className="font-poppins font-bold text-[#333333] text-4xl sm:text-5xl leading-tight mb-5">
+              <h1 className="font-poppins font-bold text-[#333333] text-3xl sm:text-4xl md:text-5xl leading-tight mb-4 sm:mb-5">
                 <TranslatedText>Comprehensive</TranslatedText>{' '}
-                <span className="text-[#C20000]"><TranslatedText>Career Resources</TranslatedText></span>
+                <span className="text-[#C20000] block sm:inline"><TranslatedText>Career Resources</TranslatedText></span>
               </h1>
-              <p className="font-poppins text-[#757575] text-base sm:text-lg leading-relaxed">
+              <p className="font-poppins text-[#757575] text-sm sm:text-base md:text-lg leading-relaxed max-w-xl">
                 <TranslatedText>Professional bodies, top universities, and scholarship opportunities across all career paths. Everything you need to succeed in your chosen field.</TranslatedText>
               </p>
             </div>
 
             {/* Stats strip */}
-            <div className="flex gap-8 lg:flex-shrink-0">
+            <div className="flex gap-6 sm:gap-8 md:gap-12 flex-wrap">
               {[
                 { value: resourcesData.length, label: 'Categories' },
                 { value: totalCareers, label: 'Career Paths' },
                 { value: `${totalLinks}+`, label: 'Resources' },
               ].map((stat, i) => (
                 <div key={i} className="text-center">
-                  <div className="font-poppins font-bold text-[#C20000] text-3xl sm:text-4xl">{stat.value}</div>
-                  <div className="font-poppins text-[#757575] text-xs mt-1 uppercase tracking-wider">{stat.label}</div>
+                  <div className="font-poppins font-bold text-[#C20000] text-2xl sm:text-3xl md:text-4xl">{stat.value}</div>
+                  <div className="font-poppins text-[#757575] text-xs mt-1 uppercase tracking-wider whitespace-nowrap">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -214,12 +223,12 @@ export default function ResourcesClient() {
       </section>
 
       {/* ── Search + Filter ───────────────────────────────────── */}
-      <section className="bg-[#F9F9F9] border-b border-[#EEEEEE] py-5 px-4 sm:px-8 sticky top-0 z-20 shadow-sm">
-        <div className="max-w-[1090px] mx-auto flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+      <section className="bg-[#F9F9F9] border-b border-[#EEEEEE] py-4 sm:py-5 px-4 sm:px-6 md:px-8 sticky top-0 z-20 shadow-sm">
+        <div className="max-w-[1090px] mx-auto flex flex-col gap-4">
 
           {/* Search */}
-          <div className="relative flex-1 min-w-0">
-            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#AAAAAA]" />
+          <div className="relative w-full">
+            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#AAAAAA] flex-shrink-0" />
             <input
               type="text"
               placeholder="Search careers, universities, or resources..."
@@ -230,10 +239,10 @@ export default function ResourcesClient() {
           </div>
 
           {/* Category pills */}
-          <div className="flex flex-wrap gap-2 flex-shrink-0">
+          <div className="flex flex-wrap gap-2 w-full overflow-x-auto pb-2">
             <button
               onClick={() => setSelectedCategory(null)}
-              className={`px-3.5 py-1.5 rounded-full font-poppins text-xs font-semibold border transition-all ${
+              className={`px-3.5 py-1.5 rounded-full font-poppins text-xs font-semibold border transition-all whitespace-nowrap flex-shrink-0 ${
                 selectedCategory === null
                   ? 'bg-[#C20000] text-white border-[#C20000]'
                   : 'bg-white text-[#757575] border-[#EEEEEE] hover:border-[#C20000] hover:text-[#C20000]'
@@ -245,7 +254,7 @@ export default function ResourcesClient() {
               <button
                 key={section.category}
                 onClick={() => setSelectedCategory(section.category)}
-                className={`px-3.5 py-1.5 rounded-full font-poppins text-xs font-semibold border transition-all ${
+                className={`px-3.5 py-1.5 rounded-full font-poppins text-xs font-semibold border transition-all whitespace-nowrap flex-shrink-0 ${
                   selectedCategory === section.category
                     ? 'bg-[#C20000] text-white border-[#C20000]'
                     : 'bg-white text-[#757575] border-[#EEEEEE] hover:border-[#C20000] hover:text-[#C20000]'
@@ -280,18 +289,16 @@ export default function ResourcesClient() {
 
                   {/* ── Category heading ── */}
                   <div className="flex items-center gap-4 mb-8">
-                    <div>
+                    <div className="flex-1">
                       <h2 className="font-poppins font-bold text-[#333333] text-2xl sm:text-3xl">
                         <TranslatedDynamicText text={section.category} />
                       </h2>
-                      <p className="font-poppins text-[#757575] text-sm mt-0.5">
-                        {section.careers.length}{' '}
-                        <TranslatedText>career path</TranslatedText>
-                        {section.careers.length !== 1 ? 's' : ''}{' '}
-                        <TranslatedText>with comprehensive resources</TranslatedText>
+                      <p className="font-poppins text-[#757575] text-sm mt-1">
+                        <span className="font-semibold text-[#333333]">{section.careers.length}</span>{' '}
+                        <TranslatedText>{section.careers.length !== 1 ? 'career paths with comprehensive resources' : 'career path with comprehensive resources'}</TranslatedText>
                       </p>
                     </div>
-                    <div className="flex-1 h-px bg-[#EEEEEE]" />
+                    <div className="flex-1 h-px bg-[#EEEEEE] hidden sm:block" />
                   </div>
 
                   {/* ── Career accordion list ── */}
