@@ -147,33 +147,19 @@ export const bankingAndFinanceUpdateData: Record<string, CareerPageData> = {
         content: [
           "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
           "Top Industries: Banking (SBI, HDFC, ICICI, Axis), NBFCs, Investment Firms, FinTech, Insurance, Consulting",
-          "Opportunities: High global demand (USA, UK, UAE, Singapore); growing remote roles in fintech and digital banking"
+          "Opportunities: High global demand (USA, UK, UAE, Singapore) growing remote roles in fintech and digital banking"
         ]
       },
       {
         id: "institutions",
         title: "Where to Study?",
         icon: "Building2",
-        description: "Top institutions.",
+        description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government",
-          "State Bank of India (SBI)",
-          "Reserve Bank of India (RBI)",
-          "Indian Bank",
-          "Bank of India",
-          "Private",
-          "HDFC Bank",
-          "ICICI Bank",
-          "Axis Bank",
-          "Kotak Mahindra Bank",
-          "IndusInd Bank",
-          "Online/FinTech",
-          "Paytm",
-          "PhonePe",
-          "Google Pay",
-          "Razorpay",
-          "Navi"
+          "Government: Delhi University, Mumbai University, Calcutta University, Banaras Hindu University, University of Madras",
+          "Private: Amity University, Christ University, NMIMS, XLRI, FLAME University, Symbiosis",
+          "Online/Distance: (IGNOU) Indira Gandhi National Open University, Specialized Banking Institutes - IBPS, SBI Academy, ICICI Academy"
         ]
       },
       {
@@ -183,32 +169,9 @@ export const bankingAndFinanceUpdateData: Record<string, CareerPageData> = {
         description: "Conventional and emerging roles.",
         color: BLUE2,
         content: [
-          "Conventional",
-          "Probationary Officer (PO)",
-          "Relationship Manager",
-          "Credit Analyst",
-          "Investment Advisor",
-          "Loan Officer",
-          "New-Age and AI-Driven",
-          "Fintech Product Manager",
-          "AI-based Risk Modelling Specialist",
-          "Digital Banking Specialist",
-          "Blockchain Developer (for crypto/blockchain banking)",
-          "Data Scientist (for predictive analytics)"
-        ]
-      },
-      {
-        id: "locations",
-        title: "Where to Study?",
-        icon: "Building2",
-        description: "Top institutions across India.",
-        color: BLUE,
-        content: [
-          "Public/Premier: Delhi University (Faculty of Commerce), Mumbai University (Department of Commerce), Calcutta University, Banaras Hindu University (BHU), University of Madras.",
-          "Private: Amity University (Noida), Christ University (Bengaluru), NMIMS (Mumbai), XLRI (Jamshedpur), FLAME University (Pune), Symbiosis (Pune).",
-          "Online/Distance: IGNOU, Indira Gandhi National Open University offers distance learning in Commerce and Finance.",
-          "Regional Diversity: North (Delhi University), South (Christ University, Madras University), West (Mumbai University, NMIMS), East (Calcutta University).",
-          "Specialized Banking Institutes: Institute of Banking Personnel Selection (IBPS), SBI Academy, ICICI Academy for Excellence."
+          "Conventional: Probationary Officer, Relationship Manager, Credit Analyst, Investment Advisor, Loan Officer, Branch Manager, Regional Manager",
+          "New-Age and AI-Driven: Fintech Product Manager, AI-based Risk Modelling Specialist, Digital Banking Specialist, Blockchain Developer, Data Scientist",
+          "Entrepreneurship: Starting a fintech startup, digital lending platform, or financial advisory firm"
         ]
       },
       {
@@ -245,21 +208,7 @@ export const bankingAndFinanceUpdateData: Record<string, CareerPageData> = {
           "Compliance Certifications: AML (Anti-Money Laundering), KYC (Know Your Customer), and data protection certifications."
         ]
       },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Conventional and emerging roles.",
-        color: BLUE2,
-        content: [
-          "Conventional: Probationary Officer, Relationship Manager, Credit Analyst, Investment Advisor, Loan Officer, Branch Manager, Regional Manager, Chief Manager.",
-          "New-Age: Fintech Product Manager, Digital Banking Specialist, AI-based Risk Analyst, Blockchain Developer, Data Scientist, Cybersecurity Specialist.",
-          "Entrepreneurship: Starting a fintech startup, digital lending platform, or financial advisory firm.",
-          "Government: RBI, SEBI, Ministry of Finance for policy-making and regulatory roles.",
-          "International: High demand in USA, UK, UAE, Singapore for Indian bankers with global experience and certifications.",
-          "Specialized Roles: Wealth Manager, Private Banker, Corporate Banker, Investment Banker, Treasury Manager."
-        ]
-      },
+
       {
         id: "challenges",
         title: "Challenges and Realities",

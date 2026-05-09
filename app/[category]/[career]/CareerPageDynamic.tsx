@@ -99,7 +99,9 @@ export function CareerPageDynamic({
     if (titleLower.includes('pathway')) id = 'pathways';
     else if (titleLower.includes('market') || titleLower.includes('salary snapshot')) id = 'market';
     else if (titleLower.includes('where to study') || titleLower.includes('institutions')) id = 'institutions';
-    else if (titleLower.includes('opportunities')) id = 'opportunities';
+    else if (titleLower.includes('scholarship')) id = 'scholarships';
+    else if (titleLower.includes('certification') || titleLower.includes('professional bodies')) id = 'certifications';
+    else if (titleLower.includes('career opportunities')) id = 'opportunities';
     else if (titleLower.includes('what is this') || titleLower.includes('about')) id = 'what';
     else if (titleLower.includes('day in the life')) id = 'dayinlife';
     else if (titleLower.includes('is this you') || titleLower.includes('traits') || titleLower.includes('personality')) id = 'who';
@@ -108,9 +110,6 @@ export function CareerPageDynamic({
     else if (titleLower.includes('challenges')) id = 'challenges';
     else if (titleLower.includes('emerging trends') || titleLower.includes('future') || titleLower.includes('outlook')) id = 'future';
     else if (titleLower.includes('skills to build') || titleLower.includes('school')) id = 'startnow';
-    else if (titleLower.includes('famous') || titleLower.includes('personalities')) id = 'personalities';
-    else if (titleLower.includes('scholarship')) id = 'scholarships';
-    else if (titleLower.includes('certification') || titleLower.includes('professional bodies')) id = 'certifications';
     else if (titleLower.includes('famous') || titleLower.includes('personalities')) id = 'personalities';
     
     if (id === 'market' || id === 'salary') {

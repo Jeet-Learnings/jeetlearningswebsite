@@ -111,7 +111,14 @@ export const costAccountantUpdateData: Record<string, CareerPageData> = {
           "Step 3: Graduates can directly register for CMA Intermediate (skip Foundation)",
           "Step 4: Clear CMA Intermediate and Final programmes",
           "Step 5: Learn tools — SAP FICO, Tally, Excel, costing software, GST portal",
-          "Step 6: Join as Cost Accountant, Management Accountant, or Pricing Manager"
+          "Step 6: Join as Cost Accountant, Management Accountant, or Pricing Manager",
+          "Pathway C: Domain Switch + CMA Route",
+          "Step 1: Complete Class 12th (any stream with Maths)",
+          "Step 2: Pursue B.Tech / B.Sc / CA / B.Com",
+          "Step 3: Work 1–2 years in finance, accounting, or manufacturing",
+          "Step 4: Register for CMA and clear Foundation and Intermediate programmes",
+          "Step 5: Complete practical training while working",
+          "Step 6: Clear CMA Final and transition as Cost Accountant or Cost Auditor"
         ]
       },
       {
@@ -149,9 +156,9 @@ export const costAccountantUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government:\nInstitute of Cost Accountants of India (ICMAI)\nIndian Institute of Corporate Affairs (IICA)\nUniversity of Delhi (Department of Commerce)\nBanaras Hindu University (BHU)",
-          "Private:\nNarsee Monjee Institute (NMIMS), Mumbai\nLoyola College, Chennai\nSt. Xavier's College, Kolkata\nChrist University, Bangalore",
-          "Online:\nICMAI e-Learning Portal\nUnacademy CMA Programs\nSWAYAM / NPTEL\nCAclubindia Online Courses"
+          "Government: Institute of Cost Accountants of India, Indian Institute of Corporate Affairs, University of Delhi, Banaras Hindu University",
+          "Private: Narsee Monjee Institute NMIMS Mumbai, Loyola College Chennai, St. Xavier's College Kolkata, Christ University Bangalore",
+          "Online: ICMAI e-Learning Portal, Unacademy CMA Programs, SWAYAM, NPTEL, CAclubindia Online Courses"
         ]
       },
       {

@@ -110,9 +110,9 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Top government institutions offering programs",
-          "Private: Leading private institutions",
-          "Online: Online learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {
@@ -235,9 +235,9 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Top government institutions offering programs",
-          "Private: Leading private institutions",
-          "Online: Online learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {
@@ -365,9 +365,9 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Top government institutions offering programs",
-          "Private: Leading private institutions",
-          "Online: Online learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {
@@ -510,9 +510,9 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Top government institutions offering programs",
-          "Private: Leading private institutions",
-          "Online: Online learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {
@@ -649,9 +649,9 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Top government institutions offering programs",
-          "Private: Leading private institutions",
-          "Online: Online learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {
@@ -774,9 +774,9 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Top government institutions offering programs",
-          "Private: Leading private institutions",
-          "Online: Online learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {
@@ -1029,9 +1029,9 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Top government institutions offering programs",
-          "Private: Leading private institutions",
-          "Online: Online learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {
@@ -1154,9 +1154,9 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Top government institutions offering programs",
-          "Private: Leading private institutions",
-          "Online: Online learning platforms and courses"
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {

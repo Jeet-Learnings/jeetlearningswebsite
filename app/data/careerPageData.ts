@@ -180,6 +180,18 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: RED2,
+        content: [
+          "Conventional: Actuary, Risk Analyst, Insurance Underwriter, Pension Fund Manager, Investment Analyst.",
+          "New-Age: Climate Risk Actuary, Cyber Risk Specialist, Pandemic Modeler, AI-Driven Pricing Specialist.",
+          "Entrepreneurship: Starting an actuarial consulting firm, risk management advisory, or fintech startup."
+        ]
+      },
+      {
         id: "scholarships",
         title: "Scholarship Opportunities",
         icon: "Award",
@@ -202,18 +214,6 @@ export const careerPageData: Record<string, CareerPageData> = {
           "IFoA (Institute and Faculty of Actuaries, UK): Many Indian students also take exams here for global recognition.",
           "SOA (Society of Actuaries, USA): Preferred if you want to work in the North American market.",
           "Actuaries Act, 2006: Legal framework governing actuarial practice in India."
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Conventional and emerging roles.",
-        color: RED2,
-        content: [
-          "Conventional: Actuary, Risk Analyst, Insurance Underwriter, Pension Fund Manager, Investment Analyst.",
-          "New-Age: Climate Risk Actuary, Cyber Risk Specialist, Pandemic Modeler, AI-Driven Pricing Specialist.",
-          "Entrepreneurship: Starting an actuarial consulting firm, risk management advisory, or fintech startup."
         ]
       },
       {
@@ -835,39 +835,31 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Where Are the Jobs?",
             "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
             "Top Industries: Audit Firms (Big 4), Corporates, Banking, Tax Consulting, Startups, Government",
-            "Opportunities: High demand in compliance, GST, IPO advisory; global demand (UK, UAE, Canada); freelancing and practice growing",
-            "Top Institutions",
-            "Government",
-            "Institute of Chartered Accountants of India (ICAI)",
-            "National Academy of Direct Taxes (NADT)",
-            "Indian Institute of Corporate Affairs (IICA)",
-            "Institute of Cost Accountants of India (ICMAI)",
-            "Private",
-            "Sinhgad College of Commerce, Pune",
-            "Loyola College, Chennai",
-            "St. Xavier's College, Kolkata",
-            "Narsee Monjee College of Commerce, Mumbai",
-            "Online",
-            "ICAI Virtual Learning (e-learning portal)",
-            "Unacademy CA Programs",
-            "SWAYAM / NPTEL",
-            "Vedantu CA Foundation Courses",
-            "Career Opportunities",
-            "Conventional",
-            "Statutory Auditor",
-            "Tax Consultant (Direct & Indirect)",
-            "Corporate Finance Manager",
-            "Internal Auditor",
-            "New-Age and AI-Driven",
-            "Forensic Accounting Specialist",
-            "AI-powered Audit Analyst",
-            "Data-Driven Tax Automation Expert",
-            "RegTech Compliance Advisor",
-            "Remote/Entrepreneurship",
-            "Freelance GST/Income Tax Consultant",
-            "Virtual CFO Services Provider",
-            "Online CA Exam Coaching",
-            "Cloud Accounting Firm Founder"
+            "Opportunities: High demand in compliance, GST, IPO advisory; global demand (UK, UAE, Canada); freelancing and practice growing"
+          ]
+        },
+        {
+          id: "institutions",
+          title: "Where to Study?",
+          icon: "Building2",
+          description: "Top institutions across India.",
+          color: RED,
+          content: [
+            "Government: Institute of Chartered Accountants of India, National Academy of Direct Taxes, Indian Institute of Corporate Affairs, Institute of Cost Accountants of India",
+            "Private: Sinhgad College of Commerce Pune, Loyola College Chennai, St. Xavier's College Kolkata, Narsee Monjee College of Commerce Mumbai",
+            "Online: ICAI Virtual Learning, Unacademy CA Programs, SWAYAM, NPTEL, Vedantu CA Foundation Courses"
+          ]
+        },
+        {
+          id: "opportunities",
+          title: "Career Opportunities",
+          icon: "Briefcase",
+          description: "Conventional and emerging roles.",
+          color: RED2,
+          content: [
+            "Conventional: Statutory Auditor, Tax Consultant (Direct & Indirect), Corporate Finance Manager, Internal Auditor",
+            "New-Age and AI-Driven: Forensic Accounting Specialist, AI-powered Audit Analyst, Data-Driven Tax Automation Expert, RegTech Compliance Advisor",
+            "Remote/Entrepreneurship: Freelance GST/Income Tax Consultant, Virtual CFO Services Provider, Online CA Exam Coaching, Cloud Accounting Firm Founder"
           ]
         },
       {
@@ -1054,39 +1046,31 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Where Are the Jobs?",
           "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
           "Top Industries: Corporates, Listed Companies, Legal Firms, Consulting, Banking, Startups",
-          "Opportunities: High demand in compliance, corporate law, IPO; global roles (UAE, Singapore); independent practice growing",
-          "Top Institutions",
-          "Government",
-          "Institute of Company Secretaries of India (ICSI)",
-          "Indian Institute of Corporate Affairs (IICA)",
-          "National Law Universities (NLUs)",
-          "University of Delhi (Department of Commerce)",
-          "Private",
-          "Narsee Monjee Institute (NMIMS), Mumbai",
-          "Symbiosis Law School, Pune",
-          "Amity University",
-          "Christ University, Bangalore",
-          "Online",
-          "ICSI e-Learning Portal",
-          "Unacademy CS Programs",
-          "SWAYAM / NPTEL",
-          "Takshila Learning (CS Online Courses)",
-          "Career Opportunities",
-          "Conventional",
-          "Corporate Governance Advisor",
-          "Legal Compliance Officer",
-          "Board Meeting & AGM Coordinator",
-          "Company Law Consultant",
-          "New-Age and AI-Driven",
-          "RegTech Compliance Automation Specialist",
-          "AI-powered Corporate Governance Analyst",
-          "ESG (Environmental, Social, Governance) Advisor",
-          "Digital Contract Management Expert",
-          "Remote/Entrepreneurship",
-          "Freelance Company Secretary (Practice)",
-          "Virtual Compliance Services Provider",
-          "Online CS Exam Coaching",
-          "Startup Incorporation & Advisory Firm Founder"
+          "Opportunities: High demand in compliance, corporate law, IPO; global roles (UAE, Singapore); independent practice growing"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government: Institute of Company Secretaries of India, Indian Institute of Corporate Affairs, National Law Universities, University of Delhi",
+          "Private: Narsee Monjee Institute NMIMS Mumbai, Symbiosis Law School Pune, Amity University, Christ University Bangalore",
+          "Online: ICSI e-Learning Portal, Unacademy CS Programs, SWAYAM, NPTEL, Takshila Learning"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: RED2,
+        content: [
+          "Conventional: Corporate Governance Advisor, Legal Compliance Officer, Board Meeting & AGM Coordinator, Company Law Consultant",
+          "New-Age and AI-Driven: RegTech Compliance Automation Specialist, AI-powered Corporate Governance Analyst, ESG Advisor, Digital Contract Management Expert",
+          "Remote/Entrepreneurship: Freelance Company Secretary, Virtual Compliance Services Provider, Online CS Exam Coaching, Startup Incorporation & Advisory Firm Founder"
         ]
       },
       {
@@ -1218,11 +1202,11 @@ export const careerPageData: Record<string, CareerPageData> = {
           description: "Real-world experience of a working economist",
           color: RED2,
           content: [
-            "9:00 AM – The Morning Market Scan: Rohan, a Policy Analyst at a think-tank in New Delhi, starts by scanning the latest inflation data released by the RBI. He isn't just looking at numbers; he's thinking about how a 1% rise in fuel prices will affect a farmer in Punjab or a student in Chennai.",
-            "11:30 AM – The Strategy Huddle: Rohan joins a brainstorming session with his team. They are working on a project for the Ministry of Education to understand if providing free laptops increases student scores. He reviews data from thousands of schools, looking for cause and effect.",
-            "1:30 PM – Data Visualizing: After lunch, Rohan dives into software like R or Stata. He creates a digital map of India, showing where the new 'Green Energy' jobs are being created. He translates a complex 50-page spreadsheet into a single, beautiful chart that a politician can understand in 5 minutes.",
-            "4:00 PM – The Media Briefing: Rohan is interviewed by a business news channel. He explains in simple Hindi and English why the 'Digital Rupee' is making shopping safer for common citizens. He has to be a great communicator, turning 'jargon' into 'stories.'",
-            "7:00 PM – The Global Call: Before heading home, Rohan has a video call with economists in New York and London. They discuss how global trade is changing. As he closes his laptop, he feels a sense of pride—his work today might influence a law that helps millions tomorrow."
+            "9:00 AM –  The Morning Market Scan: Rohan, a Policy Analyst at a think-tank in New Delhi, starts by scanning the latest inflation data released by the RBI. He isn't just looking at numbers; he's thinking about how a 1% rise in fuel prices will affect a farmer in Punjab or a student in Chennai.",
+            "11:30 AM –  The Strategy Huddle: Rohan joins a brainstorming session with his team. They are working on a project for the Ministry of Education to understand if providing free laptops increases student scores. He reviews data from thousands of schools, looking for cause and effect.",
+            "1:30 PM –  Data Visualizing: After lunch, Rohan dives into software like R or Stata. He creates a digital map of India, showing where the new 'Green Energy' jobs are being created. He translates a complex 50-page spreadsheet into a single, beautiful chart that a politician can understand in 5 minutes.",
+            "4:00 PM –  The Media Briefing: Rohan is interviewed by a business news channel. He explains in simple Hindi and English why the 'Digital Rupee' is making shopping safer for common citizens. He has to be a great communicator, turning 'jargon' into 'stories.'",
+            "7:00 PM –  The Global Call: Before heading home, Rohan has a video call with economists in New York and London. They discuss how global trade is changing. As he closes his laptop, he feels a sense of pride—his work today might influence a law that helps millions tomorrow."
           ]
         },
         {
@@ -1306,37 +1290,31 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Where Are the Jobs?",
             "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
             "Top Industries: Banking & Finance, Management Consulting, Government (RBI, NITI Aayog), Think Tanks, Tech Giants, Fintech",
-            "Opportunities: High demand in policy consulting and international finance; growing roles in data-driven economic research",
-            "Top Institutions",
-            "Government",
-            "Shri Ram College of Commerce (SRCC), Delhi",
-            "Delhi School of Economics (DSE)",
-            "St. Stephen's College, Delhi",
-            "Madras School of Economics (MSE), Chennai",
-            "Presidency University, Kolkata",
-            "Private",
-            "Ashoka University (Sonipat)",
-            "FLAME University (Pune)",
-            "NMIMS (Mumbai)",
-            "Online",
-            "IGNOU (Economics Programs)",
-            "SWAYAM / NPTEL",
-            "Coursera (Economics Courses)",
-            "Career Opportunities",
-            "Conventional",
-            "Policy Analyst & Economic Researcher",
-            "Investment Banker & Financial Consultant",
-            "Risk Analyst & Quantitative Economist",
-            "Business Journalist & Economic Advisor",
-            "New-Age & AI-Driven",
-            "AI-Powered Economic Forecaster",
-            "ESG (Sustainability) Data Economist",
-            "Blockchain-Based Resource Analyst",
-            "Digital Economy Specialist",
-            "Remote/Entrepreneurship",
-            "Freelance Policy & Economic Consultant",
-            "Economic Content Creator & Educator",
-            "Independent Market Research Startup Founder"
+            "Opportunities: High demand in policy consulting and international finance; growing roles in data-driven economic research"
+          ]
+        },
+        {
+          id: "institutions",
+          title: "Where to Study?",
+          icon: "Building2",
+          description: "Top institutions across India.",
+          color: RED,
+          content: [
+            "Government: Shri Ram College of Commerce Delhi, Delhi School of Economics, St. Stephen's College Delhi, Madras School of Economics Chennai, Presidency University Kolkata",
+            "Private: Ashoka University Sonipat, FLAME University Pune, NMIMS Mumbai",
+            "Online: IGNOU, SWAYAM, NPTEL, Coursera"
+          ]
+        },
+        {
+          id: "opportunities",
+          title: "Career Opportunities",
+          icon: "Briefcase",
+          description: "Conventional and emerging roles.",
+          color: RED2,
+          content: [
+            "Conventional: Policy Analyst & Economic Researcher, Investment Banker & Financial Consultant, Risk Analyst & Quantitative Economist, Business Journalist & Economic Advisor",
+            "New-Age & AI-Driven: AI-Powered Economic Forecaster, ESG Sustainability Data Economist, Blockchain-Based Resource Analyst, Digital Economy Specialist",
+            "Remote/Entrepreneurship: Freelance Policy & Economic Consultant, Economic Content Creator & Educator, Independent Market Research Startup Founder"
           ]
         },
         {
@@ -1586,38 +1564,40 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Where Are the Jobs?",
             "Top Cities: Mumbai (Financial Capital), Bengaluru (Fintech), Gurugram/Delhi, Hyderabad, GIFT City (Gujarat)",
             "Top Industries: Investment Banking, Asset Management (AMCs), Fintech Startups, Corporate Finance, Wealth Management",
-            "Global Demand: High in USA, UK, UAE; huge demand for CFA charterholders in global financial hubs.",
-            "Top Institutions",
-            "Government:",
-            "University of Delhi (SRCC, St. Stephen's)",
-            "Indian Institutes of Management (IIMs)",
-            "University of Mumbai (Sydenham, HR College)",
-            "Madras Christian College (MCC), Chennai",
-            "Private:",
-            "Ashoka University (Sonipat)",
-            "NMIMS (Mumbai)",
-            "Symbiosis (Pune)",
-            "Christ University (Bengaluru)",
-            "Online:",
-            "CFA Institute (Online Resources)",
-            "NSE Academy / NISM",
-            "Coursera (Financial Markets Courses)",
-            "Career Opportunities",
-            "Conventional",
-            "Equity Research Analyst & Portfolio Manager",
-            "Investment Banker & M&A Associate",
-            "Credit Analyst & Risk Manager",
-            "Treasury Manager & FP&A Analyst",
-            "New-Age & AI-Driven",
-            "Algo-Trading Specialist & Quant Analyst",
-            "Fintech Product Manager",
-            "Crypto Asset Analyst",
-            "Sustainable Finance (ESG) Analyst",
-            "Remote/Entrepreneurship",
-            "Independent Financial Consultant",
-            "Financial Content Creator & Educator",
-            "Fintech Startup Founder",
-            "What Will It Cost?",
+            "Global Demand: High in USA, UK, UAE; huge demand for CFA charterholders in global financial hubs."
+          ]
+        },
+        {
+          id: "institutions",
+          title: "Where to Study?",
+          icon: "Building2",
+          description: "Top institutions across India.",
+          color: RED,
+          content: [
+            "Government: University of Delhi SRCC, St. Stephen's, Indian Institutes of Management IIMs, University of Mumbai Sydenham, HR College, Madras Christian College Chennai",
+            "Private: Ashoka University Sonipat, NMIMS Mumbai, Symbiosis Pune, Christ University Bengaluru",
+            "Online: CFA Institute Online Resources, NSE Academy, NISM, Coursera Financial Markets Courses"
+          ]
+        },
+        {
+          id: "opportunities",
+          title: "Career Opportunities",
+          icon: "Briefcase",
+          description: "Conventional and emerging roles.",
+          color: RED2,
+          content: [
+            "Conventional: Equity Research Analyst & Portfolio Manager, Investment Banker & M&A Associate, Credit Analyst & Risk Manager, Treasury Manager & FP&A Analyst",
+            "New-Age & AI-Driven: Algo-Trading Specialist & Quant Analyst, Fintech Product Manager, Crypto Asset Analyst, Sustainable Finance ESG Analyst",
+            "Remote/Entrepreneurship: Independent Financial Consultant, Financial Content Creator & Educator, Fintech Startup Founder"
+          ]
+        },
+        {
+          id: "cost",
+          title: "What Will It Cost?",
+          icon: "CircleDollarSign",
+          description: "Course fees and additional expenses.",
+          color: RED2,
+          content: [
             "Degree (Govt): ₹15,000 – ₹60,000 (Total fees)",
             "MBA (Top B-Schools): ₹15 Lakhs – ₹28 Lakhs (Total fees)",
             "CFA Program: ₹2.5 Lakhs – ₹3.5 Lakhs (Exam & material fees)",
@@ -1655,22 +1635,7 @@ export const careerPageData: Record<string, CareerPageData> = {
             "International Recognition: CFA charter is recognized globally across 165+ countries."
           ]
         },
-        {
-          id: "12",
-          title: "Career Opportunities",
-          icon: "🚀",
-          description: "Diverse career paths for financial analysts",
-          color: RED2,
-          content: [
-            "Conventional: Equity Research, Investment Banking, Credit Analyst.",
-            "New-Age: ESG Analyst (Green finance), Crypto-Asset Analyst, Algorithmic Trader.",
-            "Freelancing: Independent Financial Advisor, YouTube Financial Educator.",
-            "Corporate Finance: Treasury, FP&A (Financial Planning & Analysis), Valuation specialist.",
-            "Private Equity: Deal analysis, portfolio management, exit strategy planning.",
-            "Wealth Management: Managing portfolios for high-net-worth individuals.",
-            "Entrepreneurship: Start your own investment advisory or fintech firm."
-          ]
-        },
+
         {
           id: "13",
           title: "Challenges and Realities",
@@ -1869,39 +1834,31 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Where Are the Jobs?",
             "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune",
             "Top Industries: Wealth Management, Private Banking, Mutual Funds, Insurance, FinTech, Advisory Firms",
-            "Opportunities: Rising HNI/retail investors in India; strong demand globally (UAE, Singapore, UK); freelancing and independent advisory growing",
-            "Top Institutions",
-            "Government",
-            "National Institute of Financial Management (NIFM), Faridabad",
-            "National Institute of Securities Markets (NISM)",
-            "Indian Institute of Management (IIMs)",
-            "Reserve Bank of India (RBI) - Financial Literacy Programs",
-            "Private",
-            "Financial Planning Standards Board India (FPSB India - CFP Certification)",
-            "ICFAI Business School",
-            "Narsee Monjee Institute (NMIMS), Mumbai",
-            "Amity University",
-            "Online",
-            "FPSB India Online (CFP Certification Programs)",
-            "Coursera (Financial Planning Specializations)",
-            "SWAYAM / NPTEL",
-            "National Stock Exchange (NSE) Academy Online",
-            "Career Opportunities",
-            "Conventional",
-            "Certified Financial Planner (CFP)",
-            "Wealth Management Advisor",
-            "Mutual Fund Distributor/Advisor",
-            "Retirement & Estate Planning Consultant",
-            "New-Age and AI-Driven",
-            "Robo-Advisory Platform Developer",
-            "AI-driven Portfolio Rebalancing Specialist",
-            "Algorithmic Investment Strategy Designer",
-            "Behavioural Finance Technology Analyst",
-            "Remote/Entrepreneurship",
-            "Freelance Investment Planning Consultant",
-            "Online Financial Planning Advisory Firm",
-            "Personal Finance EdTech Platform Founder",
-            "Digital Wealth Management Startup Founder"
+            "Opportunities: Rising HNI/retail investors in India; strong demand globally (UAE, Singapore, UK); freelancing and independent advisory growing"
+          ]
+        },
+        {
+          id: "institutions",
+          title: "Where to Study?",
+          icon: "Building2",
+          description: "Top institutions across India.",
+          color: RED,
+          content: [
+            "Government: National Institute of Financial Management NIFM Faridabad, National Institute of Securities Markets NISM, Indian Institute of Management IIMs, Reserve Bank of India RBI Financial Literacy Programs",
+            "Private: Financial Planning Standards Board India FPSB India CFP Certification, ICFAI Business School, Narsee Monjee Institute NMIMS Mumbai, Amity University",
+            "Online: FPSB India Online CFP Certification Programs, Coursera Financial Planning Specializations, SWAYAM, NPTEL, National Stock Exchange NSE Academy Online"
+          ]
+        },
+        {
+          id: "opportunities",
+          title: "Career Opportunities",
+          icon: "Briefcase",
+          description: "Conventional and emerging roles.",
+          color: RED2,
+          content: [
+            "Conventional: Certified Financial Planner CFP, Wealth Management Advisor, Mutual Fund Distributor/Advisor, Retirement & Estate Planning Consultant",
+            "New-Age and AI-Driven: Robo-Advisory Platform Developer, AI-driven Portfolio Rebalancing Specialist, Algorithmic Investment Strategy Designer, Behavioural Finance Technology Analyst",
+            "Remote/Entrepreneurship: Freelance Investment Planning Consultant, Online Financial Planning Advisory Firm, Personal Finance EdTech Platform Founder, Digital Wealth Management Startup Founder"
           ]
         },
 
@@ -2133,39 +2090,31 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Where Are the Jobs?",
             "Top Cities: Mumbai, NCR, Bengaluru, Hyderabad, Pune, Chennai",
             "Top Industries: Investment Banking, Risk Consulting, Insurance, FinTech, Regulatory Bodies (RBI, SEBI)",
-            "Opportunities: High demand in credit risk, market risk, and operational risk management; global demand for GARP-certified professionals",
-            "Top Institutions",
-            "Government",
-            "Indian Institutes of Management (IIMs)",
-            "National Institute of Bank Management (NIBM)",
-            "Reserve Bank of India (RBI) Academy",
-            "University of Mumbai (Department of Commerce)",
-            "Private",
-            "SPJIMR, Mumbai",
-            "NMIMS, Mumbai",
-            "Great Lakes Institute of Management",
-            "ICFAI Business School",
-            "Online",
-            "GARP (Global Association of Risk Professionals)",
-            "Coursera (Financial Risk Management Specializations)",
-            "SWAYAM / NPTEL",
-            "NSE Academy Online",
-            "Career Opportunities",
-            "Conventional",
-            "Credit Risk Analyst",
-            "Market Risk Manager",
-            "Operational Risk Officer",
-            "Enterprise Risk Consultant",
-            "New-age and AI driven",
-            "AI-Driven Risk Modeller",
-            "Cyber Risk Analyst",
-            "ESG Risk Specialist",
-            "Digital Fraud Prevention Expert",
-            "Remote / Entrepreneurship",
-            "Freelance Risk Advisory",
-            "Online Risk Management Educator",
-            "Risk Analytics Startup Founder",
-            "Regulatory Compliance Consultant"
+            "Opportunities: High demand in credit risk, market risk, and operational risk management; global demand for GARP-certified professionals"
+          ]
+        },
+        {
+          id: "institutions",
+          title: "Where to Study?",
+          icon: "Building2",
+          description: "Top institutions across India.",
+          color: RED,
+          content: [
+            "Government: Indian Institutes of Management IIMs, National Institute of Bank Management NIBM, Reserve Bank of India RBI Academy, University of Mumbai Department of Commerce",
+            "Private: SPJIMR Mumbai, NMIMS Mumbai, Great Lakes Institute of Management, ICFAI Business School",
+            "Online: GARP Global Association of Risk Professionals, Coursera Financial Risk Management Specializations, SWAYAM, NPTEL, NSE Academy Online"
+          ]
+        },
+        {
+          id: "opportunities",
+          title: "Career Opportunities",
+          icon: "Briefcase",
+          description: "Conventional and emerging roles.",
+          color: RED2,
+          content: [
+            "Conventional: Credit Risk Analyst, Market Risk Manager, Operational Risk Officer, Enterprise Risk Consultant",
+            "New-age and AI driven: AI-Driven Risk Modeller, Cyber Risk Analyst, ESG Risk Specialist, Digital Fraud Prevention Expert",
+            "Remote / Entrepreneurship: Freelance Risk Advisory, Online Risk Management Educator, Risk Analytics Startup Founder, Regulatory Compliance Consultant"
           ]
         },
 
@@ -2793,20 +2742,68 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
-        id: "5",
-        title: "Scholarship Opportunities",
-        icon: "🎓",
-        description: "Funding your ABM education",
+        id: "pathways",
+        title: "Career Pathways",
+        icon: "Map",
+        description: "Step-by-step journeys to agri-business management",
         color: RED5,
         content: ["Pathway A: Degree Route","Step 1: Complete Class 12th (PCM/PCB/Commerce)","Step 2: Pursue BBA in Agri-Business / B.Sc Agriculture","Step 3: Do summer internships at agri-firms like ITC, Mahindra Agri","Step 4: Learn tools — SAP, MS Excel, supply chain basics","Step 5: Complete MBA in Agri-Business (MANAGE Hyderabad, IIM-A ABM)","Step 6: Join as Agri-Business Manager, Supply Chain Analyst, or Commodity Trader","Pathway B: Skill-Based Entry","Step 1: Complete Class 12th (any stream)","Step 2: Take diploma in Agriculture / Agri-Business","Step 3: Gain field experience — FPOs, cooperatives, mandis","Step 4: Learn digital tools — AgroStar, DeHaat platforms","Step 5: Get certified in agri-supply chain or rural management","Step 6: Work as Field Coordinator, Procurement Officer, or Agri-Sales Executive","Pathway C: Domain Switch Route","Step 1: Complete Class 12th (Commerce/Science)","Step 2: Pursue B.Com / BBA / B.Sc","Step 3: Work 1–2 years in sales, logistics, or banking","Step 4: Enroll in PG Diploma — Rural Management (IRMA) or Agri-Business","Step 5: Intern with agri-startups like Ninjacart, DeHaat","Step 6: Transition as Agri-Business Consultant, Rural Marketing Manager, or Agri-Finance Analyst"]
       },
       {
-        id: "6",
-        title: "Key Challenges",
-        icon: "⚠️",
-        description: "Reality of the field and market",
+        id: "market",
+        title: "Market Snapshot 2025-26",
+        icon: "TrendingUp",
+        description: "Salary, growth, and job market data for agri-business managers",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹15–50 LPA","Mid-Level Professional (5–8 yrs): ₹8–25 LPA","Junior / Associate (3–5 yrs): ₹4–12 LPA","Entry Level (0–2 yrs): ₹3–8 LPA","Note: Metro/agri-hubs (Delhi-NCR, Mumbai) pay 20–30% higher; MBA (Agri-Business) and supply-chain skills boost salary by 20–50%.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Pune, Hyderabad, Bengaluru, Ahmedabad","Top Industries: Agri Corporates, FMCG, Food Processing, AgriTech, Supply Chain, Government Projects","Global Demand: High in USA, Netherlands, Australia; rising remote consulting, agri-tech startups","Top Institutions","Top Institutions for Agri-Business Management in India","Government:","Indian Institute of Management, Ahmedabad (IIMA)","National Institute of Agricultural Extension Management (MANAGE), Hyderabad","Indian Agricultural Research Institute (IARI), New Delhi","Govind Ballabh Pant University of Agriculture & Technology, Pantnagar","Private:","ICFAI Business School (IBS)","Amity University","Lovely Professional University (LPU)","ITM Business School","Online:","IGNOU","Swayam/NPTEL","Jain University (Online)","Symbiosis Centre for Distance Learning (SCDL)","Career Opportunities","Here are the top career opportunities in Agri-Business Management in India:","Conventional","Farm Operations Manager","Agricultural Marketing Officer","Commodity Trading Analyst","Rural Banking & Agri-Credit Officer","New-Age & AI Driven","Precision Agriculture Data Analyst","Agri-Tech Product Manager","Drone-Based Crop Monitoring Specialist","AI-Powered Supply Chain Optimizer","Remote/Entrepreneurship","Agri E-Commerce Platform Founder","Farm-to-Fork Consulting (Freelance)","Organic Brand Builder & Online Retailer","Agri-Business Content Creator & Advisor"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹15–50 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹8–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹4–12 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Metro/agri-hubs (Delhi-NCR, Mumbai) pay 20–30% higher; MBA (Agri-Business) and supply-chain skills boost salary by 20–50%.",
+          "Where Are the Jobs?",
+          "Top Cities: Delhi-NCR, Mumbai, Pune, Hyderabad, Bengaluru, Ahmedabad",
+          "Top Industries: Agri Corporates, FMCG, Food Processing, AgriTech, Supply Chain, Government Projects",
+          "Global Demand: High in USA, Netherlands, Australia; rising remote consulting, agri-tech startups"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: RED,
+        content: [
+          "Government: Indian Institute of Management Ahmedabad IIMA, National Institute of Agricultural Extension Management MANAGE Hyderabad, Indian Agricultural Research Institute IARI New Delhi, Govind Ballabh Pant University of Agriculture & Technology Pantnagar",
+          "Private: ICFAI Business School IBS, Amity University, Lovely Professional University LPU, ITM Business School",
+          "Online: IGNOU, Swayam/NPTEL, Jain University Online, Symbiosis Centre for Distance Learning SCDL"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: RED2,
+        content: [
+          "Conventional",
+          "Farm Operations Manager",
+          "Agricultural Marketing Officer",
+          "Commodity Trading Analyst",
+          "Rural Banking & Agri-Credit Officer",
+          "New-Age & AI Driven",
+          "Precision Agriculture Data Analyst",
+          "Agri-Tech Product Manager",
+          "Drone-Based Crop Monitoring Specialist",
+          "AI-Powered Supply Chain Optimizer",
+          "Remote/Entrepreneurship",
+          "Agri E-Commerce Platform Founder",
+          "Farm-to-Fork Consulting (Freelance)",
+          "Organic Brand Builder & Online Retailer",
+          "Agri-Business Content Creator & Advisor"
+        ]
       },
       {
         id: "7",
