@@ -311,7 +311,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. Strong demo reel matters more than degree. VFX/3D skills boost salary significantly."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Metro cities pay 40–60% more. Strong demo reel matters more than degree. VFX/3D skills boost salary significantly."]
       },
       {
         id: "jobs",
@@ -538,7 +538,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹3–5 LPA","Entry Level (0–2 yrs): ₹1.8–3 LPA","Note: Metro salaries 40–50% higher. CIDESCO/VLCC certified professionals earn more. Celebrity/bridal makeup artists earn significantly higher."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹1 Crore+","Senior / Lead Role (10+ yrs): ₹10–18 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹3–5 LPA","Entry Level (0–2 yrs): ₹1–3 LPA","Note: Metro salaries 40–50% higher. CIDESCO/VLCC certified professionals earn more. Celebrity/bridal makeup artists earn significantly higher."]
       },
       {
         id: "jobs",
@@ -776,7 +776,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2–3.5 LPA","Note: Metro cities pay 35–50% more. Published authors/screenwriters earn royalties separately. Strong portfolio matters more than formal degree."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–22 LPA","Mid-Level Professional (5–8 yrs): ₹6–11 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2–3 LPA","Note: Metro cities pay 35–50% more. Published authors/screenwriters earn royalties separately. Strong portfolio matters more than formal degree."]
       },
       {
         id: "jobs",
@@ -1014,7 +1014,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and market opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹15–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–14 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. NIFT/NID graduates command premium salaries. Own label designers earn unlimited through entrepreneurship."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹15–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–14 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Metro cities pay 40–60% more. NIFT/NID graduates command premium salaries. Own label designers earn unlimited through entrepreneurship."]
       },
       {
         id: "jobs",
@@ -1244,7 +1244,29 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: ["Pathway A: After Class 12th (Degree Route)","Step 1: Complete Class 12th (Science stream—PCM required).","Step 2: Clear NIFT Entrance Exam (GAT) or NID DAT.","Step 3: Earn Bachelor of Fashion Technology (BFTech)—4 years.","Step 4: Master CAD/CAM, Textile Science, and Data Analytics.","Step 5: Complete internship at a fashion tech company or textile lab.","Step 6: Join as Production Manager, Quality Controller, or 3D Garment Engineer.","Pathway B: After Graduation (PG Route)","Step 1: Complete BFTech or related engineering degree.","Step 2: Pursue M.FTech or MBA in Fashion Management (2 years).","Step 3: Specialize in Sustainable Fashion or AI-Driven Production.","Step 4: Work as Senior Production Manager or Director of Operations.","Pathway C: Career-Switchers","Step 1: Have a bachelor's degree in any field.","Step 2: Take a PG Diploma in Apparel Production (1–2 years).","Step 3: Build a 'Tech Portfolio' showing 3D models or research.","Step 4: Join as Production Consultant or Technical Designer."]
+        content: [
+          "Pathway A: After Class 12th (Degree Route)",
+          "Step 1: Complete Class 12th with Science stream (PCM required)",
+          "Step 2: Clear NIFT Entrance Exam (GAT) or NID DAT",
+          "Step 3: Earn Bachelor of Fashion Technology (BFTech) - 4 years",
+          "Step 4: Master CAD/CAM, Textile Science, and Data Analytics",
+          "Step 5: Complete internship at fashion tech company or textile lab",
+          "Step 6: Join as Production Manager, Quality Controller, or 3D Garment Engineer",
+          "Pathway B: After Graduation (PG Route)",
+          "Step 1: Complete BFTech or related engineering degree",
+          "Step 2: Pursue M.FTech or MBA in Fashion Management (2 years)",
+          "Step 3: Specialize in Sustainable Fashion or AI-Driven Production",
+          "Step 4: Gain hands-on experience through industry internships",
+          "Step 5: Build portfolio with real projects and case studies",
+          "Step 6: Join as Senior Production Manager or Director of Operations",
+          "Pathway C: Career-Switchers",
+          "Step 1: Have a bachelor's degree in any field",
+          "Step 2: Take a PG Diploma in Apparel Production (1-2 years)",
+          "Step 3: Build a Tech Portfolio showing 3D models or research",
+          "Step 4: Learn CAD, CLO 3D, and production management tools",
+          "Step 5: Complete certification courses in fashion technology",
+          "Step 6: Join as Production Consultant or Technical Designer"
+        ]
       },
       {
         id: "market",
@@ -1938,7 +1960,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Senior / Lead Role (10+ yrs): ₹15–28 LPA",
           "Mid-Level Professional (5–8 yrs): ₹7–14 LPA",
           "Junior / Associate (3–5 yrs): ₹4–7 LPA",
-          "Entry Level (0–2 yrs): ₹2.5–4 LPA",
+          "Entry Level (0–2 yrs): ₹2–4 LPA",
           "Note: Metro cities pay 45–60% more. Own practice/firm owners earn significantly higher. CEED/NID/NIFT qualified professionals command premium fees.",
           "Where Are the Jobs?",
           "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai",
@@ -2851,7 +2873,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹1.2 Crore+","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1.5–2.5 LPA","Note: Income highly project-based; wedding/commercial photographers earn significantly more. Metro cities pay 40–55% higher. Strong portfolio and social media presence matter most."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹1.2 Crore+","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–9 LPA","Junior / Associate (3–5 yrs): ₹2.5–5 LPA","Entry Level (0–2 yrs): ₹1–2 LPA","Note: Income highly project-based; wedding/commercial photographers earn significantly more. Metro cities pay 40–55% higher. Strong portfolio and social media presence matter most."]
       },
       {
         id: "jobs",
@@ -3065,7 +3087,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹18–32 LPA","Mid-Level Professional (5–8 yrs): ₹9–17 LPA","Junior / Associate (3–5 yrs): ₹5–9 LPA","Entry Level (0–2 yrs): ₹3.5–5 LPA","Note: Metro cities pay 45–65% more. UX/UI product designers earn highest in tech. IIT/NID/IDC graduates command top-tier packages consistently."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹2 Crore+","Senior / Lead Role (10+ yrs): ₹18–32 LPA","Mid-Level Professional (5–8 yrs): ₹9–17 LPA","Junior / Associate (3–5 yrs): ₹5–9 LPA","Entry Level (0–2 yrs): ₹3–5 LPA","Note: Metro cities pay 45–65% more. UX/UI product designers earn highest in tech. IIT/NID/IDC graduates command top-tier packages consistently."]
       },
       {
         id: "jobs",
@@ -3278,7 +3300,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹28 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–25 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 40–60% more. Full-stack design + development skills double earning potential. Strong GitHub/Behance portfolio outweighs formal degrees significantly."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹28 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–25 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Metro cities pay 40–60% more. Full-stack design + development skills double earning potential. Strong GitHub/Behance portfolio outweighs formal degrees significantly."]
       },
       {
         id: "jobs",
@@ -14373,6 +14395,265 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Satish Saberwal: Sociologist focusing on Indian history, society, and culture.",
           "Leela Dube: Pioneer feminist sociologist studying gender, kinship, and Indian society.",
           "Dipankar Gupta: Contemporary sociologist studying Indian society, modernity, and social change."
+        ]
+      }
+    ]
+  },
+  sound_engineer: {
+    slug: "sound_engineer",
+    badge: "The Audio Architect for Class 10+",
+    heading: "Sound Engineer",
+    subheading: "Imagine a world without sound. No music, no dialogue in movies, no immersive gaming experience. Sound Engineers are the invisible architects who shape every audio experience we encounter—from concert halls to film studios to your favorite podcast.",
+    whyCards: [
+      { icon: "Music", title: "Creative & Technical Blend", description: "Combine artistic sensibility with cutting-edge audio technology to create immersive sonic experiences.", borderColor: "#10B981" },
+      { icon: "Zap", title: "High Demand Industry", description: "Music production, film, gaming, podcasting, and live events create endless opportunities for skilled sound engineers.", borderColor: "#059669" },
+      { icon: "Headphones", title: "Diverse Work Environments", description: "Work in recording studios, concert venues, film sets, gaming studios, or broadcast facilities worldwide.", borderColor: "#3B82F6" },
+      { icon: "TrendingUp", title: "Growing Opportunities", description: "Streaming platforms, podcasts, and virtual reality are creating unprecedented demand for audio professionals.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "3-4 Years (Degree) or 1-2 Years (Diploma)", color: "bg-green-100 text-green-700" },
+      { label: "Skills Required", detail: "Audio Production, Mixing, Mastering, DAW Software", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹3.5L–₹50L+ (Entry to Senior)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "15%", label: "Annual Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "₹50L+", label: "Senior Sound Engineer Salary", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Crafting, recording, mixing, and mastering audio for various media.",
+        color: BLUE,
+        content: [
+          "Sound Engineering is the art and science of capturing, processing, and delivering high-quality audio across multiple platforms.",
+          "The Recording Specialist: Capture pristine audio in studios, concert halls, or on-location shoots using microphones, preamps, and recording equipment.",
+          "The Mixing Maestro: Blend multiple audio tracks, balance levels, add effects, and create a cohesive sonic landscape using Digital Audio Workstations (DAWs).",
+          "The Mastering Expert: Prepare final mixes for distribution across different platforms (streaming, radio, cinema) ensuring optimal sound quality.",
+          "The Live Sound Technician: Manage real-time audio for concerts, theater productions, podcasts, and live broadcasts.",
+          "Why It Matters: In an era of streaming, gaming, and virtual reality, audio quality is paramount. Sound engineers ensure that every listener experiences crystal-clear, emotionally impactful sound."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: The Audio Architect",
+        icon: "Clock",
+        description: "Real workflow of a Sound Engineer.",
+        color: BLUE2,
+        content: [
+          "9:00 AM - The Studio Setup: You arrive at a professional recording studio in Mumbai or Bangalore. You check all microphones, preamps, and cables. Today, you're recording vocals for a Bollywood film. You set up the isolation booth and test the microphone levels.",
+          "11:00 AM - The Recording Session: The playback track begins. The singer enters the booth. You monitor the recording levels in real-time, adjusting gain and EQ to capture the perfect vocal performance. You record multiple takes, noting the best ones.",
+          "1:30 PM - The Mixing Marathon: After lunch, you move to the mixing console. You have 12 tracks: vocals, guitars, drums, strings, and synths. You balance the levels, add reverb to the vocals, compress the drums, and create a stereo mix that sounds professional.",
+          "4:00 PM - The Mastering Touch: You export the mix and move to the mastering suite. Using specialized equipment and plugins, you ensure the audio translates well on all playback systems—earbuds, car speakers, cinema systems.",
+          "6:00 PM - The Client Review: You play the final mix for the music director and producer. They request a slight adjustment to the vocal reverb. You tweak it and export the final version.",
+          "7:30 PM - Wrapping Up: You back up all files, clean the studio, and prepare for tomorrow's session. As you leave, you hear the final mix playing—your work will reach millions of listeners."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? (Personality & Skills)",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "The Audiophile: You have a trained ear and notice subtle differences in sound quality that others miss.",
+          "Tech-Savvy: You're comfortable with complex software (Pro Tools, Logic Pro, Ableton Live) and hardware.",
+          "Problem-Solver: When something sounds 'off,' you can diagnose and fix it quickly.",
+          "Patient & Detail-Oriented: Audio work requires meticulous attention to detail and patience during long sessions.",
+          "Creative Thinker: You understand how sound can evoke emotions and enhance storytelling.",
+          "Communication Skills: You can translate artistic visions into technical execution and collaborate with musicians, directors, and producers."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "Managing the complete audio production cycle.",
+        color: BLUE2,
+        content: [
+          "Pre-Production: Planning recording sessions, selecting microphones, and preparing the studio.",
+          "Recording: Capturing high-quality audio using proper microphone placement and gain staging.",
+          "Editing: Cleaning up recordings, removing noise, and arranging tracks for mixing.",
+          "Mixing: Balancing levels, adding effects, and creating a cohesive stereo mix.",
+          "Mastering: Optimizing the final mix for different playback systems and distribution platforms.",
+          "Quality Assurance: Testing audio on multiple devices to ensure consistency and clarity."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: After Class 12th (Formal Degree Route)",
+          "Step 1: Complete Class 12th (any stream)",
+          "Step 2: Pursue Bachelor's in Audio Engineering or Sound Design (3-4 years)",
+          "Step 3: Learn industry-standard DAWs (Pro Tools, Logic Pro, Ableton Live)",
+          "Step 4: Complete internship at recording studios or production houses",
+          "Step 5: Build portfolio with sample recordings and mixes",
+          "Step 6: Join as Junior Sound Engineer or Recording Technician",
+          "Pathway B: Diploma Route (Faster Entry)",
+          "Step 1: Complete Class 10th or 12th",
+          "Step 2: Pursue Diploma in Audio Engineering or Sound Production (1-2 years)",
+          "Step 3: Gain hands-on experience in professional studios",
+          "Step 4: Learn mixing and mastering techniques",
+          "Step 5: Build a portfolio of professional projects",
+          "Step 6: Work as Sound Technician or Studio Engineer",
+          "Pathway C: Self-Taught & Certification Route",
+          "Step 1: Have passion for audio and music production",
+          "Step 2: Learn through online courses (Coursera, Udemy, YouTube)",
+          "Step 3: Invest in home recording equipment and DAW software",
+          "Step 4: Complete professional certifications (Pro Tools, Avid)",
+          "Step 5: Build portfolio through freelance projects",
+          "Step 6: Join studios or start freelance sound engineering business"
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, growth, and opportunities.",
+        color: BLUE2,
+        content: [
+          "Entry-level (Junior Sound Engineer): ₹3.5 L – ₹6 L annually",
+          "Mid-level (Sound Engineer/Mixing Engineer): ₹8 L – ₹18 L annually",
+          "Senior/Leadership (Senior Sound Engineer/Studio Manager): ₹20 L – ₹35 L annually",
+          "Freelance/Specialist (Mastering Engineer/Producer): ₹25 L – ₹50 L+ annually",
+          "Market Growth: The Indian audio production industry is growing at ~15% annually, driven by streaming platforms, gaming, and content creation."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "Briefcase",
+        description: "Top industries and cities.",
+        color: BLUE,
+        content: [
+          "Top Industries: Music Production (T-Series, Sony Music), Film & TV (Bollywood studios, OTT platforms), Gaming (Gameloft, Zynga), Podcasting (Spotify, Audible), Live Events (Concert venues, festivals), Broadcasting (Doordarshan, private channels)",
+          "Top Cities: Mumbai (Bollywood hub), Bangalore (Tech & Gaming), Delhi-NCR (Broadcasting), Hyderabad (Film industry), Gurgaon (Corporate studios)",
+          "Remote/Freelance: High potential in mixing, mastering, and podcast production from home studios."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: National Institute of Design (NID), Indian Institute of Technology (IIT) Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai, SAE Institute India, Whistling Woods International",
+          "Online: Coursera (Audio Engineering Courses), Udemy (Sound Design & Production), Skillshare (Music Production), YouTube (Free tutorials), Berklee Online (Professional courses)"
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "DollarSign",
+        description: "Course fees and living expenses.",
+        color: BLUE2,
+        content: [
+          "Degree Programs: Government institutions: ₹2 L – ₹5 L (3-4 years); Private institutions: ₹8 L – ₹18 L (3-4 years)",
+          "Diploma Programs: ₹1.5 L – ₹4 L (1-2 years)",
+          "Online Courses: ₹5,000 – ₹50,000 per course",
+          "Equipment Investment: Home studio setup: ₹1 L – ₹5 L (microphone, interface, monitors, DAW software)"
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE,
+        content: [
+          "Government Scholarships: Post-matric scholarships for SC/ST/OBC students through National Scholarship Portal (NSP)",
+          "Institutional Scholarships: Merit-based scholarships from Pearl Academy, ISDI, and other private institutions",
+          "Industry Sponsorships: Music labels and production houses occasionally sponsor talented students",
+          "Loan Programs: Educational loans available from banks for audio engineering courses"
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Credentials that boost your resume.",
+        color: BLUE2,
+        content: [
+          "Pro Tools Certification: Industry-standard certification from Avid for mixing and recording",
+          "Logic Pro Certification: Apple's professional audio workstation certification",
+          "Ableton Live Certification: Certification for music production and live performance",
+          "Audio Engineering Society (AES): Professional membership and certifications",
+          "Dolby Atmos Certification: Specialized certification for immersive audio mixing"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE,
+        content: [
+          "Conventional: Recording Engineer, Mixing Engineer, Mastering Engineer, Live Sound Technician, Studio Manager",
+          "New-Age: Podcast Producer, Spatial Audio Designer (Dolby Atmos), Game Audio Engineer, VR/AR Audio Specialist, AI-Assisted Music Producer",
+          "Entrepreneurship: Starting a home recording studio, launching a podcast production company, offering freelance mixing/mastering services, creating audio content for YouTube/streaming platforms"
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of the profession.",
+        color: BLUE2,
+        content: [
+          "Long Hours: Recording sessions and live events often run late into the night.",
+          "Hearing Health: Prolonged exposure to loud sounds can damage hearing; proper ear protection is essential.",
+          "Perfectionism Pressure: Achieving the 'perfect' mix can be mentally exhausting and time-consuming.",
+          "Equipment Costs: Professional-grade equipment is expensive; staying updated requires continuous investment.",
+          "Competitive Field: The industry is competitive; building a reputation takes time and consistent quality work."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in sound engineering.",
+        color: BLUE2,
+        content: [
+          "Spatial Audio Revolution: Dolby Atmos and immersive audio formats becoming standard for streaming and cinema.",
+          "AI-Assisted Mixing: AI tools automating routine mixing tasks, allowing engineers to focus on creative decisions.",
+          "Virtual Studios: Cloud-based collaboration enabling remote recording and mixing sessions.",
+          "Binaural Audio: Personalized audio experiences tailored to individual hearing profiles.",
+          "Metaverse Audio: Creating immersive soundscapes for virtual reality and metaverse environments."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build in School (Class 9–12)",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Music Theory: Learn basics of music theory, rhythm, and melody to understand audio better.",
+          "Physics: Study acoustics and sound waves to understand how audio works technically.",
+          "Software Exploration: Download free DAWs like Audacity or GarageBand and experiment with recording.",
+          "Listening Practice: Train your ear by actively listening to different music genres and analyzing production techniques.",
+          "DIY Recording: Start recording friends' music or podcasts using basic equipment to build experience."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Sound Engineers & Producers",
+        icon: "User",
+        description: "Inspiring figures in the industry.",
+        color: BLUE2,
+        content: [
+          "A.R. Rahman: Legendary music composer and sound engineer who revolutionized Indian film music with innovative production techniques.",
+          "Vishal-Shekhar: Renowned music producers known for their work in Bollywood and Tamil cinema with cutting-edge sound design.",
+          "Pritam Chakraborty: Acclaimed music composer and sound engineer with multiple National Film Awards.",
+          "Shankar Mahadevan: Singer, composer, and sound engineer known for innovative vocal production and mixing.",
+          "Anirudh Ravichander: Young music composer and sound engineer pushing boundaries in Tamil and Telugu cinema."
         ]
       }
     ]

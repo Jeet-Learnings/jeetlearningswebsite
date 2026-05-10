@@ -917,7 +917,7 @@ export function CareerPageDynamic({
                     <TranslatedText as="span">{section.description}</TranslatedText>
                   </p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
+                <div className="space-y-3 sm:space-y-4 md:space-y-5">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
                     const colonIdx = item.indexOf(':');
@@ -931,7 +931,7 @@ export function CareerPageDynamic({
                           <div className="w-10 sm:w-11 h-10 sm:h-11 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0">
                             <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-indigo-600" />
                           </div>
-                          <div>
+                          <div className="flex-1">
                             <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-1 sm:mb-2">
                               <TranslatedText as="span">{title}</TranslatedText>
                             </h4>
@@ -1122,18 +1122,9 @@ export function CareerPageDynamic({
                          details = tier.substring(colonIdx + 1).trim();
                       }
                       
-                      const dotIdx = details.indexOf('.');
-                      const posIdx = details.indexOf('Positions:');
+                      // Don't split on dots - just use the full details as salary
                       let salary = details;
                       let pos = '';
-                      
-                      if (posIdx !== -1) {
-                         salary = details.substring(0, posIdx).replace('.', '').trim();
-                         pos = details.substring(posIdx + 10).trim();
-                      } else if (dotIdx !== -1) {
-                         salary = details.substring(0, dotIdx).trim();
-                         pos = details.substring(dotIdx + 1).replace('Positions:', '').trim();
-                      }
 
                       salary = salary.replace(/\s*-\s*/g, ' - ').replace(/\s*–\s*/g, ' - ');
 
@@ -1300,7 +1291,7 @@ export function CareerPageDynamic({
               const institutions = contentStr
                 .split(/[,;]/)
                 .map(i => i.trim())
-                .filter(i => i && !i.toLowerCase().includes("not recommended"));
+                .filter(i => i);
               
               if (institutions.length > 0) {
                 groupedContent[type] = institutions;

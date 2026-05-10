@@ -2776,16 +2776,16 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: RED,
         content: [
-          "Government: Indian Institute of Management Ahmedabad IIMA, National Institute of Agricultural Extension Management MANAGE Hyderabad, Indian Agricultural Research Institute IARI New Delhi, Govind Ballabh Pant University of Agriculture & Technology Pantnagar",
-          "Private: ICFAI Business School IBS, Amity University, Lovely Professional University LPU, ITM Business School",
-          "Online: IGNOU, Swayam/NPTEL, Jain University Online, Symbiosis Centre for Distance Learning SCDL"
+          "Government: Indian Institute of Management (IIM) Ahmedabad, Indian Institute of Management (IIM) Bangalore, National Institute of Agricultural Extension Management (MANAGE) Hyderabad, Indian Agricultural Research Institute (IARI) New Delhi",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, Lovely Professional University (LPU) Jalandhar, Shoolini University Solan",
+          "Online: Swayam/NPTEL, Coursera (Agri-Business Courses), IGNOU (Agriculture Management Programs), Udemy (Agri-Business & Supply Chain Courses)"
         ]
       },
       {
         id: "opportunities",
         title: "Career Opportunities",
         icon: "Briefcase",
-        description: "Conventional and emerging roles.",
+        description: "Here are the top career opportunities in Agri-Business Management in India",
         color: RED2,
         content: [
           "Conventional",
@@ -2939,13 +2939,16 @@ export const careerPageData: Record<string, CareerPageData> = {
         color: "#DA1313",
         content: [
           "Salary Snapshot (Annual INR)",
-          "Entry-Level (Fresher): ₹3.5 Lakhs – ₹7 Lakhs",
-          "Mid-Level (5–8 years): ₹10 Lakhs – ₹18 Lakhs",
-          "Senior/Leadership: ₹20 Lakhs – ₹45 Lakhs",
-          "CXO/Startup Founder: ₹60 Lakhs+",
-          "Salary Comparison: Metro Cities (Bengaluru, Pune) pay higher starting salaries (₹6L–₹8L) in Agri-Tech R&D centers. Tier-2/3 Cities offer starting pay (₹3.5L–₹5L) but often include housing/field allowances in manufacturing hubs.",
-          "Market Growth: The industry is growing at a CAGR of over 5.2%. The fastest-growing segments are Precision Farming and Automated Machinery.",
-          "Note: The Indian Agricultural Equipment market is expected to reach $13.79 Billion by 2030."
+          "CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.5+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹12–40 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹6–20 LPA",
+          "Junior / Associate (3–5 yrs): ₹4–10 LPA",
+          "Entry Level (0–2 yrs): ₹3–7 LPA",
+          "Note: Metro/agri-industrial hubs (Pune, Hyderabad) pay 15–30% higher; skills in irrigation tech, GIS, farm mechanisation boost salary by 20–40%",
+          "Where Are the Jobs?",
+          "Top Cities: Hyderabad, Pune, Bengaluru, Delhi-NCR, Ludhiana, Coimbatore",
+          "Top Industries: Farm Equipment, Irrigation, AgriTech, Food Processing, Government (ICAR), NGOs",
+          "Global Demand: High in Africa, Middle East, Australia; demand in precision farming, water management, remote consulting"
         ]
       },
       {
@@ -2970,9 +2973,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: "#C20000",
         content: [
-          "Public/Government: IIT Kharagpur (West), Punjab Agricultural University (PAU), Ludhiana (North), Tamil Nadu Agricultural University (TNAU), Coimbatore (South), GB Pant University of Agriculture & Technology, Pantnagar (North)",
-          "Private: Vellore Institute of Technology (VIT), Lovely Professional University (LPU), SRM University",
-          "Distance/Online: Not recommended for B.Tech as this is a highly hands-on lab-based field"
+          "Government: Indian Institute of Technology Kharagpur (IIT-KGP), Punjab Agricultural University (PAU) Ludhiana, Tamil Nadu Agricultural University (TNAU) Coimbatore, Govind Ballabh Pant University of Agriculture & Technology Pantnagar",
+          "Private: SRM Institute of Science and Technology Chennai, Amity University Noida, Lovely Professional University (LPU) Jalandhar, Sharda University Greater Noida",
+          "Online: IGNOU, Swayam/NPTEL, Coursera (IIT/IARI courses), ICAR e-courses"
         ]
       },
       {
@@ -3020,9 +3023,19 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Conventional and emerging roles.",
         color: "#DA1313",
         content: [
-          "Conventional: Farm Machinery Design, Irrigation Engineer, Soil & Water Conservationist",
-          "New-Age: Drone Data Analyst, Precision Agriculture Specialist, Climate-Smart Systems Engineer, AI-Agriculture Specialist",
-          "Freelancing: Independent Farm Consultant, Custom Hiring Center (CHC) Entrepreneur, Agri-Visualization Specialist"
+          "Conventional Careers",
+          "Farm Machinery Design",
+          "Irrigation Engineer",
+          "Soil & Water Conservationist",
+          "New-Age / AI-Driven Careers",
+          "Drone Data Analyst",
+          "Precision Agriculture Specialist",
+          "Climate-Smart Systems Engineer",
+          "AI-Agriculture Specialist",
+          "Freelancing & Entrepreneurship",
+          "Independent Farm Consultant",
+          "Custom Hiring Center (CHC) Entrepreneur",
+          "Agri-Visualization Specialist"
         ]
       },
       {
@@ -3197,7 +3210,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "Building2",
         description: "Top institutions across India.",
         color: RED,
-        content: ["Government: Indian Agricultural Research Institute (IARI), New Delhi; National Dairy Research Institute (NDRI), Karnal; Central Institute of Fisheries Education (CIFE), Mumbai; Indian Veterinary Research Institute (IVRI), Bareilly","Private: Amity Institute of Biotechnology, Noida; Sam Higginbottom University (SHUATS), Prayagraj; Shoolini University, Solan; DY Patil University, Pune","Online: ICAR e-courses; Swayam/NPTEL; IGNOU; Coursera (Agriculture Research Programs)"]
+        content: ["Government: Indian Agricultural Research Institute (IARI), New Delhi; National Dairy Research Institute (NDRI) Karnal; Central Institute of Fisheries Education (CIFE) Mumbai; Indian Veterinary Research Institute (IVRI), Bareilly","Private: Amity Institute of Biotechnology, Noida; Sam Higginbottom University (SHUATS), Prayagraj; Shoolini University, Solan; DY Patil University, Pune","Online: ICAR e-courses; Swayam/NPTEL; IGNOU; Coursera (Agriculture Research Programs)"]
       },
       {
         id: "opportunities",
@@ -3360,8 +3373,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: RED,
         content: [
-          "Government: Indian Veterinary Research Institute (IVRI), Bareilly; National Dairy Research Institute (NDRI), Karnal; Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana; Maharashtra Animal & Fishery Sciences University (MAFSU), Nagpur",
-          "Private: Sam Higginbottom University (SHUATS), Prayagraj; Rajiv Gandhi Institute of Veterinary Education & Research, Puducherry; Apollo College of Veterinary Medicine, Jaipur; Shoolini University, Solan",
+          "Government: Indian Veterinary Research Institute (IVRI) Bareilly; National Dairy Research Institute (NDRI) Karnal; Guru Angad Dev Veterinary & Animal Sciences University (GADVASU) Ludhiana; Maharashtra Animal & Fishery Sciences University (MAFSU) Nagpur",
+          "Private: Sam Higginbottom University (SHUATS) Prayagraj; Rajiv Gandhi Institute of Veterinary Education & Research Puducherry; Apollo College of Veterinary Medicine Jaipur; Shoolini University Solan",
           "Online: ICAR e-courses; Swayam/NPTEL; IGNOU (Animal Husbandry Programs); Coursera (Veterinary Science Courses)"
         ]
       },

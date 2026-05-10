@@ -178,7 +178,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA – ₹1.5 Cr+","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹20 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Salary Note: Metros pay 30% more. NET/GATE exams boost entry salary.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Ahmedabad.","Top Industries: Pharma, Biotech, Diagnostics, Clinical Research.","Global Demand: High in USA, Germany. R&D outsourcing is growing.","Top Institutions","Government: Indian Institute of Science (IISc), Bangalore, University of Delhi, Banaras Hindu University (BHU), Jawaharlal Nehru University (JNU)","Private: Manipal Academy of Higher Education, Amity University, SRM Institute of Science and Technology, Lovely Professional University","Online: NPTEL (IIT/IISc courses), IGNOU, Coursera (partnered Indian institutes), SWAYAM Portal","Career Opportunities","Conventional","Biochemist","Research Associate","Quality Control Analyst","Clinical Laboratory Scientist","New-age and AI driven","Bioinformatics Analyst","Computational Biologist","Molecular Diagnostics Specialist","Drug Discovery Data Analyst","Remote/entrepreneurship","Scientific Content Creator","Medical Writer","Biotech Consultant","Diagnostic Startup Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA – ₹1.5 Cr+","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹20 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹6 LPA","Salary Note: Metros pay 30% more. NET/GATE exams boost entry salary.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Ahmedabad.","Top Industries: Pharma, Biotech, Diagnostics, Clinical Research.","Global Demand: High in USA, Germany. R&D outsourcing is growing.","Top Institutions","Government: Indian Institute of Science (IISc), Bangalore, University of Delhi, Banaras Hindu University (BHU), Jawaharlal Nehru University (JNU)","Private: Manipal Academy of Higher Education, Amity University, SRM Institute of Science and Technology, Lovely Professional University","Online: NPTEL (IIT/IISc courses), IGNOU, Coursera (partnered Indian institutes), SWAYAM Portal","Career Opportunities","Conventional","Biochemist","Research Associate","Quality Control Analyst","Clinical Laboratory Scientist","New-age and AI driven","Bioinformatics Analyst","Computational Biologist","Molecular Diagnostics Specialist","Drug Discovery Data Analyst","Remote/entrepreneurship","Scientific Content Creator","Medical Writer","Biotech Consultant","Diagnostic Startup Founder"]
       },
       {
         id: "locations",
@@ -187,7 +187,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         description: "Top industries and cities.",
         color: BLUE,
         content: [
-          "Top Industries: Pharmaceuticals (Cipla, Sun Pharma), Biotechnology (Biocon), Hospitals & Diagnostics (Apollo, Dr. Lal PathLabs), Agriculture (Monsanto India).",
+          "Top Industries: Pharmaceuticals (Cipla Sun Pharma), Biotechnology (Biocon), Hospitals & Diagnostics (Apollo, Dr. Lal PathLabs), Agriculture (Monsanto India).",
           "Top Cities: Hyderabad, Bangalore, Mumbai, Pune, and Ahmedabad.",
           "Remote Potential: Limited for lab work, but high in Bioinformatics (data-based biochemistry) and Scientific Writing.",
           "International: High demand in the USA, Germany, and Switzerland for Ph.D. holders.",
@@ -431,7 +431,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         description: "Top industries and cities.",
         color: BLUE,
         content: [
-          "Top Industries: Pharmaceuticals (Cipla, Sun Pharma), Biotechnology (Biocon, Strand Life Sciences), IT Services (TCS, Wipro, Infosys), Healthcare Startups.",
+          "Top Industries: Pharmaceuticals (Cipla Sun Pharma), Biotechnology (Biocon Strand Life Sciences), IT Services (TCS Wipro Infosys), Healthcare Startups.",
           "Top Cities: Bangalore (The Hub), Hyderabad, Pune, and Gurgaon.",
           "Remote Work: Very high! Since the work is primarily computer-based, many roles are hybrid or fully remote.",
           "International: Massive demand in USA, UK, and Germany for Indian talent in clinical data management.",
@@ -573,13 +573,6 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  biotechnology: buildData(
-    'biotechnology',
-    'Biotechnology',
-    'Use biology and engineering to create products in health, agriculture, and industrial biotech.',
-    'Cell Biology, Bioprocess, QA/QC, Research Writing',
-    'Biotech growth is driven by vaccines, therapeutics, and sustainable manufacturing innovation.'
-  ),
   genetics: {
     slug: "genetics",
     badge: "Decoding Life for Class 10+",
@@ -1109,11 +1102,11 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a clinical researcher.",
         color: BLUE2,
         content: [
-          "8:00 AM – The Site Check: You arrive at a major hospital in Mumbai or Bangalore. Your role today is a Clinical Research Coordinator (CRC). First, you check the 'Investigational Product' (the new medicine being tested). It must be stored at an exact temperature. If it gets too warm, the whole experiment fails.",
-          "10:30 AM – Meeting the Heroes: The 'heroes' are the volunteers. You meet a patient who has joined a trial for a new diabetes drug. You spend an hour explaining the 'Informed Consent' form. You aren't just giving them a paper to sign; you are ensuring they understand exactly what is happening to their body.",
-          "1:30 PM – Data Entry & Verification: Lunch is a quick break before you sit with your laptop. You enter the morning's results into a global database. Accuracy is everything. A single typo could lead to a wrong conclusion about a drug's safety.",
-          "4:00 PM – The Monitor's Visit: A Clinical Research Associate (CRA) from the pharmaceutical company arrives. They are here to 'audit' your work. You show them your files, the patient records, and the lab results. It's like a high-stakes school inspection, but for science.",
-          "6:30 PM – The Global Sync: Before heading home, you have a video call with a team in Switzerland. You discuss the recruitment numbers for the day. You leave the hospital knowing that the data you collected today might help millions of people five years from now."
+          "8:00 AM –  The Site Check: You arrive at a major hospital in Mumbai or Bangalore. Your role today is a Clinical Research Coordinator (CRC). First, you check the 'Investigational Product' (the new medicine being tested). It must be stored at an exact temperature. If it gets too warm, the whole experiment fails.",
+          "10:30 AM –  Meeting the Heroes: The 'heroes' are the volunteers. You meet a patient who has joined a trial for a new diabetes drug. You spend an hour explaining the 'Informed Consent' form. You aren't just giving them a paper to sign; you are ensuring they understand exactly what is happening to their body.",
+          "1:30 PM –  Data Entry & Verification: Lunch is a quick break before you sit with your laptop. You enter the morning's results into a global database. Accuracy is everything. A single typo could lead to a wrong conclusion about a drug's safety.",
+          "4:00 PM –  The Monitor's Visit: A Clinical Research Associate (CRA) from the pharmaceutical company arrives. They are here to 'audit' your work. You show them your files, the patient records, and the lab results. It's like a high-stakes school inspection, but for science.",
+          "6:30 PM –  The Global Sync: Before heading home, you have a video call with a team in Switzerland. You discuss the recruitment numbers for the day. You leave the hospital knowing that the data you collected today might help millions of people five years from now."
         ]
       },
       {
@@ -1160,7 +1153,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹50 LPA – ₹1.2 Crore","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹22 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Salary Note: Metros pay 30% extra. GCP certification boosts pay.","Where Are the Jobs?","Top Cities: Mumbai, Bangalore, Hyderabad, Pune, Delhi.","Top Industries: CROs, Pharma, Healthcare, Biotech.","Global Demand: USA, UK. Remote monitoring is growing.","Top Institutions","Government: All India Institute of Medical Sciences (AIIMS), Delhi, Indian Council of Medical Research (ICMR), Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh, National Institute of Pharmaceutical Education & Research (NIPER)","Private: Manipal Academy of Higher Education, SRM Institute of Science and Technology, Jamia Hamdard University, Delhi, Symbiosis International University, Pune","Online: NPTEL (IIT/IISc courses), IGNOU, SWAYAM Portal, Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Clinical Research Associate","Clinical Trial Coordinator","Clinical Data Manager","Pharmacovigilance Associate","New-age and AI driven","Clinical Data Scientist","AI-Driven Trial Analyst","Digital Health Research Associate","Real-World Evidence Analyst","Remote/entrepreneurship","Remote Clinical Research Consultant","Medical Writer","Clinical Research Trainer","CRO Startup Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹50 LPA – ₹1.2 Crore","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹22 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹6 LPA","Salary Note: Metros pay 30% extra. GCP certification boosts pay.","Where Are the Jobs?","Top Cities: Mumbai, Bangalore, Hyderabad, Pune, Delhi.","Top Industries: CROs, Pharma, Healthcare, Biotech.","Global Demand: USA, UK. Remote monitoring is growing.","Top Institutions","Government: All India Institute of Medical Sciences (AIIMS), Delhi, Indian Council of Medical Research (ICMR), Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh, National Institute of Pharmaceutical Education & Research (NIPER)","Private: Manipal Academy of Higher Education, SRM Institute of Science and Technology, Jamia Hamdard University, Delhi, Symbiosis International University, Pune","Online: NPTEL (IIT/IISc courses), IGNOU, SWAYAM Portal, Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Clinical Research Associate","Clinical Trial Coordinator","Clinical Data Manager","Pharmacovigilance Associate","New-age and AI driven","Clinical Data Scientist","AI-Driven Trial Analyst","Digital Health Research Associate","Real-World Evidence Analyst","Remote/entrepreneurship","Remote Clinical Research Consultant","Medical Writer","Clinical Research Trainer","CRO Startup Founder"]
       },
       {
         id: "locations",
@@ -2032,23 +2025,270 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
           "Online Courses: Take free courses on Coursera or edX about biotechnology and molecular biology.",
           "Observation: Keep a lab journal. Document observations carefully and precisely."
         ]
+      }
+    ]
+  },
+  biotechnology: {
+    slug: "biotechnology",
+    badge: "The Gene Revolution Pioneer for Class 10+",
+    heading: "Biotechnology",
+    subheading: "Imagine editing the DNA of a disease-causing virus, creating crops that can survive droughts, or growing organs in a lab for transplants. Biotechnologists are the architects of the future, using living organisms and their cellular components to solve humanity's biggest challenges.",
+    whyCards: [
+      { icon: "Dna", title: "Gene Revolution", description: "Edit genes, create new organisms, and unlock the secrets of life itself using CRISPR and advanced molecular tools.", borderColor: "#10B981" },
+      { icon: "Zap", title: "Solving Global Crises", description: "Develop vaccines, create sustainable biofuels, and engineer crops to fight hunger and climate change.", borderColor: "#059669" },
+      { icon: "TrendingUp", title: "Explosive Growth", description: "India's biotech industry growing at 15% annually; global market expected to reach $1 trillion by 2030.", borderColor: "#3B82F6" },
+      { icon: "Briefcase", title: "Diverse Opportunities", description: "Work in pharma, agriculture, environmental remediation, diagnostics, or start your own biotech venture.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "B.Sc. (3 yrs) + M.Sc. (2 yrs) + PhD/Specialization", color: "bg-green-100 text-green-700" },
+      { label: "Top Skills", detail: "Molecular Biology, Genetic Engineering, Bioinformatics, Lab Techniques", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹4L–₹60L+ (Entry to Senior)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "15% CAGR", label: "Industry Growth Rate", gradient: "from-green-500 to-green-600" },
+      { value: "$1T", label: "Global Market by 2030", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Using living organisms to develop new products and solve problems.",
+        color: BLUE,
+        content: [
+          "Biotechnology is the application of biological organisms, cells, and molecular components to develop new products and technologies.",
+          "The Gene Editor: Use CRISPR and other tools to edit DNA, correcting genetic diseases or creating disease-resistant crops.",
+          "The Vaccine Developer: Design and produce vaccines that protect millions from infectious diseases.",
+          "The Biofuel Engineer: Create sustainable energy sources from algae, bacteria, or plant waste.",
+          "The Diagnostic Innovator: Develop rapid tests and diagnostic tools for diseases like COVID-19, cancer, or malaria.",
+          "Why It Matters: Biotechnology is solving humanity's biggest challenges—from curing genetic diseases to creating sustainable food and energy. India is positioned to become a global biotech powerhouse, and biotechnologists are leading this revolution."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: The Gene Architect",
+        icon: "Clock",
+        description: "Real workflow of a biotechnologist.",
+        color: BLUE2,
+        content: [
+          "8:00 AM - The Lab Prep: You arrive at a state-of-the-art biotech facility in Bangalore or Hyderabad. You check your CRISPR gene-editing equipment and prepare bacterial cultures for today's experiment.",
+          "10:00 AM - The Gene Editing Session: You use CRISPR-Cas9 to edit a specific gene in a bacterial strain. You're trying to make it produce insulin more efficiently. You carefully load the DNA into the equipment and monitor the process.",
+          "12:30 PM - Data Analysis: You move to your computer and analyze the results from yesterday's experiment. You use bioinformatics software to sequence the edited genes and confirm the changes were successful.",
+          "2:00 PM - Team Meeting: You meet with your team to discuss progress on a vaccine development project. You present data showing that your engineered virus candidate triggers a strong immune response.",
+          "4:00 PM - Quality Control: You conduct tests to ensure the biotech products meet regulatory standards. You document everything meticulously—in biotech, precision is life-or-death.",
+          "6:00 PM - Research Planning: You review literature on new gene-editing techniques and plan next week's experiments. You know that today's work could lead to tomorrow's breakthrough medicine."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? (Personality & Skills)",
+        icon: "User",
+        description: "Self-assessment for the ideal biotechnologist.",
+        color: BLUE,
+        content: [
+          "The Molecular Thinker: Do you wonder how genes work and how to manipulate them?",
+          "The Problem-Solver: Can you design experiments to test hypotheses and troubleshoot when things go wrong?",
+          "The Precision Expert: Do you have meticulous attention to detail? One mistake can ruin months of work.",
+          "The Tech-Savvy Scientist: Are you comfortable with advanced equipment, software, and data analysis?",
+          "The Ethical Thinker: Do you consider the ethical implications of genetic engineering and biotechnology?",
+          "Hard Skills: Strong foundation in Biology, Chemistry, and Mathematics; proficiency in bioinformatics and lab techniques."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "Managing biotechnology projects from concept to commercialization.",
+        color: BLUE2,
+        content: [
+          "Research & Development: Design experiments to develop new biotech products or improve existing ones.",
+          "Genetic Engineering: Use molecular tools to edit genes and create organisms with desired traits.",
+          "Bioprocess Development: Scale up laboratory processes to industrial production levels.",
+          "Quality Assurance: Test products for safety, efficacy, and regulatory compliance.",
+          "Data Analysis: Use bioinformatics to interpret complex biological data.",
+          "Regulatory Compliance: Ensure all work meets government and international biotech standards."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Traditional Academic Route",
+          "Step 1: Complete Class 12th with Science (PCB/PCM)",
+          "Step 2: Pursue B.Sc. in Biotechnology or Life Sciences (3 years)",
+          "Step 3: Complete M.Sc. in Biotechnology or Molecular Biology (2 years)",
+          "Step 4: Pursue PhD in specialized area (3-5 years)",
+          "Step 5: Gain postdoctoral research experience",
+          "Step 6: Join as Research Scientist or Senior Biotechnologist",
+          "Pathway B: Industry-Focused Route",
+          "Step 1: Complete B.Sc. in Biotechnology",
+          "Step 2: Pursue M.Sc. or MBA in Biotech Management",
+          "Step 3: Join biotech companies as Graduate Trainee",
+          "Step 4: Gain hands-on experience in production or quality control",
+          "Step 5: Complete industry certifications (GMP, ISO standards)",
+          "Step 6: Advance to Senior Scientist or Project Manager",
+          "Pathway C: Entrepreneurship Route",
+          "Step 1: Complete B.Sc./M.Sc. in Biotechnology",
+          "Step 2: Identify a biotech problem or opportunity",
+          "Step 3: Develop a prototype or proof-of-concept",
+          "Step 4: Secure funding through grants or investors",
+          "Step 5: Register biotech startup and build team",
+          "Step 6: Launch biotech product or service"
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, growth, and opportunities.",
+        color: BLUE2,
+        content: [
+          "Entry-level (Junior Scientist): ₹4 L – ₹7 L annually",
+          "Mid-level (Senior Scientist/Project Lead): ₹12 L – ₹25 L annually",
+          "Senior/Leadership (Principal Scientist/Manager): ₹30 L – ₹50 L annually",
+          "Specialist/Entrepreneur: ₹40 L – ₹60 L+ annually",
+          "Market Growth: India's biotech industry growing at 15% CAGR; global market expected to reach $1 trillion by 2030."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "Briefcase",
+        description: "Top industries and cities.",
+        color: BLUE,
+        content: [
+          "Top Industries: Pharmaceutical (Cipla, Dr. Reddy's, Lupin), Biotech (Biocon, Serum Institute), Diagnostics (Thyrocare, Metropolis), Agriculture (Mahyco, Syngenta), Environmental (Biotech startups)",
+          "Top Cities: Bangalore (Biotech Hub), Hyderabad (Pharma & Biotech), Pune (Research & Development), Delhi-NCR (Startups), Chennai (Biotech Parks)",
+          "Remote/Freelance: Bioinformatics analysis, scientific writing, patent consultancy, regulatory consulting."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: IIT Delhi, IIT Bombay, IISc Bangalore, Delhi University, Jawaharlal Nehru University (JNU), University of Hyderabad",
+          "Private: Manipal Academy, Amity University, Vellore Institute of Technology (VIT), Ashoka University, Symbiosis International",
+          "Online: Coursera (Biotechnology Specialization), edX (Molecular Biology), Udemy (Genetic Engineering), NPTEL (IIT courses)"
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "DollarSign",
+        description: "Course fees and living expenses.",
+        color: BLUE2,
+        content: [
+          "B.Sc. Programs: Government: ₹50,000 – ₹2 L (3 years); Private: ₹3 L – ₹8 L (3 years)",
+          "M.Sc. Programs: Government: ₹1 L – ₹3 L (2 years); Private: ₹4 L – ₹10 L (2 years)",
+          "PhD Programs: Fully funded with stipend (₹12,000-31,000/month) at government institutions",
+          "Living Costs: ₹15,000 – ₹25,000/month in major cities"
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE,
+        content: [
+          "Central: INSPIRE Fellowship (for toppers), DBT-JRF (₹12,000-31,000/month), CSIR-UGC NET (₹31,000-35,000/month)",
+          "Institutional: Full/Partial fee waivers at IITs, IISc, and central universities for SC/ST/OBC students",
+          "Private: Biocon Scholarship, L'Oréal For Young Women in Science, Ratan Tata Scholarship",
+          "Merit-Based: Scholarships for top scorers in entrance exams"
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Credentials that boost your resume.",
+        color: BLUE2,
+        content: [
+          "BRSI (Biotech Research Society, India): Primary networking body for researchers",
+          "BCIL (Biotech Consortium India Limited): Industrial training and placement assistance",
+          "Certifications: GMP (Good Manufacturing Practice), ISO 9001, CRISPR Gene Editing, Bioinformatics",
+          "International: ASHG (American Society of Human Genetics), EMBO (European Molecular Biology Organization)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse paths in biotechnology.",
+        color: BLUE,
+        content: [
+          "Conventional: Research Scientist, Bioprocess Engineer, Quality Control Officer, Production Manager, Regulatory Affairs Specialist",
+          "New-Age: CRISPR Gene Editor, Synthetic Biology Specialist, AI Drug Discovery Analyst, Precision Medicine Researcher, Bioinformatics Specialist",
+          "Entrepreneurship: Biotech Startup Founder, Diagnostic Lab Owner, Agri-Biotech Company, Biofuel Production Facility, Gene Therapy Clinic",
+          "Interdisciplinary: Biotech + AI, Biotech + Environmental Science, Biotech + Agriculture, Biotech + Medicine"
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of biotechnology careers.",
+        color: BLUE2,
+        content: [
+          "Long Development Cycles: Bringing a biotech product to market takes 10-15 years and billions of rupees.",
+          "Regulatory Complexity: Navigating government approvals and international standards is time-consuming.",
+          "Lab Hazards: Working with potentially dangerous microbes and chemicals requires strict safety protocols.",
+          "Funding Challenges: Research depends on grants and investor funding, which can be unpredictable.",
+          "Ethical Dilemmas: Gene editing raises ethical questions that scientists must carefully consider.",
+          "Competitive Field: The biotech industry is highly competitive; staying updated with latest research is essential."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in biotechnology.",
+        color: BLUE2,
+        content: [
+          "CRISPR Revolution: Gene editing becoming routine for treating genetic diseases and creating disease-resistant crops.",
+          "Synthetic Biology: Designing organisms from scratch to produce medicines, biofuels, and materials.",
+          "Personalized Medicine: Tailoring treatments based on individual genetic profiles.",
+          "Biofabrication: Growing tissues and organs in labs for transplants and drug testing.",
+          "Climate Solutions: Using biotech to create sustainable alternatives to fossil fuels and plastics."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build in School (Class 9–12)",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Biology & Chemistry: Master these subjects; they are the foundation of biotechnology.",
+          "Lab Skills: Participate in school science fairs and conduct experiments.",
+          "Coding Basics: Learn Python or R for bioinformatics applications.",
+          "Research Reading: Follow biotech news and read scientific papers on platforms like PubMed.",
+          "Online Courses: Take free courses on Coursera or edX about biotechnology and molecular biology."
+        ]
       },
       {
         id: "personalities",
-        title: "Famous Indian Personalities",
+        title: "Famous Indian Biotechnologists",
         icon: "User",
         description: "Inspiring figures in biotechnology.",
         color: BLUE2,
         content: [
-          "Har Gobind Khorana: Nobel Prize winner (1968) who helped crack the genetic code. He is the reason we understand how DNA works!",
-          "Kiran Mazumdar-Shaw: The 'Biotech Queen of India.' She founded Biocon and turned it into a global biopharma giant.",
-          "Dr. Soumya Swaminathan: Former Chief Scientist at WHO; she played a vital role in global health and vaccine research during COVID-19.",
-          "Dr. Renu Swarup: Former Secretary, DBT. She was instrumental in creating the 'Biotech Startup' ecosystem in India.",
-          "Dr. Krishna Ella: The man behind Covaxin. He proved that India can develop high-end vaccines entirely on its own.",
-          "Dr. Balram Bhargava: Director General of ICMR, leading India's biotech and vaccine development initiatives."
+          "Kiran Mazumdar-Shaw: Founder of Biocon; transformed India's biotech landscape and became Asia's richest self-made woman.",
+          "Dr. Reddy Srinivas: Pioneer in pharmaceutical biotechnology; founded Dr. Reddy's Laboratories.",
+          "Dr. Cyrus Poonawalla: Founder of Serum Institute; world's largest vaccine manufacturer by volume.",
+          "Dr. Krishna Ella: Founder of Bharat Biotech; developed Covaxin, proving India's vaccine capability.",
+          "Dr. Soumya Swaminathan: Former Chief Scientist at WHO; global leader in vaccine research and public health.",
+          "Dr. Renu Swarup: Former Secretary, Department of Biotechnology; architect of India's biotech startup ecosystem."
         ]
       }
     ]
   }
+
 };
 

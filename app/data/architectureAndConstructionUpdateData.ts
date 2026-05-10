@@ -30,7 +30,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "What is This Career All About?",
         icon: "Target",
         description: "Turning blueprints into reality—the backbone of infrastructure.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Construction is a high-energy, multi-billion-dollar industry that turns blueprints into reality. It isn't just about bricks and mortar; it's about engineering marvels, managing thousands of workers, and using cutting-edge technology.",
           "The Doers: While architects dream, construction professionals execute. They build the roads, bridges, tunnels, smart cities, and green energy plants that define India in 2030.",
@@ -44,7 +44,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "A Day in the Life: The Site Engineer",
         icon: "Clock",
         description: "Real workflow of a construction professional.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "7:00 AM - The Early Bird Gets the Site: Arrive at the site just as the sun rises. Wear your 'armor': bright yellow hard hat, high-visibility vest, and steel-toed boots. Do a quick safety walk ensuring no hazards before 500+ workers arrive.",
           "9:00 AM - The Toolbox Talk: Gather supervisors and laborers for a 'Toolbox Talk.' Explain the day's goals—pouring concrete for the 12th-floor slab. Emphasize safety protocols and harness checks for those working at heights.",
@@ -59,7 +59,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Is This You? Personality Traits & Skills",
         icon: "User",
         description: "Self-assessment for the ideal candidate.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Physical & Mental Resilience: You might work outdoors in heat or cold. You need 'grit' and the ability to handle physical demands.",
           "Leadership & People Skills: You will manage diverse teams—from highly skilled engineers to daily-wage laborers. You must be firm yet empathetic.",
@@ -73,7 +73,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Key Responsibilities & Project Life Cycle",
         icon: "Briefcase",
         description: "The complete construction workflow.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Pre-Construction: Estimating costs, bidding for the project, and getting government permits.",
           "Procurement: Buying tons of steel, cement, and glass, and hiring specialized contractors.",
@@ -88,7 +88,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: "BLUE",
+        color: "#C20000",
         content: ["Pathway A: After Class 12th (Engineering Route)","Step 1: Complete Class 12th with PCM subjects","Step 2: Clear JEE Main or state entrance exams","Step 3: Complete B.Tech in Civil Engineering (4 years)","Step 4: Do internship at construction sites","Step 5: Learn AutoCAD, STAAD Pro, Primavera tools","Step 6: Work as Site Engineer or Project Manager","Pathway B: Diploma Route","Step 1: After Class 10th, join Diploma programme","Step 2: Complete 3-year Diploma in Civil Engineering","Step 3: Gain hands-on site work experience","Step 4: Pursue B.Tech through lateral entry","Step 5: Get certified in safety and quality management","Step 6: Work as Construction Supervisor or Contractor","Pathway C: Skill-Based Entry Route","Step 1: Complete Class 10th or 12th","Step 2: Join ITI or short-term construction courses","Step 3: Learn surveying, estimation, and costing skills","Step 4: Work as site technician or skilled tradesperson","Step 5: Gain experience and upgrade through certifications","Step 6: Grow into Site Supervisor or Independent Contractor"]
       },
       {
@@ -96,7 +96,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹15–30 LPA","Mid-Level Professional (5–8 yrs): ₹7–15 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4.5 LPA","Note: Metro/infrastructure hub cities pay higher. PMP, RERA knowledge, and BIM/AutoCAD skills significantly boost salary."]
       },
       {
@@ -104,14 +104,14 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Where Are the Jobs?",
         icon: "MapPin",
         description: "Top cities and industries.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: ["Top Cities: Mumbai, Delhi-NCR, Hyderabad, Bangalore, Ahmedabad, Chennai","Top Industries: L&T, Shapoorji Pallonji, Tata Projects, DLF, Godrej Properties, NHAI, Smart Cities Mission, Metro Rail projects","Global Demand: Gulf countries (UAE, Saudi – NEOM), Australia, Canada hiring Indian engineers; freelance project consulting rising"]
       },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
         description: "Course fees and additional expenses.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Government Colleges: ₹2 Lakhs – ₹5 Lakhs (Total 4-year degree).",
           "Private Universities: ₹8 Lakhs – ₹20 Lakhs.",
@@ -125,7 +125,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Government: Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, National Institute of Construction Management & Research (NICMAR) Pune, School of Planning & Architecture (SPA) New Delhi",
           "Private: RICS School of Built Environment, Amity University Noida, Manipal Academy of Higher Education Manipal, Lovely Professional University (LPU) Jalandhar",
@@ -137,7 +137,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Conventional and emerging roles.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Conventional: Construction Project Manager, Site Engineer & Supervision Officer, Quantity Surveyor & Estimation Specialist, Building Materials & Procurement Manager",
           "New-Age & AI Driven: AI-Powered Construction Planning & Scheduling Analyst, Drone-Based Site Surveying & Monitoring Specialist, BIM-Integrated Smart Construction Technologist, Robotics & 3D Printing Construction Engineer",
@@ -149,7 +149,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Scholarship Opportunities",
         icon: "Award",
         description: "Financial assistance programs.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Central: PM-USP Central Sector Scheme (based on Class 12 marks).",
           "Institutional: Most NITs/IITs offer tuition fee waivers for students with family income <₹5 Lakhs.",
@@ -162,7 +162,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Professional Bodies & Certifications",
         icon: "Award",
         description: "Credentials that boost your resume.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "CIDC (Construction Industry Development Council): Apex body for Indian construction.",
           "PMP (Project Management Professional): A global gold-standard certification for managers.",
@@ -176,7 +176,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Challenges and Realities",
         icon: "AlertTriangle",
         description: "The hard truths of the profession.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Location Transfers: You go where the project is. Today you might be in Mumbai, next year in a remote tunnel project in Himachal.",
           "Work-Life Balance: Project deadlines can be stressful, sometimes requiring 10-12 hour days.",
@@ -190,7 +190,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Emerging Trends & Future Outlook (2025–2035)",
         icon: "Sparkles",
         description: "What's next in construction.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "AI & Robotics: Robots for bricklaying and drones for progress monitoring will revolutionize construction.",
           "Prefab Construction: Buildings made in a factory and 'assembled' on-site (like Lego!).",
@@ -204,7 +204,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Skills to Build in School (Class 9–12)",
         icon: "Rocket",
         description: "Actionable steps to start your journey.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Math & Physics: Focus on mechanics and geometry—these are the foundation of construction.",
           "Gaming for Good: Games like SimCity or Minecraft help you understand planning and resource management.",
@@ -218,7 +218,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Famous Indian Construction Personalities",
         icon: "User",
         description: "Inspiring figures in the industry.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Sir M. Visvesvaraya: The 'Father of Indian Engineering.' His birthday (Sept 15) is celebrated as Engineer's Day.",
           "E. Sreedharan: Known as the 'Metro Man' for building the Delhi Metro and Konkan Railway—a visionary who transformed urban transport.",
@@ -255,7 +255,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "What is This Career All About?",
         icon: "Target",
         description: "The perfect marriage of art and science.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Architecture is the art and science of designing buildings and spaces. It isn't just about making buildings look 'pretty'; it's about creating spaces that are safe, functional, and comfortable for the people who use them.",
           "The Visionary: An architect thinks about where sunlight will fall, how wind will move through a room to keep it cool, and how a family will feel living inside those walls.",
@@ -269,7 +269,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "A Day in the Life: The Creative Visionary",
         icon: "Clock",
         description: "Real workflow of an architect.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "8:30 AM - The Creative Spark: Start your day not at a desk, but with a sketchbook. You're working on a new design for a community library. You doodle shapes, thinking about how to keep the reading room quiet while letting in enough natural light.",
           "10:30 AM - Tech Time: Move to your computer. Use software like Revit and AutoCAD to turn your doodles into precise 3D models. You're not just drawing lines; you're adding data—what kind of glass will the windows use? How thick should the concrete walls be?",
@@ -284,7 +284,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Is This You? Personality Traits & Skills",
         icon: "User",
         description: "Self-assessment for the ideal candidate.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Visual-Spatial Intelligence: Can you look at a 2D map and 'see' it as a 3D building in your head?",
           "Creative Problem-Solving: If a client wants a large balcony but has a small budget, can you find a clever way to give them both?",
@@ -298,7 +298,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Key Responsibilities & Design Workflow",
         icon: "Briefcase",
         description: "The complete architectural process.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Client Briefing: Understanding what the client needs (a 3-bedroom house, a 500-student school, etc.).",
           "Site Analysis: Studying the land—the soil, the direction of the sun, and local building laws.",
@@ -313,22 +313,56 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Career Pathways in India",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: "BLUE",
-        content: ["Pathway A: After Class 12th (Traditional Route)","Step 1: Complete Class 12th with PCM subjects","Step 2: Clear NATA or JEE Main Paper 2","Step 3: Complete B.Arch degree (5 years)","Step 4: Do internship with architecture firms","Step 5: Register with Council of Architecture","Step 6: Work as licensed Architect","Pathway B: Diploma Route","Step 1: After Class 10th, join Architecture Diploma","Step 2: Complete 3-year Diploma in Architecture","Step 3: Gain practical site experience","Step 4: Pursue B.Arch through lateral entry","Step 5: Learn AutoCAD, Revit, SketchUp tools","Step 6: Work as Architect or Design Consultant","Pathway C: Specialisation Route","Step 1: Complete Class 12th with PCM","Step 2: Complete B.Arch degree (5 years)","Step 3: Pursue M.Arch in chosen specialisation","Step 4: Specialise in Urban Design or Landscape","Step 5: Build portfolio with real projects","Step 6: Work as Senior Architect or Urban Planner"]
+        color: "#C20000",
+        content: [
+          "Pathway A: After Class 12th (Traditional Route)",
+          "Step 1: Complete Class 12th with PCM subjects",
+          "Step 2: Clear NATA or JEE Main Paper 2",
+          "Step 3: Complete B.Arch degree (5 years)",
+          "Step 4: Do internship with architecture firms",
+          "Step 5: Register with Council of Architecture",
+          "Step 6: Work as licensed Architect",
+          "Pathway B: Diploma Route",
+          "Step 1: After Class 10th, join Architecture Diploma",
+          "Step 2: Complete 3-year Diploma in Architecture",
+          "Step 3: Gain practical site experience",
+          "Step 4: Pursue B.Arch through lateral entry",
+          "Step 5: Learn AutoCAD, Revit, SketchUp tools",
+          "Step 6: Work as Architect or Design Consultant",
+          "Pathway C: Specialisation Route",
+          "Step 1: Complete Class 12th with PCM",
+          "Step 2: Complete B.Arch degree (5 years)",
+          "Step 3: Pursue M.Arch in chosen specialisation",
+          "Step 4: Specialise in Urban Design or Landscape",
+          "Step 5: Build portfolio with real projects",
+          "Step 6: Work as Senior Architect or Urban Planner"
+        ]
       },
       {
         id: "market",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
-        color: "BLUE2",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–25 LPA","Mid-Level Professional (5–8 yrs): ₹6–12 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 30–50% more. COA license and LEED/BIM skills boost earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune, Chennai","Top Industries: Real estate firms (DLF, Godrej), infrastructure (L&T, Shapoorji), government (CPWD, Smart Cities Mission), hospitality","Global Demand: UAE, Singapore, Australia actively hiring; freelancing growing via Houzz/Upwork","Top Institutions","Government:","School of Planning & Architecture (SPA), New Delhi","Indian Institute of Technology (IIT), Kharagpur","Indian Institute of Technology (IIT), Roorkee","Centre for Environmental Planning & Technology (CEPT), Ahmedabad","Private:","Manipal Academy of Higher Education, Manipal","Amity University, Noida","Sushant University (formerly Ansal University), Gurugram","Rizvi College of Architecture, Mumbai","Online:","Swayam/NPTEL","Coursera (Architecture & Design Courses)","IGNOU (Architecture Related Programs)","Udemy (Architecture & Building Design Courses)","Career Opportunities","Conventional","Licensed Architect (Private/Govt Practice)","Urban Planning & Town Development Officer","Interior Design & Space Planning Architect","Heritage Conservation & Restoration Architect","New-Age & AI Driven","AI-Generated Design & Parametric Architect","BIM (Building Information Modelling) Specialist","Sustainable & Green Building Design Technologist","VR/AR-Based Architectural Visualization Expert","Remote/Entrepreneurship","Freelance Architectural Design Consultant","Online Architecture Education Platform Founder","Modular & Prefab Housing Startup Entrepreneur","3D Architectural Rendering Studio Owner"]
+        color: "#C20000",
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹12–25 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹6–12 LPA",
+          "Junior / Associate (3–5 yrs): ₹3.5–6 LPA",
+          "Entry Level (0–2 yrs): ₹2.5–4 LPA",
+          "Note: Metro cities pay 30–50% more. COA license and LEED/BIM skills boost earnings significantly.",
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune, Chennai",
+          "Top Industries: Real estate firms (DLF, Godrej), infrastructure (L&T, Shapoorji), government (CPWD, Smart Cities Mission), hospitality",
+          "Global Demand: UAE, Singapore, Australia actively hiring; freelancing growing via Houzz/Upwork"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
         description: "Course fees and additional expenses.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Government (SPA, NIT, IIT): ₹2.5 Lakh – ₹6 Lakh (Total 5 years).",
           "Top Private (CEPT, Manipal): ₹12 Lakh – ₹25 Lakh (Total 5 years).",
@@ -342,7 +376,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "North: School of Planning and Architecture (SPA) Delhi; IIT Roorkee; Jamia Millia Islamia.",
           "South: NIT Calicut; SPA Vijayawada; Manipal School of Architecture.",
@@ -356,7 +390,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Scholarship Opportunities",
         icon: "Award",
         description: "Financial assistance programs.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Central: AICTE Pragati Scholarship (for girls); Merit-cum-Means Scholarship for Minorities (NSP).",
           "State: Post-Matric Scholarships provided by various state governments (UP, Maharashtra, etc.).",
@@ -369,7 +403,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Professional Bodies & Licensing",
         icon: "Award",
         description: "Credentials that boost your resume.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Council of Architecture (COA): The mandatory licensing body in India.",
           "Indian Institute of Architects (IIA): The national body for professional networking.",
@@ -383,7 +417,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Conventional and emerging roles.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Conventional: Residential Architect, Commercial Architect, Urban Planner.",
           "New-Age: Sustainable Design Consultant, BIM Specialist, Computational Designer (using AI to generate forms), VR/AR Visualizer.",
@@ -396,7 +430,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Challenges and Realities",
         icon: "AlertTriangle",
         description: "The hard truths of the profession.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Long Hours: Especially during 'jury' (college exams) and project deadlines in the office.",
           "Slow Start: Entry-level salaries can be lower compared to IT or Finance.",
@@ -410,7 +444,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Emerging Trends & Future Outlook (2025–2035)",
         icon: "Sparkles",
         description: "What's next in architecture.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "AI in Design: AI will help architects quickly calculate energy efficiency and generate 100s of design options in seconds.",
           "3D Printed Buildings: Buildings will be 'printed' using giant robotic arms, making construction faster and cheaper.",
@@ -424,7 +458,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Skills to Build in School (Class 9–12)",
         icon: "Rocket",
         description: "Actionable steps to start your journey.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Freehand Sketching: Start a 'Visual Journal'—draw buildings you see around you.",
           "Software: Try free versions of Sketchup or Tinkercad.",
@@ -438,7 +472,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Famous Indian Architects",
         icon: "User",
         description: "Inspiring figures in the industry.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "B.V. Doshi: India's first Pritzker Prize (the 'Nobel' of Architecture) winner. He designed IIM Bangalore.",
           "Charles Correa: The man who defined modern Indian architecture; designer of the Jawahar Kala Kendra in Jaipur.",
@@ -475,7 +509,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "What is This Career All About?",
         icon: "Target",
         description: "The life support system of industry.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Maintenance and Operation Management (M&O) is the career dedicated to ensuring that physical assets—machines, buildings, and technology—run at peak efficiency, safely, and without breaking down.",
           "The Life Support System: If an architect is the brain and a construction engineer is the muscle, M&O professionals are the 'life support system' that keeps everything functioning.",
@@ -489,7 +523,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "A Day in the Life: The Operations Guardian",
         icon: "Clock",
         description: "Real workflow of an M&O professional.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "8:00 AM - The Morning Huddle: Start your day by reviewing the 'night shift' reports. Check a digital dashboard showing how much electricity the solar panels produced overnight. Everything looks green, but a sensor on 'Block C' is reporting a slight temperature spike.",
           "10:30 AM - Predictive Analysis: Use an AI-powered software tool. It tells you that the cooling fan in Block C is likely to fail in the next 48 hours. Create a digital 'Work Order' and assign a technician to replace the fan during low-demand afternoon hours. This is Predictive Maintenance—solving a problem before it even exists.",
@@ -503,7 +537,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Is This You? Personality Traits & Skills",
         icon: "User",
         description: "Self-assessment for the ideal candidate.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Analytical Thinking: You love looking at charts and data to find 'patterns' and anomalies.",
           "The 'Problem-Solver' Mindset: You don't panic when things break; you immediately start thinking of the fastest way to fix them.",
@@ -518,7 +552,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Key Responsibilities & Workflow",
         icon: "Briefcase",
         description: "The complete M&O cycle.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Asset Tracking: Knowing exactly what equipment the company owns and where it is located.",
           "Scheduling: Deciding when each machine needs a 'health checkup' (Preventive Maintenance).",
@@ -530,37 +564,64 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
       },
       {
         id: "pathways",
-        title: "Career Pathways in India",
+        title: "Career Pathways in Maintenance and Operations",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
-          "After Class 10: Take a 3-Year Diploma in Engineering (Mechanical/Electrical/Production) from a Polytechnic. Result: Junior Maintenance Engineer, Site Supervisor.",
-          "After Class 12 (Science): Pursue 4-Year B.Tech/B.E. (Civil/Mechanical/Electrical/Industrial) + Optional PGP in Operations. Result: Graduate Engineer Trainee (GET), Operations Executive.",
-          "After Class 12 (Commerce/Arts): Take 3-Year BBA/B.Com → MBA in Operations Management. Result: Facilities Manager, Operations Planner, Supply Chain Executive.",
-          "After Graduation: Lateral Entry—Engineers switching to management via PGDM in Operations or specialized certifications. Result: Operations Manager, Plant Head, Quality Manager."
+          "Pathway A: After Class 12th (Engineering Route)",
+          "Step 1: Complete Class 12th with PCM subjects",
+          "Step 2: Pursue B.Tech in Mechanical or Electrical Engineering",
+          "Step 3: Learn facility management and maintenance planning",
+          "Step 4: Do internship in manufacturing or infrastructure sector",
+          "Step 5: Get certified in Six Sigma or CMMS tools",
+          "Step 6: Work as Maintenance Engineer or Operations Manager",
+          "Pathway B: Diploma Route",
+          "Step 1: After Class 10th, join Diploma programme",
+          "Step 2: Complete Diploma in Mechanical or Electrical Engineering",
+          "Step 3: Gain hands-on experience in equipment maintenance",
+          "Step 4: Learn SAP, ERP, and preventive maintenance systems",
+          "Step 5: Upgrade skills through B.Tech lateral entry",
+          "Step 6: Work as Maintenance Supervisor or Technical Officer",
+          "Pathway C: Skill-Based Entry Route",
+          "Step 1: Complete Class 10th or 12th",
+          "Step 2: Join ITI course in relevant trade",
+          "Step 3: Learn plumbing, HVAC, or electrical maintenance skills",
+          "Step 4: Work as Technician in buildings or factories",
+          "Step 5: Get certified in facility or safety management",
+          "Step 6: Grow into Maintenance Coordinator or Facility Supervisor"
         ]
       },
       {
         id: "market",
-        title: "Market Snapshot — India 2026",
+        title: "Market Snapshot 2025-26",
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
-          "Entry-Level: ₹4.5 Lakhs – ₹8 Lakhs annually.",
-          "Mid-Level (7-12 years): ₹15 Lakhs – ₹28 Lakhs annually.",
-          "Senior/Leadership: ₹35 Lakhs – ₹70 Lakhs+ annually.",
-          "CXO (Chief Operating Officer): ₹1.2 Crore+ annually.",
-          "Growth: The 'Operations' segment is expected to see 12% hiring growth year-on-year until 2030.",
-          "Metro vs. Tier-2: While Metros offer higher base pay, Industrial Hubs like Pune, Nashik, Hosur, and Sanand (Gujarat) are the real 'hotspots' for this career."
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹12–25 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹6–12 LPA",
+          "Junior / Associate (3–5 yrs): ₹3–6 LPA",
+          "Entry Level (0–2 yrs): ₹2–4 LPA",
+          "Note: Salary varies by industry (oil & gas/aviation pay highest). Certifications like CMMS, Six Sigma, and NEBOSH boost pay 20–40%.",
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Delhi-NCR, Chennai, Jamshedpur, Pune, Gujarat (Vadodara/Surat)",
+          "Top Industries: Manufacturing (Tata Steel, JSW), Oil & Gas (ONGC, Reliance), Aviation (IndiGo, Air India), Facility Management (JLL, CBRE), Power Plants (NTPC, Adani), Railways/Metro",
+          "Global Demand: Gulf countries, Singapore, Germany hiring; predictive maintenance & IoT skills in high demand globally",
+          "Top Institutions",
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, National Institute of Industrial Engineering (NITIE) Mumbai, Indian Institute of Management (IIM) Ahmedabad",
+          "Private: Birla Institute of Technology & Science (BITS) Pilani, Manipal Academy of Higher Education Manipal, SRM Institute of Science and Technology Chennai, Lovely Professional University (LPU) Jalandhar",
+          "Online: Swayam/NPTEL, Coursera (Operations & Maintenance Management Courses), IGNOU (Industrial & Operations Management Programs), Udemy (Maintenance & Facility Management Courses)"
         ]
-      },{
+      },
+      {
         id: "institutions",
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Government: NIT Trichy (MBA Operations), IIT Delhi (DMS), IIM Mumbai (formerly NITIE—the best for Operations).",
           "Private: SIBM Pune, SPJIMR Mumbai, NMIMS.",
@@ -575,7 +636,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Scholarship Opportunities",
         icon: "Award",
         description: "Financial assistance programs.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "AICTE Pragati: Up to ₹50,000/year for girls in technical degrees.",
           "Post-Matric Scholarships: Available through the National Scholarship Portal (NSP) for various categories.",
@@ -588,7 +649,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Professional Bodies & Certifications",
         icon: "Award",
         description: "Credentials that boost your resume.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "SMRP (Society for Maintenance & Reliability Professionals): Offers the CMRP certification (Gold standard).",
           "Lean Six Sigma (Green/Black Belt): Essential for anyone wanting to prove they can reduce waste and improve efficiency.",
@@ -602,12 +663,11 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Conventional and emerging roles.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
-          "Conventional: Plant Manager, Maintenance Engineer, Quality Control Officer, Facilities Manager.",
-          "New-Age: Sustainability Manager (Carbon footprint reduction), Smart Factory Consultant, Reliability Engineer (Data-driven maintenance), Digital Twin Specialist.",
-          "Freelancing/Entrepreneurship: Setting up an O&M consultancy for MSMEs (Small businesses) or a specialized technical audit firm.",
-          "Specializations: Energy Manager, Safety Manager, Supply Chain Operations, Warehouse Operations Manager."
+          "Conventional: Facility Maintenance Manager, Plant Operations & Maintenance Engineer, HVAC Systems Maintenance Specialist, Electrical & Mechanical Maintenance Supervisor",
+          "New-Age & AI Driven: AI-Based Predictive Maintenance Analyst, IoT-Enabled Asset Performance Monitoring Specialist, Digital Twin-Based Operations Optimization Engineer, Robotic Process Automation (RPA) Maintenance Technologist",
+          "Remote/Entrepreneurship: Freelance Facility Management Consultant, Online Maintenance Training & Certification Platform Founder, Annual Maintenance Contract (AMC) Service Startup Owner, Remote Building Management Systems (BMS) Consultancy Provider"
         ]
       },
       {
@@ -615,7 +675,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Challenges and Realities",
         icon: "AlertTriangle",
         description: "The hard truths of the profession.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "24/7 Responsibility: Machines don't sleep. You may occasionally get a call at 2 AM if a critical system fails.",
           "High Pressure: Every minute of a breakdown is lost money, which can make the environment intense.",
@@ -629,7 +689,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Emerging Trends & Future Outlook (2025–2035)",
         icon: "Sparkles",
         description: "What's next in M&O.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "The Rise of AI: Maintenance will become 'Self-Healing.' AI will automatically adjust machine speeds to prevent wear and tear.",
           "Digital Twins: Every factory will have a 'virtual copy' (Digital Twin) where managers can test changes before doing them in real life.",
@@ -643,7 +703,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Skills to Build in School (Class 9–12)",
         icon: "Rocket",
         description: "Actionable steps to start your journey.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Excel/Spreadsheets: Learn how to organize data. It's the secret weapon of every Operations Manager.",
           "Coding Basics: Understanding logic (Python) helps you interact with the software that runs modern factories.",
@@ -657,7 +717,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Famous Indian M&O Leaders",
         icon: "User",
         description: "Inspiring figures in the industry.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "E. Sreedharan: While known as the 'Metro Man,' his real genius lay in the Operations and Maintenance protocols that keep the Delhi Metro running with 99.9% punctuality.",
           "T.S. Mukunthamani: A veteran with over 42 years of experience in Power Plant O&M, showing how deep technical expertise leads to leadership.",
@@ -694,7 +754,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "What is This Career All About?",
         icon: "Target",
         description: "Designing cities and regions for sustainable growth.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Urban Planning is the art and science of designing cities, neighborhoods, and regions. If an Architect designs a building, an Urban Planner designs the entire neighborhood, city, or even a whole region.",
           "The City Surgeons: Think of them as 'City Surgeons.' They diagnose problems like traffic congestion, pollution, and housing shortages, and then perform 'surgery' by designing better public transport, waste management systems, and green spaces.",
@@ -708,7 +768,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "A Day in the Life: The City Architect",
         icon: "Clock",
         description: "Real workflow of an urban planner.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "9:00 AM - The Bird's Eye View: Start your day by opening GIS (Geographic Information System) software. On your screen is a digital map of a proposed 'Smart District.' Analyze data layers showing groundwater levels and existing traffic flow to decide where the new primary school should be located.",
           "11:00 AM - The Public Hearing: Head to a community center. Present a plan for a new 'Cyclists Only' lane to local residents. Some are excited; others are worried about parking. Listen, take notes, and explain how the lane will actually reduce traffic for everyone. Being a good listener is as important as being a good designer.",
@@ -723,7 +783,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Is This You? Personality Traits & Skills",
         icon: "User",
         description: "Self-assessment for the ideal candidate.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Big Picture Thinkers: Do you love maps? If you can spend hours looking at Google Earth, you have the visual foundation.",
           "Social Advocate: Do you care about things like poverty, climate change, and justice? Planners design for everyone, not just the rich.",
@@ -737,7 +797,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Key Responsibilities & Workflow",
         icon: "Briefcase",
         description: "The complete urban planning process.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Data Collection: Gathering information on population, land use, and transport patterns.",
           "Analysis: Using software to predict future needs (e.g., 'How many people will live here in 2040?').",
@@ -749,38 +809,64 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
       },
       {
         id: "pathways",
-        title: "Career Pathways in India",
+        title: "Career Pathways in Urban Planning and Management",
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
-          "After Class 10: Focus on Science (PCM) or Humanities (with Geography/Math). No direct diplomas in Urban Planning at this stage, but Diploma in Civil Engineering or Architecture Assistantship can be stepping stones.",
-          "After Class 12 (Science): The most direct route. Appear for JEE Main (Paper 2B) to get into a Bachelor of Planning (B.Plan) program.",
-          "After Class 12 (Humanities/Commerce with Math): Some universities allow entry into B.Plan if you have Mathematics as a core subject.",
-          "After Graduation (B.Arch/B.E. Civil): Take the GATE exam (Architecture and Planning paper) to enter a 2-year M.Plan (Master of Planning).",
-          "After Graduation (Geography/Economics/Sociology): Many top institutes like SPA allow students from these backgrounds into M.Plan through their own entrance exams."
+          "Pathway A: After Class 12th (Traditional Route)",
+          "Step 1: Complete Class 12th with any stream",
+          "Step 2: Pursue B.Plan (Bachelor of Planning, 4 years)",
+          "Step 3: Clear entrance exams like JEE Main",
+          "Step 4: Do internship with city planning authorities",
+          "Step 5: Learn GIS, AutoCAD, and remote sensing tools",
+          "Step 6: Work as Urban Planner or Town Planner",
+          "Pathway B: Engineering to Planning Route",
+          "Step 1: Complete Class 12th with PCM subjects",
+          "Step 2: Complete B.Tech in Civil or Architecture",
+          "Step 3: Pursue M.Plan (Master of Planning, 2 years)",
+          "Step 4: Specialise in Transport, Housing, or Environment",
+          "Step 5: Intern with Smart City or Government projects",
+          "Step 6: Work as Planning Officer or Policy Consultant",
+          "Pathway C: Geography or Arts Background Route",
+          "Step 1: Complete Class 12th with Arts or Science",
+          "Step 2: Pursue BA in Geography or Environmental Science",
+          "Step 3: Clear entrance and join M.Plan programme",
+          "Step 4: Learn GIS mapping and urban data analysis",
+          "Step 5: Build portfolio with research or fieldwork projects",
+          "Step 6: Work as Urban Development Analyst or Researcher"
         ]
       },
       {
         id: "market",
-        title: "Market Snapshot — India 2026",
+        title: "Market Snapshot 2025-26",
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
-          "Entry-Level (Junior Planner): ₹4.5 Lakhs – ₹8 Lakhs annually.",
-          "Mid-Level (Associate/Senior): ₹12 Lakhs – ₹22 Lakhs annually.",
-          "Leadership (Director/Chief Planner): ₹30 Lakhs – ₹55 Lakhs annually.",
-          "CXO/Private Consultant: ₹70 Lakhs+ (For partners in international firms).",
-          "Metro vs. Tier-2: Metros offer 20-25% higher pay, but Tier-2 cities are where the most 'Smart City' hiring is happening currently.",
-          "Growth: Expect 10-15% annual salary increase as India aims to build 100+ Smart Cities and renovate 500+ existing ones under AMRUT mission."
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1 Crore",
+          "Senior / Lead Role (10+ yrs): ₹10–22 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹5–10 LPA",
+          "Junior / Associate (3–5 yrs): ₹3–5.5 LPA",
+          "Entry Level (0–2 yrs): ₹2–4 LPA",
+          "Note: Government roles offer stability but lower pay; private consultancies pay 25–40% more. GIS, AutoCAD, and AITP membership enhance earning potential.",
+          "Where Are the Jobs?",
+          "Top Cities: Delhi-NCR, Mumbai, Bangalore, Hyderabad, Ahmedabad, Bhopal",
+          "Top Industries: Government bodies (DDA, BMRDA, Town & Country Planning Depts.), Smart Cities Mission, consultancies (Deloitte, McKinsey, CRISIL), multilateral agencies (World Bank, UN-Habitat, ADB), real estate developers (DLF, Lodha, Sobha)",
+          "Global Demand: Singapore, UAE, Netherlands, Canada hiring urban planners; climate-resilient city planning and GIS-based remote consulting growing fast",
+          "Top Institutions",
+          "Government: School of Planning & Architecture (SPA) New Delhi, Indian Institute of Technology (IIT) Kharagpur, Centre for Environmental Planning & Technology (CEPT) Ahmedabad, Indian Institute of Technology (IIT) Roorkee",
+          "Private: RICS School of Built Environment, Amity University Noida, Manipal Academy of Higher Education Manipal, Sushant University (formerly Ansal University) Gurugram, Lovely Professional University (LPU) Jalandhar",
+          "Online: Swayam/NPTEL, Coursera (Urban Planning & Design Courses), IGNOU (Urban Planning & Management Programs), edX (Urban Development & Planning Courses)"
         ]
-      },{
+      },
+      {
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
         description: "Course fees and additional expenses.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Government (SPA, NIT): ₹2 Lakh – ₹6 Lakh (Total for B.Plan, 4 years).",
           "Private (Amity, Anant): ₹8 Lakh – ₹15 Lakh (Total for B.Plan, 4 years).",
@@ -794,11 +880,11 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Where to Study?",
         icon: "Building2",
         description: "Top institutions across India.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
-          "North: School of Planning and Architecture (SPA) Delhi; Amity University, Noida.",
-          "South: NIT Calicut; School of Planning and Architecture, Vijayawada; Anna University, Chennai.",
-          "West: CEPT University, Ahmedabad (Ranked #1 for Planning); Maulana Azad NIT, Bhopal.",
+          "North: School of Planning and Architecture (SPA) Delhi; Amity University Noida.",
+          "South: NIT Calicut; School of Planning and Architecture Vijayawada; Anna University Chennai.",
+          "West: CEPT University Ahmedabad (Ranked #1 for Planning); Maulana Azad NIT Bhopal.",
           "East/Northeast: IIT Kharagpur (M.Plan); Jadavpur University; Mizoram University (B.Plan)."
         ]
       },
@@ -807,7 +893,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Scholarship Opportunities",
         icon: "Award",
         description: "Financial assistance programs.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "GATE Stipend: ₹12,400/month for M.Plan students in government colleges.",
           "AICTE Pragati: For girl students in technical education.",
@@ -820,7 +906,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Professional Bodies & Licensing",
         icon: "Award",
         description: "Credentials that boost your resume.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "ITPI (Institute of Town Planners, India): The primary body. Becoming an Associate Member of ITPI is essential for high-level government jobs.",
           "GIS Certifications: Short courses in ArcGIS or QGIS add massive value to your profile.",
@@ -834,12 +920,11 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Career Opportunities",
         icon: "Briefcase",
         description: "Conventional and emerging roles.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
-          "Conventional: Town Planner, Transport Planner, Housing Policy Analyst, Zoning Officer.",
-          "New-Age: Smart City Manager, Climate Resilient Specialist, Urban Data Scientist (using Big Data to track city movement), 15-Minute City Designer.",
-          "Freelancing: Independent GIS Consultant, Environmental Impact Assessment (EIA) specialist, Urban Designer, or Urban Researcher.",
-          "Specializations: Transit-Oriented Development Specialist, Green Infrastructure Planner, Heritage Conservation Planner."
+          "Conventional: Town Planner (Municipal/Development Authority), Urban Transportation Planning Officer, Land Use & Zoning Regulation Specialist, Smart City Mission Project Manager",
+          "New-Age & AI Driven: AI-Powered Urban Growth Simulation Analyst, GIS & Remote Sensing Urban Planning Specialist, Digital Twin-Based City Infrastructure Modeller, Climate-Resilient Urban Design Technologist",
+          "Remote/Entrepreneurship: Freelance Urban Planning & Policy Consultant, Online Urban Studies Education Platform Founder, Sustainable City Solutions Startup Entrepreneur, Remote GIS Mapping & Spatial Analysis Service Provider"
         ]
       },
       {
@@ -847,7 +932,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Challenges and Realities",
         icon: "AlertTriangle",
         description: "The hard truths of the profession.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Political Pressure: Planners often suggest what's best for the city, but politicians might push for what's popular. You need a 'thick skin.'",
           "Slow Progress: It can take 10 years for a park or highway you designed to actually be built.",
@@ -861,7 +946,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Emerging Trends & Future Outlook (2025–2035)",
         icon: "Sparkles",
         description: "What's next in urban planning.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Digital Twins: Planners will use 3D virtual copies of cities to test how a new skyscraper affects wind or shadows before building it.",
           "15-Minute Cities: The trend of designing neighborhoods where everything (work, school, groceries) is within a 15-minute walk.",
@@ -875,7 +960,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Skills to Build in School (Class 9–12)",
         icon: "Rocket",
         description: "Actionable steps to start your journey.",
-        color: "BLUE",
+        color: "#C20000",
         content: [
           "Geography & Math: These are your foundation. Focus on maps, demographics, and statistics.",
           "Photography/Sketching: Take photos of 'problems' in your city—a broken sidewalk or a messy market. Sketch how you would fix it.",
@@ -889,7 +974,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         title: "Famous Indian Urban Planners",
         icon: "User",
         description: "Inspiring figures in the industry.",
-        color: "BLUE2",
+        color: "#DA1313",
         content: [
           "Dr. Bimal Patel: The brain behind the Sabarmati Riverfront and the Central Vista Project in Delhi.",
           "Christopher Benninger: A pioneer in sustainable urbanism in India; founder of the School of Planning at CEPT.",
@@ -901,4 +986,5 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
     ]
   },
 };
+
 
