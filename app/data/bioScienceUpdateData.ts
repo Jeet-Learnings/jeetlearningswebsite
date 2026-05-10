@@ -35,7 +35,7 @@ const buildData = (
     }
   ],
   quickFacts: [
-    { label: 'Entry Salary', detail: 'INR 3.5L - 7L PA', color: 'bg-green-100 text-green-700' },
+    { label: 'Entry Salary', detail: 'INR 3.5L -  7L PA', color: 'bg-green-100 text-green-700' },
     { label: 'Top Skills', detail: skillLine, color: 'bg-blue-100 text-blue-700' },
     { label: 'Pathway', detail: 'BSc plus MSc or research track', color: 'bg-purple-100 text-purple-700' }
   ],
@@ -1590,11 +1590,11 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a physiologist in research.",
         color: BLUE2,
         content: [
-          "9:00 AM – The Base Check: You arrive at a premier research lab in Bangalore or a Medical College in Delhi. Your first task is to check the data from an overnight 'Stress Test' conducted on a volunteer. You are looking at how their heart rate and cortisol levels (the stress hormone) changed during deep sleep.",
-          "11:30 AM – The High-Tech Simulation: You head to the 'Human Performance Lab.' Today, you're testing a new 'Smart Wearable' device. You hook up a marathon runner to a metabolic cart. As they run on a specialized treadmill, you watch real-time graphs of their oxygen consumption (VO₂ max).",
-          "1:30 PM – The Academic Huddle: Lunch is spent with fellow researchers and medical students. You discuss a paper about how 'Intermittent Fasting' affects the body's insulin sensitivity. You aren't just eating; you're analyzing the fuel!",
-          "4:00 PM – Microscopy and Data: The afternoon is for the 'Micro-world.' You examine muscle tissue under a microscope to see how it repairs itself after a high-intensity workout. You use specialized software to model how these cells communicate.",
-          "6:30 PM – Writing the Future: Before heading home, you document your findings. These results might become a new health guideline for millions of Indians. You leave the lab tired but inspired, knowing you are decoding the secrets of life itself."
+          "9:00 AM –  The Base Check: You arrive at a premier research lab in Bangalore or a Medical College in Delhi. Your first task is to check the data from an overnight 'Stress Test' conducted on a volunteer. You are looking at how their heart rate and cortisol levels (the stress hormone) changed during deep sleep.",
+          "11:30 AM –  The High-Tech Simulation: You head to the 'Human Performance Lab.' Today, you're testing a new 'Smart Wearable' device. You hook up a marathon runner to a metabolic cart. As they run on a specialized treadmill, you watch real-time graphs of their oxygen consumption (VO₂ max).",
+          "1:30 PM –  The Academic Huddle: Lunch is spent with fellow researchers and medical students. You discuss a paper about how 'Intermittent Fasting' affects the body's insulin sensitivity. You aren't just eating; you're analyzing the fuel!",
+          "4:00 PM –  Microscopy and Data: The afternoon is for the 'Micro-world.' You examine muscle tissue under a microscope to see how it repairs itself after a high-intensity workout. You use specialized software to model how these cells communicate.",
+          "6:30 PM –  Writing the Future: Before heading home, you document your findings. These results might become a new health guideline for millions of Indians. You leave the lab tired but inspired, knowing you are decoding the secrets of life itself."
         ]
       },
       {
@@ -1640,7 +1640,7 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and job opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20 – ₹38 LPA","Mid-Level Professional (5–8 yrs): ₹10 – ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Note: Metros pay 30% more. MD/PhD degrees boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Delhi, Mumbai, Chennai, Pune.","Top Industries: Medical Academics, Pharma, Sports Science, Wellness.","Global Demand: USA, UAE. Remote health coaching is rising.","Top Institutions","Government: All India Institute of Medical Sciences (AIIMS), Delhi, University of Calcutta, Kolkata, Banaras Hindu University (BHU), University of Madras, Chennai","Private: Manipal Academy of Higher Education, Kasturba Medical College, Mangalore, Amity University, Sri Ramachandra Institute of Higher Education, Chennai","Online: NPTEL (IIT/IISc courses), IGNOU, SWAYAM Portal, Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Physiologist","Clinical Physiologist","Research Associate","Physiology Faculty","New-age and AI driven","Exercise Physiologist","Neurophysiology Analyst","Digital Health Research Analyst","AI-Based Health Data Analyst","Remote/entrepreneurship","Online Physiology Trainer","Medical Content Creator","Health Research Consultant","Wellness Startup Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20 – ₹38 LPA","Mid-Level Professional (5–8 yrs): ₹10 – ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3 – ₹6 LPA","Note: Metros pay 30% more. MD/PhD degrees boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Delhi, Mumbai, Chennai, Pune.","Top Industries: Medical Academics, Pharma, Sports Science, Wellness.","Global Demand: USA, UAE. Remote health coaching is rising.","Top Institutions","Government: All India Institute of Medical Sciences (AIIMS), Delhi, University of Calcutta, Kolkata, Banaras Hindu University (BHU), University of Madras, Chennai","Private: Manipal Academy of Higher Education, Kasturba Medical College, Mangalore, Amity University, Sri Ramachandra Institute of Higher Education, Chennai","Online: NPTEL (IIT/IISc courses), IGNOU, SWAYAM Portal, Coursera (partnered Indian institutes)","Career Opportunities","Conventional","Physiologist","Clinical Physiologist","Research Associate","Physiology Faculty","New-age and AI driven","Exercise Physiologist","Neurophysiology Analyst","Digital Health Research Analyst","AI-Based Health Data Analyst","Remote/entrepreneurship","Online Physiology Trainer","Medical Content Creator","Health Research Consultant","Wellness Startup Founder"]
       },
       {
         id: "locations",
@@ -2071,12 +2071,12 @@ export const bioScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a biotechnologist.",
         color: BLUE2,
         content: [
-          "8:00 AM - The Lab Prep: You arrive at a state-of-the-art biotech facility in Bangalore or Hyderabad. You check your CRISPR gene-editing equipment and prepare bacterial cultures for today's experiment.",
-          "10:00 AM - The Gene Editing Session: You use CRISPR-Cas9 to edit a specific gene in a bacterial strain. You're trying to make it produce insulin more efficiently. You carefully load the DNA into the equipment and monitor the process.",
-          "12:30 PM - Data Analysis: You move to your computer and analyze the results from yesterday's experiment. You use bioinformatics software to sequence the edited genes and confirm the changes were successful.",
-          "2:00 PM - Team Meeting: You meet with your team to discuss progress on a vaccine development project. You present data showing that your engineered virus candidate triggers a strong immune response.",
-          "4:00 PM - Quality Control: You conduct tests to ensure the biotech products meet regulatory standards. You document everything meticulously—in biotech, precision is life-or-death.",
-          "6:00 PM - Research Planning: You review literature on new gene-editing techniques and plan next week's experiments. You know that today's work could lead to tomorrow's breakthrough medicine."
+          "8:00 AM -  The Lab Prep: You arrive at a state-of-the-art biotech facility in Bangalore or Hyderabad. You check your CRISPR gene-editing equipment and prepare bacterial cultures for today's experiment.",
+          "10:00 AM -  The Gene Editing Session: You use CRISPR-Cas9 to edit a specific gene in a bacterial strain. You're trying to make it produce insulin more efficiently. You carefully load the DNA into the equipment and monitor the process.",
+          "12:30 PM -  Data Analysis: You move to your computer and analyze the results from yesterday's experiment. You use bioinformatics software to sequence the edited genes and confirm the changes were successful.",
+          "2:00 PM -  Team Meeting: You meet with your team to discuss progress on a vaccine development project. You present data showing that your engineered virus candidate triggers a strong immune response.",
+          "4:00 PM -  Quality Control: You conduct tests to ensure the biotech products meet regulatory standards. You document everything meticulously—in biotech, precision is life-or-death.",
+          "6:00 PM -  Research Planning: You review literature on new gene-editing techniques and plan next week's experiments. You know that today's work could lead to tomorrow's breakthrough medicine."
         ]
       },
       {

@@ -1,4 +1,4 @@
-// Translation storage - loads from JSON files in codebase
+// Translation storage -  loads from JSON files in codebase
 interface TranslationStore {
   [key: string]: string;
 }
@@ -62,7 +62,7 @@ async function getStoredTranslation(
 ): Promise<string | null> {
   await loadTranslations();
 
-  // Direct lookup - exact match
+  // Direct lookup -  exact match
   if (translationCache[language][text]) {
     return translationCache[language][text];
   }
@@ -127,7 +127,7 @@ async function translateWithOllama(text: string): Promise<string> {
 
     return translation;
   } catch (error) {
-    console.warn("Ollama translation error - returning English text:", error);
+    console.warn("Ollama translation error -  returning English text:", error);
     // Return English text if Ollama is not available
     return text;
   }

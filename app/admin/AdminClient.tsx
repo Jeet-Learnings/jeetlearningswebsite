@@ -16,7 +16,7 @@ export default function AdminClient() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simple password check - in production, use proper authentication
+    // Simple password check -  in production, use proper authentication
     if (password === "jeet@2024") {
       setIsLoggedIn(true);
       setPassword("");

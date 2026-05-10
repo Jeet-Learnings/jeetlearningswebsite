@@ -84,7 +84,7 @@ export default function HeroSection() {
                 "https://i.pravatar.cc/100?img=3",
                 "https://i.pravatar.cc/100?img=4"
               ].map((src, i) => (
-                <div key={i} className={`relative w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white overflow-hidden shadow-sm z-[${10 - i}]`}>
+                <div key={i} className={`relative w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white overflow-hidden shadow-sm z-[${10 -  i}]`}>
                   <img src={src} alt="Student" className="w-full h-full object-cover" />
                 </div>
               ))}

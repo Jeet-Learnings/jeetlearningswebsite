@@ -2,8 +2,8 @@ import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 
 export const metadata = {
-  title: "Privacy Policy - Jeet Learnings",
-  description: "Privacy Policy for Jeet Learnings - Learn how we collect, use, and protect your personal information.",
+  title: "Privacy Policy -  Jeet Learnings",
+  description: "Privacy Policy for Jeet Learnings -  Learn how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPolicyPage() {

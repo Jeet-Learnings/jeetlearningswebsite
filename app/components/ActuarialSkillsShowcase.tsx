@@ -42,7 +42,7 @@ export function ActuarialSkillsShowcase({ categories }: ActuarialSkillsShowcaseP
 
   return (
     <section className="py-20 relative overflow-hidden" style={{ background: `linear-gradient(135deg, #FFFFFF 0%, ${BRIGHT_BLUE}08 50%, #FFFFFF 100%)` }}>
-      {/* Animated background - Pulsing effect */}
+      {/* Animated background -  Pulsing effect */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
           animate={{ scale: [1, 1.3, 1], opacity: [0.1, 0.2, 0.1] }}

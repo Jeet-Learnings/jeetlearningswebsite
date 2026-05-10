@@ -60,20 +60,20 @@ export default function DMITTestClient() {
     const newAnswers = [...answers];
     newAnswers[currentQuestion] = value;
     setAnswers(newAnswers);
-    if (currentQuestion < questions.length - 1) {
+    if (currentQuestion < questions.length -  1) {
       setTimeout(() => setCurrentQuestion(currentQuestion + 1), 300);
     }
   };
 
   const handleNext = () => {
     if (answers[currentQuestion] !== undefined) {
-      if (currentQuestion < questions.length - 1) setCurrentQuestion(currentQuestion + 1);
+      if (currentQuestion < questions.length -  1) setCurrentQuestion(currentQuestion + 1);
       else setTestCompleted(true);
     }
   };
 
   const handlePrevious = () => {
-    if (currentQuestion > 0) setCurrentQuestion(currentQuestion - 1);
+    if (currentQuestion > 0) setCurrentQuestion(currentQuestion -  1);
   };
 
   const calculateScores = (): CategoryScore[] => {
@@ -385,7 +385,7 @@ export default function DMITTestClient() {
             disabled={!isAnswered}
             className="flex-1 py-3 bg-[#C20000] hover:bg-[#B30000] text-white font-semibold rounded-xl transition-colors disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2 text-sm"
           >
-            {currentQuestion === questions.length - 1 ? (
+            {currentQuestion === questions.length -  1 ? (
               <><CheckCircle className="w-4 h-4" /> Complete</>
             ) : (
               <>Next <ChevronRight className="w-4 h-4" /></>

@@ -159,7 +159,7 @@ export const bankingAndFinanceUpdateData: Record<string, CareerPageData> = {
         content: [
           "Government: Delhi University, Mumbai University, Calcutta University, Banaras Hindu University, University of Madras",
           "Private: Amity University, Christ University, NMIMS, XLRI, FLAME University, Symbiosis",
-          "Online/Distance: (IGNOU) Indira Gandhi National Open University, Specialized Banking Institutes - IBPS, SBI Academy, ICICI Academy"
+          "Online/Distance: (IGNOU) Indira Gandhi National Open University, Specialized Banking Institutes -  IBPS, SBI Academy, ICICI Academy"
         ]
       },
       {

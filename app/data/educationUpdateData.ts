@@ -47,11 +47,11 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a corporate trainer.",
         color: BLUE2,
         content: [
-          "8:30 AM - The Final Tech-Check: Arrive at vibrant office in Gurgaon. Today training 30 new 'First-Time Managers.' Test VR (Virtual Reality) headsets; today's session uses simulation where managers handle difficult 'virtual' employee.",
-          "10:00 AM - Lights, Camera, Action!: Workshop begins. Don't stand and lecture. Instead, moving around, facilitating high-energy role-play session. Watch how trainees handle conflict and provide instant, constructive feedback. More like sports coach than school teacher.",
-          "1:30 PM - The Strategy Lunch: Lunch with Head of Human Resources (HR). They tell you company moving into AI-driven customer service. Your next mission? Design curriculum to teach 500 employees how to work with AI tools by next quarter.",
-          "3:30 PM - Curriculum Design: Head to quiet corner of office (or home office). Using tools like Articulate Storyline to create 'Microlearning' module—5-minute video and quiz employees can complete on phones during commute.",
-          "6:00 PM - The Impact Report: Review data from last week's Sales Training. See that team trained improved 'conversion rate' by 12%. Send report to CEO showing Return on Investment (ROI) of session. Head home knowing you didn't just teach—you moved company's needle."
+          "8:30 AM -  The Final Tech-Check: Arrive at vibrant office in Gurgaon. Today training 30 new 'First-Time Managers.' Test VR (Virtual Reality) headsets; today's session uses simulation where managers handle difficult 'virtual' employee.",
+          "10:00 AM -  Lights, Camera, Action!: Workshop begins. Don't stand and lecture. Instead, moving around, facilitating high-energy role-play session. Watch how trainees handle conflict and provide instant, constructive feedback. More like sports coach than school teacher.",
+          "1:30 PM -  The Strategy Lunch: Lunch with Head of Human Resources (HR). They tell you company moving into AI-driven customer service. Your next mission? Design curriculum to teach 500 employees how to work with AI tools by next quarter.",
+          "3:30 PM -  Curriculum Design: Head to quiet corner of office (or home office). Using tools like Articulate Storyline to create 'Microlearning' module—5-minute video and quiz employees can complete on phones during commute.",
+          "6:00 PM -  The Impact Report: Review data from last week's Sales Training. See that team trained improved 'conversion rate' by 12%. Send report to CEO showing Return on Investment (ROI) of session. Head home knowing you didn't just teach—you moved company's needle."
         ]
       },
       {
@@ -98,7 +98,23 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 LPA – ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹10 LPA","Entry Level (0–2 yrs): ₹3.5 LPA – ₹5.5 LPA","Note: Metros pay 30% higher; certifications (ATD, PMP) boost pay.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Gurgaon, Hyderabad, Pune, Noida.","Top Industries: IT, BFSI, EdTech, Manufacturing, Healthcare.","Global Demand: High remote work demand in USA, UK, UAE.","Top Institutions","Government: Indian Institute of Management (IIMs), National Institute of Training and Development, Indian Society for Training and Development (ISTD), Central Board for Workers Education","Private: XLRI Jamshedpur, Symbiosis Institute of Business Management, Dale Carnegie Training India, T.V. Rao Learning Systems","Online: Coursera (IIM/ISB courses), Udemy, LinkedIn Learning, UpGrad","Career Opportunities","Conventional","Corporate Soft Skills Trainer","Sales Training Specialist","Leadership Development Trainer","Compliance and Process Trainer","New-age and AI driven","AI Tools Adoption Trainer","Digital Upskilling Trainer","Learning Experience Designer","LMS and Analytics Trainer","Remote/Entrepreneurship","Freelance Corporate Trainer","Online Course Creator","Startup L&D Consultant","Executive Coaching Entrepreneur"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹25 LPA – ₹50 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹22 LPA",
+          "Junior / Associate (3–5 yrs): ₹6 LPA – ₹10 LPA",
+          "Entry Level (0–2 yrs): ₹3LPA – ₹5 LPA",
+          "Note: Metros pay 30% higher; certifications (ATD, PMP) boost pay.",
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru, Mumbai, Gurgaon, Hyderabad, Pune, Noida.",
+          "Top Industries: IT, BFSI, EdTech, Manufacturing, Healthcare.",
+          "Global Demand: High remote work demand in USA, UK, UAE.",
+          "Top Institutions",
+          "Government: Indian Institute of Management (IIMs), National Institute of Training and Development, Indian Society for Training and Development (ISTD), Central Board for Workers Education",
+          "Private: XLRI Jamshedpur, Symbiosis Institute of Business Management, Dale Carnegie Training India, T.V. Rao Learning Systems",
+          "Online: Coursera (IIM/ISB courses), Udemy, LinkedIn Learning, UpGrad"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -285,11 +301,11 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an image consultant.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Consultation Kick-off: Day begins at sunlit studio in South Mumbai or Gurgaon. First client is brilliant tech entrepreneur preparing for investor pitches. Discussing Color Psychology—how navy blue projects stability and trust.",
-          "11:30 AM - Wardrobe Audit: Visit client's home for 'Wardrobe Declutter.' Sift through clothes, identifying pieces fitting body shape and those that 'drain' energy. Create list of 'missing essentials' for capsule wardrobe.",
-          "1:30 PM - The Personal Shopper Sprint: Quick lunch while heading to premium mall or designer boutique. Pre-selected five outfits for C-suite executive's upcoming international conference. Selecting 'power armor.'",
-          "3:30 PM - Corporate Training Workshop: Head to corporate office to lead session on Professional Etiquette for new hires. Teaching 'Art of the Handshake' and how to maintain 'Digital Presence' in virtual meetings.",
-          "6:00 PM - Digital Strategy Session: Back at desk, reviewing client's social media profile photos. Coordinating with professional photographer to schedule 'branding shoot.' Feeling like magician—except magic based on science, psychology, and style."
+          "9:00 AM -  The Consultation Kick-off: Day begins at sunlit studio in South Mumbai or Gurgaon. First client is brilliant tech entrepreneur preparing for investor pitches. Discussing Color Psychology—how navy blue projects stability and trust.",
+          "11:30 AM -  Wardrobe Audit: Visit client's home for 'Wardrobe Declutter.' Sift through clothes, identifying pieces fitting body shape and those that 'drain' energy. Create list of 'missing essentials' for capsule wardrobe.",
+          "1:30 PM -  The Personal Shopper Sprint: Quick lunch while heading to premium mall or designer boutique. Pre-selected five outfits for C-suite executive's upcoming international conference. Selecting 'power armor.'",
+          "3:30 PM -  Corporate Training Workshop: Head to corporate office to lead session on Professional Etiquette for new hires. Teaching 'Art of the Handshake' and how to maintain 'Digital Presence' in virtual meetings.",
+          "6:00 PM -  Digital Strategy Session: Back at desk, reviewing client's social media profile photos. Coordinating with professional photographer to schedule 'branding shoot.' Feeling like magician—except magic based on science, psychology, and style."
         ]
       },
       {
@@ -360,11 +376,6 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Top image consulting and fashion institutes across India.",
         color: BLUE,
         content: [
-          "National: ICBI (Image Consulting Business Institute) – Pan India; ISIM (Indian School of Image Management) – Mumbai/Delhi.",
-          "Fashion Degrees: NIFT (various locations), IIFT (Delhi), Pearl Academy (Delhi/Mumbai).",
-          "Supportive Degrees: TISS (Mumbai) for HR/Soft Skills, University of Delhi for Psychology.",
-          "International: London Image Institute, AICI global online courses, Imagecon Academy.",
-          "Note: Choose institutes with strong faculty, industry connections, and practical training focus."
         ]
       },
       {
@@ -523,11 +534,11 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a librarian and education administrator.",
         color: BLUE2,
         content: [
-          "8:30 AM - The Tech Ritual: Day begins at high-tech university library in Hyderabad. Don't start by dusting books—start by checking 'Discovery Service' software allowing students to search millions of e-books and research papers from phones. Resolve login issue for PhD student.",
-          "10:30 AM - The Curation Huddle: Meet with Education Administration team. Dean wants to launch new 'Digital Literacy' course. As librarian, suggest best open-access resources to keep course affordable. Acting as Learning Consultant.",
-          "1:00 PM - The Human Connection: Group of Class 10 students from local school visits for 'Research Workshop.' Teach them difference between random blog and peer-reviewed article. See 'Aha!' moment in their eyes. This is heart of work—empowering others.",
-          "3:30 PM - The Archive Project: Spend afternoon in 'Rare Documents Wing.' Supervise high-resolution scanning of 200-year-old manuscripts. By digitizing, ensuring someone 100 years from now can read them without paper crumbling to dust.",
-          "5:00 PM - Administrative Strategy: End day reviewing library's budget. Decide to shift funds from physical newspapers to subscription for global AI-research database. Not just keeper of books—Strategic Manager of institution's future."
+          "8:30 AM -  The Tech Ritual: Day begins at high-tech university library in Hyderabad. Don't start by dusting books—start by checking 'Discovery Service' software allowing students to search millions of e-books and research papers from phones. Resolve login issue for PhD student.",
+          "10:30 AM -  The Curation Huddle: Meet with Education Administration team. Dean wants to launch new 'Digital Literacy' course. As librarian, suggest best open-access resources to keep course affordable. Acting as Learning Consultant.",
+          "1:00 PM -  The Human Connection: Group of Class 10 students from local school visits for 'Research Workshop.' Teach them difference between random blog and peer-reviewed article. See 'Aha!' moment in their eyes. This is heart of work—empowering others.",
+          "3:30 PM -  The Archive Project: Spend afternoon in 'Rare Documents Wing.' Supervise high-resolution scanning of 200-year-old manuscripts. By digitizing, ensuring someone 100 years from now can read them without paper crumbling to dust.",
+          "5:00 PM -  Administrative Strategy: End day reviewing library's budget. Decide to shift funds from physical newspapers to subscription for global AI-research database. Not just keeper of books—Strategic Manager of institution's future."
         ]
       },
       {
@@ -574,8 +585,39 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹18 LPA – ₹40 LPA","Senior / Lead Role (10+ yrs): ₹10 LPA – ₹17 LPA","Mid-Level Professional (5–8 yrs): ₹6 LPA – ₹9 LPA","Junior / Associate (3–5 yrs): ₹3.5 LPA – ₹5.5 LPA","Entry Level (0–2 yrs): ₹2 LPA – ₹3.5 LPA","Note: Private universities pay more; digital skills boost pay significantly.","Where Are the Jobs?","Top Cities: Delhi NCR, Bengaluru, Chennai, Mumbai, Pune.","Top Industries: Education, Research Institutions, Law Firms, Museums.","Global Demand: Canada, UAE; Remote metadata management roles are growing.","Top Institutions","Government: University of Delhi (DU), Banaras Hindu University (BHU), Aligarh Muslim University (AMU), University of Calcutta","Private: Symbiosis Institute of Library Science, Amity University, Lovely Professional University (LPU), Manipal University","Online: IGNOU (B.Lib / M.Lib), Coursera, Swayam (UGC Courses), Udemy","Career Opportunities","Conventional","School Librarian","College Librarian","University Librarian","Library Information Assistant","New-age and AI driven","Digital Librarian","Knowledge Management Specialist","E-Resources Manager","Library Automation Specialist","Remote/Entrepreneurship","Research Support Consultant","Academic Content Curator","Information Services Freelancer","Library Setup Consultant"]
-      },{
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹18 LPA – ₹40 LPA",
+          "Senior / Lead Role (10+ yrs): ₹10 LPA – ₹17 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹6 LPA – ₹9 LPA",
+          "Junior / Associate (3–5 yrs): ₹3.5 LPA – ₹5.5 LPA",
+          "Entry Level (0–2 yrs): ₹2 LPA – ₹3 LPA",
+          "Note: Private universities pay more; digital skills boost pay significantly.",
+          "Where Are the Jobs?",
+          "Top Cities: Delhi NCR, Bengaluru, Chennai, Mumbai, Pune.",
+          "Top Industries: Education, Research Institutions, Law Firms, Museums.",
+          "Global Demand: Canada, UAE; Remote metadata management roles are growing.",
+          "Top Institutions",
+         
+          "Career Opportunities",
+          "Conventional",
+          "School Librarian",
+          "College Librarian",
+          "University Librarian",
+          "Library Information Assistant",
+          "New-age and AI driven",
+          "Digital Librarian",
+          "Knowledge Management Specialist",
+          "E-Resources Manager",
+          "Library Automation Specialist",
+          "Remote/Entrepreneurship",
+          "Research Support Consultant",
+          "Academic Content Curator",
+          "Information Services Freelancer",
+          "Library Setup Consultant"
+        ]
+      },
+      {
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -598,12 +640,9 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Top library science and education administration institutes across India.",
         color: BLUE,
         content: [
-          "North: University of Delhi (DU); Banaras Hindu University (BHU); Jamia Millia Islamia.",
-          "South: University of Mysore; Tata Institute of Social Sciences (TISS), Mumbai/Hyderabad; University of Kerala.",
-          "East: Jadavpur University, Kolkata; Manipur University, Imphal; University of Calcutta.",
-          "West: MS University, Baroda; University of Mumbai; Gujarat University.",
-          "Distance/Online: IGNOU is most popular choice for working professionals.",
-          "Note: Choose institutes with strong faculty, industry connections, and practical training focus."
+           "Government: University of Delhi (DU), Banaras Hindu University (BHU), Aligarh Muslim University (AMU), University of Calcutta",
+          "Private: Symbiosis Institute of Library Science, Amity University, Lovely Professional University (LPU), Manipal University",
+          "Online: IGNOU (B.Lib / M.Lib), Coursera, Swayam (UGC Courses), Udemy"
         ]
       },
       {
@@ -762,11 +801,11 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professor.",
         color: BLUE2,
         content: [
-          "8:30 AM - The Deep Dive: Day begins in office surrounded by stacks of journals and steaming cup of tea. 'Research Hour'—analyzing data for upcoming paper on sustainable urban planning in Indian cities.",
-          "10:30 AM - The Lecture Hall: Step into hall filled with 60 energetic undergraduates. Don't just read from book—spark debate. Ask 'Can AI ever have a soul?' and watch room explode with ideas. Conductor of orchestra of thoughts.",
-          "1:00 PM - The Lab Huddle: Over quick lunch, meet with PhD students. One stuck on complex equation; another made breakthrough. Provide hint, encouragement, critique. Helping them become experts of next generation.",
-          "3:30 PM - The Administrative Gear: Attend Board of Studies meeting. Help design new interdisciplinary course combining Computer Science with Sociology. Literally building future of education.",
-          "6:00 PM - The Global Connection: Join webinar with fellow researcher in London. Science has no borders. Discuss how findings in India apply to global trends. Leave campus tired but inspired."
+          "8:30 AM -  The Deep Dive: Day begins in office surrounded by stacks of journals and steaming cup of tea. 'Research Hour'—analyzing data for upcoming paper on sustainable urban planning in Indian cities.",
+          "10:30 AM -  The Lecture Hall: Step into hall filled with 60 energetic undergraduates. Don't just read from book—spark debate. Ask 'Can AI ever have a soul?' and watch room explode with ideas. Conductor of orchestra of thoughts.",
+          "1:00 PM -  The Lab Huddle: Over quick lunch, meet with PhD students. One stuck on complex equation; another made breakthrough. Provide hint, encouragement, critique. Helping them become experts of next generation.",
+          "3:30 PM -  The Administrative Gear: Attend Board of Studies meeting. Help design new interdisciplinary course combining Computer Science with Sociology. Literally building future of education.",
+          "6:00 PM -  The Global Connection: Join webinar with fellow researcher in London. Science has no borders. Discuss how findings in India apply to global trends. Leave campus tired but inspired."
         ]
       },
       {
@@ -813,7 +852,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 LPA – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 LPA – ₹11 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹6.5 LPA","Note: Tier-1 cities and PhD/NET qualifications significantly increase pay.","Where Are the Jobs?","Top Cities: Delhi, Bengaluru, Mumbai, Hyderabad, Pune, Chennai.","Top Industries: Higher Education, EdTech, Research, Corporate Training.","Global Demand: High in USA, UK, UAE; remote teaching rising.","Top Institutions","Government: University of Delhi (DU), Jawaharlal Nehru University (JNU), Banaras Hindu University (BHU), University of Hyderabad","Private: Ashoka University, Azim Premji University, O.P. Jindal Global University, Shiv Nadar University","Online: IGNOU (M.Phil / Ph.D.), Swayam (UGC-NET Preparation), Coursera (Research & Teaching Courses), Udemy (UGC-NET / SET Preparation)","Career Opportunities","Conventional","University Professor","College Lecturer","Research Professor","Academic Programme Head","New-age and AI driven","Online Professor","AI-Integrated Teaching Specialist","Instructional Design Faculty","EdTech Curriculum Expert","Remote/Entrepreneurship","Adjunct Online Faculty","Course Creator Professor","Academic Consultant","Independent Research Mentor"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 LPA – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 LPA – ₹11 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹6 LPA","Note : Tier-1 cities and PhD/NET qualifications significantly increase pay.","Where Are the Jobs?","Top Cities: Delhi, Bengaluru, Mumbai, Hyderabad, Pune, Chennai.","Top Industries: Higher Education, EdTech, Research, Corporate Training.","Global Demand: High in USA, UK, UAE; remote teaching rising.","Top Institutions","Government: University of Delhi (DU), Jawaharlal Nehru University (JNU), Banaras Hindu University (BHU), University of Hyderabad","Private: Ashoka University, Azim Premji University, O.P. Jindal Global University, Shiv Nadar University","Online: IGNOU (M.Phil / Ph.D.), Swayam (UGC-NET Preparation), Coursera (Research & Teaching Courses), Udemy (UGC-NET / SET Preparation)","Career Opportunities","Conventional","University Professor","College Lecturer","Research Professor","Academic Programme Head","New-age and AI driven","Online Professor","AI-Integrated Teaching Specialist","Instructional Design Faculty","EdTech Curriculum Expert","Remote/Entrepreneurship","Adjunct Online Faculty","Course Creator Professor","Academic Consultant","Independent Research Mentor"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -837,12 +876,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Top universities and research institutes across India.",
         color: BLUE,
         content: [
-          "North: JNU (Delhi), DU (Delhi), IIT Kanpur, Delhi School of Economics, Jamia Millia Islamia.",
-          "South: IISc Bangalore, IIT Madras, University of Hyderabad, University of Mysore, TISS Mumbai/Hyderabad.",
-          "East: ISI Kolkata, Jadavpur University, University of Calcutta, Banaras Hindu University.",
-          "West: IIT Bombay, TISS Mumbai, BITS Pilani, University of Mumbai, MS University Baroda.",
-          "Online: IGNOU for distance learning options.",
-          "Note: Choose institutes with strong faculty, research facilities, and good placement record."
+          
         ]
       },
       {
@@ -1005,11 +1039,11 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a school teacher.",
         color: BLUE2,
         content: [
-          "7:30 AM - The Morning Buzz: Arrive as school gates open. Air filled with sound of yellow buses and chatter. Quick 'huddle' with department to discuss inter-school quiz coming up next week.",
-          "9:00 AM - The Science of Discovery: Enter Class 8. Today's topic is 'Static Electricity.' Instead of textbook, bring balloons and wool. Spend 40 minutes watching students' eyes go wide as they realize they can make paper dance. Magician with lesson plan.",
-          "1:30 PM - The Staffroom Strategy: Lunch is quick break with colleagues. Discuss student struggling with math. Together plan special 'bridge session' to help catch up. Collaboration is secret weapon.",
-          "3:30 PM - Digital Prep: Students gone home, but 'Creation Phase' begins. Use AI tool to generate personalized practice quiz for diverse class—high-achievers challenged, struggling ones supported.",
-          "5:00 PM - The Reflection: Remember quiet girl who finally raised hand today. That small win is 'salary' for soul. Head home tired but knowing you've moved 40 minds an inch further into light."
+          "7:30 AM -  The Morning Buzz: Arrive as school gates open. Air filled with sound of yellow buses and chatter. Quick 'huddle' with department to discuss inter-school quiz coming up next week.",
+          "9:00 AM -  The Science of Discovery: Enter Class 8. Today's topic is 'Static Electricity.' Instead of textbook, bring balloons and wool. Spend 40 minutes watching students' eyes go wide as they realize they can make paper dance. Magician with lesson plan.",
+          "1:30 PM -  The Staffroom Strategy: Lunch is quick break with colleagues. Discuss student struggling with math. Together plan special 'bridge session' to help catch up. Collaboration is secret weapon.",
+          "3:30 PM -  Digital Prep: Students gone home, but 'Creation Phase' begins. Use AI tool to generate personalized practice quiz for diverse class—high-achievers challenged, struggling ones supported.",
+          "5:00 PM -  The Reflection: Remember quiet girl who finally raised hand today. That small win is 'salary' for soul. Head home tired but knowing you've moved 40 minds an inch further into light."
         ]
       },
       {
@@ -1056,7 +1090,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1 Crore","Senior / Lead Role (10+ yrs): ₹20 LPA – ₹38 LPA","Mid-Level Professional (5–8 yrs): ₹10 LPA – ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹9.5 LPA","Entry Level (0–2 yrs): ₹3.5 LPA – ₹5.5 LPA","Note: Metros pay 30% more. B.Ed/TET/CTET exams are mandatory.","Where Are the Jobs?","Top Cities: Delhi NCR, Mumbai, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Private Schools, KVS, NVS, EdTech, Coaching Institutes.","Global Demand: High in UAE, UK, Canada, Thailand, Vietnam.","Top Institutions","Government: National Council of Educational Research & Training (NCERT), Regional Institutes of Education (RIE), District Institutes of Education & Training (DIET), Jamia Millia Islamia","Private: Amity Institute of Education, Banasthali Vidyapith, Lady Irwin College, Loreto College, Kolkata","Online: IGNOU (B.Ed / D.El.Ed), Swayam (CTET/TET Preparation), Coursera (Teaching & Pedagogy Courses), Udemy (B.Ed / CTET Preparation)","Career Opportunities","Conventional","Primary School Teacher","TGT School Teacher","PGT School Teacher","Special Education Teacher","New-age and AI driven","Digital Learning Teacher","AI-Enabled Classroom Teacher","STEM and Robotics Teacher","EdTech Content Teacher","Remote/Entrepreneurship","Online School Teacher","Home Tutor Educator","Course Creator Teacher","School Education Consultant"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1 Crore","Senior / Lead Role (10+ yrs): ₹20 LPA – ₹38 LPA","Mid-Level Professional (5–8 yrs): ₹10 LPA – ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹9.5 LPA","Entry Level (0–2 yrs): ₹3 LPA – ₹5 LPA","Note: Metros pay 30% more. B.Ed/TET/CTET exams are mandatory.","Where Are the Jobs?","Top Cities: Delhi NCR, Mumbai, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Private Schools, KVS, NVS, EdTech, Coaching Institutes.","Global Demand: High in UAE, UK, Canada, Thailand, Vietnam.","Top Institutions","Government: National Council of Educational Research & Training (NCERT), Regional Institutes of Education (RIE), District Institutes of Education & Training (DIET), Jamia Millia Islamia","Private: Amity Institute of Education, Banasthali Vidyapith, Lady Irwin College, Loreto College Kolkata","Online: IGNOU (B.Ed / D.El.Ed), Swayam (CTET/TET Preparation), Coursera (Teaching & Pedagogy Courses), Udemy (B.Ed / CTET Preparation)","Career Opportunities","Conventional","Primary School Teacher","TGT School Teacher","PGT School Teacher","Special Education Teacher","New-age and AI driven","Digital Learning Teacher","AI-Enabled Classroom Teacher","STEM and Robotics Teacher","EdTech Content Teacher","Remote/Entrepreneurship","Online School Teacher","Home Tutor Educator","Course Creator Teacher","School Education Consultant"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1080,12 +1114,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Top teacher education institutes across India.",
         color: BLUE,
         content: [
-          "North: Lady Shri Ram (LSR), Delhi; Jamia Millia Islamia, Delhi; BHU, Varanasi; Delhi University.",
-          "South: Regional Institute of Education (RIE), Mysore; Loyola College, Chennai; University of Hyderabad.",
-          "East: University of Calcutta; RIE Bhubaneswar; Jadavpur University.",
-          "West: TISS, Mumbai; University of Pune; MS University, Baroda.",
-          "Online: IGNOU for distance learning options.",
-          "Note: Choose institutes with strong faculty, industry connections, and good placement record."
+         
         ]
       },
       {
@@ -1246,11 +1275,11 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a technical trainer.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Lab Setup: Arrive at tech park in Bengaluru. Classroom is high-tech lab. Spend first hour checking 'Virtual Machines' (VMs). Today training 20 software engineers on Cybersecurity Mesh Architecture. Ensure 'hacker simulation' environment ready.",
-          "11:00 AM - The Live Session: Session is high-energy. Not lecturing—facilitating. Show line of code, ask question, let engineers struggle with puzzle for ten minutes before showing 'Elegant Solution.' Coach, not lecturer.",
-          "1:30 PM - The Global Sync: Quick lunch with Product Manager. They tell about new AI feature launching in three months. Your job starts now: learn it, master it, have training plan ready before launch.",
-          "3:30 PM - Content Creation: Head to quiet zone. Recording 5-minute 'Micro-learning' video for internal app. Using screen-recording software and digital stylus to draw diagrams over code. Video watched by 2,000 employees across Pune, Hyderabad, Chennai.",
-          "6:00 PM - The Feedback Loop: Review quiz results from morning session. Notice three people struggled with 'Firewall Configurations.' Send personalized link to extra resource. Head home knowing you upgraded company's 'brainware.'"
+          "9:00 AM -  The Lab Setup: Arrive at tech park in Bengaluru. Classroom is high-tech lab. Spend first hour checking 'Virtual Machines' (VMs). Today training 20 software engineers on Cybersecurity Mesh Architecture. Ensure 'hacker simulation' environment ready.",
+          "11:00 AM -  The Live Session: Session is high-energy. Not lecturing—facilitating. Show line of code, ask question, let engineers struggle with puzzle for ten minutes before showing 'Elegant Solution.' Coach, not lecturer.",
+          "1:30 PM -  The Global Sync: Quick lunch with Product Manager. They tell about new AI feature launching in three months. Your job starts now: learn it, master it, have training plan ready before launch.",
+          "3:30 PM -  Content Creation: Head to quiet zone. Recording 5-minute 'Micro-learning' video for internal app. Using screen-recording software and digital stylus to draw diagrams over code. Video watched by 2,000 employees across Pune, Hyderabad, Chennai.",
+          "6:00 PM -  The Feedback Loop: Review quiz results from morning session. Notice three people struggled with 'Firewall Configurations.' Send personalized link to extra resource. Head home knowing you upgraded company's 'brainware.'"
         ]
       },
       {
@@ -1321,11 +1350,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
         description: "Top technical education institutes across India.",
         color: BLUE,
         content: [
-          "Public: IITs (various locations), NITs (various locations), IIITs, NITTTR (for teaching pedagogy).",
-          "Private: Manipal (MAHE), BITS Pilani, VIT Vellore, Symbiosis, FLAME.",
-          "Specialized: NIIT, Aptech, Jetking (for vocational/IT foundations).",
-          "Online: Coursera, Udemy, Pluralsight for specialized technical certifications.",
-          "Note: Choose institutes with strong faculty, industry connections, and practical training focus."
+          
         ]
       },
       {

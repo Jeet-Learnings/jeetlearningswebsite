@@ -133,7 +133,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   animator: [
     {
       id: 1,
-      title: "Animator Career Overview - The Illusionist",
+      title: "Animator Career Overview -  The Illusionist",
       url: "https://www.youtube.com/embed/gCWcaTwVJ_g",
     },
     {
@@ -150,7 +150,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   cosmetology: [
     {
       id: 1,
-      title: "Cosmetology Career Overview - The Aesthetics Architect",
+      title: "Cosmetology Career Overview -  The Aesthetics Architect",
       url: "https://www.youtube.com/embed/14HCXIItCWo",
     },
     {
@@ -162,7 +162,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   creative_writer: [
     {
       id: 1,
-      title: "Creative Writer Career Overview - The Architect of Worlds",
+      title: "Creative Writer Career Overview -  The Architect of Worlds",
       url: "https://www.youtube.com/embed/y2Z-bisgFzc",
     },
     {
@@ -174,12 +174,12 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   fashion_designing: [
     {
       id: 1,
-      title: "Fashion Design Career Overview - The Style Visionary",
+      title: "Fashion Design Career Overview -  The Style Visionary",
       url: "https://www.youtube.com/embed/kymctE5i4Xc",
     },
     {
       id: 2,
-      title: "From Sketch to Stitch - Design Process",
+      title: "From Sketch to Stitch -  Design Process",
       url: "https://www.youtube.com/embed/Yd_AvPj_zt0",
     },
     {
@@ -196,19 +196,19 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   fine_arts: [
     {
       id: 1,
-      title: "Fine Arts Career Overview - The Visionary's Canvas",
+      title: "Fine Arts Career Overview -  The Visionary's Canvas",
       url: "https://www.youtube.com/embed/50NDe9T1qH4",
     },
     {
       id: 2,
-      title: "From Studio to Gallery - Artist's Journey",
+      title: "From Studio to Gallery -  Artist's Journey",
       url: "https://www.youtube.com/embed/Zwoaq862irw",
     },
   ],
   graphical_designing: [
     {
       id: 1,
-      title: "Graphic Design Career Overview - The Visual Storyteller",
+      title: "Graphic Design Career Overview -  The Visual Storyteller",
       url: "https://www.youtube.com/embed/Nb99U_fW1WY",
     },
     {
@@ -225,14 +225,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   interior_designing: [
     {
       id: 1,
-      title: "Interior Design Career Overview - The Space Magician",
+      title: "Interior Design Career Overview -  The Space Magician",
       url: "https://www.youtube.com/embed/GkUHvrwZ7Ls",
     },
   ],
   interpreter_and_translator: [
     {
       id: 1,
-      title: "Interpreter and Translator Career Overview - The Bridge Builders",
+      title: "Interpreter and Translator Career Overview -  The Bridge Builders",
       url: "https://www.youtube.com/embed/drXe07iqVHI",
     },
     {
@@ -244,7 +244,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   liberal_arts: [
     {
       id: 1,
-      title: "Liberal Arts Career Overview - The Master Key",
+      title: "Liberal Arts Career Overview -  The Master Key",
       url: "https://www.youtube.com/embed/ilzUN1zzbfk",
     },
     {
@@ -256,7 +256,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   performing_arts: [
     {
       id: 1,
-      title: "Performing Arts Career Overview - The Stage is Yours",
+      title: "Performing Arts Career Overview -  The Stage is Yours",
       url: "https://www.youtube.com/embed/aj59BY9mrpA",
     },
     {
@@ -273,7 +273,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   photography: [
     {
       id: 1,
-      title: "Photography Career Overview - The Visual Storyteller",
+      title: "Photography Career Overview -  The Visual Storyteller",
       url: "https://www.youtube.com/embed/FEnQA0QUS6M",
     },
     {
@@ -290,7 +290,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   product_designing: [
     {
       id: 1,
-      title: "Product Designing Career Overview - The Functional Artist",
+      title: "Product Designing Career Overview -  The Functional Artist",
       url: "https://www.youtube.com/embed/J101Zka0Lrs",
     },
     {
@@ -302,7 +302,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   website_designer: [
     {
       id: 1,
-      title: "Website Designer Career Overview - The Digital Architect",
+      title: "Website Designer Career Overview -  The Digital Architect",
       url: "https://www.youtube.com/embed/m6V-InNnbKY",
     },
     {
@@ -314,7 +314,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   construction: [
     {
       id: 1,
-      title: "Construction Career Overview - Building the New India",
+      title: "Construction Career Overview -  Building the New India",
       url: "https://www.youtube.com/embed/GHcZ7833BV0",
     },
     {
@@ -326,7 +326,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   architect: [
     {
       id: 1,
-      title: "Architect Career Overview - Designing the Future of India",
+      title: "Architect Career Overview -  Designing the Future of India",
       url: "https://www.youtube.com/embed/DTJLm5iXK_c",
     },
     {
@@ -343,7 +343,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   maintenance_and_operation_management: [
     {
       id: 1,
-      title: "Maintenance & Operations Career Overview - The Guardians of Industry",
+      title: "Maintenance & Operations Career Overview -  The Guardians of Industry",
       url: "https://www.youtube.com/embed/tdZOjBODtE4",
     },
     {
@@ -365,7 +365,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   urban_planning_and_management: [
     {
       id: 1,
-      title: "Urban Planning Career Overview - The City Surgeons",
+      title: "Urban Planning Career Overview -  The City Surgeons",
       url: "https://www.youtube.com/embed/kenPO2ntgOw",
     },
     {
@@ -377,7 +377,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   agri_business_management: [
     {
       id: 1,
-      title: "Agri-Business Management Career Overview - Cultivating the Future",
+      title: "Agri-Business Management Career Overview -  Cultivating the Future",
       url: "https://www.youtube.com/embed/Ku1oDYDrCco",
     },
     {
@@ -394,7 +394,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   agricultural_engineer: [
     {
       id: 1,
-      title: "Agricultural Engineering Career Overview - Engineering the Future of Food",
+      title: "Agricultural Engineering Career Overview -  Engineering the Future of Food",
       url: "https://www.youtube.com/embed/XYLggvMiU2M",
     },
     {
@@ -411,7 +411,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   agriculture_research: [
     {
       id: 1,
-      title: "Agriculture and Plant Research Career Overview - The Science of Life and Food",
+      title: "Agriculture and Plant Research Career Overview -  The Science of Life and Food",
       url: "https://www.youtube.com/embed/gkBYovhzsEE",
     },
     {
@@ -423,7 +423,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   animal_science: [
     {
       id: 1,
-      title: "Animal Science Career Overview - The Guardians of the Voiceless",
+      title: "Animal Science Career Overview -  The Guardians of the Voiceless",
       url: "https://www.youtube.com/embed/HHjVGCv1N6s",
     },
     {
@@ -435,7 +435,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   dairy_technology: [
     {
       id: 1,
-      title: "Dairy Technology Career Overview - The Science of the Milky Way",
+      title: "Dairy Technology Career Overview -  The Science of the Milky Way",
       url: "https://www.youtube.com/embed/DYareilr3qI",
     },
     {
@@ -452,7 +452,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   food_science: [
     {
       id: 1,
-      title: "Food Science and Technology Career Overview - The Magic Behind Your Plate",
+      title: "Food Science and Technology Career Overview -  The Magic Behind Your Plate",
       url: "https://www.youtube.com/embed/U6G17_P_BKY",
     },
     {
@@ -464,7 +464,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   environmental_scientist: [
     {
       id: 1,
-      title: "Environmental Scientist Career Overview - The Earth's Detective",
+      title: "Environmental Scientist Career Overview -  The Earth's Detective",
       url: "https://www.youtube.com/embed/nDw6caTbhuc",
     },
     {
@@ -481,14 +481,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   forest_officer: [
     {
       id: 1,
-      title: "Forest Officer Career Overview - The Guardian of the Wild",
+      title: "Forest Officer Career Overview -  The Guardian of the Wild",
       url: "https://www.youtube.com/embed/PzzE1706jds",
     },
   ],
   geology: [
     {
       id: 1,
-      title: "Geology Career Overview - The Earth's Detective",
+      title: "Geology Career Overview -  The Earth's Detective",
       url: "https://www.youtube.com/embed/3dKvcdSRP6s",
     },
     {
@@ -500,7 +500,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   oceanography: [
     {
       id: 1,
-      title: "Oceanography Career Overview - Decoding the Blue Heart of Earth",
+      title: "Oceanography Career Overview -  Decoding the Blue Heart of Earth",
       url: "https://www.youtube.com/embed/zwA8h7XyLZ4",
     },
     {
@@ -512,14 +512,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   wildlife_biologist: [
     {
       id: 1,
-      title: "Wildlife Biologist Career Overview - The Voice of the Wild",
+      title: "Wildlife Biologist Career Overview -  The Voice of the Wild",
       url: "https://www.youtube.com/embed/K3oAXHOUKzE",
     },
   ],
   actuarial_science: [
     {
       id: 1,
-      title: "Actuarial Science Career Overview - The Architects of Risk",
+      title: "Actuarial Science Career Overview -  The Architects of Risk",
       url: "https://www.youtube.com/embed/k7Pk20LFhsQ",
     },
     {
@@ -531,7 +531,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   banking_and_related_services: [
     {
       id: 1,
-      title: "Banking Career Overview - The Engine of the Indian Economy",
+      title: "Banking Career Overview -  The Engine of the Indian Economy",
       url: "https://www.youtube.com/embed/ivsg7Cs3atw",
     },
     {
@@ -553,7 +553,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   chartered_accountant: [
     {
       id: 1,
-      title: "Chartered Accountant Career Overview - The Financial Architect of India",
+      title: "Chartered Accountant Career Overview -  The Financial Architect of India",
       url: "https://www.youtube.com/embed/KUMT6hlr6gA",
     },
     {
@@ -566,14 +566,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   company_secretary: [
     {
       id: 1,
-      title: "Company Secretary Career Overview - The Backbone of Corporate Governance",
+      title: "Company Secretary Career Overview -  The Backbone of Corporate Governance",
       url: "https://www.youtube.com/embed/1_ih99Hhknk",
     },
   ],
   cost_accountant: [
     {
       id: 1,
-      title: "CMA Career Overview - The Efficiency Engineers of Business",
+      title: "CMA Career Overview -  The Efficiency Engineers of Business",
       url: "https://www.youtube.com/embed/pv0svx6zKVU",
     },
     {
@@ -590,7 +590,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   economics: [
     {
       id: 1,
-      title: "Economics Career Overview - The Science of Smart Decisions",
+      title: "Economics Career Overview -  The Science of Smart Decisions",
       url: "https://www.youtube.com/embed/wCkXpHbPeoU",
     },
     {
@@ -607,7 +607,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   financial_analyst: [
     {
       id: 1,
-      title: "Financial Analyst Career Overview - The Navigators of Wealth",
+      title: "Financial Analyst Career Overview -  The Navigators of Wealth",
       url: "https://www.youtube.com/embed/E0w5tN77vPk",
     },
     {
@@ -619,7 +619,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   financial_and_investment_planning: [
     {
       id: 1,
-      title: "Financial Planning Career Overview - The Architects of Personal Wealth",
+      title: "Financial Planning Career Overview -  The Architects of Personal Wealth",
       url: "https://www.youtube.com/embed/6nK59ZbpsbA",
     },
     {
@@ -636,7 +636,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   financial_risk_management: [
     {
       id: 1,
-      title: "Financial Risk Management Career Overview - The Guardians of Economic Stability",
+      title: "Financial Risk Management Career Overview -  The Guardians of Economic Stability",
       url: "https://www.youtube.com/embed/KYtI8XVehfA",
     },
     {
@@ -653,7 +653,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   forensic_scientist: [
     {
       id: 1,
-      title: "Forensic Scientist Career Overview - The Science of Truth",
+      title: "Forensic Scientist Career Overview -  The Science of Truth",
       url: "https://www.youtube.com/embed/5OXhjgpyjRE",
     },
     {
@@ -665,7 +665,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   lawyer: [
     {
       id: 1,
-      title: "Lawyer Career Overview - The Defenders of Justice",
+      title: "Lawyer Career Overview -  The Defenders of Justice",
       url: "https://www.youtube.com/embed/wuKyQErklQs",
     },
     {
@@ -682,7 +682,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   industrial_designer: [
     {
       id: 1,
-      title: "Industrial Design Career Overview - The Architects of Everyday Life",
+      title: "Industrial Design Career Overview -  The Architects of Everyday Life",
       url: "https://www.youtube.com/embed/h_TUYyczky8",
     },
     {
@@ -694,7 +694,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   industrial_engineer: [
     {
       id: 1,
-      title: "Industrial Engineering Career Overview - The Efficiency Experts",
+      title: "Industrial Engineering Career Overview -  The Efficiency Experts",
       url: "https://www.youtube.com/embed/4qv2qKJ6f70",
     },
     {
@@ -706,7 +706,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   mechanical_engineer: [
     {
       id: 1,
-      title: "Mechanical Engineering Career Overview - The Builders of Everything",
+      title: "Mechanical Engineering Career Overview -  The Builders of Everything",
       url: "https://www.youtube.com/embed/Un1ipH1cqzQ",
     },
     {
@@ -718,7 +718,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   mass_communication: [
     {
       id: 1,
-      title: "Mass Communication Career Overview - The Voice of the World",
+      title: "Mass Communication Career Overview -  The Voice of the World",
       url: "https://www.youtube.com/embed/BG1-Q96moZI",
     },
     {
@@ -730,7 +730,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   public_relations_officer: [
     {
       id: 1,
-      title: "Public Relations Career Overview - The Image Architects",
+      title: "Public Relations Career Overview -  The Image Architects",
       url: "https://www.youtube.com/embed/9xQnMDFXRu4",
     },
     {
@@ -742,7 +742,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   journalist: [
     {
       id: 1,
-      title: "Journalism Career Overview - The Truth Seekers",
+      title: "Journalism Career Overview -  The Truth Seekers",
       url: "https://www.youtube.com/embed/V2Trq7iwOGU",
     },
     {
@@ -754,7 +754,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   international_relations: [
     {
       id: 1,
-      title: "International Relations Career Overview - The Global Strategists",
+      title: "International Relations Career Overview -  The Global Strategists",
       url: "https://www.youtube.com/embed/o97t1Ou3EPY",
     },
     {
@@ -766,7 +766,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   civil_administrative_services: [
     {
       id: 1,
-      title: "Civil Administrative Services - The Architects of a Nation",
+      title: "Civil Administrative Services -  The Architects of a Nation",
       url: "https://www.youtube.com/embed/12FxK7ejYwU",
     },
     {
@@ -778,7 +778,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   indian_economic_service: [
     {
       id: 1,
-      title: "Indian Economic Service - The Architects of the Economy",
+      title: "Indian Economic Service -  The Architects of the Economy",
       url: "https://www.youtube.com/embed/HqdDEG7JrwM",
     },
     {
@@ -790,7 +790,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   sports_physiotherapist: [
     {
       id: 1,
-      title: "Sports Physiotherapist Career - The Body Mechanics of Sports",
+      title: "Sports Physiotherapist Career -  The Body Mechanics of Sports",
       url: "https://www.youtube.com/embed/E185pVJMFnQ",
     },
     {
@@ -802,7 +802,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   sportsperson: [
     {
       id: 1,
-      title: "Sportsperson Career - The Champions of India",
+      title: "Sportsperson Career -  The Champions of India",
       url: "https://www.youtube.com/embed/7lwoUf6nevA",
     },
     {
@@ -814,7 +814,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   sports_management: [
     {
       id: 1,
-      title: "Sports Management Career in India - Complete Guide",
+      title: "Sports Management Career in India -  Complete Guide",
       url: "https://www.youtube.com/embed/WOOfEtRBDxM",
     },
     {
@@ -826,7 +826,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   physical_trainer: [
     {
       id: 1,
-      title: "Physical Trainer Career - The Architects of Health",
+      title: "Physical Trainer Career -  The Architects of Health",
       url: "https://www.youtube.com/embed/XN8MX208dS8",
     },
     {
@@ -838,7 +838,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   astronomer: [
     {
       id: 1,
-      title: "Astronomer Career - The Cosmic Detectives",
+      title: "Astronomer Career -  The Cosmic Detectives",
       url: "https://www.youtube.com/embed/EXn9EPKhOow",
     },
     {
@@ -850,7 +850,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   chemical_engineer: [
     {
       id: 1,
-      title: "Chemical Engineering Career - The Architects of Scale",
+      title: "Chemical Engineering Career -  The Architects of Scale",
       url: "https://www.youtube.com/embed/DX-I4lt4pQ8",
     },
     {
@@ -862,7 +862,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   engineering_and_technology: [
     {
       id: 1,
-      title: "Engineering & Technology Career Overview - The Builders of Tomorrow",
+      title: "Engineering & Technology Career Overview -  The Builders of Tomorrow",
       url: "https://www.youtube.com/embed/ejDdw1aUkf0",
     },
     {
@@ -874,7 +874,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   mathematician: [
     {
       id: 1,
-      title: "Mathematician Career Overview - The Pattern Finder",
+      title: "Mathematician Career Overview -  The Pattern Finder",
       url: "https://www.youtube.com/embed/bBJbHgpchqE",
     },
     {
@@ -886,14 +886,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   nanotechnologist: [
     {
       id: 1,
-      title: "Nanotechnologist Career Overview - The Atomic Architect",
+      title: "Nanotechnologist Career Overview -  The Atomic Architect",
       url: "https://www.youtube.com/embed/7-bQ4bJJ4UA",
     },
   ],
   robotics_engineer: [
     {
       id: 1,
-      title: "Robotics Engineering Career Overview - The Multi-Disciplinary Creator",
+      title: "Robotics Engineering Career Overview -  The Multi-Disciplinary Creator",
       url: "https://www.youtube.com/embed/EFppqtInU5s",
     },
     {
@@ -905,7 +905,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   statistician: [
     {
       id: 1,
-      title: "Statistician Career Overview - The Data Detective",
+      title: "Statistician Career Overview -  The Data Detective",
       url: "https://www.youtube.com/embed/ByPfyNX2rQ4",
     },
     {
@@ -917,7 +917,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   advertising_and_communication: [
     {
       id: 1,
-      title: "Advertising & Communication Career Overview - The Storytellers of Commerce",
+      title: "Advertising & Communication Career Overview -  The Storytellers of Commerce",
       url: "https://www.youtube.com/embed/ZsDOcNGJ8a0",
     },
     {
@@ -929,7 +929,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   digital_marketing: [
     {
       id: 1,
-      title: "Digital Marketing Career Overview - The Screen Whisperers",
+      title: "Digital Marketing Career Overview -  The Screen Whisperers",
       url: "https://www.youtube.com/embed/KZLroOQKT-g",
     },
     {
@@ -941,14 +941,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   entrepreneurship_and_management: [
     {
       id: 1,
-      title: "Entrepreneurship & Management Career Overview - The Architects of Tomorrow",
+      title: "Entrepreneurship & Management Career Overview -  The Architects of Tomorrow",
       url: "https://www.youtube.com/embed/KZLroOQKT-g",
     },
   ],
   marketing: [
     {
       id: 1,
-      title: "Marketing Career Overview - The Pulse of Business",
+      title: "Marketing Career Overview -  The Pulse of Business",
       url: "https://www.youtube.com/embed/DGcopLXJUzU",
     },
     {
@@ -960,7 +960,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   sales_professional: [
     {
       id: 1,
-      title: "Sales Professional Career Overview - The Engine of Business",
+      title: "Sales Professional Career Overview -  The Engine of Business",
       url: "https://www.youtube.com/embed/ZUKLrTl22gg",
     },
     {
@@ -972,14 +972,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   visual_merchandiser: [
     {
       id: 1,
-      title: "Visual Merchandiser Career Overview - The Silent Sellers",
+      title: "Visual Merchandiser Career Overview -  The Silent Sellers",
       url: "https://www.youtube.com/embed/ZUKLrTl22gg",
     },
   ],
   aeronautical_engineer: [
     {
       id: 1,
-      title: "Aeronautical Engineer Career Overview - The Sky Architects",
+      title: "Aeronautical Engineer Career Overview -  The Sky Architects",
       url: "https://www.youtube.com/embed/HfNObEh1scg",
     },
     {
@@ -991,7 +991,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   air_traffic_controller: [
     {
       id: 1,
-      title: "Air Traffic Controller Career Overview - The Sky Guardians",
+      title: "Air Traffic Controller Career Overview -  The Sky Guardians",
       url: "https://www.youtube.com/embed/1UM8ssea-uA",
     },
     {
@@ -1003,7 +1003,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   automotive_design: [
     {
       id: 1,
-      title: "Automotive Design Career Overview - The Sculptors of Speed",
+      title: "Automotive Design Career Overview -  The Sculptors of Speed",
       url: "https://www.youtube.com/embed/SSGSdSKLJVM",
     },
     {
@@ -1015,7 +1015,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   aviation_management: [
     {
       id: 1,
-      title: "Aviation Management Career Overview - The Ground Commanders",
+      title: "Aviation Management Career Overview -  The Ground Commanders",
       url: "https://www.youtube.com/embed/m_2b4f87nDY",
     },
     {
@@ -1027,7 +1027,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   commercial_pilot: [
     {
       id: 1,
-      title: "Commercial Pilot Career Overview - The Captains of the Clouds",
+      title: "Commercial Pilot Career Overview -  The Captains of the Clouds",
       url: "https://www.youtube.com/embed/Edk3FlhuvC8",
     },
     {
@@ -1039,7 +1039,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   merchant_navy_officer: [
     {
       id: 1,
-      title: "Merchant Navy Officer Career Overview - The Global Nomads",
+      title: "Merchant Navy Officer Career Overview -  The Global Nomads",
       url: "https://www.youtube.com/embed/bY01tHJG3OM",
     },
     {
@@ -1051,14 +1051,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   supply_chain_management: [
     {
       id: 1,
-      title: "Supply Chain Management Career Overview - The Masterminds of Movement",
+      title: "Supply Chain Management Career Overview -  The Masterminds of Movement",
       url: "https://www.youtube.com/embed/52VcoVTsVUY",
     },
   ],
   artificial_intelligence: [
     {
       id: 1,
-      title: "Artificial Intelligence Career Overview - The Architect of Intelligence",
+      title: "Artificial Intelligence Career Overview -  The Architect of Intelligence",
       url: "https://www.youtube.com/embed/qzAHXO-cN5Q",
     },
     {
@@ -1070,7 +1070,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   blockchain_engineer: [
     {
       id: 1,
-      title: "Blockchain Engineer Career Overview - The Architect of Trust",
+      title: "Blockchain Engineer Career Overview -  The Architect of Trust",
       url: "https://www.youtube.com/embed/TO7E7NcdEEY",
     },
     {
@@ -1082,7 +1082,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   data_scientist: [
     {
       id: 1,
-      title: "Data Scientist Career Overview - The Modern-Day Oracle",
+      title: "Data Scientist Career Overview -  The Modern-Day Oracle",
       url: "https://www.youtube.com/embed/a3RSa1U6ae8",
     },
     {
@@ -1094,7 +1094,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   electronics_communication_engineering: [
     {
       id: 1,
-      title: "Electronics & Communication Engineering Career Overview - The Architects of the Future",
+      title: "Electronics & Communication Engineering Career Overview -  The Architects of the Future",
       url: "https://www.youtube.com/embed/Z3ruVE-uQFY",
     },
     {
@@ -1106,7 +1106,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   ethical_hacking: [
     {
       id: 1,
-      title: "Ethical Hacking Career Overview - The Digital Bodyguard",
+      title: "Ethical Hacking Career Overview -  The Digital Bodyguard",
       url: "https://www.youtube.com/embed/rF5VIXn6wDQ",
     },
     {
@@ -1118,7 +1118,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   gis_expert: [
     {
       id: 1,
-      title: "GIS Expert Career Overview - The Map Magicians",
+      title: "GIS Expert Career Overview -  The Map Magicians",
       url: "https://www.youtube.com/embed/xMwxvq19XxU",
     },
     {
@@ -1130,7 +1130,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   internet_of_things: [
     {
       id: 1,
-      title: "IoT Career Overview - The Magicians of Connected Things",
+      title: "IoT Career Overview -  The Magicians of Connected Things",
       url: "https://www.youtube.com/embed/jqae_v4bx5w",
     },
     {
@@ -1142,7 +1142,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   it_business_analyst: [
     {
       id: 1,
-      title: "IT Business Analyst Career Overview - The Bridge Builder",
+      title: "IT Business Analyst Career Overview -  The Bridge Builder",
       url: "https://www.youtube.com/embed/FY69oncFXQE",
     },
     {
@@ -1154,7 +1154,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   it_project_manager: [
     {
       id: 1,
-      title: "IT Project Manager Career Overview - The Captain of the Ship",
+      title: "IT Project Manager Career Overview -  The Captain of the Ship",
       url: "https://www.youtube.com/embed/qrVikzCXkq0",
     },
     {
@@ -1166,7 +1166,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   mobile_app_developer: [
     {
       id: 1,
-      title: "Mobile App Developer Career Overview - The Architects of the Pocket",
+      title: "Mobile App Developer Career Overview -  The Architects of the Pocket",
       url: "https://www.youtube.com/embed/tZTzidVpZ6c",
     },
     {
@@ -1178,7 +1178,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   software_engineer: [
     {
       id: 1,
-      title: "Software Engineer Career Overview - The Code to Your Future",
+      title: "Software Engineer Career Overview -  The Code to Your Future",
       url: "https://www.youtube.com/embed/KMtaud07YEo",
     },
     {
@@ -1190,7 +1190,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   software_testing_qa: [
     {
       id: 1,
-      title: "Software Testing & QA Career Overview - The Digital Detectives",
+      title: "Software Testing & QA Career Overview -  The Digital Detectives",
       url: "https://www.youtube.com/embed/B_3J4nJ3uOg",
     },
     {
@@ -1202,132 +1202,132 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   video_game_designer: [
     {
       id: 1,
-      title: "Video Game Designer Career Overview - Creating Digital Worlds",
+      title: "Video Game Designer Career Overview -  Creating Digital Worlds",
       url: "https://www.youtube.com/embed/rJ1iA-33fss",
     },
     {
       id: 2,
-      title: "Game Design in India - From Concept to Console",
+      title: "Game Design in India -  From Concept to Console",
       url: "https://www.youtube.com/embed/iohbl9IpPgA",
     },
   ],
   anthropologist: [
     {
       id: 1,
-      title: "Anthropologist Career Overview - Understanding Human Diversity",
+      title: "Anthropologist Career Overview -  Understanding Human Diversity",
       url: "https://www.youtube.com/embed/mWCNjRjb4aw",
     },
     {
       id: 2,
-      title: "Anthropology in India - Preserving Cultural Heritage",
+      title: "Anthropology in India -  Preserving Cultural Heritage",
       url: "https://www.youtube.com/embed/FXuqUOXX4WY",
     },
   ],
   archaeologist: [
     {
       id: 1,
-      title: "Archaeologist Career Overview - Uncovering the Past",
+      title: "Archaeologist Career Overview -  Uncovering the Past",
       url: "https://www.youtube.com/embed/5Cr6VUboOr0",
     },
     {
       id: 2,
-      title: "Archaeology in India - Discovering Ancient Civilizations",
+      title: "Archaeology in India -  Discovering Ancient Civilizations",
       url: "https://www.youtube.com/embed/Hry0qO3oA7w",
     },
   ],
   airhostess: [
     {
       id: 1,
-      title: "Air Hostess Career Overview - Safety and Service at 35,000 Feet",
+      title: "Air Hostess Career Overview -  Safety and Service at 35,000 Feet",
       url: "https://www.youtube.com/embed/IZgxgimlWH8",
     },
     {
       id: 2,
-      title: "Aviation Career in India - The Sky's Professional",
+      title: "Aviation Career in India -  The Sky's Professional",
       url: "https://www.youtube.com/embed/1NHPoRUsDds",
     },
   ],
   culinary_arts: [
     {
       id: 1,
-      title: "Culinary Arts Career Overview - The Art and Science of Food",
+      title: "Culinary Arts Career Overview -  The Art and Science of Food",
       url: "https://www.youtube.com/embed/bGDMOwvEjLw",
     },
     {
       id: 2,
-      title: "Chef Career in India - From Kitchen to Global Stage",
+      title: "Chef Career in India -  From Kitchen to Global Stage",
       url: "https://www.youtube.com/embed/tQkI7zgbn78",
     },
   ],
   event_planner: [
     {
       id: 1,
-      title: "Event Planning Career Overview - The Architect of Experiences",
+      title: "Event Planning Career Overview -  The Architect of Experiences",
       url: "https://www.youtube.com/embed/I8tLqq9iqv0",
     },
     {
       id: 2,
-      title: "Event Planning in India - Creating Unforgettable Moments",
+      title: "Event Planning in India -  Creating Unforgettable Moments",
       url: "https://www.youtube.com/embed/HxCsd0oYYVs",
     },
   ],
   hotel_management: [
     {
       id: 1,
-      title: "Hotel Management Career Overview - The CEO of Hospitality",
+      title: "Hotel Management Career Overview -  The CEO of Hospitality",
       url: "https://www.youtube.com/embed/aRjXaBQibmI",
     },
     {
       id: 2,
-      title: "Hotel Management in India - Creating Guest Experiences",
+      title: "Hotel Management in India -  Creating Guest Experiences",
       url: "https://www.youtube.com/embed/aM-7IIOsDWQ",
     },
   ],
   travel_and_tourism: [
     {
       id: 1,
-      title: "Travel and Tourism Career Overview - Designer of Adventures",
+      title: "Travel and Tourism Career Overview -  Designer of Adventures",
       url: "https://www.youtube.com/embed/o6GgQPiX-TA",
     },
     {
       id: 2,
-      title: "Travel and Tourism in India - Enabling Experiences",
+      title: "Travel and Tourism in India -  Enabling Experiences",
       url: "https://www.youtube.com/embed/NVgmdhDxPbw",
     },
   ],
   wedding_planner: [
     {
       id: 1,
-      title: "Wedding Planning Career Overview - Architect of Happily Ever After",
+      title: "Wedding Planning Career Overview -  Architect of Happily Ever After",
       url: "https://www.youtube.com/embed/lw9vvSpgyQU",
     },
     {
       id: 2,
-      title: "Wedding Planning in India - Creating Cherished Moments",
+      title: "Wedding Planning in India -  Creating Cherished Moments",
       url: "https://www.youtube.com/embed/EpCZrRczHDw",
     },
   ],
   alternative_medicine: [
     {
       id: 1,
-      title: "Alternative Medicine Career Overview - Healer of Nature",
+      title: "Alternative Medicine Career Overview -  Healer of Nature",
       url: "https://www.youtube.com/embed/tl9e4AVFfAE",
     },
     {
       id: 2,
-      title: "AYUSH Careers in India - Healing Through Nature's Wisdom",
+      title: "AYUSH Careers in India -  Healing Through Nature's Wisdom",
       url: "https://www.youtube.com/embed/Vf15QtNbK8k",
     },
     {
       id: 3,
-      title: "Alternative Medicine - Bridging Ancient Wisdom and Modern Science",
+      title: "Alternative Medicine -  Bridging Ancient Wisdom and Modern Science",
       url: "https://www.youtube.com/embed/433t8-kGe5A",
     },
   ],
   audiologist: [
     {
       id: 1,
-      title: "Audiologist Career Overview - The Science of Sound and Balance",
+      title: "Audiologist Career Overview -  The Science of Sound and Balance",
       url: "https://www.youtube.com/embed/EAmxL45mRgE",
     },
     {
@@ -1339,7 +1339,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   dentist: [
     {
       id: 1,
-      title: "Dentist Career Overview - The Architect of Smiles",
+      title: "Dentist Career Overview -  The Architect of Smiles",
       url: "https://www.youtube.com/embed/lvHVmP5iEpw",
     },
     {
@@ -1356,7 +1356,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   dietician: [
     {
       id: 1,
-      title: "Dietician Career Overview - The Architect of Health Through Food",
+      title: "Dietician Career Overview -  The Architect of Health Through Food",
       url: "https://www.youtube.com/embed/GHcZ7833BV0",
     },
     {
@@ -1373,7 +1373,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   general_physician: [
     {
       id: 1,
-      title: "General Physician Career Overview - The Guardian of First Contact",
+      title: "General Physician Career Overview -  The Guardian of First Contact",
       url: "https://www.youtube.com/embed/xBkZe-GNIRM",
     },
     {
@@ -1385,7 +1385,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   homeopathy: [
     {
       id: 1,
-      title: "Homeopathy Career Overview - The Art of Individualized Healing",
+      title: "Homeopathy Career Overview -  The Art of Individualized Healing",
       url: "https://www.youtube.com/embed/gVqcySApvZ0",
     },
     {
@@ -1402,7 +1402,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   hospital_management: [
     {
       id: 1,
-      title: "Hospital Management Career Overview - The Architects of Healthcare",
+      title: "Hospital Management Career Overview -  The Architects of Healthcare",
       url: "https://www.youtube.com/embed/J2aRx-2NAOE",
     },
     {
@@ -1414,7 +1414,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   medical_diagnostic_services: [
     {
       id: 1,
-      title: "Medical Diagnostic Services Career Overview - The Detectives of Healthcare",
+      title: "Medical Diagnostic Services Career Overview -  The Detectives of Healthcare",
       url: "https://www.youtube.com/embed/yV8FGTrkRZ0",
     },
     {
@@ -1426,7 +1426,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   medical_transcription: [
     {
       id: 1,
-      title: "Medical Transcription Career Overview - The Silent Scribes of Healthcare",
+      title: "Medical Transcription Career Overview -  The Silent Scribes of Healthcare",
       url: "https://www.youtube.com/embed/QbeCOWOEi5M",
     },
     {
@@ -1438,7 +1438,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   nurse_medical_assistant: [
     {
       id: 1,
-      title: "Nursing Career Overview - The Heartbeat of Healthcare",
+      title: "Nursing Career Overview -  The Heartbeat of Healthcare",
       url: "https://www.youtube.com/embed/9WqwmAYktAQ",
     },
     {
@@ -1450,7 +1450,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   operation_theatre_technician: [
     {
       id: 1,
-      title: "OT Technician Career Overview - The Invisible Heroes of Surgery",
+      title: "OT Technician Career Overview -  The Invisible Heroes of Surgery",
       url: "https://www.youtube.com/embed/ndqK-rnrVmA",
     },
     {
@@ -1462,7 +1462,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   optometry: [
     {
       id: 1,
-      title: "Optometry Career Overview - The Visionaries of Healthcare",
+      title: "Optometry Career Overview -  The Visionaries of Healthcare",
       url: "https://www.youtube.com/embed/ivrgSeiEl2Y",
     },
     {
@@ -1474,7 +1474,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   pharmacist: [
     {
       id: 1,
-      title: "Pharmacist Career Overview - The Master of Molecules",
+      title: "Pharmacist Career Overview -  The Master of Molecules",
       url: "https://www.youtube.com/embed/23M4ZBMab60",
     },
     {
@@ -1486,14 +1486,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   public_healthcare_administration: [
     {
       id: 1,
-      title: "Public Healthcare Administration Career Overview - Architects of Healthy Nations",
+      title: "Public Healthcare Administration Career Overview -  Architects of Healthy Nations",
       url: "https://www.youtube.com/embed/-0TwvSx6a9I",
     },
   ],
   medical_radiology_technician: [
     {
       id: 1,
-      title: "Medical Radiology Technician Career Overview - The Invisible Detectives",
+      title: "Medical Radiology Technician Career Overview -  The Invisible Detectives",
       url: "https://www.youtube.com/embed/yxBtXkERNH4",
     },
     {
@@ -1505,7 +1505,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   therapy_science: [
     {
       id: 1,
-      title: "Therapy Science Career Overview - The Architects of Recovery",
+      title: "Therapy Science Career Overview -  The Architects of Recovery",
       url: "https://www.youtube.com/embed/heNQ3ZzlLrM",
     },
     {
@@ -1517,21 +1517,21 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   corporate_trainer: [
     {
       id: 1,
-      title: "Corporate Trainer Career Overview - The Catalyst of Growth",
+      title: "Corporate Trainer Career Overview -  The Catalyst of Growth",
       url: "https://www.youtube.com/embed/C_qFC5NF9X8",
     },
   ],
   image_consultant: [
     {
       id: 1,
-      title: "Image Consultant Career Overview - The Architect of Presence",
+      title: "Image Consultant Career Overview -  The Architect of Presence",
       url: "https://www.youtube.com/embed/q6BwwXJLhwE",
     },
   ],
   librarian_and_education_administration: [
     {
       id: 1,
-      title: "Librarian Career Overview - The Information Alchemist",
+      title: "Librarian Career Overview -  The Information Alchemist",
       url: "https://www.youtube.com/embed/9WX3sBt_Uck",
     },
     {
@@ -1548,7 +1548,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   professor: [
     {
       id: 1,
-      title: "Professor Career Overview - Architect of Minds",
+      title: "Professor Career Overview -  Architect of Minds",
       url: "https://www.youtube.com/embed/18nnZ0wcwu8",
     },
     {
@@ -1560,7 +1560,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   school_teacher: [
     {
       id: 1,
-      title: "School Teacher Career Overview - The Nation Builder",
+      title: "School Teacher Career Overview -  The Nation Builder",
       url: "https://www.youtube.com/embed/68mqDbJkv2A",
     },
     {
@@ -1572,14 +1572,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   technical_trainer: [
     {
       id: 1,
-      title: "Technical Trainer Career Overview - The Skill Architect",
+      title: "Technical Trainer Career Overview -  The Skill Architect",
       url: "https://www.youtube.com/embed/V8WfZ_ra3ek",
     },
   ],
   bpo: [
     {
       id: 1,
-      title: "BPO Career Overview - The Global Engine",
+      title: "BPO Career Overview -  The Global Engine",
       url: "https://www.youtube.com/embed/7L4mokvB1jU",
     },
     {
@@ -1591,7 +1591,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   business_analytics: [
     {
       id: 1,
-      title: "Business Analytics Career Overview - The Data Detective",
+      title: "Business Analytics Career Overview -  The Data Detective",
       url: "https://www.youtube.com/embed/5MCPe0NY4q4",
     },
     {
@@ -1608,7 +1608,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   business_financial_management: [
     {
       id: 1,
-      title: "Business Financial Management Career Overview - The Engine of Growth",
+      title: "Business Financial Management Career Overview -  The Engine of Growth",
       url: "https://www.youtube.com/embed/5XILI2TnrPk",
     },
     {
@@ -1620,7 +1620,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   business_operations_manager: [
     {
       id: 1,
-      title: "Business Operations Manager Career Overview - The Master Orchestrator",
+      title: "Business Operations Manager Career Overview -  The Master Orchestrator",
       url: "https://www.youtube.com/embed/XUxgmo_ozjU",
     },
     {
@@ -1632,7 +1632,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   fashion_management: [
     {
       id: 1,
-      title: "Fashion Management Career Overview - The Style Architect",
+      title: "Fashion Management Career Overview -  The Style Architect",
       url: "https://www.youtube.com/embed/6Ivvkp4WMOQ",
     },
     {
@@ -1644,7 +1644,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   human_resources: [
     {
       id: 1,
-      title: "Human Resources Career Overview - The People Powerhouse",
+      title: "Human Resources Career Overview -  The People Powerhouse",
       url: "https://www.youtube.com/embed/aBifB6tGay0",
     },
     {
@@ -1661,7 +1661,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   international_business: [
     {
       id: 1,
-      title: "International Business Career Overview - The Global Bridge",
+      title: "International Business Career Overview -  The Global Bridge",
       url: "https://www.youtube.com/embed/jTLX0V8l1w8",
     },
     {
@@ -1673,7 +1673,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   it_management: [
     {
       id: 1,
-      title: "IT Management Career Overview - The Digital Architect",
+      title: "IT Management Career Overview -  The Digital Architect",
       url: "https://www.youtube.com/embed/bSsnjFzaNK8",
     },
     {
@@ -1685,7 +1685,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   project_management: [
     {
       id: 1,
-      title: "Project Management Career Overview - The Master Strategist",
+      title: "Project Management Career Overview -  The Master Strategist",
       url: "https://www.youtube.com/embed/hiDOu4L5Lvo",
     },
     {
@@ -1697,7 +1697,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   retail_management: [
     {
       id: 1,
-      title: "Retail Management Career Overview - The Retail Revolution",
+      title: "Retail Management Career Overview -  The Retail Revolution",
       url: "https://www.youtube.com/embed/vVfCC7t1ohY",
     },
     {
@@ -1709,7 +1709,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   political_scientist: [
     {
       id: 1,
-      title: "Political Scientist Career Overview - The Power Analyst",
+      title: "Political Scientist Career Overview -  The Power Analyst",
       url: "https://www.youtube.com/embed/XUtuzb6oE9w",
     },
     {
@@ -1726,14 +1726,14 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   sociologist: [
     {
       id: 1,
-      title: "Sociologist Career Overview - The Society Scientist",
+      title: "Sociologist Career Overview -  The Society Scientist",
       url: "https://www.youtube.com/embed/yy0eICeMRJo",
     },
   ],
   indian_navy: [
     {
       id: 1,
-      title: "Indian Navy Career Overview - The Silent Guardians of the Seas",
+      title: "Indian Navy Career Overview -  The Silent Guardians of the Seas",
       url: "https://www.youtube.com/embed/DdVOeCAO6T8",
     },
     {
@@ -1745,7 +1745,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   indian_police: [
     {
       id: 1,
-      title: "Indian Police Career Overview - The Shield of the Nation",
+      title: "Indian Police Career Overview -  The Shield of the Nation",
       url: "https://www.youtube.com/embed/eQB7zyUEHqQ",
     },
     {
@@ -1757,7 +1757,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   disaster_management: [
     {
       id: 1,
-      title: "Disaster Management Career Overview - The Guardians of Safety",
+      title: "Disaster Management Career Overview -  The Guardians of Safety",
       url: "https://www.youtube.com/embed/EnObsrW5yRI",
     },
     {
@@ -1769,7 +1769,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   indian_army: [
     {
       id: 1,
-      title: "Indian Army Career Overview - The Ultimate Badge of Honour",
+      title: "Indian Army Career Overview -  The Ultimate Badge of Honour",
       url: "https://www.youtube.com/embed/xcu470wmte0",
     },
     {
@@ -1781,7 +1781,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   indian_air_force: [
     {
       id: 1,
-      title: "Indian Air Force Career Overview - Touch the Sky with Glory",
+      title: "Indian Air Force Career Overview -  Touch the Sky with Glory",
       url: "https://www.youtube.com/embed/VL1CzT6X7JQ",
     },
     {
@@ -1793,7 +1793,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   merchant_navy: [
     {
       id: 1,
-      title: "Merchant Navy Career Overview - The Silent Guardians of the Seas",
+      title: "Merchant Navy Career Overview -  The Silent Guardians of the Seas",
       url: "https://www.youtube.com/embed/DdVOeCAO6T8",
     },
     {
@@ -1805,7 +1805,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   biomedical_engineer: [
     {
       id: 1,
-      title: "Biomedical Engineering Career Overview - The Bridge Between Engineering and Medicine",
+      title: "Biomedical Engineering Career Overview -  The Bridge Between Engineering and Medicine",
       url: "https://www.youtube.com/embed/8UmxpxPmSBc",
     },
     {
@@ -1817,7 +1817,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
   staff_selection_commission: [
     {
       id: 1,
-      title: "SSC Career Overview - The Backbone of Governance",
+      title: "SSC Career Overview -  The Backbone of Governance",
       url: "https://www.youtube.com/embed/nq2VQbUDyr4",
     },
     {

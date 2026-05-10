@@ -178,7 +178,7 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
       <div className="max-w-6xl mx-auto">
         <SectionHeader section={section} light={false} />
 
-        {/* Grid Layout - responsive columns */}
+        {/* Grid Layout -  responsive columns */}
         <div className={`grid gap-4 ${(isScholarshipSection || isInstitutionsSection) ? "grid-cols-1 md:grid-cols-3" : "grid-cols-1 md:grid-cols-2"}`}>
           {section.content.map((content, i) => {
             const colonIndex = content.indexOf(":");
@@ -497,7 +497,7 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
       <div className="max-w-6xl mx-auto">
         <SectionHeader section={section} light={false} />
 
-        {/* Institution Types Grid - Only Show Categories with Institutions */}
+        {/* Institution Types Grid -  Only Show Categories with Institutions */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
           {typesToRender.map((instType, idx) => {
               const institutions = groupedContent[instType.type] || [];
@@ -523,7 +523,7 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
                       </h3>
                     </div>
 
-                    {/* Institutions List - All Visible */}
+                    {/* Institutions List -  All Visible */}
                     <div className="space-y-2">
                       {institutions.map((inst, i) => (
                         <div key={i} className="flex gap-2">
@@ -545,7 +545,7 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
             })}
         </div>
 
-        {/* Note Section - Full Width */}
+        {/* Note Section -  Full Width */}
         {noteContent && (
           <div className="w-full bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
             <p className="text-slate-700 text-base leading-relaxed">

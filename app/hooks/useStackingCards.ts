@@ -49,11 +49,11 @@ export function useStackingCards(options: UseStackingCardsOptions = {}) {
         
         // Calculate how much the card has scrolled past its natural position
         const cardNaturalTop = index * (cardHeight + gap);
-        const scrollProgress = containerTop - cardNaturalTop;
+        const scrollProgress = containerTop -  cardNaturalTop;
 
         if (scrollProgress > 0) {
-          // Card is fixed - apply stacking effect
-          const scale = Math.max(0.85, 1 - scrollProgress * scaleStep / cardHeight);
+          // Card is fixed -  apply stacking effect
+          const scale = Math.max(0.85, 1 -  scrollProgress * scaleStep / cardHeight);
           const translateY = gap * index;
           
           cardElement.style.transform = `translateY(${translateY}px) scale(${scale})`;

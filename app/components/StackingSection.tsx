@@ -207,7 +207,7 @@ export default function StackingSection({
       {/* Stacking Cards */}
       <div className="relative mt-0">
         {items.map((item, index) => {
-          const targetScale = 1 - (items.length - index) * 0.05;
+          const targetScale = 1 -  (items.length -  index) * 0.05;
           return (
             <StackingCard
               key={item.id}

@@ -77,7 +77,7 @@ async function main() {
   const outputPath = path.join(__dirname, 'app', 'data', 'careerImagesMap.js');
   const code = `export const careerImagesMap = ${JSON.stringify(result, null, 2)};\n`;
   fs.writeFileSync(outputPath, code);
-  console.log('\n--- FINISHED ---');
+  console.log('\n---  FINISHED ---');
   console.log(`Saved to ${outputPath}`);
 }
 

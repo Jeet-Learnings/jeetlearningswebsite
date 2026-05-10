@@ -35,7 +35,7 @@ export function CareerHero({ data, imageUrl }: CareerHeroProps) {
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50" />
       )}
 
-      {/* Decorative Elements - Bright Colors */}
+      {/* Decorative Elements -  Bright Colors */}
       <div className="absolute top-0 right-0 w-40 sm:w-64 md:w-80 lg:w-96 h-40 sm:h-64 md:h-80 lg:h-96 bg-blue-300 rounded-full opacity-15 blur-3xl z-0" />
       <div className="absolute bottom-0 left-0 w-32 sm:w-48 md:w-64 lg:w-80 h-32 sm:h-48 md:h-64 lg:h-80 bg-purple-300 rounded-full opacity-15 blur-3xl z-0" />
 
@@ -92,7 +92,7 @@ export function CareerHero({ data, imageUrl }: CareerHeroProps) {
             </div>
           </div>
 
-          {/* Right Side - Info Cards */}
+          {/* Right Side -  Info Cards */}
           <div className="space-y-3 sm:space-y-4 md:space-y-6 mt-8 lg:mt-0">
             {/* Quick Facts Card */}
             <div

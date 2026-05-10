@@ -739,7 +739,7 @@ for (let i = 0; i < lines.length; i++) {
   const line = lines[i].trim();
   if (line === "What is This Career All About?") {
     let title = "";
-    for (let j = i - 1; j >= 0; j--) {
+    for (let j = i -  1; j >= 0; j--) {
       if (lines[j].trim() !== "") {
         title = lines[j].trim();
         break;
@@ -763,7 +763,7 @@ for (let i = 0; i < lines.length; i++) {
 for (let i = 0; i < careers.length; i++) {
   const c = careers[i];
   const startIdx = lines.findIndex((l, index) => l.includes("What is This Career All About?") && lines.slice(Math.max(0, index-3), index).some(x => x.includes(c.name)));
-  const nextIdx = i < careers.length - 1 
+  const nextIdx = i < careers.length -  1 
     ? lines.findIndex((l, index) => index > startIdx && l.includes("What is This Career All About?")) 
     : lines.length;
     

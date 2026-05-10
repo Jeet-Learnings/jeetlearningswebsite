@@ -45,12 +45,12 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
         description: "Real-world workflow of a mentor and coach.",
         color: PURPLE2,
         content: [
-          "8:00 AM - Start the day with meditation. To guide others, your own mind must be clear. Review notes for your first client, a VP at a tech startup struggling with 'Imposter Syndrome.'",
-          "10:00 AM - Zoom call begins. The client is stressed. You don't offer advice immediately. Instead, you ask, 'What is the evidence that you are not good enough?' By 11:00 AM, the client has realized their fear was irrational and leaves feeling empowered.",
-          "1:00 PM - Lunch with a young college graduate you're mentoring pro-bono. Unlike the morning coaching session, here you're more directive, sharing specific contacts and resume tips to help them land a job.",
-          "3:00 PM - Put on your 'content creator' hat. Record a 60-second video for LinkedIn titled '3 Ways to Say No Without Guilt.' In this career, building a personal brand is how you get clients.",
-          "5:00 PM - Head to a co-working space to conduct a group workshop on 'Emotional Intelligence for Sales Teams.' The energy is high, and you use role-playing games to teach empathy.",
-          "7:30 PM - Back home, spend an hour studying for your Master Certified Coach (MCC) exam. The learning never stops. Sleep knowing you helped at least five people fight their battles today."
+          "8:00 AM -  Start the day with meditation: To guide others, your own mind must be clear. Review notes for your first client, a VP at a tech startup struggling with 'Imposter Syndrome.'",
+          "10:00 AM -  Zoom call begins: The client is stressed. You don't offer advice immediately. Instead, you ask, 'What is the evidence that you are not good enough?' By 11:00 AM, the client has realized their fear was irrational and leaves feeling empowered.",
+          "1:00 PM -  Lunch with a young college graduate you're mentoring pro-bono: Unlike the morning coaching session, here you're more directive, sharing specific contacts and resume tips to help them land a job.",
+          "3:00 PM -  Put on your 'content creator' hat: Record a 60-second video for LinkedIn titled '3 Ways to Say No Without Guilt.' In this career, building a personal brand is how you get clients.",
+          "5:00 PM -  Head to a co-working space to conduct a group workshop on 'Emotional Intelligence for Sales Teams.': The energy is high, and you use role-playing games to teach empathy.",
+          "7:30 PM -  Back home, spend an hour studying for your Master Certified Coach (MCC) exam: The learning never stops. Sleep knowing you helped at least five people fight their battles today."
         ]
       },
       {
@@ -91,13 +91,7 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: PURPLE,
-        content: [
-          "After Class 10: Stream Selection: Humanities (Psychology) is the best foundation. However, Commerce/Science students are equally welcome (many business coaches come from Commerce backgrounds). Focus on developing communication skills and participating in debates/leadership roles.",
-          "After Class 12: Pursue B.A./B.Sc. in Psychology to understand human behavior, BBA/B.Com if you want to become a Business or Executive Coach, or B.A. in Human Resource Management (HRM) for corporate coaching roles.",
-          "After Graduation (The Crucial Phase): Work for 3-5 years in HR, Sales, Teaching, or Management. You cannot coach someone on a journey you haven't walked. Then pursue ICF (International Coaching Federation) Credentials starting as an ACC (Associate Certified Coach).",
-          "Specializations: Life Coaching, Executive Coaching, Business Coaching, Career Coaching, Wellness Coaching, Relationship Coaching, Agile Coaching.",
-          "Career Progression: Entry-level Life Coach → Corporate Trainer/HR Manager → Executive Coach → Senior Consultant/Mentor → Celebrity Coach/Thought Leader."
-        ]
+        content: ["Pathway A: Psychology & Counselling Route (After Class 12th)","Step 1: Pass Class 12th with any stream (Arts preferred).","Step 2: Complete B.A./B.Sc. in Psychology or Counselling Studies.","Step 3: Pursue M.A. in Counselling Psychology or Guidance.","Step 4: Obtain certification from ICF, CCE, or NBHWC recognized body.","Step 5: Complete supervised coaching hours and practical training sessions.","Step 6: Work as Life Coach, Career Counsellor, or Wellness Mentor.","Pathway B: Corporate / Executive Coaching Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation in any discipline (MBA preferred).","Step 3: Gain 5–10 years of professional industry work experience.","Step 4: Pursue ICF-accredited Coach Training Programme (ACTP/ACSTH).","Step 5: Earn ICF credential: ACC, PCC, or MCC level.","Step 6: Work as Executive Coach, Leadership Mentor, or HR Consultant.","Pathway C: Skill-Based / Certification Entry Route","Step 1: Pass Class 12th in any stream.","Step 2: Complete graduation in any subject from recognized university.","Step 3: Join certified coaching programme (NLP, Career, or Life).","Step 4: Learn coaching tools like GROW model, psychometrics, assessments.","Step 5: Build portfolio through volunteering and pro-bono coaching sessions.","Step 6: Work as Freelance Coach, Educational Mentor, or Training Consultant."]
       },
       {
         id: "market",
@@ -105,16 +99,7 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Current opportunities and earning potential.",
         color: PURPLE2,
-        content: [
-          "Market Growth: The coaching industry in India is witnessing a massive boom, growing at a CAGR of ~14%. It is no longer a luxury for CEOs; it is becoming a necessity for professionals and students.",
-          "Market Size: The global coaching market is expected to hit $5 Billion by 2026, with India being a key emerging hub.",
-          "Entry-Level (0-2 years): Life Coach (Freelance), Career Counselor (School) - ₹3.5L–₹7L annually.",
-          "Mid-Level (3-7 years): Corporate Trainer, HR Business Partner - ₹8L–₹15L annually.",
-          "Senior-Level (8+ years): Executive Coach (Corporate Panel), Leadership Mentor - ₹20L–₹40L+ annually.",
-          "Star Level: Celebrity Coach, Top Business Mentor - ₹1Cr+ (consulting fees).",
-          "Note: This career has high variance. Freelancers can earn zero or crores depending on their personal brand and client base.",
-          "Metro vs. Non-Metro: Metro cities (Mumbai, Delhi, Bengaluru) currently hold 70% of the jobs, but online coaching is rapidly democratizing income for those in Tier-2 cities."
-        ]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60L – ₹2.5Cr","Senior / Lead Role (10+ yrs): ₹22 – ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹11 – ₹20 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3 – ₹5 LPA","Note: Metros pay 40% more; ICF certifications boost earnings.","Where Are the Jobs?","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune, Chennai.","Top Industries: Ed-tech, Corporate L&D, SaaS, NGOs, Healthcare, Consulting.","Global Demand: High remote demand in USA, UK, UAE, Australia."]
       },{
         id: "institutions",
         title: "Top Institutions & Learning Centers",
@@ -122,10 +107,9 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
         description: "Where to pursue education and certification.",
         color: PURPLE,
         content: [
-          "For Psychology/HR Foundation: Tata Institute of Social Sciences (TISS), Mumbai - Best for HR and Human Dynamics. Christ University, Bengaluru - Strong Psychology department. Delhi University (Lady Shri Ram / Jesus & Mary) - Top-tier Psychology courses. Amity University (Noida/Online) - Popular for Psychology and Counselling.",
-          "For Professional Coaching Certification (ICF Accredited): Coach Transformation Academy (CTA) - Offers courses in Delhi, Mumbai, and Online. NLP Coaching Academy (Bengaluru) - Focuses on Neuro-Linguistic Programming. Symbiosis Coaching (USA/India) - Distance learning options.",
-          "International Certifications: International Coaching Federation (ICF) - The most respected global body. EMCC (European Mentoring and Coaching Council) - Another global standard.",
-          "Specialized Programs: Career Council of India (CCI) - For career counselors specifically. Various universities offer postgraduate diplomas in Guidance & Counselling."
+          "Government: Indian Institute of Tourism & Travel Management (IITTM) Gwalior, Institute of Hotel Management (IHM) New Delhi, National Institute of Fashion Technology (NIFT) New Delhi, Jamia Millia Islamia — Department of Mass Communication & Event Studies New Delhi",
+          "Private: National Academy of Event Management & Development (NAEMD) Mumbai, Wedding Academy of India (WAI) New Delhi, Amity Institute of Event Management Noida, Pearl Academy — Event & Experiential Design New Delhi",
+          "Online: Udemy — Wedding Planning & Management Masterclass, Coursera — Event & Wedding Management Programme, Alison — Professional Wedding Planning Diploma, Shaw Academy — Certified Wedding Planner Course"
         ]
       },
       {
@@ -156,7 +140,7 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
           "NLP (Neuro-Linguistic Programming) Certification: Enhances coaching techniques and communication skills.",
           "Postgraduate Diplomas: In Guidance & Counselling offered by NCERT and various universities.",
           "Specialized Certifications: Executive Coaching, Life Coaching, Business Coaching, Wellness Coaching certifications.",
-          "Cost of Certification: ICF Accredited Course (60 Hours) - ₹1.5L–₹3.5L. Mentoring Hours - You often have to pay a senior mentor to supervise you (approx. ₹50k)."
+          "Cost of Certification: ICF Accredited Course (60 Hours) -  ₹1.5L–₹3.5L. Mentoring Hours -  You often have to pay a senior mentor to supervise you (approx. ₹50k)."
         ]
       },
       {
@@ -166,13 +150,9 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
         description: "Conventional and emerging career options.",
         color: PURPLE2,
         content: [
-          "Conventional Careers: School Counselor, HR Manager, Corporate Trainer, Life Coach, Career Counselor.",
-          "New-Age Careers: Wellness Coach (helping people manage stress and sleep), Agile Coach (helping software teams work faster and better - huge demand in IT), Dating/Relationship Coach (helping people navigate modern relationships), Executive Coach (for C-suite leaders).",
-          "Freelancing: Building a personal brand on Instagram/LinkedIn and selling 'Masterclasses' or 1-on-1 coaching packages.",
-          "Entrepreneurship: Starting your own coaching practice, online coaching platform, or coaching academy.",
-          "Corporate Roles: Internal coaching departments, talent development, organizational development.",
-          "Social Impact: Coaching in NGOs, community organizations, and social enterprises.",
-          "Hybrid Roles: Combining coaching with other expertise (e.g., Tech Coach, Finance Coach, Health Coach)."
+          "Conventional: Career Counsellor, Academic Mentor, Corporate Trainer, Leadership Coach",
+          "New-age and AI driven: Learning Experience Coach, AI Skills Trainer, Performance Coach, Digital Transformation Mentor",
+          "Remote/Entrepreneurship: Online Life Coach, Personal Branding Mentor, Course Creator, Independent Coaching Consultant"
         ]
       },
       {

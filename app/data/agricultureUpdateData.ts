@@ -46,11 +46,11 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#DA1313",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -208,11 +208,11 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an agricultural engineer.",
         color: "#DA1313",
         content: [
-          "8:30 AM - The Field Briefing: Arjun starts his day on a sprawling farm in Pune. He isn't holding a shovel; he's holding a tablet. He's checking the telemetry data from a fleet of autonomous tractors currently tilling the soil. One tractor has flagged a sensor error, and Arjun quickly recalibrates the GPS settings from his screen.",
-          "10:30 AM - Drone Scouting: He launches a thermal-imaging drone to fly over the 50-acre wheat field. As the drone sends back live data, Arjun identifies a 'stressed' patch of crops that isn't getting enough nitrogen. He sends a command to the automated sprinkler system to deliver a precise dose of liquid fertilizer to only that specific patch. This is Precision Agriculture in action.",
-          "1:30 PM - Designing the Future: After lunch, Arjun heads to the R&D lab. He's working on a 3D model of a new 'Solar-Powered Cold Storage' unit. In India, 40% of fresh produce is wasted due to heat. Arjun's design uses affordable, locally sourced materials and solar panels to keep vegetables fresh in remote villages without electricity.",
-          "4:00 PM - The Client Meeting: He meets with a group of local farmers to explain how a new moisture-sensing probe works. He translates complex engineering jargon into simple language, showing them how they can save 30% on their water bills.",
-          "6:30 PM - Data Analytics: Before leaving, Arjun reviews the day's data logs. He prepares a report for his manager on how the new robotic seeder performed compared to manual labor. As he drives home, he sees the green fields and feels proud—he didn't just 'work' today; he helped secure the food on a thousand plates."
+          "8:30 AM -  The Field Briefing: Arjun starts his day on a sprawling farm in Pune. He isn't holding a shovel; he's holding a tablet. He's checking the telemetry data from a fleet of autonomous tractors currently tilling the soil. One tractor has flagged a sensor error, and Arjun quickly recalibrates the GPS settings from his screen.",
+          "10:30 AM -  Drone Scouting: He launches a thermal-imaging drone to fly over the 50-acre wheat field. As the drone sends back live data, Arjun identifies a 'stressed' patch of crops that isn't getting enough nitrogen. He sends a command to the automated sprinkler system to deliver a precise dose of liquid fertilizer to only that specific patch. This is Precision Agriculture in action.",
+          "1:30 PM -  Designing the Future: After lunch, Arjun heads to the R&D lab. He's working on a 3D model of a new 'Solar-Powered Cold Storage' unit. In India, 40% of fresh produce is wasted due to heat. Arjun's design uses affordable, locally sourced materials and solar panels to keep vegetables fresh in remote villages without electricity.",
+          "4:00 PM -  The Client Meeting: He meets with a group of local farmers to explain how a new moisture-sensing probe works. He translates complex engineering jargon into simple language, showing them how they can save 30% on their water bills.",
+          "6:30 PM -  Data Analytics: Before leaving, Arjun reviews the day's data logs. He prepares a report for his manager on how the new robotic seeder performed compared to manual labor. As he drives home, he sees the green fields and feels proud—he didn't just 'work' today; he helped secure the food on a thousand plates."
         ]
       },
       {
@@ -483,11 +483,11 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a plant research scientist.",
         color: "#DA1313",
         content: [
-          "8:00 AM - The Greenhouse Check-up: Dr. Ishaan starts his day in a lab coat. His first stop is the Climate-Controlled Greenhouse. He inspects a new variety of chickpea. He uses a handheld hyperspectral sensor to measure the plant's stress levels.",
-          "10:30 AM - Decoding DNA: Back in the lab, Ishaan moves to his high-powered workstation. He's analyzing results from a CRISPR-Cas9 experiment. He's trying to 'knock out' a specific gene that makes the plant vulnerable to a common fungus. On his screen, strings of A, T, G, and C (DNA bases) dance in patterns.",
-          "1:30 PM - Collaboration & Coffee: Lunch is a quick affair with a team of Soil Scientists and Data Analysts. They are discussing a 'Smart Farm' project in Punjab. Ishaan explains how his new seeds will perform if the soil salinity increases. In this field, science is a team sport.",
-          "4:00 PM - Field Visit: Ishaan travels to a nearby experimental plot. He meets with local farmers who are testing his previous year's 'Drought-Resistant' seeds. He collects soil samples and records the farmers' feedback. Seeing his lab work actually sprouting in the real world is the best part of his day.",
-          "6:30 PM - Writing the Future: The day ends at his desk, writing a research paper for an international journal. He's documenting a breakthrough in bio-fortification—increasing the Iron and Zinc content in bajra. As he leaves, he knows his work might one day prevent malnutrition for millions of children."
+          "8:00 AM -  The Greenhouse Check-up: Dr. Ishaan starts his day in a lab coat. His first stop is the Climate-Controlled Greenhouse. He inspects a new variety of chickpea. He uses a handheld hyperspectral sensor to measure the plant's stress levels.",
+          "10:30 AM -  Decoding DNA: Back in the lab, Ishaan moves to his high-powered workstation. He's analyzing results from a CRISPR-Cas9 experiment. He's trying to 'knock out' a specific gene that makes the plant vulnerable to a common fungus. On his screen, strings of A, T, G, and C (DNA bases) dance in patterns.",
+          "1:30 PM -  Collaboration & Coffee: Lunch is a quick affair with a team of Soil Scientists and Data Analysts. They are discussing a 'Smart Farm' project in Punjab. Ishaan explains how his new seeds will perform if the soil salinity increases. In this field, science is a team sport.",
+          "4:00 PM -  Field Visit: Ishaan travels to a nearby experimental plot. He meets with local farmers who are testing his previous year's 'Drought-Resistant' seeds. He collects soil samples and records the farmers' feedback. Seeing his lab work actually sprouting in the real world is the best part of his day.",
+          "6:30 PM -  Writing the Future: The day ends at his desk, writing a research paper for an international journal. He's documenting a breakthrough in bio-fortification—increasing the Iron and Zinc content in bajra. As he leaves, he knows his work might one day prevent malnutrition for millions of children."
         ]
       },
       {
@@ -750,12 +750,12 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional beekeeper.",
         color: "#DA1313",
         content: [
-          "6:00 AM - Morning Inspection: Rajesh starts early at his apiary in Karnataka. He checks 20 bee boxes for colony health. He looks for the queen, brood patterns, and food stores. One hive shows signs of disease—he marks it for treatment.",
-          "9:00 AM - Pollination Service: He drives to a nearby mango farm. During flowering season, he places 10 hives there. The farmer pays him ₹500 per hive for the season. The bees pollinate the flowers; the farmer gets better yields.",
-          "12:00 PM - Honey Extraction: Back at the apiary, Rajesh extracts honey from 5 frames using a centrifuge. He filters it carefully and bottles it in 500ml jars. Each jar sells for ₹300–₹500 online.",
-          "2:00 PM - Business & Marketing: Rajesh updates his Instagram with photos of his honey. He has 5,000 followers and gets 20 orders weekly. He also supplies to local restaurants and wellness shops.",
-          "4:00 PM - Record Keeping: He maintains detailed records—hive health, honey yield, expenses, income. This data helps him plan for the next season and apply for government subsidies.",
-          "6:00 PM - Learning & Networking: Rajesh attends a beekeeping workshop at the local KVK. He learns about new queen rearing techniques and connects with other beekeepers. Continuous learning is key to success."
+          "6:00 AM -  Morning Inspection: Rajesh starts early at his apiary in Karnataka. He checks 20 bee boxes for colony health. He looks for the queen, brood patterns, and food stores. One hive shows signs of disease—he marks it for treatment.",
+          "9:00 AM -  Pollination Service: He drives to a nearby mango farm. During flowering season, he places 10 hives there. The farmer pays him ₹500 per hive for the season. The bees pollinate the flowers; the farmer gets better yields.",
+          "12:00 PM -  Honey Extraction: Back at the apiary, Rajesh extracts honey from 5 frames using a centrifuge. He filters it carefully and bottles it in 500ml jars. Each jar sells for ₹300–₹500 online.",
+          "2:00 PM -  Business & Marketing: Rajesh updates his Instagram with photos of his honey. He has 5,000 followers and gets 20 orders weekly. He also supplies to local restaurants and wellness shops.",
+          "4:00 PM -  Record Keeping: He maintains detailed records—hive health, honey yield, expenses, income. This data helps him plan for the next season and apply for government subsidies.",
+          "6:00 PM -  Learning & Networking: Rajesh attends a beekeeping workshop at the local KVK. He learns about new queen rearing techniques and connects with other beekeepers. Continuous learning is key to success."
         ]
       },
       {
@@ -1034,11 +1034,11 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a veterinary professional.",
         color: "#DA1313",
         content: [
-          "8:30 AM - Morning clinic hours and patient consultations",
-          "10:30 AM - Diagnostic tests and lab work",
-          "1:30 PM - Surgical procedures and treatments",
-          "4:00 PM - Farm visits and livestock inspections",
-          "6:00 PM - Record keeping and case documentation"
+          "8:30 AM -  Morning clinic hours and patient consultations",
+          "10:30 AM -  Diagnostic tests and lab work",
+          "1:30 PM -  Surgical procedures and treatments",
+          "4:00 PM -  Farm visits and livestock inspections",
+          "6:00 PM -  Record keeping and case documentation"
         ]
       },
       {
@@ -1233,12 +1233,12 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an aquaculture professional.",
         color: "#DA1313",
         content: [
-          "6:00 AM - Pre-Stocking Inspection: Priya arrives at the shrimp farm in Andhra Pradesh. She tests water quality—pH, salinity, dissolved oxygen, and ammonia levels. She checks the hatchery for healthy seed stock.",
-          "9:00 AM - Pond Monitoring: She walks through 10 ponds, observing shrimp behavior and feeding patterns. She adjusts aeration systems and feed quantities based on observations. One pond shows signs of disease—she collects samples for lab testing.",
-          "12:00 PM - Feed Management: Priya coordinates with the feed supplier. She calculates feed requirements based on shrimp biomass and growth stage. She ensures feed quality and storage conditions.",
-          "2:00 PM - Disease Diagnosis: In the lab, she tests water and tissue samples. She identifies a bacterial infection in one pond and prescribes treatment protocols. She documents findings in the farm management system.",
-          "4:00 PM - Harvest Planning: She reviews harvest schedules and coordinates with buyers. She ensures proper sorting, grading, and packaging of harvested shrimp for export.",
-          "6:00 PM - Data Analysis: Priya updates farm records—feed conversion ratios, survival rates, water quality trends. She uses this data to optimize next season's production and apply for government subsidies."
+          "6:00 AM -  Pre-Stocking Inspection: Priya arrives at the shrimp farm in Andhra Pradesh. She tests water quality—pH, salinity, dissolved oxygen, and ammonia levels. She checks the hatchery for healthy seed stock.",
+          "9:00 AM -  Pond Monitoring: She walks through 10 ponds, observing shrimp behavior and feeding patterns. She adjusts aeration systems and feed quantities based on observations. One pond shows signs of disease—she collects samples for lab testing.",
+          "12:00 PM -  Feed Management: Priya coordinates with the feed supplier. She calculates feed requirements based on shrimp biomass and growth stage. She ensures feed quality and storage conditions.",
+          "2:00 PM -  Disease Diagnosis: In the lab, she tests water and tissue samples. She identifies a bacterial infection in one pond and prescribes treatment protocols. She documents findings in the farm management system.",
+          "4:00 PM -  Harvest Planning: She reviews harvest schedules and coordinates with buyers. She ensures proper sorting, grading, and packaging of harvested shrimp for export.",
+          "6:00 PM -  Data Analysis: Priya updates farm records—feed conversion ratios, survival rates, water quality trends. She uses this data to optimize next season's production and apply for government subsidies."
         ]
       },
       {
@@ -1500,13 +1500,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a dairy professional.",
         color: "#DA1313",
         content: [
-          "5:30 AM - Milk Reception: Rajesh arrives at the Amul dairy plant in Gujarat. He tests incoming raw milk for quality—fat content, SNF (Solids-Not-Fat), acidity, and microbial count. He rejects substandard batches.",
-          "7:00 AM - Processing Supervision: He monitors pasteurization at 72°C for 15 seconds. He checks homogenization pressure and temperature control systems. He ensures all equipment is sanitized.",
-          "9:00 AM - Quality Testing: In the lab, Rajesh conducts tests—bacterial count, antibiotic residues, pesticide screening. He uses HPLC and spectrophotometry for precision analysis.",
-          "11:00 AM - Product Development: He works with the R&D team on a new low-fat paneer variant. He adjusts milk composition, coagulation time, and cutting techniques.",
-          "1:00 PM - Packaging & Labeling: He verifies packaging integrity, expiry dates, and FSSAI compliance. He ensures cold chain maintenance from plant to distribution.",
-          "3:00 PM - Data Analysis: Rajesh updates production records—yield percentages, waste reduction, cost optimization. He identifies trends and suggests process improvements.",
-          "5:00 PM - Compliance Check: He reviews FSSAI audit reports and ensures all documentation is current. He coordinates with regulatory authorities."
+          "5:30 AM -  Milk Reception: Rajesh arrives at the Amul dairy plant in Gujarat. He tests incoming raw milk for quality—fat content, SNF (Solids-Not-Fat), acidity, and microbial count. He rejects substandard batches.",
+          "7:00 AM -  Processing Supervision: He monitors pasteurization at 72°C for 15 seconds. He checks homogenization pressure and temperature control systems. He ensures all equipment is sanitized.",
+          "9:00 AM -  Quality Testing: In the lab, Rajesh conducts tests—bacterial count, antibiotic residues, pesticide screening. He uses HPLC and spectrophotometry for precision analysis.",
+          "11:00 AM -  Product Development: He works with the R&D team on a new low-fat paneer variant. He adjusts milk composition, coagulation time, and cutting techniques.",
+          "1:00 PM -  Packaging & Labeling: He verifies packaging integrity, expiry dates, and FSSAI compliance. He ensures cold chain maintenance from plant to distribution.",
+          "3:00 PM -  Data Analysis: Rajesh updates production records—yield percentages, waste reduction, cost optimization. He identifies trends and suggests process improvements.",
+          "5:00 PM -  Compliance Check: He reviews FSSAI audit reports and ensures all documentation is current. He coordinates with regulatory authorities."
         ]
       },
       {
@@ -1726,14 +1726,14 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional florist.",
         color: "#DA1313",
         content: [
-          "5:30 AM - Market Visit: Priya arrives at the Delhi flower market. She selects fresh roses, orchids, and seasonal flowers. She negotiates prices and checks quality.",
-          "7:00 AM - Inventory Management: She arranges flowers in cold storage. She removes wilted petals and prepares stems for arrangements.",
-          "9:00 AM - Client Consultations: She meets with a bride-to-be for wedding florals. She discusses themes, colors, and budget. She shows portfolio samples.",
-          "11:00 AM - Design & Arrangement: She creates sample bouquets and centerpieces. She uses color theory and design principles to create stunning arrangements.",
-          "1:00 PM - Social Media & Orders: She photographs arrangements and posts on Instagram. She manages online orders from her website and responds to inquiries.",
-          "3:00 PM - Event Preparation: She prepares flowers for an evening corporate event. She packs arrangements carefully for delivery.",
-          "5:00 PM - Delivery & Setup: She delivers flowers to the venue. She arranges centerpieces and ensures everything looks perfect.",
-          "7:00 PM - Business Management: She updates inventory, tracks expenses, and plans next week's orders. She responds to client feedback."
+          "5:30 AM -  Market Visit: Priya arrives at the Delhi flower market. She selects fresh roses, orchids, and seasonal flowers. She negotiates prices and checks quality.",
+          "7:00 AM -  Inventory Management: She arranges flowers in cold storage. She removes wilted petals and prepares stems for arrangements.",
+          "9:00 AM -  Client Consultations: She meets with a bride-to-be for wedding florals. She discusses themes, colors, and budget. She shows portfolio samples.",
+          "11:00 AM -  Design & Arrangement: She creates sample bouquets and centerpieces. She uses color theory and design principles to create stunning arrangements.",
+          "1:00 PM -  Social Media & Orders: She photographs arrangements and posts on Instagram. She manages online orders from her website and responds to inquiries.",
+          "3:00 PM -  Event Preparation: She prepares flowers for an evening corporate event. She packs arrangements carefully for delivery.",
+          "5:00 PM -  Delivery & Setup: She delivers flowers to the venue. She arranges centerpieces and ensures everything looks perfect.",
+          "7:00 PM -  Business Management: She updates inventory, tracks expenses, and plans next week's orders. She responds to client feedback."
         ]
       },
       {
@@ -1964,13 +1964,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a food scientist.",
         color: "#DA1313",
         content: [
-          "6:30 AM - Lab Preparation: Dr. Amit arrives at the CFTRI lab in Mysuru. He calibrates equipment—pH meters, spectrophotometers, and chromatography machines. He reviews the day's testing schedule.",
-          "8:00 AM - Food Safety Testing: He conducts microbial tests on samples from a food processing plant. He checks for pathogens, contamination, and shelf-life stability. He documents all results.",
-          "10:00 AM - Product Development: He works with the R&D team on a new fortified flour product. He tests different mineral combinations and evaluates nutritional content using HPLC analysis.",
-          "12:00 PM - Data Analysis: He analyzes test results and compares them against FSSAI standards. He prepares reports and identifies any deviations or improvements needed.",
-          "2:00 PM - Collaboration: He meets with production teams to discuss quality issues. He recommends process improvements and troubleshoots contamination problems.",
-          "4:00 PM - Innovation: He develops new preservation techniques for reducing spoilage. He experiments with natural preservatives and packaging innovations.",
-          "6:00 PM - Compliance Review: He reviews FSSAI compliance documentation and ensures all protocols are followed. He updates safety manuals and trains junior staff on new procedures."
+          "6:30 AM -  Lab Preparation: Dr. Amit arrives at the CFTRI lab in Mysuru. He calibrates equipment—pH meters, spectrophotometers, and chromatography machines. He reviews the day's testing schedule.",
+          "8:00 AM -  Food Safety Testing: He conducts microbial tests on samples from a food processing plant. He checks for pathogens, contamination, and shelf-life stability. He documents all results.",
+          "10:00 AM -  Product Development: He works with the R&D team on a new fortified flour product. He tests different mineral combinations and evaluates nutritional content using HPLC analysis.",
+          "12:00 PM -  Data Analysis: He analyzes test results and compares them against FSSAI standards. He prepares reports and identifies any deviations or improvements needed.",
+          "2:00 PM -  Collaboration: He meets with production teams to discuss quality issues. He recommends process improvements and troubleshoots contamination problems.",
+          "4:00 PM -  Innovation: He develops new preservation techniques for reducing spoilage. He experiments with natural preservatives and packaging innovations.",
+          "6:00 PM -  Compliance Review: He reviews FSSAI compliance documentation and ensures all protocols are followed. He updates safety manuals and trains junior staff on new procedures."
         ]
       },
       {
@@ -2201,14 +2201,14 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a horticulturist.",
         color: "#DA1313",
         content: [
-          "5:30 AM - Farm Inspection: Vikram arrives at his organic apple orchard in Himachal Pradesh. He inspects trees for pest damage, disease symptoms, and fruit development. He checks irrigation systems.",
-          "7:00 AM - Soil & Nutrient Management: He tests soil moisture and nutrient levels. He adjusts drip irrigation based on weather and plant needs. He applies organic compost and bio-fertilizers.",
-          "9:00 AM - Pest & Disease Monitoring: He scouts for pests and diseases using integrated pest management techniques. He identifies affected plants and applies organic solutions.",
-          "11:00 AM - Breeding & Propagation: He works on developing new high-yield apple varieties. He conducts grafting and propagation experiments in the nursery section.",
-          "1:00 PM - Greenhouse Operations: He manages the nursery greenhouse where seedlings are grown. He monitors temperature, humidity, and light conditions for optimal growth.",
-          "3:00 PM - Harvest Planning: He assesses fruit maturity and plans harvest schedules. He coordinates with workers on picking techniques to minimize damage.",
-          "5:00 PM - Post-Harvest Management: He oversees grading, sorting, and packaging of harvested fruits. He ensures proper cold chain management for export quality.",
-          "7:00 PM - Data & Planning: He updates production records, analyzes yield data, and plans next season's crop rotation and variety selection."
+          "5:30 AM -  Farm Inspection: Vikram arrives at his organic apple orchard in Himachal Pradesh. He inspects trees for pest damage, disease symptoms, and fruit development. He checks irrigation systems.",
+          "7:00 AM -  Soil & Nutrient Management: He tests soil moisture and nutrient levels. He adjusts drip irrigation based on weather and plant needs. He applies organic compost and bio-fertilizers.",
+          "9:00 AM -  Pest & Disease Monitoring: He scouts for pests and diseases using integrated pest management techniques. He identifies affected plants and applies organic solutions.",
+          "11:00 AM -  Breeding & Propagation: He works on developing new high-yield apple varieties. He conducts grafting and propagation experiments in the nursery section.",
+          "1:00 PM -  Greenhouse Operations: He manages the nursery greenhouse where seedlings are grown. He monitors temperature, humidity, and light conditions for optimal growth.",
+          "3:00 PM -  Harvest Planning: He assesses fruit maturity and plans harvest schedules. He coordinates with workers on picking techniques to minimize damage.",
+          "5:00 PM -  Post-Harvest Management: He oversees grading, sorting, and packaging of harvested fruits. He ensures proper cold chain management for export quality.",
+          "7:00 PM -  Data & Planning: He updates production records, analyzes yield data, and plans next season's crop rotation and variety selection."
         ]
       },
       {
@@ -2439,14 +2439,14 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a poultry professional.",
         color: "#DA1313",
         content: [
-          "4:30 AM - Pre-Dawn Inspection: Suresh arrives at his poultry farm in Andhra Pradesh. He checks bird health and behavior. He monitors temperature and ventilation in the poultry house.",
-          "6:00 AM - Feeding & Water Management: He ensures automated feeders and waterers are functioning properly. He checks feed quality and water pH. He adjusts portions based on bird age and production stage.",
-          "8:00 AM - Health Monitoring: He inspects birds for signs of disease or stress. He checks for mortality and removes any sick birds. He maintains detailed health records.",
-          "10:00 AM - Vaccination & Biosecurity: He administers scheduled vaccinations. He ensures strict biosecurity protocols—disinfection, protective gear, visitor logs. He prevents disease entry.",
-          "12:00 PM - Egg Collection & Grading: He collects eggs from layer birds. He grades eggs by size and quality. He ensures proper storage and cold chain maintenance.",
-          "2:00 PM - Feed & Nutrition Management: He monitors feed consumption rates. He adjusts nutrition based on production metrics. He coordinates with feed suppliers.",
-          "4:00 PM - Maintenance & Cleaning: He oversees cleaning of poultry houses and equipment. He maintains ventilation systems and lighting. He ensures sanitation standards.",
-          "6:00 PM - Data & Planning: He records production data—egg count, feed consumption, mortality rates. He analyzes trends and plans next day's operations. He coordinates with buyers."
+          "4:30 AM -  Pre-Dawn Inspection: Suresh arrives at his poultry farm in Andhra Pradesh. He checks bird health and behavior. He monitors temperature and ventilation in the poultry house.",
+          "6:00 AM -  Feeding & Water Management: He ensures automated feeders and waterers are functioning properly. He checks feed quality and water pH. He adjusts portions based on bird age and production stage.",
+          "8:00 AM -  Health Monitoring: He inspects birds for signs of disease or stress. He checks for mortality and removes any sick birds. He maintains detailed health records.",
+          "10:00 AM -  Vaccination & Biosecurity: He administers scheduled vaccinations. He ensures strict biosecurity protocols—disinfection, protective gear, visitor logs. He prevents disease entry.",
+          "12:00 PM -  Egg Collection & Grading: He collects eggs from layer birds. He grades eggs by size and quality. He ensures proper storage and cold chain maintenance.",
+          "2:00 PM -  Feed & Nutrition Management: He monitors feed consumption rates. He adjusts nutrition based on production metrics. He coordinates with feed suppliers.",
+          "4:00 PM -  Maintenance & Cleaning: He oversees cleaning of poultry houses and equipment. He maintains ventilation systems and lighting. He ensures sanitation standards.",
+          "6:00 PM -  Data & Planning: He records production data—egg count, feed consumption, mortality rates. He analyzes trends and plans next day's operations. He coordinates with buyers."
         ]
       },
       {
@@ -2676,14 +2676,14 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a sericulturist.",
         color: "#DA1313",
         content: [
-          "5:30 AM - Mulberry Leaf Harvest: Ramesh arrives at his sericulture farm in Karnataka. He harvests fresh mulberry leaves for silkworm feed. He checks leaf quality and stores them in cool conditions.",
-          "7:00 AM - Silkworm Rearing: He inspects silkworm rearing beds for health and development. He monitors temperature (24-26°C) and humidity (75-80%) levels. He removes dead worms and diseased cocoons.",
-          "9:00 AM - Feeding Management: He feeds silkworms with fresh mulberry leaves 4-5 times daily. He cleans rearing beds and removes waste. He maintains detailed records of worm development.",
-          "11:00 AM - Disease Monitoring: He scouts for silkworm diseases like grasserie and muscardine. He applies preventive measures and quarantines affected batches.",
-          "1:00 PM - Cocoon Inspection: He checks cocoon development and maturity. He identifies ready cocoons for harvesting. He plans stifling (killing pupae) schedule.",
-          "3:00 PM - Cocoon Processing: He stifles cocoons using steam or hot air. He sorts cocoons by size and quality. He prepares them for reeling.",
-          "5:00 PM - Reeling & Silk Production: He operates reeling machines to extract silk threads from cocoons. He grades silk by quality and fineness.",
-          "7:00 PM - Business Management: He updates production records, tracks yields, and plans next rearing cycle. He coordinates with buyers and manages finances."
+          "5:30 AM -  Mulberry Leaf Harvest: Ramesh arrives at his sericulture farm in Karnataka. He harvests fresh mulberry leaves for silkworm feed. He checks leaf quality and stores them in cool conditions.",
+          "7:00 AM -  Silkworm Rearing: He inspects silkworm rearing beds for health and development. He monitors temperature (24-26°C) and humidity (75-80%) levels. He removes dead worms and diseased cocoons.",
+          "9:00 AM -  Feeding Management: He feeds silkworms with fresh mulberry leaves 4-5 times daily. He cleans rearing beds and removes waste. He maintains detailed records of worm development.",
+          "11:00 AM -  Disease Monitoring: He scouts for silkworm diseases like grasserie and muscardine. He applies preventive measures and quarantines affected batches.",
+          "1:00 PM -  Cocoon Inspection: He checks cocoon development and maturity. He identifies ready cocoons for harvesting. He plans stifling (killing pupae) schedule.",
+          "3:00 PM -  Cocoon Processing: He stifles cocoons using steam or hot air. He sorts cocoons by size and quality. He prepares them for reeling.",
+          "5:00 PM -  Reeling & Silk Production: He operates reeling machines to extract silk threads from cocoons. He grades silk by quality and fineness.",
+          "7:00 PM -  Business Management: He updates production records, tracks yields, and plans next rearing cycle. He coordinates with buyers and manages finances."
         ]
       },
       {
@@ -2913,14 +2913,14 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a vertical farming professional.",
         color: "#DA1313",
         content: [
-          "6:00 AM - System Check: Priya arrives at the vertical farm in Bengaluru. She checks all IoT sensors for temperature, humidity, CO2, and light levels. She reviews overnight data on her tablet.",
-          "7:00 AM - Nutrient Management: She tests nutrient solution pH and EC (electrical conductivity). She adjusts nutrient concentrations based on crop stage. She ensures water circulation is optimal.",
-          "9:00 AM - Crop Inspection: She walks through all vertical layers inspecting plant health. She checks for nutrient deficiencies, pest issues, and growth progress. She removes any diseased plants.",
-          "11:00 AM - LED & Light Optimization: She adjusts LED light intensity and spectrum based on crop growth stage. She optimizes photoperiod for maximum yield and quality.",
-          "1:00 PM - Harvesting & Packaging: She harvests mature crops (lettuce, microgreens, herbs). She washes, sorts, and packages produce for delivery. She maintains food safety standards.",
-          "3:00 PM - Data Analysis: She analyzes yield data, water usage, and energy consumption. She uses AI tools to predict optimal growing conditions. She identifies areas for improvement.",
-          "5:00 PM - Maintenance: She performs preventive maintenance on pumps, filters, and electrical systems. She cleans growing trays and sterilizes equipment.",
-          "7:00 PM - Planning & Coordination: She plans next crop cycle, coordinates with buyers, and manages inventory. She updates production records and forecasts."
+          "6:00 AM -  System Check: Priya arrives at the vertical farm in Bengaluru. She checks all IoT sensors for temperature, humidity, CO2, and light levels. She reviews overnight data on her tablet.",
+          "7:00 AM -  Nutrient Management: She tests nutrient solution pH and EC (electrical conductivity). She adjusts nutrient concentrations based on crop stage. She ensures water circulation is optimal.",
+          "9:00 AM -  Crop Inspection: She walks through all vertical layers inspecting plant health. She checks for nutrient deficiencies, pest issues, and growth progress. She removes any diseased plants.",
+          "11:00 AM -  LED & Light Optimization: She adjusts LED light intensity and spectrum based on crop growth stage. She optimizes photoperiod for maximum yield and quality.",
+          "1:00 PM -  Harvesting & Packaging: She harvests mature crops (lettuce, microgreens, herbs). She washes, sorts, and packages produce for delivery. She maintains food safety standards.",
+          "3:00 PM -  Data Analysis: She analyzes yield data, water usage, and energy consumption. She uses AI tools to predict optimal growing conditions. She identifies areas for improvement.",
+          "5:00 PM -  Maintenance: She performs preventive maintenance on pumps, filters, and electrical systems. She cleans growing trays and sterilizes equipment.",
+          "7:00 PM -  Planning & Coordination: She plans next crop cycle, coordinates with buyers, and manages inventory. She updates production records and forecasts."
         ]
       },
       {

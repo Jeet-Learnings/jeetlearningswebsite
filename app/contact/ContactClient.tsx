@@ -138,7 +138,7 @@ export default function ContactClient() {
                     </h3>
                     <p className="font-poppins text-[#757575] text-sm">
                       5/126 Vikash Khand<br />
-                      Gomtinagar, Lucknow (U.P) - 226010
+                      Gomtinagar, Lucknow (U.P) -  226010
                     </p>
                   </div>
                 </div>
@@ -155,8 +155,8 @@ export default function ContactClient() {
                       <TranslatedText>Business Hours</TranslatedText>
                     </h3>
                     <div className="font-poppins text-[#757575] text-sm space-y-1">
-                      <div><TranslatedText>Mon - Fri: 9:00 AM - 6:00 PM</TranslatedText></div>
-                      <div><TranslatedText>Sat: 10:00 AM - 4:00 PM</TranslatedText></div>
+                      <div><TranslatedText>Mon -  Fri: 9:00 AM -  6:00 PM</TranslatedText></div>
+                      <div><TranslatedText>Sat: 10:00 AM -  4:00 PM</TranslatedText></div>
                       <div><TranslatedText>Sun: Closed</TranslatedText></div>
                     </div>
                   </div>

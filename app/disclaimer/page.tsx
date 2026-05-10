@@ -2,7 +2,7 @@ import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 
 export const metadata = {
-  title: "Disclaimer - Jeet Learnings",
+  title: "Disclaimer -  Jeet Learnings",
   description: "Important disclaimers regarding Jeet Learnings career counseling services and information.",
 };
 

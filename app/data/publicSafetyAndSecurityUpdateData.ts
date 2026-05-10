@@ -45,14 +45,14 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Real workflow of a Naval Officer on a Stealth Frigate.",
         color: BLUE2,
         content: [
-          "05:30 AM - Wakey Wakey: The pipe (announcement) blares across the ship. Kabir rolls out of his bunk. Life at sea is a 24/7 cycle. He heads to the bridge (the ship's cockpit) for his watch.",
-          "08:00 AM - The Morning Brief: The Captain briefs the officers. Intelligence reports a suspicious pirate vessel 50 nautical miles away. Kabir is tasked with leading the VBSS (Visit, Board, Search, and Seizure) team.",
-          "10:00 AM - Action Stations: The alarm rings. This is a drill, but it feels real. Kabir gears up in tactical armor with his team of MARCOS (Marine Commandos) and sailors. They launch a fast boat (RIB) from the ship, racing towards a target dummy.",
-          "01:00 PM - Lunch in the Wardroom: The food is surprisingly good—Naval chefs are legendary. He eats with the Chief Engineer and discusses the status of the gas turbine engines. On a ship, the engineer and the warrior must be best friends.",
-          "03:00 PM - Admin & Training: Back in his cabin, Kabir finishes paperwork. He then conducts a class for junior sailors on 'Radar Plotting.' A ship is a floating school; you are always learning or teaching.",
-          "06:00 PM - Sunset Ceremony: The ship slows down. The ensign (flag) is lowered. For a brief moment, the crew pauses to respect the sea and the nation.",
-          "08:00 PM - Night Watch: The ocean is pitch black. Kabir stares at the radar screen. A tiny blip appears. Is it a fishing boat or a submarine periscope? He calculates the speed and trajectory. Vigilance is the price of safety.",
-          "10:00 PM - Rest: He hands over the watch to the next officer and heads to his cabin, the gentle rolling of the ship rocking him to sleep instantly."
+          "05:30 AM -  Wakey Wakey: The pipe (announcement) blares across the ship. Kabir rolls out of his bunk. Life at sea is a 24/7 cycle. He heads to the bridge (the ship's cockpit) for his watch.",
+          "08:00 AM -  The Morning Brief: The Captain briefs the officers. Intelligence reports a suspicious pirate vessel 50 nautical miles away. Kabir is tasked with leading the VBSS (Visit, Board, Search, and Seizure) team.",
+          "10:00 AM -  Action Stations: The alarm rings. This is a drill, but it feels real. Kabir gears up in tactical armor with his team of MARCOS (Marine Commandos) and sailors. They launch a fast boat (RIB) from the ship, racing towards a target dummy.",
+          "01:00 PM -  Lunch in the Wardroom: The food is surprisingly good—Naval chefs are legendary. He eats with the Chief Engineer and discusses the status of the gas turbine engines. On a ship, the engineer and the warrior must be best friends.",
+          "03:00 PM -  Admin & Training: Back in his cabin, Kabir finishes paperwork. He then conducts a class for junior sailors on 'Radar Plotting.' A ship is a floating school; you are always learning or teaching.",
+          "06:00 PM -  Sunset Ceremony: The ship slows down. The ensign (flag) is lowered. For a brief moment, the crew pauses to respect the sea and the nation.",
+          "08:00 PM -  Night Watch: The ocean is pitch black. Kabir stares at the radar screen. A tiny blip appears. Is it a fishing boat or a submarine periscope? He calculates the speed and trajectory. Vigilance is the price of safety.",
+          "10:00 PM -  Rest: He hands over the watch to the next officer and heads to his cabin, the gentle rolling of the ship rocking him to sleep instantly."
         ]
       },
       {
@@ -62,7 +62,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
         content: [
-          "Personality Check: The Adaptable - Can you live in a steel box (ship/submarine) with 200 other people for months without internet? The Technical Mind - A ship is a floating city of machines. Do you like understanding how things work? The Leader - Can you take responsibility for a team of 20 sailors when you are just 22 years old? The Calm Voyager - Do you get seasick easily? (Don't worry, you get used to it, but you need a strong stomach!).",
+          "Personality Check: The Adaptable -  Can you live in a steel box (ship/submarine) with 200 other people for months without internet? The Technical Mind -  A ship is a floating city of machines. Do you like understanding how things work? The Leader -  Can you take responsibility for a team of 20 sailors when you are just 22 years old? The Calm Voyager -  Do you get seasick easily? (Don't worry, you get used to it, but you need a strong stomach!).",
           "Hard Skills: Mathematics & Physics (Navigation is pure math), Engineering knowledge, Swimming (mandatory after joining), Crisis Management.",
           "Soft Skills: OLQ (Officer Like Qualities), Cross-cultural sensitivity (Navy travels to foreign ports), Discipline, Leadership, Adaptability.",
           "The Self-Check: Do you dream of the open seas? Are you interested in technology and leadership? Can you handle isolation and responsibility? If yes, you have the Naval Officer DNA."
@@ -75,7 +75,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Different roles within the Indian Navy.",
         color: BLUE2,
         content: [
-          "Executive Branch (The Warriors): General Service (GS) - Command ships, handle navigation, and weapons (Gunnery/Missiles). Pilot/Observer - Fly helicopters/jets or manage airborne radars. Submarine Arm - The silent killers. Operating nuclear or diesel submarines. Hydrography - Mapping the ocean floor for safe navigation.",
+          "Executive Branch (The Warriors): General Service (GS) -  Command ships, handle navigation, and weapons (Gunnery/Missiles). Pilot/Observer -  Fly helicopters/jets or manage airborne radars. Submarine Arm -  The silent killers. Operating nuclear or diesel submarines. Hydrography -  Mapping the ocean floor for safe navigation.",
           "Engineering Branch (The Fixers): Managing the ship's propulsion (Gas Turbines/Diesel Engines) and hull integrity.",
           "Electrical Branch (The Brains): Managing radars, sonars, communication systems, and missile guidance systems.",
           "Education/Logistics/Medical: Supporting the fleet with training, supplies, and healthcare."
@@ -289,13 +289,13 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Real workflow of an IPS officer in a busy district.",
         color: BLUE2,
         content: [
-          "07:00 AM - Morning Routine: Riya starts her day with a 5km run. Fitness isn't optional; it's survival. She checks her phone for 'Flash Reports' (overnight crime updates) while drinking her tea. A theft was reported in Sector 4.",
-          "09:30 AM - The Junta Darbar: She reaches her office. A queue of people is waiting. A weeping mother complains her son is missing; a shopkeeper complains about local goons. Riya listens patiently and instructs her Sub-Inspectors (SIs) to register FIRs. Empathy is her biggest weapon.",
-          "11:30 AM - Field Visit: She drives to the theft spot. She doesn't just look around; she questions the beat constables. 'Why was the CCTV camera not working?' She demands accountability.",
-          "02:00 PM - Crisis Management: A protest has broken out near the University. Riya rushes to the spot. She puts on her riot gear. She stands between the angry mob and public property. She uses the microphone to calm the crowd. 'We will hear you, but you must clear the road.' It's a test of nerves.",
-          "05:00 PM - Investigation Review: Back at the station, she reviews case files of a murder investigation. She spots a gap in the timeline and orders a re-interrogation of the suspect.",
-          "08:00 PM - Night Rounds: The city sleeps, but crime doesn't. Riya patrols sensitive areas in her Gypsy. The flashing blue beacon is a signal to criminals: The police are watching.",
-          "10:00 PM - Home: She takes off her uniform, the weight of the city lifting off her shoulders. She reads a book on cyber law before sleeping—tomorrow brings new challenges."
+          "07:00 AM -  Morning Routine: Riya starts her day with a 5km run. Fitness isn't optional; it's survival. She checks her phone for 'Flash Reports' (overnight crime updates) while drinking her tea. A theft was reported in Sector 4.",
+          "09:30 AM -  The Junta Darbar: She reaches her office. A queue of people is waiting. A weeping mother complains her son is missing; a shopkeeper complains about local goons. Riya listens patiently and instructs her Sub-Inspectors (SIs) to register FIRs. Empathy is her biggest weapon.",
+          "11:30 AM -  Field Visit: She drives to the theft spot. She doesn't just look around; she questions the beat constables. 'Why was the CCTV camera not working?' She demands accountability.",
+          "02:00 PM -  Crisis Management: A protest has broken out near the University. Riya rushes to the spot. She puts on her riot gear. She stands between the angry mob and public property. She uses the microphone to calm the crowd. 'We will hear you, but you must clear the road.' It's a test of nerves.",
+          "05:00 PM -  Investigation Review: Back at the station, she reviews case files of a murder investigation. She spots a gap in the timeline and orders a re-interrogation of the suspect.",
+          "08:00 PM -  Night Rounds: The city sleeps, but crime doesn't. Riya patrols sensitive areas in her Gypsy. The flashing blue beacon is a signal to criminals: The police are watching.",
+          "10:00 PM -  Home: She takes off her uniform, the weight of the city lifting off her shoulders. She reads a book on cyber law before sleeping—tomorrow brings new challenges."
         ]
       },
       {
@@ -305,7 +305,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
         content: [
-          "Personality Check: The Protector - Do you feel an urge to intervene when you see someone being bullied? The Detective - Do you love solving puzzles or mysteries? Police work is 60% investigation. The Mediator - Can you calm down two fighting friends? Police often act as peacemakers. The Night Owl - Crime happens at 2 AM. Can you function without sleep?",
+          "Personality Check: The Protector -  Do you feel an urge to intervene when you see someone being bullied? The Detective -  Do you love solving puzzles or mysteries? Police work is 60% investigation. The Mediator -  Can you calm down two fighting friends? Police often act as peacemakers. The Night Owl -  Crime happens at 2 AM. Can you function without sleep?",
           "Hard Skills: Law (IPC/CrPC), Investigation techniques, Physical Combat/Self Defense, and increasingly, Cyber Forensics.",
           "Soft Skills: Communication (you talk to beggars and billionaires), Patience, Integrity (the ability to say 'No' to a bribe), Leadership.",
           "The Self-Check: Do you have a strong sense of justice? Can you handle pressure and make tough decisions? Are you physically fit and mentally strong? If yes, you have the Police Officer DNA."
@@ -350,7 +350,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         color: BLUE2,
         content: [
           "Zero Training Cost: Once selected, the government pays for your training, food, and uniform. You actually earn a salary/stipend during training!",
-          "Preparation Cost: UPSC/SSC Coaching - ₹20,000–₹1.5L (Optional). Self-Study - ₹2,000 for books.",
+          "Preparation Cost: UPSC/SSC Coaching -  ₹20,000–₹1.5L (Optional). Self-Study -  ₹2,000 for books.",
           "Duration: 3-6 months training for Constable, 6-12 months for SI, 2 years for IPS Academy.",
           "Post-Joining: All living expenses, food, accommodation, and medical care provided by the government."
         ]
@@ -363,7 +363,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         color: BLUE,
         content: [
           "Sardar Vallabhbhai Patel National Police Academy (SVPNPA), Hyderabad: The premier academy for IPS officers. World-class training in law, tactics, and firing.",
-          "State Police Academies: Moradabad (UP), Madhuban (Haryana), Phillaur (Punjab) - Historic academies for State officers (DySPs/SIs).",
+          "State Police Academies: Moradabad (UP), Madhuban (Haryana), Phillaur (Punjab) -  Historic academies for State officers (DySPs/SIs).",
           "North Eastern Police Academy (NEPA), Meghalaya: For North East police officers.",
           "National Industrial Security Academy (NISA), Hyderabad: For CISF officers.",
           "Central Detective Training Institute (CDTI), Delhi: For advanced investigation training.",
@@ -405,8 +405,8 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Diverse paths in police careers.",
         color: BLUE2,
         content: [
-          "Conventional Careers: SHO (Station House Officer - the 'King' of a police station), Traffic Sergeant (managing city traffic), Inspector (investigating crimes), DySP/ACP (administrative and operational leadership).",
-          "New-Age Careers: Cyber Cop (tracking hackers and online fraudsters, Dark Web analysis), Drone Pilot (using drones for crowd control during riots or Kumbh Mela), Forensic Analyst (using science to solve crimes - DNA profiling), AI Systems Officer (using AI for predictive policing).",
+          "Conventional Careers: SHO (Station House Officer -  the 'King' of a police station), Traffic Sergeant (managing city traffic), Inspector (investigating crimes), DySP/ACP (administrative and operational leadership).",
+          "New-Age Careers: Cyber Cop (tracking hackers and online fraudsters, Dark Web analysis), Drone Pilot (using drones for crowd control during riots or Kumbh Mela), Forensic Analyst (using science to solve crimes -  DNA profiling), AI Systems Officer (using AI for predictive policing).",
           "Specialized Roles: Commando (NSG or Greyhounds), Intelligence Officer (IB/RAW), Railway Police (GRP), Airport Security (CISF).",
           "Freelancing/Post-Retirement: Private Detective (opening a detective agency), Security Consultant (advising corporates on security), Trainer (teaching self-defense or investigation techniques)."
         ]
@@ -521,11 +521,11 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "High-trust, high-pressure, high-impact workflow.",
         color: BLUE2,
         content: [
-          "07:30 AM - Signal Scrutiny: Review overnight flash reports, decrypted intercepts, and satellite cues for border or chatter anomalies.",
-          "10:00 AM - Asset Coordination: Brief handlers on secure channels and validate HUMINT leads such as possible financial data breach plans.",
-          "01:30 PM - Threat Modeling: Run simulation models to assess how local disruptions could be exploited by hostile networks.",
-          "04:30 PM - Cabinet Briefing: Translate raw streams into actionable intelligence for diplomatic or cyber counter-measures.",
-          "08:00 PM - Deep Encryption Study: Continuous upskilling in domains like quantum cryptography and advanced surveillance defense."
+          "07:30 AM -  Signal Scrutiny: Review overnight flash reports, decrypted intercepts, and satellite cues for border or chatter anomalies.",
+          "10:00 AM -  Asset Coordination: Brief handlers on secure channels and validate HUMINT leads such as possible financial data breach plans.",
+          "01:30 PM -  Threat Modeling: Run simulation models to assess how local disruptions could be exploited by hostile networks.",
+          "04:30 PM -  Cabinet Briefing: Translate raw streams into actionable intelligence for diplomatic or cyber counter-measures.",
+          "08:00 PM -  Deep Encryption Study: Continuous upskilling in domains like quantum cryptography and advanced surveillance defense."
         ]
       },
       {
@@ -567,7 +567,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
       },
       {
         id: "market",
-        title: "Market Snapshot - India 2026",
+        title: "Market Snapshot -  India 2026",
         icon: "TrendingUp",
         description: "Salary, growth outlook, and hiring priorities.",
         color: BLUE2,
@@ -732,12 +732,12 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Real workflow of a disaster management professional.",
         color: BLUE2,
         content: [
-          "08:00 AM - Morning Briefing: Vikram reaches his control room. It's monsoon season. He checks satellite data from the Indian Meteorological Department (IMD). The river levels are rising. He alerts the Block Development Officers (BDOs) to be on standby.",
-          "10:00 AM - Community Drill: He drives to a riverside village. Today, he is conducting a 'Mock Drill.' He teaches villagers what to do when the warning siren blows. He shows them how to pack a 'Go-Bag' with documents and dry food. Seeing children learn to wear life jackets makes him smile.",
-          "01:00 PM - Crisis Management: A call comes in. A small landslide has blocked a key highway. Vikram coordinates with the PWD (roads department) to send bulldozers and the Traffic Police to divert vehicles. He manages the 'Incident Command System' from his phone.",
-          "03:00 PM - Supply Chain Meeting: The Red Cross and local volunteer groups are in his office. They check the inventory of relief supplies—rice, dal, tarpaulins, and medicines. Vikram notices a shortage of water purification tablets and places an urgent order.",
-          "05:00 PM - Technology Update: He logs into the state's Disaster Management portal. He updates the 'Vulnerability Map'—marking areas that are now safe and areas that are high-risk. This data helps the Chief Minister make decisions.",
-          "08:00 PM - On-Call: He heads home. The rain is pouring heavily. He keeps his phone volume on high. In this job, you are never truly 'off duty.' But knowing his district is ready gives him a peaceful sleep."
+          "08:00 AM -  Morning Briefing: Vikram reaches his control room. It's monsoon season. He checks satellite data from the Indian Meteorological Department (IMD). The river levels are rising. He alerts the Block Development Officers (BDOs) to be on standby.",
+          "10:00 AM -  Community Drill: He drives to a riverside village. Today, he is conducting a 'Mock Drill.' He teaches villagers what to do when the warning siren blows. He shows them how to pack a 'Go-Bag' with documents and dry food. Seeing children learn to wear life jackets makes him smile.",
+          "01:00 PM -  Crisis Management: A call comes in. A small landslide has blocked a key highway. Vikram coordinates with the PWD (roads department) to send bulldozers and the Traffic Police to divert vehicles. He manages the 'Incident Command System' from his phone.",
+          "03:00 PM -  Supply Chain Meeting: The Red Cross and local volunteer groups are in his office. They check the inventory of relief supplies—rice, dal, tarpaulins, and medicines. Vikram notices a shortage of water purification tablets and places an urgent order.",
+          "05:00 PM -  Technology Update: He logs into the state's Disaster Management portal. He updates the 'Vulnerability Map'—marking areas that are now safe and areas that are high-risk. This data helps the Chief Minister make decisions.",
+          "08:00 PM -  On-Call: He heads home. The rain is pouring heavily. He keeps his phone volume on high. In this job, you are never truly 'off duty.' But knowing his district is ready gives him a peaceful sleep."
         ]
       },
       {
@@ -747,7 +747,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
         content: [
-          "Personality Check: The Calm Commander - When a glass breaks or someone gets hurt, do you panic, or do you immediately start helping? Panic has no place here. The Planner - Do you always have a 'Plan B'? The Team Player - You cannot work alone. You need to work with police, doctors, and villagers. The Empathetic - You will meet people who have lost their homes. Can you comfort them while doing your job?",
+          "Personality Check: The Calm Commander -  When a glass breaks or someone gets hurt, do you panic, or do you immediately start helping? Panic has no place here. The Planner -  Do you always have a 'Plan B'? The Team Player -  You cannot work alone. You need to work with police, doctors, and villagers. The Empathetic -  You will meet people who have lost their homes. Can you comfort them while doing your job?",
           "Hard Skills: GIS & Remote Sensing (reading satellite maps), Data Analysis, First Aid/CPR, Risk Assessment methods, Project Management.",
           "Soft Skills: Decision Making under pressure, Communication (giving clear orders), Leadership, Empathy, Problem-solving.",
           "The Self-Check: Do you stay calm in emergencies? Can you make tough decisions quickly? Do you care about helping people? If yes, you have the Disaster Manager DNA."
@@ -791,9 +791,9 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Course fees and education costs.",
         color: BLUE2,
         content: [
-          "Government Institutions: MA/M.Sc - ₹50,000–₹2L (2 years).",
-          "Private Universities: MA/MBA in DM - ₹4L–₹8L (2 years).",
-          "Distance Learning (IGNOU): PG Diploma - ₹10,000–₹15,000 (1 year).",
+          "Government Institutions: MA/M.Sc -  ₹50,000–₹2L (2 years).",
+          "Private Universities: MA/MBA in DM -  ₹4L–₹8L (2 years).",
+          "Distance Learning (IGNOU): PG Diploma -  ₹10,000–₹15,000 (1 year).",
           "Additional Costs: Living/Hostel (₹6,000–₹15,000/month), Field work travel (₹20,000–₹50,000), Certifications (₹10,000–₹30,000).",
           "ROI: With consulting opportunities offering ₹6L–₹25L+, investment can be recovered in 1-3 years."
         ]
@@ -805,8 +805,8 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Top disaster management institutes.",
         color: BLUE,
         content: [
-          "Government (Public): Tata Institute of Social Sciences (TISS), Mumbai - The 'Gold Standard' for Disaster Management (JTCDM). Guru Gobind Singh Indraprastha University (GGSIPU), Delhi - MBA in Disaster Management. Panjab University, Chandigarh - Masters in DM. University of Kashmir - Specialized in earthquake/mountain disasters. National Institute of Disaster Management (NIDM), Delhi - Training and online courses.",
-          "Private: Symbiosis Institute of Geoinformatics (SIG), Pune - M.Sc in Geoinformatics. Amity University - M.Sc/M.Tech in Disaster Management. Jamia Millia Islamia, Delhi - M.Sc in Disaster Management and Climate Sustainability Studies.",
+          "Government (Public): Tata Institute of Social Sciences (TISS), Mumbai -  The 'Gold Standard' for Disaster Management (JTCDM). Guru Gobind Singh Indraprastha University (GGSIPU), Delhi -  MBA in Disaster Management. Panjab University, Chandigarh -  Masters in DM. University of Kashmir -  Specialized in earthquake/mountain disasters. National Institute of Disaster Management (NIDM), Delhi -  Training and online courses.",
+          "Private: Symbiosis Institute of Geoinformatics (SIG), Pune -  M.Sc in Geoinformatics. Amity University -  M.Sc/M.Tech in Disaster Management. Jamia Millia Islamia, Delhi -  M.Sc in Disaster Management and Climate Sustainability Studies.",
           "Online: NIDM offers online certifications and courses. IGNOU offers distance learning PG Diploma."
         ]
       },
@@ -832,8 +832,8 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Credentials and professional recognition.",
         color: BLUE2,
         content: [
-          "Certifications: First Aid & CPR (from St. John Ambulance or Red Cross - mandatory basic skill), GIS/Remote Sensing (highly valued), Incident Command System (ICS) - NIDM offers online certifications.",
-          "Professional Bodies: GIDM (Gujarat Institute of Disaster Management) - specialized memberships/training. IUINDRR (National Institute of Disaster Management's university network).",
+          "Certifications: First Aid & CPR (from St. John Ambulance or Red Cross -  mandatory basic skill), GIS/Remote Sensing (highly valued), Incident Command System (ICS) -  NIDM offers online certifications.",
+          "Professional Bodies: GIDM (Gujarat Institute of Disaster Management) -  specialized memberships/training. IUINDRR (National Institute of Disaster Management's university network).",
           "Specialized Training: Drone Pilot Certification, Advanced GIS Training, Psychosocial Care Training, Business Continuity Planning Certification.",
           "These credentials significantly enhance career prospects and earning potential.:"
         ]
@@ -961,15 +961,15 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Real workflow of an Infantry Officer at the Line of Control.",
         color: BLUE2,
         content: [
-          "05:00 AM - Physical Training: The day begins before the sun rises. Vikram leads his platoon (about 30 soldiers) for a 5km run carrying rifles and battle loads. The air is freezing, but the 'Josh' is high.",
-          "07:30 AM - Breakfast: Vikram eats in the Officers' Mess. He checks the quality of food being served to his men. An officer eats after his men have eaten—a golden rule of leadership.",
-          "08:30 AM - The Briefing: He meets his Commanding Officer (CO). Intelligence reports suggest suspicious movement in Sector 4. They study maps and satellite images. Vikram is tasked with leading a patrolling party.",
-          "10:00 AM - The Patrol: This is the core of his job. Vikram and his team hike through dense forests and rugged terrain. Every step is calculated. They look for disturbed bushes, footprints, or anything unusual. He is constantly on the radio, updating his location.",
-          "02:00 PM - Back to Base: The patrol returns safely. Vikram inspects the weapons. A jammed rifle can cost a life. He oversees the maintenance of the bunkers.",
-          "04:00 PM - Sports Parade: The Army believes that 'a team that plays together, fights together.' Vikram plays volleyball with his jawans, bonding and building trust.",
-          "06:00 PM - Admin Work: He signs leave applications, checks logistical supplies, and writes the patrol report.",
-          "08:00 PM - Dinner Night: He changes into formal uniform for dinner at the Officers' Mess. It's a formal affair with strict etiquette.",
-          "10:00 PM - Final Check: He does a final check of the sentry posts. Only when he is sure his men are alert does he retire to his bunk, keeping his rifle and radio next to his pillow."
+          "05:00 AM -  Physical Training: The day begins before the sun rises. Vikram leads his platoon (about 30 soldiers) for a 5km run carrying rifles and battle loads. The air is freezing, but the 'Josh' is high.",
+          "07:30 AM -  Breakfast: Vikram eats in the Officers' Mess. He checks the quality of food being served to his men. An officer eats after his men have eaten—a golden rule of leadership.",
+          "08:30 AM -  The Briefing: He meets his Commanding Officer (CO). Intelligence reports suggest suspicious movement in Sector 4. They study maps and satellite images. Vikram is tasked with leading a patrolling party.",
+          "10:00 AM -  The Patrol: This is the core of his job. Vikram and his team hike through dense forests and rugged terrain. Every step is calculated. They look for disturbed bushes, footprints, or anything unusual. He is constantly on the radio, updating his location.",
+          "02:00 PM -  Back to Base: The patrol returns safely. Vikram inspects the weapons. A jammed rifle can cost a life. He oversees the maintenance of the bunkers.",
+          "04:00 PM -  Sports Parade: The Army believes that 'a team that plays together, fights together.' Vikram plays volleyball with his jawans, bonding and building trust.",
+          "06:00 PM -  Admin Work: He signs leave applications, checks logistical supplies, and writes the patrol report.",
+          "08:00 PM -  Dinner Night: He changes into formal uniform for dinner at the Officers' Mess. It's a formal affair with strict etiquette.",
+          "10:00 PM -  Final Check: He does a final check of the sentry posts. Only when he is sure his men are alert does he retire to his bunk, keeping his rifle and radio next to his pillow."
         ]
       },
       {
@@ -979,7 +979,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
         content: [
-          "Personality Check: The Leader - Do you naturally take charge in a crisis? The Adventurer - Does a desk job bore you? Do you prefer mud, rain, and mountains over air-conditioned offices? The Team Player - Can you put the group's needs above your own? In the Army, the team (Paltan) is family. The Resilient - Can you handle failure? You will fall, get tired, and feel defeated. The question is, can you get up and keep running?",
+          "Personality Check: The Leader -  Do you naturally take charge in a crisis? The Adventurer -  Does a desk job bore you? Do you prefer mud, rain, and mountains over air-conditioned offices? The Team Player -  Can you put the group's needs above your own? In the Army, the team (Paltan) is family. The Resilient -  Can you handle failure? You will fall, get tired, and feel defeated. The question is, can you get up and keep running?",
           "Hard Skills: Physical Fitness (Endurance), Map Reading, Tactical Awareness, Technical knowledge (for Engineers/Signals).",
           "Soft Skills: Effective Intelligence (solving practical problems quickly), Courage (not the absence of fear, but the ability to act despite it), Compassion (caring deeply for the welfare of troops), Leadership, Decision-making under pressure.",
           "The Self-Check: Do you have a strong sense of duty? Can you lead people? Are you physically fit and mentally strong? Do you value honor and service? If yes, you have the Army Officer DNA."
@@ -1022,7 +1022,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         content: [
           "The Golden Ticket: Officer training in India is FREE for cadets. The government spends lakhs on your training, food, stay, uniform, and books. You don't pay tuition fees.",
           "Stipend: In the last year of training (at IMA/OTA), gentlemen cadets receive a stipend of ₹56,100 per month.",
-          "Preparation Cost: SSB Coaching - ₹15,000–₹25,000 (Optional). NDA/CDS Exam Books - ₹1,000.",
+          "Preparation Cost: SSB Coaching -  ₹15,000–₹25,000 (Optional). NDA/CDS Exam Books -  ₹1,000.",
           "Duration: 3-4 years for officers (NDA/IMA/OTA), 4 years for Agniveers.",
           "Post-Joining: All living expenses, food, accommodation, uniform, and medical care provided by the government."
         ]
@@ -1066,7 +1066,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         content: [
           "The President's Commission: An officer holds a commission from the President of India. It is the ultimate professional credential.",
           "Academic Degrees: NDA cadets graduate with a BA/B.Sc/B.Tech degree from Jawaharlal Nehru University (JNU). IMA cadets receive a PG Diploma/Degree.",
-          "Specialized Courses: Commando Course (Belagavi - Ghatak Commandos), High Altitude Warfare (HAWS, Gulmarg), Counter-Insurgency (CIJW School, Mizoram), Airborne Training, Ranger Course.",
+          "Specialized Courses: Commando Course (Belagavi -  Ghatak Commandos), High Altitude Warfare (HAWS, Gulmarg), Counter-Insurgency (CIJW School, Mizoram), Airborne Training, Ranger Course.",
           "Professional Bodies: Indian Army Officers Association, Ex-Servicemen Associations.",
           "These credentials significantly enhance career prospects and earning potential in civilian sectors post-retirement."
         ]
@@ -1079,7 +1079,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         color: BLUE2,
         content: [
           "Conventional Careers: Infantry Officer (leading troops in battle), Artillery Officer (managing long-range guns), Engineer Officer (building infrastructure), Medical Officer (treating soldiers), Signals Officer (managing communications).",
-          "New-Age Careers: Cyber Warrior (Army Cyber Group - protecting military networks), Drone Pilot (surveillance using UAVs), Military Psychologist (working at Selection Centers), AI Systems Officer (autonomous military systems), Data Analyst (military intelligence).",
+          "New-Age Careers: Cyber Warrior (Army Cyber Group -  protecting military networks), Drone Pilot (surveillance using UAVs), Military Psychologist (working at Selection Centers), AI Systems Officer (autonomous military systems), Data Analyst (military intelligence).",
           "Specialized Roles: Commando (NSG or Ghatak), Intelligence Officer (military intelligence), Paratrooper (airborne operations), Mountain Warfare Specialist.",
           "Post-Retirement (Second Career): Corporate Security Head, Leadership/HR roles in MNCs, Disaster Management Consultant, Commercial Pilot, Defense Consultant, Author/Motivational Speaker."
         ]
@@ -1194,14 +1194,14 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Real workflow of a Fighter Pilot at an IAF base.",
         color: BLUE2,
         content: [
-          "05:30 AM - Physical Training: The alarm doesn't ring; the bugle does. Rohan is up before the sun. He goes for a 5km run with his squadron. Physical fitness isn't a choice here; it's a requirement.",
-          "07:30 AM - Briefing Room: Rohan is in his flight suit (G-suit). The mood shifts from casual to intense. The Commanding Officer briefs the team on today's mission: 'Low-level tactical flying simulation.' They discuss weather reports, threats, and emergency procedures.",
-          "09:00 AM - The Tarmac: Rohan walks to his aircraft, a Su-30 MKI. He performs external checks—tires, flaps, intakes. He climbs into the cockpit. The ground crew signals thumbs up. The roar of the engines is deafening.",
-          "10:30 AM - The Sortie: He is at 20,000 feet, flying at 900 km/hr. For the next hour, he practices 'dogfighting' maneuvers against a wingman. The G-force pushes him into his seat—his body weighs 6 times its normal weight.",
-          "01:00 PM - Debriefing: He lands. The mission isn't over. He watches the HUD (Head-Up Display) footage with his seniors. In the IAF, perfection is the only standard.",
-          "03:00 PM - Secondary Duties: Pilots are also officers. Rohan heads to the admin block. He manages the squadron's sports fund or oversees maintenance schedules.",
-          "06:00 PM - The Mess: The evenings are for socializing. He heads to the Officers' Mess. It's formal yet relaxed. He plays billiards and discusses the day's flying.",
-          "09:00 PM - Home: He studies the manual for a new radar upgrade before sleeping. Tomorrow, the sky awaits again."
+          "05:30 AM -  Physical Training: The alarm doesn't ring; the bugle does. Rohan is up before the sun. He goes for a 5km run with his squadron. Physical fitness isn't a choice here; it's a requirement.",
+          "07:30 AM -  Briefing Room: Rohan is in his flight suit (G-suit). The mood shifts from casual to intense. The Commanding Officer briefs the team on today's mission: 'Low-level tactical flying simulation.' They discuss weather reports, threats, and emergency procedures.",
+          "09:00 AM -  The Tarmac: Rohan walks to his aircraft, a Su-30 MKI. He performs external checks—tires, flaps, intakes. He climbs into the cockpit. The ground crew signals thumbs up. The roar of the engines is deafening.",
+          "10:30 AM -  The Sortie: He is at 20,000 feet, flying at 900 km/hr. For the next hour, he practices 'dogfighting' maneuvers against a wingman. The G-force pushes him into his seat—his body weighs 6 times its normal weight.",
+          "01:00 PM -  Debriefing: He lands. The mission isn't over. He watches the HUD (Head-Up Display) footage with his seniors. In the IAF, perfection is the only standard.",
+          "03:00 PM -  Secondary Duties: Pilots are also officers. Rohan heads to the admin block. He manages the squadron's sports fund or oversees maintenance schedules.",
+          "06:00 PM -  The Mess: The evenings are for socializing. He heads to the Officers' Mess. It's formal yet relaxed. He plays billiards and discusses the day's flying.",
+          "09:00 PM -  Home: He studies the manual for a new radar upgrade before sleeping. Tomorrow, the sky awaits again."
         ]
       },
       {
@@ -1211,9 +1211,9 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
         content: [
-          "Personality Check: The Patriot - Does the idea of the tricolor flag give you goosebumps? Service before self is the motto here. The Adrenaline Junkie - Do you thrive under pressure? Can you make life-and-death decisions in split seconds? The Disciplinarian - Can you follow orders without ego and lead others with integrity? The Tech-Head - Modern warfare is high-tech. Are you comfortable with complex machines and physics?",
+          "Personality Check: The Patriot -  Does the idea of the tricolor flag give you goosebumps? Service before self is the motto here. The Adrenaline Junkie -  Do you thrive under pressure? Can you make life-and-death decisions in split seconds? The Disciplinarian -  Can you follow orders without ego and lead others with integrity? The Tech-Head -  Modern warfare is high-tech. Are you comfortable with complex machines and physics?",
           "Hard Skills: Mathematics & Physics (essential for pilots/tech), Spatial Awareness, Technical Proficiency (for engineering roles), Map Reading.",
-          "Soft Skills: Leadership (OLQ - Officer Like Qualities), Quick Decision Making, Emotional Stability, Communication, Courage.",
+          "Soft Skills: Leadership (OLQ -  Officer Like Qualities), Quick Decision Making, Emotional Stability, Communication, Courage.",
           "The Self-Check: Do you have a strong sense of duty? Can you handle pressure? Are you physically fit and mentally strong? Do you value honor and service? If yes, you have the IAF Officer DNA."
         ]
       },
@@ -1281,7 +1281,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         color: BLUE,
         content: [
           "Stipend during Training: Cadets receive a stipend of ₹56,100 per month during the final year of training at AFA.",
-          "Allowances: Flying Allowance (for pilots - one of the highest in armed forces), Hardship Allowance (for posting in places like Siachen or North-East), Kit Maintenance Allowance (to maintain uniforms).",
+          "Allowances: Flying Allowance (for pilots -  one of the highest in armed forces), Hardship Allowance (for posting in places like Siachen or North-East), Kit Maintenance Allowance (to maintain uniforms).",
           "State Govt Awards: Many state governments give cash awards (₹1L to ₹5L) to students from their state who clear NDA/AFCAT courses.",
           "Agniveer Benefits: Seva Nidhi package (~₹11.7L) upon exit can be used for further education or starting a business.",
           "Post-Retirement: Robust Pension (for permanent commission) and Ex-Servicemen Contributory Health Scheme (ECHS)."
@@ -1308,8 +1308,8 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Diverse paths in IAF careers.",
         color: BLUE2,
         content: [
-          "Conventional Careers: Fighter/Transport Pilot (the classic 'Top Gun' role), Aeronautical Engineer (managing aircraft fleets), Air Traffic Controller (ATC - managing airspace), Helicopter Pilot (search and rescue, disaster relief).",
-          "New-Age Careers: UAV/Drone Pilot (remotely piloting sophisticated drones like Heron or Predator for surveillance), Cyber Warfare Officer (protecting IAF networks from hacking), Space Command Officer (managing satellite assets - emerging domain), AI Systems Officer (autonomous aerial systems).",
+          "Conventional Careers: Fighter/Transport Pilot (the classic 'Top Gun' role), Aeronautical Engineer (managing aircraft fleets), Air Traffic Controller (ATC -  managing airspace), Helicopter Pilot (search and rescue, disaster relief).",
+          "New-Age Careers: UAV/Drone Pilot (remotely piloting sophisticated drones like Heron or Predator for surveillance), Cyber Warfare Officer (protecting IAF networks from hacking), Space Command Officer (managing satellite assets -  emerging domain), AI Systems Officer (autonomous aerial systems).",
           "Specialized Roles: Commando (special operations), Intelligence Officer (military intelligence), Meteorologist (weather prediction), Medical Officer (healthcare).",
           "Post-Retirement (The 'Second Innings'): Commercial Airline Pilot (IndiGo, Air India), Corporate Leadership/Admin Heads, Defense Consultants, Entrepreneurs in Defense Tech, Flight Instructor."
         ]
@@ -1423,14 +1423,14 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Real workflow of a Merchant Navy Officer on a Stealth Frigate.",
         color: BLUE2,
         content: [
-          "05:30 AM - Wakey Wakey: The pipe (announcement) blares across the ship. Kabir rolls out of his bunk. Life at sea is a 24/7 cycle. He heads to the bridge (the ship's cockpit) for his watch.",
-          "08:00 AM - The Morning Brief: The Captain briefs the officers. Intelligence reports a suspicious pirate vessel 50 nautical miles away. Kabir is tasked with leading the VBSS (Visit, Board, Search, and Seizure) team.",
-          "10:00 AM - Action Stations: The alarm rings. This is a drill, but it feels real. Kabir gears up in tactical armor with his team of MARCOS (Marine Commandos) and sailors. They launch a fast boat (RIB) from the ship, racing towards a target dummy.",
-          "01:00 PM - Lunch in the Wardroom: The food is surprisingly good—Naval chefs are legendary. He eats with the Chief Engineer and discusses the status of the gas turbine engines. On a ship, the engineer and the warrior must be best friends.",
-          "03:00 PM - Admin & Training: Back in his cabin, Kabir finishes paperwork. He then conducts a class for junior sailors on 'Radar Plotting.' A ship is a floating school; you are always learning or teaching.",
-          "06:00 PM - Sunset Ceremony: The ship slows down. The ensign (flag) is lowered. For a brief moment, the crew pauses to respect the sea and the nation.",
-          "08:00 PM - Night Watch: The ocean is pitch black. Kabir stares at the radar screen. A tiny blip appears. Is it a fishing boat or a submarine periscope? He calculates the speed and trajectory. Vigilance is the price of safety.",
-          "10:00 PM - Rest: He hands over the watch to the next officer. He heads to his cabin, the gentle rolling of the ship rocking him to sleep instantly."
+          "05:30 AM -  Wakey Wakey: The pipe (announcement) blares across the ship. Kabir rolls out of his bunk. Life at sea is a 24/7 cycle. He heads to the bridge (the ship's cockpit) for his watch.",
+          "08:00 AM -  The Morning Brief: The Captain briefs the officers. Intelligence reports a suspicious pirate vessel 50 nautical miles away. Kabir is tasked with leading the VBSS (Visit, Board, Search, and Seizure) team.",
+          "10:00 AM -  Action Stations: The alarm rings. This is a drill, but it feels real. Kabir gears up in tactical armor with his team of MARCOS (Marine Commandos) and sailors. They launch a fast boat (RIB) from the ship, racing towards a target dummy.",
+          "01:00 PM -  Lunch in the Wardroom: The food is surprisingly good—Naval chefs are legendary. He eats with the Chief Engineer and discusses the status of the gas turbine engines. On a ship, the engineer and the warrior must be best friends.",
+          "03:00 PM -  Admin & Training: Back in his cabin, Kabir finishes paperwork. He then conducts a class for junior sailors on 'Radar Plotting.' A ship is a floating school; you are always learning or teaching.",
+          "06:00 PM -  Sunset Ceremony: The ship slows down. The ensign (flag) is lowered. For a brief moment, the crew pauses to respect the sea and the nation.",
+          "08:00 PM -  Night Watch: The ocean is pitch black. Kabir stares at the radar screen. A tiny blip appears. Is it a fishing boat or a submarine periscope? He calculates the speed and trajectory. Vigilance is the price of safety.",
+          "10:00 PM -  Rest: He hands over the watch to the next officer. He heads to his cabin, the gentle rolling of the ship rocking him to sleep instantly."
         ]
       },
       {
@@ -1440,7 +1440,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
         content: [
-          "Personality Check: The Adaptable - Can you live in a steel box (ship) with 200 other people for months without internet? The Technical Mind - A ship is a floating city of machines. Do you like understanding how things work? The Leader - Can you take responsibility for a team of 20 sailors when you are just 22 years old? The Calm Voyager - Do you get seasick easily? (Don't worry, you get used to it, but you need a strong stomach!).",
+          "Personality Check: The Adaptable -  Can you live in a steel box (ship) with 200 other people for months without internet? The Technical Mind -  A ship is a floating city of machines. Do you like understanding how things work? The Leader -  Can you take responsibility for a team of 20 sailors when you are just 22 years old? The Calm Voyager -  Do you get seasick easily? (Don't worry, you get used to it, but you need a strong stomach!).",
           "Hard Skills: Mathematics & Physics (Navigation is pure math), Engineering knowledge, Swimming (mandatory after joining), Crisis Management.",
           "Soft Skills: OLQ (Officer Like Qualities), Cross-cultural sensitivity (Navy travels to foreign ports), Discipline, Leadership, Decision-making under pressure.",
           "The Self-Check: Do you dream of the open seas? Are you interested in international travel? Can you handle isolation and responsibility? If yes, you have the Merchant Navy Officer DNA."
@@ -1453,7 +1453,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Core duties across different merchant navy roles.",
         color: BLUE2,
         content: [
-          "Executive Branch (The Warriors): General Service (GS) - Command ships, handle navigation, and weapons (Gunnery/Missiles). Pilot/Observer - Fly helicopters/jets or manage airborne radars. Submarine Arm - The silent killers. Operating nuclear or diesel submarines. Hydrography - Mapping the ocean floor for safe navigation.",
+          "Executive Branch (The Warriors): General Service (GS) -  Command ships, handle navigation, and weapons (Gunnery/Missiles). Pilot/Observer -  Fly helicopters/jets or manage airborne radars. Submarine Arm -  The silent killers. Operating nuclear or diesel submarines. Hydrography -  Mapping the ocean floor for safe navigation.",
           "Engineering Branch (The Fixers): Managing the ship's propulsion (Gas Turbines/Diesel Engines) and hull integrity.",
           "Electrical Branch (The Brains): Managing radars, sonars, communication systems, and missile guidance systems.",
           "Education/Logistics/Medical: Supporting the fleet with training, supplies, and healthcare.",
@@ -1642,7 +1642,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         color: BLUE,
         content: [
           "The Central Reserve Forces Definition: A collective term for India's five major paramilitary forces under the Ministry of Home Affairs. These forces operate under the central government and are deployed across India to maintain internal security, guard borders, and respond to emergencies.",
-          "The Five Forces: CRPF (Central Reserve Police Force) - 5 lakh+ personnel, India's largest paramilitary force. BSF (Border Security Force) - 2.5 lakh+ personnel, guards India's land borders. CISF (Central Industrial Security Force) - 1.6 lakh+ personnel, protects critical infrastructure. ITBP (Indo-Tibetan Border Police) - 60,000+ personnel, guards high-altitude borders. SSB (Sashastra Seema Bal) - 50,000+ personnel, guards India's eastern borders.",
+          "The Five Forces: CRPF (Central Reserve Police Force) -  5 lakh+ personnel, India's largest paramilitary force. BSF (Border Security Force) -  2.5 lakh+ personnel, guards India's land borders. CISF (Central Industrial Security Force) -  1.6 lakh+ personnel, protects critical infrastructure. ITBP (Indo-Tibetan Border Police) -  60,000+ personnel, guards high-altitude borders. SSB (Sashastra Seema Bal) -  50,000+ personnel, guards India's eastern borders.",
           "Your Mission: Counter terrorism and insurgency, guard national borders, protect critical infrastructure (airports, ports, power plants), conduct disaster relief operations, and maintain internal security during communal tensions.",
           "Why It Matters: Unlike the Army which fights external enemies, the CRF fights internal threats. In a nation of 1.4 billion people with diverse religions, languages, and ideologies, internal security is paramount. The CRF is the first responder to terrorism, riots, and natural disasters. They are the 'Sentinels of Internal Security.'"
         ]
@@ -1654,15 +1654,15 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Real workflow of a CRPF constable during counter-terrorism operations.",
         color: BLUE2,
         content: [
-          "04:30 AM - Wake-up Call: The bugle sounds. Rajesh jumps out of his bunk in the CRPF camp in Chhattisgarh. He is part of a counter-insurgency unit deployed in a Naxal-affected area.",
-          "05:30 AM - Physical Training: The platoon does PT (Physical Training). Running, push-ups, and tactical drills. Fitness is non-negotiable in the CRF.",
-          "07:00 AM - Breakfast & Briefing: The Platoon Commander briefs the team. 'Intelligence suggests Naxal activity in Sector 5. We will conduct a patrol.' Rajesh checks his rifle, ammunition, and communication device.",
-          "08:30 AM - The Patrol: Rajesh and his team move into the dense forest. Every step is calculated. They look for signs of Naxal camps—disturbed vegetation, abandoned weapons, or food remnants. The tension is palpable.",
-          "01:00 PM - Lunch in the Field: They eat packed rations (Biscuits, Canned food) in the forest. No hot meals during operations. Rajesh drinks water from his bottle and checks his ammunition count.",
-          "03:00 PM - Contact!: Suddenly, gunfire erupts. A Naxal group has opened fire. Rajesh takes cover behind a tree. He returns fire, coordinating with his team. The firefight lasts 15 minutes. The Naxals retreat. No casualties on Rajesh's side.",
-          "05:00 PM - Return to Base: The team returns to the camp. Rajesh is exhausted but alert. He cleans his rifle meticulously. A dirty rifle can jam during the next encounter.",
-          "07:00 PM - Dinner & Rest: He eats dinner in the mess. The food is simple but nutritious. He writes a letter to his family (mail is sent once a week).",
-          "09:00 PM - Night Duty: Rajesh is assigned night sentry duty. He stands guard at the camp perimeter for 4 hours, watching for any suspicious movement. Vigilance is the price of safety."
+          "04:30 AM -  Wake-up Call: The bugle sounds. Rajesh jumps out of his bunk in the CRPF camp in Chhattisgarh. He is part of a counter-insurgency unit deployed in a Naxal-affected area.",
+          "05:30 AM -  Physical Training: The platoon does PT (Physical Training). Running, push-ups, and tactical drills. Fitness is non-negotiable in the CRF.",
+          "07:00 AM -  Breakfast & Briefing: The Platoon Commander briefs the team. 'Intelligence suggests Naxal activity in Sector 5. We will conduct a patrol.' Rajesh checks his rifle, ammunition, and communication device.",
+          "08:30 AM -  The Patrol: Rajesh and his team move into the dense forest. Every step is calculated. They look for signs of Naxal camps—disturbed vegetation, abandoned weapons, or food remnants. The tension is palpable.",
+          "01:00 PM -  Lunch in the Field: They eat packed rations (Biscuits, Canned food) in the forest. No hot meals during operations. Rajesh drinks water from his bottle and checks his ammunition count.",
+          "03:00 PM -  Contact!: Suddenly, gunfire erupts. A Naxal group has opened fire. Rajesh takes cover behind a tree. He returns fire, coordinating with his team. The firefight lasts 15 minutes. The Naxals retreat. No casualties on Rajesh's side.",
+          "05:00 PM -  Return to Base: The team returns to the camp. Rajesh is exhausted but alert. He cleans his rifle meticulously. A dirty rifle can jam during the next encounter.",
+          "07:00 PM -  Dinner & Rest: He eats dinner in the mess. The food is simple but nutritious. He writes a letter to his family (mail is sent once a week).",
+          "09:00 PM -  Night Duty: Rajesh is assigned night sentry duty. He stands guard at the camp perimeter for 4 hours, watching for any suspicious movement. Vigilance is the price of safety."
         ]
       },
       {
@@ -1672,7 +1672,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
         content: [
-          "Personality Check: The Patriot - Do you have an unwavering commitment to the nation? The Brave - Can you face danger without hesitation? The Disciplined - Can you follow orders without question? The Team Player - Can you trust your teammates with your life? The Adaptable - Can you function in extreme conditions (high altitude, dense forests, urban chaos)?",
+          "Personality Check: The Patriot -  Do you have an unwavering commitment to the nation? The Brave -  Can you face danger without hesitation? The Disciplined -  Can you follow orders without question? The Team Player -  Can you trust your teammates with your life? The Adaptable -  Can you function in extreme conditions (high altitude, dense forests, urban chaos)?",
           "Hard Skills: Physical Fitness (Endurance and strength), Weapon Handling, Tactical Awareness, First Aid, Communication.",
           "Soft Skills: Courage (not the absence of fear, but acting despite it), Discipline, Loyalty, Quick Decision-Making, Empathy (treating civilians with respect), Leadership (for officer roles).",
           "The Self-Check: Do you have a strong sense of duty? Can you handle stress and danger? Are you physically fit and mentally strong? Do you value discipline and honor? If yes, you have the CRF Personnel DNA."
@@ -1730,7 +1730,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         color: BLUE2,
         content: [
           "Zero Training Cost: Once selected, the government pays for all training, food, uniform, and accommodation. You actually earn a salary/stipend during training.",
-          "Preparation Cost: SSC/UPSC Coaching - ₹15,000–₹1.2L (Optional). Self-Study - ₹2,000–₹5,000 for books and study materials.",
+          "Preparation Cost: SSC/UPSC Coaching -  ₹15,000–₹1.2L (Optional). Self-Study -  ₹2,000–₹5,000 for books and study materials.",
           "Duration: 3-6 months for Constable training, 6-12 months for SI training, 1-2 years for Officer training.",
           "Post-Joining: All living expenses, food, accommodation, medical care, and uniform provided by the force. Free housing in camps or government quarters.",
           "Family Benefits: Spouse and children get government accommodation and medical benefits."

@@ -29,11 +29,11 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
     if (!slideRef.current) return;
 
     const rect = slideRef.current.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
+    const x = e.clientX -  rect.left;
+    const y = e.clientY -  rect.top;
 
-    const rotYValue = ((x - rect.width / 2) / (Math.PI * 3)) * 0.5;
-    const rotXValue = -((y - rect.height / 2) / (Math.PI * 4)) * 0.5;
+    const rotYValue = ((x -  rect.width / 2) / (Math.PI * 3)) * 0.5;
+    const rotXValue = -((y -  rect.height / 2) / (Math.PI * 4)) * 0.5;
 
     setRotY(rotYValue);
     setRotX(rotXValue);
@@ -45,14 +45,14 @@ export function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) 
   };
 
   const handlePrev = () => {
-    setCurrent((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+    setCurrent((prev) => (prev -  1 + testimonials.length) % testimonials.length);
   };
 
   const handleNext = () => {
     setCurrent((prev) => (prev + 1) % testimonials.length);
   };
 
-  const getPrevIndex = () => (current - 1 + testimonials.length) % testimonials.length;
+  const getPrevIndex = () => (current -  1 + testimonials.length) % testimonials.length;
   const getNextIndex = () => (current + 1) % testimonials.length;
 
   return (

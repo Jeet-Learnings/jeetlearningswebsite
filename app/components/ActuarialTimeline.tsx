@@ -92,7 +92,7 @@ export function ActuarialTimeline({ steps }: ActuarialTimelineProps) {
               className="relative"
             >
               {/* Timeline connector */}
-              {idx < steps.length - 1 && (
+              {idx < steps.length -  1 && (
                 <motion.div
                   initial={{ scaleY: 0 }}
                   whileInView={{ scaleY: 1 }}

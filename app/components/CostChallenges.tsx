@@ -52,7 +52,7 @@ export function CostChallenges({
           </p>
         </div>
 
-        {/* Challenge Cards - All Content Visible */}
+        {/* Challenge Cards -  All Content Visible */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {challenges.map((challenge, idx) => (
             <div

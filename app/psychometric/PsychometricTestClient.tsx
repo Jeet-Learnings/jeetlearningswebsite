@@ -204,14 +204,14 @@ export default function PsychometricTestClient() {
     newAnswers[currentQuestion] = value;
     setAnswers(newAnswers);
 
-    if (currentQuestion < questions.length - 1) {
+    if (currentQuestion < questions.length -  1) {
       setTimeout(() => setCurrentQuestion(currentQuestion + 1), 300);
     }
   };
 
   const handleNext = () => {
     if (answers[currentQuestion] !== undefined) {
-      if (currentQuestion < questions.length - 1) {
+      if (currentQuestion < questions.length -  1) {
         setCurrentQuestion(currentQuestion + 1);
       } else {
         setTestCompleted(true);
@@ -221,7 +221,7 @@ export default function PsychometricTestClient() {
 
   const handlePrevious = () => {
     if (currentQuestion > 0) {
-      setCurrentQuestion(currentQuestion - 1);
+      setCurrentQuestion(currentQuestion -  1);
     }
   };
 
@@ -396,12 +396,12 @@ export default function PsychometricTestClient() {
             </div>
             <p className="font-poppins text-[#757575]">
               {overallPercentage >= 80
-                ? "Excellent - Outstanding potential across all areas"
+                ? "Excellent -  Outstanding potential across all areas"
                 : overallPercentage >= 60
-                ? "Good - Strong capabilities with room for growth"
+                ? "Good -  Strong capabilities with room for growth"
                 : overallPercentage >= 40
-                ? "Average - Solid foundation with development opportunities"
-                : "Developing - Focus on targeted skill building"}
+                ? "Average -  Solid foundation with development opportunities"
+                : "Developing -  Focus on targeted skill building"}
             </p>
           </motion.div>
 
@@ -629,7 +629,7 @@ export default function PsychometricTestClient() {
             disabled={!isAnswered}
             className="flex-1 py-3 px-4 bg-[#C20000] text-white font-poppins font-semibold rounded-lg hover:bg-[#B30000] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
           >
-            {currentQuestion === questions.length - 1 ? (
+            {currentQuestion === questions.length -  1 ? (
               <>
                 Complete <CheckCircle className="w-5 h-5" />
               </>

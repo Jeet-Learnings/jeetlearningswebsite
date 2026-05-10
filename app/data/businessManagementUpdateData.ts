@@ -17,7 +17,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
     ],
     quickFacts: [
       { label: "Duration", detail: "Class 12 + 1-3 Month Training", color: "bg-blue-100 text-blue-700" },
-      { label: "Entry Exam", detail: "No Exam - Direct Hiring", color: "bg-purple-100 text-purple-700" },
+      { label: "Entry Exam", detail: "No Exam -  Direct Hiring", color: "bg-purple-100 text-purple-700" },
       { label: "Salary Range", detail: "₹3L–₹55L+ per annum", color: "bg-green-100 text-green-700" }
     ],
     statCards: [
@@ -47,11 +47,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a BPO professional.",
         color: BLUE2,
         content: [
-          "2:30 PM - The Shift Begins: Arrive at modern glass-fronted office in Gurgaon. Supporting company in UK, day starts in afternoon. Swipe ID card, grab coffee, join 10-minute 'huddle' where Team Lead discusses day's targets.",
-          "4:00 PM - The Deep Dive: Log into system. One screen has customer's history; other has AI assistant suggesting solutions. Handle mix of calls and 'live chats.' One moment helping track lost parcel; next explaining complex billing error.",
-          "7:30 PM - The Cafeteria Buzz: Lunch break (or dinner!). Cafeteria alive with energy. Sit with friends working different 'processes'—one handles Travel, another Finance. Mini-world under one roof.",
-          "10:00 PM - Quality & Feedback: Last hour reviewing 'Customer Satisfaction' scores. Listen to recording of call with trainer to see how to sound more empathetic or solve problems faster.",
-          "11:30 PM - The Ride Home: Board company-provided cab. Look out at city lights. Feel sense of pride. Spent day helping people across ocean solve their problems."
+          "2:30 PM -  The Shift Begins: Arrive at modern glass-fronted office in Gurgaon. Supporting company in UK, day starts in afternoon. Swipe ID card, grab coffee, join 10-minute 'huddle' where Team Lead discusses day's targets.",
+          "4:00 PM -  The Deep Dive: Log into system. One screen has customer's history; other has AI assistant suggesting solutions. Handle mix of calls and 'live chats.' One moment helping track lost parcel; next explaining complex billing error.",
+          "7:30 PM -  The Cafeteria Buzz: Lunch break (or dinner!). Cafeteria alive with energy. Sit with friends working different 'processes'—one handles Travel, another Finance. Mini-world under one roof.",
+          "10:00 PM -  Quality & Feedback: Last hour reviewing 'Customer Satisfaction' scores. Listen to recording of call with trainer to see how to sound more empathetic or solve problems faster.",
+          "11:30 PM -  The Ride Home: Board company-provided cab. Look out at city lights. Feel sense of pride. Spent day helping people across ocean solve their problems."
         ]
       },
       {
@@ -98,7 +98,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA – ₹1.5 Cr+","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹22 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹5.5 LPA","Salary Note: Metros pay 30% more. AI/Language skills boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Gurgaon, Pune, Mumbai.","Top Industries: BFSI, E-commerce, Healthcare, Telecom.","Global Demand: USA, UK. Remote KPO roles rising.","Top Institutions","Government: Indian Institute of Management (IIM), Bangalore, National Institute of Electronics & Information Technology (NIELIT), Indian Institute of Foreign Trade (IIFT), Delhi, Indira Gandhi National Open University (IGNOU)","Private: Indian School of Business (ISB), Hyderabad, Amity University, Symbiosis International University, Pune, NIIT University, Neemrana","Online: NPTEL (IIT/IISc courses), NASSCOM FutureSkills, Udemy Business (BPO Management courses), Skill India Digital Hub (SIDH)","Career Opportunities","Conventional","Customer Support Executive","Process Associate","Quality Analyst","Team Leader","New-age and AI driven","Customer Experience Analyst","RPA Process Analyst","Workforce Management Analyst","Trust and Safety Associate","Remote/entrepreneurship","Remote Customer Support Specialist","BPO Process Consultant","Virtual Team Manager","Outsourcing Agency Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA – ₹1.5 Cr+","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹22 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹5 LPA","Salary Note: Metros pay 30% more. AI/Language skills boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Gurgaon, Pune, Mumbai.","Top Industries: BFSI, E-commerce, Healthcare, Telecom.","Global Demand: USA, UK. Remote KPO roles rising.","Top Institutions","Government: Indian Institute of Management (IIM), Bangalore, National Institute of Electronics & Information Technology (NIELIT), Indian Institute of Foreign Trade (IIFT), Delhi, Indira Gandhi National Open University (IGNOU)","Private: Indian School of Business (ISB), Hyderabad, Amity University, Symbiosis International University, Pune, NIIT University, Neemrana","Online: NPTEL (IIT/IISc courses), NASSCOM FutureSkills, Udemy Business (BPO Management courses), Skill India Digital Hub (SIDH)","Career Opportunities","Conventional","Customer Support Executive","Process Associate","Quality Analyst","Team Leader","New-age and AI driven","Customer Experience Analyst","RPA Process Analyst","Workforce Management Analyst","Trust and Safety Associate","Remote/entrepreneurship","Remote Customer Support Specialist","BPO Process Consultant","Virtual Team Manager","Outsourcing Agency Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -289,11 +289,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a business analyst.",
         color: BLUE2,
         content: [
-          "9:30 AM - The Morning Dashboard: Day begins at high-tech office in Gurgaon. First thing: check 'Dashboard'—screen full of colorful charts. Notice sales for new energy drink dropped 10% yesterday. Don't panic—start digging into 'Why.'",
-          "11:00 AM - The Data Deep-Dive: Use SQL to pull data from company's massive digital warehouse. Realize sales drop happened only in cities where it rained heavily. Delivery bikes couldn't reach customers. Found 'Smoking Gun.'",
-          "1:30 PM - The Strategy Lunch: Over lunch with Marketing team, present findings. Suggest that next storm prediction, app should offer 'Stay-at-Home' discounts to encourage early orders. Not just 'math person'—business strategist.",
-          "4:00 PM - Visualizing the Future: Spend afternoon on Tableau creating beautiful map showing exactly where company should open next five warehouses. Looks like art, but actually multi-crore investment plan.",
-          "6:30 PM - The Global Sync: Video call with team in New York. Explain 'Rainy Day Strategy.' They're impressed and want to try in their cities. Head home knowing work today will save company millions tomorrow."
+          "9:30 AM -  The Morning Dashboard: Day begins at high-tech office in Gurgaon. First thing: check 'Dashboard'—screen full of colorful charts. Notice sales for new energy drink dropped 10% yesterday. Don't panic—start digging into 'Why.'",
+          "11:00 AM -  The Data Deep-Dive: Use SQL to pull data from company's massive digital warehouse. Realize sales drop happened only in cities where it rained heavily. Delivery bikes couldn't reach customers. Found 'Smoking Gun.'",
+          "1:30 PM -  The Strategy Lunch: Over lunch with Marketing team, present findings. Suggest that next storm prediction, app should offer 'Stay-at-Home' discounts to encourage early orders. Not just 'math person'—business strategist.",
+          "4:00 PM -  Visualizing the Future: Spend afternoon on Tableau creating beautiful map showing exactly where company should open next five warehouses. Looks like art, but actually multi-crore investment plan.",
+          "6:30 PM -  The Global Sync: Video call with team in New York. Explain 'Rainy Day Strategy.' They're impressed and want to try in their cities. Head home knowing work today will save company millions tomorrow."
         ]
       },
       {
@@ -531,11 +531,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a finance manager.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Market Pulse: Walk into glass-walled office in Mumbai's BKC. Check 'Bloomberg Terminal'—screen full of red and green numbers. Indian Rupee weakened against Dollar. Problem: company imports raw materials. Call treasury team to 'hedge' risk.",
-          "11:30 AM - The CEO Huddle: Sit with CEO. She wants launch new product in Middle East. Your job isn't 'yes' or 'no'—show math. Present spreadsheet: ₹20 crores to launch, ₹50 crores within two years. You're 'reality check' for company's dreams.",
-          "1:30 PM - Lunch & Networking: Lunch with bank representative. Negotiating interest rate for new loan. Every 0.5% saved means millions kept for company. Not just eating—deal-making.",
-          "4:00 PM - The Data Deep-Dive: Afternoon with Data Analytics team. Using AI tool to predict next month's sales. Notice people buying more through mobile app than stores. Decide to shift budget to digital marketing.",
-          "6:30 PM - The Investors' Call: Day ends with video call with investors in London. They want know why profit grew only 5% last quarter. Explain long-term strategy with confidence. Head home knowing you managed company's future."
+          "9:00 AM -  The Market Pulse: Walk into glass-walled office in Mumbai's BKC. Check 'Bloomberg Terminal'—screen full of red and green numbers. Indian Rupee weakened against Dollar. Problem: company imports raw materials. Call treasury team to 'hedge' risk.",
+          "11:30 AM -  The CEO Huddle: Sit with CEO. She wants launch new product in Middle East. Your job isn't 'yes' or 'no'—show math. Present spreadsheet: ₹20 crores to launch, ₹50 crores within two years. You're 'reality check' for company's dreams.",
+          "1:30 PM -  Lunch & Networking: Lunch with bank representative. Negotiating interest rate for new loan. Every 0.5% saved means millions kept for company. Not just eating—deal-making.",
+          "4:00 PM -  The Data Deep-Dive: Afternoon with Data Analytics team. Using AI tool to predict next month's sales. Notice people buying more through mobile app than stores. Decide to shift budget to digital marketing.",
+          "6:30 PM -  The Investors' Call: Day ends with video call with investors in London. They want know why profit grew only 5% last quarter. Explain long-term strategy with confidence. Head home knowing you managed company's future."
         ]
       },
       {
@@ -773,11 +773,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an operations manager.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Morning Dashboard: Day begins at tech hub in Bengaluru. Log into digital dashboard to check KPIs. Notice 'delivery success rate' in North India dipped 4% last night. Don't panic—start trace immediately.",
-          "11:00 AM - The Strategy Huddle: Meet with Logistics team. Discover local strike delayed trucks. Quickly negotiate with secondary courier partner to reroute high-priority packages. Problem solved before afternoon rush.",
-          "1:30 PM - The Efficiency Lunch: Lunch with Head of Engineering. Discussing new AI tool that can automate customer query sorting. Not just eating—calculating 'Return on Investment' (ROI) of this tech.",
-          "3:30 PM - Process Mapping: Spend afternoon in 'War Room' with whiteboards. Mapping new workflow for customer support team to reduce response time from 10 minutes to 2 minutes. Literally 're-wiring' how company works.",
-          "6:00 PM - The Global Sync: Video call with US headquarters. Present report showing operational changes saved company ₹50 lakhs this month. Head home knowing you were reason company didn't just survive—it thrived."
+          "9:00 AM -  The Morning Dashboard: Day begins at tech hub in Bengaluru. Log into digital dashboard to check KPIs. Notice 'delivery success rate' in North India dipped 4% last night. Don't panic—start trace immediately.",
+          "11:00 AM -  The Strategy Huddle: Meet with Logistics team. Discover local strike delayed trucks. Quickly negotiate with secondary courier partner to reroute high-priority packages. Problem solved before afternoon rush.",
+          "1:30 PM -  The Efficiency Lunch: Lunch with Head of Engineering. Discussing new AI tool that can automate customer query sorting. Not just eating—calculating 'Return on Investment' (ROI) of this tech.",
+          "3:30 PM -  Process Mapping: Spend afternoon in 'War Room' with whiteboards. Mapping new workflow for customer support team to reduce response time from 10 minutes to 2 minutes. Literally 're-wiring' how company works.",
+          "6:00 PM -  The Global Sync: Video call with US headquarters. Present report showing operational changes saved company ₹50 lakhs this month. Head home knowing you were reason company didn't just survive—it thrived."
         ]
       },
       {
@@ -817,13 +817,27 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
         content: [
-          "After Class 10: Choose Commerce or Science (PCM). Math and logical thinking essential. Class 12 Boards.",
-          "After Class 12: Pursue Bachelor's in BBA, BMS, or B.Tech (Engineering). Entrance Exams: IPMAT, CUET, NPAT.",
-          "After Graduation: Gain 2 years work experience in operations, logistics, or supply chain roles.",
-          "Post-Experience: Pursue MBA in Operations or Business Management. Entrance Exams: CAT, XAT, GMAT.",
-          "Lateral Entry: Professionals from Logistics, Sales, or HR can switch with Six Sigma Certification.",
-          "Key Certifications: Six Sigma Green Belt, PMP (Project Management Professional), APICS (CSCP/CPIM).",
-          "Top Institutions: IIM Bangalore, IIM Calcutta, XLRI Jamshedpur, ISB Hyderabad, SPJIMR Mumbai."
+          "Pathway A: Traditional Academic Route",
+          "Step 1: Complete Class 12th with Commerce/Maths stream",
+          "Step 2: Pursue BBA/B.Com in Management (3 years)",
+          "Step 3: Complete MBA in Operations Management (2 years)",
+          "Step 4: Learn supply chain, logistics, process optimization techniques",
+          "Step 5: Complete internship in manufacturing/logistics/e-commerce company",
+          "Step 6: Join as Operations Manager/Supply Chain Manager/Process Analyst",
+          "Pathway B: Engineering/Technical Route",
+          "Step 1: Complete Class 12th with PCM stream",
+          "Step 2: Pursue B.Tech in Industrial/Mechanical Engineering (4 years)",
+          "Step 3: Learn Six Sigma, Lean Management, ERP systems",
+          "Step 4: Complete internship in production/manufacturing plant",
+          "Step 5: Pursue MBA/PG Diploma in Operations Management",
+          "Step 6: Join as Plant Manager/Production Head/Operations Consultant",
+          "Pathway C: Skill-Based/Certification Entry Route",
+          "Step 1: Complete Class 12th with any stream",
+          "Step 2: Pursue any graduate degree (BBA/B.Com/BA)",
+          "Step 3: Complete certification in Six Sigma/PMP/APICS",
+          "Step 4: Learn tools like SAP, Oracle, MS Project",
+          "Step 5: Build experience in warehouse/retail/logistics operations",
+          "Step 6: Join as Operations Executive/Logistics Coordinator/Quality Analyst"
         ]
       },
       {
@@ -833,13 +847,21 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
         content: [
-          "Entry-Level (Fresher, 0-2 years): ₹4.5L–₹7.5L per annum. Operations coordinator or assistant roles.",
-          "Mid-Level (5-10 years): ₹12L–₹22L per annum. Operations manager or senior coordinator positions.",
-          "Senior/Leadership (10+ years): ₹35L–₹60L+ per annum. Director or VP of Operations roles.",
-          "Market Growth: Business Process Management sector growing at 23.5% CAGR, expected to reach $4.2B by 2030.",
-          "Industry Trends: Operations roles booming in E-commerce, FinTech, and Renewable Energy sectors.",
-          "City Trends: Mumbai (Financial Ops), Bengaluru (Tech Ops), Gurgaon (Corporate Ops), Pune (Manufacturing Ops).",
-          "International: High demand in Singapore, Dubai, Germany for Indian managers skilled in lean manufacturing."
+          "Salary Snapshot (Annual INR)",
+          "CXO (15+ yrs): ₹70 LPA – ₹2.0 Cr+",
+          "Senior (10+ yrs): ₹30 – ₹55 LPA",
+          "Mid-Level (5–8 yrs): ₹16 – ₹28 LPA",
+          "Junior (3–5 yrs): ₹9 – ₹15 LPA",
+          "Entry Level (0–2 yrs): ₹5 – ₹9 LPA",
+          "Note: Metros pay 35% extra. MBA/Six-Sigma boosts pay.",
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.",
+          "Top Industries: Fintech, E-commerce, Logistics, Consulting.",
+          "Global Demand: USA, UAE. Remote/hybrid roles growing.",
+          "Top Institutions",
+          "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Calcutta, Indian Institute of Technology (IIT), Bombay, National Institute of Industrial Engineering (NITIE), Mumbai",
+          "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, Symbiosis Institute of Operations Management, Nashik, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
+          "Online: NPTEL (IIT/IISc courses), NITIE Mumbai (Online Programs), edX (IIMBx Operations Management), Simplilearn (Six Sigma & Lean Certifications)"
         ]
       },{
         id: "costs",
@@ -911,12 +933,21 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Diverse paths in operations careers.",
         color: BLUE2,
         content: [
-          "Conventional Careers: Operations Coordinator, Operations Manager, Supply Chain Manager, Plant Manager.",
-          "New-Age Careers: Sustainability Operations Manager, AI-Process Automator, Customer Experience (CX) Operations Manager.",
-          "Specialized Roles: Logistics Manager, Quality Assurance Manager, Process Improvement Specialist, Inventory Manager.",
-          "Entrepreneurship: Starting Operations Consultancy for small D2C brands or manufacturing units.",
-          "Consulting: Operations consultant for management consulting firms. Helping companies optimize.",
-          "International: Opportunities in Singapore, Dubai, Germany for senior roles and management positions."
+          "Conventional",
+          "Operations Executive",
+          "Operations Manager",
+          "Process Excellence Analyst",
+          "Supply Chain Operations Analyst",
+          "New-age and AI driven",
+          "Business Operations Analyst",
+          "Product Operations Manager",
+          "Revenue Operations Analyst",
+          "AI-Enabled Operations Analyst",
+          "Remote/entrepreneurship",
+          "Operations Consultant",
+          "Freelance Process Improvement Specialist",
+          "Virtual Operations Manager",
+          "Operations Agency Founder"
         ]
       },
       {
@@ -1033,12 +1064,12 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an HR professional.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Morning Huddle: Arrive at vibrant office in Gurgaon. Day starts with 'Culture Check.' Walk through office, greeting employees. Notice engineering team looks stressed—working late. Make mental note to organize 'Fun Friday' or team-building session.",
-          "11:00 AM - The Interview Marathon: In glass cabin, interviewing three candidates for new AI Engineer role. Not just checking coding skills—checking if they are team players. Looking for 'Cultural Fit.'",
-          "1:30 PM - Strategy Lunch: Over lunch with CEO, discuss 'Attrition Rate' (how many people leaving company). Propose new 'Flexible Work Policy' or better health insurance to keep best people from moving to competitors.",
-          "3:30 PM - The Policy Workshop: Spend afternoon in boardroom, explaining new Labor Law changes to senior managers. Use data and charts to show how changes will impact company's payroll.",
-          "5:30 PM - The Conflict Resolution: Junior designer and senior manager have disagreement over project deadline. Sit them both down and act as neutral mediator. By time they leave, they have 'Handshake Agreement' and clear plan forward.",
-          "7:00 PM - The Review Wrap-up: Before leaving, review feedback from today's training session on 'Inclusive Leadership.' Head home knowing you've made workplace better for 500 people."
+          "9:00 AM -  The Morning Huddle: Arrive at vibrant office in Gurgaon. Day starts with 'Culture Check.' Walk through office, greeting employees. Notice engineering team looks stressed—working late. Make mental note to organize 'Fun Friday' or team-building session.",
+          "11:00 AM -  The Interview Marathon: In glass cabin, interviewing three candidates for new AI Engineer role. Not just checking coding skills—checking if they are team players. Looking for 'Cultural Fit.'",
+          "1:30 PM -  Strategy Lunch: Over lunch with CEO, discuss 'Attrition Rate' (how many people leaving company). Propose new 'Flexible Work Policy' or better health insurance to keep best people from moving to competitors.",
+          "3:30 PM -  The Policy Workshop: Spend afternoon in boardroom, explaining new Labor Law changes to senior managers. Use data and charts to show how changes will impact company's payroll.",
+          "5:30 PM -  The Conflict Resolution: Junior designer and senior manager have disagreement over project deadline. Sit them both down and act as neutral mediator. By time they leave, they have 'Handshake Agreement' and clear plan forward.",
+          "7:00 PM -  The Review Wrap-up: Before leaving, review feedback from today's training session on 'Inclusive Leadership.' Head home knowing you've made workplace better for 500 people."
         ]
       },
       {
@@ -1113,7 +1144,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
         content: [
-          "Entry-Level (HR Executive): ₹3.5L–₹7.5L per annum. Recruitment or HR operations roles.",
+          "Entry-Level (HR Executive): ₹3L–₹7L per annum. Recruitment or HR operations roles.",
           "Mid-Level (HR Manager): ₹12L–₹22L per annum. Managing teams and specific HR functions.",
           "Senior-Level (Director of HR): ₹35L–₹65L+ per annum. Strategic HR leadership roles.",
           "Leadership (CHRO): ₹1.5Cr+ per annum. Chief Human Resources Officer at large organizations.",
@@ -1308,11 +1339,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an international business professional.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Morning Briefing (IST): Start day in high-tech office in Gurgaon. First task: check overnight news from New York. Did US Federal Reserve change interest rates? If so, cost of company's imports might go up. Send quick summary to boss.",
-          "11:30 AM - The Cultural Strategy Meet: Video call with creative team. Launching new snack brand in Dubai. Point out packaging needs to be translated into Arabic and must strictly follow local food safety laws. Not just manager—cultural expert.",
-          "1:30 PM - The Supply Chain Puzzle: Lunch while tracking shipment of raw materials from Vietnam. Delay at Singapore port. Quickly call logistics partner in Singapore to find alternative route. Professional problem-solver.",
-          "4:00 PM - The Negotiation: Join Zoom call with potential partner in Germany. Spent weeks studying German business etiquette. Know they value punctuality and directness. Present proposal clearly, focusing on data. By end of hour, have 'Letter of Intent.'",
-          "7:00 PM - The Evening Wrap-Up: Send email to team in Brazil, just starting their workday. Update them on German deal. Head home knowing while working in one building, influence moved across three continents."
+          "9:00 AM -  The Morning Briefing (IST): Start day in high-tech office in Gurgaon. First task: check overnight news from New York. Did US Federal Reserve change interest rates? If so, cost of company's imports might go up. Send quick summary to boss.",
+          "11:30 AM -  The Cultural Strategy Meet: Video call with creative team. Launching new snack brand in Dubai. Point out packaging needs to be translated into Arabic and must strictly follow local food safety laws. Not just manager—cultural expert.",
+          "1:30 PM -  The Supply Chain Puzzle: Lunch while tracking shipment of raw materials from Vietnam. Delay at Singapore port. Quickly call logistics partner in Singapore to find alternative route. Professional problem-solver.",
+          "4:00 PM -  The Negotiation: Join Zoom call with potential partner in Germany. Spent weeks studying German business etiquette. Know they value punctuality and directness. Present proposal clearly, focusing on data. By end of hour, have 'Letter of Intent.'",
+          "7:00 PM -  The Evening Wrap-Up: Send email to team in Brazil, just starting their workday. Update them on German deal. Head home knowing while working in one building, influence moved across three continents."
         ]
       },
       {
@@ -1359,7 +1390,23 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹70L – ₹1.8Cr","Senior (10+ yrs): ₹30 – ₹55L","Mid-Level (5–8 yrs): ₹15 – ₹28L","Junior (3–5 yrs): ₹8 – ₹14L","Entry (0–2 yrs): ₹5 – ₹9L","Note: Metros pay 35% more. Tier-1 MBA/IIFT boosts pay.","Where Are the Jobs?","Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.","Sectors: MNCs, Logistics, Export, Consulting, BFSI.","Global: USA, UAE. Remote strategy roles rising.","Top Institutions","Government:","Indian Institute of Foreign Trade (IIFT), Delhi","Indian Institute of Management (IIM), Bangalore","Indian Institute of Management (IIM), Calcutta","Faculty of Management Studies (FMS), University of Delhi","Private:","Indian School of Business (ISB), Hyderabad","XLRI – Xavier School of Management, Jamshedpur","Symbiosis Institute of International Business, Pune","Amity International Business School, Noida","Online:","NPTEL (IIT/IISc courses)","IIFT Delhi (Online Certificate Programs)","edX (IIMBx International Business)","Coursera (ISB Global Business Strategies)","Career Opportunities","Conventional","Export-Import Manager","International Sales Executive","Trade Compliance Officer","Global Sourcing Executive","New-age and AI driven","Cross-Border E-commerce Manager","Global Trade Analytics Specialist","International Market Intelligence Analyst","Digital Supply Chain Analyst","Remote/entrepreneurship","Export Consultant","International Business Consultant","Cross-Border E-commerce Seller","Import-Export Agency Founder"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO (15+ yrs): ₹70L – ₹1.8Cr",
+          "Senior (10+ yrs): ₹30 – ₹55L",
+          "Mid-Level (5–8 yrs): ₹15 – ₹28L",
+          "Junior (3–5 yrs): ₹8 – ₹14L",
+          "Entry (0–2 yrs): ₹5 – ₹9L",
+          "Note: Metros pay 35% more. Tier-1 MBA/IIFT boosts pay.",
+          "Where Are the Jobs?",
+          "Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.",
+          "Sectors: MNCs, Logistics, Export, Consulting, BFSI.",
+          "Global: USA, UAE. Remote strategy roles rising.",
+          "Top Institutions",
+          "Government: Indian Institute of Foreign Trade (IIFT), Delhi, Indian Institute of Management (IIM), Bangalore, Indian Institute of Management (IIM), Calcutta, Faculty of Management Studies (FMS), University of Delhi",
+          "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, Symbiosis Institute of International Business, Pune, Amity International Business School, Noida",
+          "Online: NPTEL (IIT/IISc courses), IIFT Delhi (Online Certificate Programs), edX (IIMBx International Business), Coursera (ISB Global Business Strategies)"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1383,7 +1430,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Top international business institutes across India.",
         color: BLUE,
         content: [
-          "Government/Public: IIFT (Delhi/Kolkata) - The gold standard, Delhi School of Economics (DSE), IIMs (Bangalore, Calcutta, Indore).",
+          "Government/Public: IIFT (Delhi/Kolkata) -  The gold standard, Delhi School of Economics (DSE), IIMs (Bangalore, Calcutta, Indore).",
           "Private: MDI Gurgaon, Symbiosis (SIB-M/SIB-P), SPJIMR Mumbai, FORE School of Management, NMIMS Mumbai.",
           "Online/Distance: IGNOU (MBA-IB), Amity Online.",
           "Geographic Diversity: North (MDI Gurgaon), South (Christ University Bangalore), East (IIM Calcutta), West (NMIMS Mumbai).",
@@ -1543,11 +1590,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an IT manager.",
         color: BLUE2,
         content: [
-          "8:30 AM - The Morning Radar: Walk into high-tech office in Bangalore (Silicon Valley of India). First task: 'Security Huddle.' Dashboard shows minor attempted breach from suspicious IP address. Oversee cybersecurity team as they patch vulnerability before most people finish first cup of chai.",
-          "11:00 AM - The Strategy Scrum: Meet with CEO. Company wants to move all data to 'Hybrid Cloud.' Don't talk in jargon—explain how this saves ₹50 Lakhs in server costs next year. 'Translator' between geek-speak and business-speak.",
-          "1:30 PM - The Global Sync: Quick lunch before video call with team in Seattle. Managing project where Indian developers and American designers build new AI shopping assistant. Ensure 'workflow' smooth across time zones.",
-          "4:00 PM - Mentorship and Troubleshooting: Junior developer stuck on 'bug' delaying app launch. Don't fix it for them—guide through logic. Managing hardware and growing human talent.",
-          "6:30 PM - The Future Pulse: Spend 30 minutes reading about 'Agentic AI'—next big trend. If you stop learning for month, you're year behind. Leave office knowing company's digital heart beating perfectly."
+          "8:30 AM -  The Morning Radar: Walk into high-tech office in Bangalore (Silicon Valley of India). First task: 'Security Huddle.' Dashboard shows minor attempted breach from suspicious IP address. Oversee cybersecurity team as they patch vulnerability before most people finish first cup of chai.",
+          "11:00 AM -  The Strategy Scrum: Meet with CEO. Company wants to move all data to 'Hybrid Cloud.' Don't talk in jargon—explain how this saves ₹50 Lakhs in server costs next year. 'Translator' between geek-speak and business-speak.",
+          "1:30 PM -  The Global Sync: Quick lunch before video call with team in Seattle. Managing project where Indian developers and American designers build new AI shopping assistant. Ensure 'workflow' smooth across time zones.",
+          "4:00 PM -  Mentorship and Troubleshooting: Junior developer stuck on 'bug' delaying app launch. Don't fix it for them—guide through logic. Managing hardware and growing human talent.",
+          "6:30 PM -  The Future Pulse: Spend 30 minutes reading about 'Agentic AI'—next big trend. If you stop learning for month, you're year behind. Leave office knowing company's digital heart beating perfectly."
         ]
       },
       {
@@ -1596,7 +1643,23 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Cr+","Senior / Lead Role (10+ yrs): ₹30 – ₹60 LPA","Mid-Level Professional (5–8 yrs): ₹18 – ₹32 LPA","Junior / Associate (3–5 yrs): ₹9 – ₹16 LPA","Entry Level (0–2 yrs): ₹5 – ₹9 LPA","Note: Metros pay 40% more. AI/Cloud skills command premiums.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Delhi-NCR, Mumbai.","Top Industries: Fintech, SaaS, Global Capability Centres (GCCs), E-commerce.","Global Demand: High in USA, UK. Remote management roles booming.","Top Institutions","Government:","Indian Institute of Management (IIM), Ahmedabad","Indian Institute of Technology (IIT), Delhi","Indian Institute of Management (IIM), Calcutta","National Institute of Electronics & Information Technology (NIELIT)","Private:","Indian School of Business (ISB), Hyderabad","International Institute of Information Technology (IIIT), Hyderabad","Symbiosis Institute of Computer Studies & Research, Pune","NIIT University, Neemrana","Online:","NPTEL (IIT/IISc courses)","NASSCOM FutureSkills","NIELIT (Online IT Certifications)","Coursera (IIT/ISB IT Management Programs)","Career Opportunities","Conventional","IT Project Manager","IT Operations Manager","IT Service Delivery Manager","IT Governance Manager","New-age and AI driven","AI Product Manager","Cloud Operations Manager","Cybersecurity Program Manager","Site Reliability Manager","Remote/entrepreneurship","IT Consultant","Virtual CTO","Managed Services Founder","Tech Transformation Advisor"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Cr+",
+          "Senior / Lead Role (10+ yrs): ₹30 – ₹60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹18 – ₹32 LPA",
+          "Junior / Associate (3–5 yrs): ₹9 – ₹16 LPA",
+          "Entry Level (0–2 yrs): ₹5 – ₹9 LPA",
+          "Note: Metros pay 40% more. AI/Cloud skills command premiums.",
+          "Where Are the Jobs?",
+          "Top Cities: Bangalore, Hyderabad, Pune, Delhi-NCR, Mumbai.",
+          "Top Industries: Fintech, SaaS, Global Capability Centres (GCCs), E-commerce.",
+          "Global Demand: High in USA, UK. Remote management roles booming.",
+          "Top Institutions",
+          "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Technology (IIT), Delhi, Indian Institute of Management (IIM), Calcutta, National Institute of Electronics & Information Technology (NIELIT)",
+          "Private: Indian School of Business (ISB), Hyderabad, International Institute of Information Technology (IIIT), Hyderabad, Symbiosis Institute of Computer Studies & Research, Pune, NIIT University, Neemrana",
+          "Online: NPTEL (IIT/IISc courses), NASSCOM FutureSkills, NIELIT (Online IT Certifications), Coursera (IIT/ISB IT Management Programs)"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1663,12 +1726,21 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Diverse paths in IT management.",
         color: BLUE2,
         content: [
-          "Conventional Careers: IT Manager, Project Manager, Database Administrator, Systems Administrator.",
-          "New-Age Careers: AI Ethics Manager, Cloud Architect, Chief Digital Officer (CDO), Quantum Computing Manager.",
-          "Specialized Roles: Cybersecurity Manager, DevOps Manager, Enterprise Architect, IT Service Manager.",
-          "Entrepreneurship: Starting IT consulting firm or becoming 'Fractional CTO' for startups.",
-          "Consulting: IT consultant for management consulting firms. Helping companies optimize IT.",
-          "International: Opportunities in USA, UK, Singapore for senior roles and management positions."
+          "Conventional",
+          "IT Project Manager",
+          "IT Operations Manager",
+          "IT Service Delivery Manager",
+          "IT Governance Manager",
+          "New-age and AI driven",
+          "AI Product Manager",
+          "Cloud Operations Manager",
+          "Cybersecurity Program Manager",
+          "Site Reliability Manager",
+          "Remote/entrepreneurship",
+          "IT Consultant",
+          "Virtual CTO",
+          "Managed Services Founder",
+          "Tech Transformation Advisor"
         ]
       },
       {
@@ -1783,11 +1855,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a project manager.",
         color: BLUE2,
         content: [
-          "8:30 AM - The Morning 'Stand-up': Day begins at tech-hub in Gurgaon. Standing with team in 15-minute 'scrum' meeting where everyone shares what they did yesterday and what they'll do today. Spot 'bottleneck'—testing team waiting for code. Make quick call to resolve.",
-          "11:00 AM - The Stakeholder Sync: Video call with clients in London and finance team in Mumbai. Show 'Gantt Chart'—colorful bar chart proving project on track. Handle tough questions about budget with calm, data-backed confidence.",
-          "1:30 PM - The Strategy Lunch: Chat with junior developer feeling burnt out. Project management isn't just about tools—it's about people. Offer encouragement and adjust schedule for next week.",
-          "3:30 PM - Risk Mitigation: Spend afternoon in 'Deep Work.' Looking at 'Risk Register.' What if monsoon delays hardware delivery? Negotiate backup contract with local supplier. Predicting future, not just managing present.",
-          "6:00 PM - The Impact Check: Review 'KPIs' (Key Performance Indicators). Project 65% complete, saved 5% of budget so far. Head home knowing you're glue holding multi-crore dream together."
+          "8:30 AM -  The Morning 'Stand-up': Day begins at tech-hub in Gurgaon. Standing with team in 15-minute 'scrum' meeting where everyone shares what they did yesterday and what they'll do today. Spot 'bottleneck'—testing team waiting for code. Make quick call to resolve.",
+          "11:00 AM -  The Stakeholder Sync: Video call with clients in London and finance team in Mumbai. Show 'Gantt Chart'—colorful bar chart proving project on track. Handle tough questions about budget with calm, data-backed confidence.",
+          "1:30 PM -  The Strategy Lunch: Chat with junior developer feeling burnt out. Project management isn't just about tools—it's about people. Offer encouragement and adjust schedule for next week.",
+          "3:30 PM -  Risk Mitigation: Spend afternoon in 'Deep Work.' Looking at 'Risk Register.' What if monsoon delays hardware delivery? Negotiate backup contract with local supplier. Predicting future, not just managing present.",
+          "6:00 PM -  The Impact Check: Review 'KPIs' (Key Performance Indicators). Project 65% complete, saved 5% of budget so far. Head home knowing you're glue holding multi-crore dream together."
         ]
       },
       {
@@ -1834,7 +1906,23 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹80 LPA – ₹2.5 Crore+","Senior (10+ yrs): ₹30 – ₹60 LPA","Mid-Level (5–8 yrs): ₹15 – ₹30 LPA","Junior (3–5 yrs): ₹8 – ₹15 LPA","Entry Level (0–2 yrs): ₹4.5 – ₹9 LPA","Note: Metros pay 35% more. PMP/Agile certifications boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Delhi-NCR, Chennai.","Top Industries: IT, Construction, BFSI, E-commerce, Pharma.","Global Demand: High in USA, UAE. Remote hybrid roles booming.","Top Institutions","Government:","Indian Institute of Management (IIM), Ahmedabad","Indian Institute of Management (IIM), Bangalore","Indian Institute of Technology (IIT), Delhi","National Institute of Construction Management & Research (NICMAR), Pune","Private:","Indian School of Business (ISB), Hyderabad","XLRI – Xavier School of Management, Jamshedpur","Symbiosis Institute of Business Management, Pune","SP Jain Institute of Management & Research, Mumbai","Online:","NPTEL (IIT/IISc courses)","PMI India (Project Management Certifications)","NICMAR Online Programs","Simplilearn (PMP & PRINCE2 Certifications)","Career Opportunities","Conventional","Project Manager","Program Manager","PMO Analyst","Delivery Manager","New-age and AI driven","AI Project Manager","Technical Program Manager","Product Operations Manager","Agile Transformation Manager","Remote/entrepreneurship","Freelance Project Consultant","Virtual PMO Specialist","Remote Delivery Consultant","Project Management Agency Founder"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO (15+ yrs): ₹80 LPA – ₹2.5 Crore+",
+          "Senior (10+ yrs): ₹30 – ₹60 LPA",
+          "Mid-Level (5–8 yrs): ₹15 – ₹30 LPA",
+          "Junior (3–5 yrs): ₹8 – ₹15 LPA",
+          "Entry Level (0–2 yrs): ₹4 – ₹9 LPA",
+          "Note: Metros pay 35% more. PMP/Agile certifications boost pay.",
+          "Where Are the Jobs?",
+          "Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Delhi-NCR, Chennai.",
+          "Top Industries: IT, Construction, BFSI, E-commerce, Pharma.",
+          "Global Demand: High in USA, UAE. Remote hybrid roles booming.",
+          "Top Institutions",
+          "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Bangalore, Indian Institute of Technology (IIT), Delhi, National Institute of Construction Management & Research (NICMAR), Pune",
+          "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, Symbiosis Institute of Business Management, Pune, SP Jain Institute of Management & Research, Mumbai",
+          "Online: NPTEL (IIT/IISc courses), PMI India (Project Management Certifications), NICMAR Online Programs, Simplilearn (PMP & PRINCE2 Certifications)"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1936,7 +2024,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         content: [
           "GenAI as Assistant: AI will handle scheduling and budget tracking. PMs focus on Human-Centric Leadership.",
           "Agile Everywhere: Not just in software, but in construction and marketing.",
-          "Remote-First PM - Leading 'Global Distributed Teams' across 5 continents from home office in India.",
+          "Remote-First PM -  Leading 'Global Distributed Teams' across 5 continents from home office in India.",
           "Predictive Analytics: AI predicting project risks before they happen.",
           "Sustainability Focus: Green PM becoming mainstream. ESG metrics becoming standard.",
           "Hybrid Methodologies: Combining Agile, Waterfall, and Lean approaches.",
@@ -2022,11 +2110,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a retail manager.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Strategy Huddle: Day begins at large lifestyle store in Bangalore. Before shutters go up, lead 15-minute 'pep talk' with team. Review today's sales targets and announce 'Top Seller' from yesterday.",
-          "11:30 AM - Visual Merchandising Check: Store buzzing. Walk floor, checking 'Visual Merchandising.' Notice new summer collection isn't catching enough light. Call display team to adjust mannequins. Retail is in details!",
-          "1:30 PM - The Inventory Deep-Dive: Quick lunch while checking 'Inventory Dashboard.' Notice specific brand of smartwatches selling out faster than expected in Tier-2 cities. Immediately authorize stock transfer from warehouse.",
-          "4:00 PM - The Tech Update: Meet with developer installing new AI-based 'Smart Mirrors' in trial rooms. These mirrors allow customers to virtually 'try on' clothes without changing. Managing innovation hub.",
-          "7:30 PM - The Evening Rush: Store packed. Customer unhappy about billing error. Step in, apologize, resolve with smile. Turned potential 'bad review' into 'loyal customer.'"
+          "9:00 AM -  The Strategy Huddle: Day begins at large lifestyle store in Bangalore. Before shutters go up, lead 15-minute 'pep talk' with team. Review today's sales targets and announce 'Top Seller' from yesterday.",
+          "11:30 AM -  Visual Merchandising Check: Store buzzing. Walk floor, checking 'Visual Merchandising.' Notice new summer collection isn't catching enough light. Call display team to adjust mannequins. Retail is in details!",
+          "1:30 PM -  The Inventory Deep-Dive: Quick lunch while checking 'Inventory Dashboard.' Notice specific brand of smartwatches selling out faster than expected in Tier-2 cities. Immediately authorize stock transfer from warehouse.",
+          "4:00 PM -  The Tech Update: Meet with developer installing new AI-based 'Smart Mirrors' in trial rooms. These mirrors allow customers to virtually 'try on' clothes without changing. Managing innovation hub.",
+          "7:30 PM -  The Evening Rush: Store packed. Customer unhappy about billing error. Step in, apologize, resolve with smile. Turned potential 'bad review' into 'loyal customer.'"
         ]
       },
       {
@@ -2068,7 +2156,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "Map",
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
-        content: ["Career Pathways in Retail Management","Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with Commerce/any stream","Step 2: Pursue BBA/B.Com in Retail Management (3 years)","Step 3: Complete MBA in Retail/Marketing Management (2 years)","Step 4: Learn merchandising, inventory control, consumer behaviour","Step 5: Complete internship in retail chain/shopping mall/e-commerce","Step 6: Join as Retail Manager/Area Manager/Regional Sales Director","Pathway B: Professional/Specialisation Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (BBA/B.Com/BA)","Step 3: Complete PG Diploma in Retail Management from RAI","Step 4: Learn tools like POS systems, SAP Retail, CRM software","Step 5: Gain experience in visual merchandising/store operations","Step 6: Join as Store Manager/Category Manager/Retail Operations Head","Pathway C: Skill-Based/Direct Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Develop strong sales, communication, customer service skills","Step 3: Complete short-term certification in retail/sales management","Step 4: Join retail store as Sales Executive/Floor Associate","Step 5: Learn inventory management and team leadership practically","Step 6: Advance as Assistant Store Manager/Franchise Manager/Retail Trainer"]
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with Commerce/any stream","Step 2: Pursue BBA/B.Com in Retail Management (3 years)","Step 3: Complete MBA in Retail/Marketing Management (2 years)","Step 4: Learn merchandising, inventory control, consumer behaviour","Step 5: Complete internship in retail chain/shopping mall/e-commerce","Step 6: Join as Retail Manager/Area Manager/Regional Sales Director","Pathway B: Professional/Specialisation Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (BBA/B.Com/BA)","Step 3: Complete PG Diploma in Retail Management from RAI","Step 4: Learn tools like POS systems, SAP Retail, CRM software","Step 5: Gain experience in visual merchandising/store operations","Step 6: Join as Store Manager/Category Manager/Retail Operations Head","Pathway C: Skill-Based/Direct Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Develop strong sales, communication, customer service skills","Step 3: Complete short-term certification in retail/sales management","Step 4: Join retail store as Sales Executive/Floor Associate","Step 5: Learn inventory management and team leadership practically","Step 6: Advance as Assistant Store Manager/Franchise Manager/Retail Trainer"]
       },
       {
         id: "market",
@@ -2076,7 +2164,23 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore+","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹14 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA","Entry Level (0–2 yrs): ₹4 – ₹7 LPA","Note: Metros pay 40% more. MBA/AI skills boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune.","Top Industries: E-commerce, Luxury Retail, FMCG, Retail-Tech.","Global Demand: USA, UAE. Hybrid management roles rising.","Top Institutions","Government:","Indian Institute of Management (IIM), Ahmedabad","Indian Institute of Management (IIM), Bangalore","Faculty of Management Studies (FMS), University of Delhi","National Institute of Fashion Technology (NIFT), Delhi","Private:","Birla Institute of Management Technology (BIMTECH), Greater Noida","KJ Somaiya Institute of Management, Mumbai","Symbiosis Institute of Business Management, Pune","Lovely Professional University","Online:","NPTEL (IIT/IISc courses)","Retailers Association's Skill Council (RASCI)","edX (Retail Management courses)","Skill India Digital Hub (SIDH)","Career Opportunities","Conventional","Retail Store Manager","Merchandising Executive","Category Executive","Visual Merchandiser","New-age and AI driven","E-commerce Retail Manager","Omnichannel Retail Analyst","Retail Data Analyst","AI-Enabled Demand Planner","Remote/entrepreneurship","Retail Consultant","D2C Brand Founder","Online Store Manager","Retail Franchise Owner"]
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore+",
+          "Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹14 – ₹24 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA",
+          "Entry Level (0–2 yrs): ₹4 – ₹7 LPA",
+          "Note: Metros pay 40% more. MBA/AI skills boost pay.",
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune.",
+          "Top Industries: E-commerce, Luxury Retail, FMCG, Retail-Tech.",
+          "Global Demand: USA, UAE. Hybrid management roles rising.",
+          "Top Institutions",
+          "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Bangalore, Faculty of Management Studies (FMS), University of Delhi, National Institute of Fashion Technology (NIFT), Delhi",
+          "Private: Birla Institute of Management Technology (BIMTECH), Greater Noida, KJ Somaiya Institute of Management, Mumbai, Symbiosis Institute of Business Management, Pune, Lovely Professional University",
+          "Online: NPTEL (IIT/IISc courses), Retailers Association's Skill Council (RASCI), edX (Retail Management courses), Skill India Digital Hub (SIDH)"
+        ]
       },{
         id: "costs",
         title: "What Will It Cost?",

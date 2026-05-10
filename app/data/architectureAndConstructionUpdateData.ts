@@ -46,12 +46,12 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         description: "Real workflow of a construction professional.",
         color: "#DA1313",
         content: [
-          "7:00 AM - The Early Bird Gets the Site: Arrive at the site just as the sun rises. Wear your 'armor': bright yellow hard hat, high-visibility vest, and steel-toed boots. Do a quick safety walk ensuring no hazards before 500+ workers arrive.",
-          "9:00 AM - The Toolbox Talk: Gather supervisors and laborers for a 'Toolbox Talk.' Explain the day's goals—pouring concrete for the 12th-floor slab. Emphasize safety protocols and harness checks for those working at heights.",
-          "11:30 AM - The Tech Check: Pull out a tablet and open a BIM app. Compare the 3D digital model with what's actually being built. Spot a clash: a plumbing pipe exactly where an electrical conduit should go. Mark it for the design team.",
-          "1:30 PM - Quality & Math: A fleet of transit mixers arrives. Supervise the 'Slump Test' to check concrete quality. Do quick mental math to ensure the volume matches the order.",
-          "4:00 PM - The Client Update: Meet with the Project Manager and Client. Discuss budget and timeline. There's a delay in steel delivery due to rain—figure out how to adjust the schedule so the project doesn't fall behind.",
-          "7:00 PM - Planning Tomorrow: Finish your Daily Progress Report (DPR). Check the weather forecast. If it rains tomorrow, prepare a Plan B. Look back at the rising structure with pride—you didn't just work today; you built a landmark."
+          "7:00 AM -  The Early Bird Gets the Site: Arrive at the site just as the sun rises. Wear your 'armor': bright yellow hard hat, high-visibility vest, and steel-toed boots. Do a quick safety walk ensuring no hazards before 500+ workers arrive.",
+          "9:00 AM -  The Toolbox Talk: Gather supervisors and laborers for a 'Toolbox Talk.' Explain the day's goals—pouring concrete for the 12th-floor slab. Emphasize safety protocols and harness checks for those working at heights.",
+          "11:30 AM -  The Tech Check: Pull out a tablet and open a BIM app. Compare the 3D digital model with what's actually being built. Spot a clash: a plumbing pipe exactly where an electrical conduit should go. Mark it for the design team.",
+          "1:30 PM -  Quality & Math: A fleet of transit mixers arrives. Supervise the 'Slump Test' to check concrete quality. Do quick mental math to ensure the volume matches the order.",
+          "4:00 PM -  The Client Update: Meet with the Project Manager and Client. Discuss budget and timeline. There's a delay in steel delivery due to rain—figure out how to adjust the schedule so the project doesn't fall behind.",
+          "7:00 PM -  Planning Tomorrow: Finish your Daily Progress Report (DPR). Check the weather forecast. If it rains tomorrow, prepare a Plan B. Look back at the rising structure with pride—you didn't just work today; you built a landmark."
         ]
       },
       {
@@ -271,12 +271,12 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         description: "Real workflow of an architect.",
         color: "#DA1313",
         content: [
-          "8:30 AM - The Creative Spark: Start your day not at a desk, but with a sketchbook. You're working on a new design for a community library. You doodle shapes, thinking about how to keep the reading room quiet while letting in enough natural light.",
-          "10:30 AM - Tech Time: Move to your computer. Use software like Revit and AutoCAD to turn your doodles into precise 3D models. You're not just drawing lines; you're adding data—what kind of glass will the windows use? How thick should the concrete walls be?",
-          "1:30 PM - The Strategy Meeting: Join your Senior Architect and a Structural Engineer. Discuss a problem: the library's roof design is beautiful, but the engineer says it might be too heavy. Brainstorm together, shifting columns and changing materials until the design is both stunning and safe.",
-          "3:30 PM - Site Visit: Put on a hard hat and neon vest. You're at a construction site for a residential project. Walk through the dusty floors, checking if builders are following your blueprints exactly. Spot a pipe placed in the wrong spot and coordinate with the contractor to fix it immediately.",
-          "6:00 PM - The Client Pitch: Back at the office, prepare a presentation for a client. Use a Virtual Reality (VR) headset to show them what it will feel like to walk through their future home before a single brick is laid.",
-          "7:30 PM - Wrapping Up: Head home, tired but inspired. As you drive, look at buildings around you differently, constantly thinking, 'How could I make this better?'"
+          "8:30 AM -  The Creative Spark: Start your day not at a desk, but with a sketchbook. You're working on a new design for a community library. You doodle shapes, thinking about how to keep the reading room quiet while letting in enough natural light.",
+          "10:30 AM -  Tech Time: Move to your computer. Use software like Revit and AutoCAD to turn your doodles into precise 3D models. You're not just drawing lines; you're adding data—what kind of glass will the windows use? How thick should the concrete walls be?",
+          "1:30 PM -  The Strategy Meeting: Join your Senior Architect and a Structural Engineer. Discuss a problem: the library's roof design is beautiful, but the engineer says it might be too heavy. Brainstorm together, shifting columns and changing materials until the design is both stunning and safe.",
+          "3:30 PM -  Site Visit: Put on a hard hat and neon vest. You're at a construction site for a residential project. Walk through the dusty floors, checking if builders are following your blueprints exactly. Spot a pipe placed in the wrong spot and coordinate with the contractor to fix it immediately.",
+          "6:00 PM -  The Client Pitch: Back at the office, prepare a presentation for a client. Use a Virtual Reality (VR) headset to show them what it will feel like to walk through their future home before a single brick is laid.",
+          "7:30 PM -  Wrapping Up: Head home, tired but inspired. As you drive, look at buildings around you differently, constantly thinking, 'How could I make this better?'"
         ]
       },
       {
@@ -525,11 +525,11 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         description: "Real workflow of an M&O professional.",
         color: "#DA1313",
         content: [
-          "8:00 AM - The Morning Huddle: Start your day by reviewing the 'night shift' reports. Check a digital dashboard showing how much electricity the solar panels produced overnight. Everything looks green, but a sensor on 'Block C' is reporting a slight temperature spike.",
-          "10:30 AM - Predictive Analysis: Use an AI-powered software tool. It tells you that the cooling fan in Block C is likely to fail in the next 48 hours. Create a digital 'Work Order' and assign a technician to replace the fan during low-demand afternoon hours. This is Predictive Maintenance—solving a problem before it even exists.",
-          "1:00 PM - The Floor Walk: Put on safety gear and walk through the facility. Don't just look at machines; talk to your team. Notice a technician struggling with a heavy tool and make a note to order an ergonomic lift. In M&O, managing people is just as important as managing machines.",
-          "3:30 PM - The Efficiency Meeting: Meet with Finance and Sustainability teams. Look for ways to reduce water usage during panel cleaning. Propose a new robotic dry-cleaning system researched. Explain how the initial cost will be recovered in six months through water savings.",
-          "6:00 PM - Wrapping Up: Check the schedule for tomorrow's safety drill. Ensure all emergency protocols are updated. As you drive home, see the lights of the city flickering on, knowing your plant helped keep them glowing."
+          "8:00 AM -  The Morning Huddle: Start your day by reviewing the 'night shift' reports. Check a digital dashboard showing how much electricity the solar panels produced overnight. Everything looks green, but a sensor on 'Block C' is reporting a slight temperature spike.",
+          "10:30 AM -  Predictive Analysis: Use an AI-powered software tool. It tells you that the cooling fan in Block C is likely to fail in the next 48 hours. Create a digital 'Work Order' and assign a technician to replace the fan during low-demand afternoon hours. This is Predictive Maintenance—solving a problem before it even exists.",
+          "1:00 PM -  The Floor Walk: Put on safety gear and walk through the facility. Don't just look at machines; talk to your team. Notice a technician struggling with a heavy tool and make a note to order an ergonomic lift. In M&O, managing people is just as important as managing machines.",
+          "3:30 PM -  The Efficiency Meeting: Meet with Finance and Sustainability teams. Look for ways to reduce water usage during panel cleaning. Propose a new robotic dry-cleaning system researched. Explain how the initial cost will be recovered in six months through water savings.",
+          "6:00 PM -  Wrapping Up: Check the schedule for tomorrow's safety drill. Ensure all emergency protocols are updated. As you drive home, see the lights of the city flickering on, knowing your plant helped keep them glowing."
         ]
       },
       {
@@ -770,12 +770,12 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
         description: "Real workflow of an urban planner.",
         color: "#DA1313",
         content: [
-          "9:00 AM - The Bird's Eye View: Start your day by opening GIS (Geographic Information System) software. On your screen is a digital map of a proposed 'Smart District.' Analyze data layers showing groundwater levels and existing traffic flow to decide where the new primary school should be located.",
-          "11:00 AM - The Public Hearing: Head to a community center. Present a plan for a new 'Cyclists Only' lane to local residents. Some are excited; others are worried about parking. Listen, take notes, and explain how the lane will actually reduce traffic for everyone. Being a good listener is as important as being a good designer.",
-          "1:30 PM - The Multi-Department Sync: Quick lunch during a meeting with Civil Engineers, Environmental Scientists, and Government Officials. Discuss a 'Sponge City' initiative—using special pavements and parks to soak up rainwater and prevent monsoon flooding.",
-          "3:30 PM - Site Inspection: Leave the office to visit an old industrial area that the city wants to turn into a 'Startup Hub' with affordable housing. Walk through the site, checking if old warehouses can be repurposed instead of torn down.",
-          "6:00 PM - The Policy Draft: Back at your desk, work on a policy document regarding 'Transit-Oriented Development.' Write rules that will encourage builders to create tall buildings near Metro stations so people don't have to use cars.",
-          "7:30 PM - Heading Home: Take the Metro home. Look out the window—you don't just see buildings; you see a complex, living puzzle that you are helping to solve."
+          "9:00 AM -  The Bird's Eye View: Start your day by opening GIS (Geographic Information System) software. On your screen is a digital map of a proposed 'Smart District.' Analyze data layers showing groundwater levels and existing traffic flow to decide where the new primary school should be located.",
+          "11:00 AM -  The Public Hearing: Head to a community center. Present a plan for a new 'Cyclists Only' lane to local residents. Some are excited; others are worried about parking. Listen, take notes, and explain how the lane will actually reduce traffic for everyone. Being a good listener is as important as being a good designer.",
+          "1:30 PM -  The Multi-Department Sync: Quick lunch during a meeting with Civil Engineers, Environmental Scientists, and Government Officials. Discuss a 'Sponge City' initiative—using special pavements and parks to soak up rainwater and prevent monsoon flooding.",
+          "3:30 PM -  Site Inspection: Leave the office to visit an old industrial area that the city wants to turn into a 'Startup Hub' with affordable housing. Walk through the site, checking if old warehouses can be repurposed instead of torn down.",
+          "6:00 PM -  The Policy Draft: Back at your desk, work on a policy document regarding 'Transit-Oriented Development.' Write rules that will encourage builders to create tall buildings near Metro stations so people don't have to use cars.",
+          "7:30 PM -  Heading Home: Take the Metro home. Look out the window—you don't just see buildings; you see a complex, living puzzle that you are helping to solve."
         ]
       },
       {

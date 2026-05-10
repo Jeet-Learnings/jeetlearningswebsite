@@ -196,7 +196,7 @@ export function CareerPageClientNew({
       <NavbarWrapper />
 
       <div className="flex max-w-[1440px] mx-auto pt-20">
-        {/* Sidebar Navigation - Hidden on mobile */}
+        {/* Sidebar Navigation -  Hidden on mobile */}
         <aside className="hidden lg:flex fixed left-0 top-16 h-[calc(100vh-64px)] w-64 border-r border-slate-200 bg-slate-50 flex-col gap-1 p-4 overflow-y-auto z-40">
           <div className="mb-6 px-2">
             <h3 className="font-h2 text-lg text-primary mb-1 truncate"><TranslatedText as="span">{careerName}</TranslatedText></h3>
@@ -255,7 +255,7 @@ export function CareerPageClientNew({
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
                 <div className="glass-card p-3 sm:p-4 rounded-lg sm:rounded-xl">
                   <p className="text-slate-500 text-[10px] sm:text-xs font-h3 uppercase tracking-wider mb-1"><TranslatedText>Avg. Salary</TranslatedText></p>
-                  <p className="text-primary font-bold text-lg sm:text-xl font-h3">₹12 - 45 LPA</p>
+                  <p className="text-primary font-bold text-lg sm:text-xl font-h3">₹12 -  45 LPA</p>
                 </div>
                 <div className="glass-card p-3 sm:p-4 rounded-lg sm:rounded-xl">
                   <p className="text-slate-500 text-[10px] sm:text-xs font-h3 uppercase tracking-wider mb-1"><TranslatedText>Growth rate</TranslatedText></p>
@@ -337,7 +337,7 @@ export function CareerPageClientNew({
                       <IconComponent className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
                     </div>
                     <h4 className="font-h3 text-on-surface mb-1 text-sm sm:text-base">
-                      {item.time} - <TranslatedText as="span">{item.title}</TranslatedText>
+                      {item.time} -  <TranslatedText as="span">{item.title}</TranslatedText>
                     </h4>
                     <p className="text-on-surface-variant text-xs sm:text-sm"><TranslatedText>{item.description}</TranslatedText></p>
                   </div>
@@ -595,7 +595,7 @@ export function CareerPageClientNew({
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-6">
               <button
-                onClick={() => setCurrentVideoIndex((p) => (p - 1 + videos.length) % videos.length)}
+                onClick={() => setCurrentVideoIndex((p) => (p -  1 + videos.length) % videos.length)}
                 className="px-3 sm:px-4 md:px-6 lg:px-8 py-2 md:py-3 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto bg-white text-primary border-2 border-primary hover:bg-primary/5"
               >
                 ← <TranslatedText>Previous Video</TranslatedText>

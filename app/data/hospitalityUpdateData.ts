@@ -47,12 +47,12 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an air hostess on a Delhi-Dubai flight.",
         color: BLUE2,
         content: [
-          "4:30 AM - The Wake-up Call: While the world sleeps, the alarm rings. Grooming is the first task. Hair in a perfect bun, uniform crisp, makeup understated but professional. This is a professional requirement.",
-          "6:00 AM - The Briefing: At the airport's crew lounge, meet your team. The Captain and Lead Cabin Crew conduct a 'pre-flight briefing.' Discuss weather, flight duration, and special passengers (unaccompanied minors, people with disabilities). You're grilled on safety procedures—if you don't know the answer, you don't fly.",
-          "7:00 AM - Pre-Flight Checks: Board the aircraft before any passenger. Check your assigned station. Are oxygen masks working? Are there enough life vests? Is catering loaded correctly?",
-          "8:00 AM - The 'Showtime': Passengers start boarding. Stand at the door with a warm smile, greeting each one. For the next few hours, you're a multitasker: helping with luggage, demonstrating safety drills, serving meals.",
-          "1:30 PM - The Layover: After landing in Dubai, complete post-flight reports. The airline's shuttle takes you to a hotel. You have 24 hours to explore a new city, try local food, or catch up on sleep before the return leg.",
-          "10:00 PM - Rest: The schedule is irregular. Some days you work nights; some days early mornings. It's a 'lifestyle,' not just a job."
+          "4:30 AM -  The Wake-up Call: While the world sleeps, the alarm rings. Grooming is the first task. Hair in a perfect bun, uniform crisp, makeup understated but professional. This is a professional requirement.",
+          "6:00 AM -  The Briefing: At the airport's crew lounge, meet your team. The Captain and Lead Cabin Crew conduct a 'pre-flight briefing.' Discuss weather, flight duration, and special passengers (unaccompanied minors, people with disabilities). You're grilled on safety procedures—if you don't know the answer, you don't fly.",
+          "7:00 AM -  Pre-Flight Checks: Board the aircraft before any passenger. Check your assigned station. Are oxygen masks working? Are there enough life vests? Is catering loaded correctly?",
+          "8:00 AM -  The 'Showtime': Passengers start boarding. Stand at the door with a warm smile, greeting each one. For the next few hours, you're a multitasker: helping with luggage, demonstrating safety drills, serving meals.",
+          "1:30 PM -  The Layover: After landing in Dubai, complete post-flight reports. The airline's shuttle takes you to a hotel. You have 24 hours to explore a new city, try local food, or catch up on sleep before the return leg.",
+          "10:00 PM -  Rest: The schedule is irregular. Some days you work nights; some days early mornings. It's a 'lifestyle,' not just a job."
         ]
       },
       {
@@ -282,11 +282,11 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional chef.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Calm Before the Storm: Arrive at the hotel. While guests finish breakfast, plan for dinner. First task: Mise en place (everything in its place). Check freshness of fish arrived at dawn and ensure stocks have been simmering overnight.",
-          "11:30 AM - The Lunch Rush: Ticket machine starts clicking. 'Two Grilled Salmon, one Paneer Tikka, no onion!' shouts the Sous Chef. You're at your station. Heat from stove is intense, pace is frantic. Exactly 12 minutes to get that salmon perfect.",
-          "3:00 PM - Tasting and Training: Lunch is over. Team gathers. Taste a new sauce you've been developing—fusion of Tamarind and Balsamic vinegar. Train a junior intern on how to debone a chicken properly. Time for learning and experimentation.",
-          "7:00 PM - The Grand Performance: Dinner service is the main event. Restaurant is full. Soft music in dining room, but kitchen is a 'war zone' of discipline. Every plate inspected. Spot a smudge of sauce—wipe it clean before it goes out.",
-          "11:00 PM - The Wrap-Up: Last guest has left. Kitchen must be scrubbed until it shines. Hygiene is the foundation. Look at empty, clean kitchen with pride. Exhausted but adrenaline of successful service keeps you smiling."
+          "9:00 AM -  The Calm Before the Storm: Arrive at the hotel. While guests finish breakfast, plan for dinner. First task: Mise en place (everything in its place). Check freshness of fish arrived at dawn and ensure stocks have been simmering overnight.",
+          "11:30 AM -  The Lunch Rush: Ticket machine starts clicking. 'Two Grilled Salmon, one Paneer Tikka, no onion!' shouts the Sous Chef. You're at your station. Heat from stove is intense, pace is frantic. Exactly 12 minutes to get that salmon perfect.",
+          "3:00 PM -  Tasting and Training: Lunch is over. Team gathers. Taste a new sauce you've been developing—fusion of Tamarind and Balsamic vinegar. Train a junior intern on how to debone a chicken properly. Time for learning and experimentation.",
+          "7:00 PM -  The Grand Performance: Dinner service is the main event. Restaurant is full. Soft music in dining room, but kitchen is a 'war zone' of discipline. Every plate inspected. Spot a smudge of sauce—wipe it clean before it goes out.",
+          "11:00 PM -  The Wrap-Up: Last guest has left. Kitchen must be scrubbed until it shines. Hygiene is the foundation. Look at empty, clean kitchen with pride. Exhausted but adrenaline of successful service keeps you smiling."
         ]
       },
       {
@@ -356,8 +356,8 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top culinary institutes across India.",
         color: BLUE,
         content: [
-          "Government: Institute of Hotel Management (IHM), New Delhi; Institute of Hotel Management (IHM), Mumbai; Institute of Hotel Management (IHM), Chennai; Dr. Ambedkar Institute of Hotel Management, Chandigarh",
-          "Private: Welcomgroup Graduate School of Hotel Administration, Manipal; Culinary Academy of India (CAI), Hyderabad; International Institute of Culinary Arts (IICA), New Delhi; Lavonne Academy of Baking Science & Pastry Arts, Bangalore",
+          "Government: Institute of Hotel Management (IHM) New Delhi; Institute of Hotel Management (IHM) Mumbai; Institute of Hotel Management (IHM) Chennai; Dr. Ambedkar Institute of Hotel Management Chandigarh",
+          "Private: Welcomgroup Graduate School of Hotel Administration Manipal; Culinary Academy of India (CAI) Hyderabad; International Institute of Culinary Arts (IICA) New Delhi; Lavonne Academy of Baking Science & Pastry Arts Bangalore",
           "Online: Udemy — Professional Cooking & Culinary Arts Course; Coursera — Food & Beverage Management Programme; NCHM Online — Basic Food Production Certificate; Alison — International Culinary Arts Diploma"
         ]
       },
@@ -518,11 +518,11 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an event planner on event day.",
         color: BLUE2,
         content: [
-          "8:00 AM - The Calm Briefing: Start at office with coffee and 'Run Sheet'—minute-by-minute schedule. Check in with production team: Is stage ready? Are LED screens tested?",
-          "11:00 AM - The Vendor Chase: At the venue (large convention center). Flower delivery stuck in traffic. Sound engineer says one speaker is 'buzzing.' Spend two hours on phone navigating traffic and technical jargon.",
-          "2:00 PM - The Rehearsal: CEO arrives for walk-through. Guide them through entry, testing 'reveal' curtain three times until it falls at exact second music hits peak.",
-          "6:00 PM - Doors Open: Guests arrive. You're backstage with walkie-talkie. 'Security, crowd build-up at Gate 2. Hospitality, more water in VIP lounge.' You're the brain of operation.",
-          "11:00 PM - The De-brief: Event was a hit! Car revealed, photos all over Instagram, client thrilled. Supervise 'strike'—dismantling of stage. Head home as sun rises, tired but fueled by adrenaline."
+          "8:00 AM -  The Calm Briefing: Start at office with coffee and 'Run Sheet'—minute-by-minute schedule. Check in with production team: Is stage ready? Are LED screens tested?",
+          "11:00 AM -  The Vendor Chase: At the venue (large convention center). Flower delivery stuck in traffic. Sound engineer says one speaker is 'buzzing.' Spend two hours on phone navigating traffic and technical jargon.",
+          "2:00 PM -  The Rehearsal: CEO arrives for walk-through. Guide them through entry, testing 'reveal' curtain three times until it falls at exact second music hits peak.",
+          "6:00 PM -  Doors Open: Guests arrive. You're backstage with walkie-talkie. 'Security, crowd build-up at Gate 2. Hospitality, more water in VIP lounge.' You're the brain of operation.",
+          "11:00 PM -  The De-brief: Event was a hit! Car revealed, photos all over Instagram, client thrilled. Supervise 'strike'—dismantling of stage. Head home as sun rises, tired but fueled by adrenaline."
         ]
       },
       {
@@ -590,8 +590,8 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top event management institutes across India.",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Tourism & Travel Management (IITTM), Gwalior; Institute of Hotel Management (IHM), New Delhi; National Institute of Fashion Technology (NIFT), New Delhi; Chandigarh University (State Government), Chandigarh",
-          "Private: National Academy of Event Management & Development (NAEMD), Mumbai; Whistling Woods International, Mumbai; Amity Institute of Event Management, New Delhi; Pearl Academy of Event Management, New Delhi",
+          "Government: Indian Institute of Tourism & Travel Management (IITTM) Gwalior; Institute of Hotel Management (IHM) New Delhi; National Institute of Fashion Technology (NIFT) New Delhi; Chandigarh University (State Government) Chandigarh",
+          "Private: National Academy of Event Management & Development (NAEMD) Mumbai; Whistling Woods International Mumbai; Amity Institute of Event Management New Delhi; Pearl Academy of Event Management New Delhi",
           "Online: Udemy — Event Planning & Management Masterclass; Coursera — Event Management & Hospitality Programme; Alison — Professional Event Planning Diploma; NIEM Online — Certified Event Management Course"
         ]
       },
@@ -751,11 +751,11 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a hotel manager.",
         color: BLUE2,
         content: [
-          "7:30 AM - The Handover: Arrive at luxury 5-star hotel in Bangalore. Morning briefing with night shift manager. Learn famous Bollywood actor checking in today and pipe burst in Room 402. Prioritize: plumber called before finishing coffee.",
-          "10:00 AM - The High-Stakes Inspection: Walk the 'floor.' Details are everything. Notice slight smudge on glass door and drooping flower in vase. Talk to staff about why it happened, encouraging 'gold standard' maintenance.",
-          "1:00 PM - The Banquet Blitz: Massive corporate conference for tech giant in ballroom. 500 people need lunch in 45 minutes. Coordinate with Executive Chef and servers. Spot confused guest and personally guide them to buffet.",
-          "4:00 PM - Strategy and Numbers: Back in office, review 'Occupancy Report.' Tuesday has low bookings. Brainstorm with Marketing team to create 'Mid-week Spa Package' for local residents.",
-          "7:00 PM - The Evening Glow: Lobby transforms with evening lights and music. Change into fresh suit to greet VIP arrivals. Welcome Bollywood actor personally. By 8:30 PM, hotel buzzing, guests happy."
+          "7:30 AM -  The Handover: Arrive at luxury 5-star hotel in Bangalore. Morning briefing with night shift manager. Learn famous Bollywood actor checking in today and pipe burst in Room 402. Prioritize: plumber called before finishing coffee.",
+          "10:00 AM -  The High-Stakes Inspection: Walk the 'floor.' Details are everything. Notice slight smudge on glass door and drooping flower in vase. Talk to staff about why it happened, encouraging 'gold standard' maintenance.",
+          "1:00 PM -  The Banquet Blitz: Massive corporate conference for tech giant in ballroom. 500 people need lunch in 45 minutes. Coordinate with Executive Chef and servers. Spot confused guest and personally guide them to buffet.",
+          "4:00 PM -  Strategy and Numbers: Back in office, review 'Occupancy Report.' Tuesday has low bookings. Brainstorm with Marketing team to create 'Mid-week Spa Package' for local residents.",
+          "7:00 PM -  The Evening Glow: Lobby transforms with evening lights and music. Change into fresh suit to greet VIP arrivals. Welcome Bollywood actor personally. By 8:30 PM, hotel buzzing, guests happy."
         ]
       },
       {
@@ -802,7 +802,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹2Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹45L","Mid-Level Professional (5–8 yrs): ₹10L – ₹18L","Junior / Associate (3–5 yrs): ₹6L – ₹9L","Entry Level (0–2 yrs): ₹3.5L – ₹5.5L","Note: Metros and luxury brands pay significantly higher.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Goa, Jaipur.","Top Industries: Luxury Hotels, Cruise Lines, Resorts.","Global Demand: High demand in UAE, Maldives, USA, UK."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹2Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹45L","Mid-Level Professional (5–8 yrs): ₹10L – ₹18L","Junior / Associate (3–5 yrs): ₹6L – ₹9L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros and luxury brands pay significantly higher.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Goa, Jaipur.","Top Industries: Luxury Hotels, Cruise Lines, Resorts.","Global Demand: High demand in UAE, Maldives, USA, UK."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -825,8 +825,8 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top hotel management institutes across India.",
         color: BLUE,
         content: [
-          "Government: Institute of Hotel Management (IHM), New Delhi; Institute of Hotel Management (IHM), Mumbai; Institute of Hotel Management (IHM), Bangalore; National Council for Hotel Management & Catering Technology (NCHMCT), Noida",
-          "Private: Welcomgroup Graduate School of Hotel Administration, Manipal; Oberoi Centre of Learning & Development, New Delhi; Institute of Hotel Management (IHM) Aurangabad (Taj Group); Amity School of Hospitality, Noida",
+          "Government: Institute of Hotel Management (IHM) New Delhi; Institute of Hotel Management (IHM) Mumbai; Institute of Hotel Management (IHM) Bangalore; National Council for Hotel Management & Catering Technology (NCHMCT) Noida",
+          "Private: Welcomgroup Graduate School of Hotel Administration Manipal; Oberoi Centre of Learning & Development New Delhi; Institute of Hotel Management (IHM) Aurangabad (Taj Group); Amity School of Hospitality Noida",
           "Online: Coursera — Hotel Management & Hospitality Programme; Udemy — Hotel Management & Operations Masterclass; NCHM Online — Food & Beverage Service Certificate; Alison — International Hotel Management Diploma"
         ]
       },
@@ -986,11 +986,11 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a travel professional.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Morning Pulse: Arrive at office (sleek corporate building or vibrant travel boutique). Check 'Global Travel Alerts.' Weather shift in Bali means re-routing three families. Call local partners in Indonesia to move them to safer resort without extra cost.",
-          "11:30 AM - Designing the 'New': Meet young couple planning honeymoon. They want 'adventure and sustainability,' not typical beach holiday. Spend hour researching eco-lodges in Northeast India and private stargazing tours in Spiti Valley.",
-          "2:00 PM - The Negotiation: Zoom call with European hotel chain. Since you plan to send 500 tourists their way this year, negotiate 20% discount for clients. Your relationships are your currency.",
-          "4:30 PM - Tech and Marketing: Work with digital team to launch 'Virtual Reality' preview of luxury cruise. Check analytics—how many students looking at 'educational treks'? Adjust social media strategy accordingly.",
-          "7:00 PM - The Crisis Call: Client calls from Paris airport. Luggage lost. Stay back to coordinate with airline and travel insurance provider. By 8:30 PM, client assured bags reach hotel by morning."
+          "9:00 AM -  The Morning Pulse: Arrive at office (sleek corporate building or vibrant travel boutique). Check 'Global Travel Alerts.' Weather shift in Bali means re-routing three families. Call local partners in Indonesia to move them to safer resort without extra cost.",
+          "11:30 AM -  Designing the 'New': Meet young couple planning honeymoon. They want 'adventure and sustainability,' not typical beach holiday. Spend hour researching eco-lodges in Northeast India and private stargazing tours in Spiti Valley.",
+          "2:00 PM -  The Negotiation: Zoom call with European hotel chain. Since you plan to send 500 tourists their way this year, negotiate 20% discount for clients. Your relationships are your currency.",
+          "4:30 PM -  Tech and Marketing: Work with digital team to launch 'Virtual Reality' preview of luxury cruise. Check analytics—how many students looking at 'educational treks'? Adjust social media strategy accordingly.",
+          "7:00 PM -  The Crisis Call: Client calls from Paris airport. Luggage lost. Stay back to coordinate with airline and travel insurance provider. By 8:30 PM, client assured bags reach hotel by morning."
         ]
       },
       {
@@ -1059,18 +1059,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top travel and tourism institutes across India.",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Tourism & Travel Management (IITTM), Gwalior",
-          "National Institute of Water Sports (NIWS), Goa",
-          "Institute of Hotel Management (IHM), New Delhi",
-          "Food Craft Institute (FCI), Patna (Ministry of Tourism)",
-          "Private: Amity Institute of Travel & Tourism, Noida",
-          "Institute of Tourism & Future Management Trends (ITFT), Chandigarh",
-          "Frank Finn Institute of Travel & Tourism, Pan-India",
-          "Kuoni Academy of Travel & Tourism, Mumbai",
-          "Online: Coursera — Travel & Tourism Management Programme",
-          "Udemy — Travel Agency & Tourism Business Masterclass",
-          "Alison — International Tourism & Hospitality Diploma",
-          "IATA Training — Travel & Tourism Foundation Certificate"
+          "Government: Indian Institute of Tourism & Travel Management (IITTM) Gwalior, National Institute of Water Sports (NIWS) Goa, Institute of Hotel Management (IHM) New Delhi, Food Craft Institute (FCI) Patna (Ministry of Tourism)",
+          "Private: Amity Institute of Travel & Tourism Noida, Institute of Tourism & Future Management Trends (ITFT) Chandigarh, Frank Finn Institute of Travel & Tourism Pan-India, Kuoni Academy of Travel & Tourism Mumbai",
+          "Online: Coursera — Travel & Tourism Management Programme, Udemy — Travel Agency & Tourism Business Masterclass, Alison — International Tourism & Hospitality Diploma, IATA Training — Travel & Tourism Foundation Certificate"
         ]
       },
       {
@@ -1108,9 +1099,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Diverse paths in travel and tourism careers.",
         color: BLUE2,
         content: [
-          "Conventional Careers: Travel Agent, Tour Operator, Airline Ground Staff, Hotel Concierge, Tour Guide, Travel Consultant.",
-          "New-Age Careers: Sustainable Tourism Consultant, Digital Nomad Coordinator, Travel Data Analyst, Medical Tourism Facilitator, Adventure Tourism Manager.",
-          "Entrepreneurship: Travel Agency Owner, Tour Operator, Travel Blogger/Vlogger, Boutique Wedding Travel Planner, Niche Tourism Specialist.",
+          "Conventional: Travel Consultant, Tour Manager, Ticketing Executive, Destination Manager",
+          "New-age and AI driven: Digital Travel Specialist, Travel Data Analyst, Customer Experience Executive, Tourism Partnerships Executive",
+          "Remote / Entrepreneurship: Freelance Travel Planner, Virtual Travel Consultant, Travel Content Creator, Tour Startup Founder",
           "Freelancing: Travel Vlogging, Trekking Lead, Travel Writing, Travel Photography, Destination Management.",
           "Specialized Roles: Cruise Director, Airline Purser, Corporate Travel Manager, Event Travel Coordinator."
         ]
@@ -1229,11 +1220,11 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow during a wedding execution.",
         color: BLUE2,
         content: [
-          "9:00 AM - The Final Check: It's the day of Muhurat. You're at a palace in Udaipur. Walk the 'Mandap' area. Check if flowers are fresh and priest's seating is exactly where it should be.",
-          "1:00 PM - The Guest Blitz: Charter flights from Delhi and Mumbai have landed. On phone with transport team. 'Why are vintage cars for Baraat still at workshop?' Resolve delay while ensuring Welcome Drinks served.",
-          "4:00 PM - The Backstage Drama: Bride's lehenga has small tear. While family panics, calmly pull 'Wedding Emergency Kit' from bag. Have professional tailor on standby. Crisis averted in 10 minutes.",
-          "8:00 PM - The Grand Performance: Baraat arrives! On walkie-talkie. 'Cues for rose petal shower... Now!' As couple exchanges garlands, watching buffet to ensure hot snacks never run out.",
-          "2:00 AM - The Wrap: Main ceremony over. While family rests, supervise 'Strike'—dismantling heavy decor for tomorrow's brunch. Finally sit for first real meal, tired but satisfied."
+          "9:00 AM -  The Final Check: It's the day of Muhurat. You're at a palace in Udaipur. Walk the 'Mandap' area. Check if flowers are fresh and priest's seating is exactly where it should be.",
+          "1:00 PM -  The Guest Blitz: Charter flights from Delhi and Mumbai have landed. On phone with transport team. 'Why are vintage cars for Baraat still at workshop?' Resolve delay while ensuring Welcome Drinks served.",
+          "4:00 PM -  The Backstage Drama: Bride's lehenga has small tear. While family panics, calmly pull 'Wedding Emergency Kit' from bag. Have professional tailor on standby. Crisis averted in 10 minutes.",
+          "8:00 PM -  The Grand Performance: Baraat arrives! On walkie-talkie. 'Cues for rose petal shower... Now!' As couple exchanges garlands, watching buffet to ensure hot snacks never run out.",
+          "2:00 AM -  The Wrap: Main ceremony over. While family rests, supervise 'Strike'—dismantling heavy decor for tomorrow's brunch. Finally sit for first real meal, tired but satisfied."
         ]
       },
       {
@@ -1303,18 +1294,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Top wedding planning institutes across India.",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Tourism & Travel Management (IITTM), Gwalior",
-          "Institute of Hotel Management (IHM), New Delhi",
-          "National Institute of Fashion Technology (NIFT), New Delhi",
-          "Jamia Millia Islamia — Department of Mass Communication & Event Studies, New Delhi",
-          "Private: National Academy of Event Management & Development (NAEMD), Mumbai",
-          "Wedding Academy of India (WAI), New Delhi",
-          "Amity Institute of Event Management, Noida",
-          "Pearl Academy — Event & Experiential Design, New Delhi",
-          "Online: Udemy — Wedding Planning & Management Masterclass",
-          "Coursera — Event & Wedding Management Programme",
-          "Alison — Professional Wedding Planning Diploma",
-          "Shaw Academy — Certified Wedding Planner Course"
+          "Government: Indian Institute of Tourism & Travel Management (IITTM) Gwalior, Institute of Hotel Management (IHM) New Delhi, National Institute of Fashion Technology (NIFT) New Delhi, Jamia Millia Islamia — Department of Mass Communication & Event Studies New Delhi",
+          "Private: National Academy of Event Management & Development (NAEMD) Mumbai, Wedding Academy of India (WAI) New Delhi, Amity Institute of Event Management Noida, Pearl Academy — Event & Experiential Design New Delhi",
+          "Online: Udemy — Wedding Planning & Management Masterclass, Coursera — Event & Wedding Management Programme, Alison — Professional Wedding Planning Diploma, Shaw Academy — Certified Wedding Planner Course"
         ]
       },
       {
@@ -1352,11 +1334,9 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
         description: "Diverse paths in wedding planning careers.",
         color: BLUE2,
         content: [
-          "Conventional Careers: Wedding Coordinator, Wedding Planner, Decor Designer, Hospitality Manager, Venue Manager.",
-          "New-Age Careers: AI Wedding Invitation Designer, Sustainability Consultant (Eco-friendly weddings), Virtual Reality Venue Designer, Digital Wedding Planner.",
-          "Entrepreneurship: Starting boutique agency (Shaadi Squad style), Niche wedding specialist (micro-weddings, eco-weddings), Wedding decor company.",
-          "Specialized Roles: Destination Wedding Specialist, Celebrity Wedding Planner, Luxury Wedding Director, Cultural Wedding Consultant.",
-          "Freelancing: Independent wedding planner, Wedding consultant, Decor designer, Vendor coordinator."
+          "Conventional: Wedding Planner, Wedding Coordinator, Wedding Operations Manager, Venue Coordinator",
+          "New-age and AI driven: Wedding Experience Designer, Event Technology Specialist, Client Relationship Executive, Wedding Data & Budget Analyst",
+          "Remote / Entrepreneurship: Destination Wedding Consultant, Wedding Content Creator, Bridal Services Entrepreneur, Wedding Décor Consultant"
         ]
       },
       {

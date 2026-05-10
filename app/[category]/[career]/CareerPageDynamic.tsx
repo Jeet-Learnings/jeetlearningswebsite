@@ -337,7 +337,7 @@ export function CareerPageDynamic({
                       description = pipeParts[2].trim();
                     } else {
                       const emDashIdx = item.indexOf('–');
-                      const hyphenIdx = item.indexOf(' - ');
+                      const hyphenIdx = item.indexOf(' -  ');
                       const splitIdx = emDashIdx !== -1 ? emDashIdx : hyphenIdx;
                       
                       if (splitIdx !== -1) {
@@ -360,7 +360,7 @@ export function CareerPageDynamic({
                         {/* Timeline dot and line */}
                         <div className="flex flex-col items-center flex-shrink-0">
                           <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-blue-600 border-4 border-slate-50 shadow-md group-hover:scale-110 transition-transform" />
-                          {idx < (section.content?.length || 0) - 1 && (
+                          {idx < (section.content?.length || 0) -  1 && (
                             <div className="w-1 bg-blue-200 group-hover:bg-blue-400 transition-colors" style={{ height: '80px' }} />
                           )}
                         </div>
@@ -486,7 +486,7 @@ export function CareerPageDynamic({
                           const desc = colonIdx > -1 ? step.substring(colonIdx + 1).trim() : step;
                           return (
                             <div key={sIdx} className="flex gap-3 sm:gap-4 items-start relative">
-                              {sIdx < path.steps.length - 1 && (
+                              {sIdx < path.steps.length -  1 && (
                                 <div className="absolute left-[11px] top-6 w-[2px] h-[calc(100%+8px)] bg-blue-100" />
                               )}
                               <div className="w-6 h-6 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center flex-shrink-0 z-10">
@@ -1122,11 +1122,11 @@ export function CareerPageDynamic({
                          details = tier.substring(colonIdx + 1).trim();
                       }
                       
-                      // Don't split on dots - just use the full details as salary
+                      // Don't split on dots -  just use the full details as salary
                       let salary = details;
                       let pos = '';
 
-                      salary = salary.replace(/\s*-\s*/g, ' - ').replace(/\s*–\s*/g, ' - ');
+                      salary = salary.replace(/\s*-\s*/g, ' -  ').replace(/\s*–\s*/g, ' -  ');
 
                       return (
                         <div key={idx} className="bg-white rounded-2xl p-6 border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all group flex flex-col justify-between">
@@ -1821,7 +1821,7 @@ export function CareerPageDynamic({
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-6">
               <button
-                onClick={() => setCurrentVideoIndex((p) => (p - 1 + videos.length) % videos.length)}
+                onClick={() => setCurrentVideoIndex((p) => (p -  1 + videos.length) % videos.length)}
                 className="px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-3.5 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-50 active:scale-95"
               >
                 ← <TranslatedText>Previous</TranslatedText>

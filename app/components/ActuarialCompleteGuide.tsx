@@ -68,7 +68,7 @@ export function ActuarialCompleteGuide({ sections }: ActuarialCompleteGuideProps
                     </p>
                   </div>
 
-                  {/* Content Grid - Responsive */}
+                  {/* Content Grid -  Responsive */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3 md:gap-4 lg:gap-6">
                     {section.content.map((point, pointIdx) => (
                       <div
@@ -90,7 +90,7 @@ export function ActuarialCompleteGuide({ sections }: ActuarialCompleteGuideProps
                 </div>
               </section>
 
-              {/* Photo Section - Show after each content section (except last) */}
+              {/* Photo Section -  Show after each content section (except last) */}
               {idx < images.length && (
                 <section className="py-8 md:py-10 lg:py-12 px-4 sm:px-6 md:px-8 bg-gray-50 border-b border-gray-200">
                   <div className="max-w-7xl mx-auto">

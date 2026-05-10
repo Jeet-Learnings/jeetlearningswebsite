@@ -91,7 +91,7 @@ export function HomeHeroSlider() {
   };
 
   const prev = () => {
-    setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
+    setCurrent((prev) => (prev -  1 + slides.length) % slides.length);
     setAutoPlay(false);
   };
 

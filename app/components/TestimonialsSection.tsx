@@ -38,12 +38,12 @@ export default function TestimonialsSection() {
   const { ref, isVisible } = useScrollAnimation();
 
   const handlePrev = () => {
-    setStartIndex((prev) => Math.max(0, prev - 1));
+    setStartIndex((prev) => Math.max(0, prev -  1));
   };
 
   const handleNext = () => {
     setStartIndex((prev) =>
-      Math.min(testimonials.length - VISIBLE, prev + 1)
+      Math.min(testimonials.length -  VISIBLE, prev + 1)
     );
   };
 
@@ -81,7 +81,7 @@ export default function TestimonialsSection() {
             </button>
             <button
               onClick={handleNext}
-              disabled={startIndex >= testimonials.length - VISIBLE}
+              disabled={startIndex >= testimonials.length -  VISIBLE}
               className="w-12 h-12 rounded-full flex items-center justify-center text-white transition-all shadow-md shadow-red-500/20 disabled:opacity-30 disabled:shadow-none hover:-translate-y-0.5"
               style={{ background: "linear-gradient(135deg, var(--color-canam-red), var(--color-canam-red-dark))" }}
             >
@@ -145,7 +145,7 @@ export default function TestimonialsSection() {
           </button>
           <button
             onClick={handleNext}
-            disabled={startIndex >= testimonials.length - VISIBLE}
+            disabled={startIndex >= testimonials.length -  VISIBLE}
             className="w-12 h-12 rounded-full flex items-center justify-center text-white transition-all shadow-md shadow-red-500/20 disabled:opacity-30"
             style={{ background: "linear-gradient(135deg, var(--color-canam-red), var(--color-canam-red-dark))" }}
           >

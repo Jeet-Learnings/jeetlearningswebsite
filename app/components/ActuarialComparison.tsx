@@ -42,7 +42,7 @@ export function ActuarialComparison({ data }: ActuarialComparisonProps) {
 
   return (
     <section className="py-20 relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${BRIGHT_BLUE}08 0%, #FFFFFF 50%, ${BRIGHT_BLUE}05 100%)` }}>
-      {/* Animated background - Floating cards effect */}
+      {/* Animated background -  Floating cards effect */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
           animate={{ y: [0, -40, 0], x: [0, 20, 0] }}

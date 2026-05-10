@@ -57,7 +57,7 @@ export function BiologyCareerGuide({
               </button>
             </div>
 
-            {/* Right - Image Placeholder */}
+            {/* Right -  Image Placeholder */}
             {imageUrl ? (
               <div className="relative w-full rounded-lg md:rounded-xl lg:rounded-2xl overflow-hidden shadow-lg h-64 md:h-80 lg:h-96">
                 <Image

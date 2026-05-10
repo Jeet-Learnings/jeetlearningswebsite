@@ -30,7 +30,7 @@ export default function Home() {
       id: 1,
       title: 'Data Scientist',
       description: "Scaling intelligence for Bharat's fintech revolution.",
-      salary: '₹8L - ₹25L',
+      salary: '₹8L -  ₹25L',
       status: 'HIGH DEMAND',
       statusColor: 'bg-emerald-100 text-emerald-900',
       icon: Brain,
@@ -39,7 +39,7 @@ export default function Home() {
       id: 2,
       title: 'EV Engineer',
       description: 'Designing sustainable mobility for a billion people.',
-      salary: '₹6L - ₹18L',
+      salary: '₹6L -  ₹18L',
       status: 'EMERGING',
       statusColor: 'bg-blue-100 text-blue-900',
       icon: Zap,
@@ -48,7 +48,7 @@ export default function Home() {
       id: 3,
       title: 'FinTech Lawyer',
       description: 'Navigating the new digital legal landscapes.',
-      salary: '₹12L - ₹40L',
+      salary: '₹12L -  ₹40L',
       status: 'TOP TIER',
       statusColor: 'bg-orange-100 text-orange-900',
       icon: Scale,
@@ -57,7 +57,7 @@ export default function Home() {
       id: 4,
       title: 'Product Designer',
       description: 'Crafting digital experiences for a mobile-first nation.',
-      salary: '₹7L - ₹22L',
+      salary: '₹7L -  ₹22L',
       status: 'CORE ROLE',
       statusColor: 'bg-emerald-100 text-emerald-900',
       icon: Palette,
@@ -417,7 +417,7 @@ export default function Home() {
                   </button>
                 </div>
 
-                {/* Right - Who Benefits */}
+                {/* Right -  Who Benefits */}
                 <div className="space-y-6">
                   <h4 className="font-bold text-slate-900 text-lg">{t('Who Benefits')}</h4>
 

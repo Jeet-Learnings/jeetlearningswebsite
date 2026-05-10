@@ -152,7 +152,7 @@ function buildCareerCostsFromGuide(
   };
 }
 
-// ─── ACCOUNT & FINANCE - DETAILED COSTS ───────────────────────────
+// ─── ACCOUNT & FINANCE -  DETAILED COSTS ───────────────────────────
 
 export const actuarialScienceCosts: CareerCostData = {
   career: "actuarial_science",
@@ -476,7 +476,7 @@ export const financialAnalystCosts: CareerCostData = {
   ],
 };
 
-// ─── FINANCIAL & INVESTMENT PLANNING - DETAILED COSTS ───────────
+// ─── FINANCIAL & INVESTMENT PLANNING -  DETAILED COSTS ───────────
 
 export const financialAndInvestmentPlanningCosts: CareerCostData = {
   career: "financial_and_investment_planning",
@@ -590,7 +590,7 @@ export const financialAndInvestmentPlanningCosts: CareerCostData = {
   ],
 };
 
-// ─── FINANCIAL RISK MANAGEMENT - DETAILED COSTS ──────────────────
+// ─── FINANCIAL RISK MANAGEMENT -  DETAILED COSTS ──────────────────
 
 export const financialRiskManagementCosts: CareerCostData = {
   career: "financial_risk_management",
@@ -692,7 +692,7 @@ export const financialRiskManagementCosts: CareerCostData = {
   ],
 };
 
-// ─── COST ACCOUNTANT - DETAILED COSTS ───────────────────────────
+// ─── COST ACCOUNTANT -  DETAILED COSTS ───────────────────────────
 
 export const costAccountantCosts: CareerCostData = {
   career: "cost_accountant",
@@ -779,7 +779,7 @@ export const costAccountantCosts: CareerCostData = {
   ],
 };
 
-// ─── ECONOMICS - DETAILED COSTS ───────────────────────────────
+// ─── ECONOMICS -  DETAILED COSTS ───────────────────────────────
 
 export const economicsCosts: CareerCostData = {
   career: "economics",
@@ -867,7 +867,7 @@ export const economicsCosts: CareerCostData = {
   ],
 };
 
-// ─── LEGAL SERVICES - DETAILED COSTS ───────────────────────────
+// ─── LEGAL SERVICES -  DETAILED COSTS ───────────────────────────
 
 export const judgeCosts: CareerCostData = {
   career: "judge",
@@ -953,7 +953,7 @@ export const judgeCosts: CareerCostData = {
   ],
 };
 
-// ─── AGRICULTURE - AGRI BUSINESS MANAGEMENT - DETAILED COSTS ─────
+// ─── AGRICULTURE -  AGRI BUSINESS MANAGEMENT -  DETAILED COSTS ─────
 
 export const agriBusinessManagementCosts: CareerCostData = {
   career: "agri_business_management",
@@ -1054,7 +1054,7 @@ export const agriBusinessManagementCosts: CareerCostData = {
   ],
 };
 
-// ─── AGRICULTURE - AGRICULTURAL ENGINEER - DETAILED COSTS ────────
+// ─── AGRICULTURE -  AGRICULTURAL ENGINEER -  DETAILED COSTS ────────
 
 export const agriculturalEngineerCosts: CareerCostData = {
   career: "agricultural_engineer",
@@ -1167,7 +1167,7 @@ export const agriculturalEngineerCosts: CareerCostData = {
   ],
 };
 
-// ─── AGRICULTURE - AGRICULTURE RESEARCH - DETAILED COSTS ────────
+// ─── AGRICULTURE -  AGRICULTURE RESEARCH -  DETAILED COSTS ────────
 
 export const agricultureResearchCosts: CareerCostData = {
   career: "agriculture_research",
@@ -1281,7 +1281,7 @@ export const agricultureResearchCosts: CareerCostData = {
   ],
 };
 
-// ─── AGRICULTURE - ANIMAL SCIENCE - DETAILED COSTS ────────────────
+// ─── AGRICULTURE -  ANIMAL SCIENCE -  DETAILED COSTS ────────────────
 
 export const animalScienceCosts: CareerCostData = {
   career: "animal_science",
@@ -1396,7 +1396,7 @@ export const animalScienceCosts: CareerCostData = {
   ],
 };
 
-// ─── AGRICULTURE - DAIRY TECHNOLOGY - DETAILED COSTS ──────────────
+// ─── AGRICULTURE -  DAIRY TECHNOLOGY -  DETAILED COSTS ──────────────
 
 export const dairyTechnologyCosts: CareerCostData = {
   career: "dairy_technology",
@@ -1510,7 +1510,7 @@ export const dairyTechnologyCosts: CareerCostData = {
   ],
 };
 
-// ─── AGRICULTURE - FOOD SCIENCE - DETAILED COSTS ──────────────────
+// ─── AGRICULTURE -  FOOD SCIENCE -  DETAILED COSTS ──────────────────
 
 export const foodScienceCosts: CareerCostData = {
   career: "food_science",
@@ -1623,7 +1623,7 @@ export const foodScienceCosts: CareerCostData = {
   ],
 };
 
-// ─── ARCHITECTURE & CONSTRUCTION - ARCHITECT - DETAILED COSTS ─────
+// ─── ARCHITECTURE & CONSTRUCTION -  ARCHITECT -  DETAILED COSTS ─────
 
 export const architectCosts: CareerCostData = {
   career: "architect",
@@ -1751,7 +1751,7 @@ export const architectCosts: CareerCostData = {
   ],
 };
 
-// ─── ARCHITECTURE & CONSTRUCTION - CONSTRUCTION - DETAILED COSTS ──
+// ─── ARCHITECTURE & CONSTRUCTION -  CONSTRUCTION -  DETAILED COSTS ──
 
 export const constructionCosts: CareerCostData = {
   career: "construction",
@@ -1866,7 +1866,7 @@ export const constructionCosts: CareerCostData = {
   ],
 };
 
-// ─── ARCHITECTURE & CONSTRUCTION - MAINTENANCE & OPERATION MANAGEMENT ─
+// ─── ARCHITECTURE & CONSTRUCTION -  MAINTENANCE & OPERATION MANAGEMENT ─
 
 export const maintenanceAndOperationManagementCosts: CareerCostData = {
   career: "maintenance_and_operation_management",
@@ -1979,7 +1979,7 @@ export const maintenanceAndOperationManagementCosts: CareerCostData = {
   ],
 };
 
-// ─── ARCHITECTURE & CONSTRUCTION - URBAN PLANNING & MANAGEMENT ────
+// ─── ARCHITECTURE & CONSTRUCTION -  URBAN PLANNING & MANAGEMENT ────
 
 export const urbanPlanningAndManagementCosts: CareerCostData = {
   career: "urban_planning_and_management",
@@ -2012,7 +2012,7 @@ export const urbanPlanningAndManagementCosts: CareerCostData = {
       ],
     },
     {
-      category: "Master's (M.Plan) - Government",
+      category: "Master's (M.Plan) -  Government",
       amount: "₹1-4 Lakh",
       description: "Total M.Plan degree (2 years)",
       icon: "🎓",
@@ -2105,7 +2105,7 @@ export const urbanPlanningAndManagementCosts: CareerCostData = {
   ],
 };
 
-// ─── ARTS & DESIGN - ANIMATOR - DETAILED COSTS ──────────────────
+// ─── ARTS & DESIGN -  ANIMATOR -  DETAILED COSTS ──────────────────
 
 export const animatorCosts: CareerCostData = {
   career: "animator",
@@ -2231,7 +2231,7 @@ export const animatorCosts: CareerCostData = {
   ],
 };
 
-// ─── ARTS & DESIGN - COSMETOLOGY - DETAILED COSTS ────────────────
+// ─── ARTS & DESIGN -  COSMETOLOGY -  DETAILED COSTS ────────────────
 
 export const cosmetologyCosts: CareerCostData = {
   career: "cosmetology",
@@ -2357,7 +2357,7 @@ export const cosmetologyCosts: CareerCostData = {
   ],
 };
 
-// ─── ARTS & DESIGN - GRAPHICAL DESIGNING - DETAILED COSTS ────────
+// ─── ARTS & DESIGN -  GRAPHICAL DESIGNING -  DETAILED COSTS ────────
 
 export const graphicalDesigningCosts: CareerCostData = {
   career: "graphical_designing",
@@ -2497,7 +2497,7 @@ export const graphicalDesigningCosts: CareerCostData = {
   ],
 };
 
-// ─── ARTS & DESIGN - FASHION DESIGNING - DETAILED COSTS ────────
+// ─── ARTS & DESIGN -  FASHION DESIGNING -  DETAILED COSTS ────────
 
 export const fashionDesigningCosts: CareerCostData = {
   career: "fashion_designing",
@@ -2637,7 +2637,7 @@ export const fashionDesigningCosts: CareerCostData = {
   ],
 };
 
-// ─── ARTS & DESIGN - FINE ARTS - DETAILED COSTS ──────────────────
+// ─── ARTS & DESIGN -  FINE ARTS -  DETAILED COSTS ──────────────────
 
 export const fineArtsCosts: CareerCostData = {
   career: "fine_arts",
@@ -2778,7 +2778,7 @@ export const fineArtsCosts: CareerCostData = {
   ],
 };
 
-// ─── ARTS & DESIGN - FASHION TECHNOLOGY - DETAILED COSTS ────────
+// ─── ARTS & DESIGN -  FASHION TECHNOLOGY -  DETAILED COSTS ────────
 
 export const fashionTechnologyCosts: CareerCostData = {
   career: "fashion_technology",
@@ -2918,7 +2918,7 @@ export const fashionTechnologyCosts: CareerCostData = {
   ],
 };
 
-// ─── ARTS & DESIGN - CREATIVE WRITER - DETAILED COSTS ──────────
+// ─── ARTS & DESIGN -  CREATIVE WRITER -  DETAILED COSTS ──────────
 
 export const creativeWriterCosts: CareerCostData = {
   career: "creative_writer",
@@ -3044,7 +3044,7 @@ export const creativeWriterCosts: CareerCostData = {
   ],
 };
 
-// ─── HUMAN & SOCIAL SCIENCES - HISTORIAN - DETAILED COSTS ──────────
+// ─── HUMAN & SOCIAL SCIENCES -  HISTORIAN -  DETAILED COSTS ──────────
 
 export const historianCosts: CareerCostData = {
   career: "historian",
@@ -3132,7 +3132,7 @@ export const historianCosts: CareerCostData = {
   ],
 };
 
-// ─── BIO SCIENCE & RESEARCH - PHYSIOLOGY - DETAILED COSTS ──────────
+// ─── BIO SCIENCE & RESEARCH -  PHYSIOLOGY -  DETAILED COSTS ──────────
 
 export const physiologyCosts: CareerCostData = {
   career: "physiology",
@@ -3220,7 +3220,7 @@ export const physiologyCosts: CareerCostData = {
   ],
 };
 
-// ─── BIO SCIENCE & RESEARCH - MICROBIOLOGY - DETAILED COSTS ──────────
+// ─── BIO SCIENCE & RESEARCH -  MICROBIOLOGY -  DETAILED COSTS ──────────
 
 export const microbiologyCosts: CareerCostData = {
   career: "microbiology",
@@ -3308,7 +3308,7 @@ export const microbiologyCosts: CareerCostData = {
   ],
 };
 
-// ─── BIO SCIENCE & RESEARCH - GENETICS - DETAILED COSTS ──────────
+// ─── BIO SCIENCE & RESEARCH -  GENETICS -  DETAILED COSTS ──────────
 
 export const geneticsCosts: CareerCostData = {
   career: "genetics",
@@ -3396,7 +3396,7 @@ export const geneticsCosts: CareerCostData = {
   ],
 };
 
-// ─── BIO SCIENCE & RESEARCH - FISHERY BIOLOGIST - DETAILED COSTS ──────────
+// ─── BIO SCIENCE & RESEARCH -  FISHERY BIOLOGIST -  DETAILED COSTS ──────────
 
 export const fisheryBiologistCosts: CareerCostData = {
   career: "fishery_biologist",
@@ -3484,7 +3484,7 @@ export const fisheryBiologistCosts: CareerCostData = {
   ],
 };
 
-// ─── BIO SCIENCE & RESEARCH - CLINICAL RESEARCH - DETAILED COSTS ──────────
+// ─── BIO SCIENCE & RESEARCH -  CLINICAL RESEARCH -  DETAILED COSTS ──────────
 
 export const clinicalResearchCosts: CareerCostData = {
   career: "clinical_research",
@@ -3575,7 +3575,7 @@ export const clinicalResearchCosts: CareerCostData = {
   ],
 };
 
-// ─── BIO SCIENCE & RESEARCH - BIOTECHNOLOGY RESEARCH - DETAILED COSTS ──────────
+// ─── BIO SCIENCE & RESEARCH -  BIOTECHNOLOGY RESEARCH -  DETAILED COSTS ──────────
 
 export const biotechnologyResearchCosts: CareerCostData = {
   career: "biotechnology",
@@ -3679,7 +3679,7 @@ export const biotechnologyResearchCosts: CareerCostData = {
   ],
 };
 
-// ─── BIO SCIENCE & RESEARCH - BIOINFORMATICS - DETAILED COSTS ──────────
+// ─── BIO SCIENCE & RESEARCH -  BIOINFORMATICS -  DETAILED COSTS ──────────
 
 export const bioinformaticsCosts: CareerCostData = {
   career: "bioinformatics",
@@ -3782,7 +3782,7 @@ export const bioinformaticsCosts: CareerCostData = {
   ],
 };
 
-// ─── BIO SCIENCE & RESEARCH - BIOCHEMISTRY - DETAILED COSTS ──────────
+// ─── BIO SCIENCE & RESEARCH -  BIOCHEMISTRY -  DETAILED COSTS ──────────
 
 export const biochemistryCosts: CareerCostData = {
   career: "biochemistry",
@@ -3885,7 +3885,7 @@ export const biochemistryCosts: CareerCostData = {
   ],
 };
 
-// ─── ENVIRONMENT - FOREST OFFICER - DETAILED COSTS ──────────
+// ─── ENVIRONMENT -  FOREST OFFICER -  DETAILED COSTS ──────────
 
 export const forestOfficerCosts: CareerCostData = {
   career: "forest_officer",
@@ -3985,7 +3985,7 @@ export const forestOfficerCosts: CareerCostData = {
   ],
 };
 
-// ─── ENVIRONMENT - GEOLOGY - DETAILED COSTS ──────────
+// ─── ENVIRONMENT -  GEOLOGY -  DETAILED COSTS ──────────
 
 export const geologyCosts: CareerCostData = {
   career: "geology",
@@ -4085,7 +4085,7 @@ export const geologyCosts: CareerCostData = {
   ],
 };
 
-// ─── ENVIRONMENT - OCEANOGRAPHER - DETAILED COSTS ──────────
+// ─── ENVIRONMENT -  OCEANOGRAPHER -  DETAILED COSTS ──────────
 
 export const oceanographerCosts: CareerCostData = {
   career: "oceanographer",
@@ -4184,7 +4184,7 @@ export const oceanographerCosts: CareerCostData = {
   ],
 };
 
-// ─── ENVIRONMENT - WILDLIFE BIOLOGIST - DETAILED COSTS ──────────
+// ─── ENVIRONMENT -  WILDLIFE BIOLOGIST -  DETAILED COSTS ──────────
 
 export const wildlifeBiologistCosts: CareerCostData = {
   career: "wildlife_biologist",

@@ -40,7 +40,7 @@ export function CareerPageClient({
   const videos = getCareerVideos(career);
 
   const nextVideo = () => setCurrentVideoIndex((p) => (p + 1) % videos.length);
-  const prevVideo = () => setCurrentVideoIndex((p) => (p - 1 + videos.length) % videos.length);
+  const prevVideo = () => setCurrentVideoIndex((p) => (p -  1 + videos.length) % videos.length);
 
   const navItems = [
     { id: "hero",  label: "Overview",       icon: "Target"       },

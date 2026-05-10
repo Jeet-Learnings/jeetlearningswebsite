@@ -441,7 +441,7 @@ export const careerDetails: Record<string, CareerDetail> = {
     title: "Judge",
     description: "Preside over courts and deliver justice by interpreting and applying laws",
     overview:
-      "A Judge is a senior judicial officer who presides over courts, listens to legal arguments, reviews evidence, and delivers binding judgments. Judges interpret the Constitution and laws of India to ensure justice and protect fundamental rights. The Indian judiciary comprises District Courts, High Courts, and the Supreme Court. To become a judge, one must first practice law for 7–12 years, then clear the PCS-J (Public Service Commission - Judicial) exam. Judges embody the rule of law and are custodians of constitutional values.",
+      "A Judge is a senior judicial officer who presides over courts, listens to legal arguments, reviews evidence, and delivers binding judgments. Judges interpret the Constitution and laws of India to ensure justice and protect fundamental rights. The Indian judiciary comprises District Courts, High Courts, and the Supreme Court. To become a judge, one must first practice law for 7–12 years, then clear the PCS-J (Public Service Commission -  Judicial) exam. Judges embody the rule of law and are custodians of constitutional values.",
     eligibility: [
       "12th pass (any stream)",
       "LLB degree (5-year integrated or 3-year after graduation)",

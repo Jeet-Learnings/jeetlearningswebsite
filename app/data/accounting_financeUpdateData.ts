@@ -46,11 +46,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -200,11 +200,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -354,11 +354,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -508,11 +508,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -662,11 +662,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -816,11 +816,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -970,11 +970,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -1124,11 +1124,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {
@@ -1278,11 +1278,11 @@ export const accounting_financeUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#3B82F6",
         content: [
-          "8:30 AM - Morning briefing and planning",
-          "10:30 AM - Core work activities and analysis",
-          "1:30 PM - Problem-solving and collaboration",
-          "4:00 PM - Meetings and strategic planning",
-          "6:00 PM - Review and preparation for next day"
+          "8:30 AM -  Morning briefing and planning",
+          "10:30 AM -  Core work activities and analysis",
+          "1:30 PM -  Problem-solving and collaboration",
+          "4:00 PM -  Meetings and strategic planning",
+          "6:00 PM -  Review and preparation for next day"
         ]
       },
       {

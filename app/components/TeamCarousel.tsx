@@ -26,7 +26,7 @@ export function TeamCarousel({ members }: TeamCarouselProps) {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "ArrowUp") updateCarousel(currentIndex - 1);
+      if (e.key === "ArrowUp") updateCarousel(currentIndex -  1);
       if (e.key === "ArrowDown") updateCarousel(currentIndex + 1);
     };
     window.addEventListener("keydown", handleKeyDown);
@@ -34,12 +34,12 @@ export function TeamCarousel({ members }: TeamCarouselProps) {
   }, [currentIndex, isAnimating]);
 
   const getCardPosition = (index: number) => {
-    const offset = (index - currentIndex + members.length) % members.length;
+    const offset = (index -  currentIndex + members.length) % members.length;
     if (offset === 0) return "center";
     if (offset === 1) return "down-1";
     if (offset === 2) return "down-2";
-    if (offset === members.length - 1) return "up-1";
-    if (offset === members.length - 2) return "up-2";
+    if (offset === members.length -  1) return "up-1";
+    if (offset === members.length -  2) return "up-2";
     return "hidden";
   };
 
@@ -71,9 +71,9 @@ export function TeamCarousel({ members }: TeamCarouselProps) {
       {/* Carousel Section */}
       <div className="flex-1 flex justify-center items-center">
         <div className="relative w-full max-w-[500px] h-[70vh] perspective">
-          {/* Navigation Arrows - Desktop */}
+          {/* Navigation Arrows -  Desktop */}
           <motion.button
-            onClick={() => updateCarousel(currentIndex - 1)}
+            onClick={() => updateCarousel(currentIndex -  1)}
             className="absolute top-0 left-1/2 -translate-x-1/2 z-20 hidden md:flex items-center justify-center w-20 h-20 rounded-full transition-all"
             whileHover={{ scale: 1.2 }}
             disabled={isAnimating}
@@ -142,7 +142,7 @@ export function TeamCarousel({ members }: TeamCarouselProps) {
         {/* Navigation Controls */}
         <div className="flex gap-8 items-center justify-center">
           <motion.button
-            onClick={() => updateCarousel(currentIndex - 1)}
+            onClick={() => updateCarousel(currentIndex -  1)}
             className="flex items-center justify-center w-20 h-20 rounded-full transition-all"
             whileHover={{ scale: 1.2 }}
             disabled={isAnimating}

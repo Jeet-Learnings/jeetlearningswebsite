@@ -20,6 +20,7 @@ import { manufacturingUpdateData } from './manufacturingUpdateData';
 import { marketing_advertisingUpdateData } from './marketing_advertisingUpdateData';
 import { sports_and_physical_activitiesUpdateData } from './sports_and_physical_activitiesUpdateData';
 import { media_and_communicationUpdateData } from './media_and_communicationUpdateData';
+import { human_social_sciencesUpdateData } from './human_social_sciencesUpdateData';
 
 export interface CareerHeroStat {
   value: string;
@@ -115,11 +116,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real workflow of an actuary.",
         color: RED2,
         content: [
-          "8:30 AM - The Morning Model Check: Start your day by reviewing the 'Mortality Tables' you updated yesterday. Check how a new health trend might change the lifespan predictions for thousands of policyholders.",
-          "10:30 AM - The 'Clash' Analysis: Meet with the Product Development team. They want to launch a new insurance plan for electric vehicles (EVs). Explain that since EVs have different battery risks than petrol cars, the 'premium' (the price) needs to be calculated differently. Show them a 3D graph of risk probability.",
-          "1:30 PM - Data Mining: After lunch, dive into high-performance software like R or Python. Run a 'Stress Test' on the company's pension funds. Simulate a situation where the stock market drops by 20% to see if the company can still pay its retirees.",
-          "4:00 PM - Consulting with the 'Big Bosses': Join a video call with the Chief Financial Officer (CFO). Translate complex statistical formulas into simple business advice: 'If we want to stay profitable, we need to adjust our reserves by 5% this year.'",
-          "7:00 PM - The Study Sprint: Being an actuary is a journey of continuous learning. Spend your evening at a quiet cafe, studying for your next professional exam from the Institute of Actuaries of India (IAI). Each cleared exam brings a massive jump in salary and expertise."
+          "8:30 AM -  The Morning Model Check: Start your day by reviewing the 'Mortality Tables' you updated yesterday. Check how a new health trend might change the lifespan predictions for thousands of policyholders.",
+          "10:30 AM -  The 'Clash' Analysis: Meet with the Product Development team. They want to launch a new insurance plan for electric vehicles (EVs). Explain that since EVs have different battery risks than petrol cars, the 'premium' (the price) needs to be calculated differently. Show them a 3D graph of risk probability.",
+          "1:30 PM -  Data Mining: After lunch, dive into high-performance software like R or Python. Run a 'Stress Test' on the company's pension funds. Simulate a situation where the stock market drops by 20% to see if the company can still pay its retirees.",
+          "4:00 PM -  Consulting with the 'Big Bosses': Join a video call with the Chief Financial Officer (CFO). Translate complex statistical formulas into simple business advice: 'If we want to stay profitable, we need to adjust our reserves by 5% this year.'",
+          "7:00 PM -  The Study Sprint: Being an actuary is a journey of continuous learning. Spend your evening at a quiet cafe, studying for your next professional exam from the Institute of Actuaries of India (IAI). Each cleared exam brings a massive jump in salary and expertise."
         ]
       },
       {
@@ -316,12 +317,12 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real workflow of a biomedical engineer in Hyderabad.",
         color: RED2,
         content: [
-          "08:30 AM - Hospital ICU Troubleshooting: Starts at a large multi-specialty hospital. First stop is the ICU where a ventilator is acting up. Runs diagnostic check - it's a sensor calibration issue. Five minutes later, the machine is back online, potentially saving a patient's life.",
-          "10:30 AM - R&D Innovation: Heads to R&D wing. Team is working on a 'low-cost portable ECG' for rural clinics. Testing new biocompatible material for electrodes. Spends two hours analyzing data on how well the material conducts electrical signals and meets safety standards.",
-          "01:30 PM - Cross-Functional Collaboration: Over lunch, meets with surgeons who want modification to a robotic surgical tool to make it more ergonomic. Discusses design changes that could improve precision and reduce surgeon fatigue during long procedures.",
-          "03:00 PM - Quality Control Call: On call with manufacturing plant in Chennai discussing Quality Control standards for orthopedic implants. Zero room for error; 0.1mm mistake can mean failed surgery. Reviews batch testing reports and compliance documentation.",
-          "05:30 PM - Regulatory Compliance: Reviews Regulatory Compliance document. Before any medical device can be sold in India, it must pass strict safety tests by CDSCO (Central Drugs Standard Control Organization). Ensures all documentation is complete for upcoming audit.",
-          "07:00 PM - Inspiration: Drives home seeing billboard for robotic-assisted surgery center, knowing an engineer like him made it possible. Reflects on the lives changed by his work."
+          "08:30 AM -  Hospital ICU Troubleshooting: Starts at a large multi-specialty hospital. First stop is the ICU where a ventilator is acting up. Runs diagnostic check -  it's a sensor calibration issue. Five minutes later, the machine is back online, potentially saving a patient's life.",
+          "10:30 AM -  R&D Innovation: Heads to R&D wing. Team is working on a 'low-cost portable ECG' for rural clinics. Testing new biocompatible material for electrodes. Spends two hours analyzing data on how well the material conducts electrical signals and meets safety standards.",
+          "01:30 PM -  Cross-Functional Collaboration: Over lunch, meets with surgeons who want modification to a robotic surgical tool to make it more ergonomic. Discusses design changes that could improve precision and reduce surgeon fatigue during long procedures.",
+          "03:00 PM -  Quality Control Call: On call with manufacturing plant in Chennai discussing Quality Control standards for orthopedic implants. Zero room for error; 0.1mm mistake can mean failed surgery. Reviews batch testing reports and compliance documentation.",
+          "05:30 PM -  Regulatory Compliance: Reviews Regulatory Compliance document. Before any medical device can be sold in India, it must pass strict safety tests by CDSCO (Central Drugs Standard Control Organization). Ensures all documentation is complete for upcoming audit.",
+          "07:00 PM -  Inspiration: Drives home seeing billboard for robotic-assisted surgery center, knowing an engineer like him made it possible. Reflects on the lives changed by his work."
         ]
       },
       {
@@ -419,7 +420,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "BMESI (Biomedical Engineering Society of India): Premier professional body for biomedical engineers in India.",
           "Clinical Engineer Certification: Offered by BMESI for practicing clinical engineers in hospitals.",
-          "ISO 13485: Medical Device Quality Management System certification - essential for device manufacturers.",
+          "ISO 13485: Medical Device Quality Management System certification -  essential for device manufacturers.",
           "CDSCO Registration: Central Drugs Standard Control Organization approval required for all medical devices sold in India.",
           "International Certifications: FDA (USA), CE Mark (Europe) for global market access."
         ]
@@ -539,11 +540,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real workflow of a banking professional.",
         color: RED2,
         content: [
-          "9:00 AM - The Morning Huddle: Start your day with a team meeting. Review the 'Market Pulse'—how the stock market opened and any new changes in interest rates announced by the Reserve Bank of India (RBI).",
-          "10:30 AM - The Client Connection: Meet with a local entrepreneur who wants to expand his eco-friendly packaging business. Don't just look at his bank balance; listen to his business plan. Use your analytical skills to assess the risk and start the process for a 'SME Loan.'",
-          "1:30 PM - Digital Deep-Dive: After lunch, join a cross-functional call with the 'Fintech' team. Test a new AI-based feature for the bank's mobile app that helps customers save money automatically. Banking today is as much about coding and data as it is about currency.",
-          "3:30 PM - The Problem Solver: A regular customer calls, frantic because they suspect a fraudulent transaction on their credit card. Quickly coordinate with the cybersecurity department to freeze the card and initiate a refund process. In banking, you are often the 'Financial First Responder.'",
-          "6:00 PM - Documentation and Learning: The bank's doors might close to the public at 4:00 PM, but the work continues. Ensure every loan document is legally compliant. Spend 30 minutes on a certification course about 'Green Finance,' as the bank is moving toward funding only sustainable projects."
+          "9:00 AM -  The Morning Huddle: Start your day with a team meeting. Review the 'Market Pulse'—how the stock market opened and any new changes in interest rates announced by the Reserve Bank of India (RBI).",
+          "10:30 AM -  The Client Connection: Meet with a local entrepreneur who wants to expand his eco-friendly packaging business. Don't just look at his bank balance; listen to his business plan. Use your analytical skills to assess the risk and start the process for a 'SME Loan.'",
+          "1:30 PM -  Digital Deep-Dive: After lunch, join a cross-functional call with the 'Fintech' team. Test a new AI-based feature for the bank's mobile app that helps customers save money automatically. Banking today is as much about coding and data as it is about currency.",
+          "3:30 PM -  The Problem Solver: A regular customer calls, frantic because they suspect a fraudulent transaction on their credit card. Quickly coordinate with the cybersecurity department to freeze the card and initiate a refund process. In banking, you are often the 'Financial First Responder.'",
+          "6:00 PM -  Documentation and Learning: The bank's doors might close to the public at 4:00 PM, but the work continues. Ensure every loan document is legally compliant. Spend 30 minutes on a certification course about 'Green Finance,' as the bank is moving toward funding only sustainable projects."
         ]
       },
       {
@@ -752,11 +753,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real workflow of a chartered accountant.",
         color: RED2,
         content: [
-          "8:30 AM - The Strategy Review: Start your day by reviewing the financial statements of a major e-commerce startup. You aren't just looking at numbers; you're looking for stories. Why did their marketing cost jump by 40%? Is their revenue recognition following the latest Accounting Standards?",
-          "10:30 AM - The Client Consultation: Head to a client's office for an 'Audit Meeting.' Sit with the CFO (Chief Financial Officer) to discuss a new government regulation on GST. Explain complex laws in simple terms so the company can stay compliant without losing profit.",
-          "1:30 PM - The 'Digital Audit': After a quick working lunch, use AI-powered tools to scan through millions of transactions in minutes. Ten years ago, this would have taken a month. Today, use technology to spot 'anomalies'—unusual patterns that might indicate an error or fraud.",
-          "4:00 PM - Taxation & Advisory: Spend your afternoon working on a 'Merger & Acquisition' deal. Two companies are becoming one, and they need you to calculate the 'Tax Implications' of this marriage. It's a high-stakes puzzle where a single mistake could cost crores.",
-          "7:30 PM - Continuous Learning: Before heading home, spend 30 minutes reading the latest circular from the ICAI (Institute of Chartered Accountants of India). In this career, the laws change, and a CA must always be the smartest person in the room."
+          "8:30 AM -  The Strategy Review: Start your day by reviewing the financial statements of a major e-commerce startup. You aren't just looking at numbers; you're looking for stories. Why did their marketing cost jump by 40%? Is their revenue recognition following the latest Accounting Standards?",
+          "10:30 AM -  The Client Consultation: Head to a client's office for an 'Audit Meeting.' Sit with the CFO (Chief Financial Officer) to discuss a new government regulation on GST. Explain complex laws in simple terms so the company can stay compliant without losing profit.",
+          "1:30 PM -  The 'Digital Audit': After a quick working lunch, use AI-powered tools to scan through millions of transactions in minutes. Ten years ago, this would have taken a month. Today, use technology to spot 'anomalies'—unusual patterns that might indicate an error or fraud.",
+          "4:00 PM -  Taxation & Advisory: Spend your afternoon working on a 'Merger & Acquisition' deal. Two companies are becoming one, and they need you to calculate the 'Tax Implications' of this marriage. It's a high-stakes puzzle where a single mistake could cost crores.",
+          "7:30 PM -  Continuous Learning: Before heading home, spend 30 minutes reading the latest circular from the ICAI (Institute of Chartered Accountants of India). In this career, the laws change, and a CA must always be the smartest person in the room."
         ]
       },
       {
@@ -962,12 +963,12 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real workflow of a company secretary.",
         color: RED2,
         content: [
-          "8:30 AM - The Morning Briefing: Start your day by scanning the latest notifications from the Ministry of Corporate Affairs (MCA) and SEBI. In your field, a rule changed overnight can change how your company operates by morning.",
-          "10:00 AM - The Boardroom Setup: Today is the Quarterly Board Meeting. You aren't just attending; you're the conductor of this orchestra. Ensure every Director has the 'Board Pack' (the agenda and reports) and check that the meeting follows the strict legal 'quorum' requirements.",
-          "1:30 PM - The Strategic Lunch: Over lunch, the CEO asks you about the legal implications of acquiring a smaller AI startup. You don't give a 'yes' or 'no'; you provide a legal roadmap. Explain the 'due diligence' process and how they must disclose this to the stock exchange.",
-          "3:30 PM - Filing and Compliance: Back at your desk, supervise your team as they file 'Annual Returns' on the MCA's digital portal. One tiny error in a digital signature or a late filing could cost the company lakhs in penalties. Precision is your middle name.",
-          "5:00 PM - Shareholder Relations: An angry shareholder calls, worried about their dividends. Use your 'diplomat' skills to explain the company's financial health and legal stand, turning a heated conversation into a professional one.",
-          "7:00 PM - The Final Wrap: Spend the last hour drafting the 'Minutes' of the morning's board meeting. Every word you write is a legal record that will be kept for decades. Feel the weight of the company's reputation on your shoulders—and love it."
+          "8:30 AM -  The Morning Briefing: Start your day by scanning the latest notifications from the Ministry of Corporate Affairs (MCA) and SEBI. In your field, a rule changed overnight can change how your company operates by morning.",
+          "10:00 AM -  The Boardroom Setup: Today is the Quarterly Board Meeting. You aren't just attending; you're the conductor of this orchestra. Ensure every Director has the 'Board Pack' (the agenda and reports) and check that the meeting follows the strict legal 'quorum' requirements.",
+          "1:30 PM -  The Strategic Lunch: Over lunch, the CEO asks you about the legal implications of acquiring a smaller AI startup. You don't give a 'yes' or 'no'; you provide a legal roadmap. Explain the 'due diligence' process and how they must disclose this to the stock exchange.",
+          "3:30 PM -  Filing and Compliance: Back at your desk, supervise your team as they file 'Annual Returns' on the MCA's digital portal. One tiny error in a digital signature or a late filing could cost the company lakhs in penalties. Precision is your middle name.",
+          "5:00 PM -  Shareholder Relations: An angry shareholder calls, worried about their dividends. Use your 'diplomat' skills to explain the company's financial health and legal stand, turning a heated conversation into a professional one.",
+          "7:00 PM -  The Final Wrap: Spend the last hour drafting the 'Minutes' of the morning's board meeting. Every word you write is a legal record that will be kept for decades. Feel the weight of the company's reputation on your shoulders—and love it."
         ]
       },
       {
@@ -2865,11 +2866,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real workflow of an agricultural engineer.",
         color: "#DA1313",
         content: [
-          "8:30 AM - The Field Briefing: Arjun starts his day on a sprawling farm in Pune. He isn't holding a shovel; he's holding a tablet. He's checking the telemetry data from a fleet of autonomous tractors currently tilling the soil. One tractor has flagged a sensor error, and Arjun quickly recalibrates the GPS settings from his screen.",
-          "10:30 AM - Drone Scouting: He launches a thermal-imaging drone to fly over the 50-acre wheat field. As the drone sends back live data, Arjun identifies a 'stressed' patch of crops that isn't getting enough nitrogen. He sends a command to the automated sprinkler system to deliver a precise dose of liquid fertilizer to only that specific patch. This is Precision Agriculture in action.",
-          "1:30 PM - Designing the Future: After lunch, Arjun heads to the R&D lab. He's working on a 3D model of a new 'Solar-Powered Cold Storage' unit. In India, 40% of fresh produce is wasted due to heat. Arjun's design uses affordable, locally sourced materials and solar panels to keep vegetables fresh in remote villages without electricity.",
-          "4:00 PM - The Client Meeting: He meets with a group of local farmers to explain how a new moisture-sensing probe works. He translates complex engineering jargon into simple language, showing them how they can save 30% on their water bills.",
-          "6:30 PM - Data Analytics: Before leaving, Arjun reviews the day's data logs. He prepares a report for his manager on how the new robotic seeder performed compared to manual labor. As he drives home, he sees the green fields and feels proud—he didn't just 'work' today; he helped secure the food on a thousand plates."
+          "8:30 AM -  The Field Briefing: Arjun starts his day on a sprawling farm in Pune. He isn't holding a shovel; he's holding a tablet. He's checking the telemetry data from a fleet of autonomous tractors currently tilling the soil. One tractor has flagged a sensor error, and Arjun quickly recalibrates the GPS settings from his screen.",
+          "10:30 AM -  Drone Scouting: He launches a thermal-imaging drone to fly over the 50-acre wheat field. As the drone sends back live data, Arjun identifies a 'stressed' patch of crops that isn't getting enough nitrogen. He sends a command to the automated sprinkler system to deliver a precise dose of liquid fertilizer to only that specific patch. This is Precision Agriculture in action.",
+          "1:30 PM -  Designing the Future: After lunch, Arjun heads to the R&D lab. He's working on a 3D model of a new 'Solar-Powered Cold Storage' unit. In India, 40% of fresh produce is wasted due to heat. Arjun's design uses affordable, locally sourced materials and solar panels to keep vegetables fresh in remote villages without electricity.",
+          "4:00 PM -  The Client Meeting: He meets with a group of local farmers to explain how a new moisture-sensing probe works. He translates complex engineering jargon into simple language, showing them how they can save 30% on their water bills.",
+          "6:30 PM -  Data Analytics: Before leaving, Arjun reviews the day's data logs. He prepares a report for his manager on how the new robotic seeder performed compared to manual labor. As he drives home, he sees the green fields and feels proud—he didn't just 'work' today; he helped secure the food on a thousand plates."
         ]
       },
       {
@@ -4382,12 +4383,12 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working forensic scientist",
         color: RED2,
         content: [
-          "08:30 AM - Arjun clocks in at the State Forensic Science Laboratory (FSL) in Lucknow: The smell of chemicals hangs faintly in the air. He dons his white coat and checks the 'Chain of Custody' log. A sealed packet arrived last night from a robbery case.",
-          "10:00 AM - Lab Analysis. Arjun specializes in Serology (body fluids): He carefully opens the packet containing a stained shirt. Using a high-powered microscope and chemical reagents, he tests the stain. Is it blood? Yes. Is it human? Yes. He prepares the sample for DNA profiling.",
-          "01:00 PM - Lunch :He eats quickly with colleagues from the Ballistics division. They discuss a new case involving a country-made pistol.",
-          "02:30 PM - Court Summons: Arjun has to testify in the High Court today regarding a case he analyzed two years ago. He stands in the witness box, facing a barrage of questions from the defense lawyer. 'Dr. Arjun, are you 100% sure the sample wasn't contaminated?' He calmly explains his scientific process.",
-          "05:00 PM - Back to the Lab: A rush request comes in from the Cyber Cell. They need help lifting latent fingerprints from a seized hard drive before they analyze the data. Arjun dusts the drive using magnetic powder, photographs the prints, and uploads them to the database.",
-          "06:30 PM - Paperwork: He spends an hour writing a detailed report. In forensics, if you didn't document it, you didn't do it. He logs off, mentally tired but knowing his work today moved three cases closer to justice."
+          "08:30 AM -  Arjun clocks in at the State Forensic Science Laboratory (FSL) in Lucknow: The smell of chemicals hangs faintly in the air. He dons his white coat and checks the 'Chain of Custody' log. A sealed packet arrived last night from a robbery case.",
+          "10:00 AM -  Lab Analysis. Arjun specializes in Serology (body fluids): He carefully opens the packet containing a stained shirt. Using a high-powered microscope and chemical reagents, he tests the stain. Is it blood? Yes. Is it human? Yes. He prepares the sample for DNA profiling.",
+          "01:00 PM -  Lunch :He eats quickly with colleagues from the Ballistics division. They discuss a new case involving a country-made pistol.",
+          "02:30 PM -  Court Summons: Arjun has to testify in the High Court today regarding a case he analyzed two years ago. He stands in the witness box, facing a barrage of questions from the defense lawyer. 'Dr. Arjun, are you 100% sure the sample wasn't contaminated?' He calmly explains his scientific process.",
+          "05:00 PM -  Back to the Lab: A rush request comes in from the Cyber Cell. They need help lifting latent fingerprints from a seized hard drive before they analyze the data. Arjun dusts the drive using magnetic powder, photographs the prints, and uploads them to the database.",
+          "06:30 PM -  Paperwork: He spends an hour writing a detailed report. In forensics, if you didn't document it, you didn't do it. He logs off, mentally tired but knowing his work today moved three cases closer to justice."
         ]
       },
       {
@@ -4432,7 +4433,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Pathway A: The Specialized Route (Best for core Forensics):",
           "  • Class 12: Science Stream (PCB or PCM) with at least 50–60%",
           "  • Entrance Exam: NFAT (National Forensic Admission Test) or CUET-UG",
-          "  • Undergraduate: B.Sc. in Forensic Science (3–4 Years) or B.Sc. - M.Sc. Integrated (5 Years)",
+          "  • Undergraduate: B.Sc. in Forensic Science (3–4 Years) or B.Sc. -  M.Sc. Integrated (5 Years)",
           "  • Postgraduate: M.Sc. in Forensic Science (Specializing in DNA, Ballistics, or Cyber)",
           "Pathway B: The General Science Route (Safety Net):",
           "  • Undergraduate: B.Sc. in Chemistry/Botany/Zoology/Physics",
@@ -4654,13 +4655,13 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working lawyer",
         color: RED2,
         content: [
-          "09:00 AM - Ananya reaches her office at a Law Firm in New Delhi. There is no court hearing today, so she is in 'Drafting Mode.' She grabs a coffee and opens her laptop. A client—a large shoe company—is being sued for a trademark violation. She needs to draft a 'Written Statement' (a formal reply) to defend them.",
-          "11:00 AM - Research time. She logs into Manupatra (a legal search engine) to find past Supreme Court judgments that support her client's case. Law is built on 'precedents'—what judges decided in the past matters today. She reads through 50 pages of judgments to find one golden paragraph she can use.",
-          "01:30 PM - Lunch with colleagues. They discuss the new Bharatiya Nyaya Sanhita (BNS) laws that recently replaced the old penal code. Staying updated is survival in this field.",
-          "03:00 PM - Client Meeting. The CEO of a tech startup walks in. He wants to know if his new app violates any privacy laws. She explains complex legal rules in simple English. She isn't just a lawyer here; she is a business advisor.",
-          "05:00 PM - Court Clerk visit. She rushes to the Delhi High Court registry to physically file a petition before the counter closes. The digital world hasn't fully replaced the physical paperwork yet!",
-          "07:30 PM - Back at the desk. She reviews a contract for a senior partner. She spots a tiny error in Clause 4 that could have cost the client lakhs. She fixes it. Precision is her superpower.",
-          "08:30 PM - Logs off. It was a long day, but she feels the thrill of knowing her arguments might win the case next week."
+          "09:00 AM -  Ananya reaches her office at a Law Firm in New Delhi. There is no court hearing today, so she is in 'Drafting Mode.' She grabs a coffee and opens her laptop. A client—a large shoe company—is being sued for a trademark violation. She needs to draft a 'Written Statement' (a formal reply) to defend them.",
+          "11:00 AM -  Research time. She logs into Manupatra (a legal search engine) to find past Supreme Court judgments that support her client's case. Law is built on 'precedents'—what judges decided in the past matters today. She reads through 50 pages of judgments to find one golden paragraph she can use.",
+          "01:30 PM -  Lunch with colleagues. They discuss the new Bharatiya Nyaya Sanhita (BNS) laws that recently replaced the old penal code. Staying updated is survival in this field.",
+          "03:00 PM -  Client Meeting. The CEO of a tech startup walks in. He wants to know if his new app violates any privacy laws. She explains complex legal rules in simple English. She isn't just a lawyer here; she is a business advisor.",
+          "05:00 PM -  Court Clerk visit. She rushes to the Delhi High Court registry to physically file a petition before the counter closes. The digital world hasn't fully replaced the physical paperwork yet!",
+          "07:30 PM -  Back at the desk. She reviews a contract for a senior partner. She spots a tiny error in Clause 4 that could have cost the client lakhs. She fixes it. Precision is her superpower.",
+          "08:30 PM -  Logs off. It was a long day, but she feels the thrill of knowing her arguments might win the case next week."
         ]
       },
       {
@@ -4702,7 +4703,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "How to become a lawyer in India",
         color: RED5,
         content: [
-          "Pathway A: The 5-Year Integrated Route (After Class 12) - Most Popular:",
+          "Pathway A: The 5-Year Integrated Route (After Class 12) -  Most Popular:",
           "  • Class 12: Any stream with 45%+ marks",
           "  • Entrance Exam: CLAT (for 24 NLUs), AILET (for NLU Delhi), LSAT-India, or MHCET Law",
           "  • Degree: B.A. LL.B (Hons), B.B.A. LL.B (Hons), or B.Com LL.B",
@@ -4923,14 +4924,14 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working judge",
         color: RED2,
         content: [
-          "08:00 AM - Justice Ramakrishnan arrives at the Delhi High Court. He has 5 cases on his docket today. His chambers staff briefs him on each case file.",
-          "09:00 AM - First hearing. A writ petition is filed challenging a government policy. He listens to arguments from both the petitioner's lawyer and the government counsel for 2 hours. He takes detailed notes and reserves judgment.",
-          "11:30 AM - Lunch break. He reviews written submissions from yesterday's cases. Judges don't just listen in court; they spend hours reading legal briefs and precedents.",
-          "01:00 PM - Criminal case hearing. A criminal defense lawyer argues that his client's confession was coerced. The judge questions both sides to unearth the truth.",
-          "03:00 PM - Administrative work. He reviews case schedules, meets with the High Court registrar about court resource allocation, and handles judicial matters.",
-          "04:30 PM - Judgment Delivery. He announces a written judgment in a civil dispute case. It took him 3 days to write because every sentence has legal weight.",
-          "05:30 PM - Chambers time. He dictates notes for upcoming judgments to his secretary. Judges often work late into the evening.",
-          "06:30 PM - Goes home knowing that his decisions today will impact families, businesses, and the country's legal landscape."
+          "08:00 AM -  Justice Ramakrishnan arrives at the Delhi High Court. He has 5 cases on his docket today. His chambers staff briefs him on each case file.",
+          "09:00 AM -  First hearing. A writ petition is filed challenging a government policy. He listens to arguments from both the petitioner's lawyer and the government counsel for 2 hours. He takes detailed notes and reserves judgment.",
+          "11:30 AM -  Lunch break. He reviews written submissions from yesterday's cases. Judges don't just listen in court; they spend hours reading legal briefs and precedents.",
+          "01:00 PM -  Criminal case hearing. A criminal defense lawyer argues that his client's confession was coerced. The judge questions both sides to unearth the truth.",
+          "03:00 PM -  Administrative work. He reviews case schedules, meets with the High Court registrar about court resource allocation, and handles judicial matters.",
+          "04:30 PM -  Judgment Delivery. He announces a written judgment in a civil dispute case. It took him 3 days to write because every sentence has legal weight.",
+          "05:30 PM -  Chambers time. He dictates notes for upcoming judgments to his secretary. Judges often work late into the evening.",
+          "06:30 PM -  Goes home knowing that his decisions today will impact families, businesses, and the country's legal landscape."
         ]
       },
       {
@@ -4987,7 +4988,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Step 1: Complete your LLB (5-year integrated or 3-year after graduation)",
           "  • Step 2: Register with Bar Council and practice law for 7–12 years (mandatory practice period varies by state)",
           "  • Step 3: Gain experience as an advocate and build expertise in a specific area",
-          "  • Step 4: Appear for PCS-J (Public Service Commission - Judicial) exam conducted by UPSC or State PSCs",
+          "  • Step 4: Appear for PCS-J (Public Service Commission -  Judicial) exam conducted by UPSC or State PSCs",
           "  • Step 5: Clear PCS-J (prelims, mains, interviews, medical test)",
           "  • Step 6: Appointed as Civil Judge (District Judge level entry point)",
           "  • Step 7: Progress through ranks: Addl. District Judge → Sessions Judge → High Court Judge → Appellate judge",
@@ -5211,11 +5212,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "How SSC work looks inside a ministry office.",
         color: RED2,
         content: [
-          "9:30 AM - Enter South Block in New Delhi and settle into a desk surrounded by legacy files and high-speed systems.",
-          "11:00 AM - Draft a brief for a senior diplomat or officer by coordinating inputs from multiple departments.",
-          "1:30 PM - Discuss policy, finance, and administration over lunch with colleagues from different ministries.",
-          "3:30 PM - Work on e-Office, tagging digital files and ensuring sensitive records are searchable and properly indexed.",
-          "6:30 PM - Review an RTI query before leaving, knowing that accuracy and transparency are part of the job."
+          "9:30 AM -  Enter South Block in New Delhi and settle into a desk surrounded by legacy files and high-speed systems.",
+          "11:00 AM -  Draft a brief for a senior diplomat or officer by coordinating inputs from multiple departments.",
+          "1:30 PM -  Discuss policy, finance, and administration over lunch with colleagues from different ministries.",
+          "3:30 PM -  Work on e-Office, tagging digital files and ensuring sensitive records are searchable and properly indexed.",
+          "6:30 PM -  Review an RTI query before leaving, knowing that accuracy and transparency are part of the job."
         ]
       },
       {
@@ -5427,13 +5428,13 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working industrial designer",
         color: RED2,
         content: [
-          "09:30 AM - Riya walks into her studio at a consumer electronics company in Bangalore. It's a creative mess—sketches on the walls, 3D printed models on desks, and material samples everywhere. She grabs her iPad Pro. The brief today is to design a new 'Smart Wearable' for senior citizens that monitors heart rate but looks like jewelry, not a hospital gadget.",
-          "10:30 AM - Sketching Phase. Riya puts on her headphones and starts drawing. She doesn't just draw one idea; she draws 50. Some are sleek, some are chunky, some look like bracelets. She focuses on the 'form factor'—it needs to be easy for shaky hands to wear.",
-          "12:30 PM - The Prototype Lab. She takes her best sketch to the 3D printing room. She loads a file into the printer. While it prints, she meets with the engineering team. 'Riya, this curve is too tight; the battery won't fit inside,' the engineer says. Back to the drawing board. Design is a constant negotiation with physics.",
-          "02:00 PM - Lunch. She eats with the UX (User Experience) designers. They discuss how the digital screen on her device will interact with the physical button she designed.",
-          "03:30 PM - User Testing. A group of elderly users has been invited to test a foam model of the device. Riya watches silently. She notices one user struggling to find the 'Panic Button' because it's too small. She notes this down: 'Make the button red and tactile.'",
-          "05:00 PM - Rendering. Back at her desk, she uses software like KeyShot to create a photorealistic image of the final design. She adds textures—gold finish, matte black silicon. It looks so real you could touch it.",
-          "07:00 PM - She logs off. On her way home, she sees someone wearing headphones she designed two years ago. That thrill—seeing a stranger use your creation—never gets old."
+          "09:30 AM -  Riya walks into her studio at a consumer electronics company in Bangalore. It's a creative mess—sketches on the walls, 3D printed models on desks, and material samples everywhere. She grabs her iPad Pro. The brief today is to design a new 'Smart Wearable' for senior citizens that monitors heart rate but looks like jewelry, not a hospital gadget.",
+          "10:30 AM -  Sketching Phase. Riya puts on her headphones and starts drawing. She doesn't just draw one idea; she draws 50. Some are sleek, some are chunky, some look like bracelets. She focuses on the 'form factor'—it needs to be easy for shaky hands to wear.",
+          "12:30 PM -  The Prototype Lab. She takes her best sketch to the 3D printing room. She loads a file into the printer. While it prints, she meets with the engineering team. 'Riya, this curve is too tight; the battery won't fit inside,' the engineer says. Back to the drawing board. Design is a constant negotiation with physics.",
+          "02:00 PM -  Lunch. She eats with the UX (User Experience) designers. They discuss how the digital screen on her device will interact with the physical button she designed.",
+          "03:30 PM -  User Testing. A group of elderly users has been invited to test a foam model of the device. Riya watches silently. She notices one user struggling to find the 'Panic Button' because it's too small. She notes this down: 'Make the button red and tactile.'",
+          "05:00 PM -  Rendering. Back at her desk, she uses software like KeyShot to create a photorealistic image of the final design. She adds textures—gold finish, matte black silicon. It looks so real you could touch it.",
+          "07:00 PM -  She logs off. On her way home, she sees someone wearing headphones she designed two years ago. That thrill—seeing a stranger use your creation—never gets old."
         ]
       },
       {
@@ -5475,7 +5476,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "How to become an industrial designer in India",
         color: RED5,
         content: [
-          "Pathway A: The Design School Route (Creative Focus) - Most Recommended:",
+          "Pathway A: The Design School Route (Creative Focus) -  Most Recommended:",
           "  • Class 12: Any stream (Science, Commerce, Arts)",
           "  • Entrance Exams: NID DAT, UCEED, SEED, UPES-DAT",
           "  • Undergraduate: B.Des in Industrial/Product Design (4 Years)",
@@ -5528,10 +5529,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment required for industrial design education",
         color: RED3,
         content: [
-          "Government (NID/IITs): ₹10L–₹12L (4 years) - Highly competitive, best ROI",
-          "Top Private (MIT-Pune/UPES): ₹18L–₹24L (4 years) - Expensive due to studio costs",
-          "State Government Colleges: ₹4L–₹6L (4 years) - Fewer options, but affordable",
-          "Tools & Equipment: ₹2L - High-end Laptop, iPad/Tablet, Markers",
+          "Government (NID/IITs): ₹10L–₹12L (4 years) -  Highly competitive, best ROI",
+          "Top Private (MIT-Pune/UPES): ₹18L–₹24L (4 years) -  Expensive due to studio costs",
+          "State Government Colleges: ₹4L–₹6L (4 years) -  Fewer options, but affordable",
+          "Tools & Equipment: ₹2L -  High-end Laptop, iPad/Tablet, Markers",
           "Living Costs: ₹15,000–₹25,000 per month in metro cities",
           "Study Materials: ₹50,000–₹1L for software licenses and resources",
           "Scholarships: Can significantly reduce out-of-pocket expenses"
@@ -5698,13 +5699,13 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working industrial engineer",
         color: RED2,
         content: [
-          "08:30 AM - Rohan walks onto the warehouse floor at a massive E-commerce Fulfillment Center (like Amazon/Flipkart) in Bhiwandi, near Mumbai: It's the 'Big Billion Days' sale week. The noise of conveyor belts and scanners is deafening. He checks his tablet: Order volume is up 40% today.",
-          "09:30 AM - The Bottleneck: He notices a jam in the packing section. Packages are piling up because the label printers are slow. Rohan doesn't fix the printer; he re-organizes the line. He instructs the team to split the flow into two lines—one for small packets, one for big boxes. The jam clears in 20 minutes.",
-          "11:00 AM - Time Study: Rohan stands with a stopwatch (or an iPad app) observing a worker packing a mobile phone. Reach, Grab, Box, Tape, Label. It takes 45 seconds. Rohan realizes if he moves the tape dispenser 6 inches closer, it saves 2 seconds per box. In a day with 10,000 boxes, he just saved 5.5 hours of labor!",
-          "01:00 PM - Lunch: He eats quickly with the Operations Manager. They discuss 'Kaizen' (continuous improvement). Rohan suggests a new layout for the loading dock to reduce truck waiting time.",
-          "03:00 PM - Data Crunching: Back at his desk, he analyzes data on Excel/PowerBI. He spots a trend: 15% of returns are happening because of 'damaged packaging.' He schedules a meeting with the cardboard supplier to upgrade the material quality.",
-          "05:00 PM - Safety Walk: He walks the floor to ensure no one is lifting heavy boxes incorrectly. Safety is efficient; accidents stop work.",
-          "06:30 PM - Rohan logs off: Today, his small changes helped ship 5,000 extra parcels. He didn't invent the product, but he made sure it reached the customer on time."
+          "08:30 AM -  Rohan walks onto the warehouse floor at a massive E-commerce Fulfillment Center (like Amazon/Flipkart) in Bhiwandi, near Mumbai: It's the 'Big Billion Days' sale week. The noise of conveyor belts and scanners is deafening. He checks his tablet: Order volume is up 40% today.",
+          "09:30 AM -  The Bottleneck: He notices a jam in the packing section. Packages are piling up because the label printers are slow. Rohan doesn't fix the printer; he re-organizes the line. He instructs the team to split the flow into two lines—one for small packets, one for big boxes. The jam clears in 20 minutes.",
+          "11:00 AM -  Time Study: Rohan stands with a stopwatch (or an iPad app) observing a worker packing a mobile phone. Reach, Grab, Box, Tape, Label. It takes 45 seconds. Rohan realizes if he moves the tape dispenser 6 inches closer, it saves 2 seconds per box. In a day with 10,000 boxes, he just saved 5.5 hours of labor!",
+          "01:00 PM -  Lunch: He eats quickly with the Operations Manager. They discuss 'Kaizen' (continuous improvement). Rohan suggests a new layout for the loading dock to reduce truck waiting time.",
+          "03:00 PM -  Data Crunching: Back at his desk, he analyzes data on Excel/PowerBI. He spots a trend: 15% of returns are happening because of 'damaged packaging.' He schedules a meeting with the cardboard supplier to upgrade the material quality.",
+          "05:00 PM -  Safety Walk: He walks the floor to ensure no one is lifting heavy boxes incorrectly. Safety is efficient; accidents stop work.",
+          "06:30 PM -  Rohan logs off: Today, his small changes helped ship 5,000 extra parcels. He didn't invent the product, but he made sure it reached the customer on time."
         ]
       },
       {
@@ -5797,10 +5798,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment required for industrial engineering education",
         color: RED3,
         content: [
-          "IITs/NITs (Govt): ₹8L–₹10L (4 years) - Top-tier placements",
-          "BITS Pilani (Private): ₹20L–₹24L (4 years) - Excellent industry connect",
-          "State Government Colleges: ₹3L–₹5L (4 years) - Affordable, ROI focused",
-          "Private Universities: ₹12L–₹18L (4 years) - Good infrastructure",
+          "IITs/NITs (Govt): ₹8L–₹10L (4 years) -  Top-tier placements",
+          "BITS Pilani (Private): ₹20L–₹24L (4 years) -  Excellent industry connect",
+          "State Government Colleges: ₹3L–₹5L (4 years) -  Affordable, ROI focused",
+          "Private Universities: ₹12L–₹18L (4 years) -  Good infrastructure",
           "Living Costs: ₹15,000–₹25,000 per month in metro cities",
           "Study Materials: ₹50,000–₹1L for books and resources",
           "Scholarships: Can significantly reduce out-of-pocket expenses"
@@ -5966,14 +5967,14 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working mechanical engineer",
         color: RED2,
         content: [
-          "08:30 AM - Karthik arrives at the R&D center of an Electric Vehicle (EV) startup in Pune. The air buzzes with the hum of 3D printers and the smell of coffee. He doesn't wear a suit; jeans and a polo t-shirt are the norm here.",
-          "09:00 AM - The Huddle. The team gathers around a whiteboard. They are designing a new battery cooling system for an electric scooter. The challenge? It needs to be 10% lighter but cool 20% faster. Karthik sketches a rough idea involving a new honeycomb structure.",
-          "10:30 AM - CAD Time. Karthik sits at his dual-monitor workstation. He opens SolidWorks (a 3D design software). For the next two hours, he is in 'the zone,' turning his rough sketch into a precise, 3D digital model.",
-          "01:00 PM - Lunch at the canteen. He sits with the manufacturing team. They joke about a robot arm that kept dropping bolts yesterday. These informal chats are crucial—designers need to know what happens on the factory floor.",
-          "02:00 PM - The Prototype Lab. This is the fun part. Karthik puts on safety goggles and heads to the lab. A 3D-printed version of his cooling part is ready. He fits it onto a test scooter. Does it fit? Yes. Does it vibrate too much? He uses a sensor to check.",
-          "04:30 PM - Vendor Call. He calls a supplier in Chennai who makes aluminum parts. They discuss material grades. Karthik needs '6061 Aluminum,' but the supplier suggests '7075' for better strength.",
-          "06:00 PM - Documentation. In engineering, if you didn't document it, you didn't do it. Karthik updates the 'Bill of Materials' (BOM)—a list of every single screw and washer needed for his design.",
-          "07:00 PM - He logs off. As he rides his own electric scooter home, he smiles, knowing that the cooling system keeping his battery safe was designed by him."
+          "08:30 AM -  Karthik arrives at the R&D center of an Electric Vehicle (EV) startup in Pune. The air buzzes with the hum of 3D printers and the smell of coffee. He doesn't wear a suit; jeans and a polo t-shirt are the norm here.",
+          "09:00 AM -  The Huddle. The team gathers around a whiteboard. They are designing a new battery cooling system for an electric scooter. The challenge? It needs to be 10% lighter but cool 20% faster. Karthik sketches a rough idea involving a new honeycomb structure.",
+          "10:30 AM -  CAD Time. Karthik sits at his dual-monitor workstation. He opens SolidWorks (a 3D design software). For the next two hours, he is in 'the zone,' turning his rough sketch into a precise, 3D digital model.",
+          "01:00 PM -  Lunch at the canteen. He sits with the manufacturing team. They joke about a robot arm that kept dropping bolts yesterday. These informal chats are crucial—designers need to know what happens on the factory floor.",
+          "02:00 PM -  The Prototype Lab. This is the fun part. Karthik puts on safety goggles and heads to the lab. A 3D-printed version of his cooling part is ready. He fits it onto a test scooter. Does it fit? Yes. Does it vibrate too much? He uses a sensor to check.",
+          "04:30 PM -  Vendor Call. He calls a supplier in Chennai who makes aluminum parts. They discuss material grades. Karthik needs '6061 Aluminum,' but the supplier suggests '7075' for better strength.",
+          "06:00 PM -  Documentation. In engineering, if you didn't document it, you didn't do it. Karthik updates the 'Bill of Materials' (BOM)—a list of every single screw and washer needed for his design.",
+          "07:00 PM -  He logs off. As he rides his own electric scooter home, he smiles, knowing that the cooling system keeping his battery safe was designed by him."
         ]
       },
       {
@@ -6071,10 +6072,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment required for mechanical engineering education",
         color: RED3,
         content: [
-          "IITs/NITs (Govt): ₹8L–₹10L (4 years) - Top-tier education, fee waivers available",
-          "Top Private (BITS/VIT): ₹16L–₹25L (4 years) - Expensive but excellent labs",
-          "State Government Colleges: ₹3L–₹5L (4 years) - Very affordable",
-          "Diploma (Polytechnic): ₹50,000–₹1.5L (3 years) - Most affordable option",
+          "IITs/NITs (Govt): ₹8L–₹10L (4 years) -  Top-tier education, fee waivers available",
+          "Top Private (BITS/VIT): ₹16L–₹25L (4 years) -  Expensive but excellent labs",
+          "State Government Colleges: ₹3L–₹5L (4 years) -  Very affordable",
+          "Diploma (Polytechnic): ₹50,000–₹1.5L (3 years) -  Most affordable option",
           "Living Costs: ₹15,000–₹25,000 per month in metro cities",
           "Study Materials: ₹50,000–₹1L for books and resources",
           "Scholarships: Can significantly reduce out-of-pocket expenses"
@@ -6226,7 +6227,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Understanding Earth materials and processes.",
         color: RED,
         content: [
-          "Geology is the science of Earth - rocks, minerals, soils, fossils, and the processes that shape mountains, rivers, and oceans.",
+          "Geology is the science of Earth -  rocks, minerals, soils, fossils, and the processes that shape mountains, rivers, and oceans.",
           "Geologists investigate how Earth changes over time and use that knowledge for practical decisions in engineering, environment, and energy.",
           "In India, geology is critical for groundwater mapping, mineral exploration, infrastructure planning, and disaster mitigation."
         ]
@@ -6455,6 +6456,7 @@ export function getCareerPageData(slug: string): CareerPageData | null {
     marketing_advertisingUpdateData[normalizedSlug] ||
     sports_and_physical_activitiesUpdateData[normalizedSlug] ||
     media_and_communicationUpdateData[normalizedSlug] ||
+    human_social_sciencesUpdateData[normalizedSlug] ||
     careerPageData[normalizedSlug] ||
     null
   );

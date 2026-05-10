@@ -231,7 +231,7 @@ export function CareerPageDynamicContent({
                           const desc = colonIdx > -1 ? step.substring(colonIdx + 1).trim() : step;
                           return (
                             <div key={sIdx} className="flex gap-3 sm:gap-4 items-start relative">
-                              {sIdx < path.steps.length - 1 && (
+                              {sIdx < path.steps.length -  1 && (
                                 <div className="absolute left-[11px] top-6 w-[2px] h-[calc(100%+8px)] bg-blue-100" />
                               )}
                               <div className="w-6 h-6 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center flex-shrink-0 z-10">

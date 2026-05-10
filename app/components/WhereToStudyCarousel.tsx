@@ -52,7 +52,7 @@ export function WhereToStudyCarousel({
           </p>
         </div>
 
-        {/* Grid Layout - All Content Visible, No Clickable Elements */}
+        {/* Grid Layout -  All Content Visible, No Clickable Elements */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {institutionTypes.map((institution, idx) => (
             <div
@@ -67,7 +67,7 @@ export function WhereToStudyCarousel({
                 {institution.type}
               </h3>
 
-              {/* Institutions List - All Visible */}
+              {/* Institutions List -  All Visible */}
               <div className="space-y-2">
                 {institution.institutions.map((inst, instIdx) => (
                   <div key={instIdx} className="flex gap-2">

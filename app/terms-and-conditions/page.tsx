@@ -2,7 +2,7 @@ import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 
 export const metadata = {
-  title: "Terms and Conditions - Jeet Learnings",
+  title: "Terms and Conditions -  Jeet Learnings",
   description: "Terms and Conditions for using Jeet Learnings services and website.",
 };
 

@@ -89,7 +89,7 @@ export function ActuarialFuturisticHero() {
             </div>
           </div>
 
-          {/* Right Side - Info Cards */}
+          {/* Right Side -  Info Cards */}
           <div className="space-y-3 sm:space-y-4 md:space-y-6 mt-8 lg:mt-0">
             {/* Quick Facts Card */}
             <div className="p-4 sm:p-6 md:p-8 rounded-lg md:rounded-2xl bg-white shadow-lg border-t-4" style={{ borderTopColor: PRIMARY_BLUE }}>
