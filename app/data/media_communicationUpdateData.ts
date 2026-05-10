@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const RED = "#C20000";
 const RED2 = "#DA1313";
@@ -77,7 +77,7 @@ export const media_communicationUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -124,3 +124,5 @@ export const media_communicationUpdateData: Record<string, CareerPageData> = {
     ]
   },
 };
+
+

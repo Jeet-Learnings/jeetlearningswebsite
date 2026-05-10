@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const COLOR1 = "#EC4899";
 const COLOR2 = "#F472B6";
@@ -79,11 +79,11 @@ export const media_and_communicationUpdateData: Record<string, CareerPageData> =
         color: COLOR2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹65 LPA – ₹2.1 Crore",
-          "Senior / Lead Role (10+ yrs): ₹28 – ₹55 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹14 – ₹26 LPA",
-          "Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA",
-          "Entry Level (0–2 yrs): ₹4 – ₹7 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹65 LPA –  ₹2.1 Crore",
+          "Senior / Lead Role (10+ yrs): ₹28 –  ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹14 –  ₹26 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 –  ₹13 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹7 LPA",
           "Note: Metros and PhD/Masters from top institutes boost pay by 35%.",
            
           "Where Are the Jobs?",
@@ -194,11 +194,11 @@ export const media_and_communicationUpdateData: Record<string, CareerPageData> =
         color: COLOR2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO (15+ yrs): ₹80 LPA – ₹3.0 Crore",
-          "Senior (10+ yrs): ₹30 – ₹75 LPA",
-          "Mid (5–8 yrs): ₹15 – ₹28 LPA",
-          "Junior (3–5 yrs): ₹7 – ₹14 LPA",
-          "Entry (0–2 yrs): ₹3.5 – ₹6.5 LPA",
+          "CXO (15+ yrs): ₹80 LPA –  ₹3.0 Crore",
+          "Senior (10+ yrs): ₹30 –  ₹75 LPA",
+          "Mid (5–8 yrs): ₹15 –  ₹28 LPA",
+          "Junior (3–5 yrs): ₹7 –  ₹14 LPA",
+          "Entry (0–2 yrs): ₹3.5 –  ₹6.5 LPA",
           "Note: Digital-first skills and Metros boost pay by 40%.",
            
           "Where Are the Jobs?",
@@ -309,11 +309,11 @@ export const media_and_communicationUpdateData: Record<string, CareerPageData> =
         color: COLOR2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2.5 Crore",
-          "Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹15 – ₹28 LPA",
-          "Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA",
-          "Entry Level (0–2 yrs): ₹3.5 – ₹7 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹3.5 –  ₹7 LPA",
           "Note: Metros and AI-content skills boost pay by 40%.",
            
           "Where Are the Jobs?",
@@ -424,11 +424,11 @@ export const media_and_communicationUpdateData: Record<string, CareerPageData> =
         color: COLOR2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.2 Crore",
-          "Senior / Lead Role (10+ yrs): ₹28 – ₹55 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹14 – ₹26 LPA",
-          "Junior / Associate (3–5 yrs): ₹7 – ₹12 LPA",
-          "Entry Level (0–2 yrs): ₹4 – ₹7 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹28 –  ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹14 –  ₹26 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 –  ₹12 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹7 LPA",
           "Note: Metros and Crisis Management skills boost pay by 40%.",
            
           "Where Are the Jobs?",
@@ -464,3 +464,5 @@ export const media_and_communicationUpdateData: Record<string, CareerPageData> =
     ]
   }
 };
+
+

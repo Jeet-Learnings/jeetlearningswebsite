@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const BLUE = "#1E40AF";
 const BLUE2 = "#3B82F6";
@@ -95,7 +95,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -220,7 +220,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -345,11 +345,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Crore",
-          "Senior / Lead Role (10+ yrs): ₹35 – ₹70 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹15 – ₹32 LPA",
-          "Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA",
-          "Entry Level (0–2 yrs): ₹4 – ₹8 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹35 –  ₹70 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹32 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹8 LPA",
           "Note: Metros and GATE/Aspen Plus boost pay by 35%.",
            
           "Where Are the Jobs?",
@@ -489,11 +489,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Tech Leadership (15+ yrs): ₹75 LPA – ₹3.2 Crore",
-          "Senior / Lead Role (10+ yrs): ₹35 – ₹70 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹15 – ₹32 LPA",
-          "Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA",
-          "Entry Level (0–2 yrs): ₹4.5 – ₹8.5 LPA",
+          "CXO / Tech Leadership (15+ yrs): ₹75 LPA –  ₹3.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹35 –  ₹70 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹32 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4.5 –  ₹8.5 LPA",
           "Note: AI/ML, Cybersecurity, and Cloud specializations boost pay by 45%.",
            
           "Where Are the Jobs?",
@@ -634,7 +634,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -759,7 +759,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -884,11 +884,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2.5 Crore",
-          "Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹15 – ₹28 LPA",
-          "Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA",
-          "Entry Level (0–2 yrs): ₹4 – ₹7.5 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹7.5 LPA",
           "Note: A PhD, M.Tech from IITs/IISc, or expertise in Nanofabrication and AI-integration boosts pay by 40%.",
            
           "Where Are the Jobs?",
@@ -1014,7 +1014,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1139,7 +1139,7 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1216,13 +1216,13 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Real workflow of a nanotechnologist.",
         color: BLUE2,
         content: [
-          "08:30 AM -  Gowning Room: My day starts not in an office, but in a 'Gowning Room.' To enter the lab, I must wear a 'bunny suit'—a full-body white suit with a mask and gloves. Why? Because a single skin cell from my hand is like a mountain that could crush the nanomaterials I'm working on.",
-          "10:00 AM -  Scanning Electron Microscope: I'm at the SEM. Since nanomaterials are too small for normal light to see, we use beams of electrons to 'visualize' them. Today, I'm checking if the 'Nano-silver' coating we developed for a new type of surgical bandage is spread evenly. On my screen, the bandage fibers look like giant redwood trees covered in tiny glowing dust.",
-          "12:30 PM -  Medical Collaboration: Time for a meeting with a group of doctors. We are discussing a 'Lab-on-a-chip' project. We want to create a tiny device, no bigger than a thumbnail, that can detect malaria from a single drop of blood in minutes. My job is to explain the engineering part, while they explain the biology.",
-          "02:00 PM -  Lunch & Brainstorming: Lunch at the canteen is usually a quick affair. I often sit with the 'Synthesis Team.' We brainstorm why our latest batch of carbon nanotubes didn't conduct electricity as expected. Sometimes, the best breakthroughs happen over a plate of samosas!",
-          "03:30 PM -  Molecular Simulations: Back to the computer. I spend the afternoon running 'Molecular Simulations.' Before we actually build something in the expensive lab, we 'build' it on a supercomputer to see how the atoms will react. It's like playing a high-stakes game of Minecraft with real-world physics.",
-          "06:00 PM -  Documentation & Collaboration: Before leaving, I document every result. In nanotechnology, a change in temperature by even half a degree can change the outcome. I check my emails—a lab in Germany wants to collaborate on a new water-purification membrane.",
-          "07:30 PM -  Reflection: Driving home, I look at the streetlights. Many of them now use nano-LEDs that save 80% more energy. It's a quiet reminder that while my work is invisible to the eye, its impact is everywhere."
+          "08:30 AM –  Gowning Room: My day starts not in an office, but in a 'Gowning Room.' To enter the lab, I must wear a 'bunny suit'—a full-body white suit with a mask and gloves. Why? Because a single skin cell from my hand is like a mountain that could crush the nanomaterials I'm working on.",
+          "10:00 AM –  Scanning Electron Microscope: I'm at the SEM. Since nanomaterials are too small for normal light to see, we use beams of electrons to 'visualize' them. Today, I'm checking if the 'Nano-silver' coating we developed for a new type of surgical bandage is spread evenly. On my screen, the bandage fibers look like giant redwood trees covered in tiny glowing dust.",
+          "12:30 PM –  Medical Collaboration: Time for a meeting with a group of doctors. We are discussing a 'Lab-on-a-chip' project. We want to create a tiny device, no bigger than a thumbnail, that can detect malaria from a single drop of blood in minutes. My job is to explain the engineering part, while they explain the biology.",
+          "02:00 PM –  Lunch & Brainstorming: Lunch at the canteen is usually a quick affair. I often sit with the 'Synthesis Team.' We brainstorm why our latest batch of carbon nanotubes didn't conduct electricity as expected. Sometimes, the best breakthroughs happen over a plate of samosas!",
+          "03:30 PM –  Molecular Simulations: Back to the computer. I spend the afternoon running 'Molecular Simulations.' Before we actually build something in the expensive lab, we 'build' it on a supercomputer to see how the atoms will react. It's like playing a high-stakes game of Minecraft with real-world physics.",
+          "06:00 PM –  Documentation & Collaboration: Before leaving, I document every result. In nanotechnology, a change in temperature by even half a degree can change the outcome. I check my emails—a lab in Germany wants to collaborate on a new water-purification membrane.",
+          "07:30 PM –  Reflection: Driving home, I look at the streetlights. Many of them now use nano-LEDs that save 80% more energy. It's a quiet reminder that while my work is invisible to the eye, its impact is everywhere."
         ]
       },
       {
@@ -1297,11 +1297,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2.5 Crore",
-          "Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹15 – ₹28 LPA",
-          "Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA",
-          "Entry Level (0–2 yrs): ₹4 – ₹7.5 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹7.5 LPA",
           "Note: A PhD, M.Tech from IITs/IISc, or expertise in Nanofabrication and AI-integration boosts pay by 40%.",
            
           "Where Are the Jobs?",
@@ -1318,11 +1318,11 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         color: BLUE,
         content: [
           
-          "Government (IITs/NITs): ₹6 Lakh – ₹10 Lakh (Total for 4 years).",
-          "Private Universities: ₹10 Lakh – ₹18 Lakh (Total).",
+          "Government (IITs/NITs): ₹6 Lakh –  ₹10 Lakh (Total for 4 years).",
+          "Private Universities: ₹10 Lakh –  ₹18 Lakh (Total).",
           
-          "Training: Specialized certifications in Electron Microscopy or Nanofabrication (₹20,000 – ₹50,000).",
-          "Living Costs: ₹1.2 Lakh – ₹2 Lakh per year in student cities.",
+          "Training: Specialized certifications in Electron Microscopy or Nanofabrication (₹20,000 –  ₹50,000).",
+          "Living Costs: ₹1.2 Lakh –  ₹2 Lakh per year in student cities.",
           "Total Investment: Approximately ₹8L–₹20L for complete education and certifications."
         ]
       },
@@ -1453,3 +1453,5 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
   }
 
 };
+
+

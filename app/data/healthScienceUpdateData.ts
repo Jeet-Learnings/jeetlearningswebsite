@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const BLUE = "#1E40AF";
 const BLUE2 = "#3B82F6";
@@ -47,11 +47,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an alternative medicine practitioner.",
         color: BLUE2,
         content: [
-          "8:00 AM -  The Morning Harmony: Day begins at integrated wellness clinic. Before first patient, spend 20 minutes practicing Pranayama (breathing exercises). Check 'AI-Pulse' dashboard tracking chronic patients' recovery through wearable devices.",
-          "10:00 AM -  The Root-Cause Consultation: First patient is corporate executive with chronic migraines. Spend 45 minutes understanding digestion, light sensitivity, work stress. Prescribe Panchakarma detox and specific herbal tea blend.",
-          "1:30 PM -  The Research Hour: Meet with Pharmacologists working on standardized Ashwagandha extract for exam anxiety. Traditional knowledge must be backed by 'Evidence-Based' data.",
-          "4:00 PM -  Virtual Global Healing: Log into Tele-health platform. Patient from Germany seeking Ayurvedic diet plan to boost immunity. Internet turned local clinic into global consultation room.",
-          "7:00 PM -  The Community Workshop: Host 'Yoga for Desk-Workers' session at tech park. Seeing 50 people breathe together and find relief from back pain is most rewarding. Head home feeling balanced."
+          "8:00 AM –  The Morning Harmony: Day begins at integrated wellness clinic. Before first patient, spend 20 minutes practicing Pranayama (breathing exercises). Check 'AI-Pulse' dashboard tracking chronic patients' recovery through wearable devices.",
+          "10:00 AM –  The Root-Cause Consultation: First patient is corporate executive with chronic migraines. Spend 45 minutes understanding digestion, light sensitivity, work stress. Prescribe Panchakarma detox and specific herbal tea blend.",
+          "1:30 PM –  The Research Hour: Meet with Pharmacologists working on standardized Ashwagandha extract for exam anxiety. Traditional knowledge must be backed by 'Evidence-Based' data.",
+          "4:00 PM –  Virtual Global Healing: Log into Tele-health platform. Patient from Germany seeking Ayurvedic diet plan to boost immunity. Internet turned local clinic into global consultation room.",
+          "7:00 PM –  The Community Workshop: Host 'Yoga for Desk-Workers' session at tech park. Seeing 50 people breathe together and find relief from back pain is most rewarding. Head home feeling balanced."
         ]
       },
       {
@@ -98,7 +98,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.5Cr","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. Specialized MD degrees boost income.","Where Are the Jobs?","Top Cities: Haridwar, Kochi, Bengaluru, Delhi, Rishikesh, Pune.","Top Industries: Wellness (Dabur, Patanjali), Telehealth, Clinical Research.","Global Demand: High in USA, Germany. Remote wellness consulting rising.","Top Institutions","Career Opportunities","Conventional","Ayurvedic Doctor","Homeopathic Doctor","Unani Practitioner","Naturopathy and Yoga Therapist","New-age and AI Driven","Integrative Medicine Specialist","Wellness Data Analyst","Digital Health and Holistic Care Consultant","AI-enabled Personalized Wellness Advisor","Remote/Entrepreneurship","Online Alternative Medicine Consultant","Herbal Products Entrepreneur","Holistic Wellness Coach","YouTube/Content Creator in Natural Healing"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L –  ₹1.5Cr","Senior / Lead Role (10+ yrs): ₹20L –  ₹40L","Mid-Level Professional (5–8 yrs): ₹9L –  ₹18L","Junior / Associate (3–5 yrs): ₹5L –  ₹8L","Entry Level (0–2 yrs): ₹3L –  ₹5L","Note: Metros pay 30% more. Specialized MD degrees boost income.","Where Are the Jobs?","Top Cities: Haridwar, Kochi, Bengaluru, Delhi, Rishikesh, Pune.","Top Industries: Wellness (Dabur, Patanjali), Telehealth, Clinical Research.","Global Demand: High in USA, Germany. Remote wellness consulting rising.","Top Institutions","Career Opportunities","Conventional","Ayurvedic Doctor","Homeopathic Doctor","Unani Practitioner","Naturopathy and Yoga Therapist","New-age and AI Driven","Integrative Medicine Specialist","Wellness Data Analyst","Digital Health and Holistic Care Consultant","AI-enabled Personalized Wellness Advisor","Remote/Entrepreneurship","Online Alternative Medicine Consultant","Herbal Products Entrepreneur","Holistic Wellness Coach","YouTube/Content Creator in Natural Healing"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -284,11 +284,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a radiology technician.",
         color: "#3B82F6",
         content: [
-          "8:00 AM -  The Morning Calibration: Day starts in sterile, cool room filled with glowing monitors and massive 'doughnut-shaped' machine—CT scanner. Before first patient arrives, perform 'quality checks' to ensure machine capturing images with razor-sharp clarity.",
-          "10:30 AM -  The High-Stakes Scan: 12-year-old boy arrives with suspected sports injury. Nervous about big MRI machine. Spend five minutes explaining how it works, give him headphones to listen to music while machine hums. Head to glass-walled control room, adjust digital parameters to get perfect 3D view of knee.",
-          "1:30 PM -  The Emergency X-ray: Lunch interrupted by 'Code Blue.' Accident victim rushed in. Quickly wheel portable X-ray machine to Emergency Room. Within minutes, captured chest images that tell surgeons exactly what to do.",
-          "4:00 PM -  The Collaboration: Sit down with Radiologist (doctor who interprets images). Discuss tricky MRI scan from earlier. Technical skill in capturing right 'angle' helps doctor spot tiny abnormality that could have been easily missed.",
-          "6:30 PM -  The Wrap-Up: Finish by digitalizing day's records. Turn off heavy lead-lined doors, realize that because of work today, twenty people now have clear path to recovery."
+          "8:00 AM –  The Morning Calibration: Day starts in sterile, cool room filled with glowing monitors and massive 'doughnut-shaped' machine—CT scanner. Before first patient arrives, perform 'quality checks' to ensure machine capturing images with razor-sharp clarity.",
+          "10:30 AM –  The High-Stakes Scan: 12-year-old boy arrives with suspected sports injury. Nervous about big MRI machine. Spend five minutes explaining how it works, give him headphones to listen to music while machine hums. Head to glass-walled control room, adjust digital parameters to get perfect 3D view of knee.",
+          "1:30 PM –  The Emergency X-ray: Lunch interrupted by 'Code Blue.' Accident victim rushed in. Quickly wheel portable X-ray machine to Emergency Room. Within minutes, captured chest images that tell surgeons exactly what to do.",
+          "4:00 PM –  The Collaboration: Sit down with Radiologist (doctor who interprets images). Discuss tricky MRI scan from earlier. Technical skill in capturing right 'angle' helps doctor spot tiny abnormality that could have been easily missed.",
+          "6:30 PM –  The Wrap-Up: Finish by digitalizing day's records. Turn off heavy lead-lined doors, realize that because of work today, twenty people now have clear path to recovery."
         ]
       },
       {
@@ -335,7 +335,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20L – ₹35L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L "," Note: Metros pay 30% extra. AERB/CT-MRI skills boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Kochi.","Top Industries: Hospitals, Diagnostic Chains, MedTech.","Global Demand: High in USA, UK, UAE. Remote reporting rising.","Top Institutions","Career Opportunities","Conventional","Radiology Technician","X-Ray Technician","CT Scan Technician","MRI Technician","New-age and AI Driven","AI-assisted Imaging Analyst","Digital Radiography Specialist","PACS and Imaging Informatics Technician","Interventional Radiology Technologist","Remote/Entrepreneurship","Teleradiology Workflow Coordinator","Diagnostic Centre Entrepreneur","Imaging Equipment Service Consultant","Radiology Training Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20L –  ₹35L","Mid-Level Professional (5–8 yrs): ₹9L –  ₹18L","Junior / Associate (3–5 yrs): ₹5L –  ₹8L","Entry Level (0–2 yrs): ₹3L –  ₹5L "," Note: Metros pay 30% extra. AERB/CT-MRI skills boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Kochi.","Top Industries: Hospitals, Diagnostic Chains, MedTech.","Global Demand: High in USA, UK, UAE. Remote reporting rising.","Top Institutions","Career Opportunities","Conventional","Radiology Technician","X-Ray Technician","CT Scan Technician","MRI Technician","New-age and AI Driven","AI-assisted Imaging Analyst","Digital Radiography Specialist","PACS and Imaging Informatics Technician","Interventional Radiology Technologist","Remote/Entrepreneurship","Teleradiology Workflow Coordinator","Diagnostic Centre Entrepreneur","Imaging Equipment Service Consultant","Radiology Training Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -523,11 +523,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a public health administrator.",
         color: "#3B82F6",
         content: [
-          "9:00 AM -  The War Room Briefing: Day begins at state-level Health Ministry office. Meet with Chief Medical Officer and Data Scientists. Dashboard shows 15% spike in Dengue cases in specific district. Job? Redirect mobile health vans and fogging machines to area immediately.",
-          "11:30 AM -  Budget & Infrastructure: Review grant proposal for new 'Health and Wellness Centre' in tribal belt. Aren't checking patient's pulse—checking 'financial pulse.' Can state afford this? Is location accessible? Approve funds and move to next file.",
-          "2:00 PM -  The Community Connect: Visit local Primary Health Centre (PHC). Aren't there to prescribe medicine, but see if pharmacy stocked and digital health cards working. Talk to group of local women about new nutrition program.",
-          "4:30 PM -  Policy Drafting: Back at desk, work on draft for 'Tele-health Policy.' Trying to figure out how to allow villagers to talk to specialist doctors in cities using only mobile phones.",
-          "7:00 PM -  The Global Sync: Join video call with World Health Organization (WHO) to discuss India's progress on eradicating Tuberculosis. Head home knowing systems you managed today will keep thousands safe."
+          "9:00 AM –  The War Room Briefing: Day begins at state-level Health Ministry office. Meet with Chief Medical Officer and Data Scientists. Dashboard shows 15% spike in Dengue cases in specific district. Job? Redirect mobile health vans and fogging machines to area immediately.",
+          "11:30 AM –  Budget & Infrastructure: Review grant proposal for new 'Health and Wellness Centre' in tribal belt. Aren't checking patient's pulse—checking 'financial pulse.' Can state afford this? Is location accessible? Approve funds and move to next file.",
+          "2:00 PM –  The Community Connect: Visit local Primary Health Centre (PHC). Aren't there to prescribe medicine, but see if pharmacy stocked and digital health cards working. Talk to group of local women about new nutrition program.",
+          "4:30 PM –  Policy Drafting: Back at desk, work on draft for 'Tele-health Policy.' Trying to figure out how to allow villagers to talk to specialist doctors in cities using only mobile phones.",
+          "7:00 PM –  The Global Sync: Join video call with World Health Organization (WHO) to discuss India's progress on eradicating Tuberculosis. Head home knowing systems you managed today will keep thousands safe."
         ]
       },
       {
@@ -574,7 +574,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹25 LPA – ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 LPA – ₹11 LPA","Entry Level (0–2 yrs): ₹3 LPA – ₹5 LPA","Note: Metros pay 30% more. MPH/MBA degree boosts income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Bengaluru, Hyderabad, Mumbai, Pune, Chennai.","Top Industries: NHM, WHO, Health-tech, Insurance, NGOs, CSR.","Global Demand: High in USA, UK. Remote policy roles rising.","Top Institutions","Career Opportunities","Conventional","Public Health Administrator","Health Programme Manager","Hospital and Community Health Coordinator","Health Policy Officer","New-age and AI Driven","Digital Public Health Specialist","Health Data Analyst","AI-enabled Disease Surveillance Specialist","Health Informatics Manager","Remote/Entrepreneurship","Public Health Consultant","Healthcare NGO Founder","Telehealth Programme Coordinator","Public Health Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹25 LPA –  ₹50 LPA","Mid-Level Professional (5–8 yrs): ₹12 LPA –  ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 LPA –  ₹11 LPA","Entry Level (0–2 yrs): ₹3 LPA –  ₹5 LPA","Note: Metros pay 30% more. MPH/MBA degree boosts income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Bengaluru, Hyderabad, Mumbai, Pune, Chennai.","Top Industries: NHM, WHO, Health-tech, Insurance, NGOs, CSR.","Global Demand: High in USA, UK. Remote policy roles rising.","Top Institutions","Career Opportunities","Conventional","Public Health Administrator","Health Programme Manager","Hospital and Community Health Coordinator","Health Policy Officer","New-age and AI Driven","Digital Public Health Specialist","Health Data Analyst","AI-enabled Disease Surveillance Specialist","Health Informatics Manager","Remote/Entrepreneurship","Public Health Consultant","Healthcare NGO Founder","Telehealth Programme Coordinator","Public Health Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -763,11 +763,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a therapy science professional.",
         color: BLUE2,
         content: [
-          "9:00 AM -  The Morning Assessment: Day begins in bright, modern clinic in Pune. First patient is Rohan, 16-year-old state-level swimmer who tore ligament. Don't just 'show' exercises; explain bio-mechanics of shoulder. Use Electromyography (EMG) sensor to show exactly which muscles are firing.",
-          "11:30 AM -  The Sensory Room: Move to Occupational Therapy wing to work with 5-year-old Anya with sensory processing issues. Guide her through specialized 'obstacle course' designed to improve balance and focus. To her, it's a game; to you, it's scientific intervention.",
-          "2:00 PM -  The Digital Pivot: Log onto laptop for three Tele-therapy sessions with patients in rural Bihar without access to local specialist. Guide elderly man through post-stroke hand exercises over high-definition video call.",
-          "4:30 PM -  The Group Therapy Session: Lead 'Stress Management' workshop for corporate employees at nearby tech firm. Teach mindfulness techniques and ergonomic stretches to prevent 'Tech-Neck.'",
-          "7:00 PM -  The Case Review: Document patient progress on cloud-based health app. See that Rohan's range of motion improved by 15%. Head home tired, knowing you've literally moved people toward better life."
+          "9:00 AM –  The Morning Assessment: Day begins in bright, modern clinic in Pune. First patient is Rohan, 16-year-old state-level swimmer who tore ligament. Don't just 'show' exercises; explain bio-mechanics of shoulder. Use Electromyography (EMG) sensor to show exactly which muscles are firing.",
+          "11:30 AM –  The Sensory Room: Move to Occupational Therapy wing to work with 5-year-old Anya with sensory processing issues. Guide her through specialized 'obstacle course' designed to improve balance and focus. To her, it's a game; to you, it's scientific intervention.",
+          "2:00 PM –  The Digital Pivot: Log onto laptop for three Tele-therapy sessions with patients in rural Bihar without access to local specialist. Guide elderly man through post-stroke hand exercises over high-definition video call.",
+          "4:30 PM –  The Group Therapy Session: Lead 'Stress Management' workshop for corporate employees at nearby tech firm. Teach mindfulness techniques and ergonomic stretches to prevent 'Tech-Neck.'",
+          "7:00 PM –  The Case Review: Document patient progress on cloud-based health app. See that Rohan's range of motion improved by 15%. Head home tired, knowing you've literally moved people toward better life."
         ]
       },
       {
@@ -814,7 +814,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹11 LPA","Entry Level (0–2 yrs): ₹4 – ₹6 LPA","Note: Metros pay 30% more. Specialized certifications boost earnings.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Pune, Hyderabad, Chennai.","Top Industries: Hospitals, Ed-Tech, Corporate Wellness, Mental Health Apps.","Global Demand: High remote demand in USA, UK, and Canada.","Top Institutions","Career Opportunities","Conventional","Physiotherapist","Occupational Therapist","Speech Therapist","Respiratory Therapist","New-age and AI Driven","Neurorehabilitation Specialist","AI-based Therapy Planning Associate","Digital Rehabilitation Specialist","Assistive Technology Therapist","Remote/Entrepreneurship","Online Therapy Consultant","Rehabilitation Clinic Founder","Home Therapy Service Provider","Therapy Education Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹22 LPA","Junior / Associate (3–5 yrs): ₹7 –  ₹11 LPA","Entry Level (0–2 yrs): ₹4 –  ₹6 LPA","Note: Metros pay 30% more. Specialized certifications boost earnings.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Pune, Hyderabad, Chennai.","Top Industries: Hospitals, Ed-Tech, Corporate Wellness, Mental Health Apps.","Global Demand: High remote demand in USA, UK, and Canada.","Top Institutions","Career Opportunities","Conventional","Physiotherapist","Occupational Therapist","Speech Therapist","Respiratory Therapist","New-age and AI Driven","Neurorehabilitation Specialist","AI-based Therapy Planning Associate","Digital Rehabilitation Specialist","Assistive Technology Therapist","Remote/Entrepreneurship","Online Therapy Consultant","Rehabilitation Clinic Founder","Home Therapy Service Provider","Therapy Education Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1002,11 +1002,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a pharmacist.",
         color: "#3B82F6",
         content: [
-          "9:00 AM -  The Quality Check: Day begins at high-tech manufacturing plant in Hyderabad. First task is supervise 'Batch Production' of new anti-diabetic drug. Check automated sensors—even 0.1% difference in chemical composition means batch rejected.",
-          "11:30 AM -  The Research Huddle: Move to R&D wing. Team using 'Digital Twin'—virtual computer model of human heart—to see how new heart medication absorbed. Aren't just using test tubes—using supercomputers.",
-          "2:00 PM -  The Hospital Rounds: If Clinical Pharmacist, afternoon spent in multi-specialty hospital. Walk with senior doctors, reviewing 'Medication Charts' of ten patients. Suggest changing patient's antibiotic because latest kidney report shows they need milder dose.",
-          "4:30 PM -  The Regulatory Sprint: Spend time on video call with US-FDA or India's CDSCO. Presenting data to prove company's new vaccine safe for children. Precision in paperwork as important as precision in lab.",
-          "7:00 PM -  The Community Connect: Wrap up by checking if automated drone-delivery system sent chronic medications to elderly patients in neighborhood. Head home knowing 'molecules' saved lives today."
+          "9:00 AM –  The Quality Check: Day begins at high-tech manufacturing plant in Hyderabad. First task is supervise 'Batch Production' of new anti-diabetic drug. Check automated sensors—even 0.1% difference in chemical composition means batch rejected.",
+          "11:30 AM –  The Research Huddle: Move to R&D wing. Team using 'Digital Twin'—virtual computer model of human heart—to see how new heart medication absorbed. Aren't just using test tubes—using supercomputers.",
+          "2:00 PM –  The Hospital Rounds: If Clinical Pharmacist, afternoon spent in multi-specialty hospital. Walk with senior doctors, reviewing 'Medication Charts' of ten patients. Suggest changing patient's antibiotic because latest kidney report shows they need milder dose.",
+          "4:30 PM –  The Regulatory Sprint: Spend time on video call with US-FDA or India's CDSCO. Presenting data to prove company's new vaccine safe for children. Precision in paperwork as important as precision in lab.",
+          "7:00 PM –  The Community Connect: Wrap up by checking if automated drone-delivery system sent chronic medications to elderly patients in neighborhood. Head home knowing 'molecules' saved lives today."
         ]
       },
       {
@@ -1053,7 +1053,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.4 Crore","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. GPAT/M.Pharm boosts earnings.","Where Are the Jobs?","Top Cities: Hyderabad, Bengaluru, Mumbai, Ahmedabad, Baddi, Delhi.","Top Industries: Pharma Manufacturing, Hospital Chains, Telehealth, Research.","Global Demand: High in USA, UAE. Remote pharmacovigilance rising.","Top Institutions","Career Opportunities","Conventional","Retail Pharmacist","Hospital Pharmacist","Clinical Pharmacist","Drug Safety Associate","New-age and AI Driven","Pharmacovigilance Analyst","Digital Pharmacy Operations Specialist","AI-based Drug Information Associate","Clinical Data and Medication Informatics Specialist","Remote/Entrepreneurship","Online Pharmacy Consultant","Pharmacy Store Owner","Generic Medicines Entrepreneur","Pharma Education Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L –  ₹1.4 Crore","Senior / Lead Role (10+ yrs): ₹20L –  ₹40L","Mid-Level Professional (5–8 yrs): ₹9L –  ₹18L","Junior / Associate (3–5 yrs): ₹5L –  ₹8L","Entry Level (0–2 yrs): ₹3L –  ₹5L","Note: Metros pay 30% more. GPAT/M.Pharm boosts earnings.","Where Are the Jobs?","Top Cities: Hyderabad, Bengaluru, Mumbai, Ahmedabad, Baddi, Delhi.","Top Industries: Pharma Manufacturing, Hospital Chains, Telehealth, Research.","Global Demand: High in USA, UAE. Remote pharmacovigilance rising.","Top Institutions","Career Opportunities","Conventional","Retail Pharmacist","Hospital Pharmacist","Clinical Pharmacist","Drug Safety Associate","New-age and AI Driven","Pharmacovigilance Analyst","Digital Pharmacy Operations Specialist","AI-based Drug Information Associate","Clinical Data and Medication Informatics Specialist","Remote/Entrepreneurship","Online Pharmacy Consultant","Pharmacy Store Owner","Generic Medicines Entrepreneur","Pharma Education Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1241,11 +1241,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an optometrist.",
         color: "#3B82F6",
         content: [
-          "9:30 AM -  The Clinical Start: Day begins at high-end Eye Hospital in Bangalore. First patient is 10-year-old girl struggling to see blackboard. Using Slit Lamp and Phoropter, determine she has myopia. Don't just give glasses—explain '20-20-20' rules for tablet use.",
-          "11:45 AM -  The Contact Lens Fitting: Young professional wants to switch from glasses to contact lenses. Perform specialized 'Corneal Topography' to map shape of eye. Precision key—even 0.5mm error causes discomfort.",
-          "2:00 PM -  The Emergency Referral: During routine check-up for senior citizen, notice 'Cupping' of optic nerve. Heart skips beat—early sign of Glaucoma. Immediately coordinate with in-house Ophthalmologist for surgical referral. Just saved patient's sight.",
-          "4:30 PM -  The Tech Update: Spend afternoon in 'Binocular Vision' clinic. Use specialized VR-based software to help patient recover from squint. In 2026, optometry as much about software as lenses.",
-          "6:30 PM -  The Wrap-Up: Review day's reports. Helped twenty people 'see' world better. Head home knowing expertise is reason someone will read book tonight without headache."
+          "9:30 AM –  The Clinical Start: Day begins at high-end Eye Hospital in Bangalore. First patient is 10-year-old girl struggling to see blackboard. Using Slit Lamp and Phoropter, determine she has myopia. Don't just give glasses—explain '20-20-20' rules for tablet use.",
+          "11:45 AM –  The Contact Lens Fitting: Young professional wants to switch from glasses to contact lenses. Perform specialized 'Corneal Topography' to map shape of eye. Precision key—even 0.5mm error causes discomfort.",
+          "2:00 PM –  The Emergency Referral: During routine check-up for senior citizen, notice 'Cupping' of optic nerve. Heart skips beat—early sign of Glaucoma. Immediately coordinate with in-house Ophthalmologist for surgical referral. Just saved patient's sight.",
+          "4:30 PM –  The Tech Update: Spend afternoon in 'Binocular Vision' clinic. Use specialized VR-based software to help patient recover from squint. In 2026, optometry as much about software as lenses.",
+          "6:30 PM –  The Wrap-Up: Review day's reports. Helped twenty people 'see' world better. Head home knowing expertise is reason someone will read book tonight without headache."
         ]
       },
       {
@@ -1292,7 +1292,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L – ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹16L","Junior / Associate (3–5 yrs): ₹4L – ₹8L","Entry Level (0–2 yrs): ₹2.5L – ₹4.5L","Note: Metros pay 30% more. M.Optom/Fellowships boost income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Ahmedabad.","Top Industries: Optical Chains (Lenskart), Hospitals, MedTech, Telehealth.","Global Demand: High in USA, UK. Tele-optometry is growing.","Top Institutions","Career Opportunities","Conventional","Optometrist","Vision Therapist","Contact Lens Specialist","Low Vision Specialist","New-age and AI Driven","Digital Eye Care Specialist","AI-based Vision Screening Analyst","Tele-Optometry Consultant","Ophthalmic Diagnostics Specialist","Remote/Entrepreneurship","Online Vision Care Consultant","Optical Clinic Founder","Eyewear Business Entrepreneur","Eye Health Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L –  ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹18L –  ₹35L","Mid-Level Professional (5–8 yrs): ₹8L –  ₹16L","Junior / Associate (3–5 yrs): ₹4L –  ₹8L","Entry Level (0–2 yrs): ₹2.5L –  ₹4.5L","Note: Metros pay 30% more. M.Optom/Fellowships boost income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Ahmedabad.","Top Industries: Optical Chains (Lenskart), Hospitals, MedTech, Telehealth.","Global Demand: High in USA, UK. Tele-optometry is growing.","Top Institutions","Career Opportunities","Conventional","Optometrist","Vision Therapist","Contact Lens Specialist","Low Vision Specialist","New-age and AI Driven","Digital Eye Care Specialist","AI-based Vision Screening Analyst","Tele-Optometry Consultant","Ophthalmic Diagnostics Specialist","Remote/Entrepreneurship","Online Vision Care Consultant","Optical Clinic Founder","Eyewear Business Entrepreneur","Eye Health Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1481,11 +1481,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an OT technician.",
         color: "#3B82F6",
         content: [
-          "7:30 AM -  The Sterile Check: Day begins in 'Changing Area.' Swap street clothes for sterilized blue scrubs, cap, mask. First stop is autoclave room to ensure surgical sets for 9:00 AM heart surgery perfectly sterilized.",
-          "8:15 AM -  Setting the Stage: Enter OT. It's cold and quiet. Start 'Checklist.' Calibrate anaesthesia machine, check oxygen supply, arrange surgical tray. Every clamp and scalpel must be in exact place—seconds matter during surgery.",
-          "9:00 AM -  The 'Time-Out': Patient wheeled in. Whole team—surgeons, nurses, you—stops for 'Time-Out.' Confirm patient's name and surgery type. Help position patient on table, ensuring comfort and safety.",
-          "11:30 AM -  Intra-Operative Focus: Surgery in full swing. Standing in 'sterile field.' Surgeon says, 'Artery forceps.' Place it in their hand before they finish sentence. Also monitoring patient's blood pressure and heart rate on glowing screen, alerting anaesthetist of tiny changes.",
-          "3:00 PM -  The Reset: Surgery success! After patient moved to recovery room, lead 'Cleaning Protocol.' Dispose of bio-medical waste, restock supplies, prepare room for emergency gallbladder surgery just came in."
+          "7:30 AM –  The Sterile Check: Day begins in 'Changing Area.' Swap street clothes for sterilized blue scrubs, cap, mask. First stop is autoclave room to ensure surgical sets for 9:00 AM heart surgery perfectly sterilized.",
+          "8:15 AM –  Setting the Stage: Enter OT. It's cold and quiet. Start 'Checklist.' Calibrate anaesthesia machine, check oxygen supply, arrange surgical tray. Every clamp and scalpel must be in exact place—seconds matter during surgery.",
+          "9:00 AM –  The 'Time-Out': Patient wheeled in. Whole team—surgeons, nurses, you—stops for 'Time-Out.' Confirm patient's name and surgery type. Help position patient on table, ensuring comfort and safety.",
+          "11:30 AM –  Intra-Operative Focus: Surgery in full swing. Standing in 'sterile field.' Surgeon says, 'Artery forceps.' Place it in their hand before they finish sentence. Also monitoring patient's blood pressure and heart rate on glowing screen, alerting anaesthetist of tiny changes.",
+          "3:00 PM –  The Reset: Surgery success! After patient moved to recovery room, lead 'Cleaning Protocol.' Dispose of bio-medical waste, restock supplies, prepare room for emergency gallbladder surgery just came in."
         ]
       },
       {
@@ -1532,7 +1532,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35L – ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹15L – ₹30L","Mid-Level Professional (5–8 yrs): ₹7L – ₹14L","Junior / Associate (3–5 yrs): ₹4L – ₹7L","Entry Level (0–2 yrs): ₹2.5L – ₹4L","Note: Metros pay 25% higher. BSc degree improves career growth.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Hyderabad, Pune.","Top Industries: Multi-specialty Hospitals, Surgical Centers, MedTech, Research.","Global Demand: High in UAE, UK. Robotic surgery expertise rising.","Top Institutions","Career Opportunities","Conventional","Operation Theatre Technician","Surgical Assistant Technician","Anaesthesia Technician","Sterilization and CSSD Technician","New-age and AI Driven","Robotic Surgery OT Technician","Digital Surgical Equipment Specialist","OT Data and Workflow Coordinator","AI-assisted Surgical Support Technician","Remote/Entrepreneurship","OT Skills Trainer","Surgical Equipment Service Entrepreneur","Hospital OT Setup Consultant","Medical Training Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35L –  ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹15L –  ₹30L","Mid-Level Professional (5–8 yrs): ₹7L –  ₹14L","Junior / Associate (3–5 yrs): ₹4L –  ₹7L","Entry Level (0–2 yrs): ₹2.5L –  ₹4L","Note: Metros pay 25% higher. BSc degree improves career growth.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Hyderabad, Pune.","Top Industries: Multi-specialty Hospitals, Surgical Centers, MedTech, Research.","Global Demand: High in UAE, UK. Robotic surgery expertise rising.","Top Institutions","Career Opportunities","Conventional","Operation Theatre Technician","Surgical Assistant Technician","Anaesthesia Technician","Sterilization and CSSD Technician","New-age and AI Driven","Robotic Surgery OT Technician","Digital Surgical Equipment Specialist","OT Data and Workflow Coordinator","AI-assisted Surgical Support Technician","Remote/Entrepreneurship","OT Skills Trainer","Surgical Equipment Service Entrepreneur","Hospital OT Setup Consultant","Medical Training Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1721,11 +1721,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a nurse in modern healthcare.",
         color: "#3B82F6",
         content: [
-          "7:00 AM -  The Handover: Day begins with 'Shift Report.' Listen to night nurse describe status of six assigned patients. Note down who needs dressing change and who is being discharged.",
-          "10:00 AM -  The Critical Check: In Cardiac ICU. Patient's heart monitor beeps. Don't panic—check oxygen levels and realize patient's breathing shallow. Quickly alert doctor while adjusting IV drip. Quick eye just prevented crisis.",
-          "1:30 PM -  The Human Connection: Lunch is quick 20-minute break. Afterward, spend time with elderly lady scared about upcoming surgery. Explain procedure in simple Hindi/regional language, holding her hand. By time you leave, she's smiling.",
-          "4:00 PM -  Documentation & Tech: Use iPad to update Electronic Health Records (EHR). In 2026, paperwork gone—everything digital. Cross-check drug dosages with AI-assistant tool ensuring 100% accuracy.",
-          "7:00 PM -  The Transition: Hand over notes to night shift. Feel deep sense of exhaustion, but even deeper sense of pride. Didn't just work today—made difference in six lives."
+          "7:00 AM –  The Handover: Day begins with 'Shift Report.' Listen to night nurse describe status of six assigned patients. Note down who needs dressing change and who is being discharged.",
+          "10:00 AM –  The Critical Check: In Cardiac ICU. Patient's heart monitor beeps. Don't panic—check oxygen levels and realize patient's breathing shallow. Quickly alert doctor while adjusting IV drip. Quick eye just prevented crisis.",
+          "1:30 PM –  The Human Connection: Lunch is quick 20-minute break. Afterward, spend time with elderly lady scared about upcoming surgery. Explain procedure in simple Hindi/regional language, holding her hand. By time you leave, she's smiling.",
+          "4:00 PM –  Documentation & Tech: Use iPad to update Electronic Health Records (EHR). In 2026, paperwork gone—everything digital. Cross-check drug dosages with AI-assistant tool ensuring 100% accuracy.",
+          "7:00 PM –  The Transition: Hand over notes to night shift. Feel deep sense of exhaustion, but even deeper sense of pride. Didn't just work today—made difference in six lives."
         ]
       },
       {
@@ -1772,7 +1772,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹16L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. Exams like NORCET boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Hyderabad.","Top Industries: Private Hospitals, Health-tech, Home Healthcare.","Global Demand: High in USA, UK. Tele-health roles rising.","Top Institutions","Career Opportunities","Conventional","Staff Nurse","ICU Nurse","Operation Theatre Assistant","Medical Assistant","New-age and AI Driven","Telehealth Nurse","Clinical Informatics Nurse","AI-enabled Patient Care Coordinator","Digital Health Support Specialist","Remote/Entrepreneurship","Home Healthcare Nurse","Elderly Care Service Provider","Online Patient Education Consultant","Nursing Skills Trainer"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L –  ₹35L","Mid-Level Professional (5–8 yrs): ₹8L –  ₹16L","Junior / Associate (3–5 yrs): ₹5L –  ₹8L","Entry Level (0–2 yrs): ₹3L –  ₹5L","Note: Metros pay 30% more. Exams like NORCET boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Hyderabad.","Top Industries: Private Hospitals, Health-tech, Home Healthcare.","Global Demand: High in USA, UK. Tele-health roles rising.","Top Institutions","Career Opportunities","Conventional","Staff Nurse","ICU Nurse","Operation Theatre Assistant","Medical Assistant","New-age and AI Driven","Telehealth Nurse","Clinical Informatics Nurse","AI-enabled Patient Care Coordinator","Digital Health Support Specialist","Remote/Entrepreneurship","Home Healthcare Nurse","Elderly Care Service Provider","Online Patient Education Consultant","Nursing Skills Trainer"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -1961,11 +1961,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a medical transcriptionist.",
         color: "#3B82F6",
         content: [
-          "8:00 AM -  The Virtual Commute: Wake up, have breakfast, walk ten steps to home office. Many MTs work remotely. Log into secure, HIPAA-compliant server. Waiting are twenty audio files from cardiologist in New York.",
-          "10:30 AM -  Deep Focus: Headphones on. Listen to 'History and Physical' report. Doctor speaks fast. 'Patient presents with tachycardia and dyspnea...' Fingers fly across keyboard. Medical dictionary and drug reference guide open on second screen. Interpreting, not just typing.",
-          "1:00 PM -  The Lunch Recharge: Since working from home, enjoy fresh, home-cooked lunch. Take quick walk to rest ears and eyes.",
-          "3:00 PM -  The Editing Sprint: Afternoon involves 'Editing.' Review report created by AI speech-to-text engine. AI thought doctor said 'hypertension,' but you heard 'hypotension'—huge difference that could change patient's medication. Human expertise saves day.",
-          "6:00 PM -  Quality Check & Sign-off: Perform final spell-check and formatting review. Upload documents. As sun sets, close laptop knowing you've helped twenty people get accurate medical care from halfway across world."
+          "8:00 AM –  The Virtual Commute: Wake up, have breakfast, walk ten steps to home office. Many MTs work remotely. Log into secure, HIPAA-compliant server. Waiting are twenty audio files from cardiologist in New York.",
+          "10:30 AM –  Deep Focus: Headphones on. Listen to 'History and Physical' report. Doctor speaks fast. 'Patient presents with tachycardia and dyspnea...' Fingers fly across keyboard. Medical dictionary and drug reference guide open on second screen. Interpreting, not just typing.",
+          "1:00 PM –  The Lunch Recharge: Since working from home, enjoy fresh, home-cooked lunch. Take quick walk to rest ears and eyes.",
+          "3:00 PM –  The Editing Sprint: Afternoon involves 'Editing.' Review report created by AI speech-to-text engine. AI thought doctor said 'hypertension,' but you heard 'hypotension'—huge difference that could change patient's medication. Human expertise saves day.",
+          "6:00 PM –  Quality Check & Sign-off: Perform final spell-check and formatting review. Upload documents. As sun sets, close laptop knowing you've helped twenty people get accurate medical care from halfway across world."
         ]
       },
       {
@@ -2012,7 +2012,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35L – ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹15L – ₹30L","Mid-Level Professional (5–8 yrs): ₹8L – ₹14L","Junior / Associate (3–5 yrs): ₹4L – ₹7L","Entry Level (0–2 yrs): ₹2L – ₹4L","Note: Metros pay 25% more. AI-editing skills boost income.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Chennai, Coimbatore, Delhi, Mumbai.","Top Industries: Healthcare BPOs, Teleradiology, Telehealth, International Hospitals.","Global Demand: High in USA, UK. Remote freelance work booming.","Top Institutions","Career Opportunities","Conventional","Medical Transcriptionist","Medical Documentation Specialist","Clinical Records Executive","Healthcare BPO Associate","New-age and AI Driven","AI-assisted Medical Scribe","Clinical Documentation Analyst","Medical Speech Recognition Editor","Health Information Management Specialist","Remote/Entrepreneurship","Freelance Medical Transcriptionist","Remote Medical Scribe","Medical Documentation Service Provider","Healthcare Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35L –  ₹1.1 Crore","Senior / Lead Role (10+ yrs): ₹15L –  ₹30L","Mid-Level Professional (5–8 yrs): ₹8L –  ₹14L","Junior / Associate (3–5 yrs): ₹4L –  ₹7L","Entry Level (0–2 yrs): ₹2L –  ₹4L","Note: Metros pay 25% more. AI-editing skills boost income.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Chennai, Coimbatore, Delhi, Mumbai.","Top Industries: Healthcare BPOs, Teleradiology, Telehealth, International Hospitals.","Global Demand: High in USA, UK. Remote freelance work booming.","Top Institutions","Career Opportunities","Conventional","Medical Transcriptionist","Medical Documentation Specialist","Clinical Records Executive","Healthcare BPO Associate","New-age and AI Driven","AI-assisted Medical Scribe","Clinical Documentation Analyst","Medical Speech Recognition Editor","Health Information Management Specialist","Remote/Entrepreneurship","Freelance Medical Transcriptionist","Remote Medical Scribe","Medical Documentation Service Provider","Healthcare Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2201,11 +2201,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a diagnostic professional.",
         color: "#3B82F6",
         content: [
-          "7:30 AM -  The Early Shift: Day begins in sterile, white-tiled laboratory. First task is calibration—making sure multi-crore machines reading perfectly. Check morning's 'urgent' samples—patient in ICU needs immediate blood gas analysis.",
-          "10:00 AM -  The Sample Surge: 'Collection window' is busy. While phlebotomists send in vials, you're busy at workstation. Looking at slide under high-definition microscope. Spot 'malaria parasite' hiding inside red blood cell. Quickly log finding; patient can start right medicine by noon.",
-          "1:30 PM -  Collaboration & Cross-Checking: Lunch is quick break with Pathologist (doctor specializing in diagnostics). Discuss unusual tissue sample. In this field, constantly learning from each other.",
-          "4:00 PM -  High-Tech Troubleshooting: Move to Molecular Biology section. Running PCR test—same technology used for COVID-19. Looking at DNA sequences to see if patient has genetic predisposition to certain disease.",
-          "7:00 PM -  Reporting & Review: Before heading home, review day's 'Quality Control' charts. In diagnostics, 'nearly right' is failure. Leave knowing 200 reports validated today helped 200 families find answers."
+          "7:30 AM –  The Early Shift: Day begins in sterile, white-tiled laboratory. First task is calibration—making sure multi-crore machines reading perfectly. Check morning's 'urgent' samples—patient in ICU needs immediate blood gas analysis.",
+          "10:00 AM –  The Sample Surge: 'Collection window' is busy. While phlebotomists send in vials, you're busy at workstation. Looking at slide under high-definition microscope. Spot 'malaria parasite' hiding inside red blood cell. Quickly log finding; patient can start right medicine by noon.",
+          "1:30 PM –  Collaboration & Cross-Checking: Lunch is quick break with Pathologist (doctor specializing in diagnostics). Discuss unusual tissue sample. In this field, constantly learning from each other.",
+          "4:00 PM –  High-Tech Troubleshooting: Move to Molecular Biology section. Running PCR test—same technology used for COVID-19. Looking at DNA sequences to see if patient has genetic predisposition to certain disease.",
+          "7:00 PM –  Reporting & Review: Before heading home, review day's 'Quality Control' charts. In diagnostics, 'nearly right' is failure. Leave knowing 200 reports validated today helped 200 families find answers."
         ]
       },
       {
@@ -2252,7 +2252,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25L – ₹50L","Mid-Level Professional (5–8 yrs): ₹12L – ₹22L","Junior / Associate (3–5 yrs): ₹6L – ₹11L","Entry Level (0–2 yrs): ₹3L – ₹6L","Note: Metros pay 35% more. Specialization and NABH skills boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune.","Top Industries: Diagnostic Chains, Hospitals, AI-Diagnostics, MedTech companies.","Global Demand: USA, UAE, UK. Remote AI-reporting is rising.","Top Institutions","Career Opportunities","Conventional","Medical Laboratory Technologist","Radiology and Imaging Technologist","Pathology Technician","Diagnostic Centre Manager","New-age and AI Driven","AI-based Diagnostic Analyst","Digital Radiology Specialist","Molecular Diagnostics Specialist","Health Data and Lab Informatics Analyst","Remote/Entrepreneurship","Diagnostic Centre Founder","Home Sample Collection Service Provider","Tele-diagnostics Coordinator","Medical Diagnostics Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50L –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25L –  ₹50L","Mid-Level Professional (5–8 yrs): ₹12L –  ₹22L","Junior / Associate (3–5 yrs): ₹6L –  ₹11L","Entry Level (0–2 yrs): ₹3L –  ₹6L","Note: Metros pay 35% more. Specialization and NABH skills boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Chennai, Pune.","Top Industries: Diagnostic Chains, Hospitals, AI-Diagnostics, MedTech companies.","Global Demand: USA, UAE, UK. Remote AI-reporting is rising.","Top Institutions","Career Opportunities","Conventional","Medical Laboratory Technologist","Radiology and Imaging Technologist","Pathology Technician","Diagnostic Centre Manager","New-age and AI Driven","AI-based Diagnostic Analyst","Digital Radiology Specialist","Molecular Diagnostics Specialist","Health Data and Lab Informatics Analyst","Remote/Entrepreneurship","Diagnostic Centre Founder","Home Sample Collection Service Provider","Tele-diagnostics Coordinator","Medical Diagnostics Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2440,11 +2440,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a hospital manager.",
         color: "#3B82F6",
         content: [
-          "8:30 AM -  The Strategy Huddle: Day begins with briefing. Meet with Chief of Medicine and IT Head. Topic? Implementing new AI-driven diagnostic tool. You aren't checking patient's pulse—you're checking 'pulse' of hospital's operations.",
-          "11:00 AM -  Rounding for Quality: Walk through wards. Aren't looking at stethoscopes, but at 'Patient Experience.' Is discharge process taking too long? Is cafeteria food meeting nutritional standards? Spot bottleneck in billing and call quick meeting to fix it.",
-          "2:00 PM -  The Budget Battle: Lunch is quick sandwich over spreadsheet. Reviewing quarterly procurement plan. Need to negotiate better deal for MRI machines to save hospital ₹50 lakhs this year—money reinvested in new free clinic for community.",
-          "4:30 PM -  Compliance and Crisis: Unexpected inspection from government health board occurs. Lead team presenting hospital's digital records and safety protocols. Preparation ensures hospital keeps license and reputation intact.",
-          "7:00 PM -  The Visionary's Exit: Pass Emergency Room on way out. It's busy, but organized because of systems you put in place. Head home knowing while you didn't hold scalpel, your management saved lives today."
+          "8:30 AM –  The Strategy Huddle: Day begins with briefing. Meet with Chief of Medicine and IT Head. Topic? Implementing new AI-driven diagnostic tool. You aren't checking patient's pulse—you're checking 'pulse' of hospital's operations.",
+          "11:00 AM –  Rounding for Quality: Walk through wards. Aren't looking at stethoscopes, but at 'Patient Experience.' Is discharge process taking too long? Is cafeteria food meeting nutritional standards? Spot bottleneck in billing and call quick meeting to fix it.",
+          "2:00 PM –  The Budget Battle: Lunch is quick sandwich over spreadsheet. Reviewing quarterly procurement plan. Need to negotiate better deal for MRI machines to save hospital ₹50 lakhs this year—money reinvested in new free clinic for community.",
+          "4:30 PM –  Compliance and Crisis: Unexpected inspection from government health board occurs. Lead team presenting hospital's digital records and safety protocols. Preparation ensures hospital keeps license and reputation intact.",
+          "7:00 PM –  The Visionary's Exit: Pass Emergency Room on way out. It's busy, but organized because of systems you put in place. Head home knowing while you didn't hold scalpel, your management saved lives today."
         ]
       },
       {
@@ -2491,7 +2491,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹8L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. MBA or NABH skills boost pay.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Mumbai, Delhi, Pune, Chennai.","Top Industries: Hospital Chains, Health-tech, Insurance, Medical Tourism.","Global Demand: High in UAE, UK. Remote administrative roles rising.","Top Institutions","Career Opportunities","Conventional","Hospital Administrator","Operations Manager","Patient Services Manager","Quality and Compliance Manager","New-age and AI Driven","Digital Health Manager","Hospital Data Analyst","AI-enabled Healthcare Operations Specialist","Health Informatics Manager","Remote/Entrepreneurship","Healthcare Management Consultant","Hospital Accreditation Advisor","Medical Tourism Entrepreneur","Healthcare Training and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹20L –  ₹40L","Mid-Level Professional (5–8 yrs): ₹9L –  ₹18L","Junior / Associate (3–5 yrs): ₹5L –  ₹8L","Entry Level (0–2 yrs): ₹3L –  ₹5L","Note: Metros pay 30% more. MBA or NABH skills boost pay.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Mumbai, Delhi, Pune, Chennai.","Top Industries: Hospital Chains, Health-tech, Insurance, Medical Tourism.","Global Demand: High in UAE, UK. Remote administrative roles rising.","Top Institutions","Career Opportunities","Conventional","Hospital Administrator","Operations Manager","Patient Services Manager","Quality and Compliance Manager","New-age and AI Driven","Digital Health Manager","Hospital Data Analyst","AI-enabled Healthcare Operations Specialist","Health Informatics Manager","Remote/Entrepreneurship","Healthcare Management Consultant","Hospital Accreditation Advisor","Medical Tourism Entrepreneur","Healthcare Training and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2679,11 +2679,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a homeopathic practitioner.",
         color: "#3B82F6",
         content: [
-          "8:30 AM -  Preparing the Mind: Day begins at clinic. Don't just check equipment—prepare to listen. In Homeopathy, most important tool isn't stethoscope—it's ability to observe.",
-          "10:00 AM -  The Deep Dive: First patient is 10-year-old with chronic skin rashes. Spend 45 minutes talking to him and parents. Find out he's very shy, loves sweets, feels worse in evening. This 'case-taking' is like solving puzzle where every small detail matters.",
-          "1:00 PM -  The Study of Materia Medica: Lunch break often spent referring to 'Materia Medica'—encyclopedia of homeopathic medicines. Compare patient's symptoms with hundreds of remedies to find perfect match (the Simillimum).",
-          "4:00 PM -  Digital Consultation: Log onto laptop. Thanks to Tele-Homeopathy, have patient from Dubai. Guide them through symptoms over video call. Coordinate with local pharmacy there or ship medicines from clinic.",
-          "7:30 PM -  Closing the Day: Wrap up after seeing 15–20 patients. Some are follow-ups where 'magic white pills' started working. Seeing their smiles makes long hours of study worth it."
+          "8:30 AM –  Preparing the Mind: Day begins at clinic. Don't just check equipment—prepare to listen. In Homeopathy, most important tool isn't stethoscope—it's ability to observe.",
+          "10:00 AM –  The Deep Dive: First patient is 10-year-old with chronic skin rashes. Spend 45 minutes talking to him and parents. Find out he's very shy, loves sweets, feels worse in evening. This 'case-taking' is like solving puzzle where every small detail matters.",
+          "1:00 PM –  The Study of Materia Medica: Lunch break often spent referring to 'Materia Medica'—encyclopedia of homeopathic medicines. Compare patient's symptoms with hundreds of remedies to find perfect match (the Simillimum).",
+          "4:00 PM –  Digital Consultation: Log onto laptop. Thanks to Tele-Homeopathy, have patient from Dubai. Guide them through symptoms over video call. Coordinate with local pharmacy there or ship medicines from clinic.",
+          "7:30 PM –  Closing the Day: Wrap up after seeing 15–20 patients. Some are follow-ups where 'magic white pills' started working. Seeing their smiles makes long hours of study worth it."
         ]
       },
       {
@@ -2730,7 +2730,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹16L","Junior / Associate (3–5 yrs): ₹4L – ₹8L","Entry Level (0–2 yrs): ₹2L – ₹4L","Note: Metros pay 30% more. MD (Hom) and AIAPGET boost income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Pune, Hyderabad, Kolkata.","Top Industries: Wellness Clinics (Dr. Batra's), AYUSH, Pharma, Telehealth.","Global Demand: High in Germany, UK. Remote tele-consulting is rising.","Top Institutions","Career Opportunities","Conventional","Homeopathic Doctor","Homeopathic Consultant","Homeopathic Pharmacist","Homeopathic Medical Officer","New-age and AI Driven","Integrative Homeopathy Specialist","Digital Case Analysis Consultant","AI-based Homeopathic Research Associate","Personalized Wellness Advisor","Remote/Entrepreneurship","Online Homeopathy Consultant","Homeopathy Clinic Founder","Homeopathic Products Entrepreneur","Homeopathy Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L –  ₹35L","Mid-Level Professional (5–8 yrs): ₹8L –  ₹16L","Junior / Associate (3–5 yrs): ₹4L –  ₹8L","Entry Level (0–2 yrs): ₹2L –  ₹4L","Note: Metros pay 30% more. MD (Hom) and AIAPGET boost income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Pune, Hyderabad, Kolkata.","Top Industries: Wellness Clinics (Dr. Batra's), AYUSH, Pharma, Telehealth.","Global Demand: High in Germany, UK. Remote tele-consulting is rising.","Top Institutions","Career Opportunities","Conventional","Homeopathic Doctor","Homeopathic Consultant","Homeopathic Pharmacist","Homeopathic Medical Officer","New-age and AI Driven","Integrative Homeopathy Specialist","Digital Case Analysis Consultant","AI-based Homeopathic Research Associate","Personalized Wellness Advisor","Remote/Entrepreneurship","Online Homeopathy Consultant","Homeopathy Clinic Founder","Homeopathic Products Entrepreneur","Homeopathy Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -2918,11 +2918,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a general physician.",
         color: "#3B82F6",
         content: [
-          "7:30 AM -  The Hospital Rounds: Day begins not at desk, but at bedside. Walk through hospital wards checking on patients admitted night before. Review lab reports, adjust dosages, and most importantly, talk to families. A kind word often does as much healing as medicine itself.",
-          "10:00 AM -  The OPD Rush: Head to Outpatient Department (OPD). Waiting room is mosaic of India—worried grandmother with fever, young athlete with joint ache, tired office worker with high stress. Each consultation is race against time and test of focus. Listen intently, use stethoscope like finely tuned instrument.",
-          "1:30 PM -  A Quick Bite (Maybe): Lunch often luxury. Grab quick sandwich or cup of tea while discussing complex case with colleague in cafeteria. This 'informal learning' is where some best medical insights happen.",
-          "3:00 PM -  The Emergency Call: Just as return to clinic, phone buzzes. Patient in emergency room has sudden spike in blood pressure. Rush down, adrenaline kicks in, lead team to stabilize situation. In this job, must be ready for anything.",
-          "7:00 PM -  Constant Learning: Day doesn't end when clinic closes. Attend webinar on 'AI in Diagnostics' or read research paper about recent virus outbreak. Medicine changes every day—GP never stops being student."
+          "7:30 AM –  The Hospital Rounds: Day begins not at desk, but at bedside. Walk through hospital wards checking on patients admitted night before. Review lab reports, adjust dosages, and most importantly, talk to families. A kind word often does as much healing as medicine itself.",
+          "10:00 AM –  The OPD Rush: Head to Outpatient Department (OPD). Waiting room is mosaic of India—worried grandmother with fever, young athlete with joint ache, tired office worker with high stress. Each consultation is race against time and test of focus. Listen intently, use stethoscope like finely tuned instrument.",
+          "1:30 PM –  A Quick Bite (Maybe): Lunch often luxury. Grab quick sandwich or cup of tea while discussing complex case with colleague in cafeteria. This 'informal learning' is where some best medical insights happen.",
+          "3:00 PM –  The Emergency Call: Just as return to clinic, phone buzzes. Patient in emergency room has sudden spike in blood pressure. Rush down, adrenaline kicks in, lead team to stabilize situation. In this job, must be ready for anything.",
+          "7:00 PM –  Constant Learning: Day doesn't end when clinic closes. Attend webinar on 'AI in Diagnostics' or read research paper about recent virus outbreak. Medicine changes every day—GP never stops being student."
         ]
       },
       {
@@ -3187,11 +3187,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a modern dietician.",
         color: "#3B82F6",
         content: [
-          "8:30 AM -  The Hospital Rounds: Day begins at multi-specialty hospital. Start with 'Patient Rounds' alongside doctors and nurses. In ICU, calculate exact grams of protein and fat for patient on feeding tube. In maternity ward, counsel new mother on best foods for her and baby.",
-          "11:30 AM -  The Clinic Consults: Move to private cabin for outpatient consultations. First client is 15-year-old state-level swimmer. Don't just tell him to 'eat healthy'—design 'Pre-Race Fueling Plan' with right timing for carbohydrates to ensure he doesn't tire in last lap.",
-          "2:00 PM -  The Content Sprint: As modern dietician, influence goes beyond clinic. Spend hour filming 'Healthy Tiffin Ideas' reel for 50,000 Instagram followers or writing blog post for health-tech app like HealthifyMe.",
-          "4:30 PM -  The Product Review: Meet with food startup developing new 'sugar-free' snack. Analyze ingredient list, pointing out that 'maltodextrin' is just another name for sugar. You are gatekeeper of truth in confusing food labels.",
-          "7:00 PM -  The Personal Touch: Finish day with few remote Zoom calls for clients in different time zones—one in Dubai, another in London. Head home knowing today you helped dozen people feel better in their own skin."
+          "8:30 AM –  The Hospital Rounds: Day begins at multi-specialty hospital. Start with 'Patient Rounds' alongside doctors and nurses. In ICU, calculate exact grams of protein and fat for patient on feeding tube. In maternity ward, counsel new mother on best foods for her and baby.",
+          "11:30 AM –  The Clinic Consults: Move to private cabin for outpatient consultations. First client is 15-year-old state-level swimmer. Don't just tell him to 'eat healthy'—design 'Pre-Race Fueling Plan' with right timing for carbohydrates to ensure he doesn't tire in last lap.",
+          "2:00 PM –  The Content Sprint: As modern dietician, influence goes beyond clinic. Spend hour filming 'Healthy Tiffin Ideas' reel for 50,000 Instagram followers or writing blog post for health-tech app like HealthifyMe.",
+          "4:30 PM –  The Product Review: Meet with food startup developing new 'sugar-free' snack. Analyze ingredient list, pointing out that 'maltodextrin' is just another name for sugar. You are gatekeeper of truth in confusing food labels.",
+          "7:00 PM –  The Personal Touch: Finish day with few remote Zoom calls for clients in different time zones—one in Dubai, another in London. Head home knowing today you helped dozen people feel better in their own skin."
         ]
       },
       {
@@ -3238,7 +3238,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹15L","Junior / Associate (3–5 yrs): ₹4L – ₹7L","Entry Level (0–2 yrs): ₹2L – ₹4L","Note: Metros pay 30% extra. RD certification boosts income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Hospitals, Wellness Chains, FMCG, Telehealth Startups.","Global Demand: High in UK, UAE. Remote consulting rising.","Top Institutions","Career Opportunities","Conventional","Clinical Dietician","Hospital Nutritionist","Sports Dietician","Public Health Nutritionist","New-age and AI Driven","Personalized Nutrition Specialist","Gut Health Consultant","AI-based Nutrition Analyst","Digital Wellness Nutrition Expert","Remote/Entrepreneurship","Online Diet Consultant","Nutrition Clinic Founder","Healthy Meal Plan Entrepreneur","Nutrition Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L –  ₹35L","Mid-Level Professional (5–8 yrs): ₹8L –  ₹15L","Junior / Associate (3–5 yrs): ₹4L –  ₹7L","Entry Level (0–2 yrs): ₹2L –  ₹4L","Note: Metros pay 30% extra. RD certification boosts income.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Hospitals, Wellness Chains, FMCG, Telehealth Startups.","Global Demand: High in UK, UAE. Remote consulting rising.","Top Institutions","Career Opportunities","Conventional","Clinical Dietician","Hospital Nutritionist","Sports Dietician","Public Health Nutritionist","New-age and AI Driven","Personalized Nutrition Specialist","Gut Health Consultant","AI-based Nutrition Analyst","Digital Wellness Nutrition Expert","Remote/Entrepreneurship","Online Diet Consultant","Nutrition Clinic Founder","Healthy Meal Plan Entrepreneur","Nutrition Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -3426,11 +3426,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a modern dentist.",
         color: "#3B82F6",
         content: [
-          "9:00 AM -  The Sterile Start: Day begins at your clinic, 'The Smile Hub.' First 30 minutes spent ensuring autoclave has sterilized every instrument to 100% perfection. Assistant briefs you on eight appointments scheduled.",
-          "10:30 AM -  The Emergency Rescue: 14-year-old boy arrives with broken tooth from cricket match. He's in pain and worried about his look. Use high-tech 'Composite Bonding' material, skillfully sculpting it to match original tooth perfectly. He walks out smiling, pain-free.",
-          "1:30 PM -  The Digital Blueprint: After quick lunch, sit at computer using CAD/CAM software to design digital model for patient's dental crown. Send file to 3D printer, which will 'mill' perfect ceramic tooth by tomorrow.",
-          "4:00 PM -  The Complex Case: Afternoon dedicated to elderly patient getting dental implants. Requires surgical precision. Use Cone Beam CT (CBCT) scans to see exact depth of jawbone before placing titanium screw.",
-          "7:00 PM -  The Community Connect: Before closing, record 60-second 'Reel' for clinic's social media teaching teenagers about dangers of vaping on gum health. Head home satisfied blending science and art all day."
+          "9:00 AM –  The Sterile Start: Day begins at your clinic, 'The Smile Hub.' First 30 minutes spent ensuring autoclave has sterilized every instrument to 100% perfection. Assistant briefs you on eight appointments scheduled.",
+          "10:30 AM –  The Emergency Rescue: 14-year-old boy arrives with broken tooth from cricket match. He's in pain and worried about his look. Use high-tech 'Composite Bonding' material, skillfully sculpting it to match original tooth perfectly. He walks out smiling, pain-free.",
+          "1:30 PM –  The Digital Blueprint: After quick lunch, sit at computer using CAD/CAM software to design digital model for patient's dental crown. Send file to 3D printer, which will 'mill' perfect ceramic tooth by tomorrow.",
+          "4:00 PM –  The Complex Case: Afternoon dedicated to elderly patient getting dental implants. Requires surgical precision. Use Cone Beam CT (CBCT) scans to see exact depth of jawbone before placing titanium screw.",
+          "7:00 PM –  The Community Connect: Before closing, record 60-second 'Reel' for clinic's social media teaching teenagers about dangers of vaping on gum health. Head home satisfied blending science and art all day."
         ]
       },
       {
@@ -3477,7 +3477,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L – ₹35L","Mid-Level Professional (5–8 yrs): ₹8L – ₹15L","Junior / Associate (3–5 yrs): ₹4L – ₹7L","Entry Level (0–2 yrs): ₹2L – ₹4L","Note: Metros pay 40% more. MDS specialization boosts earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Corporate Chains (Clove), Medical Tourism, Cosmetic Dentistry.","Global Demand: High in UAE, Canada, Australia. Digital consulting rising.","Top Institutions","Career Opportunities","Conventional","General Dentist","Orthodontist","Prosthodontist","Oral and Maxillofacial Surgeon","New-age and AI Driven","Digital Dentistry Specialist","Dental Imaging Analyst","CAD/CAM Prosthesis Designer","AI-based Oral Diagnostics Consultant","Remote/Entrepreneurship","Teledentistry Consultant","Dental Clinic Founder","Dental Products Entrepreneur","Dental Health Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40L –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹18L –  ₹35L","Mid-Level Professional (5–8 yrs): ₹8L –  ₹15L","Junior / Associate (3–5 yrs): ₹4L –  ₹7L","Entry Level (0–2 yrs): ₹2L –  ₹4L","Note: Metros pay 40% more. MDS specialization boosts earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Corporate Chains (Clove), Medical Tourism, Cosmetic Dentistry.","Global Demand: High in UAE, Canada, Australia. Digital consulting rising.","Top Institutions","Career Opportunities","Conventional","General Dentist","Orthodontist","Prosthodontist","Oral and Maxillofacial Surgeon","New-age and AI Driven","Digital Dentistry Specialist","Dental Imaging Analyst","CAD/CAM Prosthesis Designer","AI-based Oral Diagnostics Consultant","Remote/Entrepreneurship","Teledentistry Consultant","Dental Clinic Founder","Dental Products Entrepreneur","Dental Health Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -3666,10 +3666,10 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an audiologist in modern healthcare.",
         color: "#3B82F6",
         content: [
-          "9:00 AM -  The Early Screening: Day begins in the 'Soundproof Booth' of a multi-specialty hospital. First patient is a six-month-old baby. Perform OAE (Otoacoustic Emissions) test. As machine shows 'Pass,' see relief on mother's face. You've just confirmed this child will grow up in a world of sound.",
-          "11:30 AM -  The High-Tech Fitting: Next is a software engineer who developed Tinnitus (constant ringing in ears). Use specialized software to map his hearing. Don't just give him a device—program a digital hearing aid with AI that filters background noise and masks ringing.",
-          "2:00 PM -  The Balance Check: After lunch, see elderly grandmother who keeps falling. Most think it's a leg problem, but you know it's often an 'inner ear' problem. Perform VNG (Videonystagmography) test, tracking eye movements with infrared cameras to find source of dizziness.",
-          "4:30 PM -  Counseling & School Visits: Spend afternoon counseling parents of child who just received Cochlear Implant. Explain that surgery was first step, but 'mapping' and speech therapy are where magic happens. End day preparing report for local school on making classrooms more 'hearing-friendly.'"
+          "9:00 AM –  The Early Screening: Day begins in the 'Soundproof Booth' of a multi-specialty hospital. First patient is a six-month-old baby. Perform OAE (Otoacoustic Emissions) test. As machine shows 'Pass,' see relief on mother's face. You've just confirmed this child will grow up in a world of sound.",
+          "11:30 AM –  The High-Tech Fitting: Next is a software engineer who developed Tinnitus (constant ringing in ears). Use specialized software to map his hearing. Don't just give him a device—program a digital hearing aid with AI that filters background noise and masks ringing.",
+          "2:00 PM –  The Balance Check: After lunch, see elderly grandmother who keeps falling. Most think it's a leg problem, but you know it's often an 'inner ear' problem. Perform VNG (Videonystagmography) test, tracking eye movements with infrared cameras to find source of dizziness.",
+          "4:30 PM –  Counseling & School Visits: Spend afternoon counseling parents of child who just received Cochlear Implant. Explain that surgery was first step, but 'mapping' and speech therapy are where magic happens. End day preparing report for local school on making classrooms more 'hearing-friendly.'"
         ]
       },
       {
@@ -3716,7 +3716,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: "#3B82F6",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20L – ₹40L","Mid-Level Professional (5–8 yrs): ₹9L – ₹18L","Junior / Associate (3–5 yrs): ₹5L – ₹9L","Entry Level (0–2 yrs): ₹3L – ₹5L","Note: Metros pay 30% more. RCI registration boosts earnings.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Kochi, Hyderabad.","Top Industries: Hospitals, Hearing-Aid MNCs, Rehabilitation Centers, Research.","Global Demand: High in USA, UAE. Remote Tele-audiology is rising.","Top Institutions","Career Opportunities","Conventional","Clinical Audiologist","Hearing Aid Specialist","Cochlear Implant Audiologist","Speech and Hearing Centre Audiologist","New-age and AI Driven","Tele-Audiology Specialist","AI-based Hearing Diagnostics Analyst","Digital Hearing Device Programmer","Hearing Health Data Specialist","Remote/Entrepreneurship","Online Hearing Consultant","Hearing Clinic Founder","Hearing Aid Business Owner","Audiology Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹45L –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹20L –  ₹40L","Mid-Level Professional (5–8 yrs): ₹9L –  ₹18L","Junior / Associate (3–5 yrs): ₹5L –  ₹9L","Entry Level (0–2 yrs): ₹3L –  ₹5L","Note: Metros pay 30% more. RCI registration boosts earnings.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bengaluru, Chennai, Kochi, Hyderabad.","Top Industries: Hospitals, Hearing-Aid MNCs, Rehabilitation Centers, Research.","Global Demand: High in USA, UAE. Remote Tele-audiology is rising.","Top Institutions","Career Opportunities","Conventional","Clinical Audiologist","Hearing Aid Specialist","Cochlear Implant Audiologist","Speech and Hearing Centre Audiologist","New-age and AI Driven","Tele-Audiology Specialist","AI-based Hearing Diagnostics Analyst","Digital Hearing Device Programmer","Hearing Health Data Specialist","Remote/Entrepreneurship","Online Hearing Consultant","Hearing Clinic Founder","Hearing Aid Business Owner","Audiology Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -3905,13 +3905,13 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real-world experience of a clinical psychologist.",
         color: "#10B981",
         content: [
-          "10:00 AM –  Couple Therapy: A couple in their early thirties sits across from you, communication broken after five years of marriage. You facilitate dialogue, helping them express needs without blame.",
-          "11:30 AM –  Child Assessment: A concerned mother brings her 8-year-old son struggling with concentration and impulsive behavior. You conduct a playful assessment, observing behavior through games and drawing activities.",
-          "1:00 PM –  Lunch and Documentation: You take a break, then spend time documenting session notes, updating treatment plans, and reviewing research papers on trauma-focused CBT for an upcoming case.",
-          "2:30 PM –  Trauma Survivor: Your most emotionally demanding case—a 35-year-old woman processing childhood sexual abuse. You use trauma-focused therapy techniques, creating a safe space for her to confront painful memories at her own pace.",
-          "3:30 PM –  Group Therapy Session: An anxiety support group meets—five individuals sharing experiences and coping strategies under your facilitation.",
-          "6:00 PM –  Administrative Work: You finalize insurance claims, respond to appointment requests, and prepare materials for tomorrow's workshop on stress management for a corporate client.",
-          "8:00 PM –  Note: This day showcases the emotional depth, technical skill, and human connection required in clinical psychology.",
+          "10:00 AM –   Couple Therapy: A couple in their early thirties sits across from you, communication broken after five years of marriage. You facilitate dialogue, helping them express needs without blame.",
+          "11:30 AM –   Child Assessment: A concerned mother brings her 8-year-old son struggling with concentration and impulsive behavior. You conduct a playful assessment, observing behavior through games and drawing activities.",
+          "1:00 PM –   Lunch and Documentation: You take a break, then spend time documenting session notes, updating treatment plans, and reviewing research papers on trauma-focused CBT for an upcoming case.",
+          "2:30 PM –   Trauma Survivor: Your most emotionally demanding case—a 35-year-old woman processing childhood sexual abuse. You use trauma-focused therapy techniques, creating a safe space for her to confront painful memories at her own pace.",
+          "3:30 PM –   Group Therapy Session: An anxiety support group meets—five individuals sharing experiences and coping strategies under your facilitation.",
+          "6:00 PM –   Administrative Work: You finalize insurance claims, respond to appointment requests, and prepare materials for tomorrow's workshop on stress management for a corporate client.",
+          "8:00 PM –   Note: This day showcases the emotional depth, technical skill, and human connection required in clinical psychology.",
               ]
       },
       {
@@ -3961,7 +3961,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salary ranges and career growth trajectory.",
         color: "#EC4899",
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹20 – ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 – ₹18 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹9 LPA","Entry Level (0–2 yrs): ₹3 – ₹5 LPA","Note: Metros pay 30% more; RCI license/M.Phil boosts earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Private Hospitals, Corporate Wellness, Health-tech, NGOs, Rehabilitation.","Global Demand: High remote tele-therapy demand in USA, UK, UAE.","Top Institutions","Career Opportunities","Conventional","Hospital Clinical Psychologist","Rehabilitation Psychologist","Child and Adolescent Psychologist","Academic / Teaching Psychologist","New-age and AI driven","Tele-mental Health Psychologist","Digital Mental Health Specialist","Behavioral Science Researcher","AI Ethics and Mental Health Research Associate","Remote/Entrepreneurship","Private Practice Therapist","Online Counselling Consultant","Mental Health Content Creator","Corporate Wellness Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹20 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 –  ₹18 LPA","Junior / Associate (3–5 yrs): ₹5 –  ₹9 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5 LPA","Note: Metros pay 30% more; RCI license/M.Phil boosts earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Private Hospitals, Corporate Wellness, Health-tech, NGOs, Rehabilitation.","Global Demand: High remote tele-therapy demand in USA, UK, UAE.","Top Institutions","Career Opportunities","Conventional","Hospital Clinical Psychologist","Rehabilitation Psychologist","Child and Adolescent Psychologist","Academic / Teaching Psychologist","New-age and AI driven","Tele-mental Health Psychologist","Digital Mental Health Specialist","Behavioral Science Researcher","AI Ethics and Mental Health Research Associate","Remote/Entrepreneurship","Private Practice Therapist","Online Counselling Consultant","Mental Health Content Creator","Corporate Wellness Entrepreneur"]
       },{
         id: "cost-breakdown",
         title: "What Will It Cost? (Fees & Duration)",
@@ -4147,12 +4147,12 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real-world experience of a counselling psychologist.",
         color: "#10B981",
         content: [
-          "8:30 AM – School Counselling: Arrive at an international school. First student is Rohan (Class 10), panicking about Board exams. Use CBT techniques to help him identify specific thoughts scaring him.",
-          "11:00 AM – Workshop Facilitation: Conduct a workshop for Class 8 students on 'Safe Touch and Boundaries.' Make serious topics fun and relatable.",
-          "2:00 PM – Lunch Break: Leave school and head to private clinic. Listen to a podcast on 'Trauma-Informed Care' while eating.",
-          "4:00 PM – Couple Counselling: Young couple struggling with communication arrives. Act as neutral mediator, ensuring they listen to each other without shouting.",
-          "6:00 PM – Corporate Client: IT professional suffering from workplace burnout. Discuss setting boundaries with boss and managing stress.",
-          "8:00 PM – Documentation: Write detailed case notes. Boring but essential for tracking progress and maintaining ethical standards.",
+          "8:30 AM –  School Counselling: Arrive at an international school. First student is Rohan (Class 10), panicking about Board exams. Use CBT techniques to help him identify specific thoughts scaring him.",
+          "11:00 AM –  Workshop Facilitation: Conduct a workshop for Class 8 students on 'Safe Touch and Boundaries.' Make serious topics fun and relatable.",
+          "2:00 PM –  Lunch Break: Leave school and head to private clinic. Listen to a podcast on 'Trauma-Informed Care' while eating.",
+          "4:00 PM –  Couple Counselling: Young couple struggling with communication arrives. Act as neutral mediator, ensuring they listen to each other without shouting.",
+          "6:00 PM –  Corporate Client: IT professional suffering from workplace burnout. Discuss setting boundaries with boss and managing stress.",
+          "8:00 PM –  Documentation: Write detailed case notes. Boring but essential for tracking progress and maintaining ethical standards.",
           "This day showcases the blend of school counselling, private practice, and corporate wellness work."
         ]
       },
@@ -4214,10 +4214,10 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Salary ranges and career growth trajectory.",
         color: "#EC4899",
         content: [
-          "Entry-Level (School Counselor, NGO Worker): ₹2.5 Lakh – ₹4.5 Lakh per annum. Average: ₹3.5 Lakh.",
-          "Mid-Level (Corporate Wellness Coach, Senior School Counselor): ₹5 Lakh – ₹9 Lakh per annum. Average: ₹7 Lakh.",
-          "Senior-Level (Private Practitioner, RCI Clinical Psychologist): ₹10 Lakh – ₹18 Lakh per annum. Average: ₹14 Lakh.",
-          "Leadership (Head of Mental Health Dept, Celebrity Psychologist): ₹25 Lakh – ₹50 Lakh+ per annum.",
+          "Entry-Level (School Counselor, NGO Worker): ₹2.5 Lakh –  ₹4.5 Lakh per annum. Average: ₹3.5 Lakh.",
+          "Mid-Level (Corporate Wellness Coach, Senior School Counselor): ₹5 Lakh –  ₹9 Lakh per annum. Average: ₹7 Lakh.",
+          "Senior-Level (Private Practitioner, RCI Clinical Psychologist): ₹10 Lakh –  ₹18 Lakh per annum. Average: ₹14 Lakh.",
+          "Leadership (Head of Mental Health Dept, Celebrity Psychologist): ₹25 Lakh –  ₹50 Lakh+ per annum.",
           "Private Practice Income: Experienced therapists earn ₹1,500-3,000 per session. Established practitioners earn ₹15-30 LPA.",
           "Metro vs. Tier-2: Metro cities (Mumbai, Bangalore, Delhi) pay 40-50% higher. People more willing to pay for therapy (₹1,500-3,000/session). Tier-2 cities have lower salaries due to stigma.",
           "Market Growth: Indian mental health market growing at 28% CAGR. Explosive demand post-COVID."
@@ -4414,13 +4414,13 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a nurse and medical assistant.",
         color: BLUE2,
         content: [
-          "6:00 AM -  The Early Shift: Day begins before sunrise in hospital ward. First task: check on patients from night shift. Review charts, note any changes in condition. Compassion mixed with clinical precision.",
-          "7:00 AM -  Morning Care: Help patients with morning hygiene. Bath, change clothes, prepare for breakfast. Listen to their worries. A kind word often more healing than medicine.",
-          "9:00 AM -  Vital Signs & Medications: Check blood pressure, temperature, pulse for all patients. Administer medications as prescribed. Document everything meticulously.",
-          "11:00 AM -  Procedure Assistance: Assist doctor during patient procedures. Hand instruments, monitor patient comfort, provide reassurance. Your presence calms anxious patients.",
-          "1:00 PM -  Lunch & Documentation: Quick lunch while updating patient records. Ensure all observations documented accurately. This data guides treatment decisions.",
-          "3:00 PM -  Patient Education: Teach patient about post-discharge care. Explain medications, diet, exercises. Empower patient to take charge of health.",
-          "5:00 PM -  Handover & Reflection: Brief incoming shift on patient status. End day knowing you've made difference in someone's life. Emotional rewards immense."
+          "6:00 AM –  The Early Shift: Day begins before sunrise in hospital ward. First task: check on patients from night shift. Review charts, note any changes in condition. Compassion mixed with clinical precision.",
+          "7:00 AM –  Morning Care: Help patients with morning hygiene. Bath, change clothes, prepare for breakfast. Listen to their worries. A kind word often more healing than medicine.",
+          "9:00 AM –  Vital Signs & Medications: Check blood pressure, temperature, pulse for all patients. Administer medications as prescribed. Document everything meticulously.",
+          "11:00 AM –  Procedure Assistance: Assist doctor during patient procedures. Hand instruments, monitor patient comfort, provide reassurance. Your presence calms anxious patients.",
+          "1:00 PM –  Lunch & Documentation: Quick lunch while updating patient records. Ensure all observations documented accurately. This data guides treatment decisions.",
+          "3:00 PM –  Patient Education: Teach patient about post-discharge care. Explain medications, diet, exercises. Empower patient to take charge of health.",
+          "5:00 PM –  Handover & Reflection: Brief incoming shift on patient status. End day knowing you've made difference in someone's life. Emotional rewards immense."
         ]
       },
       {
@@ -4491,11 +4491,11 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹40L – ₹1.2 Crore",
-          "Senior / Lead Role (10+ yrs): ₹20L – ₹40L",
-          "Mid-Level Professional (5–8 yrs): ₹10L – ₹18L",
-          "Junior / Associate (3–5 yrs): ₹5L – ₹10L",
-          "Entry Level (0–2 yrs): ₹3L – ₹5L",
+          "CXO / Top Leadership (15+ yrs): ₹40L –  ₹1.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹20L –  ₹40L",
+          "Mid-Level Professional (5–8 yrs): ₹10L –  ₹18L",
+          "Junior / Associate (3–5 yrs): ₹5L –  ₹10L",
+          "Entry Level (0–2 yrs): ₹3L –  ₹5L",
           "Note: Private hospitals pay 30% more. Specialization boosts salary significantly. International assignments offer premium pay.",
           "Where Are the Jobs?",
           "Top Cities: Bangalore, Mumbai, Delhi-NCR, Hyderabad, Chennai, Pune, Kolkata.",
@@ -4670,4 +4670,6 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+
+
 

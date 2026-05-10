@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const RED = "#C20000";
 const RED2 = "#DA1313";
@@ -79,7 +79,7 @@ export const human_social_sciencesUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -154,11 +154,11 @@ export const human_social_sciencesUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2.0 Crore",
-          "Senior / Lead Role (10+ yrs): ₹20 – ₹45 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹10 – ₹18 LPA",
-          "Junior / Associate (3–5 yrs): ₹6 – ₹9 LPA",
-          "Entry Level (0–2 yrs): ₹3 – ₹5 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2.0 Crore",
+          "Senior / Lead Role (10+ yrs): ₹20 –  ₹45 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10 –  ₹18 LPA",
+          "Junior / Associate (3–5 yrs): ₹6 –  ₹9 LPA",
+          "Entry Level (0–2 yrs): ₹3 –  ₹5 LPA",
           "Note: Metros pay 30% more; UGC-NET/PhD boosts academic pay scales.",
           "Where Are the Jobs?",
           "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.",
@@ -175,7 +175,7 @@ export const human_social_sciencesUpdateData: Record<string, CareerPageData> = {
         content: [
           "Government: Jawaharlal Nehru University (JNU) New Delhi; University of Delhi (DU) New Delhi; Banaras Hindu University (BHU) Varanasi; University of Hyderabad Hyderabad",
           "Private: Christ University Bengaluru; Symbiosis School of Liberal Arts Pune; Ashoka University Sonipat; Jindal School of Government & Public Policy Sonipat",
-          "Online: IGNOU (Indira Gandhi National Open University); Coursera – Introduction to Political Science (various universities); edX – Political Science & Government Courses; Swayam – NPTEL Political Science Courses"
+          "Online: IGNOU (Indira Gandhi National Open University); Coursera –  Introduction to Political Science (various universities); edX –  Political Science & Government Courses; Swayam –  NPTEL Political Science Courses"
         ]
       },
       {
@@ -207,3 +207,5 @@ export const human_social_sciencesUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+
+

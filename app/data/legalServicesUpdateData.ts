@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const RED = "#C20000";
 const RED2 = "#DA1313";
@@ -49,12 +49,12 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working forensic scientist",
         color: RED2,
         content: [
-          "08:30 AM -  Arjun clocks in at the State Forensic Science Laboratory (FSL) in Lucknow: The smell of chemicals hangs faintly in the air. He dons his white coat and checks the 'Chain of Custody' log. A sealed packet arrived last night from a robbery case.",
-          "10:00 AM -  Lab Analysis. Arjun specializes in Serology (body fluids): He carefully opens the packet containing a stained shirt. Using a high-powered microscope and chemical reagents, he tests the stain. Is it blood? Yes. Is it human? Yes. He prepares the sample for DNA profiling.",
-          "01:00 PM -  Lunch: He eats quickly with colleagues from the Ballistics division. They discuss a new case involving a country-made pistol.",
-          "02:30 PM -  Court Summons: Arjun has to testify in the High Court today regarding a case he analyzed two years ago. He stands in the witness box, facing a barrage of questions from the defense lawyer. 'Dr. Arjun, are you 100% sure the sample wasn't contaminated?' He calmly explains his scientific process.",
-          "05:00 PM -  Back to the Lab: A rush request comes in from the Cyber Cell. They need help lifting latent fingerprints from a seized hard drive before they analyze the data. Arjun dusts the drive using magnetic powder, photographs the prints, and uploads them to the database.",
-          "06:30 PM -  Paperwork: He spends an hour writing a detailed report. In forensics, if you didn't document it, you didn't do it. He logs off, mentally tired but knowing his work today moved three cases closer to justice."
+          "08:30 AM –  Arjun clocks in at the State Forensic Science Laboratory (FSL) in Lucknow: The smell of chemicals hangs faintly in the air. He dons his white coat and checks the 'Chain of Custody' log. A sealed packet arrived last night from a robbery case.",
+          "10:00 AM –  Lab Analysis. Arjun specializes in Serology (body fluids): He carefully opens the packet containing a stained shirt. Using a high-powered microscope and chemical reagents, he tests the stain. Is it blood? Yes. Is it human? Yes. He prepares the sample for DNA profiling.",
+          "01:00 PM –  Lunch: He eats quickly with colleagues from the Ballistics division. They discuss a new case involving a country-made pistol.",
+          "02:30 PM –  Court Summons: Arjun has to testify in the High Court today regarding a case he analyzed two years ago. He stands in the witness box, facing a barrage of questions from the defense lawyer. 'Dr. Arjun, are you 100% sure the sample wasn't contaminated?' He calmly explains his scientific process.",
+          "05:00 PM –  Back to the Lab: A rush request comes in from the Cyber Cell. They need help lifting latent fingerprints from a seized hard drive before they analyze the data. Arjun dusts the drive using magnetic powder, photographs the prints, and uploads them to the database.",
+          "06:30 PM –  Paperwork: He spends an hour writing a detailed report. In forensics, if you didn't document it, you didn't do it. He logs off, mentally tired but knowing his work today moved three cases closer to justice."
         ]
       },
       {
@@ -128,11 +128,11 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹60LPA – ₹1.5 Crore",
+          "CXO / Top Leadership (15+ yrs): ₹60LPA –  ₹1.5 Crore",
           "Senior / Lead Role (10+ yrs): ₹25 LPA –₹55 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹12LPA – ₹24 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹12LPA –  ₹24 LPA",
           "Junior / Associate (3–5 yrs): ₹6 LPA –₹11 LPA",
-          "Entry Level (0–2 yrs): ₹3 LPA – ₹6 LPA",
+          "Entry Level (0–2 yrs): ₹3 LPA –  ₹6 LPA",
           "Note: Digital Forensics and Cyber skills offer 40% salary premium.",
            
           "Where Are the Jobs?",
@@ -181,7 +181,7 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "NFSU Merit Scholarship: Specific to NFSU students based on semester performance",
           "Post-Matric Scholarship: For SC/ST/OBC students by State Governments",
           "Police Welfare Scholarships: Some states offer scholarships to wards of police personnel",
-          "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
+          "Central: NSP (National Scholarship Portal) –  Merit-cum-Means for professional degrees",
           "Institutional: Need-based financial assistance at various universities",
           "Merit-Based: Top performers in entrance exams receive full or partial scholarships"
         ]
@@ -319,13 +319,13 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working lawyer",
         color: RED2,
         content: [
-          "08:00 AM -  Office Prep: Priya arrives at her law firm in Mumbai. She reviews case files for three ongoing matters: a corporate merger, a criminal defense case, and a property dispute.",
-          "10:00 AM -  Client Meeting: Meets with a startup founder facing regulatory issues. Explains compliance requirements and drafts a response to the government notice.",
-          "12:30 PM -  Court Appearance: Rushes to the High Court for a hearing. Argues a motion before the judge. The opposing counsel challenges her interpretation of a statute. She calmly counters with case precedents.",
-          "02:00 PM -  Lunch & Research: Grabs lunch while researching a recent Supreme Court judgment that affects her client's case.",
-          "03:30 PM -  Document Drafting: Returns to office and drafts a detailed legal memorandum on a complex contract clause. Precision is critical; one wrong word can cost millions.",
-          "06:00 PM -  Team Meeting: Discusses strategy with junior associates on an upcoming trial. Mentors them on cross-examination techniques.",
-          "08:00 PM -  Continuing Education: Attends a webinar on new amendments to the Companies Act. Lawyers must stay updated constantly."
+          "08:00 AM –  Office Prep: Priya arrives at her law firm in Mumbai. She reviews case files for three ongoing matters: a corporate merger, a criminal defense case, and a property dispute.",
+          "10:00 AM –  Client Meeting: Meets with a startup founder facing regulatory issues. Explains compliance requirements and drafts a response to the government notice.",
+          "12:30 PM –  Court Appearance: Rushes to the High Court for a hearing. Argues a motion before the judge. The opposing counsel challenges her interpretation of a statute. She calmly counters with case precedents.",
+          "02:00 PM –  Lunch & Research: Grabs lunch while researching a recent Supreme Court judgment that affects her client's case.",
+          "03:30 PM –  Document Drafting: Returns to office and drafts a detailed legal memorandum on a complex contract clause. Precision is critical; one wrong word can cost millions.",
+          "06:00 PM –  Team Meeting: Discusses strategy with junior associates on an upcoming trial. Mentors them on cross-examination techniques.",
+          "08:00 PM –  Continuing Education: Attends a webinar on new amendments to the Companies Act. Lawyers must stay updated constantly."
         ]
       },
       {
@@ -404,8 +404,8 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "CXO / Top Leadership (15+ yrs): ₹80L –₹3 Crore",
           "Senior / Lead Role (10+ yrs): ₹30L –₹70L",
           "Mid-Level Professional (5–8 yrs): ₹15L– ₹30L",
-          "Junior / Associate (3–5 yrs): ₹7L – ₹15L",
-          "Entry Level (0–2 yrs): ₹4L – ₹9L",
+          "Junior / Associate (3–5 yrs): ₹7L –  ₹15L",
+          "Entry Level (0–2 yrs): ₹4L –  ₹9L",
           "Note: Tier-1 firms and metros offer 100% salary premium.",
            
           "Where Are the Jobs?",
@@ -602,13 +602,13 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
         description: "Real-world experience of a working judge",
         color: RED2,
         content: [
-          "08:30 AM -  Chambers Review: Justice Sharma arrives at the High Court. Reviews case files for today's hearings. Three complex matters: a constitutional petition, a criminal appeal, and a commercial dispute.",
-          "10:00 AM -  First Hearing: Hears arguments from both sides in a constitutional case about fundamental rights. Lawyers present their positions. Justice Sharma asks probing questions, seeking clarity on legal principles.",
-          "12:30 PM -  Lunch & Research: Researches relevant Supreme Court precedents and international law on the constitutional issue. Judicial research is critical for sound judgments.",
-          "02:00 PM -  Second Hearing: Presides over a criminal appeal. Listens to arguments about whether evidence was properly admitted. The stakes are high—a person's freedom depends on this judgment.",
-          "04:00 PM -  Judgment Writing: Returns to chambers and begins drafting a detailed judgment on a complex commercial case. Every word matters; the judgment will be cited in future cases.",
-          "06:00 PM -  Administrative Duties: Meets with court staff about case management and judicial efficiency. Judges also manage court operations.",
-          "07:30 PM -  Continuing Education: Attends a judicial conference on new laws and constitutional developments. Judges must stay updated constantly."
+          "08:30 AM –  Chambers Review: Justice Sharma arrives at the High Court. Reviews case files for today's hearings. Three complex matters: a constitutional petition, a criminal appeal, and a commercial dispute.",
+          "10:00 AM –  First Hearing: Hears arguments from both sides in a constitutional case about fundamental rights. Lawyers present their positions. Justice Sharma asks probing questions, seeking clarity on legal principles.",
+          "12:30 PM –  Lunch & Research: Researches relevant Supreme Court precedents and international law on the constitutional issue. Judicial research is critical for sound judgments.",
+          "02:00 PM –  Second Hearing: Presides over a criminal appeal. Listens to arguments about whether evidence was properly admitted. The stakes are high—a person's freedom depends on this judgment.",
+          "04:00 PM –  Judgment Writing: Returns to chambers and begins drafting a detailed judgment on a complex commercial case. Every word matters; the judgment will be cited in future cases.",
+          "06:00 PM –  Administrative Duties: Meets with court staff about case management and judicial efficiency. Judges also manage court operations.",
+          "07:30 PM –  Continuing Education: Attends a judicial conference on new laws and constitutional developments. Judges must stay updated constantly."
         ]
       },
       {
@@ -684,11 +684,11 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹70LPA – ₹1.5 Crore",
+          "CXO / Top Leadership (15+ yrs): ₹70LPA –  ₹1.5 Crore",
           "Senior / Lead Role (10+ yrs): ₹35 LPA –₹65 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹20LPA – ₹38 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹20LPA –  ₹38 LPA",
           "Junior / Associate (3–5 yrs): ₹14 LPA –₹22 LPA",
-          "Entry Level (0–2 yrs): ₹9 LPA – ₹15 LPA",
+          "Entry Level (0–2 yrs): ₹9 LPA –  ₹15 LPA",
           "Note: Perks and Judicial Service exams significantly impact pay.",
            
           "Where Are the Jobs?",
@@ -843,3 +843,5 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+
+

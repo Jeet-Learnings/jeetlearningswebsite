@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const RED = "#C20000";
 const RED2 = "#DA1313";
@@ -48,13 +48,13 @@ export const manufacturingUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an industrial designer.",
         color: BLUE2,
         content: [
-          "09:30 AM –  Studio Arrival: Riya walks into her studio. It's a creative mess—sketches on walls, 3D printed models on desks, material samples everywhere. Today's brief: design a 'Smart Wearable' for seniors that monitors heart rate but looks like jewelry.",
-          "10:30 AM –  Sketching Phase: Riya puts on headphones and starts drawing. She doesn't draw one idea; she draws 50. Some sleek, some chunky, some like bracelets. She focuses on 'form factor'—easy for shaky hands to wear.",
-          "12:30 PM –  Prototype Lab: She takes her best sketch to the 3D printing room. While it prints, she meets the engineering team. 'Riya, this curve is too tight; the battery won't fit,' the engineer says. Back to drawing board.",
-          "02:00 PM –  Lunch & Collaboration: She eats with UX designers. They discuss how the digital screen will interact with the physical button she designed.",
-          "03:30 PM –  User Testing: Elderly users test a foam model. Riya watches silently. One user struggles to find the 'Panic Button' because it's too small. She notes: 'Make button red and tactile.'",
-          "05:00 PM –  Rendering: Back at desk, she uses KeyShot to create photorealistic images. She adds textures—gold finish, matte black silicon. It looks so real you could touch it.",
-          "07:00 PM –  Reflection: On her way home, she sees someone wearing headphones she designed two years ago. That thrill—seeing a stranger use your creation—never gets old."
+          "09:30 AM –   Studio Arrival: Riya walks into her studio. It's a creative mess—sketches on walls, 3D printed models on desks, material samples everywhere. Today's brief: design a 'Smart Wearable' for seniors that monitors heart rate but looks like jewelry.",
+          "10:30 AM –   Sketching Phase: Riya puts on headphones and starts drawing. She doesn't draw one idea; she draws 50. Some sleek, some chunky, some like bracelets. She focuses on 'form factor'—easy for shaky hands to wear.",
+          "12:30 PM –   Prototype Lab: She takes her best sketch to the 3D printing room. While it prints, she meets the engineering team. 'Riya, this curve is too tight; the battery won't fit,' the engineer says. Back to drawing board.",
+          "02:00 PM –   Lunch & Collaboration: She eats with UX designers. They discuss how the digital screen will interact with the physical button she designed.",
+          "03:30 PM –   User Testing: Elderly users test a foam model. Riya watches silently. One user struggles to find the 'Panic Button' because it's too small. She notes: 'Make button red and tactile.'",
+          "05:00 PM –   Rendering: Back at desk, she uses KeyShot to create photorealistic images. She adds textures—gold finish, matte black silicon. It looks so real you could touch it.",
+          "07:00 PM –   Reflection: On her way home, she sees someone wearing headphones she designed two years ago. That thrill—seeing a stranger use your creation—never gets old."
         ]
       },
       {
@@ -101,7 +101,7 @@ export const manufacturingUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.2 Crore","Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹28 LPA","Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA","Entry Level (0–2 yrs): ₹4 – ₹8 LPA","Note: Metros and M.Des degrees boost pay by 35%.","Where Are the Jobs?","Top Cities: Pune, Bengaluru, Mumbai, Delhi-NCR, Ahmedabad.","Top Industries: Automotive, Consumer Electronics, Medical Devices, Furniture.","Global Demand: High in USA, Germany, Japan. AI-design growing."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹2.2 Crore","Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 –  ₹28 LPA","Junior / Associate (3–5 yrs): ₹7 –  ₹13 LPA","Entry Level (0–2 yrs): ₹4 –  ₹8 LPA","Note: Metros and M.Des degrees boost pay by 35%.","Where Are the Jobs?","Top Cities: Pune, Bengaluru, Mumbai, Delhi-NCR, Ahmedabad.","Top Industries: Automotive, Consumer Electronics, Medical Devices, Furniture.","Global Demand: High in USA, Germany, Japan. AI-design growing."]
       },
       {
         id: "costs",
@@ -273,13 +273,13 @@ export const manufacturingUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow at an e-commerce fulfillment center.",
         color: BLUE2,
         content: [
-          "08:30 AM – Warehouse Floor: Rohan walks onto the warehouse floor during 'Big Billion Days' sale week. The noise of conveyor belts and scanners is deafening. He checks his tablet: Order volume is up 40% today.",
-          "09:30 AM – The Bottleneck: He notices a jam in the packing section. Packages are piling up because label printers are slow. Rohan doesn't fix the printer; he re-organizes the line. He instructs the team to split the flow into two lines—one for small packets, one for big boxes. The jam clears in 20 minutes.",
-          "11:00 AM – Time Study: Rohan stands with a stopwatch observing a worker packing a mobile phone. Reach, Grab, Box, Tape, Label. It takes 45 seconds. He realizes if he moves the tape dispenser 6 inches closer, it saves 2 seconds per box. In a day with 10,000 boxes, he just saved 5.5 hours of labor!",
-          "01:00 PM – Lunch & Strategy: He eats with the Operations Manager. They discuss 'Kaizen' (continuous improvement). Rohan suggests a new layout for the loading dock to reduce truck waiting time.",
-          "03:00 PM – Data Analysis: Back at his desk, he analyzes data on Excel/PowerBI. He spots a trend: 15% of returns are happening because of damaged packaging. He schedules a meeting with the cardboard supplier to upgrade material quality.",
-          "05:00 PM – Safety Walk: He walks the floor to ensure no one is lifting heavy boxes incorrectly. Safety is efficient; accidents stop work.",
-          "06:30 PM – End of Day: Rohan logs off. Today, his small changes helped ship 5,000 extra parcels. He didn't invent the product, but he made sure it reached the customer on time."
+          "08:30 AM –  Warehouse Floor: Rohan walks onto the warehouse floor during 'Big Billion Days' sale week. The noise of conveyor belts and scanners is deafening. He checks his tablet: Order volume is up 40% today.",
+          "09:30 AM –  The Bottleneck: He notices a jam in the packing section. Packages are piling up because label printers are slow. Rohan doesn't fix the printer; he re-organizes the line. He instructs the team to split the flow into two lines—one for small packets, one for big boxes. The jam clears in 20 minutes.",
+          "11:00 AM –  Time Study: Rohan stands with a stopwatch observing a worker packing a mobile phone. Reach, Grab, Box, Tape, Label. It takes 45 seconds. He realizes if he moves the tape dispenser 6 inches closer, it saves 2 seconds per box. In a day with 10,000 boxes, he just saved 5.5 hours of labor!",
+          "01:00 PM –  Lunch & Strategy: He eats with the Operations Manager. They discuss 'Kaizen' (continuous improvement). Rohan suggests a new layout for the loading dock to reduce truck waiting time.",
+          "03:00 PM –  Data Analysis: Back at his desk, he analyzes data on Excel/PowerBI. He spots a trend: 15% of returns are happening because of damaged packaging. He schedules a meeting with the cardboard supplier to upgrade material quality.",
+          "05:00 PM –  Safety Walk: He walks the floor to ensure no one is lifting heavy boxes incorrectly. Safety is efficient; accidents stop work.",
+          "06:30 PM –  End of Day: Rohan logs off. Today, his small changes helped ship 5,000 extra parcels. He didn't invent the product, but he made sure it reached the customer on time."
         ]
       },
       {
@@ -350,11 +350,11 @@ export const manufacturingUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹75 LPA – ₹2.2 Crore",
-          "Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹15 – ₹28 LPA",
-          "Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA",
-          "Entry Level (0–2 yrs): ₹4 – ₹9 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹75 LPA –  ₹2.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹9 LPA",
           "Note: Lean Six Sigma and PMP boost pay by 30%.",
           "Where Are the Jobs?",
           "Top Cities: Pune, Bengaluru, Chennai, Gurgaon, Hyderabad, Ahmedabad.",
@@ -556,14 +556,14 @@ export const manufacturingUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow at an EV startup in Pune.",
         color: BLUE2,
         content: [
-          "08:30 AM – R&D Center Arrival: Karthik arrives at the R&D center. The air buzzes with the hum of 3D printers and the smell of coffee. He doesn't wear a suit; jeans and a polo t-shirt are the norm here.",
-          "09:00 AM – The Huddle: The team gathers around a whiteboard. They are designing a new battery cooling system for an electric scooter. The challenge? It needs to be 10% lighter but cool 20% faster. Karthik sketches a rough idea involving a new honeycomb structure.",
-          "10:30 AM – CAD Time: Karthik sits at his dual-monitor workstation. He opens SolidWorks (a 3D design software). For the next two hours, he is in 'the zone,' turning his rough sketch into a precise, 3D digital model. He rotates the model, checks for clashes, and simulates how air will flow through it.",
-          "01:00 PM – Lunch & Collaboration: He sits with the manufacturing team. They joke about a robot arm that kept dropping bolts yesterday. These informal chats are crucial—designers need to know what happens on the factory floor.",
-          "02:00 PM – Prototype Lab: This is the fun part. Karthik puts on safety goggles and heads to the lab. A 3D-printed version of his cooling part is ready. He fits it onto a test scooter. Does it fit? Yes. Does it vibrate too much? He uses a sensor to check. 'Hmm, a bit shaky at high speeds,' he notes. Back to the drawing board.",
-          "04:30 PM – Vendor Call: He calls a supplier in Chennai who makes aluminum parts. They discuss material grades. Karthik needs '6061 Aluminum,' but the supplier suggests '7075' for better strength. They negotiate the cost.",
-          "06:00 PM – Documentation: In engineering, if you didn't document it, you didn't do it. Karthik updates the 'Bill of Materials' (BOM)—a list of every single screw and washer needed for his design.",
-          "07:00 PM – End of Day: He logs off. As he rides his own electric scooter home, he smiles, knowing that the cooling system keeping his battery safe was designed by him."
+          "08:30 AM –  R&D Center Arrival: Karthik arrives at the R&D center. The air buzzes with the hum of 3D printers and the smell of coffee. He doesn't wear a suit; jeans and a polo t-shirt are the norm here.",
+          "09:00 AM –  The Huddle: The team gathers around a whiteboard. They are designing a new battery cooling system for an electric scooter. The challenge? It needs to be 10% lighter but cool 20% faster. Karthik sketches a rough idea involving a new honeycomb structure.",
+          "10:30 AM –  CAD Time: Karthik sits at his dual-monitor workstation. He opens SolidWorks (a 3D design software). For the next two hours, he is in 'the zone,' turning his rough sketch into a precise, 3D digital model. He rotates the model, checks for clashes, and simulates how air will flow through it.",
+          "01:00 PM –  Lunch & Collaboration: He sits with the manufacturing team. They joke about a robot arm that kept dropping bolts yesterday. These informal chats are crucial—designers need to know what happens on the factory floor.",
+          "02:00 PM –  Prototype Lab: This is the fun part. Karthik puts on safety goggles and heads to the lab. A 3D-printed version of his cooling part is ready. He fits it onto a test scooter. Does it fit? Yes. Does it vibrate too much? He uses a sensor to check. 'Hmm, a bit shaky at high speeds,' he notes. Back to the drawing board.",
+          "04:30 PM –  Vendor Call: He calls a supplier in Chennai who makes aluminum parts. They discuss material grades. Karthik needs '6061 Aluminum,' but the supplier suggests '7075' for better strength. They negotiate the cost.",
+          "06:00 PM –  Documentation: In engineering, if you didn't document it, you didn't do it. Karthik updates the 'Bill of Materials' (BOM)—a list of every single screw and washer needed for his design.",
+          "07:00 PM –  End of Day: He logs off. As he rides his own electric scooter home, he smiles, knowing that the cooling system keeping his battery safe was designed by him."
         ]
       },
       {
@@ -798,3 +798,5 @@ export const manufacturingUpdateData: Record<string, CareerPageData> = {
     ]
   },
 };
+
+

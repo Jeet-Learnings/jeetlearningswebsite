@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const RED = "#C20000";
 const RED2 = "#DA1313";
@@ -47,12 +47,12 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an environmental scientist.",
         color: RED2,
         content: [
-          "6:30 AM -  The Field Mission: Day begins early at a river in Gurgaon. Collecting water samples from multiple points. Using portable testing kits to measure pH, dissolved oxygen, heavy metals. Data will reveal if factory upstream is polluting.",
-          "10:00 AM -  Lab Analysis: Back at laboratory. Running samples through sophisticated equipment—Gas Chromatography, Mass Spectrometry. Identifying exact pollutants and their concentrations. Like detective work, but with molecules.",
-          "1:00 PM -  The Strategy Meeting: Meet with municipal corporation officials. Presenting findings from last month's air quality study. Recommending specific actions—restrict traffic on certain roads, plant trees in pollution hotspots. Your science drives policy.",
-          "3:30 PM -  Community Engagement: Head to local school. Teaching children about water conservation and waste segregation. Seeing their enthusiasm reminds you why this work matters. You're not just solving problems—you're building environmental consciousness.",
-          "5:30 PM -  Report Writing: Back at desk, compiling data into comprehensive Environmental Impact Assessment (EIA) report. This report will determine if a new factory gets permission to operate. Your work protects communities.",
-          "7:00 PM -  Research Planning: Reviewing latest climate data. Planning next research project on urban heat islands. Feeling energized knowing your work contributes to global climate solutions."
+          "6:30 AM –  The Field Mission: Day begins early at a river in Gurgaon. Collecting water samples from multiple points. Using portable testing kits to measure pH, dissolved oxygen, heavy metals. Data will reveal if factory upstream is polluting.",
+          "10:00 AM –  Lab Analysis: Back at laboratory. Running samples through sophisticated equipment—Gas Chromatography, Mass Spectrometry. Identifying exact pollutants and their concentrations. Like detective work, but with molecules.",
+          "1:00 PM –  The Strategy Meeting: Meet with municipal corporation officials. Presenting findings from last month's air quality study. Recommending specific actions—restrict traffic on certain roads, plant trees in pollution hotspots. Your science drives policy.",
+          "3:30 PM –  Community Engagement: Head to local school. Teaching children about water conservation and waste segregation. Seeing their enthusiasm reminds you why this work matters. You're not just solving problems—you're building environmental consciousness.",
+          "5:30 PM –  Report Writing: Back at desk, compiling data into comprehensive Environmental Impact Assessment (EIA) report. This report will determine if a new factory gets permission to operate. Your work protects communities.",
+          "7:00 PM –  Research Planning: Reviewing latest climate data. Planning next research project on urban heat islands. Feeling energized knowing your work contributes to global climate solutions."
         ]
       },
       {
@@ -123,11 +123,11 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.5 Crore",
-          "Senior / Lead Role (10+ yrs): ₹22 LPA – ₹45 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹22 LPA",
-          "Junior / Associate (3–5 yrs): ₹6 LPA – ₹12 LPA",
-          "Entry Level (0–2 yrs): ₹4 LPA – ₹7 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹40 LPA –  ₹1.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹22 LPA –  ₹45 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹12 LPA –  ₹22 LPA",
+          "Junior / Associate (3–5 yrs): ₹6 LPA –  ₹12 LPA",
+          "Entry Level (0–2 yrs): ₹4 LPA –  ₹7 LPA",
           "Note: Government positions offer job security; private sector offers higher salaries. Research grants supplement income.",
           "Where Are the Jobs?",
           "Top Cities: Delhi-NCR, Bengaluru, Mumbai, Hyderabad, Pune, Chennai.",
@@ -343,12 +343,12 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a forest officer.",
         color: RED2,
         content: [
-          "5:30 AM -  The Patrol Mission: Day begins before dawn in a forest range in Madhya Pradesh. Leading patrol team on foot through dense forest. Checking for signs of poaching, illegal logging, or encroachment. Every footprint tells a story.",
-          "9:00 AM -  Wildlife Monitoring: Spotting tiger pug marks and elephant dung. Recording data in field notebook. Using camera traps to monitor wildlife populations. Your observations help scientists understand ecosystem health.",
-          "12:00 PM -  Community Engagement: Meeting with local villagers. Discussing forest protection and sustainable livelihood programs. Balancing conservation with community needs. Building trust is crucial.",
-          "2:30 PM -  Administrative Work: Back at forest office. Reviewing reports from other patrol teams. Planning next week's operations. Coordinating with wildlife veterinarian on injured animal rescue.",
-          "4:00 PM -  Fire Prevention: Monsoon season approaching. Inspecting fire watchtowers and ensuring equipment is ready. Training staff on fire management protocols. Prevention is better than fighting forest fires.",
-          "6:00 PM -  Data Analysis: Compiling monthly wildlife census data. Analyzing trends in animal populations. This data informs conservation strategies and policy decisions."
+          "5:30 AM –  The Patrol Mission: Day begins before dawn in a forest range in Madhya Pradesh. Leading patrol team on foot through dense forest. Checking for signs of poaching, illegal logging, or encroachment. Every footprint tells a story.",
+          "9:00 AM –  Wildlife Monitoring: Spotting tiger pug marks and elephant dung. Recording data in field notebook. Using camera traps to monitor wildlife populations. Your observations help scientists understand ecosystem health.",
+          "12:00 PM –  Community Engagement: Meeting with local villagers. Discussing forest protection and sustainable livelihood programs. Balancing conservation with community needs. Building trust is crucial.",
+          "2:30 PM –  Administrative Work: Back at forest office. Reviewing reports from other patrol teams. Planning next week's operations. Coordinating with wildlife veterinarian on injured animal rescue.",
+          "4:00 PM –  Fire Prevention: Monsoon season approaching. Inspecting fire watchtowers and ensuring equipment is ready. Training staff on fire management protocols. Prevention is better than fighting forest fires.",
+          "6:00 PM –  Data Analysis: Compiling monthly wildlife census data. Analyzing trends in animal populations. This data informs conservation strategies and policy decisions."
         ]
       },
       {
@@ -419,11 +419,11 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.8 Crore",
-          "Senior / Lead Role (10+ yrs): ₹28 LPA – ₹50 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹15 LPA – ₹28 LPA",
-          "Junior / Associate (3–5 yrs): ₹8 LPA – ₹15 LPA",
-          "Entry Level (0–2 yrs): ₹5 LPA – ₹8 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.8 Crore",
+          "Senior / Lead Role (10+ yrs): ₹28 LPA –  ₹50 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 LPA –  ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 LPA –  ₹15 LPA",
+          "Entry Level (0–2 yrs): ₹5 LPA –  ₹8 LPA",
           "Note: Government positions offer excellent job security and benefits. Allowances for remote postings. Pension benefits substantial.",
           "Where Are the Jobs?",
           "Top Cities/Regions: Madhya Pradesh, Chhattisgarh, Odisha, Jharkhand, Assam, Kerala, Himachal Pradesh.",
@@ -640,12 +640,12 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a geologist.",
         color: RED2,
         content: [
-          "6:00 AM -  The Field Expedition: Day begins in a remote mountain range in Himachal Pradesh. Hiking to geological sites with field kit. Collecting rock samples from different layers. Each rock tells story of Earth's history.",
-          "10:00 AM -  Geological Mapping: Using GPS and geological compass to map rock formations. Sketching cross-sections showing subsurface structure. This data will help mining company plan extraction safely.",
-          "1:00 PM -  Sample Analysis: Back at field camp. Using portable testing equipment to analyze mineral composition. Identifying ore types and assessing quality. Preliminary data guides next phase of exploration.",
-          "3:30 PM -  Hazard Assessment: Meeting with local government officials. Presenting findings on landslide risk in region. Recommending mitigation measures—slope stabilization, early warning systems. Your work prevents disasters.",
-          "5:00 PM -  Lab Work: Back at laboratory. Running samples through X-ray diffraction and electron microscope. Determining exact mineral composition and crystal structure.",
-          "7:00 PM -  Report Writing: Compiling day's findings into comprehensive geological report. This report will guide exploration strategy and investment decisions."
+          "6:00 AM –  The Field Expedition: Day begins in a remote mountain range in Himachal Pradesh. Hiking to geological sites with field kit. Collecting rock samples from different layers. Each rock tells story of Earth's history.",
+          "10:00 AM –  Geological Mapping: Using GPS and geological compass to map rock formations. Sketching cross-sections showing subsurface structure. This data will help mining company plan extraction safely.",
+          "1:00 PM –  Sample Analysis: Back at field camp. Using portable testing equipment to analyze mineral composition. Identifying ore types and assessing quality. Preliminary data guides next phase of exploration.",
+          "3:30 PM –  Hazard Assessment: Meeting with local government officials. Presenting findings on landslide risk in region. Recommending mitigation measures—slope stabilization, early warning systems. Your work prevents disasters.",
+          "5:00 PM –  Lab Work: Back at laboratory. Running samples through X-ray diffraction and electron microscope. Determining exact mineral composition and crystal structure.",
+          "7:00 PM –  Report Writing: Compiling day's findings into comprehensive geological report. This report will guide exploration strategy and investment decisions."
         ]
       },
       {
@@ -716,11 +716,11 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.8 Crore",
-          "Senior / Lead Role (10+ yrs): ₹25 LPA – ₹50 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹25 LPA",
-          "Junior / Associate (3–5 yrs): ₹6 LPA – ₹12 LPA",
-          "Entry Level (0–2 yrs): ₹4 LPA – ₹7 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹45 LPA –  ₹1.8 Crore",
+          "Senior / Lead Role (10+ yrs): ₹25 LPA –  ₹50 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹12 LPA –  ₹25 LPA",
+          "Junior / Associate (3–5 yrs): ₹6 LPA –  ₹12 LPA",
+          "Entry Level (0–2 yrs): ₹4 LPA –  ₹7 LPA",
           "Note: Oil & gas sector pays 40% more. Mining sector offers field allowances. Research positions offer grants.",
           "Where Are the Jobs?",
           "Top Cities: Bangalore, Hyderabad, Delhi-NCR, Mumbai, Pune, Kolkata.",
@@ -938,13 +938,13 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an oceanographer.",
         color: RED2,
         content: [
-          "5:00 AM -  The Research Vessel: Day begins on research ship in Arabian Sea. Preparing scientific equipment for deep-sea sampling. Checking CTD (Conductivity, Temperature, Depth) sensors and water sampling bottles.",
-          "8:00 AM -  Ocean Sampling: Deploying instruments to collect water samples from different ocean depths. Recording temperature, salinity, oxygen levels, and nutrient concentrations. Each sample tells story of ocean health.",
-          "11:00 AM -  Marine Biology: Observing plankton under microscope. Identifying species and assessing population health. These tiny organisms form base of ocean food chain.",
-          "1:30 PM -  Data Analysis: Back in ship's laboratory. Analyzing water chemistry data. Comparing current readings with historical data to identify trends and changes.",
-          "3:30 PM -  Seafloor Mapping: Using sonar to map ocean floor topography. Identifying underwater features—trenches, ridges, hydrothermal vents. Creating detailed maps for future research.",
-          "6:00 PM -  Community Engagement: Video conference with fishing community on shore. Sharing findings about fish populations and ocean health. Discussing sustainable fishing practices.",
-          "8:00 PM -  Report Writing: Compiling day's data into research log. Planning next day's sampling strategy. Feeling energized knowing your work contributes to ocean conservation."
+          "5:00 AM –  The Research Vessel: Day begins on research ship in Arabian Sea. Preparing scientific equipment for deep-sea sampling. Checking CTD (Conductivity, Temperature, Depth) sensors and water sampling bottles.",
+          "8:00 AM –  Ocean Sampling: Deploying instruments to collect water samples from different ocean depths. Recording temperature, salinity, oxygen levels, and nutrient concentrations. Each sample tells story of ocean health.",
+          "11:00 AM –  Marine Biology: Observing plankton under microscope. Identifying species and assessing population health. These tiny organisms form base of ocean food chain.",
+          "1:30 PM –  Data Analysis: Back in ship's laboratory. Analyzing water chemistry data. Comparing current readings with historical data to identify trends and changes.",
+          "3:30 PM –  Seafloor Mapping: Using sonar to map ocean floor topography. Identifying underwater features—trenches, ridges, hydrothermal vents. Creating detailed maps for future research.",
+          "6:00 PM –  Community Engagement: Video conference with fishing community on shore. Sharing findings about fish populations and ocean health. Discussing sustainable fishing practices.",
+          "8:00 PM –  Report Writing: Compiling day's data into research log. Planning next day's sampling strategy. Feeling energized knowing your work contributes to ocean conservation."
         ]
       },
       {
@@ -1015,11 +1015,11 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2 Crore",
-          "Senior / Lead Role (10+ yrs): ₹28 LPA – ₹55 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹14 LPA – ₹28 LPA",
-          "Junior / Associate (3–5 yrs): ₹7 LPA – ₹14 LPA",
-          "Entry Level (0–2 yrs): ₹4 LPA – ₹7 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹28 LPA –  ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹14 LPA –  ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 LPA –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 LPA –  ₹7 LPA",
           "Note: Research positions offer grants. Oil & gas sector pays 35% more. International postings offer premium salaries.",
           "Where Are the Jobs?",
           "Top Cities: Kochi, Mumbai, Goa, Chennai, Visakhapatnam, Kolkata.",
@@ -1237,13 +1237,13 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a wildlife biologist.",
         color: RED2,
         content: [
-          "5:30 AM -  The Field Expedition: Day begins in tiger reserve in Madhya Pradesh. Hiking through forest with tracking equipment. Looking for tiger pug marks, scat, and other signs. Every clue reveals tiger's movements and health.",
-          "9:00 AM -  Camera Trap Analysis: Checking camera traps placed throughout reserve. Reviewing footage to identify individual tigers, count population, assess breeding success. Data crucial for conservation planning.",
-          "12:00 PM -  Community Engagement: Meeting with local villagers. Discussing livestock protection and compensation schemes. Building trust is essential for conservation success.",
-          "2:30 PM -  Lab Work: Back at research station. Analyzing DNA samples from tiger scat. Genetic analysis reveals population health, inbreeding levels, and genetic diversity.",
-          "4:00 PM -  Data Analysis: Compiling population data and creating conservation models. Analyzing trends in tiger numbers and habitat quality.",
-          "6:00 PM -  Report Writing: Writing conservation recommendations for park management. Your findings will guide protection strategies.",
-          "8:00 PM -  Collaboration: Video call with international conservation partners. Sharing research findings and coordinating global tiger conservation efforts."
+          "5:30 AM –  The Field Expedition: Day begins in tiger reserve in Madhya Pradesh. Hiking through forest with tracking equipment. Looking for tiger pug marks, scat, and other signs. Every clue reveals tiger's movements and health.",
+          "9:00 AM –  Camera Trap Analysis: Checking camera traps placed throughout reserve. Reviewing footage to identify individual tigers, count population, assess breeding success. Data crucial for conservation planning.",
+          "12:00 PM –  Community Engagement: Meeting with local villagers. Discussing livestock protection and compensation schemes. Building trust is essential for conservation success.",
+          "2:30 PM –  Lab Work: Back at research station. Analyzing DNA samples from tiger scat. Genetic analysis reveals population health, inbreeding levels, and genetic diversity.",
+          "4:00 PM –  Data Analysis: Compiling population data and creating conservation models. Analyzing trends in tiger numbers and habitat quality.",
+          "6:00 PM –  Report Writing: Writing conservation recommendations for park management. Your findings will guide protection strategies.",
+          "8:00 PM –  Collaboration: Video call with international conservation partners. Sharing research findings and coordinating global tiger conservation efforts."
         ]
       },
       {
@@ -1314,11 +1314,11 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹45 LPA – ₹1.8 Crore",
-          "Senior / Lead Role (10+ yrs): ₹24 LPA – ₹50 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹12 LPA – ₹24 LPA",
-          "Junior / Associate (3–5 yrs): ₹6 LPA – ₹12 LPA",
-          "Entry Level (0–2 yrs): ₹4 LPA – ₹7 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹45 LPA –  ₹1.8 Crore",
+          "Senior / Lead Role (10+ yrs): ₹24 LPA –  ₹50 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹12 LPA –  ₹24 LPA",
+          "Junior / Associate (3–5 yrs): ₹6 LPA –  ₹12 LPA",
+          "Entry Level (0–2 yrs): ₹4 LPA –  ₹7 LPA",
           "Note: Government positions offer job security. NGO positions offer mission-driven work. Research grants supplement income.",
           "Where Are the Jobs?",
           "Top Cities/Regions: Madhya Pradesh, Chhattisgarh, Odisha, Jharkhand, Assam, Kerala, Himachal Pradesh.",
@@ -1494,3 +1494,5 @@ export const environmentUpdateData: Record<string, CareerPageData> = {
     ]
   },
 };
+
+

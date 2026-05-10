@@ -72,7 +72,7 @@ export const institutionsSnippets = [
   color: "BLUE",
   content: [
     "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Bangalore, Faculty of Management Studies (FMS), University of Delhi, National Institute of Financial Management (NIFM), Faridabad",
-    "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, SP Jain Institute of Management & Research, Mumbai, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
+    "Private: Indian School of Business (ISB), Hyderabad, XLRI –  Xavier School of Management, Jamshedpur, SP Jain Institute of Management & Research, Mumbai, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
     "Online: NPTEL (IIT/IISc courses), National Institute of Financial Management (NIFM) Online, NSE Academy (Stock Exchange Certifications), ICAI Online Learning (Chartered Accountancy), Career Opportunities, Conventional, Corporate Finance Analyst, Financial Planning and Analysis Analyst, Treasury Analyst, Business Finance Executive, New-age and AI driven, Fintech Finance Analyst, AI-Driven Financial Analyst, Risk Analytics Specialist, Financial Modelling Analyst, Remote/entrepreneurship, Freelance Finance Consultant, Virtual CFO, Finance Content Creator, Financial Advisory Startup Founder"
   ]
 },
@@ -102,7 +102,7 @@ export const institutionsSnippets = [
   color: "BLUE",
   content: [
     "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Calcutta, Indian Institute of Technology (IIT), Bombay, National Institute of Industrial Engineering (NITIE), Mumbai",
-    "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, Symbiosis Institute of Operations Management, Nashik, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
+    "Private: Indian School of Business (ISB), Hyderabad, XLRI –  Xavier School of Management, Jamshedpur, Symbiosis Institute of Operations Management, Nashik, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
     "Online: NPTEL (IIT/IISc courses), NITIE Mumbai (Online Programs), edX (IIMBx Operations Management), Simplilearn (Six Sigma & Lean Certifications), Career Opportunities, Conventional, Operations Executive, Operations Manager, Process Excellence Analyst, Supply Chain Operations Analyst, New-age and AI driven, Business Operations Analyst, Product Operations Manager, Revenue Operations Analyst, AI-Enabled Operations Analyst, Remote/entrepreneurship, Operations Consultant, Freelance Process Improvement Specialist, Virtual Operations Manager, Operations Agency Founder"
   ]
 },

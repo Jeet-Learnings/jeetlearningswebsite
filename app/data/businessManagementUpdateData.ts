@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const BLUE = "#1E40AF";
 const BLUE2 = "#3B82F6";
@@ -47,11 +47,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a BPO professional.",
         color: BLUE2,
         content: [
-          "2:30 PM -  The Shift Begins: Arrive at modern glass-fronted office in Gurgaon. Supporting company in UK, day starts in afternoon. Swipe ID card, grab coffee, join 10-minute 'huddle' where Team Lead discusses day's targets.",
-          "4:00 PM -  The Deep Dive: Log into system. One screen has customer's history; other has AI assistant suggesting solutions. Handle mix of calls and 'live chats.' One moment helping track lost parcel; next explaining complex billing error.",
-          "7:30 PM -  The Cafeteria Buzz: Lunch break (or dinner!). Cafeteria alive with energy. Sit with friends working different 'processes'—one handles Travel, another Finance. Mini-world under one roof.",
-          "10:00 PM -  Quality & Feedback: Last hour reviewing 'Customer Satisfaction' scores. Listen to recording of call with trainer to see how to sound more empathetic or solve problems faster.",
-          "11:30 PM -  The Ride Home: Board company-provided cab. Look out at city lights. Feel sense of pride. Spent day helping people across ocean solve their problems."
+          "2:30 PM –  The Shift Begins: Arrive at modern glass-fronted office in Gurgaon. Supporting company in UK, day starts in afternoon. Swipe ID card, grab coffee, join 10-minute 'huddle' where Team Lead discusses day's targets.",
+          "4:00 PM –  The Deep Dive: Log into system. One screen has customer's history; other has AI assistant suggesting solutions. Handle mix of calls and 'live chats.' One moment helping track lost parcel; next explaining complex billing error.",
+          "7:30 PM –  The Cafeteria Buzz: Lunch break (or dinner!). Cafeteria alive with energy. Sit with friends working different 'processes'—one handles Travel, another Finance. Mini-world under one roof.",
+          "10:00 PM –  Quality & Feedback: Last hour reviewing 'Customer Satisfaction' scores. Listen to recording of call with trainer to see how to sound more empathetic or solve problems faster.",
+          "11:30 PM –  The Ride Home: Board company-provided cab. Look out at city lights. Feel sense of pride. Spent day helping people across ocean solve their problems."
         ]
       },
       {
@@ -98,7 +98,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA – ₹1.5 Cr+","Senior (10+ yrs): ₹25 – ₹45 LPA","Mid-Level (5–8 yrs): ₹12 – ₹22 LPA","Junior (3–5 yrs): ₹6 – ₹11 LPA","Entry Level (0–2 yrs): ₹3 – ₹5 LPA","Salary Note: Metros pay 30% more. AI/Language skills boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Gurgaon, Pune, Mumbai.","Top Industries: BFSI, E-commerce, Healthcare, Telecom.","Global Demand: USA, UK. Remote KPO roles rising.","Top Institutions","Government: Indian Institute of Management (IIM), Bangalore, National Institute of Electronics & Information Technology (NIELIT), Indian Institute of Foreign Trade (IIFT), Delhi, Indira Gandhi National Open University (IGNOU)","Private: Indian School of Business (ISB), Hyderabad, Amity University, Symbiosis International University, Pune, NIIT University, Neemrana","Online: NPTEL (IIT/IISc courses), NASSCOM FutureSkills, Udemy Business (BPO Management courses), Skill India Digital Hub (SIDH)","Career Opportunities","Conventional","Customer Support Executive","Process Associate","Quality Analyst","Team Leader","New-age and AI driven","Customer Experience Analyst","RPA Process Analyst","Workforce Management Analyst","Trust and Safety Associate","Remote/entrepreneurship","Remote Customer Support Specialist","BPO Process Consultant","Virtual Team Manager","Outsourcing Agency Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA –  ₹1.5 Cr+","Senior (10+ yrs): ₹25 –  ₹45 LPA","Mid-Level (5–8 yrs): ₹12 –  ₹22 LPA","Junior (3–5 yrs): ₹6 –  ₹11 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5 LPA","Salary Note: Metros pay 30% more. AI/Language skills boost pay.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Gurgaon, Pune, Mumbai.","Top Industries: BFSI, E-commerce, Healthcare, Telecom.","Global Demand: USA, UK. Remote KPO roles rising.","Top Institutions","Government: Indian Institute of Management (IIM), Bangalore, National Institute of Electronics & Information Technology (NIELIT), Indian Institute of Foreign Trade (IIFT), Delhi, Indira Gandhi National Open University (IGNOU)","Private: Indian School of Business (ISB), Hyderabad, Amity University, Symbiosis International University, Pune, NIIT University, Neemrana","Online: NPTEL (IIT/IISc courses), NASSCOM FutureSkills, Udemy Business (BPO Management courses), Skill India Digital Hub (SIDH)","Career Opportunities","Conventional","Customer Support Executive","Process Associate","Quality Analyst","Team Leader","New-age and AI driven","Customer Experience Analyst","RPA Process Analyst","Workforce Management Analyst","Trust and Safety Associate","Remote/entrepreneurship","Remote Customer Support Specialist","BPO Process Consultant","Virtual Team Manager","Outsourcing Agency Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -289,11 +289,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a business analyst.",
         color: BLUE2,
         content: [
-          "9:30 AM -  The Morning Dashboard: Day begins at high-tech office in Gurgaon. First thing: check 'Dashboard'—screen full of colorful charts. Notice sales for new energy drink dropped 10% yesterday. Don't panic—start digging into 'Why.'",
-          "11:00 AM -  The Data Deep-Dive: Use SQL to pull data from company's massive digital warehouse. Realize sales drop happened only in cities where it rained heavily. Delivery bikes couldn't reach customers. Found 'Smoking Gun.'",
-          "1:30 PM -  The Strategy Lunch: Over lunch with Marketing team, present findings. Suggest that next storm prediction, app should offer 'Stay-at-Home' discounts to encourage early orders. Not just 'math person'—business strategist.",
-          "4:00 PM -  Visualizing the Future: Spend afternoon on Tableau creating beautiful map showing exactly where company should open next five warehouses. Looks like art, but actually multi-crore investment plan.",
-          "6:30 PM -  The Global Sync: Video call with team in New York. Explain 'Rainy Day Strategy.' They're impressed and want to try in their cities. Head home knowing work today will save company millions tomorrow."
+          "9:30 AM –  The Morning Dashboard: Day begins at high-tech office in Gurgaon. First thing: check 'Dashboard'—screen full of colorful charts. Notice sales for new energy drink dropped 10% yesterday. Don't panic—start digging into 'Why.'",
+          "11:00 AM –  The Data Deep-Dive: Use SQL to pull data from company's massive digital warehouse. Realize sales drop happened only in cities where it rained heavily. Delivery bikes couldn't reach customers. Found 'Smoking Gun.'",
+          "1:30 PM –  The Strategy Lunch: Over lunch with Marketing team, present findings. Suggest that next storm prediction, app should offer 'Stay-at-Home' discounts to encourage early orders. Not just 'math person'—business strategist.",
+          "4:00 PM –  Visualizing the Future: Spend afternoon on Tableau creating beautiful map showing exactly where company should open next five warehouses. Looks like art, but actually multi-crore investment plan.",
+          "6:30 PM –  The Global Sync: Video call with team in New York. Explain 'Rainy Day Strategy.' They're impressed and want to try in their cities. Head home knowing work today will save company millions tomorrow."
         ]
       },
       {
@@ -340,7 +340,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Crore+","Senior / Lead Role (10+ yrs): ₹35 – ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹18 – ₹35 LPA","Junior / Associate (3–5 yrs): ₹10 – ₹18 LPA","Entry Level (0–2 yrs): ₹6 – ₹12 LPA","Salary Note: Metros pay 40% higher. AI/Cloud skills command premiums.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Gurgaon, Mumbai, Pune, Chennai.","Top Industries: FinTech, E-commerce, EdTech, Management Consulting, SaaS.","Global Demand: USA, UAE, UK. Remote freelance analytics booming.","Top Institutions","Government: Indian Institute of Management (IIM), Calcutta, Indian Institute of Technology (IIT), Kharagpur, Indian Statistical Institute (ISI), Kolkata, Indian Institute of Management (IIM), Bangalore","Private: Indian School of Business (ISB), Hyderabad, Great Lakes Institute of Management, Chennai, SP Jain Institute of Management & Research, Mumbai, BITS Pilani","Online: NPTEL (IIT/IISc courses), ISI Kolkata (Online Certificate Programs), Great Learning (Analytics Programs), edX (IIMBx Business Analytics)","Career Opportunities","Conventional","Business Analyst","Data Analyst","Business Intelligence Analyst","Reporting Analyst","New-age and AI driven","Product Analyst","AI Business Analyst","Decision Science Analyst","Customer Analytics Analyst","Remote/entrepreneurship","Freelance Analytics Consultant","Dashboard and Power BI Specialist","Analytics Trainer","Analytics Startup Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹2.5 Crore+","Senior / Lead Role (10+ yrs): ₹35 –  ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹18 –  ₹35 LPA","Junior / Associate (3–5 yrs): ₹10 –  ₹18 LPA","Entry Level (0–2 yrs): ₹6 –  ₹12 LPA","Salary Note: Metros pay 40% higher. AI/Cloud skills command premiums.","Where Are the Jobs?","Top Cities: Bangalore, Hyderabad, Gurgaon, Mumbai, Pune, Chennai.","Top Industries: FinTech, E-commerce, EdTech, Management Consulting, SaaS.","Global Demand: USA, UAE, UK. Remote freelance analytics booming.","Top Institutions","Government: Indian Institute of Management (IIM), Calcutta, Indian Institute of Technology (IIT), Kharagpur, Indian Statistical Institute (ISI), Kolkata, Indian Institute of Management (IIM), Bangalore","Private: Indian School of Business (ISB), Hyderabad, Great Lakes Institute of Management, Chennai, SP Jain Institute of Management & Research, Mumbai, BITS Pilani","Online: NPTEL (IIT/IISc courses), ISI Kolkata (Online Certificate Programs), Great Learning (Analytics Programs), edX (IIMBx Business Analytics)","Career Opportunities","Conventional","Business Analyst","Data Analyst","Business Intelligence Analyst","Reporting Analyst","New-age and AI driven","Product Analyst","AI Business Analyst","Decision Science Analyst","Customer Analytics Analyst","Remote/entrepreneurship","Freelance Analytics Consultant","Dashboard and Power BI Specialist","Analytics Trainer","Analytics Startup Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -379,7 +379,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Financial assistance programs.",
         color: BLUE2,
         content: [
-          "Central: NSP (National Scholarship Portal) – Merit-cum-Means scholarships.",
+          "Central: NSP (National Scholarship Portal) –  Merit-cum-Means scholarships.",
           "Institutional: Most IIMs offer 100% fee waivers for students with annual family income below ₹5L.",
           "Private: Tata Trusts and Reliance Foundation offer grants for students in Data Science/AI fields.",
           "Merit-Based: Most institutes offer scholarships for top entrance exam performers.",
@@ -531,11 +531,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a finance manager.",
         color: BLUE2,
         content: [
-          "9:00 AM -  The Market Pulse: Walk into glass-walled office in Mumbai's BKC. Check 'Bloomberg Terminal'—screen full of red and green numbers. Indian Rupee weakened against Dollar. Problem: company imports raw materials. Call treasury team to 'hedge' risk.",
-          "11:30 AM -  The CEO Huddle: Sit with CEO. She wants launch new product in Middle East. Your job isn't 'yes' or 'no'—show math. Present spreadsheet: ₹20 crores to launch, ₹50 crores within two years. You're 'reality check' for company's dreams.",
-          "1:30 PM -  Lunch & Networking: Lunch with bank representative. Negotiating interest rate for new loan. Every 0.5% saved means millions kept for company. Not just eating—deal-making.",
-          "4:00 PM -  The Data Deep-Dive: Afternoon with Data Analytics team. Using AI tool to predict next month's sales. Notice people buying more through mobile app than stores. Decide to shift budget to digital marketing.",
-          "6:30 PM -  The Investors' Call: Day ends with video call with investors in London. They want know why profit grew only 5% last quarter. Explain long-term strategy with confidence. Head home knowing you managed company's future."
+          "9:00 AM –  The Market Pulse: Walk into glass-walled office in Mumbai's BKC. Check 'Bloomberg Terminal'—screen full of red and green numbers. Indian Rupee weakened against Dollar. Problem: company imports raw materials. Call treasury team to 'hedge' risk.",
+          "11:30 AM –  The CEO Huddle: Sit with CEO. She wants launch new product in Middle East. Your job isn't 'yes' or 'no'—show math. Present spreadsheet: ₹20 crores to launch, ₹50 crores within two years. You're 'reality check' for company's dreams.",
+          "1:30 PM –  Lunch & Networking: Lunch with bank representative. Negotiating interest rate for new loan. Every 0.5% saved means millions kept for company. Not just eating—deal-making.",
+          "4:00 PM –  The Data Deep-Dive: Afternoon with Data Analytics team. Using AI tool to predict next month's sales. Notice people buying more through mobile app than stores. Decide to shift budget to digital marketing.",
+          "6:30 PM –  The Investors' Call: Day ends with video call with investors in London. They want know why profit grew only 5% last quarter. Explain long-term strategy with confidence. Head home knowing you managed company's future."
         ]
       },
       {
@@ -582,7 +582,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹80 LPA – ₹2.5 Cr+","Senior (10+ yrs): ₹35 – ₹65 LPA","Mid-Level (5–8 yrs): ₹18 – ₹32 LPA","Junior (3–5 yrs): ₹10 – ₹17 LPA","Entry Level (0–2 yrs): ₹6 – ₹10 LPA","Salary Note: Metros pay 40% higher. CA/CFA/MBA boost entry pay.","Where Are the Jobs?","Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.","Top Industries: BFSI, Fintech, Consulting, E-commerce, MNC GCCs.","Global Demand: USA, UK, UAE. Remote strategic roles increasing.","Top Institutions","Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Bangalore, Faculty of Management Studies (FMS), University of Delhi, National Institute of Financial Management (NIFM), Faridabad","Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, SP Jain Institute of Management & Research, Mumbai, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","Online: NPTEL (IIT/IISc courses), National Institute of Financial Management (NIFM) Online, NSE Academy (Stock Exchange Certifications), ICAI Online Learning (Chartered Accountancy)","Career Opportunities","Conventional","Corporate Finance Analyst","Financial Planning and Analysis Analyst","Treasury Analyst","Business Finance Executive","New-age and AI driven","Fintech Finance Analyst","AI-Driven Financial Analyst","Risk Analytics Specialist","Financial Modelling Analyst","Remote/entrepreneurship","Freelance Finance Consultant","Virtual CFO","Finance Content Creator","Financial Advisory Startup Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹80 LPA –  ₹2.5 Cr+","Senior (10+ yrs): ₹35 –  ₹65 LPA","Mid-Level (5–8 yrs): ₹18 –  ₹32 LPA","Junior (3–5 yrs): ₹10 –  ₹17 LPA","Entry Level (0–2 yrs): ₹6 –  ₹10 LPA","Salary Note: Metros pay 40% higher. CA/CFA/MBA boost entry pay.","Where Are the Jobs?","Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.","Top Industries: BFSI, Fintech, Consulting, E-commerce, MNC GCCs.","Global Demand: USA, UK, UAE. Remote strategic roles increasing.","Top Institutions","Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Bangalore, Faculty of Management Studies (FMS), University of Delhi, National Institute of Financial Management (NIFM), Faridabad","Private: Indian School of Business (ISB), Hyderabad, XLRI –  Xavier School of Management, Jamshedpur, SP Jain Institute of Management & Research, Mumbai, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","Online: NPTEL (IIT/IISc courses), National Institute of Financial Management (NIFM) Online, NSE Academy (Stock Exchange Certifications), ICAI Online Learning (Chartered Accountancy)","Career Opportunities","Conventional","Corporate Finance Analyst","Financial Planning and Analysis Analyst","Treasury Analyst","Business Finance Executive","New-age and AI driven","Fintech Finance Analyst","AI-Driven Financial Analyst","Risk Analytics Specialist","Financial Modelling Analyst","Remote/entrepreneurship","Freelance Finance Consultant","Virtual CFO","Finance Content Creator","Financial Advisory Startup Founder"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -773,11 +773,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an operations manager.",
         color: BLUE2,
         content: [
-          "9:00 AM -  The Morning Dashboard: Day begins at tech hub in Bengaluru. Log into digital dashboard to check KPIs. Notice 'delivery success rate' in North India dipped 4% last night. Don't panic—start trace immediately.",
-          "11:00 AM -  The Strategy Huddle: Meet with Logistics team. Discover local strike delayed trucks. Quickly negotiate with secondary courier partner to reroute high-priority packages. Problem solved before afternoon rush.",
-          "1:30 PM -  The Efficiency Lunch: Lunch with Head of Engineering. Discussing new AI tool that can automate customer query sorting. Not just eating—calculating 'Return on Investment' (ROI) of this tech.",
-          "3:30 PM -  Process Mapping: Spend afternoon in 'War Room' with whiteboards. Mapping new workflow for customer support team to reduce response time from 10 minutes to 2 minutes. Literally 're-wiring' how company works.",
-          "6:00 PM -  The Global Sync: Video call with US headquarters. Present report showing operational changes saved company ₹50 lakhs this month. Head home knowing you were reason company didn't just survive—it thrived."
+          "9:00 AM –  The Morning Dashboard: Day begins at tech hub in Bengaluru. Log into digital dashboard to check KPIs. Notice 'delivery success rate' in North India dipped 4% last night. Don't panic—start trace immediately.",
+          "11:00 AM –  The Strategy Huddle: Meet with Logistics team. Discover local strike delayed trucks. Quickly negotiate with secondary courier partner to reroute high-priority packages. Problem solved before afternoon rush.",
+          "1:30 PM –  The Efficiency Lunch: Lunch with Head of Engineering. Discussing new AI tool that can automate customer query sorting. Not just eating—calculating 'Return on Investment' (ROI) of this tech.",
+          "3:30 PM –  Process Mapping: Spend afternoon in 'War Room' with whiteboards. Mapping new workflow for customer support team to reduce response time from 10 minutes to 2 minutes. Literally 're-wiring' how company works.",
+          "6:00 PM –  The Global Sync: Video call with US headquarters. Present report showing operational changes saved company ₹50 lakhs this month. Head home knowing you were reason company didn't just survive—it thrived."
         ]
       },
       {
@@ -848,11 +848,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO (15+ yrs): ₹70 LPA – ₹2.0 Cr+",
-          "Senior (10+ yrs): ₹30 – ₹55 LPA",
-          "Mid-Level (5–8 yrs): ₹16 – ₹28 LPA",
-          "Junior (3–5 yrs): ₹9 – ₹15 LPA",
-          "Entry Level (0–2 yrs): ₹5 – ₹9 LPA",
+          "CXO (15+ yrs): ₹70 LPA –  ₹2.0 Cr+",
+          "Senior (10+ yrs): ₹30 –  ₹55 LPA",
+          "Mid-Level (5–8 yrs): ₹16 –  ₹28 LPA",
+          "Junior (3–5 yrs): ₹9 –  ₹15 LPA",
+          "Entry Level (0–2 yrs): ₹5 –  ₹9 LPA",
           "Note: Metros pay 35% extra. MBA/Six-Sigma boosts pay.",
           "Where Are the Jobs?",
           "Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.",
@@ -860,7 +860,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Global Demand: USA, UAE. Remote/hybrid roles growing.",
           "Top Institutions",
           "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Calcutta, Indian Institute of Technology (IIT), Bombay, National Institute of Industrial Engineering (NITIE), Mumbai",
-          "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, Symbiosis Institute of Operations Management, Nashik, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
+          "Private: Indian School of Business (ISB), Hyderabad, XLRI –  Xavier School of Management, Jamshedpur, Symbiosis Institute of Operations Management, Nashik, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai",
           "Online: NPTEL (IIT/IISc courses), NITIE Mumbai (Online Programs), edX (IIMBx Operations Management), Simplilearn (Six Sigma & Lean Certifications)"
         ]
       },{
@@ -902,7 +902,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Financial assistance programs.",
         color: BLUE2,
         content: [
-          "Central: NSP (National Scholarship Portal) – Post-matric and merit-based scholarships.",
+          "Central: NSP (National Scholarship Portal) –  Post-matric and merit-based scholarships.",
           "Institutional: IIMs offer 100% need-based scholarships for families earning < ₹5L annually.",
           "Private: IDFC FIRST Bank MBA Scholarship (₹2L for 2 years). Various corporate scholarships.",
           "State: Odisha Mukhyamantri Medhabi Chhatra Protsahan Yojana for technical/professional courses.",
@@ -1064,12 +1064,12 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an HR professional.",
         color: BLUE2,
         content: [
-          "9:00 AM -  The Morning Huddle: Arrive at vibrant office in Gurgaon. Day starts with 'Culture Check.' Walk through office, greeting employees. Notice engineering team looks stressed—working late. Make mental note to organize 'Fun Friday' or team-building session.",
-          "11:00 AM -  The Interview Marathon: In glass cabin, interviewing three candidates for new AI Engineer role. Not just checking coding skills—checking if they are team players. Looking for 'Cultural Fit.'",
-          "1:30 PM -  Strategy Lunch: Over lunch with CEO, discuss 'Attrition Rate' (how many people leaving company). Propose new 'Flexible Work Policy' or better health insurance to keep best people from moving to competitors.",
-          "3:30 PM -  The Policy Workshop: Spend afternoon in boardroom, explaining new Labor Law changes to senior managers. Use data and charts to show how changes will impact company's payroll.",
-          "5:30 PM -  The Conflict Resolution: Junior designer and senior manager have disagreement over project deadline. Sit them both down and act as neutral mediator. By time they leave, they have 'Handshake Agreement' and clear plan forward.",
-          "7:00 PM -  The Review Wrap-up: Before leaving, review feedback from today's training session on 'Inclusive Leadership.' Head home knowing you've made workplace better for 500 people."
+          "9:00 AM –  The Morning Huddle: Arrive at vibrant office in Gurgaon. Day starts with 'Culture Check.' Walk through office, greeting employees. Notice engineering team looks stressed—working late. Make mental note to organize 'Fun Friday' or team-building session.",
+          "11:00 AM –  The Interview Marathon: In glass cabin, interviewing three candidates for new AI Engineer role. Not just checking coding skills—checking if they are team players. Looking for 'Cultural Fit.'",
+          "1:30 PM –  Strategy Lunch: Over lunch with CEO, discuss 'Attrition Rate' (how many people leaving company). Propose new 'Flexible Work Policy' or better health insurance to keep best people from moving to competitors.",
+          "3:30 PM –  The Policy Workshop: Spend afternoon in boardroom, explaining new Labor Law changes to senior managers. Use data and charts to show how changes will impact company's payroll.",
+          "5:30 PM –  The Conflict Resolution: Junior designer and senior manager have disagreement over project deadline. Sit them both down and act as neutral mediator. By time they leave, they have 'Handshake Agreement' and clear plan forward.",
+          "7:00 PM –  The Review Wrap-up: Before leaving, review feedback from today's training session on 'Inclusive Leadership.' Head home knowing you've made workplace better for 500 people."
         ]
       },
       {
@@ -1190,7 +1190,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Financial assistance programs.",
         color: BLUE,
         content: [
-          "Central: National Scholarship Portal (NSP) – Post-matric scholarships for meritorious students from low-income families.",
+          "Central: National Scholarship Portal (NSP) –  Post-matric scholarships for meritorious students from low-income families.",
           "Institutional: TISS and IIMs offer 100% need-based scholarships for eligible students.",
           "Private: Tata Capital Scholarship, L'Oréal India For Young Women in Science (can be used for management degrees).",
           "Company Sponsorships: Many companies sponsor MBA for high-performing employees.",
@@ -1339,11 +1339,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an international business professional.",
         color: BLUE2,
         content: [
-          "9:00 AM -  The Morning Briefing (IST): Start day in high-tech office in Gurgaon. First task: check overnight news from New York. Did US Federal Reserve change interest rates? If so, cost of company's imports might go up. Send quick summary to boss.",
-          "11:30 AM -  The Cultural Strategy Meet: Video call with creative team. Launching new snack brand in Dubai. Point out packaging needs to be translated into Arabic and must strictly follow local food safety laws. Not just manager—cultural expert.",
-          "1:30 PM -  The Supply Chain Puzzle: Lunch while tracking shipment of raw materials from Vietnam. Delay at Singapore port. Quickly call logistics partner in Singapore to find alternative route. Professional problem-solver.",
-          "4:00 PM -  The Negotiation: Join Zoom call with potential partner in Germany. Spent weeks studying German business etiquette. Know they value punctuality and directness. Present proposal clearly, focusing on data. By end of hour, have 'Letter of Intent.'",
-          "7:00 PM -  The Evening Wrap-Up: Send email to team in Brazil, just starting their workday. Update them on German deal. Head home knowing while working in one building, influence moved across three continents."
+          "9:00 AM –  The Morning Briefing (IST): Start day in high-tech office in Gurgaon. First task: check overnight news from New York. Did US Federal Reserve change interest rates? If so, cost of company's imports might go up. Send quick summary to boss.",
+          "11:30 AM –  The Cultural Strategy Meet: Video call with creative team. Launching new snack brand in Dubai. Point out packaging needs to be translated into Arabic and must strictly follow local food safety laws. Not just manager—cultural expert.",
+          "1:30 PM –  The Supply Chain Puzzle: Lunch while tracking shipment of raw materials from Vietnam. Delay at Singapore port. Quickly call logistics partner in Singapore to find alternative route. Professional problem-solver.",
+          "4:00 PM –  The Negotiation: Join Zoom call with potential partner in Germany. Spent weeks studying German business etiquette. Know they value punctuality and directness. Present proposal clearly, focusing on data. By end of hour, have 'Letter of Intent.'",
+          "7:00 PM –  The Evening Wrap-Up: Send email to team in Brazil, just starting their workday. Update them on German deal. Head home knowing while working in one building, influence moved across three continents."
         ]
       },
       {
@@ -1392,11 +1392,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO (15+ yrs): ₹70L – ₹1.8Cr",
-          "Senior (10+ yrs): ₹30 – ₹55L",
-          "Mid-Level (5–8 yrs): ₹15 – ₹28L",
-          "Junior (3–5 yrs): ₹8 – ₹14L",
-          "Entry (0–2 yrs): ₹5 – ₹9L",
+          "CXO (15+ yrs): ₹70L –  ₹1.8Cr",
+          "Senior (10+ yrs): ₹30 –  ₹55L",
+          "Mid-Level (5–8 yrs): ₹15 –  ₹28L",
+          "Junior (3–5 yrs): ₹8 –  ₹14L",
+          "Entry (0–2 yrs): ₹5 –  ₹9L",
           "Note: Metros pay 35% more. Tier-1 MBA/IIFT boosts pay.",
           "Where Are the Jobs?",
           "Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.",
@@ -1404,7 +1404,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Global: USA, UAE. Remote strategy roles rising.",
           "Top Institutions",
           "Government: Indian Institute of Foreign Trade (IIFT), Delhi, Indian Institute of Management (IIM), Bangalore, Indian Institute of Management (IIM), Calcutta, Faculty of Management Studies (FMS), University of Delhi",
-          "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, Symbiosis Institute of International Business, Pune, Amity International Business School, Noida",
+          "Private: Indian School of Business (ISB), Hyderabad, XLRI –  Xavier School of Management, Jamshedpur, Symbiosis Institute of International Business, Pune, Amity International Business School, Noida",
           "Online: NPTEL (IIT/IISc courses), IIFT Delhi (Online Certificate Programs), edX (IIMBx International Business), Coursera (ISB Global Business Strategies)"
         ]
       },{
@@ -1590,11 +1590,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of an IT manager.",
         color: BLUE2,
         content: [
-          "8:30 AM -  The Morning Radar: Walk into high-tech office in Bangalore (Silicon Valley of India). First task: 'Security Huddle.' Dashboard shows minor attempted breach from suspicious IP address. Oversee cybersecurity team as they patch vulnerability before most people finish first cup of chai.",
-          "11:00 AM -  The Strategy Scrum: Meet with CEO. Company wants to move all data to 'Hybrid Cloud.' Don't talk in jargon—explain how this saves ₹50 Lakhs in server costs next year. 'Translator' between geek-speak and business-speak.",
-          "1:30 PM -  The Global Sync: Quick lunch before video call with team in Seattle. Managing project where Indian developers and American designers build new AI shopping assistant. Ensure 'workflow' smooth across time zones.",
-          "4:00 PM -  Mentorship and Troubleshooting: Junior developer stuck on 'bug' delaying app launch. Don't fix it for them—guide through logic. Managing hardware and growing human talent.",
-          "6:30 PM -  The Future Pulse: Spend 30 minutes reading about 'Agentic AI'—next big trend. If you stop learning for month, you're year behind. Leave office knowing company's digital heart beating perfectly."
+          "8:30 AM –  The Morning Radar: Walk into high-tech office in Bangalore (Silicon Valley of India). First task: 'Security Huddle.' Dashboard shows minor attempted breach from suspicious IP address. Oversee cybersecurity team as they patch vulnerability before most people finish first cup of chai.",
+          "11:00 AM –  The Strategy Scrum: Meet with CEO. Company wants to move all data to 'Hybrid Cloud.' Don't talk in jargon—explain how this saves ₹50 Lakhs in server costs next year. 'Translator' between geek-speak and business-speak.",
+          "1:30 PM –  The Global Sync: Quick lunch before video call with team in Seattle. Managing project where Indian developers and American designers build new AI shopping assistant. Ensure 'workflow' smooth across time zones.",
+          "4:00 PM –  Mentorship and Troubleshooting: Junior developer stuck on 'bug' delaying app launch. Don't fix it for them—guide through logic. Managing hardware and growing human talent.",
+          "6:30 PM –  The Future Pulse: Spend 30 minutes reading about 'Agentic AI'—next big trend. If you stop learning for month, you're year behind. Leave office knowing company's digital heart beating perfectly."
         ]
       },
       {
@@ -1645,11 +1645,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5 Cr+",
-          "Senior / Lead Role (10+ yrs): ₹30 – ₹60 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹18 – ₹32 LPA",
-          "Junior / Associate (3–5 yrs): ₹9 – ₹16 LPA",
-          "Entry Level (0–2 yrs): ₹5 – ₹9 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹2.5 Cr+",
+          "Senior / Lead Role (10+ yrs): ₹30 –  ₹60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹18 –  ₹32 LPA",
+          "Junior / Associate (3–5 yrs): ₹9 –  ₹16 LPA",
+          "Entry Level (0–2 yrs): ₹5 –  ₹9 LPA",
           "Note: Metros pay 40% more. AI/Cloud skills command premiums.",
           "Where Are the Jobs?",
           "Top Cities: Bangalore, Hyderabad, Pune, Delhi-NCR, Mumbai.",
@@ -1855,11 +1855,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a project manager.",
         color: BLUE2,
         content: [
-          "8:30 AM -  The Morning 'Stand-up': Day begins at tech-hub in Gurgaon. Standing with team in 15-minute 'scrum' meeting where everyone shares what they did yesterday and what they'll do today. Spot 'bottleneck'—testing team waiting for code. Make quick call to resolve.",
-          "11:00 AM -  The Stakeholder Sync: Video call with clients in London and finance team in Mumbai. Show 'Gantt Chart'—colorful bar chart proving project on track. Handle tough questions about budget with calm, data-backed confidence.",
-          "1:30 PM -  The Strategy Lunch: Chat with junior developer feeling burnt out. Project management isn't just about tools—it's about people. Offer encouragement and adjust schedule for next week.",
-          "3:30 PM -  Risk Mitigation: Spend afternoon in 'Deep Work.' Looking at 'Risk Register.' What if monsoon delays hardware delivery? Negotiate backup contract with local supplier. Predicting future, not just managing present.",
-          "6:00 PM -  The Impact Check: Review 'KPIs' (Key Performance Indicators). Project 65% complete, saved 5% of budget so far. Head home knowing you're glue holding multi-crore dream together."
+          "8:30 AM –  The Morning 'Stand-up': Day begins at tech-hub in Gurgaon. Standing with team in 15-minute 'scrum' meeting where everyone shares what they did yesterday and what they'll do today. Spot 'bottleneck'—testing team waiting for code. Make quick call to resolve.",
+          "11:00 AM –  The Stakeholder Sync: Video call with clients in London and finance team in Mumbai. Show 'Gantt Chart'—colorful bar chart proving project on track. Handle tough questions about budget with calm, data-backed confidence.",
+          "1:30 PM –  The Strategy Lunch: Chat with junior developer feeling burnt out. Project management isn't just about tools—it's about people. Offer encouragement and adjust schedule for next week.",
+          "3:30 PM –  Risk Mitigation: Spend afternoon in 'Deep Work.' Looking at 'Risk Register.' What if monsoon delays hardware delivery? Negotiate backup contract with local supplier. Predicting future, not just managing present.",
+          "6:00 PM –  The Impact Check: Review 'KPIs' (Key Performance Indicators). Project 65% complete, saved 5% of budget so far. Head home knowing you're glue holding multi-crore dream together."
         ]
       },
       {
@@ -1908,11 +1908,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO (15+ yrs): ₹80 LPA – ₹2.5 Crore+",
-          "Senior (10+ yrs): ₹30 – ₹60 LPA",
-          "Mid-Level (5–8 yrs): ₹15 – ₹30 LPA",
-          "Junior (3–5 yrs): ₹8 – ₹15 LPA",
-          "Entry Level (0–2 yrs): ₹4 – ₹9 LPA",
+          "CXO (15+ yrs): ₹80 LPA –  ₹2.5 Crore+",
+          "Senior (10+ yrs): ₹30 –  ₹60 LPA",
+          "Mid-Level (5–8 yrs): ₹15 –  ₹30 LPA",
+          "Junior (3–5 yrs): ₹8 –  ₹15 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹9 LPA",
           "Note: Metros pay 35% more. PMP/Agile certifications boost pay.",
           "Where Are the Jobs?",
           "Top Cities: Bangalore, Hyderabad, Pune, Mumbai, Delhi-NCR, Chennai.",
@@ -1920,7 +1920,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Global Demand: High in USA, UAE. Remote hybrid roles booming.",
           "Top Institutions",
           "Government: Indian Institute of Management (IIM), Ahmedabad, Indian Institute of Management (IIM), Bangalore, Indian Institute of Technology (IIT), Delhi, National Institute of Construction Management & Research (NICMAR), Pune",
-          "Private: Indian School of Business (ISB), Hyderabad, XLRI – Xavier School of Management, Jamshedpur, Symbiosis Institute of Business Management, Pune, SP Jain Institute of Management & Research, Mumbai",
+          "Private: Indian School of Business (ISB), Hyderabad, XLRI –  Xavier School of Management, Jamshedpur, Symbiosis Institute of Business Management, Pune, SP Jain Institute of Management & Research, Mumbai",
           "Online: NPTEL (IIT/IISc courses), PMI India (Project Management Certifications), NICMAR Online Programs, Simplilearn (PMP & PRINCE2 Certifications)"
         ]
       },{
@@ -2110,11 +2110,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a retail manager.",
         color: BLUE2,
         content: [
-          "9:00 AM -  The Strategy Huddle: Day begins at large lifestyle store in Bangalore. Before shutters go up, lead 15-minute 'pep talk' with team. Review today's sales targets and announce 'Top Seller' from yesterday.",
-          "11:30 AM -  Visual Merchandising Check: Store buzzing. Walk floor, checking 'Visual Merchandising.' Notice new summer collection isn't catching enough light. Call display team to adjust mannequins. Retail is in details!",
-          "1:30 PM -  The Inventory Deep-Dive: Quick lunch while checking 'Inventory Dashboard.' Notice specific brand of smartwatches selling out faster than expected in Tier-2 cities. Immediately authorize stock transfer from warehouse.",
-          "4:00 PM -  The Tech Update: Meet with developer installing new AI-based 'Smart Mirrors' in trial rooms. These mirrors allow customers to virtually 'try on' clothes without changing. Managing innovation hub.",
-          "7:30 PM -  The Evening Rush: Store packed. Customer unhappy about billing error. Step in, apologize, resolve with smile. Turned potential 'bad review' into 'loyal customer.'"
+          "9:00 AM –  The Strategy Huddle: Day begins at large lifestyle store in Bangalore. Before shutters go up, lead 15-minute 'pep talk' with team. Review today's sales targets and announce 'Top Seller' from yesterday.",
+          "11:30 AM –  Visual Merchandising Check: Store buzzing. Walk floor, checking 'Visual Merchandising.' Notice new summer collection isn't catching enough light. Call display team to adjust mannequins. Retail is in details!",
+          "1:30 PM –  The Inventory Deep-Dive: Quick lunch while checking 'Inventory Dashboard.' Notice specific brand of smartwatches selling out faster than expected in Tier-2 cities. Immediately authorize stock transfer from warehouse.",
+          "4:00 PM –  The Tech Update: Meet with developer installing new AI-based 'Smart Mirrors' in trial rooms. These mirrors allow customers to virtually 'try on' clothes without changing. Managing innovation hub.",
+          "7:30 PM –  The Evening Rush: Store packed. Customer unhappy about billing error. Step in, apologize, resolve with smile. Turned potential 'bad review' into 'loyal customer.'"
         ]
       },
       {
@@ -2166,11 +2166,11 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5 Crore+",
-          "Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹14 – ₹24 LPA",
-          "Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA",
-          "Entry Level (0–2 yrs): ₹4 – ₹7 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5 Crore+",
+          "Senior / Lead Role (10+ yrs): ₹25 –  ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹14 –  ₹24 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 –  ₹13 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹7 LPA",
           "Note: Metros pay 40% more. MBA/AI skills boost pay.",
           "Where Are the Jobs?",
           "Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune.",
@@ -2326,4 +2326,6 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+
+
 

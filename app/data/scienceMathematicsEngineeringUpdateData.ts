@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const BLUE = "#1E40AF";
 const BLUE2 = "#3B82F6";
@@ -47,11 +47,11 @@ export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageD
         description: "Real workflow at a smart manufacturing plant.",
         color: BLUE2,
         content: [
-          "08:30 AM – System Diagnostics: Ishita, a Mechatronics Engineer at a smart manufacturing plant in Pune, reviews the 'Real-Time Sensor Logs.' She checks if any actuators or robotic servos showed thermal anomalies or precision drift during the midnight shift.",
-          "10:30 AM – Integration Briefing: She meets the Software and Mechanical teams to plan a firmware patch for the automated sorting line. Ishita explains how to recalibrate the PID Control Loops to increase throughput without compromising the structural integrity of the robotic arms.",
-          "1:30 PM – Digital Twin Simulation: Using Multiphysics software, Ishita runs a 'Stress Simulation' for a new prototype drone. She tests if the integrated circuit board can withstand the vibrations of high-torque motors under extreme weather conditions.",
-          "4:00 PM – Strategy Session: She briefs the Chief Technology Officer (CTO). Ishita translates complex sensor data into strategy: recommending a shift to AI-driven Predictive Maintenance to reduce factory downtime by 15%.",
-          "7:30 PM – Technical Deep-Dive: Ishita reviews manuals on Cobots (Collaborative Robots) for a safety certification. Staying updated on human-machine interface protocols is vital for her career and the safety of the workforce."
+          "08:30 AM –  System Diagnostics: Ishita, a Mechatronics Engineer at a smart manufacturing plant in Pune, reviews the 'Real-Time Sensor Logs.' She checks if any actuators or robotic servos showed thermal anomalies or precision drift during the midnight shift.",
+          "10:30 AM –  Integration Briefing: She meets the Software and Mechanical teams to plan a firmware patch for the automated sorting line. Ishita explains how to recalibrate the PID Control Loops to increase throughput without compromising the structural integrity of the robotic arms.",
+          "1:30 PM –  Digital Twin Simulation: Using Multiphysics software, Ishita runs a 'Stress Simulation' for a new prototype drone. She tests if the integrated circuit board can withstand the vibrations of high-torque motors under extreme weather conditions.",
+          "4:00 PM –  Strategy Session: She briefs the Chief Technology Officer (CTO). Ishita translates complex sensor data into strategy: recommending a shift to AI-driven Predictive Maintenance to reduce factory downtime by 15%.",
+          "7:30 PM –  Technical Deep-Dive: Ishita reviews manuals on Cobots (Collaborative Robots) for a safety certification. Staying updated on human-machine interface protocols is vital for her career and the safety of the workforce."
         ]
       },
       {
@@ -98,7 +98,7 @@ export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageD
         icon: "TrendingUp",
         description: "Salaries, growth projections, and hiring trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹32 – ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 – ₹30 LPA","Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA","Entry Level (0–2 yrs): ₹4.5 – ₹7.5 LPA","Note: Expertise in Robotics, AI-integration (Physical AI), and ROS 2 boosts pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Pune, Chennai, Hyderabad, Delhi-NCR (Gurgaon/Noida).","Top Industries: Automotive/EV, Industrial Automation, Robotics, Aerospace, MedTech.","Global Demand: High in Germany, Japan, USA. Remote R&D and \"Digital Twin\" modeling are key trends.","Top Institutions","Career Opportunities","Conventional:","Mechatronics Engineer","Robotics Engineer","Automation / PLC Engineer","Control Systems Engineer","New-age and AI driven","Embedded Systems Engineer","Computer Vision Robotics Engineer","Smart Manufacturing Engineer","Autonomous Systems Engineer","Remote / Entrepreneurship","Robotics Trainer","Industrial Automation Consultant","Embedded Systems Freelancer","Robotics / Automation Startup Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹32 –  ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 –  ₹30 LPA","Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA","Entry Level (0–2 yrs): ₹4.5 –  ₹7.5 LPA","Note: Expertise in Robotics, AI-integration (Physical AI), and ROS 2 boosts pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Pune, Chennai, Hyderabad, Delhi-NCR (Gurgaon/Noida).","Top Industries: Automotive/EV, Industrial Automation, Robotics, Aerospace, MedTech.","Global Demand: High in Germany, Japan, USA. Remote R&D and \"Digital Twin\" modeling are key trends.","Top Institutions","Career Opportunities","Conventional:","Mechatronics Engineer","Robotics Engineer","Automation / PLC Engineer","Control Systems Engineer","New-age and AI driven","Embedded Systems Engineer","Computer Vision Robotics Engineer","Smart Manufacturing Engineer","Autonomous Systems Engineer","Remote / Entrepreneurship","Robotics Trainer","Industrial Automation Consultant","Embedded Systems Freelancer","Robotics / Automation Startup Founder"]
       },
       {
         id: "opportunities",
@@ -122,12 +122,12 @@ export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageD
         description: "Financial investment breakdown.",
         color: BLUE2,
         content: [
-          "Entrance Exams: Fees for JEE Main/Advanced or state CETs typically range from ₹1,000 – ₹2,000. GATE for post-graduation costs approximately ₹1,800.",
-          "University Tuition: A 4-year B.Tech in Mechatronics at a government college costs ₹4 Lakhs – ₹8 Lakhs, while premier private universities may range from ₹12 Lakhs – ₹20 Lakhs.",
-          "Hardware Kits: Aspiring engineers often invest ₹5,000 – ₹15,000 in Arduino/Raspberry Pi kits, sensors, and basic 3D printing services for personal projects.",
-          "Software & Certifications: While student versions of CAD are free, specialized certifications in PLC programming or ROS can cost ₹10,000 – ₹25,000.",
-          "Learning Resources: A collection of core textbooks on robotics, control systems, and embedded electronics costs around ₹3,000 – ₹6,000.",
-          "Total Journey: Including a degree and essential project kits, a student can become industry-ready with a total investment of ₹6 Lakhs – ₹22 Lakhs."
+          "Entrance Exams: Fees for JEE Main/Advanced or state CETs typically range from ₹1,000 –  ₹2,000. GATE for post-graduation costs approximately ₹1,800.",
+          "University Tuition: A 4-year B.Tech in Mechatronics at a government college costs ₹4 Lakhs –  ₹8 Lakhs, while premier private universities may range from ₹12 Lakhs –  ₹20 Lakhs.",
+          "Hardware Kits: Aspiring engineers often invest ₹5,000 –  ₹15,000 in Arduino/Raspberry Pi kits, sensors, and basic 3D printing services for personal projects.",
+          "Software & Certifications: While student versions of CAD are free, specialized certifications in PLC programming or ROS can cost ₹10,000 –  ₹25,000.",
+          "Learning Resources: A collection of core textbooks on robotics, control systems, and embedded electronics costs around ₹3,000 –  ₹6,000.",
+          "Total Journey: Including a degree and essential project kits, a student can become industry-ready with a total investment of ₹6 Lakhs –  ₹22 Lakhs."
         ]
       },
       {
@@ -176,7 +176,7 @@ export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageD
           "Ministry of Heavy Industries & MeitY: The apex government bodies that drive the 'National Policy on Robotics' and the 'Digital India' framework, setting the regulatory and manufacturing standards for the industry.",
           "National Skill Development Corporation (NSDC): The official body responsible for certifying and licensing the automation workforce through the Automotive Skills Development Council (ASDC) and electronics sectors.",
           "IEEE Robotics and Automation Society (RAS): The premier global professional body with active India chapters (e.g., Delhi, Madras, Bombay) that provides academic accreditation and sets worldwide research standards.",
-          "International Society of Automation (ISA) – India Section: The primary licensing body for automation professionals, offering globally recognized certifications like Certified Automation Professional (CAP) and Control Systems Technician (CCST).",
+          "International Society of Automation (ISA) –  India Section: The primary licensing body for automation professionals, offering globally recognized certifications like Certified Automation Professional (CAP) and Control Systems Technician (CCST).",
           "All India Council for Technical Education (AICTE): The statutory body that governs the curriculum standards for Mechatronics and Robotics degrees across Indian engineering colleges.",
           "International Federation of Robotics (IFR): An international body that collaborates with Indian associations (like AIR) to standardize industrial robot definitions and safety protocols globally.",
           "Quality Council of India (QCI): Works with private and public manufacturers to certify 'Zero Defect Zero Effect' standards in mechatronic production lines and smart factories."
@@ -244,4 +244,6 @@ export const scienceMathematicsEngineeringUpdateData: Record<string, CareerPageD
     ]
   }
 };
+
+
 

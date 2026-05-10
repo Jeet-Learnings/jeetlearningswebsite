@@ -165,7 +165,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA – ₹2.5+ Crore","Senior / Lead Role (10+ yrs): ₹40–80 LPA","Mid-Level Professional (5–8 yrs): ₹20–40 LPA","Junior / Associate (3–5 yrs): ₹10–20 LPA","Entry Level (0–2 yrs): ₹4–8 LPA","Note: Metro cities (Mumbai, Gurugram) pay 20–40% more; each actuarial exam cleared adds ~10–15% salary growth.","Where Are the Jobs?","Top Cities: Mumbai, Gurugram/Delhi-NCR, Bengaluru, Hyderabad, Pune","Top Industries: Insurance (LIC, HDFC Life), Consulting (Aon, WTW, PwC, Deloitte), Reinsurance, Banking, Pensions, InsurTech","Opportunities: High global demand (UK, USA, UAE, Singapore); growing remote, consulting, and freelance roles"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹2.5+ Crore","Senior / Lead Role (10+ yrs): ₹40–80 LPA","Mid-Level Professional (5–8 yrs): ₹20–40 LPA","Junior / Associate (3–5 yrs): ₹10–20 LPA","Entry Level (0–2 yrs): ₹4–8 LPA","Note: Metro cities (Mumbai, Gurugram) pay 20–40% more; each actuarial exam cleared adds ~10–15% salary growth.","Where Are the Jobs?","Top Cities: Mumbai, Gurugram/Delhi-NCR, Bengaluru, Hyderabad, Pune","Top Industries: Insurance (LIC, HDFC Life), Consulting (Aon, WTW, PwC, Deloitte), Reinsurance, Banking, Pensions, InsurTech","Opportunities: High global demand (UK, USA, UAE, Singapore); growing remote, consulting, and freelance roles"]
       },
      
       {
@@ -369,7 +369,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: RED2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 – ₹24 LPA","Junior / Associate (3–5 yrs): ₹6 – ₹10 LPA","Entry Level (0–2 yrs): ₹3.5 – ₹6 LPA","Note: Metros and M.Tech/PhD boost pay by 35%.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Mumbai, Chennai, Pune.","Top Industries: MedTech (GE, Medtronic), Hospitals, R&D, AI Startups.","Global Demand: High in USA, Germany. Remote-diagnostics trending.","Top Institutions","Career Opportunities","Conventional","Biomedical Engineer","Clinical Engineer","Medical Device Design Engineer","Hospital Equipment Engineer","New-age and AI driven","Digital Health Engineer","AI Diagnostics Engineer","Biomedical Data Scientist","Wearable Device Developer","Remote / Entrepreneurship","Telehealth Technology Consultant","Biomedical Product Freelancer","MedTech Startup Founder","Online Medical Device Trainer"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹25 –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹24 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹10 LPA","Entry Level (0–2 yrs): ₹3.5 –  ₹6 LPA","Note: Metros and M.Tech/PhD boost pay by 35%.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Mumbai, Chennai, Pune.","Top Industries: MedTech (GE, Medtronic), Hospitals, R&D, AI Startups.","Global Demand: High in USA, Germany. Remote-diagnostics trending.","Top Institutions","Career Opportunities","Conventional","Biomedical Engineer","Clinical Engineer","Medical Device Design Engineer","Hospital Equipment Engineer","New-age and AI driven","Digital Health Engineer","AI Diagnostics Engineer","Biomedical Data Scientist","Wearable Device Developer","Remote / Entrepreneurship","Telehealth Technology Consultant","Biomedical Product Freelancer","MedTech Startup Founder","Online Medical Device Trainer"]
       },
       {
         id: "7",
@@ -597,10 +597,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Salaries, growth, and opportunities.",
         color: RED2,
         content: [
-          "Entry-Level (Clerk/Assistant): ₹3.5 Lakhs – ₹6 Lakhs annually.",
-          "Mid-Level (Probationary Officer/Manager): ₹8 Lakhs – ₹18 Lakhs annually.",
-          "Senior-Level (VP/DGM): ₹25 Lakhs – ₹50 Lakhs annually.",
-          "Leadership/CXO: ₹1 Crore – ₹5 Crores+ (Private sector/MNC banks).",
+          "Entry-Level (Clerk/Assistant): ₹3.5 Lakhs –  ₹6 Lakhs annually.",
+          "Mid-Level (Probationary Officer/Manager): ₹8 Lakhs –  ₹18 Lakhs annually.",
+          "Senior-Level (VP/DGM): ₹25 Lakhs –  ₹50 Lakhs annually.",
+          "Leadership/CXO: ₹1 Crore –  ₹5 Crores+ (Private sector/MNC banks).",
           "Salary Comparison: Metros have higher base pay + high cost of living. Tier-2/3 Cities offer competitive pay (especially in PSBs) with significantly lower living costs.",
           "Career Growth: Typically takes 7–10 years to reach Middle Management role (Scale III or IV in PSBs). Indian banking sector expected to become the third-largest in the world by 2030."
         ]
@@ -623,7 +623,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Financial assistance programs.",
         color: RED2,
         content: [
-          "Central: NSP (National Scholarship Portal) – Merit-cum-Means.",
+          "Central: NSP (National Scholarship Portal) –  Merit-cum-Means.",
           "Institutional: IIM-A/B/C Scholarships for economically weaker sections.",
           "Private: HDFC Badhte Kadam scholarship (up to ₹1 Lakh for students in need).",
           "Bank Scholarships: SBI, ICICI, HDFC offer merit-based scholarships for their future employees."
@@ -827,7 +827,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           color: RED2,
           content: [
             "Salary Snapshot (Annual INR)",
-            "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5+ Crore",
+            "CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5+ Crore",
             "Senior / Lead Role (10+ yrs): ₹25–70 LPA",
             "Mid-Level Professional (5–8 yrs): ₹10–30 LPA",
             "Junior / Associate (3–5 yrs): ₹6–15 LPA",
@@ -1038,7 +1038,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹40 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹8–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–12 LPA",
@@ -1203,11 +1203,11 @@ export const careerPageData: Record<string, CareerPageData> = {
           description: "Real-world experience of a working economist",
           color: RED2,
           content: [
-            "9:00 AM –  The Morning Market Scan: Rohan, a Policy Analyst at a think-tank in New Delhi, starts by scanning the latest inflation data released by the RBI. He isn't just looking at numbers; he's thinking about how a 1% rise in fuel prices will affect a farmer in Punjab or a student in Chennai.",
-            "11:30 AM –  The Strategy Huddle: Rohan joins a brainstorming session with his team. They are working on a project for the Ministry of Education to understand if providing free laptops increases student scores. He reviews data from thousands of schools, looking for cause and effect.",
-            "1:30 PM –  Data Visualizing: After lunch, Rohan dives into software like R or Stata. He creates a digital map of India, showing where the new 'Green Energy' jobs are being created. He translates a complex 50-page spreadsheet into a single, beautiful chart that a politician can understand in 5 minutes.",
-            "4:00 PM –  The Media Briefing: Rohan is interviewed by a business news channel. He explains in simple Hindi and English why the 'Digital Rupee' is making shopping safer for common citizens. He has to be a great communicator, turning 'jargon' into 'stories.'",
-            "7:00 PM –  The Global Call: Before heading home, Rohan has a video call with economists in New York and London. They discuss how global trade is changing. As he closes his laptop, he feels a sense of pride—his work today might influence a law that helps millions tomorrow."
+            "9:00 AM –   The Morning Market Scan: Rohan, a Policy Analyst at a think-tank in New Delhi, starts by scanning the latest inflation data released by the RBI. He isn't just looking at numbers; he's thinking about how a 1% rise in fuel prices will affect a farmer in Punjab or a student in Chennai.",
+            "11:30 AM –   The Strategy Huddle: Rohan joins a brainstorming session with his team. They are working on a project for the Ministry of Education to understand if providing free laptops increases student scores. He reviews data from thousands of schools, looking for cause and effect.",
+            "1:30 PM –   Data Visualizing: After lunch, Rohan dives into software like R or Stata. He creates a digital map of India, showing where the new 'Green Energy' jobs are being created. He translates a complex 50-page spreadsheet into a single, beautiful chart that a politician can understand in 5 minutes.",
+            "4:00 PM –   The Media Briefing: Rohan is interviewed by a business news channel. He explains in simple Hindi and English why the 'Digital Rupee' is making shopping safer for common citizens. He has to be a great communicator, turning 'jargon' into 'stories.'",
+            "7:00 PM –   The Global Call: Before heading home, Rohan has a video call with economists in New York and London. They discuss how global trade is changing. As he closes his laptop, he feels a sense of pride—his work today might influence a law that helps millions tomorrow."
           ]
         },
         {
@@ -1282,7 +1282,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           color: RED2,
           content: [
             "Salary Snapshot (Annual INR)",
-            "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.5+ Crore",
+            "CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5+ Crore",
             "Senior / Lead Role (10+ yrs): ₹25–80 LPA",
             "Mid-Level Professional (5–8 yrs): ₹12–35 LPA",
             "Junior / Associate (3–5 yrs): ₹6–18 LPA",
@@ -1477,11 +1477,11 @@ export const careerPageData: Record<string, CareerPageData> = {
           description: "Real-world experience of a working financial analyst",
           color: RED2,
           content: [
-            "8:30 AM – The Market Pulse: Ishaan, a Junior Equity Research Analyst at an investment firm in Mumbai, starts long before the stock market opens. He's scanning global news—did the US Federal Reserve change interest rates? How did the Tokyo market perform? Money never sleeps, and Ishaan needs to know the 'temperature' of the world.",
-            "10:30 AM – The Spreadsheet Deep-Dive: With the markets open, Ishaan dives into Excel. He is 'building a model' for a renewable energy company. He plugs in their electricity production, the cost of solar panels, and their debt levels. He isn't just looking at what they earned yesterday; he's trying to predict what they will earn in 2030.",
-            "1:30 PM – The Management Call: After a quick working lunch, Ishaan joins a video call with the CEO of the company he is analyzing. He asks tough questions: 'Why did your profit margins drop last quarter?' and 'How will the new government tax affect your expansion?' He has to be part-investigator and part-journalist.",
-            "4:00 PM – The Investment Pitch: Ishaan presents his findings to the Senior Fund Manager. He has five minutes to convince them to buy or sell the stock. He uses clear charts and sharp logic. It's high-pressure; one recommendation could involve hundreds of crores of rupees.",
-            "7:30 PM – Learning for Tomorrow: As the office quietens, Ishaan spends an hour studying for his CFA (Chartered Financial Analyst) Level II exam. In this field, the learning never stops. He leaves the office knowing his analysis today might help a retired teacher's pension grow tomorrow."
+            "8:30 AM –  The Market Pulse: Ishaan, a Junior Equity Research Analyst at an investment firm in Mumbai, starts long before the stock market opens. He's scanning global news—did the US Federal Reserve change interest rates? How did the Tokyo market perform? Money never sleeps, and Ishaan needs to know the 'temperature' of the world.",
+            "10:30 AM –  The Spreadsheet Deep-Dive: With the markets open, Ishaan dives into Excel. He is 'building a model' for a renewable energy company. He plugs in their electricity production, the cost of solar panels, and their debt levels. He isn't just looking at what they earned yesterday; he's trying to predict what they will earn in 2030.",
+            "1:30 PM –  The Management Call: After a quick working lunch, Ishaan joins a video call with the CEO of the company he is analyzing. He asks tough questions: 'Why did your profit margins drop last quarter?' and 'How will the new government tax affect your expansion?' He has to be part-investigator and part-journalist.",
+            "4:00 PM –  The Investment Pitch: Ishaan presents his findings to the Senior Fund Manager. He has five minutes to convince them to buy or sell the stock. He uses clear charts and sharp logic. It's high-pressure; one recommendation could involve hundreds of crores of rupees.",
+            "7:30 PM –  Learning for Tomorrow: As the office quietens, Ishaan spends an hour studying for his CFA (Chartered Financial Analyst) Level II exam. In this field, the learning never stops. He leaves the office knowing his analysis today might help a retired teacher's pension grow tomorrow."
           ]
         },
         {
@@ -1556,7 +1556,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           color: RED2,
           content: [
             "Salary Snapshot (Annual INR)",
-            "CXO / Managing Director (15+ yrs): ₹1.2 Crore – ₹4 Crores+",
+            "CXO / Managing Director (15+ yrs): ₹1.2 Crore –  ₹4 Crores+",
             "Senior / Lead Role (10+ yrs): ₹40–75 Lakhs",
             "Mid-Level Professional (5–8 yrs): ₹15–28 Lakhs",
             "Junior / Associate (3–5 yrs): ₹10–18 Lakhs",
@@ -1599,9 +1599,9 @@ export const careerPageData: Record<string, CareerPageData> = {
           description: "Course fees and additional expenses.",
           color: RED2,
           content: [
-            "Degree (Govt): ₹15,000 – ₹60,000 (Total fees)",
-            "MBA (Top B-Schools): ₹15 Lakhs – ₹28 Lakhs (Total fees)",
-            "CFA Program: ₹2.5 Lakhs – ₹3.5 Lakhs (Exam & material fees)",
+            "Degree (Govt): ₹15,000 –  ₹60,000 (Total fees)",
+            "MBA (Top B-Schools): ₹15 Lakhs –  ₹28 Lakhs (Total fees)",
+            "CFA Program: ₹2.5 Lakhs –  ₹3.5 Lakhs (Exam & material fees)",
             "Note: Professional certifications like CFA have a high Return on Investment (ROI) but require upfront exam fees."
           ]
         },
@@ -1748,11 +1748,11 @@ export const careerPageData: Record<string, CareerPageData> = {
           description: "Real-world experience of a working financial planner",
           color: RED2,
           content: [
-            "9:00 AM – The Market Pulse: Aryan, a Certified Financial Planner (CFP) based in Pune, starts by scanning global and Indian market news. He isn't looking for 'hot stocks' to gamble on; he's looking for trends that might affect his clients' long-term goals—like a change in interest rates or a new tax rule for mutual funds.",
-            "10:30 AM – The Dream Session: Aryan's first meeting is with a young couple in their late 20s. They want to plan for a home in five years and a world tour in ten. Aryan doesn't talk about numbers yet. He asks about their lifestyle, their fears, and their priorities. This is the 'Discovery' phase, where he listens more than he speaks.",
-            "1:30 PM – The Portfolio Construction: After a quick lunch, Aryan sits down with his specialized software. He analyzes a client's existing investments. He uses Asset Allocation—a fancy way of saying he spreads their money across different 'baskets' like equity (stocks), debt (bonds), and gold to make sure they aren't taking too much risk.",
-            "4:00 PM – The Crisis Call: A client calls, panicked because the stock market has dropped by 2%. Aryan spends 20 minutes calmly explaining that their plan is built for 15 years, not 15 minutes. In this career, you are often part-economist and part-psychologist.",
-            "6:00 PM – Learning & Compliance: Before wrapping up, Aryan reviews the latest guidelines from SEBI (Securities and Exchange Board of India). He updates his client reports and reads a research paper on 'Green Investing.' As he heads home, he feels the satisfaction of knowing he helped a family move one step closer to their dream home."
+            "9:00 AM –  The Market Pulse: Aryan, a Certified Financial Planner (CFP) based in Pune, starts by scanning global and Indian market news. He isn't looking for 'hot stocks' to gamble on; he's looking for trends that might affect his clients' long-term goals—like a change in interest rates or a new tax rule for mutual funds.",
+            "10:30 AM –  The Dream Session: Aryan's first meeting is with a young couple in their late 20s. They want to plan for a home in five years and a world tour in ten. Aryan doesn't talk about numbers yet. He asks about their lifestyle, their fears, and their priorities. This is the 'Discovery' phase, where he listens more than he speaks.",
+            "1:30 PM –  The Portfolio Construction: After a quick lunch, Aryan sits down with his specialized software. He analyzes a client's existing investments. He uses Asset Allocation—a fancy way of saying he spreads their money across different 'baskets' like equity (stocks), debt (bonds), and gold to make sure they aren't taking too much risk.",
+            "4:00 PM –  The Crisis Call: A client calls, panicked because the stock market has dropped by 2%. Aryan spends 20 minutes calmly explaining that their plan is built for 15 years, not 15 minutes. In this career, you are often part-economist and part-psychologist.",
+            "6:00 PM –  Learning & Compliance: Before wrapping up, Aryan reviews the latest guidelines from SEBI (Securities and Exchange Board of India). He updates his client reports and reads a research paper on 'Green Investing.' As he heads home, he feels the satisfaction of knowing he helped a family move one step closer to their dream home."
           ]
         },
         {
@@ -1826,7 +1826,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           color: RED,
           content: [
             "Salary Snapshot (Annual INR)",
-            "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹3+ Crore",
+            "CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹3+ Crore",
             "Senior / Lead Role (10+ yrs): ₹20–70 LPA",
             "Mid-Level Professional (5–8 yrs): ₹8–30 LPA",
             "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1870,7 +1870,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           description: "Financial support available for financial planning students",
           color: RED5,
           content: [
-            "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional courses.",
+            "Central: NSP (National Scholarship Portal) –  Merit-cum-Means for professional courses.",
             "State: MAHADBT (Maharashtra) or E-Kalyan (Jharkhand) schemes for minority/reserved categories.",
             "Institutional: IIM-A/B Need-based Financial Aid (covering up to 100% of fees).",
             "Private: Aditya Birla Capital COVID Scholarship or HDFC Badhte Kadam for students in financial distress.",
@@ -2005,11 +2005,11 @@ export const careerPageData: Record<string, CareerPageData> = {
           description: "Real-world experience of a working financial risk manager",
           color: RED2,
           content: [
-            "9:00 AM – The Global Scan: Priya, a Risk Analyst at a top investment bank in Mumbai, starts by looking at what happened in the US and Tokyo markets overnight. She isn't looking for 'hot stocks'; she's looking for 'Red Flags.' Did a major oil pipeline close? Did a country change its tax laws? These are 'Risk Triggers.'",
-            "11:00 AM – The Stress Test: Priya spends her morning running 'Simulations' on her computer. She asks the computer: 'What happens to our bank's ₹1,000 Crore loan portfolio if the interest rate suddenly rises by 1%?' This is called a Stress Test. She watches as her software runs thousands of scenarios in seconds.",
-            "1:30 PM – The Strategy Lunch: After a quick lunch, Priya meets with the 'Trading Desk.' The traders want to make a big, risky bet on gold prices. Priya's job is to be the 'Voice of Reason.' She shows them her data: 'If you make this bet, and the market drops even by 0.5%, the bank loses more than we are allowed to. You need to reduce the size of this trade.'",
-            "4:00 PM – The Tech-Check: Priya works with the IT team to update their AI-based Fraud Detection system. She's teaching the AI how to spot new types of digital credit card theft. In the 21st century, risk management is as much about coding as it is about finance.",
-            "7:00 PM – The Reporting Wrap: Before heading home, Priya prepares a 'Risk Dashboard' for her boss. It's a simple chart with Green, Yellow, and Red lights. Today, everything is Green. She leaves the office knowing that because of her math and her 'Shield,' thousands of people's bank deposits are safe."
+            "9:00 AM –  The Global Scan: Priya, a Risk Analyst at a top investment bank in Mumbai, starts by looking at what happened in the US and Tokyo markets overnight. She isn't looking for 'hot stocks'; she's looking for 'Red Flags.' Did a major oil pipeline close? Did a country change its tax laws? These are 'Risk Triggers.'",
+            "11:00 AM –  The Stress Test: Priya spends her morning running 'Simulations' on her computer. She asks the computer: 'What happens to our bank's ₹1,000 Crore loan portfolio if the interest rate suddenly rises by 1%?' This is called a Stress Test. She watches as her software runs thousands of scenarios in seconds.",
+            "1:30 PM –  The Strategy Lunch: After a quick lunch, Priya meets with the 'Trading Desk.' The traders want to make a big, risky bet on gold prices. Priya's job is to be the 'Voice of Reason.' She shows them her data: 'If you make this bet, and the market drops even by 0.5%, the bank loses more than we are allowed to. You need to reduce the size of this trade.'",
+            "4:00 PM –  The Tech-Check: Priya works with the IT team to update their AI-based Fraud Detection system. She's teaching the AI how to spot new types of digital credit card theft. In the 21st century, risk management is as much about coding as it is about finance.",
+            "7:00 PM –  The Reporting Wrap: Before heading home, Priya prepares a 'Risk Dashboard' for her boss. It's a simple chart with Green, Yellow, and Red lights. Today, everything is Green. She leaves the office knowing that because of her math and her 'Shield,' thousands of people's bank deposits are safe."
           ]
         },
         {
@@ -2082,7 +2082,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           color: RED,
           content: [
             "Salary Snapshot (Annual INR)",
-            "CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹3+ Crore",
+            "CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹3+ Crore",
             "Senior / Lead Role (10+ yrs): ₹30–90 LPA",
             "Mid-Level Professional (5–8 yrs): ₹12–40 LPA",
             "Junior / Associate (3–5 yrs): ₹7–18 LPA",
@@ -2126,7 +2126,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           description: "Financial support available for financial risk management students",
           color: RED5,
           content: [
-            "Central: NSP (National Scholarship Portal) – Merit-cum-means for professional degrees.",
+            "Central: NSP (National Scholarship Portal) –  Merit-cum-means for professional degrees.",
             "Institutional: IIMs offer need-based financial assistance (up to 100% fee waiver).",
             "GARP FRM Scholarships: Offered to students in partnership universities to cover exam registration fees.",
             "State-Level: Various state governments offer scholarships for commerce students.",
@@ -2308,7 +2308,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Realistic look at the work intensity and initial compensation",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–25 LPA","Mid-Level Professional (5–8 yrs): ₹6–12 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 30–50% more. COA license and LEED/BIM skills boost earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune, Chennai","Top Industries: Real estate firms (DLF, Godrej), infrastructure (L&T, Shapoorji), government (CPWD, Smart Cities Mission), hospitality","Global Demand: UAE, Singapore, Australia actively hiring; freelancing growing via Houzz/Upwork","Top Institutions","Government:","School of Planning & Architecture (SPA), New Delhi","Indian Institute of Technology (IIT), Kharagpur","Indian Institute of Technology (IIT), Roorkee","Centre for Environmental Planning & Technology (CEPT), Ahmedabad","Private:","Manipal Academy of Higher Education, Manipal","Amity University, Noida","Sushant University (formerly Ansal University), Gurugram","Rizvi College of Architecture, Mumbai","Online:","Swayam/NPTEL","Coursera (Architecture & Design Courses)","IGNOU (Architecture Related Programs)","Udemy (Architecture & Building Design Courses)","Career Opportunities","Conventional","Licensed Architect (Private/Govt Practice)","Urban Planning & Town Development Officer","Interior Design & Space Planning Architect","Heritage Conservation & Restoration Architect","New-Age & AI Driven","AI-Generated Design & Parametric Architect","BIM (Building Information Modelling) Specialist","Sustainable & Green Building Design Technologist","VR/AR-Based Architectural Visualization Expert","Remote/Entrepreneurship","Freelance Architectural Design Consultant","Online Architecture Education Platform Founder","Modular & Prefab Housing Startup Entrepreneur","3D Architectural Rendering Studio Owner"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹12–25 LPA","Mid-Level Professional (5–8 yrs): ₹6–12 LPA","Junior / Associate (3–5 yrs): ₹3.5–6 LPA","Entry Level (0–2 yrs): ₹2.5–4 LPA","Note: Metro cities pay 30–50% more. COA license and LEED/BIM skills boost earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bangalore, Hyderabad, Pune, Chennai","Top Industries: Real estate firms (DLF, Godrej), infrastructure (L&T, Shapoorji), government (CPWD, Smart Cities Mission), hospitality","Global Demand: UAE, Singapore, Australia actively hiring; freelancing growing via Houzz/Upwork","Top Institutions","Government:","School of Planning & Architecture (SPA), New Delhi","Indian Institute of Technology (IIT), Kharagpur","Indian Institute of Technology (IIT), Roorkee","Centre for Environmental Planning & Technology (CEPT), Ahmedabad","Private:","Manipal Academy of Higher Education, Manipal","Amity University, Noida","Sushant University (formerly Ansal University), Gurugram","Rizvi College of Architecture, Mumbai","Online:","Swayam/NPTEL","Coursera (Architecture & Design Courses)","IGNOU (Architecture Related Programs)","Udemy (Architecture & Building Design Courses)","Career Opportunities","Conventional","Licensed Architect (Private/Govt Practice)","Urban Planning & Town Development Officer","Interior Design & Space Planning Architect","Heritage Conservation & Restoration Architect","New-Age & AI Driven","AI-Generated Design & Parametric Architect","BIM (Building Information Modelling) Specialist","Sustainable & Green Building Design Technologist","VR/AR-Based Architectural Visualization Expert","Remote/Entrepreneurship","Freelance Architectural Design Consultant","Online Architecture Education Platform Founder","Modular & Prefab Housing Startup Entrepreneur","3D Architectural Rendering Studio Owner"]
       },
       {
         id: "7",
@@ -2398,9 +2398,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Education and tech requirements for construction engineers",
         color: RED4,
         content: [
-          "Tuition (Govt. Colleges): ₹2 Lakhs – ₹5 Lakhs for a full 4-year degree",
-          "Tuition (Private Universities): ₹8 Lakhs – ₹20 Lakhs for 4 years",
-          "Living Expenses: Budget ₹1.5 Lakhs – ₹2.5 Lakhs annually",
+          "Tuition (Govt. Colleges): ₹2 Lakhs –  ₹5 Lakhs for a full 4-year degree",
+          "Tuition (Private Universities): ₹8 Lakhs –  ₹20 Lakhs for 4 years",
+          "Living Expenses: Budget ₹1.5 Lakhs –  ₹2.5 Lakhs annually",
           "Tech Requirements: ₹70k+ for high-performance laptop for AutoCAD, Revit, and BIM"
         ]
       },
@@ -2418,7 +2418,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "👷",
         description: "Realities of site life and intensive workload",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹15–30 LPA","Mid-Level Professional (5–8 yrs): ₹7–15 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4.5 LPA","Note: Metro/infrastructure hub cities pay higher. PMP, RERA knowledge, and BIM/AutoCAD skills significantly boost salary.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Hyderabad, Bangalore, Ahmedabad, Chennai","Top Industries: L&T, Shapoorji Pallonji, Tata Projects, DLF, Godrej Properties, NHAI, Smart Cities Mission, Metro Rail projects","Global Demand: Gulf countries (UAE, Saudi – NEOM), Australia, Canada hiring Indian engineers; freelance project consulting rising","Top Institutions","Government:","Indian Institute of Technology (IIT), Delhi","Indian Institute of Technology (IIT), Madras","National Institute of Construction Management & Research (NICMAR), Pune","School of Planning & Architecture (SPA), New Delhi","Private:","RICS School of Built Environment, Amity University, Noida","Manipal Academy of Higher Education, Manipal","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Online:","Swayam/NPTEL","Coursera (Construction Management Courses)","IGNOU (Construction Management Programs)","Udemy (Construction Technology & Management Courses)","Career Opportunities","Conventional","Construction Project Manager","Site Engineer & Supervision Officer","Quantity Surveyor & Estimation Specialist","Building Materials & Procurement Manager","New-Age & AI Driven","AI-Powered Construction Planning & Scheduling Analyst","Drone-Based Site Surveying & Monitoring Specialist","BIM-Integrated Smart Construction Technologist","Robotics & 3D Printing Construction Engineer","Remote/Entrepreneurship","Freelance Construction Project Consultant","Modular & Prefabricated Construction Startup Founder","Online Construction Skill Training Platform Creator","Green Building & LEED Certification Consultancy Owner"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹15–30 LPA","Mid-Level Professional (5–8 yrs): ₹7–15 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2.5–4.5 LPA","Note: Metro/infrastructure hub cities pay higher. PMP, RERA knowledge, and BIM/AutoCAD skills significantly boost salary.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Hyderabad, Bangalore, Ahmedabad, Chennai","Top Industries: L&T, Shapoorji Pallonji, Tata Projects, DLF, Godrej Properties, NHAI, Smart Cities Mission, Metro Rail projects","Global Demand: Gulf countries (UAE, Saudi –  NEOM), Australia, Canada hiring Indian engineers; freelance project consulting rising","Top Institutions","Government:","Indian Institute of Technology (IIT), Delhi","Indian Institute of Technology (IIT), Madras","National Institute of Construction Management & Research (NICMAR), Pune","School of Planning & Architecture (SPA), New Delhi","Private:","RICS School of Built Environment, Amity University, Noida","Manipal Academy of Higher Education, Manipal","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Online:","Swayam/NPTEL","Coursera (Construction Management Courses)","IGNOU (Construction Management Programs)","Udemy (Construction Technology & Management Courses)","Career Opportunities","Conventional","Construction Project Manager","Site Engineer & Supervision Officer","Quantity Surveyor & Estimation Specialist","Building Materials & Procurement Manager","New-Age & AI Driven","AI-Powered Construction Planning & Scheduling Analyst","Drone-Based Site Surveying & Monitoring Specialist","BIM-Integrated Smart Construction Technologist","Robotics & 3D Printing Construction Engineer","Remote/Entrepreneurship","Freelance Construction Project Consultant","Modular & Prefabricated Construction Startup Founder","Online Construction Skill Training Platform Creator","Green Building & LEED Certification Consultancy Owner"]
       },
       {
         id: "7",
@@ -2506,10 +2506,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Educational investment for maintenance and ops roles",
         color: RED4,
         content: [
-          "Diploma/Polytechnic: ₹20,000 – ₹1.5 Lakhs total",
-          "B.Tech. (Govt): ₹3 Lakhs – ₹10 Lakhs total investment",
-          "MBA (Specialized): ₹15 Lakhs – ₹25 Lakhs for top management",
-          "Living Costs: Budget ₹10,000 – ₹20,000 monthly in cities like Pune or Bengaluru"
+          "Diploma/Polytechnic: ₹20,000 –  ₹1.5 Lakhs total",
+          "B.Tech. (Govt): ₹3 Lakhs –  ₹10 Lakhs total investment",
+          "MBA (Specialized): ₹15 Lakhs –  ₹25 Lakhs for top management",
+          "Living Costs: Budget ₹10,000 –  ₹20,000 monthly in cities like Pune or Bengaluru"
         ]
       },
       {
@@ -2621,10 +2621,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment breakdown for urban planning education",
         color: RED4,
         content: [
-          "Diploma/Polytechnic: ₹20,000 – ₹1.5 Lakhs total",
-          "B.Tech/B.Plan (Govt): ₹3 Lakhs – ₹10 Lakhs total",
-          "MBA (Management): ₹15 Lakhs – ₹25 Lakhs for специализирован management",
-          "Living Costs: Budget ₹10,000 – ₹20,000 monthly for hostels"
+          "Diploma/Polytechnic: ₹20,000 –  ₹1.5 Lakhs total",
+          "B.Tech/B.Plan (Govt): ₹3 Lakhs –  ₹10 Lakhs total",
+          "MBA (Management): ₹15 Lakhs –  ₹25 Lakhs for специализирован management",
+          "Living Costs: Budget ₹10,000 –  ₹20,000 monthly for hostels"
         ]
       },
       {
@@ -2735,10 +2735,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Education and equipment investment",
         color: RED4,
         content: [
-          "Tuition (Govt): ₹15,000 – ₹8 Lakh total",
-          "Tuition (Private): ₹7 Lakh – ₹18 Lakh",
+          "Tuition (Govt): ₹15,000 –  ₹8 Lakh total",
+          "Tuition (Private): ₹7 Lakh –  ₹18 Lakh",
           "Laptop: ~₹60,000 for high-performance machine",
-          "Living Costs: ₹15,000 – ₹25,000 per month in major cities",
+          "Living Costs: ₹15,000 –  ₹25,000 per month in major cities",
           "Internship: Budget for rural field training travel"
         ]
       },
@@ -2758,7 +2758,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         color: RED,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹40 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹15–50 LPA",
           "Mid-Level Professional (5–8 yrs): ₹8–25 LPA",
           "Junior / Associate (3–5 yrs): ₹4–12 LPA",
@@ -2940,7 +2940,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         color: "#DA1313",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.5+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹40 LPA –  ₹1.5+ Crore",
           "Senior / Lead Role (10+ yrs): ₹12–40 LPA",
           "Mid-Level Professional (5–8 yrs): ₹6–20 LPA",
           "Junior / Associate (3–5 yrs): ₹4–10 LPA",
@@ -2986,10 +2986,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Course fees and additional expenses.",
         color: "#C20000",
         content: [
-          "Government Institutions: ₹50,000 – ₹2,50,000 (Total 4-year degree fees)",
-          "Private Institutions: ₹4,00,000 – ₹12,00,000 (Total 4-year degree fees)",
+          "Government Institutions: ₹50,000 –  ₹2,50,000 (Total 4-year degree fees)",
+          "Private Institutions: ₹4,00,000 –  ₹12,00,000 (Total 4-year degree fees)",
           "Duration: 4 Years (B.Tech)",
-          "Living/Hostel Costs: ₹8,000 – ₹15,000 per month in cities like Pantnagar, Ludhiana, or Coimbatore",
+          "Living/Hostel Costs: ₹8,000 –  ₹15,000 per month in cities like Pantnagar, Ludhiana, or Coimbatore",
           "Additional Costs: High-end laptop (₹60k+), certification exams (₹5k–₹15k)"
         ]
       },
@@ -3166,11 +3166,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Education and stipend details",
         color: RED4,
         content: [
-          "Govt Tuition: ₹20,000 – ₹1.5 Lakh total",
-          "Private Tuition: ₹5 Lakh – ₹12 Lakh total",
+          "Govt Tuition: ₹20,000 –  ₹1.5 Lakh total",
+          "Private Tuition: ₹5 Lakh –  ₹12 Lakh total",
           "Duration: 4yr B.Sc + 2yr M.Sc + 3-5yr Ph.D",
-          "Stipend: Ph.D students earn ₹31,000 – ₹35,000 per month",
-          "Living Costs: ₹10,000 – ₹20,000 monthly"
+          "Stipend: Ph.D students earn ₹31,000 –  ₹35,000 per month",
+          "Living Costs: ₹10,000 –  ₹20,000 monthly"
         ]
       },
       {
@@ -3195,7 +3195,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries and career growth.",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1+ Crore","Senior / Lead Role (10+ yrs): ₹18–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–18 LPA","Junior / Associate (3–5 yrs): ₹5–8 LPA","Entry Level (0–2 yrs): ₹3–5 LPA","Note: Govt (ICAR) stable but lower; private agri-biotech pays 20–40% more; PhD/NET boosts salary significantly."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA –  ₹1+ Crore","Senior / Lead Role (10+ yrs): ₹18–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–18 LPA","Junior / Associate (3–5 yrs): ₹5–8 LPA","Entry Level (0–2 yrs): ₹3–5 LPA","Note: Govt (ICAR) stable but lower; private agri-biotech pays 20–40% more; PhD/NET boosts salary significantly."]
       },
       {
         id: "jobs",
@@ -3311,10 +3311,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment in veterinary education",
         color: RED4,
         content: [
-          "Govt Tuition: ₹30,000 – ₹1.5 Lakh total",
-          "Private Tuition: ₹10 Lakh – ₹25 Lakh",
-          "Living Costs: ₹10,000 – ₹18,000 monthly",
-          "NEET Coaching: ₹50,000 – ₹1 Lakh",
+          "Govt Tuition: ₹30,000 –  ₹1.5 Lakh total",
+          "Private Tuition: ₹10 Lakh –  ₹25 Lakh",
+          "Living Costs: ₹10,000 –  ₹18,000 monthly",
+          "NEET Coaching: ₹50,000 –  ₹1 Lakh",
           "Equipment: Budget for medical tools like stethoscopes"
         ]
       },
@@ -3347,7 +3347,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         color: RED,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹1.5+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.5+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–50 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–20 LPA",
           "Junior / Associate (3–5 yrs): ₹6–10 LPA",
@@ -3490,11 +3490,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Education and starter kit costs",
         color: RED4,
         content: [
-          "Certificate: ₹2,000 – ₹25,000",
-          "Degree (B.Sc): ₹15,000 – ₹1.5 Lakh yearly",
-          "Starting Tools: ₹25,000 – ₹60,000 (Bee boxes, etc.)",
-          "License (FSSAI): ₹2,000 – ₹5,000",
-          "Hostel Living: ₹5,000 – ₹8,000 monthly"
+          "Certificate: ₹2,000 –  ₹25,000",
+          "Degree (B.Sc): ₹15,000 –  ₹1.5 Lakh yearly",
+          "Starting Tools: ₹25,000 –  ₹60,000 (Bee boxes, etc.)",
+          "License (FSSAI): ₹2,000 –  ₹5,000",
+          "Hostel Living: ₹5,000 –  ₹8,000 monthly"
         ]
       },
       {
@@ -3511,7 +3511,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Seasonal risks and market issues",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA – ₹80 LPA","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies widely; entrepreneurs earn more via honey/wax sales; govt schemes (KVIC) + export markets boost earnings.","Where Are the Jobs?","Top Cities/Regions: Punjab, Haryana, Uttar Pradesh, Himachal Pradesh, Uttarakhand, Maharashtra","Top Industries: Honey Processing, Agri-Cooperatives, KVIC, FMCG (Dabur, Patanjali), Export Firms","Global Demand: High in EU, USA, Middle East; demand for organic honey, pollination services, export-driven entrepreneurship","Top Institutions","Government:","Central Bee Research & Training Institute (CBRTI), Pune","Khadi & Village Industries Commission (KVIC), Mumbai","Punjab Agricultural University (PAU), Ludhiana","University of Agricultural Sciences (UAS), Bangalore","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Shoolini University, Solan","Lovely Professional University (LPU), Jalandhar","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Certificate in Beekeeping)","National Bee Board (NBB) Online Training","Career Opportunities","Conventional","Government Apiculture Development Officer","Bee Colony Management Specialist","Honey Processing & Quality Control Officer","Pollination Service Provider for Farms","New-Age & AI Driven","AI-Powered Hive Health Monitoring Analyst","IoT-Based Smart Beekeeping Technologist","Bee Genomics & Breeding Research Scientist","Drone-Assisted Pollination Mapping Specialist","Remote/Entrepreneurship","Organic Honey Brand Founder & Exporter","Online Beekeeping Training Academy Creator","Bee Venom & Apitherapy Product Entrepreneur","Freelance Apiculture & Pollination Consultant"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹20 LPA –  ₹80 LPA","Senior / Lead Role (10+ yrs): ₹10–20 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies widely; entrepreneurs earn more via honey/wax sales; govt schemes (KVIC) + export markets boost earnings.","Where Are the Jobs?","Top Cities/Regions: Punjab, Haryana, Uttar Pradesh, Himachal Pradesh, Uttarakhand, Maharashtra","Top Industries: Honey Processing, Agri-Cooperatives, KVIC, FMCG (Dabur, Patanjali), Export Firms","Global Demand: High in EU, USA, Middle East; demand for organic honey, pollination services, export-driven entrepreneurship","Top Institutions","Government:","Central Bee Research & Training Institute (CBRTI), Pune","Khadi & Village Industries Commission (KVIC), Mumbai","Punjab Agricultural University (PAU), Ludhiana","University of Agricultural Sciences (UAS), Bangalore","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Shoolini University, Solan","Lovely Professional University (LPU), Jalandhar","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Certificate in Beekeeping)","National Bee Board (NBB) Online Training","Career Opportunities","Conventional","Government Apiculture Development Officer","Bee Colony Management Specialist","Honey Processing & Quality Control Officer","Pollination Service Provider for Farms","New-Age & AI Driven","AI-Powered Hive Health Monitoring Analyst","IoT-Based Smart Beekeeping Technologist","Bee Genomics & Breeding Research Scientist","Drone-Assisted Pollination Mapping Specialist","Remote/Entrepreneurship","Organic Honey Brand Founder & Exporter","Online Beekeeping Training Academy Creator","Bee Venom & Apitherapy Product Entrepreneur","Freelance Apiculture & Pollination Consultant"]
       },
       {
         id: "7",
@@ -3595,10 +3595,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Educational investment breakdown",
         color: RED4,
         content: [
-          "Diploma: ₹5,000 – ₹80,000 per year",
-          "Bachelor (B.F.Sc): ₹20,000 – ₹1.5 Lakh yearly",
-          "Master: ₹30,000 – ₹2 Lakh yearly",
-          "Living Costs: ₹4,000 – ₹12,000 per month",
+          "Diploma: ₹5,000 –  ₹80,000 per year",
+          "Bachelor (B.F.Sc): ₹20,000 –  ₹1.5 Lakh yearly",
+          "Master: ₹30,000 –  ₹2 Lakh yearly",
+          "Living Costs: ₹4,000 –  ₹12,000 per month",
           "Ph.D: Stipends available for research students"
         ]
       },
@@ -3616,7 +3616,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Weather risks and market volatility",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.2+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Coastal states pay more; shrimp export business boosts income; entrepreneurship (fish/shrimp farming) can exceed salaries.","Where Are the Jobs?","Top Cities/Regions: Andhra Pradesh, Tamil Nadu, Kerala, West Bengal, Odisha, Gujarat","Top Industries: Fisheries, Shrimp Export (Avanti Feeds), Hatcheries, Feed Companies, Govt Fisheries Dept","Global Demand: High in Southeast Asia, Middle East, EU; demand in aquaculture tech, export management, remote monitoring","Top Institutions","Government:","Central Institute of Fisheries Education (CIFE), Mumbai","Central Institute of Freshwater Aquaculture (CIFA), Bhubaneswar","Central Institute of Brackishwater Aquaculture (CIBA), Chennai","Kerala University of Fisheries & Ocean Studies (KUFOS), Kochi","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Shoolini University, Solan","Lovely Professional University (LPU), Jalandhar","Centurion University, Odisha","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Fisheries & Aquaculture Programs)","Coursera (Aquaculture & Marine Science Courses)","Career Opportunities","Conventional","Fish Farm / Hatchery Manager","Aquaculture Extension Officer (State Fisheries)","Shrimp & Prawn Cultivation Specialist","Aquatic Animal Health & Disease Officer","New-Age & AI Driven","AI-Based Water Quality Monitoring Analyst","IoT-Enabled Smart Fish Farm Technologist","Recirculating Aquaculture Systems (RAS) Engineer","Satellite-Based Aquaculture Site Selection Specialist","Remote/Entrepreneurship","Ornamental Fish Breeding & Export Entrepreneur","Online Aquaculture Training Platform Founder","Freelance Aquaculture Project Consultant","Seaweed / Algae Farming Startup Founder"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA –  ₹1.2+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Coastal states pay more; shrimp export business boosts income; entrepreneurship (fish/shrimp farming) can exceed salaries.","Where Are the Jobs?","Top Cities/Regions: Andhra Pradesh, Tamil Nadu, Kerala, West Bengal, Odisha, Gujarat","Top Industries: Fisheries, Shrimp Export (Avanti Feeds), Hatcheries, Feed Companies, Govt Fisheries Dept","Global Demand: High in Southeast Asia, Middle East, EU; demand in aquaculture tech, export management, remote monitoring","Top Institutions","Government:","Central Institute of Fisheries Education (CIFE), Mumbai","Central Institute of Freshwater Aquaculture (CIFA), Bhubaneswar","Central Institute of Brackishwater Aquaculture (CIBA), Chennai","Kerala University of Fisheries & Ocean Studies (KUFOS), Kochi","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Shoolini University, Solan","Lovely Professional University (LPU), Jalandhar","Centurion University, Odisha","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Fisheries & Aquaculture Programs)","Coursera (Aquaculture & Marine Science Courses)","Career Opportunities","Conventional","Fish Farm / Hatchery Manager","Aquaculture Extension Officer (State Fisheries)","Shrimp & Prawn Cultivation Specialist","Aquatic Animal Health & Disease Officer","New-Age & AI Driven","AI-Based Water Quality Monitoring Analyst","IoT-Enabled Smart Fish Farm Technologist","Recirculating Aquaculture Systems (RAS) Engineer","Satellite-Based Aquaculture Site Selection Specialist","Remote/Entrepreneurship","Ornamental Fish Breeding & Export Entrepreneur","Online Aquaculture Training Platform Founder","Freelance Aquaculture Project Consultant","Seaweed / Algae Farming Startup Founder"]
       },
       {
         id: "7",
@@ -3701,10 +3701,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment in diary technology degree",
         color: RED4,
         content: [
-          "Govt Tuition: ₹20,000 – ₹1.5 Lakh for 4 years",
-          "Private Tuition: ₹5 Lakh – ₹12 Lakh total",
-          "Living Costs: ₹10,000 – ₹20,000 monthly",
-          "Coaching: Exam prep costs ₹50,000 – ₹1 Lakh"
+          "Govt Tuition: ₹20,000 –  ₹1.5 Lakh for 4 years",
+          "Private Tuition: ₹5 Lakh –  ₹12 Lakh total",
+          "Living Costs: ₹10,000 –  ₹20,000 monthly",
+          "Coaching: Exam prep costs ₹50,000 –  ₹1 Lakh"
         ]
       },
       {
@@ -3721,7 +3721,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Perishability and extreme environments",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹5–10 LPA","Entry Level (0–2 yrs): ₹3–6 LPA","Note: Private dairy & FMCG pay 20–40% more; cooperative sector stable; MBA (Dairy/Agri) boosts growth.","Where Are the Jobs?","Top Cities/Regions: Gujarat (Anand), Delhi-NCR, Pune, Bengaluru, Hyderabad, Ludhiana","Top Industries: Dairy (Amul, Mother Dairy), FMCG (Nestlé), Food Processing, Cold Chain, Govt Dairy Boards","Global Demand: High in New Zealand, Australia, EU; demand in dairy processing, supply chain, export management","Top Institutions","Top Institutions for Dairy Technology in India","Government:","National Dairy Research Institute (NDRI), Karnal","SMC College of Dairy Science, Anand (AAU)","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Warner College of Dairy Technology (SHUATS), Prayagraj","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","ITM University, Gwalior","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Dairy Technology Programs)","National Dairy Development Board (NDDB) Online Training","Career Opportunities","Conventional","Dairy Plant Production Manager","Milk Procurement & Quality Control Officer","Dairy Product Development Technologist","Cooperative Dairy Federation Officer (AMUL/NDDB)","New-Age & AI Driven","AI-Powered Milk Supply Chain Optimizer","IoT-Based Cold Chain Monitoring Specialist","Automated Dairy Processing Systems Engineer","Data-Driven Dairy Yield Prediction Analyst","Remote/Entrepreneurship","Artisan Cheese / Yogurt Brand Founder","Online Dairy Technology Consulting Provider","Dairy-Based Nutraceutical Startup Entrepreneur","Freelance Dairy FSSAI Compliance Consultant"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹5–10 LPA","Entry Level (0–2 yrs): ₹3–6 LPA","Note: Private dairy & FMCG pay 20–40% more; cooperative sector stable; MBA (Dairy/Agri) boosts growth.","Where Are the Jobs?","Top Cities/Regions: Gujarat (Anand), Delhi-NCR, Pune, Bengaluru, Hyderabad, Ludhiana","Top Industries: Dairy (Amul, Mother Dairy), FMCG (Nestlé), Food Processing, Cold Chain, Govt Dairy Boards","Global Demand: High in New Zealand, Australia, EU; demand in dairy processing, supply chain, export management","Top Institutions","Top Institutions for Dairy Technology in India","Government:","National Dairy Research Institute (NDRI), Karnal","SMC College of Dairy Science, Anand (AAU)","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Warner College of Dairy Technology (SHUATS), Prayagraj","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","ITM University, Gwalior","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Dairy Technology Programs)","National Dairy Development Board (NDDB) Online Training","Career Opportunities","Conventional","Dairy Plant Production Manager","Milk Procurement & Quality Control Officer","Dairy Product Development Technologist","Cooperative Dairy Federation Officer (AMUL/NDDB)","New-Age & AI Driven","AI-Powered Milk Supply Chain Optimizer","IoT-Based Cold Chain Monitoring Specialist","Automated Dairy Processing Systems Engineer","Data-Driven Dairy Yield Prediction Analyst","Remote/Entrepreneurship","Artisan Cheese / Yogurt Brand Founder","Online Dairy Technology Consulting Provider","Dairy-Based Nutraceutical Startup Entrepreneur","Freelance Dairy FSSAI Compliance Consultant"]
       },
       {
         id: "7",
@@ -3805,10 +3805,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Training and tool investment",
         color: RED4,
         content: [
-          "Certificate: ₹5,000 – ₹60,000",
-          "Degree: ₹20,000 – ₹2 Lakh yearly",
-          "Living Costs: ₹5,000 – ₹15,000 monthly",
-          "Tools/Equipment: ₹3,000 – ₹10,000"
+          "Certificate: ₹5,000 –  ₹60,000",
+          "Degree: ₹20,000 –  ₹2 Lakh yearly",
+          "Living Costs: ₹5,000 –  ₹15,000 monthly",
+          "Tools/Equipment: ₹3,000 –  ₹10,000"
         ]
       },
       {
@@ -3825,7 +3825,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Perishability and seasonal variation",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA – ₹1+ Crore","Senior / Lead Role (10+ yrs): ₹10–30 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies; event/wedding florists earn more; metro cities pay 30–50% higher; creativity + branding boosts earnings.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Jaipur","Top Industries: Event Management, Wedding Planning, Retail Flower Shops, E-commerce (Ferns N Petals), Hospitality","Global Demand: High in UAE, Europe; freelancing, luxury events, export floriculture opportunities","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Tamil Nadu Agricultural University (TNAU), Coimbatore","Dr. YS Parmar University of Horticulture & Forestry, Solan","University of Horticultural Sciences (UHS), Bagalkot","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Floriculture & Landscaping Programs)","National Horticulture Board (NHB) Online Training","Career Opportunities","Conventional","Floriculture Research Scientist (ICAR/SAU)","Commercial Flower Farm Manager","Floral Designer for Events & Weddings","Flower Auction & Wholesale Market Officer","New-Age & AI Driven","AI-Optimized Greenhouse Floriculture Specialist","Drone-Based Flower Crop Health Analyst","IoT-Enabled Climate Control Polyhouse Technologist","Data-Driven Floral Demand Forecasting Analyst","Remote/Entrepreneurship","Online Flower Delivery Platform Founder","Freelance Wedding & Event Floral Designer","Dried & Preserved Flower Art Entrepreneur","Exotic / Organic Flower Export Business Owner"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA –  ₹1+ Crore","Senior / Lead Role (10+ yrs): ₹10–30 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies; event/wedding florists earn more; metro cities pay 30–50% higher; creativity + branding boosts earnings.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Jaipur","Top Industries: Event Management, Wedding Planning, Retail Flower Shops, E-commerce (Ferns N Petals), Hospitality","Global Demand: High in UAE, Europe; freelancing, luxury events, export floriculture opportunities","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Tamil Nadu Agricultural University (TNAU), Coimbatore","Dr. YS Parmar University of Horticulture & Forestry, Solan","University of Horticultural Sciences (UHS), Bagalkot","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Floriculture & Landscaping Programs)","National Horticulture Board (NHB) Online Training","Career Opportunities","Conventional","Floriculture Research Scientist (ICAR/SAU)","Commercial Flower Farm Manager","Floral Designer for Events & Weddings","Flower Auction & Wholesale Market Officer","New-Age & AI Driven","AI-Optimized Greenhouse Floriculture Specialist","Drone-Based Flower Crop Health Analyst","IoT-Enabled Climate Control Polyhouse Technologist","Data-Driven Floral Demand Forecasting Analyst","Remote/Entrepreneurship","Online Flower Delivery Platform Founder","Freelance Wedding & Event Floral Designer","Dried & Preserved Flower Art Entrepreneur","Exotic / Organic Flower Export Business Owner"]
       },
       {
         id: "7",
@@ -3929,7 +3929,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "📚",
         description: "Early steps in food technology",
         color: RED2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹25–70 LPA","Mid-Level Professional (5–8 yrs): ₹12–25 LPA","Junior / Associate (3–5 yrs): ₹6–12 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: FMCG & MNCs pay 20–50% more; metro cities higher; specialization (food safety, R&D) boosts salary.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Ahmedabad","Top Industries: FMCG (Nestlé, ITC, HUL), Food Processing, Quality Testing Labs, Packaging, Startups","Global Demand: High in USA, Canada, EU; roles in food safety, R&D, export quality, remote consulting","Top Institutions","Top Institutions for Food Science in India","Government:","Central Food Technological Research Institute (CFTRI), Mysuru","Indian Institute of Technology (IIT), Kharagpur","National Institute of Food Technology Entrepreneurship & Management (NIFTEM), Sonipat","University of Mysore, Mysuru","Private:","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","SRM Institute of Science and Technology, Chennai","Shoolini University, Solan","Online:","Swayam/NPTEL","IGNOU (Food Science & Nutrition Programs)","ICAR e-courses","Coursera (Food Science & Technology Courses)","Career Opportunities","Conventional","Food Quality Assurance & Safety Officer","Food Processing Plant Technologist","FSSAI Regulatory Affairs Specialist","Sensory Evaluation & Product Development Scientist","New-Age & AI Driven","AI-Powered Food Formulation Scientist","Blockchain-Based Food Traceability Analyst","Lab-Grown / Cultured Protein Technologist","Smart Packaging & Nano-Technology Food Engineer","Remote/Entrepreneurship","Health Food / Superfood Brand Founder","Freelance FSSAI & FDA Compliance Consultant","Online Food Science Education Platform Creator","Plant-Based / Vegan Product Startup Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹25–70 LPA","Mid-Level Professional (5–8 yrs): ₹12–25 LPA","Junior / Associate (3–5 yrs): ₹6–12 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: FMCG & MNCs pay 20–50% more; metro cities higher; specialization (food safety, R&D) boosts salary.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Ahmedabad","Top Industries: FMCG (Nestlé, ITC, HUL), Food Processing, Quality Testing Labs, Packaging, Startups","Global Demand: High in USA, Canada, EU; roles in food safety, R&D, export quality, remote consulting","Top Institutions","Top Institutions for Food Science in India","Government:","Central Food Technological Research Institute (CFTRI), Mysuru","Indian Institute of Technology (IIT), Kharagpur","National Institute of Food Technology Entrepreneurship & Management (NIFTEM), Sonipat","University of Mysore, Mysuru","Private:","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","SRM Institute of Science and Technology, Chennai","Shoolini University, Solan","Online:","Swayam/NPTEL","IGNOU (Food Science & Nutrition Programs)","ICAR e-courses","Coursera (Food Science & Technology Courses)","Career Opportunities","Conventional","Food Quality Assurance & Safety Officer","Food Processing Plant Technologist","FSSAI Regulatory Affairs Specialist","Sensory Evaluation & Product Development Scientist","New-Age & AI Driven","AI-Powered Food Formulation Scientist","Blockchain-Based Food Traceability Analyst","Lab-Grown / Cultured Protein Technologist","Smart Packaging & Nano-Technology Food Engineer","Remote/Entrepreneurship","Health Food / Superfood Brand Founder","Freelance FSSAI & FDA Compliance Consultant","Online Food Science Education Platform Creator","Plant-Based / Vegan Product Startup Entrepreneur"]
       }
     ]
   },
@@ -3999,10 +3999,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Educational investment in horticulture",
         color: RED4,
         content: [
-          "Govt Tuition: ₹20,000 – ₹1.5 Lakh total for 4 years",
-          "Private Tuition: ₹5 Lakh – ₹12 Lakh total",
-          "Living Costs: ₹10,000 – ₹25,000 monthly",
-          "Nursery Tools: ₹5,000 – ₹15,000 for personal kits"
+          "Govt Tuition: ₹20,000 –  ₹1.5 Lakh total for 4 years",
+          "Private Tuition: ₹5 Lakh –  ₹12 Lakh total",
+          "Living Costs: ₹10,000 –  ₹25,000 monthly",
+          "Nursery Tools: ₹5,000 –  ₹15,000 for personal kits"
         ]
       },
       {
@@ -4019,7 +4019,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Pests and climate unpredictability",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.2+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Floriculture/export firms pay 20–40% more; metro landscaping pays higher; greenhouse, hydroponics skills boost income.","Where Are the Jobs?","Top Cities/Regions: Bengaluru, Pune, Hyderabad, Delhi-NCR, Himachal, Uttarakhand","Top Industries: Floriculture, Landscaping, Nurseries, Agri-Exports, Govt Horticulture Dept","Global Demand: High in Netherlands, UAE, Australia; demand in greenhouse tech, export farming, urban landscaping","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Dr. YS Parmar University of Horticulture & Forestry, Solan","University of Horticultural Sciences (UHS), Bagalkot","Tamil Nadu Agricultural University (TNAU), Coimbatore","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Horticulture Programs)","National Horticulture Board (NHB) Online Training","Career Opportunities","Conventional","Horticulture Development Officer (State/Central Govt)","Fruit & Vegetable Production Specialist","Plantation Crop Estate Manager","Post-Harvest Technology & Storage Officer","New-Age & AI Driven","AI-Based Crop Disease Detection Specialist","Vertical Farming & Hydroponics Technologist","Drone-Assisted Orchard Management Analyst","IoT-Enabled Smart Greenhouse Systems Engineer","Remote/Entrepreneurship","Organic Farm-to-Table Brand Founder","Freelance Landscape & Garden Design Consultant","Exotic Fruit / Herb Export Business Owner","Online Nursery & Plant E-Commerce Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA –  ₹1.2+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Floriculture/export firms pay 20–40% more; metro landscaping pays higher; greenhouse, hydroponics skills boost income.","Where Are the Jobs?","Top Cities/Regions: Bengaluru, Pune, Hyderabad, Delhi-NCR, Himachal, Uttarakhand","Top Industries: Floriculture, Landscaping, Nurseries, Agri-Exports, Govt Horticulture Dept","Global Demand: High in Netherlands, UAE, Australia; demand in greenhouse tech, export farming, urban landscaping","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Dr. YS Parmar University of Horticulture & Forestry, Solan","University of Horticultural Sciences (UHS), Bagalkot","Tamil Nadu Agricultural University (TNAU), Coimbatore","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Horticulture Programs)","National Horticulture Board (NHB) Online Training","Career Opportunities","Conventional","Horticulture Development Officer (State/Central Govt)","Fruit & Vegetable Production Specialist","Plantation Crop Estate Manager","Post-Harvest Technology & Storage Officer","New-Age & AI Driven","AI-Based Crop Disease Detection Specialist","Vertical Farming & Hydroponics Technologist","Drone-Assisted Orchard Management Analyst","IoT-Enabled Smart Greenhouse Systems Engineer","Remote/Entrepreneurship","Organic Farm-to-Table Brand Founder","Freelance Landscape & Garden Design Consultant","Exotic Fruit / Herb Export Business Owner","Online Nursery & Plant E-Commerce Entrepreneur"]
       },
       {
         id: "7",
@@ -4101,8 +4101,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment in poultry education",
         color: RED4,
         content: [
-          "Diploma/Cert: ₹10,000 – ₹50,000",
-          "Degree Path: ₹3 Lakh – ₹8 Lakh total",
+          "Diploma/Cert: ₹10,000 –  ₹50,000",
+          "Degree Path: ₹3 Lakh –  ₹8 Lakh total",
           "Training: Specialized workshops cost ₹5k-15k"
         ]
       },
@@ -4120,7 +4120,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Viral risks and market price swings",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA – ₹1.5+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Income varies; poultry farm owners earn more; contract farming stable; metro-integrated supply chains pay higher.","Where Are the Jobs?","Top Regions: Andhra Pradesh, Telangana, Tamil Nadu, Maharashtra, Punjab, Haryana","Top Industries: Poultry Farms (Suguna, Venky’s), Feed Companies, Hatcheries, Processing Units, Retail Chains","Global Demand: High in Middle East, Africa; demand in poultry management, processing, export logistics, advisory roles","Top Institutions","Government:","Central Poultry Development Organisation (CPDO), Chandigarh","Indian Veterinary Research Institute (IVRI), Bareilly","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Tamil Nadu Veterinary & Animal Sciences University (TANUVAS), Chennai","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Poultry Farming Programs)","National Institute of Open Schooling (NIOS) Poultry Training","Career Opportunities","Conventional","Poultry Farm Production Manager","Poultry Feed Formulation Specialist","Poultry Health & Disease Management Officer","Hatchery Operations & Breeding Manager","New-Age & AI Driven","AI-Powered Poultry Flock Monitoring Analyst","IoT-Based Smart Poultry House Technologist","Automated Egg Grading & Sorting Systems Engineer","Data-Driven Poultry Growth Optimization Specialist","Remote/Entrepreneurship","Country / Desi Poultry Brand Founder","Freelance Poultry Farm Setup Consultant","Online Poultry Farming Training Academy Creator","Value-Added Poultry Products Startup Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹40 LPA –  ₹1.5+ Crore","Senior / Lead Role (10+ yrs): ₹15–40 LPA","Mid-Level Professional (5–8 yrs): ₹8–15 LPA","Junior / Associate (3–5 yrs): ₹4–8 LPA","Entry Level (0–2 yrs): ₹2.5–5 LPA","Note: Income varies; poultry farm owners earn more; contract farming stable; metro-integrated supply chains pay higher.","Where Are the Jobs?","Top Regions: Andhra Pradesh, Telangana, Tamil Nadu, Maharashtra, Punjab, Haryana","Top Industries: Poultry Farms (Suguna, Venky’s), Feed Companies, Hatcheries, Processing Units, Retail Chains","Global Demand: High in Middle East, Africa; demand in poultry management, processing, export logistics, advisory roles","Top Institutions","Government:","Central Poultry Development Organisation (CPDO), Chandigarh","Indian Veterinary Research Institute (IVRI), Bareilly","Guru Angad Dev Veterinary & Animal Sciences University (GADVASU), Ludhiana","Tamil Nadu Veterinary & Animal Sciences University (TANUVAS), Chennai","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Poultry Farming Programs)","National Institute of Open Schooling (NIOS) Poultry Training","Career Opportunities","Conventional","Poultry Farm Production Manager","Poultry Feed Formulation Specialist","Poultry Health & Disease Management Officer","Hatchery Operations & Breeding Manager","New-Age & AI Driven","AI-Powered Poultry Flock Monitoring Analyst","IoT-Based Smart Poultry House Technologist","Automated Egg Grading & Sorting Systems Engineer","Data-Driven Poultry Growth Optimization Specialist","Remote/Entrepreneurship","Country / Desi Poultry Brand Founder","Freelance Poultry Farm Setup Consultant","Online Poultry Farming Training Academy Creator","Value-Added Poultry Products Startup Entrepreneur"]
       },
       {
         id: "7",
@@ -4202,8 +4202,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment in sericulture training",
         color: RED4,
         content: [
-          "Certificate/Short Course: ₹5,000 – ₹20,000",
-          "B.Sc Sericulture: ₹2 Lakh – ₹5 Lakh total",
+          "Certificate/Short Course: ₹5,000 –  ₹20,000",
+          "B.Sc Sericulture: ₹2 Lakh –  ₹5 Lakh total",
           "Govt training is often free or highly subsidized"
         ]
       },
@@ -4221,7 +4221,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "Pests and labor intensity",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA – ₹1 Crore","Senior / Lead Role (10+ yrs): ₹10–25 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies; entrepreneurs earn more via silk production; govt schemes + export markets boost earnings.","Where Are the Jobs?","Top Regions: Karnataka, Andhra Pradesh, Tamil Nadu, West Bengal, Assam, Jammu & Kashmir","Top Industries: Silk Production, Handloom/Textile, Sericulture Dept, KVIC, Export Firms","Global Demand: High in China, Italy, Japan; demand in silk processing, export trade, rural entrepreneurship","Top Institutions","Government:","Central Silk Board (CSB), Bangalore","Central Sericultural Research & Training Institute (CSRTI), Mysuru","University of Agricultural Sciences (UAS), Bangalore","Assam Agricultural University (AAU), Jorhat","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Sericulture Programs)","Central Silk Board (CSB) Online Training","Career Opportunities","Conventional","Sericulture Development Officer (State/Central Govt)","Silkworm Rearing & Breeding Specialist","Silk Reeling & Processing Unit Manager","Central Silk Board Research Scientist","New-Age & AI Driven","AI-Based Silkworm Disease Detection Analyst","IoT-Enabled Smart Silkworm Rearing Technologist","Genetic Improvement & Biotech Silk Researcher","Automated Silk Quality Grading Systems Engineer","Remote/Entrepreneurship","Handloom Silk Brand Founder & Exporter","Freelance Sericulture Project Consultant","Online Silk Craft & Training Platform Creator","Organic / Ahimsa Silk Startup Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹25 LPA –  ₹1 Crore","Senior / Lead Role (10+ yrs): ₹10–25 LPA","Mid-Level Professional (5–8 yrs): ₹5–10 LPA","Junior / Associate (3–5 yrs): ₹3–6 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Income varies; entrepreneurs earn more via silk production; govt schemes + export markets boost earnings.","Where Are the Jobs?","Top Regions: Karnataka, Andhra Pradesh, Tamil Nadu, West Bengal, Assam, Jammu & Kashmir","Top Industries: Silk Production, Handloom/Textile, Sericulture Dept, KVIC, Export Firms","Global Demand: High in China, Italy, Japan; demand in silk processing, export trade, rural entrepreneurship","Top Institutions","Government:","Central Silk Board (CSB), Bangalore","Central Sericultural Research & Training Institute (CSRTI), Mysuru","University of Agricultural Sciences (UAS), Bangalore","Assam Agricultural University (AAU), Jorhat","Private:","Sam Higginbottom University (SHUATS), Prayagraj","Lovely Professional University (LPU), Jalandhar","Amity University, Noida","Shoolini University, Solan","Online:","ICAR e-courses","Swayam/NPTEL","IGNOU (Sericulture Programs)","Central Silk Board (CSB) Online Training","Career Opportunities","Conventional","Sericulture Development Officer (State/Central Govt)","Silkworm Rearing & Breeding Specialist","Silk Reeling & Processing Unit Manager","Central Silk Board Research Scientist","New-Age & AI Driven","AI-Based Silkworm Disease Detection Analyst","IoT-Enabled Smart Silkworm Rearing Technologist","Genetic Improvement & Biotech Silk Researcher","Automated Silk Quality Grading Systems Engineer","Remote/Entrepreneurship","Handloom Silk Brand Founder & Exporter","Freelance Sericulture Project Consultant","Online Silk Craft & Training Platform Creator","Organic / Ahimsa Silk Startup Entrepreneur"]
       },
       {
         id: "7",
@@ -4303,8 +4303,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Cost of vertical farming education",
         color: RED4,
         content: [
-          "Certifications: ₹50,000 – ₹1.5 Lakh for specialist courses",
-          "Degree Path: ₹4 Lakh – ₹10 Lakh (B.Tech Agri/Electronics)",
+          "Certifications: ₹50,000 –  ₹1.5 Lakh for specialist courses",
+          "Degree Path: ₹4 Lakh –  ₹10 Lakh (B.Tech Agri/Electronics)",
           "Small Scale Kits: ₹5k-20k for home experimentation"
         ]
       },
@@ -4322,7 +4322,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "⚠️",
         description: "High costs and energy needs",
         color: RED,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹5–10 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: Startup ecosystem pays higher; metro cities lead; skills in hydroponics, IoT, automation boost salaries significantly.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Delhi-NCR, Mumbai, Chennai","Top Industries: Agri-tech startups (UrbanKisaan, Barton Breeze), Hydroponics Firms, Retail Chains, Food Supply Startups","Global Demand: High in UAE, Singapore, USA; demand in smart farming, controlled environment agriculture, remote monitoring roles","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Indian Institute of Horticultural Research (IIHR), Bangalore","Tamil Nadu Agricultural University (TNAU), Coimbatore","National Institute of Plant Genome Research (NIPGR), New Delhi","Private:","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","SRM Institute of Science and Technology, Chennai","Online:","Swayam/NPTEL","ICAR e-courses","Coursera (Vertical Farming & Urban Agriculture Courses)","Udemy (Vertical Farming & Hydroponics Programs)","Career Opportunities","Conventional","Vertical Farm Operations Manager","Controlled Environment Agriculture (CEA) Technician","Nutrient Solution & Fertigation Specialist","Vertical Farm Crop Production Supervisor","New-Age & AI Driven","AI-Powered Climate Control Systems Engineer","IoT-Based Automated Vertical Farm Technologist","Machine Learning Crop Yield Optimization Analyst","LED Grow Light & Photobiology Research Scientist","Remote/Entrepreneurship","Urban Vertical Farm Startup Founder","Freelance Hydroponics / Aeroponics Consultant","Online Vertical Farming Course & Training Creator","Microgreens & Specialty Herbs Brand Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2+ Crore","Senior / Lead Role (10+ yrs): ₹20–60 LPA","Mid-Level Professional (5–8 yrs): ₹10–20 LPA","Junior / Associate (3–5 yrs): ₹5–10 LPA","Entry Level (0–2 yrs): ₹3–7 LPA","Note: Startup ecosystem pays higher; metro cities lead; skills in hydroponics, IoT, automation boost salaries significantly.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Delhi-NCR, Mumbai, Chennai","Top Industries: Agri-tech startups (UrbanKisaan, Barton Breeze), Hydroponics Firms, Retail Chains, Food Supply Startups","Global Demand: High in UAE, Singapore, USA; demand in smart farming, controlled environment agriculture, remote monitoring roles","Top Institutions","Government:","Indian Agricultural Research Institute (IARI), New Delhi","Indian Institute of Horticultural Research (IIHR), Bangalore","Tamil Nadu Agricultural University (TNAU), Coimbatore","National Institute of Plant Genome Research (NIPGR), New Delhi","Private:","Amity University, Noida","Lovely Professional University (LPU), Jalandhar","Shoolini University, Solan","SRM Institute of Science and Technology, Chennai","Online:","Swayam/NPTEL","ICAR e-courses","Coursera (Vertical Farming & Urban Agriculture Courses)","Udemy (Vertical Farming & Hydroponics Programs)","Career Opportunities","Conventional","Vertical Farm Operations Manager","Controlled Environment Agriculture (CEA) Technician","Nutrient Solution & Fertigation Specialist","Vertical Farm Crop Production Supervisor","New-Age & AI Driven","AI-Powered Climate Control Systems Engineer","IoT-Based Automated Vertical Farm Technologist","Machine Learning Crop Yield Optimization Analyst","LED Grow Light & Photobiology Research Scientist","Remote/Entrepreneurship","Urban Vertical Farm Startup Founder","Freelance Hydroponics / Aeroponics Consultant","Online Vertical Farming Course & Training Creator","Microgreens & Specialty Herbs Brand Entrepreneur"]
       },
       {
         id: "7",
@@ -4505,7 +4505,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "NFSU Merit Scholarship: Specific to NFSU students based on semester performance",
           "Post-Matric Scholarship: For SC/ST/OBC students by State Governments",
           "Police Welfare Scholarships: Some states offer scholarships to wards of police personnel",
-          "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
+          "Central: NSP (National Scholarship Portal) –  Merit-cum-Means for professional degrees",
           "Institutional: Need-based financial assistance at various universities",
           "Merit-Based: Top performers in entrance exams receive full or partial scholarships"
         ]
@@ -4776,7 +4776,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Aditya Birla Scholarship: For top rankers in CLAT joining top NLUs (covers full fees)",
           "University Scholarships: Most NLUs have 'Means-cum-Merit' waivers for students with family income < ₹6–8 LPA",
           "State Schemes: E.g., Post-Metric Scholarship for SC/ST students",
-          "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
+          "Central: NSP (National Scholarship Portal) –  Merit-cum-Means for professional degrees",
           "Institutional: Need-based financial assistance at various universities",
           "Merit-Based: Top performers in entrance exams receive full or partial scholarships"
         ]
@@ -5264,7 +5264,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Pay, growth, and hiring trends for SSC roles.",
         color: RED2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA – ₹35 LPA","Senior / Lead Role (10+ yrs): ₹15 LPA – ₹22 LPA","Mid-Level Professional (5–8 yrs): ₹10 LPA – ₹15 LPA","Junior / Associate (3–5 yrs): ₹7 LPA – ₹10 LPA","Entry Level (0–2 yrs): ₹4 LPA – ₹7 LPA","Salary Variation Note Fixed government scales. Higher HRA/DA in Tier-1 cities.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Kolkata, Chennai, Bengaluru.","Top Industries: Income Tax, GST, Railways, CBI, Ministries.","Global Demand: Foreign postings via Ministry of External Affairs.","Top Institutions","Government or Government Funded Coaching Institutes","Jamia Millia Islamia Coaching Centre, New Delhi","Dr. Ambedkar Studies Centre (UGC funded), Pan-India","Aligarh Muslim University Coaching Centre, Aligarh","Banaras Hindu University Career Guidance Centre, Varanasi","2. Private Coaching Institutes","KD Campus, New Delhi","Mahendras Institute, Pan-India","Career Power Institute, New Delhi","Paramount Coaching Centre, New Delhi","3. Online Coaching Institutes","Unacademy SSC","Adda247 (BSE Institute)","Testbook SSC Online","PW (Physics Wallah) SSC Program","Career Opportunities","Conventional","SSC CGL Officer","SSC CHSL Officer","SSC Stenographer","SSC GD Constable","New-age and AI driven","Digital Records Officer","E-Governance Assistant","Cyber Documentation Executive","Data Processing Officer","Remote/Entrepreneurship","SSC Mentor / Coach","Exam Content Creator","Government Exam YouTuber","Online Test Series Entrepreneur"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹22 LPA –  ₹35 LPA","Senior / Lead Role (10+ yrs): ₹15 LPA –  ₹22 LPA","Mid-Level Professional (5–8 yrs): ₹10 LPA –  ₹15 LPA","Junior / Associate (3–5 yrs): ₹7 LPA –  ₹10 LPA","Entry Level (0–2 yrs): ₹4 LPA –  ₹7 LPA","Salary Variation Note Fixed government scales. Higher HRA/DA in Tier-1 cities.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Kolkata, Chennai, Bengaluru.","Top Industries: Income Tax, GST, Railways, CBI, Ministries.","Global Demand: Foreign postings via Ministry of External Affairs.","Top Institutions","Government or Government Funded Coaching Institutes","Jamia Millia Islamia Coaching Centre, New Delhi","Dr. Ambedkar Studies Centre (UGC funded), Pan-India","Aligarh Muslim University Coaching Centre, Aligarh","Banaras Hindu University Career Guidance Centre, Varanasi","2. Private Coaching Institutes","KD Campus, New Delhi","Mahendras Institute, Pan-India","Career Power Institute, New Delhi","Paramount Coaching Centre, New Delhi","3. Online Coaching Institutes","Unacademy SSC","Adda247 (BSE Institute)","Testbook SSC Online","PW (Physics Wallah) SSC Program","Career Opportunities","Conventional","SSC CGL Officer","SSC CHSL Officer","SSC Stenographer","SSC GD Constable","New-age and AI driven","Digital Records Officer","E-Governance Assistant","Cyber Documentation Executive","Data Processing Officer","Remote/Entrepreneurship","SSC Mentor / Coach","Exam Content Creator","Government Exam YouTuber","Online Test Series Entrepreneur"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -5549,7 +5549,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Lombard Odier & CII Foundation: Occasionally offer grants for sustainable design projects",
           "Institute Merit Scholarships: MIT-ID and UPES offer tuition waivers (25–50%) for top rankers",
           "NID Means-cum-Merit: Financial aid for students with family income below certain slab",
-          "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
+          "Central: NSP (National Scholarship Portal) –  Merit-cum-Means for professional degrees",
           "State-Level: Various state governments offer scholarships for design students",
           "Employer Sponsorship: Many companies sponsor employees pursuing design degrees"
         ]
@@ -5818,7 +5818,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Panasonic Ratti Chhatr Scholarship: For students from low-income families joining IITs",
           "Merit-cum-Means Scholarships: Available at all IITs/NITs (Full tuition waiver for family income < ₹1L/year)",
           "Ratan Tata Scholarship: For engineering students (varies by college)",
-          "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
+          "Central: NSP (National Scholarship Portal) –  Merit-cum-Means for professional degrees",
           "State-Level: Various state governments offer scholarships for engineering students",
           "Employer Sponsorship: Many companies sponsor employees pursuing engineering degrees"
         ]
@@ -6092,7 +6092,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Pragati Scholarship (AICTE): For girl students in technical education (₹50,000/year)",
           "ONGC Scholarship: For SC/ST students pursuing engineering",
           "Institute Merit Scholarships: IITs and BITS offer tuition waivers for top rankers",
-          "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
+          "Central: NSP (National Scholarship Portal) –  Merit-cum-Means for professional degrees",
           "State-Level: Various state governments offer scholarships for engineering students",
           "Employer Sponsorship: Many companies sponsor employees pursuing engineering degrees"
         ]

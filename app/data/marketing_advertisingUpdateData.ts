@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const RED = "#C20000";
 const RED2 = "#DA1313";
@@ -79,7 +79,7 @@ export const marketing_advertisingUpdateData: Record<string, CareerPageData> = {
         color: RED2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -167,14 +167,14 @@ export const marketing_advertisingUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow at a D2C e-commerce startup.",
         color: BLUE2,
         content: [
-          "09:00 AM – Morning Standup: Priya joins the marketing team meeting. They review yesterday's campaign performance. The Instagram ad had a 3.5% CTR (Click-Through Rate). The email campaign had a 22% open rate. Numbers, numbers, numbers.",
-          "10:00 AM – Data Deep Dive: She opens Google Analytics. The website had 50,000 visitors yesterday. But only 2% converted to customers. She digs deeper: Where are they dropping off? The checkout page. She flags this to the product team.",
-          "11:30 AM – Content Strategy: She meets with the content team. They're planning next week's social media posts. Priya suggests: 'Let's create a video showing how our product solves a real problem. Videos get 10x more engagement than static posts.'",
-          "01:00 PM – Lunch & Learning: She eats while watching a YouTube video on 'AI in Marketing.' Continuous learning is non-negotiable in this field.",
-          "02:00 PM – Paid Ads Management: She logs into Google Ads and Meta Ads Manager. She's running 5 campaigns simultaneously. One campaign is underperforming. She pauses it and reallocates the budget to the winning campaign. A/B testing is her daily ritual.",
-          "03:30 PM – Email Marketing: She designs an email campaign for abandoned cart recovery. 'Hey, you left something behind!' She segments the audience: New customers get a 20% discount. Loyal customers get free shipping. Personalization is key.",
-          "05:00 PM – Reporting: She creates a dashboard showing KPIs (Key Performance Indicators): Traffic, Leads, Conversions, Cost Per Acquisition (CPA), Return on Ad Spend (ROAS). The CEO wants to see ROI. She delivers.",
-          "06:30 PM – End of Day: She logs off. Today, her campaigns generated 500 leads and 50 sales. That's ₹2 Lakhs in revenue. Not bad for a day's work."
+          "09:00 AM –  Morning Standup: Priya joins the marketing team meeting. They review yesterday's campaign performance. The Instagram ad had a 3.5% CTR (Click-Through Rate). The email campaign had a 22% open rate. Numbers, numbers, numbers.",
+          "10:00 AM –  Data Deep Dive: She opens Google Analytics. The website had 50,000 visitors yesterday. But only 2% converted to customers. She digs deeper: Where are they dropping off? The checkout page. She flags this to the product team.",
+          "11:30 AM –  Content Strategy: She meets with the content team. They're planning next week's social media posts. Priya suggests: 'Let's create a video showing how our product solves a real problem. Videos get 10x more engagement than static posts.'",
+          "01:00 PM –  Lunch & Learning: She eats while watching a YouTube video on 'AI in Marketing.' Continuous learning is non-negotiable in this field.",
+          "02:00 PM –  Paid Ads Management: She logs into Google Ads and Meta Ads Manager. She's running 5 campaigns simultaneously. One campaign is underperforming. She pauses it and reallocates the budget to the winning campaign. A/B testing is her daily ritual.",
+          "03:30 PM –  Email Marketing: She designs an email campaign for abandoned cart recovery. 'Hey, you left something behind!' She segments the audience: New customers get a 20% discount. Loyal customers get free shipping. Personalization is key.",
+          "05:00 PM –  Reporting: She creates a dashboard showing KPIs (Key Performance Indicators): Traffic, Leads, Conversions, Cost Per Acquisition (CPA), Return on Ad Spend (ROAS). The CEO wants to see ROI. She delivers.",
+          "06:30 PM –  End of Day: She logs off. Today, her campaigns generated 500 leads and 50 sales. That's ₹2 Lakhs in revenue. Not bad for a day's work."
         ]
       },
       {
@@ -245,11 +245,11 @@ export const marketing_advertisingUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹3.0 Crore",
-          "Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹12 – ₹22 LPA",
-          "Junior / Associate (3–5 yrs): ₹6 – ₹11 LPA",
-          "Entry Level (0–2 yrs): ₹3 – ₹6 LPA",
+          "CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹3.0 Crore",
+          "Senior / Lead Role (10+ yrs): ₹25 –  ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹12 –  ₹22 LPA",
+          "Junior / Associate (3–5 yrs): ₹6 –  ₹11 LPA",
+          "Entry Level (0–2 yrs): ₹3 –  ₹6 LPA",
           "Note: AI-driven marketing and Metros boost pay by 45%.",
           "Growth: Digital marketing is growing at 25-30% annually. Every company is shifting budget from traditional to digital.",
           "Demand: High demand in E-commerce, EdTech, Fintech, Consumer Goods, and Media sectors."
@@ -419,3 +419,5 @@ export const marketing_advertisingUpdateData: Record<string, CareerPageData> = {
     ]
   },
 };
+
+

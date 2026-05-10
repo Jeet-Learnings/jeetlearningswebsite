@@ -1,4 +1,4 @@
-import { CareerPageData } from './careerPageData';
+﻿import { CareerPageData } from './careerPageData';
 
 const COLOR1 = "#DC2626";
 const COLOR2 = "#EF4444";
@@ -46,11 +46,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -112,7 +112,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -200,11 +200,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -266,7 +266,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -354,11 +354,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -420,7 +420,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -508,11 +508,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -574,7 +574,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -662,11 +662,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -728,7 +728,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -816,11 +816,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -882,7 +882,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -970,11 +970,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -1036,7 +1036,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1124,11 +1124,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -1190,7 +1190,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1278,11 +1278,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -1344,7 +1344,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1432,11 +1432,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -1498,7 +1498,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1586,11 +1586,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -1652,7 +1652,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1740,11 +1740,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -1806,7 +1806,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -1894,11 +1894,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -1960,7 +1960,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -2048,11 +2048,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -2114,7 +2114,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -2202,11 +2202,11 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         description: "Real workflow of a professional.",
         color: "#EF4444",
         content: [
-          "8:30 AM -  Morning briefing and planning",
-          "10:30 AM -  Core work activities and analysis",
-          "1:30 PM -  Problem-solving and collaboration",
-          "4:00 PM -  Meetings and strategic planning",
-          "6:00 PM -  Review and preparation for next day"
+          "8:30 AM –  Morning briefing and planning",
+          "10:30 AM –  Core work activities and analysis",
+          "1:30 PM –  Problem-solving and collaboration",
+          "4:00 PM –  Meetings and strategic planning",
+          "6:00 PM –  Review and preparation for next day"
         ]
       },
       {
@@ -2268,7 +2268,7 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
         color: "#EF4444",
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA – ₹2+ Crore",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
           "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
           "Junior / Associate (3–5 yrs): ₹5–15 LPA",
@@ -2315,3 +2315,5 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
     ]
   },
 };
+
+

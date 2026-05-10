@@ -1,4 +1,4 @@
-import type { CareerPageData } from './careerPageData';
+﻿import type { CareerPageData } from './careerPageData';
 
 const GREEN = "#047857";
 const GREEN2 = "#10B981";
@@ -46,11 +46,11 @@ export const homeScienceUpdateData: Record<string, CareerPageData> = {
         description: "Real-world workflow of a home science professional.",
         color: GREEN2,
         content: [
-          "8:00 AM –  Morning: Review nutrition data for a school meal program and prepare educational materials on balanced diets for an upcoming community workshop.",
-          "10:30 AM –  Mid-Morning: Conduct a field visit to assess food safety practices at a local catering unit and provide recommendations for improvement.",
-          "1:00 PM –  Afternoon: Develop a low-cost, nutrient-rich recipe booklet for a women's self-help group and conduct a hands-on cooking demonstration.",
-          "4:00 PM –  Late Afternoon: Meet with parents to discuss child development milestones, nutrition for growing children, and family wellness strategies.",
-          "6:30 PM –  Evening: Document observations, update program records, and plan next week's extension activities and community outreach initiatives."
+          "8:00 AM –   Morning: Review nutrition data for a school meal program and prepare educational materials on balanced diets for an upcoming community workshop.",
+          "10:30 AM –   Mid-Morning: Conduct a field visit to assess food safety practices at a local catering unit and provide recommendations for improvement.",
+          "1:00 PM –   Afternoon: Develop a low-cost, nutrient-rich recipe booklet for a women's self-help group and conduct a hands-on cooking demonstration.",
+          "4:00 PM –   Late Afternoon: Meet with parents to discuss child development milestones, nutrition for growing children, and family wellness strategies.",
+          "6:30 PM –   Evening: Document observations, update program records, and plan next week's extension activities and community outreach initiatives."
         ]
       },
       {
@@ -100,7 +100,7 @@ export const homeScienceUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Current opportunities and earning potential.",
         color: GREEN2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA – ₹85 LPA","Senior / Lead Role (10+ yrs): ₹16 – ₹32 LPA","Mid-Level Professional (5–8 yrs): ₹9 – ₹15 LPA","Junior / Associate (3–5 yrs): ₹5 – ₹8.5 LPA","Entry Level (0–2 yrs): ₹2 – ₹4 LPA","Note: Metros pay 35% more; Specialization (Dietetics/Design) boosts earnings.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Pune, Hyderabad, Ahmedabad.","Top Industries: Healthcare, Hospitality, NGOs, FMCG, Fashion, Academia.","Global Demand: USA, UK, UAE; Rising freelance nutrition consulting.","Top Institutions","Career Opportunities","Conventional","Home Science Teacher","Nutritionist / Dietitian","Child Development Officer","Extension Educator","New-age and AI driven","Wellness Coach","Food Quality Analyst","Digital Nutrition Consultant","Lifestyle Program Specialist","Remote/Entrepreneurship","Online Diet Consultant","Home-based Food Entrepreneur","Parenting Content Creator","Textile / Fashion Boutique Owner"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹35 LPA –  ₹85 LPA","Senior / Lead Role (10+ yrs): ₹16 –  ₹32 LPA","Mid-Level Professional (5–8 yrs): ₹9 –  ₹15 LPA","Junior / Associate (3–5 yrs): ₹5 –  ₹8.5 LPA","Entry Level (0–2 yrs): ₹2 –  ₹4 LPA","Note: Metros pay 35% more; Specialization (Dietetics/Design) boosts earnings.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Pune, Hyderabad, Ahmedabad.","Top Industries: Healthcare, Hospitality, NGOs, FMCG, Fashion, Academia.","Global Demand: USA, UK, UAE; Rising freelance nutrition consulting.","Top Institutions","Career Opportunities","Conventional","Home Science Teacher","Nutritionist / Dietitian","Child Development Officer","Extension Educator","New-age and AI driven","Wellness Coach","Food Quality Analyst","Digital Nutrition Consultant","Lifestyle Program Specialist","Remote/Entrepreneurship","Online Diet Consultant","Home-based Food Entrepreneur","Parenting Content Creator","Textile / Fashion Boutique Owner"]
       },{
         id: "institutions",
         title: "Top Institutions & Learning Centers",
@@ -249,4 +249,6 @@ export const homeScienceUpdateData: Record<string, CareerPageData> = {
     ]
   }
 };
+
+
 
