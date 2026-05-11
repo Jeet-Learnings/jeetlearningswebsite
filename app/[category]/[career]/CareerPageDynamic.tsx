@@ -311,8 +311,8 @@ export function CareerPageDynamic({
         if (section.id === 'dayinlife') {
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
-              <div className="w-full">
-                <div className="mb-12 sm:mb-14 md:mb-16 max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-12 sm:mb-14 md:mb-16">
                   <div className="flex items-center gap-2 sm:gap-3 md:gap-4 mb-3 sm:mb-4">
                     <Clock className="w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 text-blue-600 flex-shrink-0" />
                     <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
@@ -324,8 +324,7 @@ export function CareerPageDynamic({
                   </p>
                 </div>
 
-                <div className="px-3 sm:px-4 md:px-6 lg:px-8">
-                  <div className="space-y-6 sm:space-y-7 md:space-y-8 max-w-7xl mx-auto">
+                <div className="space-y-6 sm:space-y-7 md:space-y-8">
                   {section.content?.map((item: string, idx: number) => {
                     const pipeParts = item.split('|');
                     let time = '';
@@ -385,7 +384,6 @@ export function CareerPageDynamic({
                       </div>
                     );
                   })}
-                  </div>
                 </div>
               </div>
             </section>
@@ -396,8 +394,8 @@ export function CareerPageDynamic({
         if (section.id === 'who') {
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
-              <div className="w-full">
-                <div className="mb-10 sm:mb-12 max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
                   <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
                     <User className="w-8 sm:w-10 h-8 sm:h-10 text-indigo-600 flex-shrink-0" />
                     <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
@@ -409,8 +407,7 @@ export function CareerPageDynamic({
                   </p>
                 </div>
 
-                <div className="px-3 sm:px-4 md:px-6 lg:px-8">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5 lg:gap-6 max-w-7xl mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                   {section.content?.map((item: string, idx: number) => {
                     const hasColon = item.includes(':');
                     const [title, desc] = hasColon ? item.split(':') : [item, ''];
@@ -468,8 +465,8 @@ export function CareerPageDynamic({
 
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
-              <div className="w-full">
-                <div className="mb-10 sm:mb-12 max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
                   <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
                     <Map className="w-8 sm:w-10 h-8 sm:h-10 text-blue-600 flex-shrink-0" />
                     <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
@@ -481,41 +478,44 @@ export function CareerPageDynamic({
                   </p>
                 </div>
 
-                <div className="w-full overflow-x-auto">
-                  <div className="px-3 sm:px-4 md:px-6 lg:px-8">
-                    <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-full">
-                      {pathways.map((path, pIdx) => (
-                        <div key={pIdx} className="bg-white rounded-xl sm:rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col hover:shadow-md transition-shadow">
-                          <div className="p-4 sm:p-5 md:p-6 bg-slate-50 border-b border-slate-200 border-t-4 border-blue-500">
-                            <h3 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 leading-tight whitespace-nowrap">
-                              <TranslatedText as="span">{path.title}</TranslatedText>
+                <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                  {pathways.map((path, pIdx) => (
+                    <div key={pIdx} className="bg-white rounded-xl sm:rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col hover:shadow-md transition-shadow">
+                      <div className="p-4 sm:p-5 md:p-6 bg-slate-50 border-b border-slate-200 border-t-4 border-blue-500">
+                        <div>
+                          <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1.5">
+                            <TranslatedText as="span">{path.title.split(':')[0]?.trim()}</TranslatedText>
+                          </p>
+                          {path.title.includes(':') && (
+                            <h3 className="text-sm sm:text-base font-bold text-slate-900 leading-snug">
+                              <TranslatedText as="span">{path.title.split(':')[1]?.trim()}</TranslatedText>
                             </h3>
-                          </div>
-                          <div className="p-4 sm:p-5 md:p-6 flex-1 flex flex-col gap-3 sm:gap-4">
-                            {path.steps.map((step, sIdx) => {
-                              const colonIdx = step.indexOf(':');
-                              const label = colonIdx > -1 ? step.substring(0, colonIdx).trim() : '';
-                              const desc = colonIdx > -1 ? step.substring(colonIdx + 1).trim() : step;
-                              return (
-                                <div key={sIdx} className="flex gap-3 sm:gap-4 items-start relative">
-                                  {sIdx < path.steps.length -  1 && (
-                                    <div className="absolute left-[11px] top-6 w-[2px] h-[calc(100%+8px)] bg-blue-100" />
-                                  )}
-                                  <div className="w-6 h-6 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center flex-shrink-0 z-10">
-                                    {sIdx + 1}
-                                  </div>
-                                  <div className="flex-1 min-w-0">
-                                    {label && <p className="text-xs sm:text-sm font-bold text-slate-900 mb-0.5 sm:mb-1 leading-snug break-words"><TranslatedText as="span">{label}</TranslatedText></p>}
-                                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed break-words"><TranslatedText as="span">{desc}</TranslatedText></p>
-                                  </div>
-                                </div>
-                              );
-                            })}
-                          </div>
+                          )}
                         </div>
-                      ))}
+                      </div>
+                      <div className="p-4 sm:p-5 md:p-6 flex-1 flex flex-col gap-3 sm:gap-4">
+                        {path.steps.map((step, sIdx) => {
+                          const colonIdx = step.indexOf(':');
+                          const label = colonIdx > -1 ? step.substring(0, colonIdx).trim() : '';
+                          const desc = colonIdx > -1 ? step.substring(colonIdx + 1).trim() : step;
+                          return (
+                            <div key={sIdx} className="flex gap-3 sm:gap-4 items-start relative">
+                              {sIdx < path.steps.length -  1 && (
+                                <div className="absolute left-[11px] top-6 w-[2px] h-[calc(100%+8px)] bg-blue-100" />
+                              )}
+                              <div className="w-6 h-6 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center flex-shrink-0 z-10">
+                                {sIdx + 1}
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                {label && <p className="text-xs sm:text-sm font-bold text-slate-900 mb-0.5 sm:mb-1 leading-snug break-words"><TranslatedText as="span">{label}</TranslatedText></p>}
+                                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed break-words"><TranslatedText as="span">{desc}</TranslatedText></p>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
                     </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </section>
@@ -1732,7 +1732,7 @@ export function CareerPageDynamic({
                           </div>
                           <div className="flex gap-3 sm:gap-4">
                             <div className="w-10 flex-shrink-0" />
-                            <div className="text-lg text-slate-700 mb-4 tracking-tight flex-1 min-w-0 break-words"><TranslatedText as="span">{details}</TranslatedText></div>
+                            <div className="text-[15.5px] text-slate-700 mb-4 tracking-tight flex-1 min-w-0 break-words"><TranslatedText as="span">{details}</TranslatedText></div>
                           </div>
                         </div>
                       </div>

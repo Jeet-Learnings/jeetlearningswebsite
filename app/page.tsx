@@ -619,27 +619,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="py-20 px-4 sm:px-8">
-        <div className="max-w-4xl mx-auto animate-fade-in-up">
-          <div className="bg-blue-600 rounded-2xl p-12 md:p-16 text-center text-white">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              {t('Ready to Find Your Path?')}
-            </h2>
-            <p className="text-base sm:text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-              {t('Join thousands of students who have discovered their ideal career with our guidance platform.')}
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors">
-                {t('Start Free Assessment')}
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors">
-                {t('Talk to an Expert')}
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <Footer />
 

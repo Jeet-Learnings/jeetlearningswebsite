@@ -202,31 +202,6 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 px-4 sm:px-8 bg-slate-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            <TranslatedText as="span">Not sure which career is right for you?</TranslatedText>
-          </h2>
-          <p className="text-base sm:text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-            <TranslatedText>
-              Get personalized guidance from our expert counselors and find your perfect path.
-            </TranslatedText>
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              <TranslatedText as="span">Book Free Consultation</TranslatedText>
-              <ArrowRight className="w-4 h-4" />
-            </button>
-            <Link
-              href="/career-path"
-              className="inline-flex items-center justify-center gap-2 border-2 border-slate-300 text-slate-900 px-8 py-4 rounded-lg font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors"
-            >
-              <TranslatedText as="span">Explore All Categories</TranslatedText>
-            </Link>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
