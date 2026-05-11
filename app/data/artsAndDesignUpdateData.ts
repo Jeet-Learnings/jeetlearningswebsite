@@ -13355,7 +13355,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA –  ₹75 LPA","Senior / Lead Role (10+ yrs): ₹15 –  ₹28 LPA","Mid-Level Professional (5–8 yrs): ₹8 –  ₹14 LPA","Junior / Associate (3–5 yrs): ₹5 –  ₹7 LPA","Entry Level (0–2 yrs): ₹3 –  ₹4.5 LPA","Note: Govt pay follows 7th/8th CPC; GIS/LiDAR skills pay more.","Where Are the Jobs?","Top Cities: Delhi, Vadodara, Chennai, Bhopal, Kolkata, Patna.","Top Industries: ASI, State Archaeology, Heritage Consulting, Digital Mapping, Museums.","Global Demand: UK, UAE, Saudi Arabia; Growth in digital heritage archiving.","Top Institutions","Career Opportunities","Conventional","Field Archaeologist","Museum Curator","Archaeological Survey Officer","Heritage Conservation Assistant","New-age and AI driven","GIS Archaeology Analyst","Remote Sensing Specialist","Digital Heritage Archivist","Archaeological Data Analyst","Remote/Entrepreneurship","Heritage Consultant","Archaeology Content Creator","Cultural Tourism Entrepreneur","Research Writing Freelancer"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA –  ₹75 LPA","Senior / Lead Role (10+ yrs): ₹15 –  ₹28 LPA","Mid-Level Professional (5–8 yrs): ₹8 –  ₹14 LPA","Junior / Associate (3–5 yrs): ₹5 –  ₹7 LPA","Entry Level (0–2 yrs): ₹3 –  ₹4 LPA","Note: Govt pay follows 7th/8th CPC; GIS/LiDAR skills pay more.","Where Are the Jobs?","Top Cities: Delhi, Vadodara, Chennai, Bhopal, Kolkata, Patna.","Top Industries: ASI, State Archaeology, Heritage Consulting, Digital Mapping, Museums.","Global Demand: UK, UAE, Saudi Arabia; Growth in digital heritage archiving.","Top Institutions","Career Opportunities","Conventional","Field Archaeologist","Museum Curator","Archaeological Survey Officer","Heritage Conservation Assistant","New-age and AI driven","GIS Archaeology Analyst","Remote Sensing Specialist","Digital Heritage Archivist","Archaeological Data Analyst","Remote/Entrepreneurship","Heritage Consultant","Archaeology Content Creator","Cultural Tourism Entrepreneur","Research Writing Freelancer"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -13831,7 +13831,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹22 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹20 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 –  ₹5.5 LPA","Note: GIS/Remote Sensing skills boost pay by 40% in metros.","Where Are the Jobs?","Top Cities: Delhi, Bengaluru, Hyderabad, Mumbai, Pune, Kolkata.","Top Industries: Geospatial Tech, Urban Planning, Climate Research, NGOs, Government.","Global Demand: USA, UK, Australia; Remote GIS and ESG consulting trends.","Top Institutions","Career Opportunities","Conventional","Academic Geographer","Urban and Regional Planner","Cartographer","Environmental Consultant","New-age and AI driven","GIS Analyst","Remote Sensing Specialist","Spatial Data Analyst","Climate Risk Analyst","Remote/Entrepreneurship","GIS Freelance Consultant","Map Content Creator","Location Intelligence Entrepreneur","Geospatial Training Mentor"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.2 Crore","Senior / Lead Role (10+ yrs): ₹22 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹20 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹11 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5 LPA","Note: GIS/Remote Sensing skills boost pay by 40% in metros.","Where Are the Jobs?","Top Cities: Delhi, Bengaluru, Hyderabad, Mumbai, Pune, Kolkata.","Top Industries: Geospatial Tech, Urban Planning, Climate Research, NGOs, Government.","Global Demand: USA, UK, Australia; Remote GIS and ESG consulting trends.","Top Institutions","Career Opportunities","Conventional","Academic Geographer","Urban and Regional Planner","Cartographer","Environmental Consultant","New-age and AI driven","GIS Analyst","Remote Sensing Specialist","Spatial Data Analyst","Climate Risk Analyst","Remote/Entrepreneurship","GIS Freelance Consultant","Map Content Creator","Location Intelligence Entrepreneur","Geospatial Training Mentor"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -14067,7 +14067,15 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2.0 Crore","Senior / Lead Role (10+ yrs): ₹20 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 –  ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹9 LPA","Entry Level (0–2 yrs): ₹3.5 –  ₹5.5 LPA","Note: Metros pay 30% more; UGC-NET/PhD boosts academic pay scales.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.","Top Industries: Think Tanks, NGOs, Political Consulting, Media, Corporate CSR.","Global Demand: USA, UK, UAE; Rising remote policy research roles.","Top Institutions","Government","Jawaharlal Nehru University (JNU), New Delhi","University of Delhi (DU), New Delhi","Banaras Hindu University (BHU), Varanasi","University of Hyderabad, Hyderabad","Private","Christ University, Bengaluru","Symbiosis School of Liberal Arts, Pune","Ashoka University, Sonipat","Jindal School of Government & Public Policy, Sonipat","Online","IGNOU (Indira Gandhi National Open University)","Coursera –  Introduction to Political Science (various universities)","edX –  Political Science & Government Courses","Swayam –  NPTEL Political Science Courses","Career Opportunities","Conventional","Political Science Professor","Civil Services Officer","Policy Research Associate","Legislative Assistant","New-age and AI driven","Public Policy Analyst","Political Data Analyst","Government Affairs Specialist","Geopolitical Risk Analyst","Remote/Entrepreneurship","Political Consultant","Public Affairs Consultant","Policy Content Creator","Independent Research Consultant"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2.0 Crore","Senior / Lead Role (10+ yrs): ₹20 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 –  ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹9 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5 LPA","Note: Metros pay 30% more; UGC-NET/PhD boosts academic pay scales.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.","Top Industries: Think Tanks, NGOs, Political Consulting, Media, Corporate CSR.","Global Demand: USA, UK, UAE; Rising remote policy research roles."]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top cities and industries.",
+        color: BLUE,
+        content: ["Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.","Top Industries: Think Tanks, NGOs, Political Consulting, Media, Corporate CSR.","Global Demand: USA, UK, UAE; Rising remote policy research roles."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -14093,6 +14101,18 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
           "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
           "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top political science institutes across India.",
+        color: BLUE,
+        content: [
+          "Government: Jawaharlal Nehru University (JNU) New Delhi, University of Delhi (DU) New Delhi, Banaras Hindu University (BHU) Varanasi, University of Hyderabad Hyderabad",
+          "Private: Christ University Bengaluru, Symbiosis School of Liberal Arts Pune, Ashoka University Sonipat, Jindal School of Government & Public Policy Sonipat",
+          "Online: IGNOU (Indira Gandhi National Open University), Coursera – Introduction to Political Science, edX – Political Science & Government Courses, Swayam – NPTEL Political Science Courses"
         ]
       },
       {
