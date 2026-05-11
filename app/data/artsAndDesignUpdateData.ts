@@ -3654,9 +3654,27 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Three main routes to enter mass communication",
         color: BLUE,
         content: [
-          "Pathway A - The Bachelor's Route (After Class 12): Class 12 (Any stream), Entrance Exams (CUET, SET, IPU-CET, JMI), Undergraduate (BJMC, BMM, BA Media Studies), Specialization in final year.",
-          "Pathway B - The Master's Route (The Specialist): Graduation (Any degree), Entrance Exams (IIMC, XIC-OET, SIMC-MA, ACJ), Postgraduate (MA in Mass Communication or PG Diploma).",
-          "Pathway C - The Creative/Portfolio Route (For Film/Radio/Content): Skill Building (Learn editing, photography, voice modulation), Portfolio (Create short film, podcast, blog), Entry (Intern with Production Houses or Radio Stations)."
+          "Pathway A: After Class 12th (Degree Route)",
+          "Step 1: Complete Class 12th in any stream (Arts preferred).",
+          "Step 2: Clear entrance exams for IIMC, Jamia, or Xavier's.",
+          "Step 3: Pursue BA/BMM in Mass Communication (3 years).",
+          "Step 4: Learn media production, public relations, and content creation.",
+          "Step 5: Complete internship at media house, PR agency, or studio.",
+          "Step 6: Join as Media Executive, PR Associate, or Content Producer.",
+          "Pathway B: Graduation + MA/PG Diploma Route",
+          "Step 1: Complete Class 12th in any stream subjects.",
+          "Step 2: Pursue graduation in any discipline (BA/B.Com/B.Sc).",
+          "Step 3: Gain experience in writing, blogging, or campus media activities.",
+          "Step 4: Pursue MA or PG Diploma in Mass Communication.",
+          "Step 5: Specialise in advertising, film studies, or corporate communication.",
+          "Step 6: Join as Communication Manager, Media Planner, or Film Producer.",
+          "Pathway C: Certification and Skill-Based Entry Route",
+          "Step 1: Complete Class 10th or 12th any stream.",
+          "Step 2: Join short-term diploma in media or mass communication.",
+          "Step 3: Learn video editing, podcasting, photography, and social media.",
+          "Step 4: Create content on YouTube, Instagram, or podcast platforms.",
+          "Step 5: Build portfolio with media projects, campaigns, and published work.",
+          "Step 6: Get hired as Social Media Manager, Video Editor, or freelancer."
         ]
       },
       {
@@ -3666,9 +3684,13 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Explosive growth in media and entertainment",
         color: BLUE2,
         content: [
-          "Market Size: The Indian Media & Entertainment sector is growing at 10-12% CAGR. The OTT market alone is set to double by 2027, creating huge demand for content producers.",
-          "Hiring Trends: PR Boom (As startups go public, they need massive PR teams), Regional Content (Netflix and Amazon hiring creators for Tamil, Telugu, Malayalam), Event Management (Post-pandemic demand for live concerts and weddings has skyrocketed).",
-          "Salary Ranges: Entry (0-2 Yrs): PR Executive ₹4-6L, AD ₹3-5L | Mid (3-7 Yrs): PR Manager ₹10-18L, Line Producer ₹8-15L | Senior (8-15 Yrs): VP Communications ₹25-50L, EP ₹20-45L | Leadership: Head of Corp Comm ₹80L-2Cr+, Studio Head ₹1Cr-3Cr+"
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹70 LPA – ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹30 – ₹65 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 – ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 – ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹3.5 – ₹7 LPA",
+          "Note: Metros and AI-content skills boost pay by 40%."
         ]
       },
       {
@@ -3678,9 +3700,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top industries and cities for mass communication careers",
         color: BLUE,
         content: [
-          "Top Industries: PR Agencies (Adfactors PR, Edelman, Genesis BCW), Media Houses (Viacom18, Disney+ Hotstar, Sony Pictures, Zee), Corporate Sector (Every large company has a Corporate Communications department), Event Management (Wizcraft, Percept).",
-          "Top Cities: Mumbai (The Entertainment Capital), Delhi-NCR (The News & Corporate PR Capital), Chennai/Hyderabad (Hubs for South Indian Film & Media), Bangalore (Hub for Digital Media & Tech PR).",
-          "Freelancing: High. Voiceover artists, scriptwriters, and independent PR consultants work remotely for global clients."
+          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune.",
+          "Top Industries: OTT, PR, Digital Media, Advertising, News.",
+          "Global Demand: High in USA, UAE; Remote content strategy."
         ]
       },
       {
@@ -3704,8 +3726,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Prominent institutions for mass communication in India",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Mass Communication (IIMC) New Delhi, AJK MCRC Jamia Millia Islamia, FTII (Film and Television Institute of India) Pune, Delhi University (IP College/DCAC).",
-          "Private: Symbiosis Institute of Media & Communication (SIMC/SCMC) Pune, Xavier Institute of Communications (XIC) Mumbai, MICA Ahmedabad, Asian College of Journalism (ACJ) Chennai, Manipal School of Communication (SOC) Manipal."
+          "Government Institutes: Indian Institute of Mass Communication (IIMC), New Delhi; Jamia Millia Islamia (AJK MCRC), New Delhi; University of Madras, Chennai; Aligarh Muslim University (AMU), Aligarh",
+          "Private Institutes: Symbiosis Institute of Media & Communication, Pune; Amity School of Communication, Noida; Christ University, Bangalore; Whistling Woods International, Mumbai",
+          "Online Institutes: SWAYAM (UGC Mass Communication Courses); Coursera (Media & Communication Specializations); edX (Digital Media & Communication); NPTEL (IIT Media Studies Programmes)"
         ]
       },
       {
@@ -3740,9 +3763,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Diverse career paths in mass communication",
         color: BLUE2,
         content: [
-          "Conventional Careers: Public Relations Officer (PRO) - Managing brand image, Radio Jockey (RJ) - Hosting shows on FM radio, Film Director/Editor - Making movies or ads, Event Manager - Organizing concerts, awards, and weddings.",
-          "New-Age Careers: Podcaster - Creating audio series (True Crime, Interviews), OTT Content Producer - Developing shows for Netflix/Amazon, Community Manager - Building and engaging online communities for brands.",
-          "Freelancing: Voiceover Artist - Lending your voice for ads/cartoons, Ghostwriter - Writing speeches or articles for CEOs."
+          "Conventional: Broadcast Journalist at television networks; Public Relations Executive at corporate houses; Content Editor at publishing houses; Communication Officer at government bodies",
+          "New-Age & AI-Driven: Social Media Strategist at digital-first media companies; OTT Content Producer at streaming platforms; AI-Driven Audience Engagement Specialist at media-tech companies; Transmedia Storyteller at brand communication and immersive content agencies",
+          "Remote/Entrepreneurship: Freelance Media Consultant for international organizations; Founder of media production house or content creation agency; Remote Corporate Communication Specialist for global companies; Mass Communication Educator and Content Creator"
         ]
       },
       {
@@ -3883,9 +3906,27 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Three main routes to become a PR Officer",
         color: BLUE,
         content: [
-          "Pathway A - The Mass Media Route (Most Common): Class 12 (Any stream), Undergraduate (BMM/BA Mass Communication), Postgraduate (MA in PR or PG Diploma in Corp Comm).",
-          "Pathway B - The Corporate Communication Route: Graduation (BBA/B.Com/Economics), Postgraduate (MBA in Communication Management), Job (Corporate Communications Manager).",
-          "Pathway C - The Lateral Switch: For Journalists/Lawyers. Many journalists switch to PR after 3-4 years because they already have the media contacts."
+          "Pathway A: After Class 12th (Degree Route)",
+          "Step 1: Complete Class 12th in any stream (Arts preferred).",
+          "Step 2: Clear entrance exams for Symbiosis, Xavier's, or Jamia.",
+          "Step 3: Pursue BA/BMM in Public Relations or Mass Communication.",
+          "Step 4: Learn media relations, crisis communication, and brand messaging.",
+          "Step 5: Complete internship at PR agency, corporate, or media house.",
+          "Step 6: Join as PR Executive, Media Coordinator, or Communications Associate.",
+          "Pathway B: Graduation + PG Diploma/MA Route",
+          "Step 1: Complete Class 12th in any stream subjects.",
+          "Step 2: Pursue graduation in any discipline (BA/BBA/B.Com).",
+          "Step 3: Gain experience in content writing, event management, or media.",
+          "Step 4: Pursue PG Diploma or MA in Public Relations/Corporate Communication.",
+          "Step 5: Master press releases, stakeholder management, and reputation building.",
+          "Step 6: Join as PR Manager, Corporate Communications Head, or Media Strategist.",
+          "Pathway C: Certification and Skill-Based Entry Route",
+          "Step 1: Complete Class 12th in any stream subjects.",
+          "Step 2: Join short-term certificate course in PR or communication.",
+          "Step 3: Learn social media management, Canva, and media monitoring tools.",
+          "Step 4: Intern or freelance with PR agencies or startup brands.",
+          "Step 5: Build portfolio with press releases, media pitches, and campaigns.",
+          "Step 6: Get hired as PR Assistant, Social Media Specialist, or freelancer."
         ]
       },
       {
@@ -3895,9 +3936,13 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Explosive growth in PR and reputation management",
         color: BLUE2,
         content: [
-          "Market Size: The Indian PR industry is projected to reach ₹4,570 Crore by 2030.",
-          "Hiring Trends: Regional PR (Huge demand for PR pros who can speak and write in Hindi, Tamil, Telugu), Tech PR (Startups need PR to attract investors).",
-          "Salary Ranges: Entry (0-2 Yrs): Account Executive ₹3-5L (Agency), ₹4.5-6L (Corporate) | Mid (3-7 Yrs): PR Manager ₹8-15L (Agency), ₹12-22L (Corporate) | Senior (8-15 Yrs): VP ₹20-40L (Agency), ₹30-60L (Corporate) | Leadership: CEO ₹80L-1.5Cr+ (Agency), ₹1Cr-3Cr+ (Corporate)"
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹2.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹28 – ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹14 – ₹26 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 – ₹12 LPA",
+          "Entry Level (0–2 yrs): ₹4 – ₹7 LPA",
+          "Note: Metros and Crisis Management skills boost pay by 40%."
         ]
       },
       {
@@ -3907,9 +3952,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top industries and cities for PR careers",
         color: BLUE,
         content: [
-          "Top Industries: PR Agencies (Adfactors PR, Genesis BCW, MSL, Edelman), Corporate Sector (Reliance, Tata, Mahindra), Entertainment (Raindrop Media, Spice PR), Government/Political (Election campaigns, ministry image).",
-          "Top Cities: Delhi-NCR (Policy & Corporate Hub), Mumbai (Lifestyle & Finance Hub), Bangalore (Tech Hub).",
-          "Remote Work: Medium. Writing can be done remotely, but events and client meetings require physical presence."
+          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune.",
+          "Top Industries: Corporate, Tech-Startups, BFSI, Healthcare, Entertainment, Politics.",
+          "Global Demand: High in USA, UK, UAE. Remote-consulting growing."
         ]
       },
       {
@@ -3931,8 +3976,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Prominent institutions for PR education in India",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Mass Communication (IIMC) New Delhi, Jamia Millia Islamia (AJK MCRC) New Delhi, Makhanlal Chaturvedi National University Bhopal.",
-          "Private: Xavier Institute of Communications (XIC) Mumbai, Symbiosis Institute of Media & Communication (SIMC) Pune, School of Communications & Reputation (SCoRE) Mumbai, Manipal Institute of Communication Udupi."
+          "Government Institutes: Indian Institute of Mass Communication (IIMC), New Delhi; Jamia Millia Islamia (AJK MCRC), New Delhi; University of Delhi (Delhi School of Journalism); University of Mumbai (Department of Communication Studies)",
+          "Private Institutes: Xavier Institute of Communications (XIC), Mumbai; Symbiosis Institute of Media & Communication, Pune; Amity School of Communication, Noida; Manipal School of Communication, Manipal",
+          "Online Institutes: Coursera (Google & Meta Public Relations Courses); edX (Rochester & Georgetown PR Programmes); SWAYAM (UGC Public Relations Courses); LinkedIn Learning (PR Strategy & Media Relations)"
         ]
       },
       {
@@ -3965,9 +4011,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Diverse career paths in public relations",
         color: BLUE2,
         content: [
-          "Conventional Careers: Media Relations Officer (Dealing with journalists), Corporate Communications Manager (Internal employee comms), Event Manager (Organizing press conferences).",
-          "New-Age Careers: Digital Reputation Manager (Cleaning up negative search results), ESG Communication Specialist (Green initiatives), Political Campaign Manager (Managing politician image).",
-          "Freelancing: Independent Publicist (Managing 2-3 small startup clients or authors personally)."
+          "Conventional: PR Executive at leading agencies; Corporate Communications Manager at conglomerates; Media Relations Officer at government departments; Public Affairs Specialist at embassies and international organizations",
+          "New-Age & AI-Driven: Digital PR Specialist at online reputation management firms; AI-Powered Media Monitoring Analyst at PR-tech companies; Influencer Relations Manager at D2C and lifestyle brands; Crisis Communication Specialist at corporate risk management firms",
+          "Remote/Entrepreneurship: Freelance PR Consultant for international brands and startups; Founder of boutique PR agency or corporate communication firm; Remote Brand Reputation Manager for global companies; Public Relations Educator and Content Creator"
         ]
       },
       {
@@ -4066,11 +4112,11 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "08:00 AM –  News Check: Zoya wakes up and immediately checks Twitter (X) and news wires. A major policy change was announced late last night. She quickly messages her editor: 'I'm doing a breakdown video on this.'",
-          "10:00 AM –  The Newsroom Buzz. She reaches the office. It's chaotic but exciting. TVs are blaring different channels. She attends the morning editorial meeting where the team decides the 'Story of the Day.' Zoya pitches a story about rising electric vehicle sales in Tier-2 cities. Her editor gives the green light.",
+          "10:00 AM –  The Newsroom Buzz: She reaches the office. It's chaotic but exciting. TVs are blaring different channels. She attends the morning editorial meeting where the team decides the 'Story of the Day.' Zoya pitches a story about rising electric vehicle sales in Tier-2 cities. Her editor gives the green light.",
           "12:00 PM –  Field Work: She grabs her 'MoJo Kit' (Mobile Journalism kit: a smartphone, a tripod, and a lapel mic). She doesn't need a big camera crew. She visits an EV showroom in Noida to interview customers. She shoots video clips, records audio, and takes notes—all on her phone.",
-          "03:00 PM –  The 'Desk' Work. Back at the office, she edits the video using an app, writes a 300-word article to go with it, and designs a thumbnail. She uses AI tools to quickly transcribe her interviews (checking them for errors, of course).",
-          "05:00 PM –  Going Live. Breaking news! A protest has erupted near the city center. Zoya rushes to the spot. She goes live on the news app's Instagram page, reporting what she sees. Thousands of people watch her in real-time.",
-          "07:30 PM –  Wrapping Up. She schedules her EV story for tomorrow morning's newsletter. She's tired, her feet hurt, but the thrill of witnessing history firsthand keeps her going."
+          "03:00 PM –  The 'Desk' Work: Back at the office, she edits the video using an app, writes a 300-word article to go with it, and designs a thumbnail. She uses AI tools to quickly transcribe her interviews (checking them for errors, of course).",
+          "05:00 PM –  Going Live: Breaking news! A protest has erupted near the city center. Zoya rushes to the spot. She goes live on the news app's Instagram page, reporting what she sees. Thousands of people watch her in real-time.",
+          "07:30 PM –  Wrapping Up: She schedules her EV story for tomorrow morning's newsletter. She's tired, her feet hurt, but the thrill of witnessing history firsthand keeps her going."
         ]
       },
       {
@@ -4110,9 +4156,27 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Three main routes to become a journalist",
         color: BLUE,
         content: [
-          "Pathway A - The Mass Comm Degree (Most Popular): Class 12 (Any stream), Undergraduate (BA in BJMC - 3 Years), Postgraduate (Optional MA in Mass Comm).",
-          "Pathway B - The PG Diploma Route (The Specialist): Graduation (Any degree), Entrance Exam (IIMC, XIC OET, ACJ), Course (PG Diploma in Journalism - 1 Year).",
-          "Pathway C - The Subject Expert Route (For Niche Journalism): Study a specific subject (Economics, Law, Sports), Add Skills (Certificate in writing/journalism), Job (Specialist reporter)."
+          "Pathway A: After Class 12th (Degree Route)",
+          "Step 1: Complete Class 12th in any stream (Arts preferred).",
+          "Step 2: Clear entrance exams for IIMC, Jamia, or Symbiosis.",
+          "Step 3: Pursue BA in Journalism and Mass Communication (BAJMC).",
+          "Step 4: Learn news writing, reporting, editing, and media ethics.",
+          "Step 5: Complete internship at newspaper, TV channel, or news portal.",
+          "Step 6: Join as Reporter, Sub-Editor, or Content Writer in media.",
+          "Pathway B: Graduation + PG Diploma/MA Route",
+          "Step 1: Complete Class 12th in any stream subjects.",
+          "Step 2: Pursue graduation in any discipline (BA/B.Com/B.Sc).",
+          "Step 3: Gain experience through college media, blogs, or freelancing.",
+          "Step 4: Pursue PG Diploma or MA in Journalism from IIMC/AJK.",
+          "Step 5: Specialise in print, broadcast, digital, or investigative journalism.",
+          "Step 6: Join as Senior Reporter, News Anchor, or Bureau Chief.",
+          "Pathway C: Certification and Skill-Based Entry Route",
+          "Step 1: Complete Class 12th in any stream subjects.",
+          "Step 2: Join short-term diploma or certificate in journalism.",
+          "Step 3: Learn video editing, mobile journalism, and social media.",
+          "Step 4: Start blog, YouTube channel, or contribute to news portals.",
+          "Step 5: Build portfolio with published articles, reports, and interviews.",
+          "Step 6: Get hired as Digital Journalist, Video Producer, or freelancer."
         ]
       },
       {
@@ -4122,9 +4186,13 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Explosive growth in digital and regional news",
         color: BLUE2,
         content: [
-          "Market Size: India has over 700 million digital news consumers. The media industry is expected to grow at 9-10% annually.",
-          "Hiring Trends: Traditional TV/Print jobs are stable but slow. The massive growth is in Digital News, OTT News Documentaries, and Regional Language News (Hindi, Tamil, Telugu, etc.).",
-          "Salary Ranges: Entry (0-2 Yrs): Reporter ₹2.5-5L (Print/TV), ₹3-6L (Digital) | Mid (3-7 Yrs): Senior Correspondent ₹6-12L (Print/TV), ₹8-15L (Digital) | Senior (8-15 Yrs): Editor ₹15-30L (Print/TV), ₹18-40L (Digital) | Leadership: Editor-in-Chief ₹50L-2Cr+ (Print/TV), ₹60L-1.5Cr (Digital)"
+          "Salary Snapshot (Annual INR)",
+          "CXO (15+ yrs): ₹80 LPA – ₹3.0 Crore",
+          "Senior (10+ yrs): ₹30 – ₹75 LPA",
+          "Mid (5–8 yrs): ₹15 – ₹28 LPA",
+          "Junior (3–5 yrs): ₹7 – ₹14 LPA",
+          "Entry (0–2 yrs): ₹3.5 – ₹6.5 LPA",
+          "Note: Digital-first skills and Metros boost pay by 40%."
         ]
       },
       {
@@ -4134,9 +4202,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top industries and cities for journalism careers",
         color: BLUE,
         content: [
-          "Top Industries: Digital News (Inshorts, The Quint, Newslaundry, Lallantop), Broadcast TV (NDTV, Aaj Tak, Republic, CNN-News18), Print (Times of India, The Hindu, Dainik Bhaskar), New-Age (Podcasting platforms, Fact-Checking organizations like Alt News).",
-          "Top Cities: New Delhi/Noida (The absolute hub of Indian media), Mumbai (Hub for Business Journalism), Hyderabad/Chennai (Massive hubs for South Indian regional media).",
-          "Freelancing: High. Many journalists are now 'Creator-Journalists,' running their own YouTube channels or Substack newsletters."
+          "Top Cities: Noida, Mumbai, Delhi, Bengaluru, Hyderabad, Chennai.",
+          "Top Industries: Digital News, TV Networks, PR, OTT, Publishing.",
+          "Global Demand: High in USA, UK, UAE. Remote freelancing trends."
         ]
       },
       {
@@ -4159,8 +4227,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Prominent institutions for journalism in India",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Mass Communication (IIMC) New Delhi, AJK MCRC Jamia Millia Islamia New Delhi, Delhi University (LSR, DCAC), Savitribai Phule Pune University.",
-          "Private: Asian College of Journalism (ACJ) Chennai (100% placement record), Xavier Institute of Communications (XIC) Mumbai, Symbiosis Institute of Media & Communication (SIMC) Pune, Manipal Institute of Communication (MIC)."
+          "Government Institutes: Indian Institute of Mass Communication (IIMC), New Delhi; Jawaharlal Nehru University (JNU), New Delhi; University of Delhi (Delhi School of Journalism); Banaras Hindu University (BHU), Varanasi",
+          "Private Institutes: Symbiosis Institute of Media & Communication, Pune; Xavier Institute of Communications (XIC), Mumbai; Manipal School of Communication, Manipal; Asian College of Journalism (ACJ), Chennai",
+          "Online Institutes: Coursera (Michigan & Columbia Journalism Courses); edX (UC Berkeley Media & Journalism); SWAYAM (UGC Journalism & Mass Communication); Google News Initiative (Digital Journalism Training)"
         ]
       },
       {
@@ -4195,9 +4264,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Diverse career paths in journalism",
         color: BLUE2,
         content: [
-          "Conventional Careers: Reporter (The one on the ground collecting news), Sub-Editor/Copy Editor (The one at the desk polishing language), News Anchor (The face on TV).",
-          "New-Age Careers: Data Journalist (Turning Excel sheets into infographics), Fact-Checker (Fighting fake news), Drone Journalist (Using drones for aerial footage).",
-          "Freelancing: Stringer (Freelance reporter in small towns), Independent Creator (Running a YouTube news channel)."
+          "Conventional: Reporter/Correspondent at national newspapers; News Anchor/Producer at television channels; Bureau Chief at news agencies; Public Relations Officer at government media units",
+          "New-Age & AI-Driven: Digital Journalist at online news platforms; Data Journalist at investigative and analytics-driven newsrooms; AI-Assisted News Automation Specialist at media-tech companies; Podcast and Multimedia Journalist at audio-visual digital platforms",
+          "Remote/Entrepreneurship: Freelance Journalist and Stringer for international media; Founder of independent digital news portal or media startup; Remote Content Writer and Opinion Columnist for global publications; Journalism Educator and Content Creator"
         ]
       },
       {
@@ -4339,9 +4408,27 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Three main routes to become an IR professional",
         color: BLUE,
         content: [
-          "Pathway A - The 'Diplomat' Route (Civil Services): Class 12 (Humanities best), Graduation (Any degree), UPSC Civil Services Exam, Top 100 rank for IFS, Training at LBSNAA & Sushma Swaraj Institute.",
-          "Pathway B - The 'Academic/Analyst' Route (Think Tanks): Class 12 (Humanities), Undergraduate (BA Political Science/IR), Postgraduate (MA in IR - Mandatory), M.Phil or PhD for research roles.",
-          "Pathway C - The 'Global Corporate' Route: Graduation (BBA/Economics/Law), Postgraduate (MA in International Business or Public Policy), Job (Government Affairs or Political Risk Analyst)."
+          "Pathway A: After Class 12th (Degree Route)",
+          "Step 1: Complete Class 12th in Arts or Humanities stream.",
+          "Step 2: Clear entrance exams for JNU, DU, or Ashoka University.",
+          "Step 3: Pursue BA in Political Science or International Relations.",
+          "Step 4: Learn diplomacy, foreign policy, and global governance concepts.",
+          "Step 5: Complete internship at embassy, think tank, or international NGO.",
+          "Step 6: Join as Research Associate, Policy Analyst, or Foreign Affairs Officer.",
+          "Pathway B: Graduation + MA/UPSC (IFS) Route",
+          "Step 1: Complete Class 12th in any stream subjects.",
+          "Step 2: Pursue graduation in political science, history, or economics.",
+          "Step 3: Pursue MA in International Relations or Diplomacy Studies.",
+          "Step 4: Clear UPSC CSE for Indian Foreign Service (IFS) selection.",
+          "Step 5: Undergo training at Foreign Service Institute, New Delhi.",
+          "Step 6: Join as IFS Officer, Diplomat, or UN Agency Representative.",
+          "Pathway C: Certification and Skill-Based Entry Route",
+          "Step 1: Complete Class 12th in any stream subjects.",
+          "Step 2: Pursue graduation and join online international relations courses.",
+          "Step 3: Learn foreign languages, data analysis, and research writing.",
+          "Step 4: Volunteer or intern with UN bodies or international organisations.",
+          "Step 5: Build profile through MUN, policy papers, and global fellowships.",
+          "Step 6: Get hired at NGO, media house, or global consulting firm."
         ]
       },
       {
@@ -4351,9 +4438,13 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Explosive growth in geopolitical expertise",
         color: BLUE2,
         content: [
-          "Market Growth: With India hosting global summits (like G20) and expanding trade, the demand for non-government foreign policy experts is exploding.",
-          "Hiring Trends: The 'Big 4' consulting firms (Deloitte, KPMG, etc.) are hiring IR grads for their 'Geopolitical Risk' desks. Global NGOs are moving headquarters to India.",
-          "Salary Ranges: Think Tanks/NGOs - Entry ₹4-6L, Mid ₹9-15L, Senior ₹20-35L, Leadership ₹50L+ | Corporate/Consulting - Entry ₹8-12L, Mid ₹18-30L, Senior ₹40-70L, Leadership ₹1Cr+ | IFS (Govt) - Entry ₹10L+Perks, Mid ₹18L+Perks, Senior ₹30L+Perks, Leadership ₹2.25L/month (Base)"
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹65 LPA – ₹2.1 Crore",
+          "Senior / Lead Role (10+ yrs): ₹28 – ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹14 – ₹26 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 – ₹13 LPA",
+          "Entry Level (0–2 yrs): ₹4 – ₹7 LPA",
+          "Note: Metros and PhD/Masters from top institutes boost pay by 35%."
         ]
       },
       {
@@ -4363,9 +4454,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top industries and cities for IR careers",
         color: BLUE,
         content: [
-          "Top Industries: Government (MEA, NITI Aayog), Think Tanks (ORF, ICWA, IDSA, Brookings India), International Organizations (UN, World Bank, WHO), Media (Foreign Correspondents), Risk Consulting (Control Risks, Eurasia Group).",
-          "Top Cities: New Delhi (The 'Mecca' of IR - 90% of jobs), Mumbai (Corporate HQs and Consulates), Bangalore/Hyderabad ('Tech Diplomacy' roles).",
-          "Freelancing: High potential in Geopolitical Content Writing or being a Stringer (freelance journalist) for foreign papers."
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Kolkata.",
+          "Top Industries: Government (MEA), Think Tanks, MNCs (Public Policy), NGOs.",
+          "Global Demand: High in USA, Switzerland, UAE. Remote risk-analysis growing."
         ]
       },
       {
@@ -4387,8 +4478,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Prominent institutions for IR in India",
         color: BLUE,
         content: [
-          "Government - The Holy Grails: Jawaharlal Nehru University (JNU) Delhi - School of International Studies (world-famous), Jamia Millia Islamia Delhi (Excellent for West Asian studies), Jadavpur University Kolkata, University of Hyderabad (UoH).",
-          "Private - New Age & Global: Jindal School of International Affairs (JSIA) Sonipat (India's first global policy school), Ashoka University Sonepat, Symbiosis School of International Studies (SSIS) Pune, Manipal Academy of Higher Education (MAHE)."
+          "Government Institutes: Jawaharlal Nehru University (JNU) New Delhi; University of Delhi (Department of Political Science); Jadavpur University Kolkata; Indian Institute of Foreign Trade (IIFT) New Delhi",
+          "Private Institutes: Symbiosis School of International Studies Pune; Jindal School of International Affairs Sonipat; Amity Institute of International Studies Noida; Manipal Academy of Higher Education Manipal",
+          "Online Institutes: Coursera (Yale & Stanford International Relations); NPTEL (IIT/JNU International Politics Courses); edX (LSE & Oxford Global Affairs Programmes); SWAYAM (UGC International Relations Courses)"
         ]
       },
       {
@@ -4422,9 +4514,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Diverse career paths in international relations",
         color: BLUE2,
         content: [
-          "Conventional Careers: Diplomat (IFS) - Representing India, Academic - Teaching at universities, Defense Analyst - Working for military think tanks (IDSA).",
-          "New-Age Careers: Tech Diplomat - Helping tech giants negotiate data laws, Climate Negotiator - Representing NGOs at global climate summits (COP), Political Risk Consultant - Advising investors on geopolitical safety.",
-          "Freelancing: Op-Ed Columnist - Writing opinion pieces for newspapers, Election Consultant - Advising political parties on foreign policy image."
+          "Conventional: Indian Foreign Service (IFS) Officer through UPSC Civil Services Examination; Diplomat/Attaché at Indian Embassies and High Commissions abroad; Policy Analyst at Ministry of External Affairs (MEA) and Ministry of Defence",
+          "New-Age & AI-Driven: Geopolitical Risk Analyst at multinational consulting firms; AI-Powered Intelligence Analyst at defence and strategic affairs organizations; Digital Diplomacy Specialist at government and international organizations; Climate and Trade Policy Analyst at sustainability and ESG advisory firms",
+          "Remote/Entrepreneurship: Freelance International Affairs Consultant for NGOs and global agencies; Founder of geopolitical research and advisory firm; Remote Policy Researcher for international think tanks and media houses; International Relations Educator and Content Creator"
         ]
       },
       {
@@ -5432,52 +5524,87 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
   },
   astronomer: {
     slug: "Astronomer",
-    badge: "Explore the Universe for Class 10+",
-    heading: "Astronomy",
-    subheading: "Study the cosmos and unlock the mysteries of space.",
+    badge: "Unlock the Cosmos for Class 10+",
+    heading: "Astronomer",
+    subheading: "Discover distant galaxies, track asteroids, and unlock the mysteries of the universe—from ISRO's lunar missions to detecting exoplanets.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Astronomy.", borderColor: "#10B981" },
-      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
-      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
-      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+      { icon: "Telescope", title: "Space Exploration", description: "Contribute to India's space missions and global astronomy research.", borderColor: "#10B981" },
+      { icon: "Sparkles", title: "Cutting-Edge Discovery", description: "Work at the frontier of understanding the universe and our place in it.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Collaboration", description: "Partner with NASA, ESA, and international observatories.", borderColor: "#3B82F6" },
+      { icon: "TrendingUp", title: "Growing Opportunities", description: "India's space sector growing at 15% annually with ISRO expansion.", borderColor: "#F59E0B" }
     ],
     quickFacts: [
-      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
-      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+      { label: "Duration", detail: "4 Years B.Sc + 2 Years M.Sc + PhD", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹4L–₹1.5Cr+ (Entry to CXO)", color: "bg-purple-100 text-purple-700" },
+      { label: "Growth", detail: "15% CAGR, Space Boom", color: "bg-green-100 text-green-700" }
     ],
     statCards: [
-      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
-      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+      { value: "15%", label: "Space Sector Growth", gradient: "from-blue-500 to-blue-600" },
+      { value: "₹1.5Cr+", label: "CXO Salary", gradient: "from-indigo-500 to-indigo-600" }
     ],
     guideSections: [
       {
         id: "what",
         title: "What is This Career All About?",
-        icon: "Target",
-        description: "Understanding Astronomy.",
+        icon: "Telescope",
+        description: "Exploring the infinite cosmos.",
         color: BLUE,
         content: [
-          "Astronomy is a dynamic and rewarding career path.",
-          "It offers opportunities for growth and development.",
-          "Professionals in this field make a significant impact.",
-          "The industry is evolving with new technologies.",
-          "Career prospects are excellent for qualified candidates."
+          "Astronomy is the science of the cosmos—the study of stars, galaxies, black holes, and the very fabric of space and time itself.",
+          "An Astronomer is a scientist who observes the universe using telescopes, analyzes data from space missions, and develops theories to explain what they see.",
+          "Unlike astrology (which predicts the future), astronomy is pure science. Astronomers use physics, mathematics, and advanced technology to answer humanity's biggest questions Are we alone? How did the universe begin? What is dark matter?",
+          "India's space program (ISRO) is at the forefront of global astronomy From the Chandrayaan lunar missions to the Aditya-L1 solar observatory, Indian astronomers are making discoveries that reshape our understanding of the universe.",
+          "As India builds more observatories and space telescopes, the demand for astronomers is skyrocketing. This is a career where your work directly contributes to humanity's understanding of existence itself."
         ]
       },
       {
         id: "dayinlife",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Dr. Priya, Research Astronomer at ISRO",
         icon: "Clock",
-        description: "Meet a professional in Astronomy",
+        description: "Real workflow of an astronomer.",
         color: BLUE2,
         content: [
-          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
-           "12:00 PM    –     Mid-morning: Engage in core work activities.",
-          "2:00 PM   –      Lunch: Break and networking with colleagues.",
-          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
-          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
-          "8:00 PM    –     Evening: Personal time and relaxation."
+          "08:00 AM –  Arrival at ISRO's Aryabhata Research Institute in Nainital: The morning is crisp and clear—perfect for observing. I check the weather forecast and the telescope schedule. Tonight, I have 4 hours of observation time on the 2-meter Himalayan Chandra Telescope.",
+          "10:30 AM –  Data Analysis Session: I'm analyzing data from last night's observations. Using Python and specialized astronomy software (like IRAF and Astropy), I'm measuring the brightness and spectrum of a distant galaxy. The data shows something unexpected—unusual emission lines that might indicate a supermassive black hole.",
+          "12:30 PM –  Team Meeting: I meet with my research team to discuss our ongoing project on 'Exoplanet Detection.' We're looking for Earth-like planets around distant stars. One of my colleagues has found a promising candidate using the transit method.",
+          "02:00 PM –  Lunch & Collaboration: Over lunch, I video-call a colleague at NASA's Jet Propulsion Laboratory. We're collaborating on a paper about gravitational lensing. Science has no borders.",
+          "03:30 PM –  Proposal Writing: I spend the afternoon writing a research proposal to secure telescope time for the next quarter. Competition is fierce—only 20% of proposals get approved.",
+          "06:00 PM –  Preparation for Night Observation: I prepare the telescope and instruments. I check the CCD cameras, calibrate the spectrograph, and run diagnostic tests. Everything must be perfect.",
+          "09:00 PM –  Night Observation: The real work begins. I'm at the telescope, guiding observations and collecting data. The universe reveals itself one photon at a time. A distant supernova, a binary star system, the rotation of a galaxy—all captured in data.",
+          "02:00 AM –  Data Download: After 5 hours of observation, I download the data to our servers. Terabytes of information that will take weeks to analyze."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Curiosity: You ask 'Why?' and 'How?' about everything in the universe.",
+          "Mathematical Mind: Astronomy is applied physics and mathematics at the highest level.",
+          "Patience: Observing a single object might take months or years to yield results.",
+          "Programming Skills: Python, C++, and data analysis are essential tools.",
+          "Attention to Detail: A small error in calibration can invalidate months of work.",
+          "Teamwork: Modern astronomy is collaborative—working with international teams.",
+          "Resilience: Many observations fail; you must learn from them and try again."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete astronomy process.",
+        color: BLUE2,
+        content: [
+          "Observation Planning: Deciding what to observe and when, based on celestial mechanics and telescope availability.",
+          "Data Collection: Using telescopes and space missions to gather observational data.",
+          "Data Analysis: Processing and analyzing massive datasets using specialized software.",
+          "Theory Development: Creating mathematical models to explain observations.",
+          "Publication: Writing research papers and presenting findings at conferences.",
+          "Collaboration: Working with international teams on joint research projects.",
+          "Mentoring: Guiding junior researchers and students.",
+          "Outreach: Communicating discoveries to the public and inspiring future scientists."
         ]
       },
       {
@@ -5487,45 +5614,50 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
         content: [
-          "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th with Science/relevant stream.",
-          "Step 2: Pursue relevant bachelor's degree.",
-          "Step 3: Gain practical experience through internships.",
-          "Step 4: Pursue advanced certifications.",
-          "Step 5: Build professional network.",
-          "Step 6: Advance to senior positions.",
-           
-          "Pathway B: Skill-Based Entry",
-          "Step 1: Complete Class 12th.",
-          "Step 2: Take specialized training courses.",
-          "Step 3: Gain hands-on experience.",
-          "Step 4: Get industry certifications.",
-          "Step 5: Build portfolio.",
-          "Step 6: Transition to professional roles.",
-           
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th.",
-          "Step 2: Pursue master's degree.",
-          "Step 3: Specialize in specific domain.",
-          "Step 4: Conduct research or projects.",
-          "Step 5: Publish work or build portfolio.",
-          "Step 6: Join as specialist or researcher"
+          "Pathway A: Academic & Research Route",
+          "Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.",
+          "Step 2: Pursue B.Sc. in Physics or Astronomy from a reputed college.",
+          "Step 3: Pursue M.Sc. in Astronomy or Astrophysics from IISc or Delhi University.",
+          "Step 4: Clear CSIR-NET or GATE for PhD fellowship.",
+          "Step 5: Pursue PhD in Astronomy from IISc, IUCAA, or TIFR.",
+          "Step 6: Join as Research Scientist at ISRO, IUCAA, or university.",
+         
+          "Pathway B: ISRO & Space Agency Route",
+          "Step 1: Complete Class 12th with PCM subjects.",
+          "Step 2: Pursue B.Tech in Aerospace or Electronics Engineering.",
+          "Step 3: Complete M.Tech in Aerospace or related field.",
+          "Step 4: Apply for ISRO Scientist positions through ISRO recruitment.",
+          "Step 5: Work on satellite missions and space telescopes.",
+          "Step 6: Advance to Senior Scientist or Mission Director roles.",
+         
+          "Pathway C: Industry & Tech Application Route",
+          "Step 1: Complete Class 12th with Science stream.",
+          "Step 2: Pursue B.Sc. in Physics or B.Tech in Electronics.",
+          "Step 3: Learn data science, machine learning, and programming.",
+          "Step 4: Join tech companies working on space data analysis.",
+          "Step 5: Specialize in satellite data processing or space technology.",
+          "Step 6: Work as Data Scientist or Space Tech Engineer."
         ]
       },
       {
         id: "market",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
+        description: "Salaries, growth, and opportunities.",
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
-          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
-          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
-          "Entry Level (0–2 yrs): ₹3–8 LPA",
-          "Note: Salaries vary by location, experience, and specialization."
+          "CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹1.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹35–70 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹18–32 LPA",
+          "Junior / Associate (3–5 yrs): ₹10–18 LPA",
+          "Entry Level (0–2 yrs): ₹4–8 LPA",
+          "Note: ISRO scientists earn fixed salaries but with excellent benefits. PhD holders earn 30% more. International collaborations boost income.",
+           
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru (ISRO HQ), Hyderabad (ISRO Sriharikota), Delhi (Delhi University), Pune (IUCAA), Mumbai (TIFR).",
+          "Top Organizations: ISRO, IUCAA (Inter-University Centre for Astronomy and Astrophysics), TIFR (Tata Institute of Fundamental Research), Indian Institute of Astrophysics (Bengaluru).",
+          "Global Demand: High in USA, Europe, Australia. Remote research collaborations are common."
         ]
       },
       {
@@ -5535,21 +5667,122 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
-          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
-          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+          "Government: Indian Institute of Science (IISc) Bengaluru; Inter-University Centre for Astronomy and Astrophysics (IUCAA) Pune; Tata Institute of Fundamental Research (TIFR) Mumbai; Indian Institute of Astrophysics (IIA) Bengaluru; Delhi University; Banaras Hindu University.",
+          "Private: Manipal Academy of Higher Education; Amity University; VIT Vellore.",
+          "Online: Coursera (Astronomy Courses); edX (Astrophysics); NPTEL (IIT courses); Udemy (Observational Astronomy)"
         ]
       },
       {
         id: "opportunities",
         title: "Career Opportunities",
         icon: "Briefcase",
-        description: "Various career roles.",
+        description: "Conventional and emerging roles.",
         color: BLUE2,
         content: [
-          "Conventional: Traditional roles in the industry",
-          "New-Age & AI Driven: Emerging roles with technology",
-          "Remote/Entrepreneurship: Freelance and startup opportunities"
+          "Conventional: Research Astronomer at observatories; ISRO Scientist; University Faculty; Planetarium Director; Science Communicator.",
+          "New-Age & AI-Driven: AI-powered Exoplanet Detection Specialist; Space Data Scientist; Gravitational Wave Researcher; Astrobiology Researcher; AI-assisted Telescope Automation Engineer.",
+          "Remote/Entrepreneurship: Freelance Science Writer (astronomy); Online Astronomy Educator; Space Tech Startup Founder; Astronomy App Developer; Science Podcast Creator."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and additional expenses.",
+        color: BLUE,
+        content: [
+          "Government (IISc/IUCAA): ₹1.5L–₹3L per year (Highly subsidized).",
+          "Private Universities: ₹4L–₹8L per year.",
+          "Duration: 4 years B.Sc + 2 years M.Sc + 3-5 years PhD.",
+          "Living Costs: ₹1.5L–₹2.5L per year in major cities.",
+          "Total Investment: Approximately ₹15L–₹25L for complete education."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE2,
+        content: [
+          "CSIR-NET Fellowship: ₹31,000/month for PhD students.",
+          "INSPIRE Scholarship: ₹80,000/year for science students.",
+          "IUCAA Fellowships: Dedicated scholarships for astronomy students.",
+          "ISRO Scholarships: For students pursuing space science.",
+          "National Scholarship Portal (NSP): Merit and need-based scholarships."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Credentials and regulatory requirements.",
+        color: BLUE2,
+        content: [
+          "Professional Bodies: Astronomical Society of India; Indian Academy of Sciences; National Academy of Sciences.",
+          "Certifications: Observational Astronomy Certification; Data Analysis in Astronomy; Telescope Operation Certification.",
+          "International: Recognition from International Astronomical Union (IAU); American Astronomical Society."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "Real obstacles in the profession.",
+        color: BLUE,
+        content: [
+          "Long Education Path: Typically 10+ years of study before independent research.",
+          "Limited Positions: Fewer jobs compared to other science fields.",
+          "Funding Dependency: Research heavily dependent on government grants.",
+          "Night Work: Observations often happen at night, disrupting sleep schedules.",
+          "Weather Dependent: Cloud cover can cancel months of planned observations.",
+          "Competitive Field: High competition for telescope time and research funding.",
+          "Publication Pressure: Career advancement depends on publishing research papers."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in astronomy.",
+        color: BLUE2,
+        content: [
+          "AI-Powered Discovery: Machine learning will automatically detect anomalies in massive datasets.",
+          "Gravitational Wave Astronomy: Detecting collisions of black holes and neutron stars.",
+          "Exoplanet Habitability: Finding Earth-like planets and searching for biosignatures.",
+          "India's Space Telescope: ISRO's planned space telescope will rival Hubble.",
+          "Quantum Astronomy: Using quantum mechanics to improve telescope sensitivity.",
+          "Multi-Messenger Astronomy: Combining light, gravitational waves, and neutrinos to study the universe."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Learn Stargazing: Download apps like Stellarium and learn to identify constellations.",
+          "Join Astronomy Clubs: Participate in school or local astronomy clubs.",
+          "Learn Python: Essential for data analysis in astronomy.",
+          "Read Astronomy Books: 'Cosmos' by Carl Sagan or 'The Universe in a Nutshell' by Stephen Hawking.",
+          "Follow ISRO: Stay updated with India's space missions and discoveries.",
+          "Participate in Science Olympiad: Astronomy is a popular event.",
+          "Visit Planetariums: Attend shows at planetariums in your city."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Astronomers",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "Dr. Vikram Sarabhai: Founder of ISRO and pioneer of India's space program.",
+          "Prof. Jayant Narlikar: Renowned astrophysicist and author of 'The Cosmic Connection.'",
+          "Dr. Abhijit Chakraborty: ISRO scientist who led the Chandrayaan-2 mission.",
+          "Prof. Varun Bhalerao: IIT Bombay astronomer discovering transient phenomena.",
+          "Dr. Shrinivas Kulkarni: Indian-American astronomer at Caltech, discoverer of kilonova phenomena."
         ]
       }
     ]
@@ -5971,52 +6204,87 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
 
   mathematician: {
     slug: "mathematician",
-    badge: "Master Numbers & Logic for Class 10+",
+    badge: "Master Logic & Patterns for Class 10+",
     heading: "Mathematician",
-    subheading: "Solve complex problems using pure logic.",
+    subheading: "Solve the world's toughest problems using pure logic—from cryptography to AI algorithms, shape the future with mathematics.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Mathematician.", borderColor: "#10B981" },
-      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
-      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
-      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+      { icon: "Brain", title: "Problem Solver", description: "Tackle the world's most complex challenges using logic and creativity.", borderColor: "#10B981" },
+      { icon: "Zap", title: "AI & Tech Boom", description: "Mathematics powers AI, blockchain, and quantum computing.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Demand", description: "High demand in tech, finance, and research globally.", borderColor: "#3B82F6" },
+      { icon: "TrendingUp", title: "Lucrative Salaries", description: "₹5L–₹2Cr+ for mathematicians in tech and finance.", borderColor: "#F59E0B" }
     ],
     quickFacts: [
-      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
-      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+      { label: "Duration", detail: "4 Years B.Sc + 2 Years M.Sc + PhD", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹5L–₹2Cr+ (Entry to CXO)", color: "bg-purple-100 text-purple-700" },
+      { label: "Growth", detail: "25% CAGR in AI/ML roles", color: "bg-green-100 text-green-700" }
     ],
     statCards: [
-      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
-      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+      { value: "25%", label: "AI/ML Role Growth", gradient: "from-blue-500 to-blue-600" },
+      { value: "₹2Cr+", label: "CXO Salary", gradient: "from-indigo-500 to-indigo-600" }
     ],
     guideSections: [
       {
         id: "what",
         title: "What is This Career All About?",
-        icon: "Target",
-        description: "Understanding Mathematician.",
+        icon: "Brain",
+        description: "The language of the universe.",
         color: BLUE,
         content: [
-          "Mathematician is a dynamic and rewarding career path.",
-          "It offers opportunities for growth and development.",
-          "Professionals in this field make a significant impact.",
-          "The industry is evolving with new technologies.",
-          "Career prospects are excellent for qualified candidates."
+          "Mathematics is the language of the universe. It's the foundation of physics, computer science, economics, and artificial intelligence.",
+          "A Mathematician is not just someone who solves equations on a blackboard. Modern mathematicians are problem-solvers who use abstract thinking and logical reasoning to tackle real-world challenges.",
+          "From designing encryption algorithms that protect your bank account to developing machine learning models that power ChatGPT, mathematicians are invisible architects of the digital world.",
+          "In India, the demand for mathematicians is exploding. Tech giants like Google, Microsoft, and Amazon have research labs in Bengaluru and Hyderabad specifically hiring mathematicians to work on AI, quantum computing, and data science.",
+          "Whether you want to work in academia, tech, finance, or research, mathematics opens doors to careers that are intellectually challenging, globally recognized, and extremely well-paid."
         ]
       },
       {
         id: "dayinlife",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Dr. Arjun, Research Mathematician at Google",
         icon: "Clock",
-        description: "Meet a professional in Mathematician",
+        description: "Real workflow of a mathematician.",
         color: BLUE2,
         content: [
-          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
-           "12:00 PM    –     Mid-morning: Engage in core work activities.",
-          "2:00 PM   –      Lunch: Break and networking with colleagues.",
-          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
-          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
-          "8:00 PM    –     Evening: Personal time and relaxation."
+          "09:00 AM –  Arrival at Google's Bengaluru office: I start my day with a cup of coffee and checking emails. There's a message from a colleague in Mountain View about a breakthrough in our 'Quantum Error Correction' project.",
+          "10:30 AM –  Research Meeting: I meet with my team of 5 mathematicians and 3 computer scientists. We're working on optimizing algorithms for Google's quantum computers. The challenge: How do we make quantum computers practical for real-world problems?",
+          "12:00 PM –  Deep Work Session: I spend 2 hours at my desk, working on a proof. I'm trying to prove that a certain class of optimization problems can be solved faster using quantum algorithms. I use pen and paper, whiteboards, and occasionally Mathematica software.",
+          "02:00 PM –  Lunch & Collaboration: Over lunch, I discuss a paper with a colleague from MIT. We're collaborating on a research paper about 'Topological Data Analysis'—a new field that uses topology (the study of shapes) to understand data.",
+          "03:30 PM –  Code Review: I review Python code written by junior engineers. Mathematics isn't just theory; it's implemented in code. I ensure the algorithms are correctly translated from mathematical notation to working software.",
+          "05:00 PM –  Seminar: I attend an internal seminar by a visiting mathematician from Stanford about 'Machine Learning Theory.' I take notes and ask questions.",
+          "06:30 PM –  Writing & Documentation: I spend time writing up my findings in a research paper. Clear mathematical writing is an art form.",
+          "08:00 PM –  Reflection: Before leaving, I think about tomorrow's challenges. Mathematics is a marathon, not a sprint."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Logical Thinking: You enjoy solving puzzles and finding patterns.",
+          "Abstract Reasoning: You can visualize complex concepts that don't exist in the physical world.",
+          "Persistence: You don't give up when a problem seems unsolvable.",
+          "Attention to Detail: A single misplaced symbol can invalidate an entire proof.",
+          "Programming Skills: Python, C++, and MATLAB are essential tools.",
+          "Communication: You can explain complex ideas clearly to both mathematicians and non-mathematicians.",
+          "Curiosity: You ask 'Why?' and 'What if?' constantly."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete mathematics process.",
+        color: BLUE2,
+        content: [
+          "Problem Formulation: Translating real-world problems into mathematical language.",
+          "Theory Development: Creating new mathematical frameworks and proofs.",
+          "Algorithm Design: Developing efficient algorithms to solve problems.",
+          "Implementation: Coding algorithms and testing them on real data.",
+          "Optimization: Finding ways to make solutions faster or more accurate.",
+          "Publication: Writing research papers and presenting at conferences.",
+          "Collaboration: Working with interdisciplinary teams.",
+          "Mentoring: Guiding junior mathematicians and students."
         ]
       },
       {
@@ -6026,45 +6294,50 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
         content: [
-          "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th with Science/relevant stream.",
-          "Step 2: Pursue relevant bachelor's degree.",
-          "Step 3: Gain practical experience through internships.",
-          "Step 4: Pursue advanced certifications.",
-          "Step 5: Build professional network.",
-          "Step 6: Advance to senior positions.",
-           
-          "Pathway B: Skill-Based Entry",
-          "Step 1: Complete Class 12th.",
-          "Step 2: Take specialized training courses.",
-          "Step 3: Gain hands-on experience.",
-          "Step 4: Get industry certifications.",
-          "Step 5: Build portfolio.",
-          "Step 6: Transition to professional roles.",
-           
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th.",
-          "Step 2: Pursue master's degree.",
-          "Step 3: Specialize in specific domain.",
-          "Step 4: Conduct research or projects.",
-          "Step 5: Publish work or build portfolio.",
-          "Step 6: Join as specialist or researcher"
+          "Pathway A: Academic & Research Route",
+          "Step 1: Complete Class 12th with Mathematics, Physics, Chemistry.",
+          "Step 2: Pursue B.Sc. in Mathematics from a reputed college.",
+          "Step 3: Pursue M.Sc. in Mathematics or Applied Mathematics.",
+          "Step 4: Clear CSIR-NET or GATE for PhD fellowship.",
+          "Step 5: Pursue PhD in Mathematics from IISc, Delhi University, or IIT.",
+          "Step 6: Join as Research Scientist or University Faculty.",
+         
+          "Pathway B: Tech & Industry Route",
+          "Step 1: Complete Class 12th with PCM subjects.",
+          "Step 2: Pursue B.Tech in Computer Science or B.Sc. in Mathematics.",
+          "Step 3: Learn programming (Python, C++) and data structures.",
+          "Step 4: Pursue M.Tech in Computer Science or M.Sc. in Applied Mathematics.",
+          "Step 5: Join tech companies as Algorithm Engineer or Data Scientist.",
+          "Step 6: Advance to Senior Researcher or Engineering Manager.",
+         
+          "Pathway C: Finance & Quantitative Analysis Route",
+          "Step 1: Complete Class 12th with Mathematics stream.",
+          "Step 2: Pursue B.Sc. in Mathematics or B.Tech in Engineering.",
+          "Step 3: Learn statistics, probability, and financial modeling.",
+          "Step 4: Pursue M.Sc. in Statistics or MBA in Finance.",
+          "Step 5: Join investment banks or fintech companies as Quant Analyst.",
+          "Step 6: Advance to Senior Quant or Portfolio Manager roles."
         ]
       },
       {
         id: "market",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
+        description: "Salaries, growth, and opportunities.",
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
-          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
-          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
-          "Entry Level (0–2 yrs): ₹3–8 LPA",
-          "Note: Salaries vary by location, experience, and specialization."
+          "CXO / Top Leadership (15+ yrs): ₹1.2 Crore –  ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹50–100 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹25–50 LPA",
+          "Junior / Associate (3–5 yrs): ₹12–25 LPA",
+          "Entry Level (0–2 yrs): ₹5–12 LPA",
+          "Note: Tech companies (Google, Microsoft, Amazon) pay 40% more. Finance sector (Goldman Sachs, Morgan Stanley) pays 50% more. PhD holders earn 30% premium.",
+           
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru, Hyderabad, Mumbai, Delhi-NCR, Pune.",
+          "Top Organizations: Google, Microsoft, Amazon, Goldman Sachs, Morgan Stanley, TATA Consultancy Services, Infosys, Wipro.",
+          "Global Demand: Extremely high in USA, UK, Germany, Singapore. Remote research positions are common."
         ]
       },
       {
@@ -6074,21 +6347,122 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
-          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
-          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+          "Government: Indian Institute of Science (IISc) Bengaluru; Delhi University; Banaras Hindu University; IIT Bombay; IIT Delhi; IIT Madras; Jawaharlal Nehru University (JNU).",
+          "Private: Manipal Academy of Higher Education; Ashoka University; FLAME University; Amity University.",
+          "Online: Coursera (Mathematics Specializations); edX (Advanced Mathematics); NPTEL (IIT courses); Udemy (Applied Mathematics)"
         ]
       },
       {
         id: "opportunities",
         title: "Career Opportunities",
         icon: "Briefcase",
-        description: "Various career roles.",
+        description: "Conventional and emerging roles.",
         color: BLUE2,
         content: [
-          "Conventional: Traditional roles in the industry",
-          "New-Age & AI Driven: Emerging roles with technology",
-          "Remote/Entrepreneurship: Freelance and startup opportunities"
+          "Conventional: University Faculty; Research Scientist; Mathematician at research institutes; Actuary; High School/College Teacher.",
+          "New-Age & AI-Driven: Machine Learning Researcher; Quantum Computing Specialist; AI Algorithm Designer; Cryptography Expert; Data Scientist; Blockchain Developer.",
+          "Remote/Entrepreneurship: Freelance Mathematics Tutor; Online Course Creator; Mathematics Consultant; EdTech Startup Founder; Research Paper Writer; AI Startup Founder."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and additional expenses.",
+        color: BLUE,
+        content: [
+          "Government (IISc/Delhi University): ₹1L–₹2L per year (Highly subsidized).",
+          "Private Universities: ₹3L–₹6L per year.",
+          "Duration: 4 years B.Sc + 2 years M.Sc + 3-5 years PhD.",
+          "Living Costs: ₹1L–₹2L per year in major cities.",
+          "Total Investment: Approximately ₹10L–₹20L for complete education."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE2,
+        content: [
+          "CSIR-NET Fellowship: ₹31,000/month for PhD students.",
+          "INSPIRE Scholarship: ₹80,000/year for science students.",
+          "GATE Scholarship: ₹12,400/month for M.Tech students.",
+          "National Scholarship Portal (NSP): Merit and need-based scholarships.",
+          "University Scholarships: Most universities offer merit-based scholarships."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Credentials and regulatory requirements.",
+        color: BLUE2,
+        content: [
+          "Professional Bodies: Indian Mathematical Society; Indian Academy of Sciences; National Academy of Sciences.",
+          "Certifications: Machine Learning Specialization (Coursera); Data Science Certificate; Quantum Computing Fundamentals.",
+          "International: Recognition from American Mathematical Society; London Mathematical Society."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "Real obstacles in the profession.",
+        color: BLUE,
+        content: [
+          "Abstract Nature: Mathematics can be difficult to explain to non-mathematicians.",
+          "Long Education Path: Typically 10+ years of study before independent research.",
+          "Limited Academic Positions: Fewer university positions compared to demand.",
+          "Funding Dependency: Research heavily dependent on grants.",
+          "Publication Pressure: Career advancement depends on publishing papers.",
+          "Rapid Obsolescence: New fields emerge quickly; continuous learning is essential.",
+          "Imposter Syndrome: Even experienced mathematicians feel they don't know enough."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in mathematics.",
+        color: BLUE2,
+        content: [
+          "Quantum Mathematics: Developing mathematics for quantum computers.",
+          "AI-Assisted Proofs: Using AI to discover and verify mathematical proofs.",
+          "Topological Data Analysis: Using topology to understand complex data.",
+          "Cryptography Evolution: Post-quantum cryptography to protect against quantum computers.",
+          "Mathematical Biology: Using mathematics to understand biological systems.",
+          "Climate Modeling: Advanced mathematics for climate prediction and mitigation."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Master Algebra & Geometry: Build strong fundamentals in school mathematics.",
+          "Learn Programming: Start with Python—it's beginner-friendly and powerful.",
+          "Solve Math Olympiad Problems: Participate in Math Olympiad competitions.",
+          "Read Math Books: 'A Brief History of Time' or 'The Man Who Loved Only Numbers.'",
+          "Explore Online Courses: Coursera and Khan Academy have excellent math courses.",
+          "Join Math Clubs: Participate in school or college math clubs.",
+          "Think Creatively: Mathematics rewards creative problem-solving."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Mathematicians",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "Ramanujan: Self-taught mathematical genius who made groundbreaking discoveries in number theory.",
+          "Prof. C.S. Seshadri: Founder of IMSC (Institute of Mathematical Sciences) and Fields Medal nominee.",
+          "Dr. Manjul Bhargava: Fields Medalist (2014) and Princeton professor of Indian origin.",
+          "Prof. Ashutosh Sharma: Mathematician and former Secretary of DST.",
+          "Dr. Hari Narayanan: IIT Bombay mathematician working on machine learning theory."
         ]
       }
     ]
@@ -6476,52 +6850,87 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
 
   statistician: {
     slug: "statistician",
-    badge: "Master Data & Probability for Class 10+",
+    badge: "Master Data & Insights for Class 10+",
     heading: "Statistician",
-    subheading: "Unlock insights from data.",
+    subheading: "Transform raw data into actionable insights—from healthcare to finance, unlock the power of data-driven decision making.",
     whyCards: [
-      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Statistician.", borderColor: "#10B981" },
-      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
-      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
-      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+      { icon: "BarChart3", title: "Data Revolution", description: "Every company needs statisticians to make sense of big data.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Explosive Growth", description: "Data science roles growing at 30% annually in India.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Demand", description: "High demand in USA, UK, Australia, and Singapore.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Lucrative Salaries", description: "₹6L–₹1.8Cr+ for statisticians in tech and finance.", borderColor: "#F59E0B" }
     ],
     quickFacts: [
-      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
-      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+      { label: "Duration", detail: "4 Years B.Sc + 2 Years M.Sc + Optional PhD", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹6L–₹1.8Cr+ (Entry to CXO)", color: "bg-purple-100 text-purple-700" },
+      { label: "Growth", detail: "30% CAGR in data roles", color: "bg-green-100 text-green-700" }
     ],
     statCards: [
-      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
-      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+      { value: "30%", label: "Data Role Growth", gradient: "from-blue-500 to-blue-600" },
+      { value: "₹1.8Cr+", label: "CXO Salary", gradient: "from-indigo-500 to-indigo-600" }
     ],
     guideSections: [
       {
         id: "what",
         title: "What is This Career All About?",
-        icon: "Target",
-        description: "Understanding Statistician.",
+        icon: "BarChart3",
+        description: "The science of data and uncertainty.",
         color: BLUE,
         content: [
-          "Statistician is a dynamic and rewarding career path.",
-          "It offers opportunities for growth and development.",
-          "Professionals in this field make a significant impact.",
-          "The industry is evolving with new technologies.",
-          "Career prospects are excellent for qualified candidates."
+          "Statistics is the science of collecting, analyzing, and interpreting data. In a world drowning in information, statisticians are the detectives who find the signal in the noise.",
+          "A Statistician is not just someone who crunches numbers. They are a scientist who designs experiments, collects data, analyzes it using sophisticated methods, and draws meaningful conclusions.",
+          "From predicting disease outbreaks to optimizing e-commerce recommendations, from clinical trials to election polls, statisticians are behind every data-driven decision in the modern world.",
+          "India's data economy is exploding. Every startup, every bank, every hospital, and every government agency needs statisticians to make sense of their data. The demand far exceeds the supply.",
+          "Whether you want to work in healthcare (analyzing clinical trials), finance (risk management), tech (A/B testing), or government (policy analysis), statistics opens doors to careers that are intellectually stimulating, globally recognized, and extremely well-paid."
         ]
       },
       {
         id: "dayinlife",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Dr. Neha, Senior Data Scientist at a FinTech Company",
         icon: "Clock",
-        description: "Meet a professional in Statistician",
+        description: "Real workflow of a statistician.",
         color: BLUE2,
         content: [
-          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
-           "12:00 PM    –     Mid-morning: Engage in core work activities.",
-          "2:00 PM   –      Lunch: Break and networking with colleagues.",
-          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
-          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
-          "8:00 PM    –     Evening: Personal time and relaxation."
+          "08:30 AM –  Arrival at the FinTech startup in Bengaluru: I check my emails and review the overnight results from a machine learning model I deployed yesterday. It's predicting credit risk for loan applications.",
+          "10:00 AM –  Data Quality Meeting: I meet with the data engineering team. We discuss data quality issues—missing values, outliers, and inconsistencies. Garbage in, garbage out. If the data is bad, my analysis will be bad.",
+          "11:30 AM –  Statistical Analysis: I spend 2 hours analyzing customer behavior data. Using Python (Pandas, NumPy, SciPy), I'm calculating correlation coefficients, running hypothesis tests, and building regression models.",
+          "01:00 PM –  Lunch & Brainstorming: Over lunch, I discuss a new project with my manager. The company wants to predict which customers are likely to default on loans. I outline the statistical approach: logistic regression, random forests, and ensemble methods.",
+          "02:30 PM –  Visualization & Reporting: I create visualizations using Tableau and Matplotlib. Data is only useful if it's communicated clearly. I prepare a presentation for the business team.",
+          "04:00 PM –  Stakeholder Meeting: I present my findings to the product and business teams. They ask questions like 'How confident are you in this prediction?' and 'What's the margin of error?' I explain confidence intervals and p-values in business language.",
+          "05:30 PM –  Code Review & Documentation: I review code written by junior data scientists. I ensure statistical rigor and best practices are followed.",
+          "07:00 PM –  Reflection: Before leaving, I think about tomorrow's challenges. Statistics is about making decisions under uncertainty—and that's what makes it fascinating."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Analytical Mind: You enjoy finding patterns and drawing conclusions from data.",
+          "Mathematical Foundation: Strong understanding of probability, distributions, and hypothesis testing.",
+          "Programming Skills: Python, R, and SQL are essential tools.",
+          "Attention to Detail: A small error in data cleaning can lead to wrong conclusions.",
+          "Communication: You can explain complex statistical concepts to non-technical people.",
+          "Curiosity: You ask 'Why?' and 'What if?' constantly.",
+          "Business Acumen: You understand how statistics translates to business value."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete statistics process.",
+        color: BLUE2,
+        content: [
+          "Data Collection: Designing surveys and experiments to collect relevant data.",
+          "Data Cleaning: Handling missing values, outliers, and inconsistencies.",
+          "Exploratory Analysis: Understanding data through visualization and summary statistics.",
+          "Hypothesis Testing: Testing assumptions and drawing statistical conclusions.",
+          "Modeling: Building predictive and descriptive models.",
+          "Validation: Ensuring models are accurate and generalizable.",
+          "Communication: Presenting findings to stakeholders.",
+          "Decision Support: Helping organizations make data-driven decisions."
         ]
       },
       {
@@ -6531,45 +6940,50 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
         content: [
-          "Pathway A: Degree Route",
-          "Step 1: Complete Class 12th with Science/relevant stream.",
-          "Step 2: Pursue relevant bachelor's degree.",
-          "Step 3: Gain practical experience through internships.",
-          "Step 4: Pursue advanced certifications.",
-          "Step 5: Build professional network.",
-          "Step 6: Advance to senior positions.",
-           
-          "Pathway B: Skill-Based Entry",
-          "Step 1: Complete Class 12th.",
-          "Step 2: Take specialized training courses.",
-          "Step 3: Gain hands-on experience.",
-          "Step 4: Get industry certifications.",
-          "Step 5: Build portfolio.",
-          "Step 6: Transition to professional roles.",
-           
-          "Pathway C: Higher Education Route",
-          "Step 1: Complete Class 12th.",
-          "Step 2: Pursue master's degree.",
-          "Step 3: Specialize in specific domain.",
-          "Step 4: Conduct research or projects.",
-          "Step 5: Publish work or build portfolio.",
-          "Step 6: Join as specialist or researcher"
+          "Pathway A: Academic & Research Route",
+          "Step 1: Complete Class 12th with Mathematics, Physics, Chemistry.",
+          "Step 2: Pursue B.Sc. in Statistics or Mathematics from a reputed college.",
+          "Step 3: Pursue M.Sc. in Statistics or Applied Statistics.",
+          "Step 4: Clear CSIR-NET or GATE for PhD fellowship.",
+          "Step 5: Pursue PhD in Statistics from Delhi University, IISc, or ISI.",
+          "Step 6: Join as Research Scientist or University Faculty.",
+         
+          "Pathway B: Tech & Data Science Route",
+          "Step 1: Complete Class 12th with PCM subjects.",
+          "Step 2: Pursue B.Tech in Computer Science or B.Sc. in Statistics.",
+          "Step 3: Learn programming (Python, R) and machine learning.",
+          "Step 4: Pursue M.Tech in Data Science or M.Sc. in Statistics.",
+          "Step 5: Join tech companies as Data Scientist or Analytics Engineer.",
+          "Step 6: Advance to Senior Data Scientist or Analytics Manager.",
+         
+          "Pathway C: Finance & Business Analytics Route",
+          "Step 1: Complete Class 12th with Mathematics stream.",
+          "Step 2: Pursue B.Sc. in Statistics or B.Tech in Engineering.",
+          "Step 3: Learn financial modeling, risk analysis, and business analytics.",
+          "Step 4: Pursue M.Sc. in Statistics or MBA in Analytics.",
+          "Step 5: Join banks or fintech companies as Risk Analyst or Business Analyst.",
+          "Step 6: Advance to Senior Analyst or Manager roles."
         ]
       },
       {
         id: "market",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salaries and opportunities.",
+        description: "Salaries, growth, and opportunities.",
         color: BLUE2,
         content: [
           "Salary Snapshot (Annual INR)",
-          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
-          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
-          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
-          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
-          "Entry Level (0–2 yrs): ₹3–8 LPA",
-          "Note: Salaries vary by location, experience, and specialization."
+          "CXO / Top Leadership (15+ yrs): ₹1 Crore –  ₹1.8 Crore",
+          "Senior / Lead Role (10+ yrs): ₹45–90 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹22–45 LPA",
+          "Junior / Associate (3–5 yrs): ₹10–22 LPA",
+          "Entry Level (0–2 yrs): ₹6–10 LPA",
+          "Note: Tech companies (Google, Amazon, Microsoft) pay 50% more. Finance sector (Goldman Sachs, Morgan Stanley) pays 60% more. Master's degree holders earn 25% premium.",
+           
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru, Hyderabad, Mumbai, Delhi-NCR, Pune, Chennai.",
+          "Top Organizations: Google, Amazon, Microsoft, Goldman Sachs, Morgan Stanley, HDFC Bank, ICICI Bank, TCS, Infosys, Wipro.",
+          "Global Demand: Extremely high in USA, UK, Canada, Australia, Singapore. Remote data science positions are very common."
         ]
       },
       {
@@ -6579,21 +6993,122 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
-          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
-          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+          "Government: Indian Statistical Institute (ISI) Delhi; Delhi University; Banaras Hindu University; IISc Bengaluru; IIT Bombay; Pune University.",
+          "Private: Manipal Academy of Higher Education; Ashoka University; FLAME University; Symbiosis Institute of Statistics.",
+          "Online: Coursera (Statistics Specializations); edX (Data Science); NPTEL (IIT courses); DataCamp (Statistics & R); Udemy (Applied Statistics)"
         ]
       },
       {
         id: "opportunities",
         title: "Career Opportunities",
         icon: "Briefcase",
-        description: "Various career roles.",
+        description: "Conventional and emerging roles.",
         color: BLUE2,
         content: [
-          "Conventional: Traditional roles in the industry",
-          "New-Age & AI Driven: Emerging roles with technology",
-          "Remote/Entrepreneurship: Freelance and startup opportunities"
+          "Conventional: University Faculty; Research Statistician; Government Statistician; Clinical Trial Statistician; Survey Analyst; Quality Control Analyst.",
+          "New-Age & AI-Driven: Data Scientist; Machine Learning Engineer; AI Ethics Specialist; Causal Inference Specialist; Bayesian Data Analyst; Predictive Analytics Engineer.",
+          "Remote/Entrepreneurship: Freelance Data Analyst; Online Statistics Tutor; Data Consulting Firm Founder; Analytics Startup Founder; Research Paper Writer; EdTech Content Creator."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and additional expenses.",
+        color: BLUE,
+        content: [
+          "Government (ISI/Delhi University): ₹1L–₹2L per year (Highly subsidized).",
+          "Private Universities: ₹3L–₹6L per year.",
+          "Duration: 4 years B.Sc + 2 years M.Sc + Optional 3-5 years PhD.",
+          "Living Costs: ₹1L–₹2L per year in major cities.",
+          "Total Investment: Approximately ₹10L–₹18L for complete education."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE2,
+        content: [
+          "CSIR-NET Fellowship: ₹31,000/month for PhD students.",
+          "INSPIRE Scholarship: ₹80,000/year for science students.",
+          "GATE Scholarship: ₹12,400/month for M.Sc students.",
+          "ISI Scholarships: Merit-based scholarships for ISI students.",
+          "National Scholarship Portal (NSP): Merit and need-based scholarships."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Credentials and regulatory requirements.",
+        color: BLUE2,
+        content: [
+          "Professional Bodies: Indian Society of Statistics; Indian Academy of Sciences; National Academy of Sciences.",
+          "Certifications: Google Data Analytics Certificate; IBM Data Science Professional Certificate; Microsoft Data Scientist Certificate; SAS Certified Specialist.",
+          "International: Recognition from American Statistical Association; Royal Statistical Society."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "Real obstacles in the profession.",
+        color: BLUE,
+        content: [
+          "Data Quality Issues: Real-world data is messy; 80% of time is spent cleaning data.",
+          "Misinterpretation: Non-technical people often misunderstand statistical findings.",
+          "Pressure for Quick Results: Businesses want answers fast; rigorous analysis takes time.",
+          "Ethical Dilemmas: Data can be misused; statisticians must maintain integrity.",
+          "Rapid Technology Change: New tools and methods emerge constantly.",
+          "Imposter Syndrome: Even experienced statisticians feel they don't know enough.",
+          "Work-Life Balance: Tight deadlines can lead to long working hours."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in statistics.",
+        color: BLUE2,
+        content: [
+          "Causal Inference: Moving beyond correlation to understand cause-and-effect relationships.",
+          "Bayesian Methods: Bayesian statistics gaining prominence in AI and machine learning.",
+          "Privacy-Preserving Statistics: Differential privacy and federated learning.",
+          "Explainable AI: Making AI models interpretable and trustworthy.",
+          "Real-Time Analytics: Processing and analyzing data in real-time.",
+          "Ethical Data Science: Ensuring fairness, transparency, and accountability in data analysis."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Master Statistics Basics: Learn probability, distributions, and hypothesis testing.",
+          "Learn Programming: Start with Python—it's beginner-friendly and powerful.",
+          "Explore Data: Download datasets from Kaggle and analyze them.",
+          "Read Statistics Books: 'Freakonomics' or 'Thinking, Fast and Slow.'",
+          "Take Online Courses: Coursera and Khan Academy have excellent statistics courses.",
+          "Join Data Clubs: Participate in school or college data science clubs.",
+          "Think Critically: Question data and claims you see in the news."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Statisticians",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "Prof. C.R. Rao: Legendary statistician and founder of ISI, known for Cramér-Rao bound.",
+          "Prof. Debabrata Basu: Pioneer in statistical inference and Bayesian methods.",
+          "Dr. Nandan Nilekani: Architect of Aadhaar, using statistics for national identity.",
+          "Prof. Ashutosh Sharma: Statistician and former Secretary of DST.",
+          "Dr. Karthik Srinivasan: IIT Bombay statistician working on machine learning theory."
         ]
       }
     ]
@@ -11572,7 +12087,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA –  ₹30 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹16 LPA","Entry Level (0–2 yrs): ₹4 LPA","Tier-1 cities and Flutter/React Native skills add 40% premium LPA –  ₹9 LPA","Note: Metros and specialized Domain/Agile skills add 30–50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Mumbai, Pune.","Top Industries: BFSI, IT Services, Healthcare, E-commerce.","Global Demand: Remote roles in USA, Europe, and UAE."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA –  ₹30 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹16 LPA","Entry Level (0–2 yrs): ₹4 LPA","Tier-1 cities and Flutter/React Native skills add 40% premium  :  ₹9 LPA","Note: Metros and specialized Domain/Agile skills add 30–50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Mumbai, Pune.","Top Industries: BFSI, IT Services, Healthcare, E-commerce.","Global Demand: Remote roles in USA, Europe, and UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",

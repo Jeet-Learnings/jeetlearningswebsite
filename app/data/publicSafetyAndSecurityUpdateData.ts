@@ -1865,7 +1865,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Mountaineering Certifications: ITBP personnel get mountaineering certifications recognized by the Indian Mountaineering Foundation.",
           "Dog Handler Certifications: Specialized training for K-9 units, recognized by international dog training organizations.",
           "Professional Bodies: Central Paramilitary Forces Officers Association, CRF Personnel Welfare Association.",
-          "These certifications significantly enhance career prospects in civilian sectors like private security, disaster management, and international peacekeeping."
+          "Note :These certifications significantly enhance career prospects in civilian sectors like private security, disaster management, and international peacekeeping."
         ]
       },
       {
