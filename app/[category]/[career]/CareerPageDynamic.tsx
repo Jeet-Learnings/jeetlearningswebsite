@@ -617,8 +617,8 @@ export function CareerPageDynamic({
                               {val.split(';').map((part, pIdx) => {
                                 const trimmedPart = part.trim();
                                 return trimmedPart ? (
-                                  <div key={pIdx} className="flex gap-2 items-start">
-                                    <span className="text-slate-600 flex-shrink-0 mt-1">•</span>
+                                  <div key={pIdx} className="flex gap-2 items-center">
+                                    <span className="text-slate-600 flex-shrink-0">•</span>
                                     <p className="break-words"><TranslatedText as="span">{trimmedPart}</TranslatedText></p>
                                   </div>
                                 ) : null;
