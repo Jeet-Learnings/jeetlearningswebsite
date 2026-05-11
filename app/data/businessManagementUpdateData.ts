@@ -2324,6 +2324,239 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
         ]
       }
     ]
+  },
+  fashion_management: {
+    slug: "fashion_management",
+    badge: "The Style Architect for Class 10+",
+    heading: "Fashion Management",
+    subheading: "Blending creativity with commerce. Turn designer dreams into billion-dollar brands. ₹5L–₹65L+ salaries with 12.87% CAGR growth.",
+    whyCards: [
+      { icon: "TrendingUp", title: "$124B Market by 2030", description: "India's fashion retail market expected to cross $124 billion by 2030. Explosive growth opportunity.", borderColor: "#10B981" },
+      { icon: "Zap", title: "₹5L–₹65L+ Salaries", description: "Entry-level ₹5L–₹8L. Mid-level ₹12L–₹22L. Senior ₹35L–₹65L+. Leadership ₹75L+. Fast growth trajectory.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "High demand in Italy, France, UAE for managers who understand global supply chain and sustainability.", borderColor: "#3B82F6" },
+      { icon: "Award", title: "E-commerce Boom", description: "E-commerce fashion roles growing at 27% CAGR. Myntra, Ajio, and D2C brands hiring aggressively.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Bachelor's + MBA/PG Diploma (2-3 years)", color: "bg-blue-100 text-blue-700" },
+      { label: "Entry Exam", detail: "NIFT, CUET, CAT, GMAT", color: "bg-purple-100 text-purple-700" },
+      { label: "Salary Range", detail: "₹5L–₹65L+ per annum", color: "bg-green-100 text-green-700" }
+    ],
+    statCards: [
+      { value: "$124B", label: "Market Size by 2030", gradient: "from-green-500 to-green-600" },
+      { value: "12.87%", label: "CAGR Growth Rate", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "The business side of fashion—bridging creativity with commerce.",
+        color: BLUE,
+        content: [
+          "Fashion Management Definition: The business side of fashion. Bridge between designer's creative vision and customer's wardrobe. Blend magic of design with logic of business.",
+          "The Trend Scout: Predict what colors and styles customers will want next year. Use AI and market reports to forecast trends.",
+          "The Brand Storyteller: Decide how brands like Zudio or Sabyasachi should talk to customers through ads and social media.",
+          "The Market Navigator: Manage 'buying' and 'merchandising'—deciding exactly how many shirts a store needs so they don't run out or have too many leftovers.",
+          "Why It Matters: India is one of world's largest consumers of fashion. As we move towards sustainable and tech-driven shopping, we need managers who understand how to run ethical, profitable, and modern businesses.",
+          "The Scope: Work in Retail Brands, E-commerce, Export Houses, Luxury Labels, or as fashion consultant."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: The Brand Strategist",
+        icon: "Clock",
+        description: "Real workflow of a fashion manager.",
+        color: BLUE2,
+        content: [
+          "9:00 AM –  The Trend Forecast: Day begins at vibrant corporate office in Gurgaon. Review data from previous week. Trend Forecasting software shows eco-friendly 'slow-fashion' linen trousers trending among Gen-Z in Bangalore. Shift more stock to South Indian stores.",
+          "11:30 AM –  The Creative Huddle: Meet with design team. They show sketches for 'Winter 2026' collection. Not critiquing art—looking at price point. Silk embroidery beautiful but might be too expensive for college students. Find middle ground using high-quality blend.",
+          "2:00 PM –  The Influencer Strategy: Over working lunch, finalize list of 10 influencers for next launch. Not just looking for 'followers'—looking for creators who align with brand's sustainability values.",
+          "4:30 PM –  The Retail Walkthrough: Visit flagship store. Notice 'Visual Merchandising' (window display) isn't catching attention. Work with store manager to change lighting and mannequin outfits to feature 'Hero Product' of month.",
+          "7:00 PM –  The Global Logistics Call: Call with manufacturing unit in Tirupur. Fabric supply delayed due to storm. Quickly pivot and authorize backup supplier to ensure 'Diwali Collection' hits shelves on time."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? The Fashion Business DNA",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Analytical Mind: Do you enjoy looking at charts and spotting patterns? (Hard Skill: Data Analysis)",
+          "Visual Sense: Can you tell why one store window looks 'cool' and another looks 'messy'? (Hard Skill: Visual Merchandising)",
+          "People Person: Can you negotiate with supplier in morning and inspire marketing team in afternoon? (Soft Skill: Negotiation & Leadership)",
+          "Adaptability: Fashion moves fast. Can you change plans if new trend goes viral overnight? (Trait: Agility)",
+          "The Self-Check: Do you follow fashion trends? Can you see business potential in designs? Do you love organizing and strategizing? If yes, you have Fashion Business DNA."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Product Lifecycle",
+        icon: "Briefcase",
+        description: "The complete fashion manager workflow.",
+        color: BLUE2,
+        content: [
+          "Trend Research: Predicting what's next using AI and market reports. Analyzing consumer behavior.",
+          "Product Development: Working with designers to ensure products are 'market-ready.' Balancing creativity with profitability.",
+          "Merchandising & Buying: Deciding 'What to buy, how much, and for which store.' Managing inventory.",
+          "Promotion & Sales: Launching campaigns and managing customer experience. Driving sales through marketing.",
+          "Retail Management: Overseeing store operations and visual merchandising. Ensuring brand consistency.",
+          "Supply Chain: Managing manufacturing, logistics, and distribution. Ensuring timely delivery.",
+          "Financial Management: Monitoring budgets and ensuring profitability. Analyzing sales data."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: ["Pathway A: Traditional Academic Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue BBA/B.Sc. in Fashion Management (3-4 years)","Step 3: Complete MBA in Fashion/Luxury Brand Management","Step 4: Learn merchandising, retail strategy, trend forecasting","Step 5: Complete internship in fashion house/retail brand","Step 6: Join as Fashion Manager/Brand Manager/Retail Director","Pathway B: Design-to-Management Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue B.Des in Fashion Design from NIFT/NID (4 years)","Step 3: Learn fashion marketing, supply chain, visual merchandising","Step 4: Gain experience in fashion brand/export house","Step 5: Pursue PG Diploma/MBA in Fashion Business Management","Step 6: Join as Creative Director/Fashion Buyer/Collection Manager","Pathway C: Skill-Based/Certification Entry Route","Step 1: Complete Class 12th with any stream","Step 2: Pursue any graduate degree (BA/BBA/B.Com)","Step 3: Complete diploma/certification in fashion merchandising","Step 4: Learn tools like Adobe Illustrator, PLM, social media marketing","Step 5: Build portfolio through fashion events/freelance styling","Step 6: Join as Visual Merchandiser/Fashion Stylist/E-commerce Manager"]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, cities, and industry growth.",
+        color: BLUE2,
+        content: ["Salary Snapshot (Annual INR)","CXO (15+ yrs): ₹60 LPA –  ₹2.0 Cr+","Senior (10+ yrs): ₹25 –  ₹50 LPA","Mid-Level (5–8 yrs): ₹14 –  ₹25 LPA","Junior (3–5 yrs): ₹7 –  ₹13 LPA","Entry Level (0–2 yrs): ₹4 –  ₹7 LPA","Note: Metros pay 40% more. NIFT/MBA degrees boost pay.","Where Are the Jobs?","Top Cities: Mumbai, Delhi, Bangalore, Hyderabad, Ahmedabad.","Top Industries: Luxury Retail, E-commerce, Export Houses, Branding.","Global Demand: USA, UK. Remote sustainability roles are rising.","Where to Study?","Top Institutions","Government:","National Institute of Fashion Technology (NIFT), Delhi","National Institute of Design (NID), Ahmedabad","Indian Institute of Crafts & Design (IICD), Jaipur","Government College of Art & Craft, Kolkata","Private:","Pearl Academy, Delhi","Symbiosis Institute of Design, Pune","INIFD –  Inter National Institute of Fashion Design","Lovely Professional University","Online:","NIFT Online Programs","IGNOU (Fashion Merchandising)","edX (Fashion Business courses)","Udemy (Fashion Management specializations)","Career Opportunities","Conventional","Fashion Merchandiser","Retail Store Manager","Buying Assistant","Visual Merchandiser","New-age and AI driven","Fashion E-commerce Manager","Omnichannel Fashion Analyst","AI Trend Forecasting Specialist","Fashion Data and CRM Analyst","Remote/entrepreneurship","Fashion Brand Consultant","Freelance Stylist","D2C Fashion Brand Founder","Fashion Content Creator"]
+      },{
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and training costs.",
+        color: BLUE2,
+        content: [
+          "Government Fees: ₹1.5L–₹3.5L per year (NIFT/FDDI). Highly competitive but affordable.",
+          "Private Fees: ₹4L–₹7L per year (Pearl Academy, ISDI). Better infrastructure and placement support.",
+          "Duration: 4 years for Bachelor's; 2 years for Master's.",
+          "Living Costs: ₹15,000–₹25,000 per month in major metros.",
+          "Additional Costs: Software tools (₹10k–₹30k), certifications (₹20k–₹50k), internships.",
+          "Total Investment: Approximately ₹5L–₹15L for complete education.",
+          "ROI: With entry-level salaries of ₹5L–₹8L per annum, you can recover investment in 1-2 years."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top fashion management institutes across India.",
+        color: BLUE,
+        content: [
+          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
+          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
+          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE,
+        content: [
+          "Central: PM-YASASVI Post-Matric Scholarship for OBC/EBC students (Family income < ₹2.5L).",
+          "State: Various state merit scholarships for design and management courses.",
+          "Institutional: NIFT offers 'Means-cum-Merit' financial assistance for students from lower-income backgrounds.",
+          "Private: Various corporate scholarships from fashion brands and retail companies.",
+          "Merit-Based: Most institutes offer scholarships for top performers in entrance exams."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Professional organizations and credentials.",
+        color: BLUE2,
+        content: [
+          "Certifications: Short-term modules in Fashion Analytics, CLO 3D (Virtual Garments), Sustainable Fashion Practices.",
+          "Memberships: Fashion Design Council of India (FDCI). Great for networking and industry connections.",
+          "Professional Bodies: NIFT Alumni Association, Pearl Academy Alumni Network.",
+          "Continuing Education: Must stay updated with latest trends, technologies, and sustainability practices."
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse paths in fashion management.",
+        color: BLUE2,
+        content: [
+          "Conventional Careers: Retail Manager, Fashion Buyer, Merchandiser, Brand Manager, Store Manager.",
+          "New-Age Careers: AI-Trend Forecaster, E-commerce Manager, Sustainability Consultant, Virtual Fashion Designer (Metaverse).",
+          "Specialized Roles: Visual Merchandiser, Supply Chain Manager, Inventory Manager, Marketing Manager.",
+          "Entrepreneurship: Starting niche 'D2C' (Direct-to-Consumer) brand or fashion consultancy.",
+          "Consulting: Fashion consultant for retail companies, trend forecasting consultant.",
+          "International: Opportunities in Italy, France, UAE for senior roles and management positions."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of fashion management.",
+        color: BLUE,
+        content: [
+          "High Pressure: Industry works on 'seasons.' During launch, 14-hour workdays are common.",
+          "The 'Waste' Problem: Managing unsold inventory is huge stress for business. Overstock = lost money.",
+          "Continuous Learning: Tech like AI-driven virtual try-ons changes every few months. Must keep up.",
+          "Fast-Paced: Fashion moves quickly. Trends can change overnight. Must be adaptable.",
+          "Sustainability Pressure: Increasing pressure to reduce waste and use sustainable materials.",
+          "Competition: Global competition from established luxury brands and emerging designers.",
+          "Work-Life Balance: Seasonal peaks can require long hours and weekend work."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in fashion management.",
+        color: BLUE2,
+        content: [
+          "AI Personalization: AI will predict your size and style so accurately that 'returns' will drop by 20%.",
+          "Circular Fashion: Brands will start 'Buy-back' programs where you return old clothes for credit.",
+          "Virtual Fashion: Selling 'digital-only' clothes for avatars in the Metaverse.",
+          "Sustainability Focus: Brands increasingly judged by environmental impact. ESG becoming standard.",
+          "Hyper-Localization: Fashion becoming more local. Brands creating region-specific collections.",
+          "Blockchain Transparency: Customers can scan QR code and see entire supply chain of their shirt.",
+          "Autonomous Stores: Checkout-free stores using computer vision (like Amazon Go).",
+          "Predictive Inventory: AI predicting demand so accurately that stockouts and overstock become rare."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Fashion Observation: Visit 5 different stores and note what you like and dislike about each.",
+          "Social Media: Follow fashion brands and analyze their marketing strategies.",
+          "Design Tools: Learn basic Adobe Illustrator or Canva for visual design.",
+          "Reading: Follow fashion news on Vogue, Harper's Bazaar, and Indian fashion blogs.",
+          "Leadership: Take leadership roles in school fashion shows or events.",
+          "Networking: Connect with fashion professionals and designers.",
+          "Online Courses: Take free courses on Coursera about fashion business.",
+          "Entrance Prep: Start early preparation for NIFT, CUET, or other entrance exams."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Fashion Leaders",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "Sabyasachi Mukherjee: Legendary designer who built global luxury brand. Master of blending tradition with modernity.",
+          "Falguni Nayar: Founder of Nykaa. Revolutionized beauty and fashion retail in India. Built billion-dollar brand.",
+          "Isha Ambani: Leading massive digital and physical expansion of Reliance Brands. Bringing global luxury to India.",
+          "Manish Malhotra: Iconic designer known for bridal wear. Built empire through celebrity endorsements and innovation.",
+          "Anita Dongre: Pioneer of sustainable fashion in India. Founder of AndLabel. Advocate for ethical fashion.",
+          "Ritu Kumar: Veteran designer with 50+ years in fashion. Built iconic Indian fashion brand.",
+          "Deepika Padukone: Actor-turned-entrepreneur. Founded All Things Deepika (ADP) brand. Blending entertainment with fashion."
+        ]
+      }
+    ]
   }
 };
 
