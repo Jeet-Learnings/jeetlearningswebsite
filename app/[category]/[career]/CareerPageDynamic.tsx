@@ -1478,7 +1478,7 @@ export function CareerPageDynamic({
                           <div className={`w-9 sm:w-10 md:w-11 h-9 sm:h-10 md:h-11 ${bgClass} rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-sm`}>
                             <IconComponent className={`w-4 sm:w-5 md:w-6 h-4 sm:h-5 md:h-6 ${colorClass}`} />
                           </div>
-                          <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 leading-snug break-words line-clamp-2">
+                          <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 leading-snug break-words">
                             <TranslatedText as="span">{type}</TranslatedText>
                           </h4>
                         </div>

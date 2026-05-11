@@ -1,4 +1,4 @@
-﻿import { CareerPageData } from './careerPageData';
+import { CareerPageData } from './careerPageData';
 
 const BLUE = "#1E40AF";
 const BLUE2 = "#3B82F6";
@@ -340,7 +340,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Conventional and emerging roles.",
         color: BLUE2,
         content: [
-          "Conventional: 2D/3D Animator at film and television studios, VFX Artist at production houses (e.g., DNEG, Prime Focus), Storyboard Artist for advertising and media agencies, Animation Faculty at design institutes (NIFT, NID, AAFT)",
+          "Conventional: 2D/3D Animator at film and television studios, VFX Artist at production houses (e.g. DNEG Prime Focus), Storyboard Artist for advertising and media agencies, Animation Faculty at design institutes (NIFT NID AAFT)",
           "New-Age & AI-Driven: AI-assisted animation and generative motion designer, AR/VR Animator for immersive experiences and metaverse, Real-time game animator using Unreal Engine, Motion capture and virtual production specialist",
           "Remote/Entrepreneurship: Freelance animator for global studios and OTT platforms, Own animation studio for explainer videos and brand content, YouTube/social media animation content creator, Online animation tutor and course creator"
         ]
@@ -2202,8 +2202,8 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Course fees and additional expenses.",
         color: BLUE2,
         content: [
-          "Course Fees: Government (Universities): ₹5,000–₹40,000 per year (Subsidized) | Private/Cultural Centers (e.g., Alliance Française): ₹15,000–₹30,000 per level/semester.",
-          "Duration: 3 years (UG) + 2 years (PG). Fast-track diplomas take 1–2 years.",
+          "Course Fees: Government (Universities): ₹5,000–₹40,000 per year (Subsidized) | Private/Cultural Centers (eg, Alliance Française): ₹15,000–₹30,000 per level/semester.",
+          "Duration: 3 years (UG) + 2 years (PG) Fast-track diplomas take 1–2 years.",
           "Hostel/Living: ₹10,000–₹20,000/month in major cities."
         ]
       },
@@ -5430,248 +5430,1451 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  // REMOVED: sportsperson, sports_physiotherapist, sports_management, physical_trainer entries moved to sports_and_physical_activitiesUpdateData.ts
   astronomer: {
-    slug: "astronomer",
-    badge: "The Cosmic Detectives for Class 10+",
-    heading: "The Cosmic Detectives",
-    subheading: "Unraveling the mysteries of the universe through observation and analysis.",
+    slug: "Astronomer",
+    badge: "Explore the Universe for Class 10+",
+    heading: "Astronomy",
+    subheading: "Study the cosmos and unlock the mysteries of space.",
     whyCards: [
-      { icon: "Telescope", title: "Universe Explorer", description: "Discover the secrets of stars, galaxies, and cosmic phenomena.", borderColor: "#10B981" },
-      { icon: "Zap", title: "Data Scientist", description: "Analyze massive datasets from space telescopes and satellites.", borderColor: "#059669" },
-      { icon: "Brain", title: "Theoretical Thinker", description: "Use mathematics and physics to explain cosmic mysteries.", borderColor: "#3B82F6" },
-      { icon: "Globe", title: "Global Collaborator", description: "Work with international teams on groundbreaking space research.", borderColor: "#F59E0B" }
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Astronomy.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
     ],
     quickFacts: [
-      { label: "Space-Tech Growth", detail: "12.8% CAGR", color: "bg-green-100 text-green-700" },
-      { label: "Career Growth", detail: "10-15 yrs to Senior", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹4.5L–₹60L+", color: "bg-purple-100 text-purple-700" }
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
     ],
     statCards: [
-      { value: "12.8%", label: "Space-Tech Job Growth (CAGR)", gradient: "from-green-500 to-green-600" },
-      { value: "5-8%", label: "Pure Research Job Growth", gradient: "from-blue-500 to-blue-600" }
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
     ],
     guideSections: [
       {
-        id: "1",
+        id: "what",
         title: "What is This Career All About?",
         icon: "Target",
-        description: "The detectives of the cosmos",
+        description: "Understanding Astronomy.",
         color: BLUE,
         content: [
-          "Imagine standing on a rooftop at night, looking up at the twinkling stars and wondering, 'How far is that star? What is it made of? Are we alone?' An astronomer is someone who turns that wonder into a professional quest for answers.",
-          "Astronomy is the scientific study of celestial objects (like stars, planets, comets, and galaxies) and phenomena that originate outside the Earth's atmosphere.",
-          "Unlike many other scientists, astronomers cannot 'touch' their subjects. They are like detectives of the cosmos, using light and other forms of radiation to piece together the history and future of the universe.",
-          "In today's world, an astronomer isn't just someone looking through a telescope lens. They are high-tech data scientists and physicists who observe, analyze, and theorize about the cosmos."
+          "Astronomy is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
         ]
       },
       {
-        id: "2",
+        id: "dayinlife",
         title: "A Day in the Life",
         icon: "Clock",
-        description: "Meet Dr. Anya, an Astrophysicist at the Indian Institute of Astrophysics",
+        description: "Meet a professional in Astronomy",
         color: BLUE2,
         content: [
-          "09:30 AM –  My day doesn't start with a telescope, but with a strong cup of filter coffee and a laptop. I work at the Indian Institute of Astrophysics (IIA) in Bengaluru. The first task is checking the 'health' of the data that came in overnight from the Himalayan Chandra Telescope in Ladakh.",
-          "11:00 AM –  I'm in a video call with collaborators from Pune and California. We are analyzing the 'light curve' of a distant supernova (an exploding star). We argue—politely—about whether the data shows a new type of chemical element or just 'noise' in the signal.",
-          "01:00 PM –  Lunch at the canteen is where the best ideas happen. I sit with an engineer who builds telescope sensors. We discuss how to reduce the 'blur' caused by Earth's atmosphere.",
-          "02:30 PM –  Time for some 'coding.' Most of my afternoon is spent writing Python scripts to filter out interference from the thousands of images we captured. Astronomy is 10% looking at stars and 90% solving puzzles with code.",
-          "04:30 PM –  I mentor a PhD student. We look at her latest simulations of how two galaxies collide. It's like watching a slow-motion dance that takes billions of years, compressed into a few seconds on a screen.",
-          "08:00 PM –  Tonight is my 'remote observing' shift. I don't have to travel to the mountains. From my home office, I log into the telescope's controls. I click a button, and thousands of kilometers away, a multi-ton giant of steel and glass swivels to point at a tiny patch of the sky I've chosen."
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+           "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
         ]
       },
       {
-        id: "3",
-        title: "Is This You? (Personality Traits & Skills)",
-        icon: "User",
-        description: "The 'Cosmic Ingredients' of an astronomer",
-        color: BLUE,
-        content: [
-          "Mathematical Mastery: Physics and Math are the languages of the universe. You need to be comfortable with complex calculations.",
-          "Curiosity & Patience: Scientific breakthroughs don't happen overnight. You might study one star for ten years!",
-          "Coding Skills: Modern astronomy is 'Data Science in Space.' Knowledge of Python, C++, or MATLAB is essential.",
-          "Analytical Thinking: You must be able to look at a blurry image and use logic to figure out what it represents.",
-          "Writing & Communication: Astronomers must write research papers and explain their findings to the government and the public.",
-          "Hard Skills: Physics, Mathematics, Programming, and Data Analysis.",
-          "Soft Skills: Collaboration, Persistence, and Creative Problem-Solving."
-        ]
-      },
-      {
-        id: "4",
-        title: "Key Responsibilities and Workflow",
-        icon: "Briefcase",
-        description: "The Scientific Method in astronomy",
-        color: BLUE2,
-        content: [
-          "The Proposal: You 'bid' for time on a telescope. You have to convince a committee why your project is important.",
-          "Observation: You collect data (images, spectra) during your allotted time.",
-          "Data Reduction: Raw data from space is 'messy.' You use software to clean it up.",
-          "Analysis: You apply physics laws to understand the data.",
-          "Publication: You write a paper and publish it in journals like Nature or the Journal of Astrophysics & Astronomy.",
-          "Collaboration: Work with international teams to validate findings and advance knowledge."
-        ]
-      },
-      {
-        id: "5",
+        id: "pathways",
         title: "Career Pathways in India",
         icon: "Map",
-        description: "Three main routes to become an astronomer",
+        description: "Educational journey from Class 10 onwards.",
         color: BLUE,
         content: [
-          "Path A - The Standard Route (After Class 10): Choose Science Stream with Physics, Chemistry, and Mathematics (PCM). Prepare for JEE Main, JEE Advanced, or IISER Aptitude Test (IAT).",
-          "Path B - Undergraduate Level (After Class 12): Option 1: B.Sc. (Physics/Mathematics) or B.Sc. Astronomy (3-4 years). Option 2: B.Tech in Aerospace/Electronics/Mechanical Engineering. Top Exams: KVPY, JEE, CUET.",
-          "Path C - Post-Graduation & PhD (The Specialist Route): Masters: M.Sc. in Physics, Astronomy, or Astrophysics. Entrance: IIT-JAM, JEST, or GATE. PhD: Most 'Astronomer' jobs require a Doctorate."
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th with Science/relevant stream.",
+          "Step 2: Pursue relevant bachelor's degree.",
+          "Step 3: Gain practical experience through internships.",
+          "Step 4: Pursue advanced certifications.",
+          "Step 5: Build professional network.",
+          "Step 6: Advance to senior positions.",
+           
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Take specialized training courses.",
+          "Step 3: Gain hands-on experience.",
+          "Step 4: Get industry certifications.",
+          "Step 5: Build portfolio.",
+          "Step 6: Transition to professional roles.",
+           
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Pursue master's degree.",
+          "Step 3: Specialize in specific domain.",
+          "Step 4: Conduct research or projects.",
+          "Step 5: Publish work or build portfolio.",
+          "Step 6: Join as specialist or researcher"
         ]
       },
       {
-        id: "6",
+        id: "market",
         title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
-        description: "Salary and career progression for astronomers",
+        description: "Salaries and opportunities.",
         color: BLUE2,
         content: [
-          "Salary Ranges (Annual): Entry-Level (Junior Research Fellow) ₹4.5L-7L | Mid-Level (Scientist C/D / Assistant Prof.) ₹12L-18L | Senior-Level (Scientist F/G / Professor) ₹22L-35L | Leadership (Director of Institute/ISRO Dept) ₹40L-60L+.",
-          "Growth Trajectory: Entry to Senior typically takes 10-15 years (including PhD and Post-doc years).",
-          "Market Demand: While pure 'research' jobs grow at 5-8%, 'Space-Tech' and 'Satellite Data Analysis' roles in the private sector grow at 12.8% CAGR.",
-          "Stipends: Most PhD students receive a fellowship (JRF/SRF) of ₹37,000-42,000 per month."
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
         ]
       },
       {
-        id: "7",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top sectors and locations for astronomers",
-        color: BLUE,
-        content: [
-          "Government Research Organizations: ISRO, IIA, ARIES, TIFR, Physical Research Laboratory (PRL).",
-          "Academia: IITs, IISERs, and Central Universities.",
-          "Space-Tech Startups: Skyroot Aerospace, Pixxel, Agnikul (hiring for satellite data and mission planning).",
-          "Data Science: Many astronomers are hired by tech giants (Google, Microsoft) because they are experts at handling massive datasets.",
-          "International: NASA (USA), ESA (Europe), and ESO (Chile) frequently hire Indian researchers."
-        ]
-      },
-      {
-        id: "8",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Fees and duration for astronomer education",
-        color: BLUE2,
-        content: [
-          "Government (IITs/IISERs/Central Unis): ₹10,000-50,000 per semester.",
-          "Private Universities: ₹1L-3L per year.",
-          "Stipends: Most PhD students receive a fellowship (JRF/SRF) of ₹37,000-42,000 per month, which often covers living costs entirely.",
-          "Research Grants: Once employed, research funding is available through government agencies."
-        ]
-      },
-      {
-        id: "9",
+        id: "institutions",
         title: "Where to Study?",
-        icon: "BookOpen",
-        description: "Prominent institutions for astronomy in India",
+        icon: "Building2",
+        description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "North: ARIES (Nainital), IIT Delhi, University of Delhi.",
-          "South: Indian Institute of Astrophysics (Bengaluru), IIST (Thiruvananthapuram), Osmania University (Hyderabad).",
-          "East: IIT Kharagpur, S.N. Bose National Centre for Basic Sciences (Kolkata).",
-          "West: IUCAA (Pune), TIFR (Mumbai), PRL (Ahmedabad).",
-          "Northeast: IIT Guwahati, Tezpur University."
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
         ]
       },
       {
-        id: "10",
-        title: "Scholarship Opportunities",
-        icon: "Award",
-        description: "Financial aid for astronomy students",
-        color: BLUE2,
-        content: [
-          "INSPIRE Scholarship (DST): For top 1% students in Class 12 pursuing Basic Sciences.",
-          "JEST/GATE Fellowships: Monthly stipend for Master's and PhD students.",
-          "Prime Minister's Research Fellowship (PMRF): High-value scholarship for PhD students at IITs/IISERs (up to ₹80,000/month).",
-          "Women in Science Scholarships: Various schemes by the Department of Science and Technology (DST)."
-        ]
-      },
-      {
-        id: "11",
-        title: "Professional Bodies & Licensing",
-        icon: "Certificate",
-        description: "Professional organizations and credentials",
-        color: BLUE,
-        content: [
-          "Astronomical Society of India (ASI): The primary body for professionals.",
-          "International Astronomical Union (IAU): The global body that names stars and planets.",
-          "ISRO: India's space agency that coordinates research and missions.",
-          "Research Societies: Various specialized societies for different branches of astronomy."
-        ]
-      },
-      {
-        id: "12",
+        id: "opportunities",
         title: "Career Opportunities",
         icon: "Briefcase",
-        description: "Diverse paths in astronomy",
+        description: "Various career roles.",
         color: BLUE2,
         content: [
-          "Conventional: Research Scientist, Professor, Planetarium Director.",
-          "New-Age: Satellite Data Analyst, Space Architect, AI-Astronomy Specialist, Space Policy Consultant.",
-          "Freelancing/Entrepreneurship: Science Communicator/YouTuber, Astrophotographer, Space-Tech Consultant for startups.",
-          "International Collaboration: Working with global space agencies and research institutions."
-        ]
-      },
-      {
-        id: "13",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of astronomy careers",
-        color: BLUE,
-        content: [
-          "Long Preparation: You might be 28-30 years old before you get your first 'permanent' job due to the long PhD and Post-doc route.",
-          "Funding Stress: You often have to 'fight' for grants to fund your research.",
-          "Niche Market: Pure research roles are limited compared to IT or Management.",
-          "Competitive Field: Only the most dedicated and talented succeed in this highly specialized field."
-        ]
-      },
-      {
-        id: "14",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of astronomy",
-        color: BLUE2,
-        content: [
-          "AI & Machine Learning: AI will do most of the 'data cleaning,' allowing astronomers to focus purely on the 'why' of the universe.",
-          "Private Space Sector: With India's Space Policy 2023, the private sector will open thousands of jobs in satellite-based internet and Earth observation.",
-          "Multi-Wavelength Astronomy: Combining data from radio, infrared, visible, and X-ray telescopes for comprehensive understanding.",
-          "Exoplanet Research: Searching for habitable worlds and signs of extraterrestrial life."
-        ]
-      },
-      {
-        id: "15",
-        title: "Skills to Build While Still in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12",
-        color: BLUE,
-        content: [
-          "Join a Club: Join the Indian Astronomy Club or your school's science club.",
-          "Learn Python: Start with basic coding on platforms like Coursera or Khan Academy.",
-          "Compete: Participate in the International Olympiad on Astronomy and Astrophysics (IOAA).",
-          "Read: Follow ISRO's website and magazines like Scientific American.",
-          "Stargaze: Download an app like Stellarium and start identifying constellations."
-        ]
-      },
-      {
-        id: "16",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring astronomers in India",
-        color: BLUE2,
-        content: [
-          "Dr. Meghnad Saha: Developed the Saha Equation, which explains the 'makeup' of stars.",
-          "Dr. Jayant Narlikar: A world-famous cosmologist and champion of science fiction in India.",
-          "Dr. G.C. Anupama: First woman president of the Astronomical Society of India and a leader in telescope projects.",
-          "Dr. Yash Pal: Known for making science 'simple' for every Indian child through TV.",
-          "Aryabhata (Historical): The 5th-century genius who knew Earth was round and rotated on its axis long before the West did."
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
         ]
       }
     ]
   },
+
+  biomedical_engineering: {
+    slug: "biomedical_engineering",
+    badge: "Bridge Engineering & Medicine for Class 10+",
+    heading: "Biomedical Engineering",
+    subheading: "Design life-saving medical devices.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Biomedical Engineering.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Biomedical Engineering.",
+        color: BLUE,
+        content: [
+          "Biomedical Engineering is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet a professional in Biomedical Engineering",
+        color: BLUE2,
+        content: [
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+           "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th with Science/relevant stream.",
+          "Step 2: Pursue relevant bachelor's degree.",
+          "Step 3: Gain practical experience through internships.",
+          "Step 4: Pursue advanced certifications.",
+          "Step 5: Build professional network.",
+          "Step 6: Advance to senior positions.",
+           
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Take specialized training courses.",
+          "Step 3: Gain hands-on experience.",
+          "Step 4: Get industry certifications.",
+          "Step 5: Build portfolio.",
+          "Step 6: Transition to professional roles.",
+           
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Pursue master's degree.",
+          "Step 3: Specialize in specific domain.",
+          "Step 4: Conduct research or projects.",
+          "Step 5: Publish work or build portfolio.",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+
+  chemical_engineering: {
+    slug: "chemical_engineering",
+    badge: "Transform Matter for Class 10+",
+    heading: "Chemical Engineering",
+    subheading: "Design processes that transform raw materials.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Chemical Engineering.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Chemical Engineering.",
+        color: BLUE,
+        content: [
+          "Chemical Engineering is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet a professional in Chemical Engineering",
+        color: BLUE2,
+        content: [
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+           "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Core Engineering Route",
+          "Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.",
+          "Step 2: Clear JEE/State CET for engineering admission.",
+          "Step 3: Pursue B.Tech in Chemical Engineering.",
+          "Step 4: Complete internship at refineries or chemical plants.",
+          "Step 5: Pursue M.Tech in Chemical or Process Engineering.",
+          "Step 6: Work as Chemical Engineer or Process Design Engineer.",
+           
+          "Pathway B: Research & Higher Studies Route",
+          "Step 1: Complete Class 12th with PCM subjects.",
+          "Step 2: Pursue B.Tech/B.E. in Chemical or Petrochemical Engineering.",
+          "Step 3: Learn tools like Aspen Plus, MATLAB, and AutoCAD.",
+          "Step 4: Clear GATE exam for M.Tech or PSU recruitment.",
+          "Step 5: Pursue M.Tech/Ph.D. from IITs, NITs, or IIChE labs.",
+          "Step 6: Join as Research Scientist or PSU Officer.",
+           
+          "Pathway C: Industrial Safety & Environment Route",
+          "Step 1: Complete Class 12th with Science stream.",
+          "Step 2: Pursue B.Sc. in Chemistry or Industrial Chemistry.",
+          "Step 3: Complete diploma in Industrial Safety or Fire Engineering.",
+          "Step 4: Gain practical training in factory safety management.",
+          "Step 5: Get NEBOSH or IOSH safety certification.",
+          "Step 6: Work as Safety Officer or Environmental Compliance Engineer."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹35 –  ₹70 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹32 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹8 LPA",
+          "Note: Metros and GATE/Aspen Plus boost pay by 35%.",
+           
+          "Where Are the Jobs?",
+          "Top Cities: Mumbai, Ahmedabad, Vadodara, Pune, Bharuch, Chennai.",
+          "Top Industries: Petrochemicals, Pharma, Specialty Chemicals, Energy, PSUs.",
+          "Global Demand: High in USA, Germany. Green Hydrogen, AI trends."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: BLUE2,
+        content: [
+          "Conventional",
+          "Process Engineer",
+          "Production Engineer",
+          "Petrochemical Engineer",
+          "Process Safety Engineer",
+           
+          "New-Age and AI Driven",
+          "Process Automation Engineer",
+          "Green / Sustainability Engineer",
+          "Bioprocess Engineer",
+          "Digital Twin / Process Simulation Engineer",
+           
+          "Remote / Entrepreneurship",
+          "Chemical Process Consultant",
+          "Process Design Freelancer",
+          "Industrial Safety Trainer",
+          "Specialty Chemicals Startup Founder"
+        ]
+      }
+    ]
+  },
+
+  engineering_and_technology: {
+    slug: "engineering_and_technology",
+    badge: "Build the Future for Class 10+",
+    heading: "Engineering & Technology",
+    subheading: "Design, build, and innovate.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Engineering & Technology.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Engineering & Technology.",
+        color: BLUE,
+        content: [
+          "Engineering & Technology is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet a professional in Engineering & Technology",
+        color: BLUE2,
+        content: [
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+          "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: B.Tech/B.E. Core Route",
+          "Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.",
+          "Step 2: Clear JEE Main/Advanced or State CET exam.",
+          "Step 3: Pursue B.Tech/B.E. in chosen engineering branch.",
+          "Step 4: Complete industrial internships and live projects.",
+          "Step 5: Pursue M.Tech or MBA for specialization or management.",
+          "Step 6: Work as Engineer, Project Manager, or Technical Lead.",
+           
+          "Pathway B: Diploma & Lateral Entry Route",
+          "Step 1: Complete Class 10th with Science and Mathematics.",
+          "Step 2: Pursue 3-year Polytechnic Diploma in Engineering.",
+          "Step 3: Take lateral entry into B.Tech second year.",
+          "Step 4: Gain hands-on skills through workshop and internships.",
+          "Step 5: Clear GATE for higher studies or PSU jobs.",
+          "Step 6: Work as Technical Officer, Site Engineer, or PSU Engineer.",
+           
+          "Pathway C: Skill-Based & Certification Route",
+          "Step 1: Complete Class 12th with Science or ITI course.",
+          "Step 2: Pursue diploma or certificate in specific technology field.",
+          "Step 3: Learn tools like AutoCAD, SolidWorks, or programming.",
+          "Step 4: Complete industry certifications from NSDC or Sector Councils.",
+          "Step 5: Build portfolio through freelance or startup projects.",
+          "Step 6: Work as Technician, CAD Designer, or Technical Consultant."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Tech Leadership (15+ yrs): ₹75 LPA –  ₹3.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹35 –  ₹70 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹32 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹8 LPA",
+          "Note: AI/ML, Cybersecurity, and Cloud specializations boost pay by 45%.",
+           
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru, Hyderabad, Pune, Chennai, Noida, Gurgaon.",
+          "Emerging Hubs: Ahmedabad (GIFT City), Visakhapatnam, Coimbatore, Kochi.",
+          "Top Industries: IT/SaaS, Global Capability Centres (GCCs), Fintech, EV/Automotive, HealthTech.",
+          "Global Demand: High in USA, Germany, UAE, UK. Remote R&D is growing."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: BLUE2,
+        content: [
+          "Conventional",
+          "Software Developer",
+          "Civil Engineer",
+          "Electrical Engineer",
+          "Mechanical Engineer",
+           
+          "New-Age and AI Driven",
+          "AI / Machine Learning Engineer",
+          "Cybersecurity Engineer",
+          "Semiconductor / Chip Design Engineer",
+          "Robotics / Automation Engineer",
+           
+          "Remote / Entrepreneurship",
+          "Full-Stack Developer Freelancer",
+          "Tech Consultant",
+          "SaaS Product Founder",
+          "EdTech / STEM Content Creator"
+        ]
+      }
+    ]
+  },
+
+  mathematician: {
+    slug: "mathematician",
+    badge: "Master Numbers & Logic for Class 10+",
+    heading: "Mathematician",
+    subheading: "Solve complex problems using pure logic.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Mathematician.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Mathematician.",
+        color: BLUE,
+        content: [
+          "Mathematician is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet a professional in Mathematician",
+        color: BLUE2,
+        content: [
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+           "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th with Science/relevant stream.",
+          "Step 2: Pursue relevant bachelor's degree.",
+          "Step 3: Gain practical experience through internships.",
+          "Step 4: Pursue advanced certifications.",
+          "Step 5: Build professional network.",
+          "Step 6: Advance to senior positions.",
+           
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Take specialized training courses.",
+          "Step 3: Gain hands-on experience.",
+          "Step 4: Get industry certifications.",
+          "Step 5: Build portfolio.",
+          "Step 6: Transition to professional roles.",
+           
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Pursue master's degree.",
+          "Step 3: Specialize in specific domain.",
+          "Step 4: Conduct research or projects.",
+          "Step 5: Publish work or build portfolio.",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+
+  mechatronics: {
+    slug: "mechatronics",
+    badge: "Merge Mechanics & Electronics for Class 10+",
+    heading: "Mechatronics",
+    subheading: "Design intelligent machines.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Mechatronics.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Mechatronics.",
+        color: BLUE,
+        content: [
+          "Mechatronics is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet a professional in Mechatronics",
+        color: BLUE2,
+        content: [
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+           "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th with Science/relevant stream.",
+          "Step 2: Pursue relevant bachelor's degree.",
+          "Step 3: Gain practical experience through internships.",
+          "Step 4: Pursue advanced certifications.",
+          "Step 5: Build professional network.",
+          "Step 6: Advance to senior positions.",
+           
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Take specialized training courses.",
+          "Step 3: Gain hands-on experience.",
+          "Step 4: Get industry certifications.",
+          "Step 5: Build portfolio.",
+          "Step 6: Transition to professional roles.",
+           
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Pursue master's degree.",
+          "Step 3: Specialize in specific domain.",
+          "Step 4: Conduct research or projects.",
+          "Step 5: Publish work or build portfolio.",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+
+  nanotechnology: {
+    slug: "nanotechnology",
+    badge: "Explore the Nano World for Class 10+",
+    heading: "Nanotechnology",
+    subheading: "Design at the atomic scale.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Nanotechnology.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Nanotechnology.",
+        color: BLUE,
+        content: [
+          "Nanotechnology is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet a professional in Nanotechnology",
+        color: BLUE2,
+        content: [
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+           "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Core Engineering Route",
+          "Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.",
+          "Step 2: Clear JEE/State CET for engineering admission.",
+          "Step 3: Pursue B.Tech in Nanotechnology or Materials Engineering.",
+          "Step 4: Complete internship at nano research labs or industries.",
+          "Step 5: Pursue M.Tech in Nanotechnology or Nanoscience.",
+          "Step 6: Work as Nanotechnology Engineer or Materials Design Engineer.",
+          
+          "Pathway B: Research & Higher Studies Route",
+          "Step 1: Complete Class 12th with PCM or PCB subjects.",
+          "Step 2: Pursue B.Sc. in Physics, Chemistry, or Nanoscience.",
+          "Step 3: Learn tools like SEM, TEM, AFM, and spectroscopy.",
+          "Step 4: Clear GATE or CSIR-NET for fellowship and admission.",
+          "Step 5: Pursue M.Sc./Ph.D. from IITs, IISc, or INST Mohali.",
+          "Step 6: Join as Research Scientist at DRDO, ISRO, or CSIR labs.",
+        
+          "Pathway C: Industry Application & Skill-Based Route",
+          "Step 1: Complete Class 12th with Science stream.",
+          "Step 2: Pursue B.Sc. in Applied Sciences or Material Science.",
+          "Step 3: Complete diploma or certificate in Nanomaterials Technology.",
+          "Step 4: Gain hands-on training in thin film or coating labs.",
+          "Step 5: Get certified in quality control or nano-safety standards.",
+          "Step 6: Work as Nano Lab Technician or Quality Control Analyst."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2025-26",
+        icon: "TrendingUp",
+        description: "Salaries, growth, and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹7 LPA",
+          "Note: A PhD, M.Tech from IITs/IISc, or expertise in Nanofabrication and AI-integration boosts pay by 40%.",
+           
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru, Hyderabad, Mumbai, Delhi-NCR, Pune, Ahmedabad.",
+          "Top Industries: Pharmaceuticals (Nanomedicine), Semiconductors (VLSI), Energy (EV Batteries/Solar), Aerospace, Defense (DRDO/CSIR).",
+          "Global Demand: High in USA, Germany, Japan, South Korea; Remote R&D and Nano-informatics roles are emerging."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: IIT Bombay; IIT Delhi; IIT Madras; IISc Bengaluru; INST Mohali.",
+          "Private: Manipal Academy of Higher Education; VIT Vellore; SRM Institute; Amity University.",
+          "Online: Coursera (Nanotechnology); edX (Materials Science); NPTEL (IIT courses); Udemy (Nanomaterials)"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Nanotechnology Research Scientist; Nanomaterials Engineer; Thin-Film / Coating Engineer; Academic / University Faculty.",
+          "New-age and AI driven: Nanoelectronics Engineer; Nanobiotechnology / Biosensor Engineer; Quantum Materials Researcher; AI-Driven Materials Informatics Specialist.",
+          "Remote / Entrepreneurship: Nanotech Patent Analyst; Scientific Consultant (Nanomaterials); Online Nanotechnology Educator; Nano-enabled Product Startup Founder"
+        ]
+      }
+    ]
+  },
+
+  robotics: {
+    slug: "robotics",
+    badge: "Build Intelligent Machines for Class 10+",
+    heading: "Robotics",
+    subheading: "Design robots that work, learn, and adapt.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Robotics.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Robotics.",
+        color: BLUE,
+        content: [
+          "Robotics is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet a professional in Robotics",
+        color: BLUE2,
+        content: [
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+           "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th with Science/relevant stream.",
+          "Step 2: Pursue relevant bachelor's degree.",
+          "Step 3: Gain practical experience through internships.",
+          "Step 4: Pursue advanced certifications.",
+          "Step 5: Build professional network.",
+          "Step 6: Advance to senior positions.",
+           
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Take specialized training courses.",
+          "Step 3: Gain hands-on experience.",
+          "Step 4: Get industry certifications.",
+          "Step 5: Build portfolio.",
+          "Step 6: Transition to professional roles.",
+           
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Pursue master's degree.",
+          "Step 3: Specialize in specific domain.",
+          "Step 4: Conduct research or projects.",
+          "Step 5: Publish work or build portfolio.",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+
+  statistician: {
+    slug: "statistician",
+    badge: "Master Data & Probability for Class 10+",
+    heading: "Statistician",
+    subheading: "Unlock insights from data.",
+    whyCards: [
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Statistician.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
+      { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Understanding Statistician.",
+        color: BLUE,
+        content: [
+          "Statistician is a dynamic and rewarding career path.",
+          "It offers opportunities for growth and development.",
+          "Professionals in this field make a significant impact.",
+          "The industry is evolving with new technologies.",
+          "Career prospects are excellent for qualified candidates."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet a professional in Statistician",
+        color: BLUE2,
+        content: [
+          "10:00 AM   –     Morning: Start your day with planning and reviewing tasks.",
+           "12:00 PM    –     Mid-morning: Engage in core work activities.",
+          "2:00 PM   –      Lunch: Break and networking with colleagues.",
+          "4:00 PM   –      Afternoon: Continue with project work and collaboration.",
+          "6:00 PM    –     Late afternoon: Administrative tasks and planning.",
+          "8:00 PM    –     Evening: Personal time and relaxation."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Degree Route",
+          "Step 1: Complete Class 12th with Science/relevant stream.",
+          "Step 2: Pursue relevant bachelor's degree.",
+          "Step 3: Gain practical experience through internships.",
+          "Step 4: Pursue advanced certifications.",
+          "Step 5: Build professional network.",
+          "Step 6: Advance to senior positions.",
+           
+          "Pathway B: Skill-Based Entry",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Take specialized training courses.",
+          "Step 3: Gain hands-on experience.",
+          "Step 4: Get industry certifications.",
+          "Step 5: Build portfolio.",
+          "Step 6: Transition to professional roles.",
+           
+          "Pathway C: Higher Education Route",
+          "Step 1: Complete Class 12th.",
+          "Step 2: Pursue master's degree.",
+          "Step 3: Specialize in specific domain.",
+          "Step 4: Conduct research or projects.",
+          "Step 5: Publish work or build portfolio.",
+          "Step 6: Join as specialist or researcher"
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2+ Crore",
+          "Senior / Lead Role (10+ yrs): ₹20–60 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹10–25 LPA",
+          "Junior / Associate (3–5 yrs): ₹5–15 LPA",
+          "Entry Level (0–2 yrs): ₹3–8 LPA",
+          "Note: Salaries vary by location, experience, and specialization."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Science (IISc) Bengaluru",
+          "Private: Manipal Academy of Higher Education, Amity University Noida, VIT Vellore, SRM Institute of Science and Technology",
+          "Online: NPTEL (IIT courses), Coursera (Specialized Courses), edX (Advanced Programs), SWAYAM Portal"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Various career roles.",
+        color: BLUE2,
+        content: [
+          "Conventional: Traditional roles in the industry",
+          "New-Age & AI Driven: Emerging roles with technology",
+          "Remote/Entrepreneurship: Freelance and startup opportunities"
+        ]
+      }
+    ]
+  },
+
+  nanotechnologist: {
+    slug: "nanotechnologist",
+    badge: "Master the Invisible World for Class 10+",
+    heading: "Nanotechnologist",
+    subheading: "Work at the scale of atoms and molecules. Design materials with superpowers. From cancer-fighting drugs to next-gen semiconductors, shape the future at the nanoscale.",
+    whyCards: [
+      { icon: "Microscope", title: "Cutting-Edge Science", description: "Work at the frontier of materials science and innovation.", borderColor: "#8B5CF6" },
+      { icon: "Zap", title: "19% CAGR Growth", description: "India's nanomaterials market growing at 19% annually.", borderColor: "#F59E0B" },
+      { icon: "Globe", title: "Global Demand", description: "High demand in USA, South Korea, Japan, Germany.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Lucrative Salaries", description: "₹4.5L entry to ₹1.2Cr+ for CXO roles.", borderColor: "#3B82F6" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "4 Years B.Tech + 2 Years M.Tech/PhD", color: "bg-purple-100 text-purple-700" },
+      { label: "Salary Range", detail: "₹4.5L–₹1.2Cr+ (Entry to CXO)", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Growth", detail: "19% CAGR, Materials Revolution", color: "bg-blue-100 text-blue-700" }
+    ],
+    statCards: [
+      { value: "19%", label: "Market CAGR", gradient: "from-purple-500 to-purple-600" },
+      { value: "₹1.2Cr+", label: "CXO Salary", gradient: "from-indigo-500 to-indigo-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Microscope",
+        description: "The science of the incredibly small.",
+        color: BLUE,
+        content: [
+          "Imagine a world where medicine is delivered directly to a single cancer cell without harming the rest of the body, or where your smartphone battery charges in seconds and lasts for weeks. This is the world of Nanotechnology.",
+          "Nanotechnology is the science of the incredibly small—working at the scale of a nanometer (which is one-billionth of a meter). To give you an idea, a single strand of human hair is about 80,000 to 100,000 nanometers wide!",
+          "A nanotechnologist is a scientist or engineer who manipulates atoms and molecules to create new materials with 'superpowers.' At this tiny scale, materials behave differently—copper can become transparent, and gold can turn liquid at room temperature.",
+          "A nanotechnologist designs, creates, and manipulates these microscopic structures. They work in labs called 'Cleanrooms' (where even a speck of dust is a giant obstacle) to develop everything from scratch-resistant glasses to high-performance sports equipment and life-saving drugs.",
+          "India has launched the National Nano Mission to become a global leader in this field. As the world moves toward sustainable energy and advanced healthcare, India needs nanotechnologists to build better solar cells, purify water using nano-filters, and develop the next generation of semiconductors (chips) for our 'Digital India' future."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: Dr. Ishaan, Research Scientist",
+        icon: "Clock",
+        description: "Real workflow of a nanotechnologist.",
+        color: BLUE2,
+        content: [
+          "08:30 AM –  Gowning Room: My day starts not in an office, but in a 'Gowning Room.' To enter the lab, I must wear a 'bunny suit'—a full-body white suit with a mask and gloves. Why? Because a single skin cell from my hand is like a mountain that could crush the nanomaterials I'm working on.",
+          "10:00 AM –  Scanning Electron Microscope: I'm at the SEM. Since nanomaterials are too small for normal light to see, we use beams of electrons to 'visualize' them. Today, I'm checking if the 'Nano-silver' coating we developed for a new type of surgical bandage is spread evenly. On my screen, the bandage fibers look like giant redwood trees covered in tiny glowing dust.",
+          "12:30 PM –  Medical Collaboration: Time for a meeting with a group of doctors. We are discussing a 'Lab-on-a-chip' project. We want to create a tiny device, no bigger than a thumbnail, that can detect malaria from a single drop of blood in minutes. My job is to explain the engineering part, while they explain the biology.",
+          "02:00 PM –  Lunch & Brainstorming: Lunch at the canteen is usually a quick affair. I often sit with the 'Synthesis Team.' We brainstorm why our latest batch of carbon nanotubes didn't conduct electricity as expected. Sometimes, the best breakthroughs happen over a plate of samosas!",
+          "03:30 PM –  Molecular Simulations: Back to the computer. I spend the afternoon running 'Molecular Simulations.' Before we actually build something in the expensive lab, we 'build' it on a supercomputer to see how the atoms will react. It's like playing a high-stakes game of Minecraft with real-world physics.",
+          "06:00 PM –  Documentation & Collaboration: Before leaving, I document every result. In nanotechnology, a change in temperature by even half a degree can change the outcome. I check my emails—a lab in Germany wants to collaborate on a new water-purification membrane.",
+          "07:30 PM –  Reflection: Driving home, I look at the streetlights. Many of them now use nano-LEDs that save 80% more energy. It's a quiet reminder that while my work is invisible to the eye, its impact is everywhere."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? Traits & Skills",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Extreme Patience: Working with atoms is slow and requires hundreds of attempts to get right.",
+          "Interdisciplinary Mind: You need to enjoy a 'cocktail' of Physics, Chemistry, and Biology.",
+          "Precision: You are working at a scale where 'almost right' is a total failure.",
+          "Coding (Python/MATLAB): You'll spend a lot of time 'simulating' molecules on computers.",
+          "Hand-Eye Coordination: Essential for handling delicate instruments and specialized tools.",
+          "Attention to Detail: Even microscopic variations can change outcomes dramatically."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The complete nanotechnology process.",
+        color: BLUE2,
+        content: [
+          "Synthesis: Chemically growing or mechanically building the nanomaterials.",
+          "Characterization: Using massive microscopes to see what you've actually made.",
+          "Testing: Seeing if the material does its job (e.g., Does this nano-paint really repel water?).",
+          "Scaling: Figuring out how to move from a tiny lab sample to making tons of it for a factory.",
+          "Documentation: Recording every detail of experiments and results.",
+          "Collaboration: Working with interdisciplinary teams on complex projects.",
+          "Safety Management: Ensuring proper handling of unknown particles.",
+          "Innovation: Continuously exploring new applications and improvements."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Core Engineering Route",
+          "Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.",
+          "Step 2: Clear JEE/State CET for engineering admission.",
+          "Step 3: Pursue B.Tech in Nanotechnology or Materials Engineering.",
+          "Step 4: Complete internship at nano research labs or industries.",
+          "Step 5: Pursue M.Tech in Nanotechnology or Nanoscience.",
+          "Step 6: Work as Nanotechnology Engineer or Materials Design Engineer.",
+        
+          "Pathway B: Research & Higher Studies Route",
+          "Step 1: Complete Class 12th with PCM or PCB subjects.",
+          "Step 2: Pursue B.Sc. in Physics, Chemistry, or Nanoscience.",
+          "Step 3: Learn tools like SEM, TEM, AFM, and spectroscopy.",
+          "Step 4: Clear GATE or CSIR-NET for fellowship and admission.",
+          "Step 5: Pursue M.Sc./Ph.D. from IITs, IISc, or INST Mohali.",
+          "Step 6: Join as Research Scientist at DRDO, ISRO, or CSIR labs.",
+         
+          "Pathway C: Industry Application & Skill-Based Route",
+          "Step 1: Complete Class 12th with Science stream.",
+          "Step 2: Pursue B.Sc. in Applied Sciences or Material Science.",
+          "Step 3: Complete diploma or certificate in Nanomaterials Technology.",
+          "Step 4: Gain hands-on training in thin film or coating labs.",
+          "Step 5: Get certified in quality control or nano-safety standards.",
+          "Step 6: Work as Nano Lab Technician or Quality Control Analyst."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, growth, and opportunities.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹15 –  ₹28 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹7 LPA",
+          "Note: A PhD, M.Tech from IITs/IISc, or expertise in Nanofabrication and AI-integration boosts pay by 40%.",
+           
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru, Hyderabad, Mumbai, Delhi-NCR, Pune, Ahmedabad.",
+          "Top Industries: Pharmaceuticals (Nanomedicine), Semiconductors (VLSI), Energy (EV Batteries/Solar), Aerospace, Defense (DRDO/CSIR).",
+          "Global Demand: High in USA, Germany, Japan, South Korea; Remote R&D and 'Nano-informatics' roles are emerging."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and additional expenses.",
+        color: BLUE,
+        content: [
+          "Government (IITs/NITs): ₹6 Lakh –  ₹10 Lakh (Total for 4 years).",
+          "Private Universities: ₹10 Lakh –  ₹18 Lakh (Total).",
+          "Training: Specialized certifications in Electron Microscopy or Nanofabrication (₹20,000 –  ₹50,000).",
+          "Living Costs: ₹1.2 Lakh –  ₹2 Lakh per year in student cities.",
+          "Total Investment: Approximately ₹8L–₹20L for complete education and certifications."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "Government: IIT Madras; IISc Bengaluru (Centre for Nano Science and Engineering); IIT Bombay; Jadavpur University (Kolkata); IIT Guwahati; Central University of Gujarat.",
+          "Private: SRM Institute (Chennai); Amity University (Noida); VIT Vellore.",
+          "Online: Coursera (Nanotechnology); edX (Materials Science); NPTEL (IIT courses); NanoHub (Purdue University)"
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE2,
+        content: [
+          "Nano Mission Fellowships: Dedicated PhD and Post-doc fellowships by the Department of Science & Technology (DST).",
+          "INSPIRE Scholarship: For students in basic sciences (₹80,000/year).",
+          "AICTE Pragati: For girl students in technical degrees (₹50,000/year).",
+          "JRF/SRF: Clearing NET/GATE grants you a monthly stipend (₹37,000+) during your research years.",
+          "Institutional Scholarships: Top institutes offer merit-based and need-based scholarships."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Credentials and regulatory requirements.",
+        color: BLUE,
+        content: [
+          "Professional Bodies: Nano Science and Technology Consortium (NSTC); Indian National Academy of Engineering (INAE).",
+          "Certifications: Nanofabrication Techniques; Molecular Modeling; ISO quality standards for nanomaterials; Electron Microscopy Certification.",
+          "International: Recognition from IEEE Nanotechnology Council; Materials Research Society."
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional and emerging roles.",
+        color: BLUE2,
+        content: [
+          "Conventional",
+          "Nanotechnology Research Scientist",
+          "Nanomaterials Engineer",
+          "Thin-Film / Coating Engineer",
+          "Academic / University Faculty",
+           
+          "New-Age and AI Driven",
+          "Nanoelectronics Engineer",
+          "Nanobiotechnology / Biosensor Engineer",
+          "Quantum Materials Researcher",
+          "AI-Driven Materials Informatics Specialist",
+           
+          "Remote / Entrepreneurship",
+          "Nanotech Patent Analyst",
+          "Scientific Consultant (Nanomaterials)",
+          "Online Nanotechnology Educator",
+          "Nano-enabled Product Startup Founder"
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "Real obstacles in the profession.",
+        color: BLUE,
+        content: [
+          "Long Study Path: To get the best jobs, a Master's or PhD is almost always needed (8–10 years total).",
+          "Health & Safety: Working with unknown particles requires strict discipline to avoid inhalation or skin contact.",
+          "High Costs: You cannot do this at home; you are dependent on expensive lab equipment.",
+          "Limited Job Openings: Fewer positions compared to other engineering fields.",
+          "Slow Progress: Experiments can take months or years to yield results.",
+          "Funding Dependency: Research heavily dependent on government grants and funding availability."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in nanotechnology.",
+        color: BLUE2,
+        content: [
+          "Graphene-based Electronics: By 2030, we will see 'Graphene-based Electronics'—computers that don't heat up.",
+          "Nanobots: Nanobots will move through our veins to perform 'invisible surgeries.'",
+          "Semiconductor Push: India's semiconductor push will create thousands of jobs for nanotechnologists in Chip Fab units.",
+          "Sustainable Materials: Nano-enabled sustainable packaging and eco-friendly materials.",
+          "Quantum Computing: Nanotechnology crucial for quantum computer development.",
+          "Personalized Medicine: Nano-scale drug delivery for precision medicine."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Watch Science Vlogs: Follow channels like Veritasium or NanoHub to see nano-physics in action.",
+          "Learn Python: It is the standard language for molecular modeling.",
+          "Join Science Clubs: Participate in the National Science Olympiad.",
+          "Read: Stay updated with news from the DST Nano Mission website.",
+          "Experiment: Try simple chemistry experiments to understand molecular behavior.",
+          "Stay Curious: Follow nanotechnology news and breakthroughs in research."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Personalities",
+        icon: "User",
+        description: "Inspiring figures in nanotechnology.",
+        color: BLUE2,
+        content: [
+          "Prof. C.N.R. Rao: A Bharat Ratna awardee and a global pioneer in solid-state and materials chemistry.",
+          "Dr. Sandip Patil: An IIT Kanpur alumnus who founded E-Spin Nanotech, making India self-reliant in nano-fiber machines.",
+          "Prof. Ashutosh Sharma: Former Secretary of DST and a renowned expert in nanofabrication and 'soft' nanotechnology.",
+          "Dr. Bhawana Pathak: Dean at Central University of Gujarat, leading environmental nanotechnology research.",
+          "Dr. A. Sivathanu Pillai: While known for the BrahMos missile, he is a major advocate for nanotechnology in aerospace and defense."
+        ]
+      }
+    ]
+  },
+ 
   chemical_engineer: {
     slug: "chemical_engineer",
     badge: "The Architects of Scale for Class 10+",
@@ -5948,926 +7151,6 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Dr. Raghunath Mashelkar: A visionary scientist who fought for India's traditional knowledge and led the CSIR.",
           "Homi Sethna: A key figure in India's nuclear program, he was a chemical engineer who helped set up India's first plutonium plant.",
           "Harsha Bhogle: The 'Voice of Cricket' is a Chemical Engineer (Osmania University) who applied his analytical skills to sports."
-        ]
-      }
-    ]
-  },
-  engineering_and_technology: {
-    slug: "engineering_and_technology",
-    badge: "The Builders of Tomorrow for Class 10+",
-    heading: "The Builders of Tomorrow",
-    subheading: "Creating innovative solutions that transform industries and improve lives globally.",
-    whyCards: [
-      { icon: "Zap", title: "Problem Solver", description: "Design and build solutions to real-world challenges.", borderColor: "#10B981" },
-      { icon: "Cog", title: "Creator", description: "Turn ideas into tangible products and systems.", borderColor: "#059669" },
-      { icon: "Brain", title: "Innovator", description: "Push the boundaries of what's possible with technology.", borderColor: "#3B82F6" },
-      { icon: "Globe", title: "Global Impact", description: "Build systems that serve millions across the world.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Tech Industry Size", detail: "$350B by 2030", color: "bg-green-100 text-green-700" },
-      { label: "Annual Graduates", detail: "1.5M+ engineers", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹4.5L–₹2.5Cr+", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "$350B", label: "India's Tech Industry by 2030", gradient: "from-green-500 to-green-600" },
-      { value: "1.5M+", label: "Engineers Graduate Annually", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "1",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The practical application of science and mathematics",
-        color: BLUE,
-        content: [
-          "If you've ever wondered how a smartphone fits a billion transistors into your pocket, how a bridge stays standing during a cyclone, or how an app like Swiggy knows exactly where your delivery partner is—you are thinking like an engineer.",
-          "Engineering is the practical application of science and mathematics to solve problems. While a scientist might discover a new law of physics, an engineer asks, 'How can I use this law to build something that makes life better?'",
-          "Engineers aren't just people with hard hats or people staring at code; they are creators. They design, build, test, and maintain everything from tiny medical sensors to massive spaceships.",
-          "In today's digital age, technology is the 'engine' that powers engineering. This means modern engineers spend as much time with software simulations and AI as they do with physical materials."
-        ]
-      },
-      {
-        id: "2",
-        title: "A Day in the Life",
-        icon: "Clock",
-        description: "Meet Aditi, a Systems Engineer at a tech park in Bengaluru",
-        color: BLUE2,
-        content: [
-          "09:00 AM –  My day starts at a tech park in Bengaluru: My team is working on an 'Autonomous Drone Delivery' system. I grab a coffee and check the 'Simulation Logs' from last night. The virtual drone crashed 12 times in the simulation due to high wind speeds.",
-          "11:00 AM –  I'm in a 'Scrum Meeting.': This isn't about rugby! It's a quick stand-up meeting where I talk to a Mechanical Engineer (who designed the drone's wings) and a Data Scientist (who wrote the navigation AI). We realize the sensor is sending data too slowly.",
-          "01:00 PM –  Lunch: at the cafeteria is a mix of debates about the latest Marvel movie and a new coding language called Mojo. Engineering is a social career—you're constantly brainstorming with people who think differently than you.",
-          "02:30 PM –  I'm in the 'Hardware Lab.': I wear an anti-static wristband and connect the drone's flight controller to my laptop. I rewrite a few lines of code to optimize how the drone handles wind gusts.",
-          "05:30 PM –  I spend an hour documenting our findings: In engineering, if it isn't documented, it didn't happen. I send a report to our project manager about the sensor upgrade we need to buy.",
-          "07:30 PM –  As I head home: I see a small delivery drone hovering over a nearby building. It's not one of ours yet, but I know that in a few years, the code I wrote today will be part of the 'brain' of thousands of drones across India."
-        ]
-      },
-      {
-        id: "3",
-        title: "Is This You? (Personality Traits & Skills)",
-        icon: "User",
-        description: "The 'Engineering DNA' markers",
-        color: BLUE,
-        content: [
-          "Problem-Solving Mindset: You don't see a 'broken' toy; you see a puzzle that needs fixing.",
-          "Mathematical Logic: You enjoy finding patterns and using numbers to explain the world.",
-          "Curiosity: You've probably dismantled a remote control just to see what's inside.",
-          "Resilience: Engineering involves a lot of 'Trial and Error.' You don't give up when your first 10 attempts fail.",
-          "Ethics & Safety: You understand that people's lives depend on the bridges you build or the code you write.",
-          "Hard Skills: Mathematics, Physics, Programming, and Design.",
-          "Soft Skills: Teamwork, Communication, and Adaptability."
-        ]
-      },
-      {
-        id: "4",
-        title: "Key Responsibilities and Workflow",
-        icon: "Briefcase",
-        description: "The Engineering Design Process",
-        color: BLUE2,
-        content: [
-          "Define: Understand the problem (e.g., 'We need a phone battery that lasts 3 days').",
-          "Research: Look at what exists and what the limits of physics are.",
-          "Prototyping: Build a 'rough draft'—whether it's a 3D model or a basic software version.",
-          "Testing: Try to 'break' your prototype to find its weaknesses.",
-          "Iteration: Use the test results to improve the design. Repeat until perfect.",
-          "Documentation: Record all findings and improvements for future reference."
-        ]
-      },
-      {
-        id: "5",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Three main routes to become an engineer",
-        color: BLUE,
-        content: [
-          "Pathway 1 - After Class 10 (The Technical Route): Enroll in a 3-year Diploma in Engineering (Polytechnic). After the Diploma, start working as a Junior Engineer or enter the 2nd year of a B.Tech degree through Lateral Entry exams.",
-          "Pathway 2 - After Class 12 (The Professional Route): Subjects: Physics, Chemistry, and Mathematics (PCM). Entrance Exams: JEE Main (NITs/IIITs), JEE Advanced (IITs), BITSAT, VITEEE, or State-Level exams. Degree: BTech or BE (4 years).",
-          "Pathway 3 - After Graduation (The Specialist Route): Higher Studies: Pursue MTech (via GATE) to specialize. Management: Take CAT exam for MBA in Product Management. Career Switch: BSc Physics/Maths graduates can do MCA or MTech."
-        ]
-      },
-      {
-        id: "6",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salary and career progression for engineers",
-        color: BLUE2,
-        content: [
-          "Salary Ranges (Annual): Entry-Level (Fresher) ₹4.5L-12L (Top IITians/NITians can reach ₹30L+) | Mid-Level (5-10 years) ₹15L-28L | Senior-Level (10-15 years) ₹30L-60L | Leadership/CXO ₹80L-2.5Cr+.",
-          "Metro vs. Tier-2: While Metro cities (Bengaluru, Hyderabad) offer higher base pay, Tier-2 cities like Coimbatore, Ahmedabad, and Jaipur are seeing 20% higher growth in hiring due to lower costs of living.",
-          "Growth Trajectory: India's technology industry is projected to reach $350 Billion by 2030.",
-          "International Opportunities: High demand in the USA, Germany, and Japan, particularly for specialized roles in AI and VLSI."
-        ]
-      },
-      {
-        id: "7",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Top sectors and locations for engineers",
-        color: BLUE,
-        content: [
-          "Top Industries: Software & IT Services, Global Capability Centers (GCCs), Automotive (EVs), Semiconductors, Renewable Energy, Space-Tech.",
-          "Top Cities: Bengaluru (Silicon Valley of India), Hyderabad (GCC capital), Pune (Auto-hub), Chennai (SaaS & Hardware).",
-          "Remote Work: High potential in Software Engineering and Data Science.",
-          "International: High demand in the USA, Germany, and Japan for specialized roles in AI and VLSI (Chip Design)."
-        ]
-      },
-      {
-        id: "8",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Fees and duration for engineering education",
-        color: BLUE2,
-        content: [
-          "IITs/NITs: ₹8L-12L (Total for 4 years).",
-          "Top Private Universities: ₹15L-25L (Total).",
-          "Coaching for JEE: ₹1L-4L (for 2 years).",
-          "Living/Hostel: ₹10,000-18,000 per month in major education hubs like Kota, Delhi, or Pune."
-        ]
-      },
-      {
-        id: "9",
-        title: "Where to Study?",
-        icon: "BookOpen",
-        description: "Prominent institutions for engineering in India",
-        color: BLUE,
-        content: [
-          "Public: All IITs (Bombay, Delhi, Madras are top), NITs (Trichy, Surathkal), IIIT Hyderabad, Jadavpur University (East).",
-          "Private: BITS Pilani (Multiple campuses), VIT Vellore, Manipal Institute (South), Thapar University (North).",
-          "Online: NPTEL (Government-led) and platforms like Coursera/edX for specialized nanodegrees."
-        ]
-      },
-      {
-        id: "10",
-        title: "Scholarship Opportunities",
-        icon: "Award",
-        description: "Financial aid for engineering students",
-        color: BLUE2,
-        content: [
-          "Central Govt: PM-USP (Central Sector Scheme) for meritorious students (₹12,000/year).",
-          "AICTE Pragati: For girl students (₹50,000/year).",
-          "National Scholarship Portal (NSP): Dozens of state and community-specific schemes.",
-          "Institutional: BITS and VIT offer significant fee waivers for top board exam scorers."
-        ]
-      },
-      {
-        id: "11",
-        title: "Professional Bodies & Certifications",
-        icon: "Certificate",
-        description: "Professional organizations and credentials",
-        color: BLUE,
-        content: [
-          "Bodies: Institution of Engineers (India), IEEE (for Electrical/Electronics/CS), ASME (Mechanical).",
-          "Certifications: AWS/Azure (Cloud), Cisco (Networking), PMP (Project Management).",
-          "Licensing: While not mandatory for most, a 'Chartered Engineer' (CEng) status adds global credibility.",
-          "Continuing Education: Regular certifications and upskilling programs."
-        ]
-      },
-      {
-        id: "12",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Diverse paths in engineering and technology",
-        color: BLUE2,
-        content: [
-          "Conventional: Software Developer, Civil Engineer, Electrical Engineer, Mechanical Engineer.",
-          "New-Age: AI Engineer, Cybersecurity Architect, EV Battery Specialist, GenAI Prompt Engineer, Blockchain Developer.",
-          "Freelancing/Entrepreneurship: Thousands of Indian engineers are launching 'Deep-Tech' startups in Agri-tech, Ed-tech, and Space-tech.",
-          "International: Working with global tech companies and research institutions."
-        ]
-      },
-      {
-        id: "13",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of engineering careers",
-        color: BLUE,
-        content: [
-          "The 'Hustle': Tight deadlines can lead to long working hours and burnout.",
-          "Constant Learning: Your degree is just the 'start line.' In technology, what you learn in Year 1 might be obsolete by Year 4.",
-          "Competition: With over 1.5 million engineers graduating every year, standing out requires a focus on skills, not just marks.",
-          "Pressure: High expectations from employers and society to deliver results."
-        ]
-      },
-      {
-        id: "14",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of engineering and technology",
-        color: BLUE2,
-        content: [
-          "AI Co-Pilot: By 2030, AI will be a co-pilot for every engineer. Instead of writing every line of code, you will use AI to generate the basics while you focus on system architecture.",
-          "Green Engineering: Every project will be measured by its carbon footprint. Sustainability will be mandatory.",
-          "Quantum Computing: Engineers will need to understand quantum principles for next-generation computing.",
-          "Space-Tech: India's space ambitions will create thousands of engineering jobs in satellite and launch systems."
-        ]
-      },
-      {
-        id: "15",
-        title: "Skills to Build While Still in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12",
-        color: BLUE,
-        content: [
-          "Coding: Don't wait for college. Start with Python or C++.",
-          "Logic Puzzles: Solve Sudoku, Rubik's cubes, or join Math Olympiads.",
-          "Hardware Projects: Buy an Arduino or Raspberry Pi kit and build a simple light sensor or a weather station.",
-          "Reading: Follow tech news on sites like TechCrunch or The Ken."
-        ]
-      },
-      {
-        id: "16",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring engineers in India",
-        color: BLUE2,
-        content: [
-          "Sir M. Visvesvaraya: The father of Indian engineering; his birthday is celebrated as Engineers' Day (Sept 15).",
-          "Sundar Pichai: From studying Metallurgy at IIT Kharagpur to becoming the CEO of Google.",
-          "Satya Nadella: A Manipal Institute alumnus who transformed Microsoft into a cloud-and-AI giant.",
-          "Tessy Thomas: Known as the 'Missile Woman of India' for her leadership in the Agni missile program.",
-          "Sridhar Vembu: Founder of Zoho Corp, proving that world-class software engineering can happen in rural India."
-        ]
-      }
-    ]
-  },
-  mathematician: {
-    slug: "mathematician",
-    badge: "The Pattern Finder for Class 10+",
-    heading: "Mathematician",
-    subheading: "Unlocking the hidden patterns in nature, finance, and technology—from predicting stock markets to designing AI algorithms.",
-    whyCards: [
-      { icon: "Brain", title: "20% Annual Growth in Quant Roles", description: "Demand for quantitative professionals in Fintech and AI companies is exploding at 20% year-on-year.", borderColor: "#10B981" },
-      { icon: "Zap", title: "AI & Quantum Computing Era", description: "Mathematicians are the architects of AI ethics and quantum computing—the next frontier of technology.", borderColor: "#059669" },
-      { icon: "Globe", title: "Global Demand", description: "Indian mathematicians are highly sought after on Wall Street, tech hubs in Europe, and ISRO/DRDO.", borderColor: "#3B82F6" },
-      { icon: "Fingerprint", title: "India's Math Legacy", description: "From Aryabhata to Ramanujan to Manjul Bhargava (Fields Medal winner)—India's mathematical tradition is world-class.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Duration", detail: "3 Years (B.Sc) + 2 Years (M.Sc) + 4-5 Years (PhD, optional)", color: "bg-green-100 text-green-700" },
-      { label: "Tools", detail: "Mathematica, MATLAB, Python, R, Aspen HYSYS", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹4L–₹1.5Cr+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "20%", label: "Annual Growth in Quant Roles", gradient: "from-green-500 to-green-600" },
-      { value: "8-12 yrs", label: "Entry to Senior Level", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "what",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The architects of patterns, formulas, and predictions.",
-        color: BLUE,
-        content: [
-          "Pure Mathematics: Discovering new theorems and mathematical truths that have no immediate application but shape the future.",
-          "Applied Mathematics: Using math to solve real-world problems in physics, engineering, and business.",
-          "Data Science & Statistics: Turning raw data into insights that drive business decisions.",
-          "Cryptography & Security: Using prime numbers and complex algorithms to keep digital transactions safe.",
-          "The Mathematician's Role: You don't just 'do sums.' You look for patterns. You are the architect of the formulas that predict weather, encrypt WhatsApp messages, and help companies decide where to invest money.",
-          "Why It Matters in India: From the Unified Payments Interface (UPI) to AI algorithms behind YouTube and Instagram, everything is built on math. India needs mathematicians to lead in data science, space exploration at ISRO, and global finance."
-        ]
-      },
-      {
-        id: "dayinlife",
-        title: "A Day in the Life: Dr. Aryan, Research Mathematician",
-        icon: "Clock",
-        description: "Real workflow at the Indian Statistical Institute.",
-        color: BLUE2,
-        content: [
-          "9:30 AM –  The Whiteboard Session: Day starts at the Indian Statistical Institute (ISI) in Kolkata. Office is filled with whiteboards and scrap paper. Current project involves 'Graph Theory'—studying how different points in a network are connected. This helps telecom companies optimize 5G towers.",
-          "11:00 AM –  Deep Focus: Spend two hours trying to prove a theorem that has been bothering for weeks. It's like a puzzle where most pieces look the same. Use Mathematica to run simulations, but most work happens in the head.",
-          "1:30 PM –  Faculty Lunch: Sit with a colleague who works in 'Cryptography.' Discuss how prime numbers are the secret to keeping bank transactions safe. It sounds like a spy movie, but for mathematicians, it's just Tuesday.",
-          "3:00 PM –  Teaching Masters Students: Discuss 'Stochastic Processes'—how to predict random events. One student asks how this applies to the Indian Stock Market. Spend the next hour sketching out how math can model the 'random' movements of stock prices.",
-          "5:00 PM –  International Collaboration: Zoom call with a research team in Germany. Co-writing a paper. In math, you don't need a lab; you just need a shared digital document. Argue over a single equation for thirty minutes. A single misplaced 'x' or '+' can change everything.",
-          "8:00 PM –  Relaxing at Home: Reading a non-math book, but find yourself calculating the probability of the plot twist. Once you see the world through numbers, you can never really switch it off!"
-        ]
-      },
-      {
-        id: "who",
-        title: "Is This You? The Mathematician's DNA",
-        icon: "User",
-        description: "Self-assessment for the ideal candidate.",
-        color: BLUE,
-        content: [
-          "Abstract Thinking: Can you visualize things that don't exist in the physical world, like four-dimensional shapes?",
-          "Extreme Patience: Some math problems take months—or even years—to solve. You can't be in a rush.",
-          "Logic & Deductive Reasoning: You enjoy finding 'if-then' connections in everything.",
-          "Coding Skills (Python/R): Modern math is done on computers. You need to tell the machine what to calculate.",
-          "Curiosity: You aren't satisfied with knowing a formula works; you want to know why it works.",
-          "The Self-Check: Do you spend hours on a single problem? Do you see patterns everywhere? If yes, you have the Mathematician's DNA."
-        ]
-      },
-      {
-        id: "responsibilities",
-        title: "Key Responsibilities & Workflow",
-        icon: "Briefcase",
-        description: "From problem to proof.",
-        color: BLUE2,
-        content: [
-          "Identifying the Pattern: Seeing a problem in the real world (e.g., 'How do we reduce traffic in Bengaluru?').",
-          "Modeling: Turning that real-world problem into an equation.",
-          "Analysis: Using existing math rules to manipulate the equation.",
-          "Verification: Testing the answer with computer data to see if it predicts reality.",
-          "Documentation: Writing a 'Proof'—the ultimate stamp of truth in math.",
-          "Publication: Sharing findings with the global mathematical community through peer-reviewed journals."
-        ]
-      },
-      {
-        id: "pathways",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Educational journey from Class 10 onwards.",
-        color: BLUE,
-        content: ["Pathway A: Academic & Research Route","Step 1: Complete Class 12th with Mathematics as main subject.","Step 2: Pursue B.Sc. (Hons.) in Mathematics.","Step 3: Complete M.Sc. in Mathematics or Applied Mathematics.","Step 4: Clear CSIR-NET/JRF or NBHM exam for fellowship.","Step 5: Pursue Ph.D. from ISI, CMI, IITs, or IISc.","Step 6: Join as Professor or Research Mathematician at institutes.","Pathway B: Applied Mathematics & Industry Route","Step 1: Complete Class 12th with PCM subjects.","Step 2: Pursue B.Sc./B.Tech in Mathematics or Statistics.","Step 3: Learn Python, R, MATLAB, and data modelling tools.","Step 4: Complete internship in analytics or finance sector.","Step 5: Pursue M.Sc./MBA in Quantitative Finance or Analytics.","Step 6: Work as Data Scientist, Quantitative Analyst, or Actuary.","Pathway C: Teaching & Competitive Exam Coaching Route","Step 1: Complete Class 12th with Mathematics subject.","Step 2: Pursue B.Sc. in Mathematics from recognized university.","Step 3: Complete B.Ed. or NET qualification for teaching.","Step 4: Gain experience teaching at school or coaching level.","Step 5: Clear TGT/PGT or UGC-NET for college-level teaching.","Step 6: Work as School Teacher, Lecturer, or Coaching Faculty."]
-      },
-      {
-        id: "market",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salaries, cities, and industry growth.",
-        color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 –  ₹60 LPA","Mid-Level Professional (5–8 yrs): ₹15 –  ₹28 LPA","Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA","Entry Level (0–2 yrs): ₹4.5 –  ₹9 LPA","Note: A PhD, CSIR-NET, or expertise in AI/Quant Finance boosts pay by 40%. The 8th Pay Commission implementation in 2026 also significantly raises base pay for government research and academic roles.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Hyderabad, Delhi-NCR, Pune.","Top Industries: BFSI (Quantitative Finance), Tech/AI, Research Organizations (ISRO, TIFR), Academia, Cryptography.","Global Demand: High in USA, UK, Germany, UAE. Remote \"Math-as-a-Service\" and AI research roles are surging.","Top Institutions","Career Opportunities","Conventional","Mathematician / Researcher","Lecturer / Professor","Statistician","Actuarial Analyst","New-age and AI driven","Data Scientist","Machine Learning Engineer","Quantitative Analyst","Cryptography / Security Analyst","Remote / Entrepreneurship","Online Mathematics Educator","Mathematics Content Creator","Freelance Quant Consultant","EdTech / Test-Prep Founder"]
-      },{
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Fees and living expenses.",
-        color: BLUE2,
-        content: [
-          "Government Institutions: ISI/CMI/IITs: ₹20,000 –  ₹2 Lakh (Total). Note: ISI actually pays you a stipend to study there!",
-          "Private Universities: ₹4 Lakh –  ₹10 Lakh (Total).",
-          "Duration: 3 years (Bachelors) + 2 years (Masters) + 4-5 years (PhD, optional).",
-          "Hostel/Living: ₹1 Lakh –  ₹1.8 Lakh per year.",
-          "Scholarships: NBHM Scholarship, INSPIRE Scholarship (₹80,000/year), ISI/CMI Stipends, CSIR-UGC NET JRF (₹37,000+/month for PhD)."
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building",
-        description: "Top institutions for mathematics in India.",
-        color: BLUE,
-        content: [
-          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
-          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
-          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
-        ]
-      },
-      {
-        id: "scholarships",
-        title: "Scholarship Opportunities",
-        icon: "Gift",
-        description: "Financial aid and support programs.",
-        color: BLUE2,
-        content: [
-          "NBHM Scholarship: National Board for Higher Mathematics offers stipends for M.Sc. and PhD students.",
-          "INSPIRE Scholarship: ₹80,000/year for students in the top 1% of their boards.",
-          "ISI/CMI Stipends: All students at ISI and CMI usually receive a monthly stipend (₹5,000–₹10,000/month).",
-          "CSIR-UGC NET JRF: Monthly stipend of ₹37,000+ for PhD researchers.",
-          "GATE Scholarships: Pursue M.Tech with full scholarship at IITs/NITs.",
-          "Merit-Based: Most universities offer merit scholarships for top performers."
-        ]
-      },
-      {
-        id: "certifications",
-        title: "Professional Bodies & Certifications",
-        icon: "Certificate",
-        description: "Professional organizations and credentials.",
-        color: BLUE,
-        content: [
-          "Bodies: Ramanujan Mathematical Society (RMS), Indian Mathematical Society (IMS), American Mathematical Society (AMS).",
-          "Certifications: Actuarial Exams (IAI), CFA (for finance), Data Science certifications (Google/Microsoft/Coursera), AWS Certified Data Analyst.",
-          "Olympiad Recognition: International Mathematical Olympiad (IMO) medals are globally recognized.",
-          "Continuing Education: Regular certifications and upskilling programs in AI, Machine Learning, and Quantum Computing."
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Diverse paths in mathematics.",
-        color: BLUE2,
-        content: [
-          "Conventional: Teacher, Professor, Government Statistician, Research Scientist.",
-          "New-Age: Algorithmic Trader, Cryptographer, AI Researcher, Sports Data Analyst (predicting IPL results!), Quantum Computing Specialist.",
-          "Fintech: Quantitative Analyst (Quant), Risk Manager, Pricing Analyst.",
-          "Tech: Machine Learning Engineer, Data Scientist, AI Ethics Officer.",
-          "Freelance: Statistical Consultant for startups, Online Math Coach, Research Collaborator."
-        ]
-      },
-      {
-        id: "challenges",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of mathematics careers.",
-        color: BLUE,
-        content: [
-          "Mental Fatigue: Solving abstract problems can be exhausting and mentally draining.",
-          "Isolation: Deep research often means spending a lot of time alone with your thoughts.",
-          "Niche Market: Pure math roles are fewer than 'Applied Math' roles like Data Science.",
-          "Pressure: High expectations to publish papers and contribute to the field.",
-          "Funding Challenges: Research funding can be competitive and limited.",
-          "Transition Difficulty: Moving from academia to industry requires learning new skills."
-        ]
-      },
-      {
-        id: "future",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of mathematics.",
-        color: BLUE2,
-        content: [
-          "AI Ethics: AI doesn't replace mathematicians; it gives them bigger tools. Mathematicians will be needed to ensure AI Ethics—making sure algorithms aren't biased.",
-          "Quantum Computing: The next big frontier, which requires a type of math most people haven't even heard of yet!",
-          "Climate Modeling: Mathematical models will be crucial for understanding and predicting climate change.",
-          "Blockchain & Cryptography: As digital currencies grow, cryptographers will be in high demand.",
-          "Space Exploration: ISRO's ambitious plans will need mathematicians for trajectory calculations and data analysis.",
-          "Personalized Medicine: Mathematical models will help predict disease progression and personalize treatments."
-        ]
-      },
-      {
-        id: "startnow",
-        title: "Skills to Build While in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12.",
-        color: BLUE,
-        content: [
-          "Olympiads: Don't just do school math. Try the PRMO/RMO papers. These build problem-solving skills.",
-          "Learn Python: It is the 'calculator' of the 21st century. Start with basic coding.",
-          "Read Popular Math: Books like 'The Man Who Knew Infinity' or 'Fermat's Last Theorem' inspire and educate.",
-          "Chess: It builds the logical 'branching' mind needed for math.",
-          "Online Courses: Explore platforms like Khan Academy, Coursera, or MIT OpenCourseWare.",
-          "Math Clubs: Join school math clubs or participate in math competitions."
-        ]
-      },
-      {
-        id: "personalities",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring mathematicians from India.",
-        color: BLUE2,
-        content: [
-          "Srinivasa Ramanujan: The man who 'knew infinity' and wrote 3,900 results without formal training. His legacy inspires mathematicians worldwide.",
-          "C.R. Rao: A titan of statistics whose work is used in every scientific study today. Pioneer of statistical theory.",
-          "Manjul Bhargava: The first person of Indian origin to win the Fields Medal (the 'Nobel Prize of Math'). Proved the Bhargava Cube theorem.",
-          "Neena Gupta: A young star who solved a 70-year-old problem called the Zariski Cancellation Conjecture. Recipient of the TWAS Prize.",
-          "Shakuntala Devi: The 'Human Computer' who showed the world the speed of the Indian mathematical mind. Could calculate complex problems mentally."
-        ]
-      }
-    ]
-  },
-  robotics_engineer: {
-    slug: "robotics_engineer",
-    badge: "The Multi-Disciplinary Creator for Class 10+",
-    heading: "Robotics Engineer",
-    subheading: "Building the 'body,' 'nervous system,' and 'brain' of machines—from warehouse robots to surgical bots and autonomous drones.",
-    whyCards: [
-      { icon: "Zap", title: "13.1% Industrial CAGR + 30.3% Consumer CAGR", description: "Industrial Robotics growing at 13.1% CAGR while Consumer Robotics (drones, vacuum bots) exploding at 30.3% CAGR.", borderColor: "#10B981" },
-      { icon: "Globe", title: "Make in India Automation Surge", description: "From ISRO moon rovers to Amazon warehouses, robots are transforming India's manufacturing and logistics landscape.", borderColor: "#059669" },
-      { icon: "Brain", title: "Multidisciplinary Mastery", description: "Master mechanics, electronics, software, and AI—become a true 'full-stack' engineer of the future.", borderColor: "#3B82F6" },
-      { icon: "Rocket", title: "Emerging Frontiers", description: "Cobots, swarm robotics, soft robotics, surgical bots, self-driving cars, and drones—endless innovation opportunities.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Duration", detail: "4 Years (B.Tech) + 2 Years (M.Tech) optional", color: "bg-green-100 text-green-700" },
-      { label: "Tools", detail: "ROS, CAD, C++, Python, Arduino, Lidar, PLC", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹4.5L–₹1.5Cr+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "13.1%", label: "Industrial Robotics CAGR", gradient: "from-green-500 to-green-600" },
-      { value: "30.3%", label: "Consumer Robotics CAGR", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "what",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The magic of machines that think and act.",
-        color: BLUE,
-        content: [
-          "Robotics Engineering Defined: The branch of technology that deals with the design, construction, operation, and application of robots.",
-          "What is a Robot?: Any machine capable of carrying out a complex series of actions automatically, especially one programmable by a computer.",
-          "The Multi-Disciplinary Role: You aren't just a mechanical engineer or a coder; you are a bit of both, plus an electronics expert. You build the 'body' (mechanics), the 'nervous system' (electronics), and the 'brain' (software/AI) of a machine.",
-          "Real-World Problems: How can a robot pick up a strawberry without crushing it? How can a drone fly through a dense forest without hitting a tree? How can a surgical robot perform heart surgery with millimeter precision?",
-          "Why It Matters in India: India is witnessing a massive automation surge. From ISRO missions exploring the moon with rovers to Make in India factories using robotic arms to compete globally, robots are the future of our workforce.",
-          "Critical Applications: Performing dangerous jobs (cleaning sewers, defusing bombs), high-precision jobs (heart surgeries), and repetitive jobs in e-commerce warehouses (Amazon, Flipkart)."
-        ]
-      },
-      {
-        id: "dayinlife",
-        title: "A Day in the Life: Kabir, Robotics Systems Lead",
-        icon: "Clock",
-        description: "Real workflow at a robotics startup.",
-        color: BLUE2,
-        content: [
-          "9:00 AM –  Lab Arrival: Arrive at a high-tech startup in Pune. Team is building a 'Warehouse Sortation Robot.' Check overnight test logs. Robot Alpha successfully sorted 500 packages but struggled with a shiny plastic-wrapped box. Sensor probably got confused by reflection.",
-          "10:30 AM –  Hardware Tweaking: Head to the 'Bot Lab.' Put on safety glasses. Work with a mechanical designer to adjust the 'gripper' of the robot. 3D print a new finger design with a rubberized tip for better grip.",
-          "12:00 PM –  Software Development: Sit down to code using ROS (Robot Operating System). Update the robot's vision algorithm. Teach the robot to 'see' shiny objects differently using a new AI model. Like teaching a toddler the difference between a glass window and an open door.",
-          "1:30 PM –  Team Brainstorm: Lunch is usually a brainstorm session. Debate whether to use 'Lidar' (laser sensors) or 'Stereo Cameras' for the next generation of bots. Heated but fun discussion about cost vs. accuracy.",
-          "3:00 PM –  Client Communication: Call with a factory manager in Gujarat. They want to deploy 20 robots. Explain the 'Safety Zones'—invisible boundaries where the robot will stop if a human walks too close.",
-          "5:00 PM –  Testing & Validation: Testing time! Let the updated Robot Alpha loose in the mini-warehouse. Watch tensely as it approaches the shiny box. It slows down, adjusts its grip, and succeeds! Perfect movement.",
-          "7:00 PM –  Reflection: Head home, often thinking about the next challenge. In robotics, you don't just leave work at the office; you carry the puzzles of the future in your head."
-        ]
-      },
-      {
-        id: "who",
-        title: "Is This You? The Robotics Engineer's DNA",
-        icon: "User",
-        description: "Self-assessment for the ideal candidate.",
-        color: BLUE,
-        content: [
-          "Multidisciplinary Thinking: You must be comfortable toggling between hardware (screws/wires) and software (loops/logic).",
-          "Iterative Patience: Your first 50 versions will probably fail. You need the 'try again' spirit.",
-          "Mathematical Logic: Robotics involves a lot of 'Kinematics'—the math of how things move in 3D space.",
-          "Spatial Awareness: You need to visualize how a 3D arm will swing or how a drone will tilt.",
-          "Programming Skills (C++/Python): This is the language you use to give your robot a 'soul' and a 'brain.'",
-          "Problem-Solving: You enjoy breaking down complex problems into manageable parts.",
-          "The Self-Check: Do you love building things? Do you enjoy both hardware and software? If yes, you have the Robotics Engineer's DNA."
-        ]
-      },
-      {
-        id: "responsibilities",
-        title: "Key Responsibilities & Workflow",
-        icon: "Briefcase",
-        description: "The robotics engineering cycle.",
-        color: BLUE2,
-        content: [
-          "Requirement Mapping: Understanding what the robot needs to do (e.g., 'Clean a solar panel').",
-          "Design & Simulation: Drawing the robot in CAD software and 'running' it in a virtual world to see if it tips over.",
-          "Prototyping: Building the physical version using metal, plastic, sensors, and motors.",
-          "Programming & Integration: Writing the code that connects the sensors to the motors.",
-          "Testing & Debugging: Running countless tests to ensure the robot behaves as expected.",
-          "Deployment & Maintenance: Putting the robot in the real world and fixing it when things (inevitably) go wrong.",
-          "Continuous Improvement: Iterating based on real-world feedback and performance data."
-        ]
-      },
-      {
-        id: "pathways",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Educational journey from Class 10 onwards.",
-        color: BLUE,
-        content: ["Pathway A: Core Engineering Route","Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.","Step 2: Clear JEE/State CET for engineering admission.","Step 3: Pursue B.Tech in Robotics or Mechatronics Engineering.","Step 4: Complete internship at robotics labs or automation firms.","Step 5: Pursue M.Tech in Robotics, AI, or Control Systems.","Step 6: Work as Robotics Engineer or Automation Systems Designer.","Pathway B: Research & Development Route","Step 1: Complete Class 12th with PCM subjects.","Step 2: Pursue B.Tech in ECE, Mechanical, or Computer Science.","Step 3: Learn tools like ROS, Python, MATLAB, and OpenCV.","Step 4: Clear GATE exam for M.Tech or research fellowship.","Step 5: Pursue M.Tech/Ph.D. from IITs, IISc, or IIIT Hyderabad.","Step 6: Join as Robotics Research Scientist or AI Engineer.","Pathway C: Skill-Based & Startup Route","Step 1: Complete Class 12th with Science or ITI course.","Step 2: Pursue diploma in Robotics or Industrial Automation.","Step 3: Learn Arduino, Raspberry Pi, 3D printing, and IoT.","Step 4: Complete certifications from NSDC or online platforms.","Step 5: Build projects and participate in robotics competitions.","Step 6: Work as Robotics Technician or launch own startup."]
-      },
-      {
-        id: "market",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salaries, growth, and industry trends.",
-        color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Tech Leadership (15+ yrs): ₹65 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 –  ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹16 –  ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 –  ₹15 LPA","Entry Level (0–2 yrs): ₹4.5 –  ₹9 LPA","Note: Expertise in ROS 2, Generative AI for Robotics, and Edge Computing can boost pay by 45%.","Where Are the Jobs?","Top Cities: Bengaluru, Pune, Delhi-NCR (Noida/Gurgaon), Chennai, Hyderabad, Ahmedabad.","Top Industries: Automotive (EV focus), Warehouse Automation, Defense, Aerospace, MedTech, and Electronics.","Global Demand: High in Japan, Germany, USA, and South Korea. \"Robot-as-a-Service\" (RaaS) is a major trend.","Top Institutions","Career Opportunities","Conventional","Robotics Engineer","Automation Engineer","PLC / Control Systems Engineer","Industrial Robotics Technician","New-age and AI driven","AI Robotics Engineer","Computer Vision Engineer","Autonomous Systems Engineer","Embedded Robotics Engineer","Remote / Entrepreneurship","Robotics Trainer","STEM / Robotics Content Creator","Automation Consultant","Robotics Startup Founder"]
-      },{
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Fees and living expenses.",
-        color: BLUE2,
-        content: [
-          "Government Institutions: IITs/NITs: ₹6 Lakh –  ₹10 Lakh (Total for 4 years).",
-          "Private Universities: ₹12 Lakh –  ₹25 Lakh (Total).",
-          "Additional Costs: Development kits like Arduino, Raspberry Pi, Lidar sensors (₹5,000 –  ₹20,000).",
-          "Living/Hostel: ₹1.2 Lakh –  ₹2 Lakh per year in cities like Bengaluru or Pune.",
-          "Certifications: ROS Certification, CRP training (₹10,000 –  ₹30,000).",
-          "Scholarships: AICTE Pragati (₹50,000/year for girls), NSP schemes, institutional fee-waivers, private foundation scholarships."
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building",
-        description: "Top institutions for robotics in India.",
-        color: BLUE,
-        content: [
-          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
-          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
-          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
-        ]
-      },
-      {
-        id: "scholarships",
-        title: "Scholarship Opportunities",
-        icon: "Gift",
-        description: "Financial aid and support programs.",
-        color: BLUE2,
-        content: [
-          "AICTE Pragati: For girl students in technical degrees (₹50,000/year).",
-          "National Scholarship Portal (NSP): Various merit-based schemes for minority and EWS students.",
-          "Institutional: IITs and NITs have massive fee-waiver programs based on parental income.",
-          "Private Foundations: Sitaram Jindal Foundation and Reliance Foundation offer scholarships for engineering students.",
-          "Merit-Based: Most universities offer merit scholarships for top performers.",
-          "Industry Sponsorships: Companies like Tata Motors and Hyundai sponsor robotics research and student projects."
-        ]
-      },
-      {
-        id: "certifications",
-        title: "Professional Bodies & Certifications",
-        icon: "Certificate",
-        description: "Professional organizations and credentials.",
-        color: BLUE,
-        content: [
-          "Bodies: Robotics Society of India (RSI), IEEE Robotics and Automation Society, Indian National Academy of Engineering (INAE).",
-          "Certifications: ROS Certification, Certified Robotics Professional (CRP), PLC (Programmable Logic Controllers) training, Embedded Systems certification.",
-          "International Recognition: IEEE certifications are globally recognized and highly valued by employers.",
-          "Continuing Education: Regular workshops and certifications in emerging areas like AI, Machine Learning, and Autonomous Systems."
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Diverse paths in robotics engineering.",
-        color: BLUE2,
-        content: [
-          "Conventional: Industrial Robot Programmer, Maintenance Engineer, Automation Consultant, Systems Engineer.",
-          "New-Age: Drone Pilot & Engineer, Surgical Robotics Specialist, Self-Driving Car Engineer, HRI (Human-Robot Interaction) Designer, Cobot Developer.",
-          "Emerging Fields: Swarm Robotics Engineer, Soft Robotics Specialist, Autonomous Systems Designer, AI-Robotics Integration Specialist.",
-          "Freelance/Entrepreneur: Starting a 'Drones-as-a-Service' startup for farmers, robotic toy company, or automation consulting firm.",
-          "International: Working with global robotics companies and research institutions in USA, Germany, Japan, and Singapore."
-        ]
-      },
-      {
-        id: "challenges",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of robotics engineering.",
-        color: BLUE,
-        content: [
-          "High Complexity: You never stop being a student. If you don't keep up with the latest AI and robotics trends, you get left behind.",
-          "Safety Pressure: In industrial robotics, one mistake in your code can cause a multi-million rupee machine to crash or, worse, injure a worker.",
-          "Infrastructure Costs: You can't just build a big robot in your bedroom; you need access to expensive labs and components.",
-          "Integration Challenges: Making different hardware and software components work together seamlessly is often the hardest part.",
-          "Debugging Difficulty: Debugging a physical robot is much harder than debugging software—you can't just 'undo' a mistake.",
-          "Rapid Obsolescence: Technology changes fast; skills learned today may be outdated in 3-5 years."
-        ]
-      },
-      {
-        id: "future",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of robotics engineering.",
-        color: BLUE2,
-        content: [
-          "Cobots (Collaborative Robots): Robots that work beside humans safely without cages. Expected to dominate manufacturing by 2030.",
-          "Swarm Robotics: Hundreds of tiny robots working together like ants to build a house or survey a field.",
-          "Soft Robotics: Robots made of flexible materials (like a mechanical octopus arm) for delicate medical procedures.",
-          "AI-Powered Autonomy: Robots that learn and adapt to new environments without explicit programming.",
-          "Space Robotics: ISRO's ambitious plans will create thousands of jobs for roboticists in lunar and Mars exploration.",
-          "Humanoid Robots: By 2035, humanoid robots will be common in homes, hospitals, and factories across India."
-        ]
-      },
-      {
-        id: "startnow",
-        title: "Skills to Build While in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12.",
-        color: BLUE,
-        content: [
-          "Build a Kit: Buy an Arduino Starter Kit. Build a robot that follows a black line on the floor (line-following robot).",
-          "Learn Python: It's the easiest way to start 'talking' to machines and understanding automation.",
-          "Competitions: Join the First Robotics Competition or e-Yantra (by IIT Bombay). These are incredible learning experiences.",
-          "Math Focus: Don't just solve equations; understand the geometry of how things move in 3D space.",
-          "Online Courses: Explore Coursera, edX, or YouTube channels dedicated to robotics basics.",
-          "DIY Projects: Build simple projects like obstacle-avoiding robots or drone prototypes using readily available components."
-        ]
-      },
-      {
-        id: "personalities",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring roboticists from India.",
-        color: BLUE2,
-        content: [
-          "Raj Reddy: A global pioneer in AI and Robotics, winner of the Turing Award (the 'Nobel Prize of Computing'). Founder of Robotics Institute at Carnegie Mellon.",
-          "Diwakar Vaish: Developer of Manav, India's first 3D-printed humanoid robot, and a mind-controlled wheelchair. Innovator in accessible robotics.",
-          "Samay Kohli: Co-founder of GreyOrange, one of India's biggest success stories in warehouse robotics. Built a ₹1B+ company.",
-          "Vijay Kumar: A professor at UPenn (USA) known for incredible work on 'micro-UAVs' (tiny swarming drones). Pioneer in swarm robotics.",
-          "Dr. Geeta Varadan: Former director at ISRO who played a key role in systems that controlled India's space-faring machines and rovers."
-        ]
-      }
-    ]
-  },
-  statistician: {
-    slug: "statistician",
-    badge: "The Data Detective for Class 10+",
-    heading: "Statistician",
-    subheading: "Uncovering hidden patterns and truths in data—from predicting weather to detecting fraud and shaping government policy.",
-    whyCards: [
-      { icon: "TrendingUp", title: "35.8% CAGR Market Growth", description: "Indian Data Analytics market growing at massive 35.8% CAGR (2025–2030). 7 million data-related jobs expected by end of 2026.", borderColor: "#10B981" },
-      { icon: "Brain", title: "Data is the New Oil", description: "In a world where data drives every decision, statisticians are the ones who refine raw information into actionable intelligence.", borderColor: "#059669" },
-      { icon: "Globe", title: "Global Demand", description: "Huge demand for Indian statisticians in USA, UK, and Singapore for 'Quant' roles in stock markets and tech companies.", borderColor: "#3B82F6" },
-      { icon: "Fingerprint", title: "India's Statistical Legacy", description: "From Prasanta Chandra Mahalanobis (Father of Indian Statistics) to C.R. Rao—India's statistical tradition is world-renowned.", borderColor: "#F59E0B" }
-    ],
-    quickFacts: [
-      { label: "Duration", detail: "3 Years (B.Sc) + 2 Years (M.Sc) optional", color: "bg-green-100 text-green-700" },
-      { label: "Tools", detail: "R, Python, SQL, Tableau, SAS, Power BI", color: "bg-blue-100 text-blue-700" },
-      { label: "Salary Range", detail: "₹5L–₹1.5Cr+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
-    ],
-    statCards: [
-      { value: "35.8%", label: "Data Analytics CAGR", gradient: "from-green-500 to-green-600" },
-      { value: "7M", label: "Data Jobs by 2026", gradient: "from-blue-500 to-blue-600" }
-    ],
-    guideSections: [
-      {
-        id: "what",
-        title: "What is This Career All About?",
-        icon: "Target",
-        description: "The science of finding truth in numbers.",
-        color: BLUE,
-        content: [
-          "Statistician Defined: A 'Data Detective' who doesn't just look at numbers; they look for the stories, patterns, and truths hidden within them.",
-          "Core Function: Collect information (data), organize it, analyze it using mathematical formulas, and explain what it means to people who need to make big decisions.",
-          "Real-World Applications: How a weather app predicts rain with '80% confidence,' how e-commerce sites know which products you'll like, how governments decide where to build metro lines.",
-          "The Bridge Role: Statisticians are the bridge between raw, messy information and smart action. They design surveys, run experiments, and build 'predictive models' to guess what might happen in the future.",
-          "Why It Matters in India: India is the most populous country (1.4 billion people), and managing this requires incredible data. Census of India, NSSO, Reliance Jio, Zomato—every organization is 'data-hungry.'",
-          "The Data Economy: In a world where 'Data is the New Oil,' statisticians are the ones who refine that oil into power."
-        ]
-      },
-      {
-        id: "dayinlife",
-        title: "A Day in the Life: Ishita, Senior Statistician",
-        icon: "Clock",
-        description: "Real workflow at a Fintech company.",
-        color: BLUE2,
-        content: [
-          "9:30 AM –  Dashboard Check: Arrive at a glass-walled tech park in Gurugram. Work for a global Fintech company. First task: check the 'dashboard' to see if the new algorithm for detecting credit card fraud is working. Notice a small anomaly—a 2% spike in 'false positives.'",
-          "11:00 AM –  War Room Meeting: In a meeting with the Marketing team. They want to launch a new loan product for small shopkeepers. Job: tell them, based on past data, which shopkeepers are most likely to pay back loans on time. Explain that 'Age' and 'Location' aren't as important as 'Monthly Digital Transactions.'",
-          "1:00 PM –  Lunch & Analysis: Lunch at the cafeteria discussing the latest IPL match. But secretly calculating the 'Required Run Rate' and probability of a win based on bowler's history!",
-          "2:30 PM –  Deep Work: Open R and Python to clean a massive dataset of 10 million rows. It's like untangling a giant ball of yarn. If the data is 'dirty' (has errors), results will be wrong.",
-          "4:30 PM –  Mentoring: Mentor a junior analyst. Looking at a 'Scatter Plot'—a graph that looks like a cloud of dots. Show how to draw a 'Regression Line' through those dots to see the hidden trend.",
-          "6:30 PM –  Executive Report: Send a report to the CEO. Don't give 50 pages of math; give three simple charts and one clear recommendation: 'Launch the product in Tier-2 cities first; the risk-to-reward ratio is 15% better there.'",
-          "7:30 PM –  Reflection: Heading home, see a billboard for the app. Feel quiet pride knowing that the math makes that app 'smart' and reliable for millions of Indians."
-        ]
-      },
-      {
-        id: "who",
-        title: "Is This You? The Statistician's DNA",
-        icon: "User",
-        description: "Self-assessment for the ideal candidate.",
-        color: BLUE,
-        content: [
-          "Logic & Curiosity: You don't just accept facts; you ask, 'Is this true for everyone, or just a few?'",
-          "Patience: Dealing with 'messy data' can be frustrating. You need to be a calm problem-solver.",
-          "Integrity (Honesty): A statistician must never 'twist' numbers to show what people want to see.",
-          "Coding Skills: Modern stats isn't done with a pencil; you need to master SQL, R, and Python.",
-          "Communication: You must be able to explain 'Standard Deviation' to a CEO who only cares about 'Profit.'",
-          "Attention to Detail: Small errors in data can lead to massive wrong conclusions.",
-          "The Self-Check: Do you love solving puzzles? Do you enjoy finding patterns? If yes, you have the Statistician's DNA."
-        ]
-      },
-      {
-        id: "responsibilities",
-        title: "Key Responsibilities & Workflow",
-        icon: "Briefcase",
-        description: "The D-C-A-I cycle of statistics.",
-        color: BLUE2,
-        content: [
-          "Design: Deciding what data is needed and how to get it (Surveys, sensors, or apps).",
-          "Collection: Ensuring the data coming in is accurate and unbiased.",
-          "Analysis: Using software to find averages, trends, and correlations.",
-          "Interpretation: Turning the 'Math' into 'Plain English' advice.",
-          "Validation: Checking that results are statistically significant and not due to chance.",
-          "Communication: Presenting findings to stakeholders in clear, actionable formats.",
-          "Continuous Monitoring: Tracking how predictions perform in the real world and refining models."
-        ]
-      },
-      {
-        id: "pathways",
-        title: "Career Pathways in India",
-        icon: "Map",
-        description: "Educational journey from Class 10 onwards.",
-        color: BLUE,
-        content: ["Pathway A: Academic & Research Route","Step 1: Complete Class 12th with Mathematics as main subject.","Step 2: Pursue B.Sc. (Hons.) in Statistics or Mathematics.","Step 3: Complete M.Sc. in Statistics or Applied Statistics.","Step 4: Clear CSIR-NET/JRF or ISI admission test for fellowship.","Step 5: Pursue Ph.D. from ISI, IITs, or central universities.","Step 6: Join as Professor or Research Statistician at institutes.","Pathway B: Government & Official Statistics Route","Step 1: Complete Class 12th with Mathematics subject.","Step 2: Pursue B.Sc. in Statistics from recognized university.","Step 3: Complete M.Sc. in Statistics or Biostatistics.","Step 4: Clear Indian Statistical Service (ISS) exam by UPSC.","Step 5: Join training at National Statistical Systems Training Academy.","Step 6: Work as Statistical Officer in MoSPI or NSSO.","Pathway C: Industry & Data Analytics Route","Step 1: Complete Class 12th with PCM subjects.","Step 2: Pursue B.Sc./B.Tech in Statistics or Data Science.","Step 3: Learn tools like R, Python, SPSS, SAS, and Excel.","Step 4: Complete internship in analytics, insurance, or finance.","Step 5: Pursue PG Diploma or M.Sc. in Data Analytics.","Step 6: Work as Data Analyst, Biostatistician, or Risk Analyst."]
-      },
-      {
-        id: "market",
-        title: "Market Snapshot — India 2026",
-        icon: "TrendingUp",
-        description: "Salaries, growth, and industry trends.",
-        color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹22 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹22 LPA","Junior / Associate (3–5 yrs): ₹7 –  ₹13 LPA","Entry Level (0–2 yrs): ₹4.5 –  ₹8 LPA","Note: A PhD, mastery in AI/ML, and the 8th Pay Commission implementation (for govt. roles) boost pay by 40%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Hyderabad, Delhi-NCR, Pune.","Top Industries: BFSI (Quant Finance), Tech/AI, Pharmaceuticals (Biostatistics), Government/PSUs, E-commerce.","Global Demand: High in USA, UK, Germany; Remote \"Decision Science\" roles are booming.","Top Institutions","Career Opportunities","Conventional","Statistician","Biostatistician","Lecturer / Professor (Statistics)","Survey / Research Statistician","New-age and AI driven","Data Scientist","Machine Learning Analyst","Actuarial Analyst","Quantitative Risk Analyst","Remote / Entrepreneurship","Statistics Tutor / Educator","Data Analytics Consultant","Statistical Research Freelancer","EdTech / Test-Prep Founder"]
-      },{
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "DollarSign",
-        description: "Fees and living expenses.",
-        color: BLUE2,
-        content: [
-          "Government Institutions: ISI/DU/BHU: ₹5,000 –  ₹50,000 (Total). Note: ISI actually pays YOU a stipend of ~₹5,000/month to study there!",
-          "Private Institutions: ₹3 Lakh –  ₹12 Lakh (Total).",
-          "Duration: 3 years (Bachelors) + 2 years (Masters).",
-          "Additional Costs: Specialized certifications (Tableau, SAS, Power BI) can cost ₹20,000 –  ₹1 Lakh.",
-          "Living Costs: ₹1 Lakh –  ₹1.5 Lakh per year in major cities.",
-          "Scholarships: INSPIRE Scholarship, NBHM Scholarship, National Fellowship for ST Students, L'Oreal India For Young Women in Science."
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building",
-        description: "Top institutions for statistics in India.",
-        color: BLUE,
-        content: [
-          "Government: National Institute of Design, Indian Institute of Technology Design Centers, Srishti Institute of Art Design and Technology",
-          "Private: Pearl Academy, ARCH College of Design and Business, Arena Animation, ISDI Mumbai",
-          "Online: Coursera Design Courses, Udemy Design Masterclass, Skillshare Design Courses, YouTube Design Tutorials"
-        ]
-      },
-      {
-        id: "scholarships",
-        title: "Scholarship Opportunities",
-        icon: "Gift",
-        description: "Financial aid and support programs.",
-        color: BLUE2,
-        content: [
-          "INSPIRE Scholarship: ₹80,000/year for top 1% board scorers pursuing basic sciences.",
-          "NBHM Scholarship: National Board for Higher Mathematics offers stipends for Post-Graduates.",
-          "National Fellowship for ST Students: ₹25,000/month for Master's/PhD (Tribal Affairs Ministry).",
-          "L'Oreal India For Young Women in Science: ₹2.5 Lakh for girl students pursuing science degrees.",
-          "Merit-Based: Most universities offer merit scholarships for top performers.",
-          "ISI Stipend: All ISI students receive monthly stipends during their studies."
-        ]
-      },
-      {
-        id: "certifications",
-        title: "Professional Bodies & Certifications",
-        icon: "Certificate",
-        description: "Professional organizations and credentials.",
-        color: BLUE,
-        content: [
-          "Bodies: International Indian Statistical Association (IISA), Indian Society for Probability and Statistics (ISPS), American Statistical Association (ASA).",
-          "Certifications: SAS Certified Statistical Business Analyst, Professional Certificate in IBM Data Science, Tableau Desktop Specialist, Microsoft Certified Data Analyst.",
-          "Licensing: No mandatory license required, but Actuarial License (from IAI) needed if working in insurance risk.",
-          "Continuing Education: Regular workshops and certifications in Machine Learning, AI, and Advanced Analytics."
-        ]
-      },
-      {
-        id: "opportunities",
-        title: "Career Opportunities",
-        icon: "Briefcase",
-        description: "Diverse paths in statistics.",
-        color: BLUE2,
-        content: [
-          "Conventional: Census Officer, University Professor, Biostatistician (Pharma), Government Statistician.",
-          "New-Age: Machine Learning Engineer, Sports Analyst (Analyzing IPL/Cricket data), Pollster (Predicting election results), Data Scientist.",
-          "Finance: Quantitative Analyst (Quant), Risk Manager, Credit Analyst, Pricing Analyst.",
-          "Tech: Data Scientist, Analytics Engineer, Product Analyst, AI/ML Specialist.",
-          "Entrepreneurship: Starting a 'Niche Analytics' agency (e.g., analyzing agricultural data for farmers, sports analytics startup)."
-        ]
-      },
-      {
-        id: "challenges",
-        title: "Challenges and Realities",
-        icon: "AlertTriangle",
-        description: "The real side of statistics careers.",
-        color: BLUE,
-        content: [
-          "'Data Drudgery': 80% of your time is spent 'cleaning' messy data, which can be boring for some.",
-          "The AI Threat?: AI can do basic math, but it cannot replace a statistician's judgment. You must stay updated, or you'll be left behind.",
-          "High Competition: Entry-level roles at top firms (like Google or Goldman Sachs) are very competitive.",
-          "Pressure to Deliver: Wrong statistical conclusions can lead to costly business decisions.",
-          "Rapid Skill Obsolescence: New tools and techniques emerge constantly; continuous learning is mandatory.",
-          "Communication Challenges: Explaining complex statistical concepts to non-technical stakeholders can be difficult."
-        ]
-      },
-      {
-        id: "future",
-        title: "Emerging Trends & Future Outlook (2025–2035)",
-        icon: "Zap",
-        description: "The future of statistics.",
-        color: BLUE2,
-        content: [
-          "Real-Time Statistics: By 2030, 'Real-Time Statistics' will be the norm. Imagine a city that changes its traffic light timings every second based on live statistical models!",
-          "Quantum Computing: Will allow statisticians to solve problems that are currently 'unsolvable.'",
-          "AI-Augmented Analysis: Statisticians will work alongside AI to interpret complex patterns and make better predictions.",
-          "Privacy-Preserving Analytics: Differential privacy and federated learning will become standard as data privacy concerns grow.",
-          "Causal Inference: Moving beyond correlation to understanding cause-and-effect relationships in data.",
-          "Automated Insights: Tools will automatically generate statistical insights, but human judgment will remain critical."
-        ]
-      },
-      {
-        id: "startnow",
-        title: "Skills to Build While in School",
-        icon: "Rocket",
-        description: "Preparation during Class 9-12.",
-        color: BLUE,
-        content: [
-          "Master Excel: It's the 'ABCD' of statistics. Start building your own budget or tracking your grades on a sheet.",
-          "Learn Python: Start with Python; it's fun and used by all the big tech companies.",
-          "Join the Olympiads: Participate in the National Mathematics Olympiad.",
-          "Read & Follow: Follow sites like FiveThirtyEight or The Ken to see how data is used in real stories.",
-          "Online Courses: Explore Coursera, edX, or Khan Academy for statistics basics.",
-          "DIY Projects: Collect data on something you're interested in (sports, weather, social media) and analyze it."
-        ]
-      },
-      {
-        id: "personalities",
-        title: "Famous Indian Personalities",
-        icon: "Star",
-        description: "Inspiring statisticians from India.",
-        color: BLUE2,
-        content: [
-          "Prasanta Chandra Mahalanobis: Known as the 'Father of Indian Statistics.' Founded the ISI and created the 'Mahalanobis Distance'—a fundamental concept in statistics.",
-          "C.R. Rao: One of the world's greatest statisticians; his work is taught in every university across the globe. Pioneer in statistical theory.",
-          "Neena Gupta: A modern star at ISI Kolkata, famous for solving the Zariski Cancellation Conjecture. Recipient of the TWAS Prize.",
-          "Srinivasa Varadhan: An Abel Prize winner (the 'Nobel of Math') who specialized in probability. Pioneered large deviation theory.",
-          "K.C. Sreedharan Pillai: Famous for his work on 'Multivariate Analysis' which helps compare many things at once. Influential in statistical methodology."
         ]
       }
     ]
@@ -7153,7 +7436,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       },
       {
         id: "who",
-        title: "Is This You? The Digital Marketer's DNA",
+        title: "Is This You?",
         icon: "User",
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
@@ -7197,7 +7480,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹3.0 Crore","Senior / Lead Role (10+ yrs): ₹25 –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹11 LPA","Entry Level (0–2 yrs): ₹3.5 –  ₹6 LPA","Note: AI-driven marketing and Metros boost pay by 45%.","Where Are the Jobs?","Top Institutions","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune.","Top Industries: E-commerce, EdTech, Fintech, Consumer Goods, Media.","Global Demand: High in USA, UK, Canada. Remote freelancing surging.","Top Institutions","Government Institutes","Indian Institute of Mass Communication (IIMC), New Delhi","National Institute of Electronics & IT (NIELIT)","IIM Bangalore (Digital Marketing Programme)","University of Delhi (Department of Commerce)","Private Institutes","MICA, Ahmedabad","Symbiosis Institute of Business Management, Pune","Internet and Mobile Association of India (IAMAI)","Digital Vidya, New Delhi","Online Institutes","Google Digital Garage (Free Certification)","HubSpot Academy (Inbound Marketing)","Coursera (Meta & Google Digital Marketing)","Udemy (Complete Digital Marketing Courses)","Career Opportunities","Conventional","Digital Marketing Manager at corporate houses","SEO/SEM Specialist at IT companies","Social Media Manager at media houses","Email Marketing Executive at banks and insurance firms","New-Age & AI-Driven","Performance Marketing Specialist at D2C startups","AI-Driven Marketing Automation Specialist at martech companies","Programmatic Advertising Manager at adtech platforms","Growth Hacker at fintech/edtech startups","Remote/Entrepreneurship","Freelance Digital Marketing Consultant on global platforms","Founder of digital marketing or performance marketing agency","Remote SEO/Content Strategist for international brands and SaaS companies","Digital Marketing Educator and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹3.0 Crore","Senior / Lead Role (10+ yrs): ₹25 –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹22 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹11 LPA","Entry Level (0–2 yrs): ₹3 –  ₹6 LPA","Note: AI-driven marketing and Metros boost pay by 45%.","Where Are the Jobs?","Top Institutions","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Hyderabad, Pune.","Top Industries: E-commerce, EdTech, Fintech, Consumer Goods, Media.","Global Demand: High in USA, UK, Canada. Remote freelancing surging.","Top Institutions","Government Institutes","Indian Institute of Mass Communication (IIMC), New Delhi","National Institute of Electronics & IT (NIELIT)","IIM Bangalore (Digital Marketing Programme)","University of Delhi (Department of Commerce)","Private Institutes","MICA, Ahmedabad","Symbiosis Institute of Business Management, Pune","Internet and Mobile Association of India (IAMAI)","Digital Vidya, New Delhi","Online Institutes","Google Digital Garage (Free Certification)","HubSpot Academy (Inbound Marketing)","Coursera (Meta & Google Digital Marketing)","Udemy (Complete Digital Marketing Courses)","Career Opportunities","Conventional","Digital Marketing Manager at corporate houses","SEO/SEM Specialist at IT companies","Social Media Manager at media houses","Email Marketing Executive at banks and insurance firms","New-Age & AI-Driven","Performance Marketing Specialist at D2C startups","AI-Driven Marketing Automation Specialist at martech companies","Programmatic Advertising Manager at adtech platforms","Growth Hacker at fintech/edtech startups","Remote/Entrepreneurship","Freelance Digital Marketing Consultant on global platforms","Founder of digital marketing or performance marketing agency","Remote SEO/Content Strategist for international brands and SaaS companies","Digital Marketing Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -7612,7 +7895,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       },
       {
         id: "who",
-        title: "Is This You? The Marketer's DNA",
+        title: "Is This You?",
         icon: "User",
         description: "Self-assessment for the ideal candidate.",
         color: BLUE,
@@ -7887,7 +8170,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹3.2 Crore","Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 –  ₹29 LPA","Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA","Entry Level (0–2 yrs): ₹3.5 –  ₹7 LPA","Note: Incentives and Tier-1 MBA boost pay by 50%.","Where Are the Jobs?","Top institutions","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune, Chennai.","Top Industries: BFSI, FMCG, Tech/SaaS, E-commerce, Pharma, Real Estate.","Global Demand: High in USA, UAE, Singapore; Remote B2B roles.","Top Institutions","Government Institutes","IIM Ahmedabad (Sales & Distribution Management)","IIM Kozhikode","National Institute of Sales (NIS), New Delhi","Faculty of Management Studies (FMS), University of Delhi","Private Institutes","XLRI Jamshedpur (Sales & Marketing Programme)","ISB Hyderabad (Certificate in Sales Management)","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","T.A. Pai Management Institute (TAPMI), Manipal","Online Institutes","Coursera (HubSpot Sales Training)","NPTEL (IIM Sales Management Courses)","LinkedIn Learning (Sales Strategy & Skills)","Udemy (B2B & B2C Sales Mastery)","Career Opportunities","Conventional","Sales Executive at FMCG companies","Regional Sales Manager at automobile firms","Relationship Manager at banks and insurance firms","Area Sales Officer at pharmaceutical companies","New-Age & AI-Driven","Inside Sales Specialist at SaaS and tech startups","AI-Powered Sales Analyst at CRM-driven organizations","Social Selling Specialist at D2C and e-commerce brands","Revenue Operations (RevOps) Manager at data-driven sales organizations","Remote/Entrepreneurship","Freelance Sales Consultant for international B2B clients","Founder of sales outsourcing or lead generation agency","Remote Account Executive for global SaaS and tech companies","Sales Training Coach and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹70 LPA –  ₹3.2 Crore","Senior / Lead Role (10+ yrs): ₹30 –  ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 –  ₹29 LPA","Junior / Associate (3–5 yrs): ₹8 –  ₹14 LPA","Entry Level (0–2 yrs): ₹3 –  ₹7 LPA","Note : Incentives and Tier-1 MBA boost pay by 50%.","Where Are the Jobs?","Top institutions","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune, Chennai.","Top Industries: BFSI, FMCG, Tech/SaaS, E-commerce, Pharma, Real Estate.","Global Demand: High in USA, UAE, Singapore; Remote B2B roles.","Top Institutions","Government Institutes","IIM Ahmedabad (Sales & Distribution Management)","IIM Kozhikode","National Institute of Sales (NIS), New Delhi","Faculty of Management Studies (FMS), University of Delhi","Private Institutes","XLRI Jamshedpur (Sales & Marketing Programme)","ISB Hyderabad (Certificate in Sales Management)","Narsee Monjee Institute of Management Studies (NMIMS), Mumbai","T.A. Pai Management Institute (TAPMI), Manipal","Online Institutes","Coursera (HubSpot Sales Training)","NPTEL (IIM Sales Management Courses)","LinkedIn Learning (Sales Strategy & Skills)","Udemy (B2B & B2C Sales Mastery)","Career Opportunities","Conventional","Sales Executive at FMCG companies","Regional Sales Manager at automobile firms","Relationship Manager at banks and insurance firms","Area Sales Officer at pharmaceutical companies","New-Age & AI-Driven","Inside Sales Specialist at SaaS and tech startups","AI-Powered Sales Analyst at CRM-driven organizations","Social Selling Specialist at D2C and e-commerce brands","Revenue Operations (RevOps) Manager at data-driven sales organizations","Remote/Entrepreneurship","Freelance Sales Consultant for international B2B clients","Founder of sales outsourcing or lead generation agency","Remote Account Executive for global SaaS and tech companies","Sales Training Coach and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -8118,7 +8401,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹22 –  ₹48 LPA","Mid-Level Professional (5–8 yrs): ₹11 –  ₹21 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹10 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5.5 LPA","Note: Metros and NIFT degrees boost pay by 35%.","Where Are the Jobs?","Top institutions","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune.","Top Industries: Fashion, E-commerce, Electronics, Luxury, Home Decor.","Global Demand: High in UAE, USA. Digital/AI VM trends rising.","Top Institutions","Government Institutes","National Institute of Fashion Technology (NIFT), New Delhi","National Institute of Design (NID), Ahmedabad","NIFT Hyderabad","NIFT Mumbai","Private Institutes","Pearl Academy, New Delhi","JD Institute of Fashion Technology, Mumbai","Arch College of Design & Business, Jaipur","Hamstech Institute of Fashion, Hyderabad","Online Institutes","Coursera (Visual Merchandising & Display)","Udemy (Retail Visual Merchandising Courses)","Skillshare (Store Design & Display Techniques)","LinkedIn Learning (Visual Merchandising Fundamentals)","Career Opportunities","Conventional","Visual Merchandiser at retail chains","Display Designer at luxury brands","Store Planner at departmental stores","Visual Merchandising Executive at jewellery brands","New-Age & AI-Driven","Digital Visual Merchandiser at e-commerce platforms","AR/VR Experience Designer at virtual retail and metaverse stores","AI-Driven Product Display Analyst at D2C brands","Omnichannel Visual Strategist at phygital retail companies","Remote/Entrepreneurship","Freelance Visual Merchandising Consultant for retail brands globally","Founder of visual merchandising and retail design consultancy","Remote E-Commerce Visual Strategist for international online stores","Visual Merchandising Educator and Content Creator"]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹22 –  ₹48 LPA","Mid-Level Professional (5–8 yrs): ₹11 –  ₹21 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹10 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5 LPA","Note: Metros and NIFT degrees boost pay by 35%.","Where Are the Jobs?","Top institutions","Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune.","Top Industries: Fashion, E-commerce, Electronics, Luxury, Home Decor.","Global Demand: High in UAE, USA. Digital/AI VM trends rising.","Top Institutions","Government Institutes","National Institute of Fashion Technology (NIFT), New Delhi","National Institute of Design (NID), Ahmedabad","NIFT Hyderabad","NIFT Mumbai","Private Institutes","Pearl Academy, New Delhi","JD Institute of Fashion Technology, Mumbai","Arch College of Design & Business, Jaipur","Hamstech Institute of Fashion, Hyderabad","Online Institutes","Coursera (Visual Merchandising & Display)","Udemy (Retail Visual Merchandising Courses)","Skillshare (Store Design & Display Techniques)","LinkedIn Learning (Visual Merchandising Fundamentals)","Career Opportunities","Conventional","Visual Merchandiser at retail chains","Display Designer at luxury brands","Store Planner at departmental stores","Visual Merchandising Executive at jewellery brands","New-Age & AI-Driven","Digital Visual Merchandiser at e-commerce platforms","AR/VR Experience Designer at virtual retail and metaverse stores","AI-Driven Product Display Analyst at D2C brands","Omnichannel Visual Strategist at phygital retail companies","Remote/Entrepreneurship","Freelance Visual Merchandising Consultant for retail brands globally","Founder of visual merchandising and retail design consultancy","Remote E-Commerce Visual Strategist for international online stores","Visual Merchandising Educator and Content Creator"]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -14654,6 +14937,225 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Pritam Chakraborty: Acclaimed music composer and sound engineer with multiple National Film Awards.",
           "Shankar Mahadevan: Singer, composer, and sound engineer known for innovative vocal production and mixing.",
           "Anirudh Ravichander: Young music composer and sound engineer pushing boundaries in Tamil and Telugu cinema."
+        ]
+      }
+    ]
+  },
+
+  robotics_engineer: {
+    slug: "robotics_engineer",
+    badge: "The Multi-Disciplinary Creator for Class 10+",
+    heading: "Robotics Engineer",
+    subheading: "Building the 'body,' 'nervous system,' and 'brain' of machines—from warehouse robots to surgical bots and autonomous drones.",
+    whyCards: [
+      { icon: "Zap", title: "13.1% Industrial CAGR + 30.3% Consumer CAGR", description: "Industrial Robotics growing at 13.1% CAGR while Consumer Robotics (drones, vacuum bots) exploding at 30.3% CAGR.", borderColor: "#10B981" },
+      { icon: "Globe", title: "Make in India Automation Surge", description: "From ISRO moon rovers to Amazon warehouses, robots are transforming India's manufacturing and logistics landscape.", borderColor: "#059669" },
+      { icon: "Brain", title: "Multidisciplinary Mastery", description: "Master mechanics, electronics, software, and AI—become a true 'full-stack' engineer of the future.", borderColor: "#3B82F6" },
+      { icon: "Rocket", title: "Emerging Frontiers", description: "Cobots, swarm robotics, soft robotics, surgical bots, self-driving cars, and drones—endless innovation opportunities.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "4 Years (B.Tech) + 2 Years (M.Tech) optional", color: "bg-green-100 text-green-700" },
+      { label: "Tools", detail: "ROS, CAD, C++, Python, Arduino, Lidar, PLC", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹4.5L–₹1.5Cr+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "13.1%", label: "Industrial Robotics CAGR", gradient: "from-green-500 to-green-600" },
+      { value: "30.3%", label: "Consumer Robotics CAGR", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "The magic of machines that think and act.",
+        color: BLUE,
+        content: [
+          "Robotics Engineering Defined: The branch of technology that deals with the design, construction, operation, and application of robots.",
+          "What is a Robot?: Any machine capable of carrying out a complex series of actions automatically, especially one programmable by a computer.",
+          "The Multi-Disciplinary Role: You aren't just a mechanical engineer or a coder; you are a bit of both, plus an electronics expert. You build the 'body' (mechanics), the 'nervous system' (electronics), and the 'brain' (software/AI) of a machine.",
+          "Real-World Problems: How can a robot pick up a strawberry without crushing it? How can a drone fly through a dense forest without hitting a tree? How can a surgical robot perform heart surgery with millimeter precision?",
+          "Why It Matters in India: India is witnessing a massive automation surge. From ISRO missions exploring the moon with rovers to Make in India factories using robotic arms to compete globally, robots are the future of our workforce.",
+          "Critical Applications: Performing dangerous jobs (cleaning sewers, defusing bombs), high-precision jobs (heart surgeries), and repetitive jobs in e-commerce warehouses (Amazon, Flipkart)."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: Kabir, Robotics Systems Lead",
+        icon: "Clock",
+        description: "Real workflow at a robotics startup.",
+        color: BLUE2,
+        content: [
+          "09:00 AM –  Lab Arrival: Arrive at a high-tech startup in Pune. Team is building a 'Warehouse Sortation Robot.' Check overnight test logs. Robot Alpha successfully sorted 500 packages but struggled with a shiny plastic-wrapped box. Sensor probably got confused by reflection.",
+          "10:30 AM –  Hardware Tweaking: Head to the 'Bot Lab.' Put on safety glasses. Work with a mechanical designer to adjust the 'gripper' of the robot. 3D print a new finger design with a rubberized tip for better grip.",
+          "12:00 PM –  Software Development: Sit down to code using ROS (Robot Operating System). Update the robot's vision algorithm. Teach the robot to 'see' shiny objects differently using a new AI model. Like teaching a toddler the difference between a glass window and an open door.",
+          "01:30 PM –  Team Brainstorm: Lunch is usually a brainstorm session. Debate whether to use 'Lidar' (laser sensors) or 'Stereo Cameras' for the next generation of bots. Heated but fun discussion about cost vs. accuracy.",
+          "03:00 PM –  Client Communication: Call with a factory manager in Gujarat. They want to deploy 20 robots. Explain the 'Safety Zones'—invisible boundaries where the robot will stop if a human walks too close.",
+          "05:00 PM –  Testing & Validation: Testing time! Let the updated Robot Alpha loose in the mini-warehouse. Watch tensely as it approaches the shiny box. It slows down, adjusts its grip, and succeeds! Perfect movement.",
+          "07:00 PM –  Reflection: Head home, often thinking about the next challenge. In robotics, you don't just leave work at the office; you carry the puzzles of the future in your head."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? The Robotics Engineer's DNA",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Multidisciplinary Thinking: You must be comfortable toggling between hardware (screws/wires) and software (loops/logic).",
+          "Iterative Patience: Your first 50 versions will probably fail. You need the 'try again' spirit.",
+          "Mathematical Logic: Robotics involves a lot of 'Kinematics'—the math of how things move in 3D space.",
+          "Spatial Awareness: You need to visualize how a 3D arm will swing or how a drone will tilt.",
+          "Programming Skills (C++/Python): This is the language you use to give your robot a 'soul' and a 'brain.'",
+          "Problem-Solving: You enjoy breaking down complex problems into manageable parts.",
+          "The Self-Check: Do you love building things? Do you enjoy both hardware and software? If yes, you have the Robotics Engineer's DNA."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Workflow",
+        icon: "Briefcase",
+        description: "The robotics engineering cycle.",
+        color: BLUE2,
+        content: [
+          "Requirement Mapping: Understanding what the robot needs to do (e.g., 'Clean a solar panel').",
+          "Design & Simulation: Drawing the robot in CAD software and 'running' it in a virtual world to see if it tips over.",
+          "Prototyping: Building the physical version using metal, plastic, sensors, and motors.",
+          "Programming & Integration: Writing the code that connects the sensors to the motors.",
+          "Testing & Debugging: Running countless tests to ensure the robot behaves as expected.",
+          "Deployment & Maintenance: Putting the robot in the real world and fixing it when things (inevitably) go wrong.",
+          "Continuous Improvement: Iterating based on real-world feedback and performance data."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "Pathway A: Core Engineering Route",
+          "Step 1: Complete Class 12th with Physics, Chemistry, Mathematics.",
+          "Step 2: Clear JEE/State CET for engineering admission.",
+          "Step 3: Pursue B.Tech in Robotics or Mechatronics Engineering.",
+          "Step 4: Complete internship at robotics labs or automation firms.",
+          "Step 5: Pursue M.Tech in Robotics, AI, or Control Systems.",
+          "Step 6: Work as Robotics Engineer or Automation Systems Designer.",
+          
+          "Pathway B: Research & Development Route",
+          "Step 1: Complete Class 12th with PCM subjects.",
+          "Step 2: Pursue B.Tech in ECE, Mechanical, or Computer Science.",
+          "Step 3: Learn tools like ROS, Python, MATLAB, and OpenCV.",
+          "Step 4: Clear GATE exam for M.Tech or research fellowship.",
+          "Step 5: Pursue M.Tech/Ph.D. from IITs, IISc, or IIIT Hyderabad.",
+          "Step 6: Join as Robotics Research Scientist or AI Engineer.",
+         
+          "Pathway C: Skill-Based & Startup Route",
+          "Step 1: Complete Class 12th with Science or ITI course.",
+          "Step 2: Pursue diploma in Robotics or Industrial Automation.",
+          "Step 3: Learn Arduino, Raspberry Pi, 3D printing, and IoT.",
+          "Step 4: Complete certifications from NSDC or online platforms.",
+          "Step 5: Build projects and participate in robotics competitions.",
+          "Step 6: Work as Robotics Technician or launch own startup."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, growth, and industry trends.",
+        color: BLUE2,
+        content: [
+          "Salary Snapshot (Annual INR)",
+          "CXO / Tech Leadership (15+ yrs): ₹65 LPA –  ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹35 –  ₹70 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹16 –  ₹32 LPA",
+          "Junior / Associate (3–5 yrs): ₹8 –  ₹15 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹9 LPA",
+          "Note: Expertise in ROS 2, Generative AI for Robotics, and Edge Computing can boost pay by 45%.",
+        
+          "Where Are the Jobs?",
+          "Top Cities: Bengaluru, Pune, Delhi-NCR (Noida/Gurgaon), Chennai, Hyderabad, Ahmedabad.",
+          "Top Industries: Automotive (EV focus), Warehouse Automation, Defense, Aerospace, MedTech, and Electronics.",
+          "Global Demand: High in Japan, Germany, USA, and South Korea. 'Robot-as-a-Service' (RaaS) is a major trend."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions for robotics in India.",
+        color: BLUE,
+        content: [
+          "Government: IIT Bombay, IIT Delhi, IIT Madras, IIT Kharagpur, NIT Trichy, IISc Bengaluru",
+          "Private: BITS Pilani, VIT Vellore, Manipal Institute of Technology, SRM Institute Chennai",
+          "Online: Coursera Robotics Specialization, Udacity Robotics Nanodegree, edX Robotics Courses, NPTEL IIT Courses"
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse paths in robotics.",
+        color: BLUE2,
+        content: [
+          "Conventional: Robotics Engineer, Automation Engineer, PLC/Control Systems Engineer, Industrial Robotics Technician",
+          "New-Age and AI Driven: AI Robotics Engineer, Computer Vision Engineer, Autonomous Systems Engineer, Embedded Robotics Engineer",
+          "Remote / Entrepreneurship: Robotics Trainer, STEM/Robotics Content Creator, Automation Consultant, Robotics Startup Founder"
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The real side of robotics careers.",
+        color: BLUE,
+        content: [
+          "High Complexity: You never stop being a student. If you don't keep up with the latest AI, you get left behind.",
+          "Safety Pressure: In industrial robotics, one mistake in your code can cause a multi-million rupee machine to crash or, worse, injure a worker.",
+          "Infrastructure Costs: You can't just build a big robot in your bedroom; you need access to expensive labs and components.",
+          "Continuous Learning: Technology and regulations change rapidly; you must stay updated."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "The future of robotics.",
+        color: BLUE2,
+        content: [
+          "Cobots (Collaborative Robots): Robots that work beside humans safely without cages.",
+          "Swarm Robotics: Hundreds of tiny robots working together like ants to build a house or survey a field.",
+          "Soft Robotics: Robots made of flexible materials (like a mechanical octopus arm) for delicate medical procedures.",
+          "AI Integration: Robots becoming smarter with machine learning and autonomous decision-making.",
+          "Humanoid Robots: Robots that look and move like humans for service industries."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While in School (Class 9–12)",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Build a Kit: Buy an Arduino Starter Kit. Build a robot that follows a black line on the floor.",
+          "Learn Python: It's the easiest way to start 'talking' to machines.",
+          "Competitions: Join the First Robotics Competition or e-Yantra (by IIT Bombay).",
+          "Math Focus: Don't just solve equations; understand the geometry of how things move.",
+          "Robotics Club: Join or start a robotics club at your school."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Personalities",
+        icon: "User",
+        description: "Inspiring figures in robotics.",
+        color: BLUE2,
+        content: [
+          "Raj Reddy: A global pioneer in AI and Robotics, a winner of the Turing Award (the 'Nobel Prize of Computing').",
+          "Diwakar Vaish: Developer of Manav, India's first 3D-printed humanoid robot, and a mind-controlled wheelchair.",
+          "Samay Kohli: Co-founder of GreyOrange, one of India's biggest success stories in warehouse robotics.",
+          "Vijay Kumar: A professor at UPenn (USA) known for his incredible work on 'micro-UAVs' (tiny swarming drones).",
+          "Dr. Geeta Varadan: A former director at ISRO who played a key role in the systems that controlled our space-faring machines."
         ]
       }
     ]

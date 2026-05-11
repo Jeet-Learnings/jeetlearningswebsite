@@ -1,4 +1,4 @@
-﻿import { CareerPageData } from './careerPageData';
+import { CareerPageData } from './careerPageData';
 
 const BLUE = "#1E40AF";
 const BLUE2 = "#3B82F6";
@@ -95,8 +95,33 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, expansion, and job security.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹95 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹55 –  ₹90 LPA","Mid-Level Professional (5–8 yrs): ₹28 –  ₹52 LPA","Junior / Associate (3–5 yrs): ₹18 –  ₹27 LPA","Entry Level (0–2 yrs): ₹12 –  ₹18 LPA","Note: 8th Pay Commission and Sea/Flying pay boost income.","Where Are the Jobs?","Top Cities: Mumbai, Visakhapatnam, Kochi, Delhi, Karwar, Port Blair.","Top Industries: Defense, Shipbuilding, Maritime Security, Naval Aviation.","Global Demand: UN Missions, Indo-Pacific cooperation, Defense exports.","Top Institutions","Government / Government Funded Coaching Institutes","Rashtriya Indian Military College (RIMC), Dehradun","Sainik Schools (across India)","National Defence Academy (NDA), Khadakwasla, Pune","Indian Naval Academy (INA), Ezhimala, Kerala","Private Coaching Institutes","Cavalier India, New Delhi","Centurion Defence Academy, Lucknow","Shield Defence Academy, Chandigarh","Baalnoi Academy, Delhi","Online Coaching Institutes","Unacademy (NDA & CDS Naval Preparation)","Testbook (Navy AA/SSR & NDA Courses)","Adda247 (Indian Navy Exam Preparation)","Oliveboard","Career Opportunities","Conventional","Executive officer through NDA, CDS, or INET entry","Marine engineer in technical branch","Naval aviator (helicopter/maritime reconnaissance pilot)","Sailor in artificer or direct entry scheme","New-Age & AI-Driven","Submarine autonomous systems and robotics specialist","AI-driven maritime surveillance and threat detection analyst","Cyber warfare and naval network defence officer","Underwater drone and unmanned vessel technology operator","Remote / Entrepreneurship","Maritime security and defence consultancy founder","Online naval defence exam coaching and guidance provider","Shipbuilding and marine equipment startup entrepreneur","Freelance oceanography and maritime research consultant"]
-      },{
+        content: [
+          "SALARY SNAPSHOT (ANNUAL INR)",
+          "CXO / Top Leadership (15+ yrs): ₹95 LPA – ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹55 – ₹90 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹28 – ₹52 LPA",
+          "Junior / Associate (3–5 yrs): ₹18 – ₹27 LPA",
+          "Entry Level (0–2 yrs): ₹12 – ₹18 LPA",
+          "Note: 8th Pay Commission and Sea/Flying pay boost income.",
+          "WHERE ARE THE JOBS?",
+          "Top Cities: Mumbai, Visakhapatnam, Kochi, Delhi, Karwar, Port Blair",
+          "Top Industries: Defense, Shipbuilding, Maritime Security, Naval Aviation",
+          "Global Demand: UN Missions, Indo-Pacific cooperation, Defense exports"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study? (Training Institutions)",
+        icon: "Building2",
+        description: "World-class naval academies.",
+        color: BLUE,
+        content: [
+          "Government Institutes: National Defence Academy (NDA) Khadakwasla Pune, Indian Naval Academy (INA) Ezhimala Kerala, INS Chilka Odisha, INS Shivaji Lonavala, INS Valsura Jamnagar",
+          "Coaching Institutes: Rashtriya Indian Military College (RIMC) Dehradun, Sainik Schools across India, Cavalier India New Delhi, Centurion Defence Academy Lucknow, Shield Defence Academy Chandigarh, Baalnoi Academy Delhi",
+          "Online Coaching: Unacademy NDA & CDS Naval Preparation, Testbook Navy AA/SSR & NDA Courses, Adda247 Indian Navy Exam Preparation, Oliveboard"
+        ]
+      },
+      {
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -108,20 +133,6 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Private Costs: Only for coaching or books (approx ₹5,000–₹20,000) before joining.",
           "Duration: 3-4 years for officers (NDA/INA), 4 years for Agniveers.",
           "Post-Joining: All living expenses, food, accommodation, and medical care provided by the Navy."
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study? (Training Institutions)",
-        icon: "Building2",
-        description: "World-class naval academies.",
-        color: BLUE,
-        content: [
-          "Indian Naval Academy (INA), Ezhimala (Kerala): Asia's largest naval academy. Offers a B.Tech degree to cadets. Located on the Arabian Sea coast.",
-          "National Defence Academy (NDA), Pune: Joint training for Class 12 entrants. Trains officers for Army, Navy, and Air Force.",
-          "INS Chilka (Odisha): Basic training establishment for Agniveers (Sailors). Comprehensive training in naval operations.",
-          "INS Shivaji (Lonavala): Premier technical training institute for engineers. Specializes in mechanical and engineering training.",
-          "INS Valsura (Jamnagar): Electrical and electronics training. Specializes in radar, sonar, and communication systems."
         ]
       },
       {
@@ -567,12 +578,37 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
       },
       {
         id: "market",
-        title: "Market Snapshot -  India 2026",
+        title: "Market Snapshot — India 2026",
         icon: "TrendingUp",
         description: "Salary, growth outlook, and hiring priorities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹90 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹40 –  ₹85 LPA","Mid-Level Professional (5–8 yrs): ₹20 –  ₹38 LPA","Junior / Associate (3–5 yrs): ₹12 –  ₹19 LPA","Entry Level (0–2 yrs): ₹7 –  ₹11 LPA","Note: 20% Special Security Allowance and 8th Pay boost income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Kolkata, border zones, international embassies.","Top Industries: RAW, IB, NTRO, Cybersecurity, Strategic Consulting.","Global Demand: High in Geopolitics, Counter-terrorism, OSINT, Data Privacy.","Top Institutions","Government / Government Funded Coaching Institutes","Sardar Vallabhbhai Patel National Police Academy (SVPNPA), Hyderabad","Intelligence Bureau Training Centre (IBTC), New Delhi","State Government Free UPSC Coaching Centres (across India)","Dr. Ambedkar Centre of Excellence, New Delhi","Private Coaching Institutes","Drishti IAS, New Delhi","Vajirao & Reddy Institute, New Delhi","Rau's IAS Study Circle, New Delhi","Sriram's IAS, New Delhi","Online Coaching Institutes","Unacademy (UPSC CSE & ACIO Preparation)","Testbook (IB ACIO Exam Preparation)","Adda247 (Intelligence Bureau Exam Courses)","Byju's Exam Prep (UPSC & IB ACIO Online Coaching)","Career Opportunities","Conventional","RAW field officer through Cabinet Secretariat recruitment","IB intelligence officer through MHA deputation or ACIO exam","NIA investigating officer through UPSC or deputation","Defence Intelligence Agency analyst through military cadre","New-Age & AI-Driven","AI-driven signal intelligence and communication intercept analyst","Cyber espionage detection and counter-intelligence specialist","Open-source intelligence (OSINT) and data mining expert","Satellite imagery and geospatial intelligence technology analyst","Remote / Entrepreneurship","Private corporate intelligence and risk advisory founder","Freelance cyber threat analysis and security consultant","Online intelligence studies and strategic affairs educator","Background verification and due diligence startup entrepreneur"]
-      },{
+        content: [
+          "SALARY SNAPSHOT (ANNUAL INR)",
+          "CXO / Top Leadership (15+ yrs): ₹90 LPA – ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹40 – ₹85 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹20 – ₹38 LPA",
+          "Junior / Associate (3–5 yrs): ₹12 – ₹19 LPA",
+          "Entry Level (0–2 yrs): ₹7 – ₹11 LPA",
+          "Note: 20% Special Security Allowance and 8th Pay boost income.",
+          "WHERE ARE THE JOBS?",
+          "Top Cities: Delhi-NCR, Mumbai, Kolkata, border zones, international embassies",
+          "Top Industries: RAW, IB, NTRO, Cybersecurity, Strategic Consulting",
+          "Global Demand: High in Geopolitics, Counter-terrorism, OSINT, Data Privacy"
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Academic and training pipelines for intelligence careers.",
+        color: BLUE,
+        content: [
+          "Government Institutes: Sardar Vallabhbhai Patel National Police Academy (SVPNPA) Hyderabad, Intelligence Bureau Training Centre (IBTC) New Delhi, State Government Free UPSC Coaching Centres across India, Dr. Ambedkar Centre of Excellence New Delhi",
+          "Coaching Institutes: Drishti IAS New Delhi, Vajirao & Reddy Institute New Delhi, Rau's IAS Study Circle New Delhi, Sriram's IAS New Delhi",
+          "Online Coaching: Unacademy UPSC CSE & ACIO Preparation, Testbook IB ACIO Exam Preparation, Adda247 Intelligence Bureau Exam Courses, Byju's Exam Prep UPSC & IB ACIO Online Coaching"
+        ]
+      },
+      {
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -584,20 +620,6 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Optional interview and descriptive preparation coaching can add additional cost.",
           "Candidates may spend on psychometric and suitability preparation plus baseline medical checks.",
           "Once selected, government-funded training, travel, and equipment are covered with salaried officer onboarding."
-        ]
-      },
-      {
-        id: "institutions",
-        title: "Where to Study?",
-        icon: "Building2",
-        description: "Academic and training pipelines for intelligence careers.",
-        color: BLUE,
-        content: [
-          "Rashtriya Raksha University offers specialized national security and intelligence-aligned programs.",
-          "Agency training ecosystems provide structured tradecraft, surveillance, analysis, and fieldcraft development.",
-          "National Forensic Sciences pathways strengthen digital forensics and behavioral investigation capability.",
-          "IIT and IIIT technical backgrounds are highly valued for cyber, electronics, and technical intelligence tracks.",
-          "Private universities and policy think-tank exposure can strengthen strategy, cybersecurity, and research orientation."
         ]
       },
       {
@@ -783,31 +805,44 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, growth, and hiring trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹25 –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 –  ₹11 LPA","Entry Level (0–2 yrs): ₹4 –  ₹7 LPA","Note: Metros and certifications boost pay by 30%.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Chennai, Nagpur.","Top Industries: NDMA, NDRF, UNDP, Consulting, BFSI, Healthcare.","Global Demand: High in USA, Switzerland; Remote risk-analysis growing.","Top Institutions","Government Institutes","National Institute of Disaster Management (NIDM), New Delhi","Tata Institute of Social Sciences (TISS), Mumbai","Indira Gandhi National Open University (IGNOU), New Delhi","Sikkim University (Department of Peace & Conflict Studies)","Private Institutes","Amity Institute of Disaster Management, Noida","Jamsetji Tata School of Disaster Studies, Mumbai","Manipal Academy of Higher Education, Manipal","Guru Gobind Singh Indraprastha University, New Delhi","Online Institutes","SWAYAM (NIDM Disaster Management Courses)","Coursera (UN & World Bank Disaster Risk Reduction)","edX (Harvard & MIT Humanitarian Response)","NPTEL (IIT Disaster Preparedness Programmes)","Career Opportunities","Conventional","Disaster Management Officer in government agencies","Relief and Rehabilitation Coordinator","Emergency Response Planner in civil administration","National Disaster Response Force (NDRF) personnel","New-Age & AI-Driven","AI-based disaster prediction and early warning analyst","GIS and remote sensing specialist for hazard mapping","Drone-based disaster assessment and surveillance operator","Climate risk modelling and data analytics professional","Remote / Entrepreneurship","Freelance disaster preparedness training consultant","Online disaster risk communication and awareness creator","Disaster management SaaS product developer","Remote community resilience planning advisor"]
-      },{
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "CircleDollarSign",
-        description: "Course fees and education costs.",
-        color: BLUE2,
         content: [
-          "Government Institutions: MA/M.Sc -  ₹50,000–₹2L (2 years).",
-          "Private Universities: MA/MBA in DM -  ₹4L–₹8L (2 years).",
-          "Distance Learning (IGNOU): PG Diploma -  ₹10,000–₹15,000 (1 year).",
-          "Additional Costs: Living/Hostel (₹6,000–₹15,000/month), Field work travel (₹20,000–₹50,000), Certifications (₹10,000–₹30,000).",
-          "ROI: With consulting opportunities offering ₹6L–₹25L+, investment can be recovered in 1-3 years."
+          "SALARY SNAPSHOT (ANNUAL INR)",
+          "CXO / Top Leadership (15+ yrs): ₹60 LPA – ₹1.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹25 – ₹55 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹12 – ₹24 LPA",
+          "Junior / Associate (3–5 yrs): ₹7 – ₹11 LPA",
+          "Entry Level (0–2 yrs): ₹4 – ₹7 LPA",
+          "Note: Metros and certifications boost pay by 30%.",
+          "WHERE ARE THE JOBS?",
+          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Chennai, Nagpur",
+          "Top Industries: NDMA, NDRF, UNDP, Consulting, BFSI, Healthcare",
+          "Global Demand: High in USA, Switzerland; Remote risk-analysis growing"
         ]
       },
       {
         id: "institutions",
-        title: "Where to Study? (Prominent Institutions)",
+        title: "Where to Study? (Top Institutions)",
         icon: "Building2",
-        description: "Top disaster management institutes.",
+        description: "Leading disaster management institutes across India.",
         color: BLUE,
         content: [
-          "Government (Public): Tata Institute of Social Sciences (TISS), Mumbai -  The 'Gold Standard' for Disaster Management (JTCDM). Guru Gobind Singh Indraprastha University (GGSIPU), Delhi -  MBA in Disaster Management. Panjab University, Chandigarh -  Masters in DM. University of Kashmir -  Specialized in earthquake/mountain disasters. National Institute of Disaster Management (NIDM), Delhi -  Training and online courses.",
-          "Private: Symbiosis Institute of Geoinformatics (SIG), Pune -  M.Sc in Geoinformatics. Amity University -  M.Sc/M.Tech in Disaster Management. Jamia Millia Islamia, Delhi -  M.Sc in Disaster Management and Climate Sustainability Studies.",
-          "Online: NIDM offers online certifications and courses. IGNOU offers distance learning PG Diploma."
+          "Government Institutes: NIDM New Delhi, TISS Mumbai, GGSIPU Delhi, Panjab University Chandigarh, University of Kashmir, IGNOU New Delhi",
+          "Private Institutes: Amity Institute Noida, Jamsetji Tata School Mumbai, Manipal Academy Manipal, Symbiosis Institute Pune, Jamia Millia Islamia Delhi",
+          "Online Institutes: SWAYAM NIDM, Coursera UN & World Bank, edX Harvard & MIT, NPTEL IIT"
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Complete financial breakdown for your career journey.",
+        color: BLUE2,
+        content: [
+          "Government Institutions: MA/M.Sc – ₹50,000–₹2L (2 years)",
+          "Private Universities: MA/MBA in DM – ₹4L–₹8L (2 years)",
+          "Distance Learning (IGNOU): PG Diploma – ₹10,000–₹15,000 (1 year)",
+          "Additional Costs: Living/Hostel (₹6,000–₹15,000/month), Field work travel (₹20,000–₹50,000), Certifications (₹10,000–₹30,000)",
+          "ROI: With consulting opportunities offering ₹6L–₹25L+, investment can be recovered in 1-3 years"
         ]
       },
       {
@@ -1012,19 +1047,18 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, job security, and hiring trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹95 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹55 –  ₹90 LPA","Mid-Level Professional (5–8 yrs): ₹28 –  ₹52 LPA","Junior / Associate (3–5 yrs): ₹18 –  ₹27 LPA","Entry Level (0–2 yrs): ₹12 –  ₹17 LPA","Note: 8th Pay Commission and Siachen/Flying pay boost income.","Where Are the Jobs?","Top Cities: Delhi-NCR, Pune, Bengaluru, Jammu, Lucknow, Mhow.","Top Industries: Defense, Logistics, Corporate Security, Aviation, Risk Management.","Global Demand: UN Peacekeeping, Defense Consulting, Global Security.","Top Institutions","Government / Government Funded Coaching Institutes","Rashtriya Indian Military College (RIMC), Dehradun","Sainik Schools (across India)","National Defence Academy (NDA), Khadakwasla, Pune","Officers Training Academy (OTA), Chennai","Private Coaching Institutes","Cavalier India, New Delhi","Centurion Defence Academy, Lucknow","Major Kalshi Classes, Allahabad","Tara Institute, Mumbai","Online Coaching Institutes","Unacademy (NDA & CDS Preparation)","Testbook (NDA, CDS & CAPF Courses)","Adda247 (Defence Exam Preparation)","YouTube –  SSBCrack","Career Opportunities","Conventional","Combat officer through NDA, CDS, or direct entry","Technical officer in Corps of Engineers or Signals","Army Medical Corps doctor or nursing officer","Short Service Commission officer in various arms","New-Age & AI-Driven","AI-powered battlefield intelligence and analytics officer","Cyber security and information warfare specialist","Drone and robotic warfare systems operator","Geospatial technology and satellite imagery analyst","Remote / Entrepreneurship","Defence consultancy and strategic advisory founder","Online defence exam preparation and mentorship provider","Military-grade fitness training entrepreneur","Ex-servicemen skill development and placement consultant"]
-      },{
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "CircleDollarSign",
-        description: "Training costs and financial support.",
-        color: BLUE2,
         content: [
-          "The Golden Ticket: Officer training in India is FREE for cadets. The government spends lakhs on your training, food, stay, uniform, and books. You don't pay tuition fees.",
-          "Stipend: In the last year of training (at IMA/OTA), gentlemen cadets receive a stipend of ₹56,100 per month.",
-          "Preparation Cost: SSB Coaching -  ₹15,000–₹25,000 (Optional). NDA/CDS Exam Books -  ₹1,000.",
-          "Duration: 3-4 years for officers (NDA/IMA/OTA), 4 years for Agniveers.",
-          "Post-Joining: All living expenses, food, accommodation, uniform, and medical care provided by the government."
+          "SALARY SNAPSHOT (ANNUAL INR)",
+          "CXO / Top Leadership (15+ yrs): ₹95 LPA – ₹2.5 Crore",
+          "Senior / Lead Role (10+ yrs): ₹55 – ₹90 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹28 – ₹52 LPA",
+          "Junior / Associate (3–5 yrs): ₹18 – ₹27 LPA",
+          "Entry Level (0–2 yrs): ₹12 – ₹17 LPA",
+          "Note: 8th Pay Commission and Siachen/Flying pay boost income.",
+          "WHERE ARE THE JOBS?",
+          "Top Cities: Delhi-NCR, Pune, Bengaluru, Jammu, Lucknow, Mhow",
+          "Top Industries: Defense, Logistics, Corporate Security, Aviation, Risk Management",
+          "Global Demand: UN Peacekeeping, Defense Consulting, Global Security"
         ]
       },
       {
@@ -1034,12 +1068,23 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Prominent military training academies.",
         color: BLUE,
         content: [
-          "National Defence Academy (NDA), Pune: The cradle of military leadership. Tri-service training for Class 12 entrants. Known for its rigorous curriculum and world-class facilities.",
-          "Indian Military Academy (IMA), Dehradun: For Permanent Commission officers (Gentlemen Cadets). 'Chetwode Hall' is legendary here. The premier institution for officer training.",
-          "Officers Training Academy (OTA), Chennai: For Short Service Commission (Men & Women). Known for its grueling physical training and leadership development.",
-          "Officers Training Academy (OTA), Gaya: For Technical Entry Scheme (TES) cadets. Specializes in technical officer training.",
-          "College of Military Engineering (CME), Pune: For technical officers. Specializes in engineering and technical roles.",
-          "National Defence College (NDC), New Delhi: For senior officers pursuing higher strategic studies."
+          "Government Institutes: National Defence Academy (NDA) Pune, Indian Military Academy (IMA) Dehradun, Officers Training Academy (OTA) Chennai, Officers Training Academy (OTA) Gaya, College of Military Engineering (CME) Pune, National Defence College (NDC) New Delhi",
+          "Coaching Institutes: Rashtriya Indian Military College (RIMC) Dehradun, Sainik Schools across India, Cavalier India New Delhi, Centurion Defence Academy Lucknow, Major Kalshi Classes Allahabad, Tara Institute Mumbai",
+          "Online Coaching: Unacademy NDA & CDS Preparation, Testbook NDA CDS & CAPF Courses, Adda247 Defence Exam Preparation, YouTube SSBCrack"
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Training costs and financial support.",
+        color: BLUE2,
+        content: [
+          "The Golden Ticket: Officer training in India is FREE for cadets. The government spends lakhs on your training, food, stay, uniform, and books. You don't pay tuition fees.",
+          "Stipend: In the last year of training (at IMA/OTA), gentlemen cadets receive a stipend of ₹56,100 per month.",
+          "Preparation Cost: SSB Coaching – ₹15,000–₹25,000 (Optional), NDA/CDS Exam Books – ₹1,000",
+          "Duration: 3-4 years for officers (NDA/IMA/OTA), 4 years for Agniveers",
+          "Post-Joining: All living expenses, food, accommodation, uniform, and medical care provided by the government"
         ]
       },
       {
@@ -1244,19 +1289,18 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, job security, and hiring trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹95 LPA –  ₹2.2 Crore","Senior / Lead Role (10+ yrs): ₹55 –  ₹90 LPA","Mid-Level Professional (5–8 yrs): ₹28 –  ₹50 LPA","Junior / Associate (3–5 yrs): ₹19 –  ₹26 LPA","Entry Level (0–2 yrs): ₹12 –  ₹18 LPA","Note: Flying branch and 8th Pay boost income significantly.","Where Are the Jobs?","Top Cities: Delhi, Bengaluru, Shillong, Prayagraj, Gandhinagar, Nagpur.","Top Industries: Operations, Engineering, Space, Logistics, UAVs.","Global Demand: UN Missions, France, USA, Defense exports.","Top Institutions","Government / Government Funded Coaching Institutes","Sainik Schools (across India)","Rashtriya Indian Military College (RIMC), Dehradun","National Defence Academy (NDA), Khadakwasla, Pune","Air Force Selection Boards (AFSB), Dehradun & Mysuru","Private Coaching Institutes","Cavalier India, New Delhi","Centurion Defence Academy, Lucknow","Shield Defence Academy, Chandigarh","Manasa Defence Academy, Visakhapatnam","Online Coaching Institutes","Testbook","Unacademy","Physics Wala","Gradeup","Career Opportunities","Conventional","Fighter/transport/helicopter pilot through AFCAT or NDA","Aeronautical engineer in technical branch","Ground duty officer in administration and logistics","Air traffic controller at IAF airfields","New-Age & AI-Driven","Unmanned aerial vehicle (UAV/drone) operator","AI-based radar and surveillance systems specialist","Cyber warfare and electronic countermeasures officer","Space and satellite communication technology expert","Remote / Entrepreneurship","Defence technology startup founder (post-retirement)","Freelance aviation safety and training consultant","Online defence exam coaching and mentorship provider","Aerospace component manufacturing entrepreneur"]
-      },{
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "CircleDollarSign",
-        description: "Training costs and financial support.",
-        color: BLUE2,
         content: [
-          "The Best Part: Becoming an IAF officer costs ZERO. The government pays for your entire education, training, food, stay, and uniform.",
-          "Stipend: You earn a stipend (approx ₹56,100/month) during the last year of training.",
-          "Private Cost: You might spend on SSB Coaching (₹15,000–₹30,000 for 2 weeks) or written exam tuition, but the official training is fully funded.",
-          "Duration: 3-4 years for officers (NDA/AFA), 4 years for Agniveers.",
-          "Post-Joining: All living expenses, food, accommodation, uniform, and medical care provided by the government."
+          "SALARY SNAPSHOT (ANNUAL INR)",
+          "CXO / Top Leadership (15+ yrs): ₹95 LPA – ₹2.2 Crore",
+          "Senior / Lead Role (10+ yrs): ₹55 – ₹90 LPA",
+          "Mid-Level Professional (5–8 yrs): ₹28 – ₹50 LPA",
+          "Junior / Associate (3–5 yrs): ₹19 – ₹26 LPA",
+          "Entry Level (0–2 yrs): ₹12 – ₹18 LPA",
+          "Note: Flying branch and 8th Pay boost income significantly.",
+          "WHERE ARE THE JOBS?",
+          "Top Cities: Delhi, Bengaluru, Shillong, Prayagraj, Gandhinagar, Nagpur",
+          "Top Industries: Operations, Engineering, Space, Logistics, UAVs",
+          "Global Demand: UN Missions, France, USA, Defense exports"
         ]
       },
       {
@@ -1266,11 +1310,23 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Prominent IAF training academies.",
         color: BLUE,
         content: [
-          "National Defence Academy (NDA), Khadakwasla (Pune): For Class 12 entrants. A 3-year tri-service degree (BA/B.Sc/B.Tech).",
-          "Air Force Academy (AFA), Dundigal (Hyderabad): The premier training ground for all Flying, Tech, and Ground Duty officers. World-class facilities and training.",
-          "Air Force Technical College (AFTC), Bangalore: For engineering officers to learn aeronautical engineering and technical specializations.",
-          "Airmen Training School (ATS), Belagavi: For Agniveer Vayu training. Comprehensive technical and operational training.",
-          "Air Force Institute of Technology (AFIT), Bangalore: For advanced technical training and specializations."
+          "Government Institutes: National Defence Academy (NDA) Khadakwasla Pune, Air Force Academy (AFA) Dundigal Hyderabad, Air Force Technical College (AFTC) Bangalore, Airmen Training School (ATS) Belagavi, Air Force Institute of Technology (AFIT) Bangalore",
+          "Coaching Institutes: Sainik Schools across India, Rashtriya Indian Military College (RIMC) Dehradun, Cavalier India New Delhi, Centurion Defence Academy Lucknow, Shield Defence Academy Chandigarh, Manasa Defence Academy Visakhapatnam",
+          "Online Coaching: Testbook, Unacademy, Physics Wala, Gradeup"
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Training costs and financial support.",
+        color: BLUE2,
+        content: [
+          "The Best Part: Becoming an IAF officer costs ZERO. The government pays for your entire education, training, food, stay, and uniform.",
+          "Stipend: You earn a stipend (approx ₹56,100/month) during the last year of training.",
+          "Private Cost: You might spend on SSB Coaching (₹15,000–₹30,000 for 2 weeks) or written exam tuition, but the official training is fully funded.",
+          "Duration: 3-4 years for officers (NDA/AFA), 4 years for Agniveers",
+          "Post-Joining: All living expenses, food, accommodation, uniform, and medical care provided by the government"
         ]
       },
       {
@@ -1694,16 +1750,46 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
       },
       {
         id: "pathways",
-        title: "Career Pathways in India",
+        title: "Career Pathways in India (6-Step Framework)",
         icon: "Map",
-        description: "Multiple entry routes to join the Central Reserve Forces.",
+        description: "Detailed 6-step career progression in Central Reserve Forces.",
         color: BLUE,
         content: [
-          "Constable Route (Entry Level): Class 10 Pass → SSC GD (General Duty) Exam → Written Test → Physical Fitness Test → Medicals → 3-6 months training → Deployment. Growth: Constable → Head Constable → Naib Subedar → Subedar.",
-          "Sub-Inspector Route (Mid-Level): Graduation (any degree) → SSC CPO (Central Police Organization) Exam → Written → Physical Endurance Test → Medicals → 6-12 months training → Deployment. Growth: SI → Inspector → Deputy Commandant.",
-          "Officer Route (Leadership Level): Graduation (any degree) → UPSC CAPF (AC) Exam → High rank required to choose CRF → Training at CRPF Academy Indore or respective force academy → Deployment. Growth: Assistant Commandant → Commandant → Senior Commandant → Inspector General.",
-          "Direct Entry (Specialized Roles): B.Tech/BE (Engineering) → Direct recruitment for technical positions → Training → Deployment. B.Tech (Computer Science) → Cyber Security Officer roles.",
-          "NCC Entry: Graduate + NCC 'C' Certificate → Direct recruitment as Officer → Training → Deployment."
+          "PATHWAY A: CONSTABLE ROUTE (Entry Level - 3-6 Months Training)",
+          "Step 1: Educational Qualification - Pass Class 10th or 12th with Science. No age limit for Class 10 pass, but Class 12 pass candidates get priority.",
+          "Step 2: SSC GD Exam - Apply for Staff Selection Commission (SSC) General Duty (GD) Constable exam. Written exam covers General Knowledge, Reasoning, and Quantitative Aptitude.",
+          "Step 3: Physical Fitness Test - Clear 1600m run in 6 minutes 40 seconds (male), 5 minutes 40 seconds (female). Push-ups, sit-ups, and other physical tests.",
+          "Step 4: Medical Examination - Pass rigorous medical tests including vision, hearing, and overall fitness. Height and chest measurements verified.",
+          "Step 5: Training at Academy - Complete 3-6 months basic training at CRPF Academy, BSF Academy, or respective force academy. Learn weapon handling, tactical operations, and discipline.",
+          "Step 6: Deployment & Career Growth - Get posted to operational units. Growth path: Constable → Head Constable (5 years) → Naib Subedar (12 years) → Subedar (18 years) → Subedar Major (25 years). Salary progression: ₹21,700 (Constable) → ₹35,400 (Head Constable) → ₹56,100 (Naib Subedar) → ₹78,800 (Subedar).",
+          "PATHWAY B: SUB-INSPECTOR ROUTE (Mid-Level - 6-12 Months Training)",
+          "Step 1: Educational Qualification - Complete graduation (Bachelor's degree) from any recognized university in any stream. Age: 20-25 years.",
+          "Step 2: SSC CPO Exam - Apply for Staff Selection Commission (SSC) Central Police Organization (CPO) exam. Written exam covers General Knowledge, Reasoning, Quantitative Aptitude, and English.",
+          "Step 3: Physical Endurance Test - Clear 1600m run in 6 minutes 40 seconds (male), 5 minutes 40 seconds (female). Additional tests: Long jump, high jump, and obstacle course.",
+          "Step 4: Medical & Document Verification - Pass medical examination and verify educational documents. Background check conducted.",
+          "Step 5: Training at Academy - Complete 6-12 months SI training at CRPF Academy Indore or respective force academy. Learn leadership, tactical operations, and administrative duties.",
+          "Step 6: Deployment & Career Growth - Get posted as Sub-Inspector. Growth path: SI → Inspector (8 years) → Deputy Commandant (15 years) → Commandant (22 years) → Senior Commandant (28 years). Salary progression: ₹35,400 (SI) → ₹56,100 (Inspector) → ₹78,800 (Deputy Commandant) → ₹1,30,200 (Commandant).",
+          "PATHWAY C: OFFICER ROUTE (Leadership Level - 1-2 Years Training)",
+          "Step 1: Educational Qualification - Complete graduation (Bachelor's degree) from any recognized university. Age: 21-30 years. UPSC CAPF (AC) exam is highly competitive.",
+          "Step 2: UPSC CAPF (AC) Exam - Apply for Union Public Service Commission (UPSC) Central Armed Police Forces (AC) exam. Written exam covers General Studies, General Ability, and Essay.",
+          "Step 3: Physical Test & Interview - Clear physical fitness test (1600m run, push-ups, etc.). Appear for SSB (Service Selection Board) interview and psychological assessment.",
+          "Step 4: Medical Examination - Pass rigorous medical examination including vision, hearing, and overall fitness. Psychological evaluation conducted.",
+          "Step 5: Training at Academy - Complete 1-2 years officer training at CRPF Academy Indore, BSF Academy, or respective force academy. Learn leadership, strategy, and command skills.",
+          "Step 6: Deployment & Career Growth - Get commissioned as Assistant Commandant. Growth path: AC → Commandant (8 years) → Senior Commandant (15 years) → Inspector General (25 years) → Additional Director General (30 years). Salary progression: ₹56,100 (AC) → ₹78,800 (Commandant) → ₹1,30,200 (Senior Commandant) → ₹2,25,000 (Inspector General).",
+          "PATHWAY D: DIRECT ENTRY (Specialized Roles - 3-6 Months Training)",
+          "Step 1: Educational Qualification - B.Tech/BE in Engineering, Computer Science, or related fields. Age: 21-30 years.",
+          "Step 2: Direct Recruitment Notification - Apply when CRF forces announce direct recruitment for technical positions (Cyber Security, IT, Electronics, etc.).",
+          "Step 3: Written Exam & Interview - Clear technical written exam and technical interview. Demonstrate expertise in specialized field.",
+          "Step 4: Medical & Background Check - Pass medical examination and background verification. Security clearance obtained.",
+          "Step 5: Specialized Training - Complete 3-6 months specialized training in your domain (Cyber Security, Network Administration, etc.).",
+          "Step 6: Deployment & Career Growth - Get posted in technical cadre. Growth path: Technical Officer → Senior Technical Officer → Chief Technical Officer. Salary: ₹56,100 (Entry) → ₹78,800 (Senior) → ₹1,30,200+ (Chief).",
+          "PATHWAY E: NCC ENTRY (Officer Route - 1-2 Years Training)",
+          "Step 1: NCC Enrollment - Join NCC (National Cadet Corps) during graduation. Complete NCC training and obtain 'C' Certificate.",
+          "Step 2: Graduation - Complete Bachelor's degree from any recognized university. Age: 21-28 years.",
+          "Step 3: Direct Officer Recruitment - Apply for direct officer recruitment with NCC 'C' Certificate. Bypasses UPSC exam for some positions.",
+          "Step 4: Interview & Medical - Appear for interview and pass medical examination. Background check conducted.",
+          "Step 5: Officer Training - Complete 1-2 years officer training at respective force academy.",
+          "Step 6: Deployment & Career Growth - Get commissioned as Assistant Commandant. Same growth path as UPSC route. Salary: ₹56,100 (AC) → ₹78,800 (Commandant) → ₹1,30,200+ (Senior Commandant)."
         ]
       },
       {
@@ -1718,8 +1804,8 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Constable Salary: Basic ₹21,700, Gross ₹30,000–₹40,000/month. Includes allowances for location (Border allowance, High-altitude allowance).",
           "Sub-Inspector Salary: Basic ₹35,400, Gross ₹50,000–₹65,000/month.",
           "Deputy Commandant Salary: Basic ₹56,100, Gross ₹75,000–₹90,000/month.",
-          "Commandant Salary: Basic ₹78,800, Gross ₹1.1L–₹1.4L/month.",
-          "Inspector General Salary: Basic ₹2,25,000, Gross ₹3.0L+/month.",
+          "Commandant Salary: Basic ₹78,800, Gross ₹1L/month.",
+          "Inspector General Salary: Basic ₹2,25,000, Gross ₹3L+/month.",
           "Unique Allowances: Border Allowance (₹5,000–₹15,000/month), High-Altitude Allowance (₹10,000–₹20,000/month), Counter-Insurgency Allowance, Operational Allowance."
         ]
       },{

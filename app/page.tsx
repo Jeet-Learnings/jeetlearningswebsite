@@ -99,9 +99,6 @@ export default function Home() {
                 {t('Explore Careers')}
                 <ArrowRight className="w-5 h-5" />
               </Link>
-              <button className="inline-flex items-center justify-center gap-2 border-2 border-slate-300 text-slate-900 px-8 py-4 rounded-lg font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors">
-                {t('Learn More')}
-              </button>
             </div>
 
             {/* Social Proof */}

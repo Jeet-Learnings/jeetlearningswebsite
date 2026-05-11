@@ -107,7 +107,7 @@ export const sports_and_physical_activitiesUpdateData: Record<string, CareerPage
           "Senior / Celebrity Trainer (10+ yrs): ₹25 –  ₹55 LPA",
           "Mid-Level Professional (5–8 yrs): ₹12 –  ₹24 LPA",
           "Junior / Associate (3–5 yrs): ₹6 –  ₹11 LPA",
-          "Entry Level (0–2 yrs): ₹3 –  ₹5.5 LPA",
+          "Entry Level (0–2 yrs): ₹3 –  ₹5 LPA",
           "Note: Global certifications (ACE, NASM), AI-driven fitness tech, and the 8th Pay Commission (for government/PE roles) boost pay by 35%.",
           
           "Where Are the Jobs?",
@@ -515,9 +515,9 @@ export const sports_and_physical_activitiesUpdateData: Record<string, CareerPage
           "Senior / Lead Role (10+ yrs): ₹26 –  ₹60 LPA",
           "Mid-Level Professional (5–8 yrs): ₹13 –  ₹25 LPA",
           "Junior / Associate (3–5 yrs): ₹7 –  ₹12 LPA",
-          "Entry Level (0–2 yrs): ₹4 –  ₹6.5 LPA",
+          "Entry Level (0–2 yrs): ₹4 –  ₹6 LPA",
           "Note: MPT (Sports), Global certifications (HCPC, APC), and the 8th Pay Commission (for government/Sports Authority of India roles) boost pay by 40%.",
-          "",
+          
           "Where Are the Jobs?",
           "Top Cities: Mumbai, Bengaluru, Delhi-NCR, Hyderabad, Pune, Chennai.",
           "Top Industries: Professional Leagues (IPL, ISL, PKL), Elite Sports Academies, Multi-specialty Hospitals (Max, Apollo), Rehab Centers, Luxury Wellness Resorts.",
@@ -717,7 +717,7 @@ export const sports_and_physical_activitiesUpdateData: Record<string, CareerPage
         content: [
           "Salary Snapshot (Annual INR)",
           "Elite/A-List (Cricket/Top Leagues): ₹5 Crore –  ₹25 Crore+ (BCCI/IPL contracts)",
-          "National/Pro Level (ISL, Kabaddi, Tier 2 Cricket): ₹15 LPA –  ₹1.5 Crore",
+          "National/Pro Level (ISL, Kabaddi, Tier 2 Cricket): ₹15 LPA –  ₹1 Crore",
           "Senior Professional (8–10 yrs): ₹8 LPA –  ₹20 LPA (State Level/Senior Nationals)",
           "Junior/Entry Level (0–3 yrs): ₹3 LPA –  ₹7 LPA (Club Level/District)",
           "Government Sports Quota: ₹4.5 LPA –  ₹12 LPA (Based on 8th Pay Commission levels)",
