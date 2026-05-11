@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
 
 interface UseStackingCardsOptions {
@@ -46,16 +48,15 @@ export function useStackingCards(options: UseStackingCardsOptions = {}) {
       cards.forEach((card, index) => {
         const cardElement = card as HTMLElement;
         const cardRect = cardElement.getBoundingClientRect();
-        
+
         // Calculate how much the card has scrolled past its natural position
         const cardNaturalTop = index * (cardHeight + gap);
-        const scrollProgress = containerTop -  cardNaturalTop;
+        const scrollProgress = containerTop - cardNaturalTop;
 
         if (scrollProgress > 0) {
-          // Card is fixed -  apply stacking effect
-          const scale = Math.max(0.85, 1 -  scrollProgress * scaleStep / cardHeight);
+          // Card is fixed - apply stacking effect
+          const scale = Math.max(0.85, 1 - (scrollProgress * scaleStep) / cardHeight);
           const translateY = gap * index;
-          
           cardElement.style.transform = `translateY(${translateY}px) scale(${scale})`;
           cardElement.style.position = 'sticky';
           cardElement.style.top = `${gap}px`;
@@ -68,6 +69,7 @@ export function useStackingCards(options: UseStackingCardsOptions = {}) {
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, [isInView, cardHeight, gap, scaleStep]);
 

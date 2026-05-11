@@ -329,28 +329,43 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
 
 // ─── 5. MARKET SNAPSHOT TABLE ───────────────────────────────────
 function SectionMarketSnapshot({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
-  const parsedRows = section.content
-    .map((item) => {
-      const colonIndex = item.indexOf(":");
-      if (colonIndex <= 0) return null;
-
-      const level = item.substring(0, colonIndex).trim();
-      const details = item.substring(colonIndex + 1).trim();
-      if (!details.includes("₹")) return null;
-
-      return { level, salary: details };
-    })
-    .filter((row): row is { level: string; salary: string } => !!row);
-
-  const infoBullets = section.content.filter((item) => {
-    // Skip empty strings
-    if (!item || !item.trim()) return false;
+  // First, separate all items into salary rows and other content
+  const allSalaryItems: { level: string; salary: string }[] = [];
+  const otherItems: string[] = [];
+  
+  section.content.forEach((item) => {
+    if (!item || !item.trim()) return;
     
-    const colonIndex = item.indexOf(":");
-    if (colonIndex <= 0) return true;
-    const details = item.substring(colonIndex + 1).trim();
-    return !details.includes("₹");
+    // Check if this is a salary item (contains ₹, LPA, or Crore)
+    const hasSalarySymbol = item.includes('₹') || item.toLowerCase().includes('lpa') || item.toLowerCase().includes('crore');
+    
+    if (hasSalarySymbol) {
+      const colonIndex = item.indexOf(':');
+      if (colonIndex > 0) {
+        const level = item.substring(0, colonIndex).trim();
+        const salary = item.substring(colonIndex + 1).trim();
+        allSalaryItems.push({ level, salary });
+      }
+    } else {
+      otherItems.push(item);
+    }
   });
+  
+  // Sort salary items in correct order
+  const parsedRows = allSalaryItems.sort((a, b) => {
+    const aLower = a.level.toLowerCase();
+    const bLower = b.level.toLowerCase();
+    
+    const order = ['cxo', 'senior', 'mid-level', 'mid level', 'junior', 'entry'];
+    const aIndex = order.findIndex(term => aLower.includes(term));
+    const bIndex = order.findIndex(term => bLower.includes(term));
+    
+    if (aIndex === -1) return 1;
+    if (bIndex === -1) return -1;
+    return aIndex - bIndex;
+  });
+
+  const infoBullets = otherItems;
 
   return (
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden border-b border-slate-200">
@@ -358,34 +373,21 @@ function SectionMarketSnapshot({ section, careerName }: { section: CareerGuideSe
         <SectionHeader section={section} light={false} />
 
         {parsedRows.length > 0 && (
-          <div className="overflow-x-auto rounded-xl border border-slate-300 shadow-sm mb-6">
-            <table className="w-full bg-white">
-              <thead>
-                <tr className="bg-slate-100 border-b-2 border-slate-300">
-                  <th className="px-6 py-4 text-left font-semibold text-slate-900 text-base md:text-lg border-r border-slate-300">
-                    Level
-                  </th>
-                  <th className="px-6 py-4 text-left font-semibold text-slate-900 text-base md:text-lg">
-                    Annual Salary Range (INR)
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {parsedRows.map((row, idx) => (
-                  <tr
-                    key={idx}
-                    className={`border-b border-slate-300 ${idx % 2 === 0 ? "bg-white" : "bg-slate-50"}`}
-                  >
-                    <td className="px-6 py-4 font-normal text-slate-900 text-base border-r border-slate-300">
-                      {row.level}
-                    </td>
-                    <td className="px-6 py-4 font-normal text-slate-900 text-base">
-                      {row.salary}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6 mb-8">
+            {parsedRows.map((row, idx) => (
+              <div key={idx} className="bg-white rounded-2xl p-6 border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all group flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
+                      <TrendingUp className="w-5 h-5" />
+                    </div>
+                    <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Tier {idx + 1}</span>
+                  </div>
+                  <h4 className="text-lg font-bold text-slate-900 mb-2 tracking-tight leading-snug">{row.level}</h4>
+                  <div className="text-lg font-semibold text-blue-600 mb-4 tracking-tight">{row.salary}</div>
+                </div>
+              </div>
+            ))}
           </div>
         )}
 
@@ -548,9 +550,17 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
         {/* Note Section -  Full Width */}
         {noteContent && (
           <div className="w-full bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
-            <p className="text-slate-700 text-base leading-relaxed">
-              <span className="font-bold text-slate-900">Note:</span> {noteContent}
-            </p>
+            <div className="text-slate-700 text-base leading-relaxed space-y-2">
+              <span className="font-bold text-slate-900">Note:</span>
+              <div className="space-y-2">
+                {noteContent.split(';').map((part, idx) => {
+                  const trimmedPart = part.trim();
+                  return trimmedPart ? (
+                    <p key={idx}>{trimmedPart}</p>
+                  ) : null;
+                })}
+              </div>
+            </div>
           </div>
         )}
       </div>

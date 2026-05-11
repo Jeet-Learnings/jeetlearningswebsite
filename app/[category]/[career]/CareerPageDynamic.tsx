@@ -524,8 +524,27 @@ export function CareerPageDynamic({
 
         // ── market / salary snapshot ──────────────────────────────────
         if (section.id === 'market' || section.id === 'salary') {
-          const tiers = section.content?.filter((c: string) => c.includes('Tier') || c.includes('Level') || c.includes('Salary:'));
-          const others = section.content?.filter((c: string) => !tiers.includes(c));
+          // Filter for salary tiers - check for salary indicators (₹, LPA, Crore) instead of just "Level"
+          const tiers = section.content?.filter((c: string) => {
+            const lowerC = c.toLowerCase();
+            return (c.includes('₹') || lowerC.includes('lpa') || lowerC.includes('crore')) && 
+                   !lowerC.includes('snapshot') && 
+                   !lowerC.startsWith('note:');
+          });
+          
+          // Sort tiers in correct order: CXO → Senior → Mid-Level → Junior → Entry
+          const sortedTiers = [...(tiers || [])].sort((a, b) => {
+            const aLower = a.toLowerCase();
+            const bLower = b.toLowerCase();
+            const order = ['cxo', 'senior', 'mid-level', 'mid level', 'junior', 'entry'];
+            const aIndex = order.findIndex(term => aLower.includes(term));
+            const bIndex = order.findIndex(term => bLower.includes(term));
+            if (aIndex === -1) return 1;
+            if (bIndex === -1) return -1;
+            return aIndex - bIndex;
+          });
+          
+          const others = section.content?.filter((c: string) => !tiers?.includes(c));
           
           // Find the salary snapshot heading
           const salaryHeadingIdx = others?.findIndex((item: string) => item.toLowerCase().includes('salary snapshot'));
@@ -547,7 +566,7 @@ export function CareerPageDynamic({
                   </p>
                 </div>
 
-                {tiers.length > 0 && (
+                {tiers && tiers.length > 0 && (
                   <div className="mb-12 sm:mb-14 md:mb-16">
                     {salaryHeading && (
                       <div className="mb-6 sm:mb-8">
@@ -565,10 +584,10 @@ export function CareerPageDynamic({
                           </tr>
                         </thead>
                         <tbody>
-                          {tiers.map((tier: string, idx: number) => {
-                            const parts = tier.split(/[:\.]/);
-                            const level = parts[0]?.trim() || '';
-                            const salary = parts[1]?.trim() || '';
+                          {sortedTiers.map((tier: string, idx: number) => {
+                            const colonIdx = tier.indexOf(':');
+                            const level = colonIdx !== -1 ? tier.substring(0, colonIdx).trim() : tier.trim();
+                            const salary = colonIdx !== -1 ? tier.substring(colonIdx + 1).trim() : '';
                             
                             return (
                               <tr key={idx} className="border-b border-slate-100 hover:bg-blue-50 transition-colors group">
@@ -594,14 +613,24 @@ export function CareerPageDynamic({
                         return (
                           <div key={idx} className="p-4 sm:p-5 md:p-6 bg-slate-50 rounded-lg sm:rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all w-full mb-6 sm:mb-8">
                             <h4 className="text-xs sm:text-sm font-bold text-slate-900 uppercase tracking-wider opacity-60 break-words mb-2 sm:mb-3"><TranslatedText as="span">{key}</TranslatedText></h4>
-                            <p className="text-sm sm:text-base text-slate-800 font-medium leading-relaxed break-words"><TranslatedText as="span">{val}</TranslatedText></p>
+                            <div className="text-sm sm:text-base text-slate-800 font-medium leading-relaxed space-y-2">
+                              {val.split(';').map((part, pIdx) => {
+                                const trimmedPart = part.trim();
+                                return trimmedPart ? (
+                                  <div key={pIdx} className="flex gap-2 items-start">
+                                    <span className="text-slate-600 flex-shrink-0 mt-1">•</span>
+                                    <p className="break-words"><TranslatedText as="span">{trimmedPart}</TranslatedText></p>
+                                  </div>
+                                ) : null;
+                              })}
+                            </div>
                           </div>
                         );
                       }
                       return null;
                     })}
                     
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5">
+                    <div className="grid grid-cols-1 gap-3 sm:gap-4 md:gap-5">
                       {otherCards.map((item: string, idx: number) => {
                         const hasColon = item.includes(':');
                         const [key, val] = hasColon ? item.split(':') : [item, ''];
@@ -1091,24 +1120,46 @@ export function CareerPageDynamic({
         // ── market / salary snapshot ───────────────────────────────
         if (section.id === 'market' || section.id === 'salary') {
           // Separate salary rows from notes and headers
-          const salaryRows = section.content?.filter((item: string) =>
-            (item.includes('₹') || item.toLowerCase().includes(' lpa') || item.toLowerCase().includes(' crore')) && 
-            !item.toLowerCase().includes('snapshot') &&
-            !item.toLowerCase().startsWith('note:')
-          ) || [];
+          const salaryRows: string[] = [];
+          const notes: string[] = [];
+          const otherItems: string[] = [];
           
-          const notes = section.content?.filter((item: string) => 
-            item.toLowerCase().startsWith('note:')
-          ) || [];
+          section.content?.forEach((item: string) => {
+            if (!item || !item.trim()) return;
+            
+            const lowerItem = item.toLowerCase();
+            
+            // Check if it's a note
+            if (lowerItem.startsWith('note:')) {
+              notes.push(item);
+              return;
+            }
+            
+            // Check if it's a salary item (has ₹, LPA, or Crore)
+            const hasSalary = item.includes('₹') || lowerItem.includes('lpa') || lowerItem.includes('crore');
+            
+            if (hasSalary && !lowerItem.includes('snapshot') && !lowerItem.includes('salary snapshot')) {
+              salaryRows.push(item);
+            } else if (!lowerItem.includes('snapshot') && !lowerItem.includes('salary snapshot')) {
+              otherItems.push(item);
+            }
+          });
+          
+          // Sort salary rows in correct order: CXO → Senior → Mid-Level → Junior → Entry
+          const sortedSalaryRows = [...salaryRows].sort((a, b) => {
+            const aLower = a.toLowerCase();
+            const bLower = b.toLowerCase();
+            
+            const order = ['CXO', 'senior', 'mid-level', 'mid level', 'junior', 'entry'];
+            const aIndex = order.findIndex(term => aLower.includes(term));
+            const bIndex = order.findIndex(term => bLower.includes(term));
+            
+            if (aIndex === -1) return 1;
+            if (bIndex === -1) return -1;
+            return aIndex - bIndex;
+          });
 
-          const extraRows = section.content?.filter((item: string) =>
-            !salaryRows.includes(item) && 
-            !notes.includes(item) &&
-            !item.toLowerCase().includes('snapshot') &&
-            !item.toLowerCase().includes('where are the jobs') &&
-            !item.toLowerCase().includes('top institutions') &&
-            !item.toLowerCase().includes('career opportunities')
-          ) || [];
+          const extraRows = otherItems;
 
           return (
             <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-slate-50 px-3 sm:px-4 md:px-6 lg:px-8">
@@ -1127,7 +1178,7 @@ export function CareerPageDynamic({
 
                 {salaryRows.length > 0 && (
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6 mb-8 sm:mb-12">
-                    {salaryRows.map((tier: string, idx: number) => {
+                    {sortedSalaryRows.map((tier: string, idx: number) => {
                       const colonIdx = tier.indexOf(':');
                       let level = tier;
                       let details = '';
@@ -1168,21 +1219,32 @@ export function CareerPageDynamic({
 
                 {notes.length > 0 && (
                   <div className="mb-8 space-y-3">
-                    {notes.map((note: string, nIdx: number) => (
-                      <div key={nIdx} className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-5 rounded-r-xl flex gap-3 sm:gap-4 items-start shadow-sm">
-                        <div className="mt-0.5 bg-blue-100 rounded-full p-1">
-                          <Zap className="w-4 h-4 text-blue-600" />
+                    {notes.map((note: string, nIdx: number) => {
+                      // Remove "Note: " prefix if present
+                      const noteText = note.replace(/^note:\s*/i, '');
+                      // Split by semicolon and filter empty parts
+                      const noteParts = noteText.split(';').map(part => part.trim()).filter(part => part);
+                      
+                      return (
+                        <div key={nIdx} className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-5 rounded-r-xl flex gap-3 sm:gap-4 items-start shadow-sm">
+                          <div className="mt-0.5 bg-blue-100 rounded-full p-1">
+                            <Zap className="w-4 h-4 text-blue-600" />
+                          </div>
+                          <div className="text-sm sm:text-base text-blue-900 font-medium leading-relaxed space-y-2">
+                            {noteParts.map((part, pIdx) => (
+                              <p key={pIdx}>
+                                <TranslatedText as="span">{part}</TranslatedText>
+                              </p>
+                            ))}
+                          </div>
                         </div>
-                        <p className="text-sm sm:text-base text-blue-900 font-medium leading-relaxed">
-                          <TranslatedText as="span">{note}</TranslatedText>
-                        </p>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 )}
 
                 {extraRows.length > 0 && (
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+                  <div className="grid grid-cols-1 gap-4 sm:gap-5">
                     {extraRows.map((item: string, idx: number) => {
                       const hasColon = item.includes(':');
                       const colonIdx = item.indexOf(':');

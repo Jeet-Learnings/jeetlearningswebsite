@@ -311,7 +311,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Metro cities pay 40–60% more. Strong demo reel matters more than degree. VFX/3D skills boost salary significantly."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹30 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹14–28 LPA","Mid-Level Professional (5–8 yrs): ₹7–13 LPA","Junior / Associate (3–5 yrs): ₹4–7 LPA","Entry Level (0–2 yrs): ₹2–4 LPA","Note: Metro cities pay 40–60% more; Strong demo reel matters more than degree.; VFX/3D skills boost salary significantly."]
       },
       {
         id: "jobs",
@@ -1278,7 +1278,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Entry-level (Management Trainee): ₹4.5 L –  ₹8.5 L",
           "Mid-level (Production Manager/Buyer): ₹12 L –  ₹25 L",
           "Senior/Leadership (VP Operations/Director): ₹35 L –  ₹65 L+",
-          "Leadership (CHRO/CEO): ₹1.2 Crore+",
+          "CXO/Leadership (CHRO/CEO): ₹1.2 Crore+",
           "Market Growth: The Indian Fashion Tech industry is growing at ~12% annually. By 2030, India is expected to be a global leader in 'Smart Garment' manufacturing."
         ]
       },
@@ -3496,7 +3496,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1 Crore –  ₹50 Crore+","Senior / Lead Role (10+ yrs): ₹25–80 LPA","Mid-Level Professional (5–8 yrs): ₹8–20 LPA","Junior / Associate (3–5 yrs): ₹3–8 LPA","Entry Level (0–2 yrs): ₹1–3 LPA","Note: Income extremely variable; depends on niche/subscribers/brand deals. Consistency and audience engagement matter more than any degree."]
+        content: ["CXO / Top Leadership (15+ yrs): ₹1 Crore –  ₹50 Crore+","Senior / Lead Role (10+ yrs): ₹25–80 LPA","Mid-Level Professional (5–8 yrs): ₹8–20 LPA","Junior / Associate (3–5 yrs): ₹3–8 LPA","Entry Level (0–2 yrs): ₹1–3 LPA","Note: Income extremely variable; depends on niche/subscribers/brand deals. Consistency and audience engagement matter more than any degree."]
       },
       {
         id: "jobs",
@@ -14067,7 +14067,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, cities, and industry growth.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2.0 Crore","Senior / Lead Role (10+ yrs): ₹20 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 –  ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹9 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5 LPA","Note: Metros pay 30% more; UGC-NET/PhD boosts academic pay scales.","Where Are the Jobs?","Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Pune, Kolkata.","Top Industries: Think Tanks, NGOs, Political Consulting, Media, Corporate CSR.","Global Demand: USA, UK, UAE; Rising remote policy research roles."]
+        content: ["CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹2.0 Crore","Senior / Lead Role (10+ yrs): ₹20 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 –  ₹18 LPA","Junior / Associate (3–5 yrs): ₹6 –  ₹9 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5 LPA","Note: Metros pay 30% more; UGC-NET/PhD boosts academic pay scales."]
       },
       {
         id: "jobs",
