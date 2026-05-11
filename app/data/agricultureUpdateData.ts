@@ -41,16 +41,17 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
       },
       {
         id: "dayinlife",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Priya, Agri-Business Manager at ITC",
         icon: "Clock",
-        description: "Real workflow of a professional.",
+        description: "Real workflow of an agri-business professional.",
         color: "#DA1313",
         content: [
-          "8:30 AM –  Morning briefing and planning",
-          "10:30 AM –  Core work activities and analysis",
-          "1:30 PM –  Problem-solving and collaboration",
-          "4:00 PM –  Meetings and strategic planning",
-          "6:00 PM –  Review and preparation for next day"
+          "7:30 AM –  Field Visit & Farmer Engagement: Priya starts her day at a farmer cooperative in rural Maharashtra. She meets with 50+ farmers to understand their crop yield, soil health, and market concerns. She collects soil samples and takes photos of the cotton fields using her smartphone app.",
+          "10:00 AM –  Data Analysis & Market Research: Back at the office, Priya enters the field data into a cloud-based platform. She analyzes cotton prices from the Nagpur mandi, checks global cotton futures, and identifies the best time to procure from farmers. She also reviews competitor pricing from other agri-companies.",
+          "1:00 PM –  Supply Chain Coordination: Priya coordinates with the procurement team, warehouse managers, and logistics partners. She ensures that 500 tons of cotton collected from farmers reaches the processing unit on time. She troubleshoots a delayed shipment and reroutes it via an alternate route.",
+          "3:30 PM –  Client & Stakeholder Meeting: She presents a quarterly report to her manager on farmer retention, procurement costs, and profit margins. She proposes a new 'Organic Cotton' initiative that could increase farmer income by 20% and open premium markets.",
+          "5:00 PM –  Training & Farmer Support: Priya conducts a training session for 30 farmers on 'Sustainable Farming Practices' and 'Digital Payment Systems.' She explains how using drip irrigation can save water and increase yields.",
+          "6:30 PM –  Planning & Documentation: Before leaving, Priya updates her project tracker, sends emails to stakeholders, and plans tomorrow's field visits. She feels satisfied knowing that her work directly impacts the livelihoods of hundreds of farming families."
         ]
       },
       {
@@ -161,6 +162,141 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Conventional: Farm Operations Manager, Agricultural Marketing Officer, Commodity Trading Analyst, Rural Banking &amp; Agri-Credit Officer",
           "New-Age & AI Driven:Precision Agriculture Data Analyst, Agri-Tech Product Manager, Drone-Based Crop Monitoring Specialist, AI-Powered Supply Chain Optimizer",
           "Remote/Entrepreneurship: Agri E-Commerce Platform Founder, Farm-to-Fork Consulting (Freelance), Organic Brand Builder &amp; Online Retailer , Agri-Business Content Creator Advisor"
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Realistic Challenges",
+        icon: "AlertTriangle",
+        description: "The hard truths of the profession.",
+        color: "#C20000",
+        content: [
+          "Seasonal Volatility: Agricultural markets are highly seasonal; income and workload fluctuate dramatically between harvest and off-seasons.",
+          "Weather Dependency: Crop failures due to unexpected weather can disrupt entire supply chains and business plans.",
+          "Farmer Resistance: Convincing traditional farmers to adopt new practices or technologies requires patience, cultural sensitivity, and trust-building.",
+          "Thin Margins: Agri-business operates on thin profit margins; small inefficiencies can lead to significant losses.",
+          "Infrastructure Challenges: Poor rural infrastructure, limited cold storage, and inadequate transportation networks complicate operations.",
+          "Regulatory Complexity: Navigating agricultural policies, export regulations, and subsidy schemes requires constant attention.",
+          "Market Unpredictability: Global commodity prices, trade policies, and market demand can shift rapidly.",
+          "Field Work Demands: Regular field visits mean exposure to harsh weather, long hours, and remote locations."
+        ]
+      },
+      {
+        id: "trends",
+        title: "Emerging Trends (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in agri-business.",
+        color: "#DA1313",
+        content: [
+          "AgriTech Revolution: AI-powered crop monitoring, blockchain for supply chain transparency, and IoT sensors for real-time farm data.",
+          "Direct-to-Consumer Models: Farm-to-table platforms eliminating middlemen and increasing farmer income by 30–50%.",
+          "Precision Agriculture: Data-driven farming using drones, satellites, and sensors to optimize inputs and maximize yields.",
+          "Organic & Sustainable Farming: Growing demand for organic, pesticide-free, and environmentally sustainable produce.",
+          "Climate-Smart Agriculture: Developing drought-resistant crops and water-efficient farming methods to combat climate change.",
+          "Vertical & Indoor Farming: Urban farming solutions reducing transportation costs and ensuring year-round production.",
+          "Agri-Finance Innovation: Digital lending platforms providing quick credit to farmers without collateral.",
+          "Export-Oriented Agriculture: India's growing role in global agri-exports, especially organic and specialty crops."
+        ]
+      },
+      {
+        id: "skills",
+        title: "Core Skills Required",
+        icon: "Brain",
+        description: "Technical and soft skills for success.",
+        color: "#C20000",
+        content: [
+          "Data Analysis: Excel, Python, SQL for market analysis and supply chain optimization.",
+          "Supply Chain Management: Understanding logistics, inventory, and procurement processes.",
+          "Agricultural Knowledge: Basic understanding of crop cycles, soil health, and farming practices.",
+          "Communication: Ability to bridge the gap between farmers, corporate teams, and stakeholders.",
+          "Problem-Solving: Quick decision-making in unpredictable situations.",
+          "Digital Tools: Familiarity with ERP systems, CRM software, and agri-tech platforms.",
+          "Financial Acumen: Understanding profit margins, cost analysis, and business metrics.",
+          "Negotiation: Skill in negotiating prices with farmers and buyers.",
+          "Project Management: Coordinating multiple initiatives across teams and locations.",
+          "Sustainability Mindset: Understanding environmental impact and sustainable practices."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Certifications & Bodies",
+        icon: "Award",
+        description: "Credentials to boost your career.",
+        color: "#DA1313",
+        content: [
+          "APEDA (Agricultural & Processed Food Products Export Development Authority): Certification for export-quality produce.",
+          "ISO 9001 & ISO 22000: Quality management and food safety certifications.",
+          "Organic Certification: NPOP (National Programme for Organic Production) certification for organic farming.",
+          "Supply Chain Certifications: APICS CSCP (Certified Supply Chain Professional).",
+          "Digital Agriculture Certifications: Coursera, edX courses on precision agriculture and agri-tech.",
+          "MBA in Agri-Business: From institutions like IIM, MANAGE, or IRMA.",
+          "Professional Bodies: Indian Society of Agribusiness Professionals (ISAP), Agricultural Produce Export Development Authority."
+        ]
+      },
+      {
+        id: "companies",
+        title: "Top Employers in India",
+        icon: "Building2",
+        description: "Leading companies hiring agri-business professionals.",
+        color: "#C20000",
+        content: [
+          "Agri Corporates: ITC Limited, Mahindra Agri, Syngenta, Bayer CropScience, BASF India.",
+          "FMCG & Food Processing: Nestlé, Britannia, Amul, Mother Dairy, Hindustan Unilever.",
+          "AgriTech Startups: DeHaat, Ninjacart, AgroStar, Farmizen, Waycool Foods.",
+          "Retail & E-Commerce: BigBasket, Grofers, Amazon Fresh, Flipkart.",
+          "Financial Services: NABARD, ICICI Bank (Agri-Finance), HDFC Bank, Axis Bank.",
+          "Government & NGOs: Ministry of Agriculture, ICAR, ATMA, NGOs focused on rural development.",
+          "Export Companies: Spice exporters, fruit & vegetable exporters, organic product companies."
+        ]
+      },
+      {
+        id: "starttoday",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: "#DA1313",
+        content: [
+          "Learn Excel & Data Analysis: Master spreadsheets for analyzing agricultural data.",
+          "Visit Local Mandis: Understand how agricultural markets work and price fluctuations.",
+          "Read Agricultural News: Follow publications like The Hindu's agriculture section, Krishi Jagran.",
+          "Learn Basic Coding: Python or SQL for data analysis in agri-tech.",
+          "Volunteer with NGOs: Work with organizations focused on rural development and sustainable farming.",
+          "Start a Small Farm Project: Grow vegetables or fruits in your backyard or community garden.",
+          "Understand Supply Chains: Learn how products move from farm to table.",
+          "Follow Agri-Tech Companies: Stay updated on innovations in the sector."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Agri-Business",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Siddharth Jain (DeHaat Founder): Revolutionized agri-tech by connecting farmers directly to markets, eliminating middlemen.",
+          "Sanjeev Krishnan (Ninjacart Founder): Built a supply chain platform that ensures fresh produce reaches consumers within 24 hours.",
+          "Harish Hande (Founder, SELCO): Pioneer in solar energy for agriculture, providing affordable renewable energy to farmers.",
+          "Radhika Reddy (AgroStar Founder): Created a digital platform providing farmers with real-time market prices and agricultural advice.",
+          "Binny Bansal (Flipkart Co-founder): Expanded into agri-commerce, bringing farm-fresh products to urban consumers.",
+          "Anil Rai Gupta (Founder, Husk Power Systems): Innovator in converting agricultural waste into renewable energy.",
+          "Namita Nandal (Founder, Waycool Foods): Built a farm-to-consumer platform ensuring fair prices for farmers and fresh produce for consumers."
+        ]
+      },
+      {
+        id: "global",
+        title: "Global Opportunities & International Scope",
+        icon: "Globe",
+        description: "Career prospects beyond India.",
+        color: "#DA1313",
+        content: [
+          "USA: High demand for agri-business professionals in commodity trading, agricultural finance, and farm management.",
+          "Netherlands: Global hub for agricultural innovation; opportunities in precision farming and agri-tech.",
+          "Australia: Large-scale farming operations and agricultural exports; demand for supply chain and business management professionals.",
+          "Brazil: Major agricultural exporter; opportunities in commodity trading and agri-business management.",
+          "Africa: Growing agri-tech sector with opportunities for consultants and business development professionals.",
+          "Middle East: Demand for agricultural imports and agri-business consultants.",
+          "Remote Work: Many agri-tech companies offer remote positions for market analysis, data analytics, and business consulting.",
+          "International Organizations: FAO, World Bank, CGIAR offer opportunities in agricultural development and policy."
         ]
       }
     ]
