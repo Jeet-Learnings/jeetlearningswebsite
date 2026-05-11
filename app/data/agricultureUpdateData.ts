@@ -3301,7 +3301,7 @@ export const animalScienceData: CareerPageData = {
         "1:00 PM –  Quality Control: She collects milk samples and sends them to the lab for testing—fat content, protein, somatic cell count, and bacterial load. She ensures the farm meets international dairy standards.",
         "3:30 PM –  Training & Documentation: She conducts a training session for farm workers on proper milking hygiene and animal handling. She updates the farm's digital records and prepares a weekly report on production metrics.",
         "5:30 PM –  Problem-Solving: A cow shows signs of low milk production. Priya investigates—checking feed quality, water availability, and stress levels. She recommends dietary adjustments and veterinary consultation if needed.",
-        "6:30 PM –  Planning Tomorrow: Before leaving, Priya reviews tomorrow's schedule—vaccinations, breeding cycles, and feed deliveries. She feels satisfied knowing her work ensures nutritious milk for thousands of families."
+        "6:30 PM –  Planning Tomorrow: Before leaving, Priya reviews tomorrow's schedule vaccinations, breeding cycles, and feed deliveries. She feels satisfied knowing her work ensures nutritious milk for thousands of families."
       ]
     },
     {

@@ -108,28 +108,34 @@ export function CostBreakdown({
                 {/* Expanded panel */}
                 {isOpen && (
                   <div className="px-4 sm:px-5 pt-3 pb-5 border-t border-slate-100">
-                    {/* Amount pill */}
-                    <div className="mb-4">
-                      <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest block mb-1">
-                        Estimated Cost
-                      </span>
-                      <span className="text-sm sm:text-base text-slate-700">
-                        {item.amount}
-                      </span>
+                    {/* Amount with icon alignment */}
+                    <div className="flex items-start gap-3 sm:gap-4 mb-4">
+                      <div className="w-11 h-11 sm:w-12 sm:h-12 flex-shrink-0" />
+                      <div>
+                        <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest block mb-1">
+                          Estimated Cost
+                        </span>
+                        <span className="text-sm sm:text-base font-semibold text-blue-600">
+                          {item.amount}
+                        </span>
+                      </div>
                     </div>
 
                     {/* Detail bullets */}
                     {item.details && item.details.length > 0 && (
-                      <ul className="space-y-2">
-                        {item.details.map((detail: string, i: number) => (
-                          <li key={i} className="flex items-start gap-2.5">
-                            <span className="mt-2 w-1.5 h-1.5 rounded-full bg-slate-300 flex-shrink-0" />
-                            <span className="text-xs sm:text-sm text-slate-500 leading-relaxed">
-                              <TranslatedText>{detail}</TranslatedText>
-                            </span>
-                          </li>
-                        ))}
-                      </ul>
+                      <div className="flex gap-3 sm:gap-4">
+                        <div className="w-11 h-11 sm:w-12 sm:h-12 flex-shrink-0" />
+                        <ul className="space-y-2 flex-1">
+                          {item.details.map((detail: string, i: number) => (
+                            <li key={i} className="flex items-start gap-2.5">
+                              <span className="mt-2 w-1.5 h-1.5 rounded-full bg-slate-300 flex-shrink-0" />
+                              <span className="text-xs sm:text-sm text-slate-500 leading-relaxed">
+                                <TranslatedText>{detail}</TranslatedText>
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     )}
                   </div>
                 )}

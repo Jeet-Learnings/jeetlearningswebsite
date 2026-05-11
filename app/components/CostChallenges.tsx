@@ -65,13 +65,13 @@ export function CostChallenges({
               }}
             >
               {/* Title */}
-              <h3 className="text-lg font-bold text-slate-900 mb-2">
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
                 {challenge.title}
               </h3>
 
               {/* Content */}
               {challenge.content && (
-                <p className="text-slate-600 text-base leading-relaxed">
+                <p className="text-slate-600 text-sm leading-relaxed font-medium">
                   {challenge.content}
                 </p>
               )}

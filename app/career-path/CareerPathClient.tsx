@@ -186,25 +186,6 @@ export default function CareerPathClient() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-8 bg-slate-50">
-        <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            <TranslatedText as="span">Ready to Explore Your Career Path?</TranslatedText>
-          </h2>
-          <p className="text-base sm:text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-            <TranslatedText>Start your journey today and discover the career that's right for you.</TranslatedText>
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              <TranslatedText as="span">Get Started</TranslatedText>
-            </button>
-            <button className="border-2 border-slate-300 text-slate-900 px-8 py-4 rounded-lg font-semibold hover:border-slate-400 hover:bg-slate-50 transition-colors">
-              <TranslatedText as="span">Learn More</TranslatedText>
-            </button>
-          </div>
-        </div>
-      </section>
 
       <style jsx>{`
         @keyframes fadeInUp {

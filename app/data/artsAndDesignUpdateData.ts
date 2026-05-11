@@ -3496,7 +3496,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Salaries, growth, and opportunities.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1 Crore –  ₹50 Crore+","Senior / Lead Role (10+ yrs): ₹25–80 LPA","Mid-Level Professional (5–8 yrs): ₹8–20 LPA","Junior / Associate (3–5 yrs): ₹3–8 LPA","Entry Level (0–2 yrs): ₹0.5–3 LPA","Note: Income extremely variable; depends on niche/subscribers/brand deals. Consistency and audience engagement matter more than any degree."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1 Crore –  ₹50 Crore+","Senior / Lead Role (10+ yrs): ₹25–80 LPA","Mid-Level Professional (5–8 yrs): ₹8–20 LPA","Junior / Associate (3–5 yrs): ₹3–8 LPA","Entry Level (0–2 yrs): ₹1–3 LPA","Note: Income extremely variable; depends on niche/subscribers/brand deals. Consistency and audience engagement matter more than any degree."]
       },
       {
         id: "jobs",

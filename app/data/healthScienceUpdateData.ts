@@ -3963,7 +3963,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         color: "#EC4899",
         content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹50 LPA –  ₹1.5 Crore","Senior / Lead Role (10+ yrs): ₹20 –  ₹45 LPA","Mid-Level Professional (5–8 yrs): ₹10 –  ₹18 LPA","Junior / Associate (3–5 yrs): ₹5 –  ₹9 LPA","Entry Level (0–2 yrs): ₹3 –  ₹5 LPA","Note: Metros pay 30% more; RCI license/M.Phil boosts earnings significantly.","Where Are the Jobs?","Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, Pune, Chennai.","Top Industries: Private Hospitals, Corporate Wellness, Health-tech, NGOs, Rehabilitation.","Global Demand: High remote tele-therapy demand in USA, UK, UAE.","Top Institutions","Career Opportunities","Conventional","Hospital Clinical Psychologist","Rehabilitation Psychologist","Child and Adolescent Psychologist","Academic / Teaching Psychologist","New-age and AI driven","Tele-mental Health Psychologist","Digital Mental Health Specialist","Behavioral Science Researcher","AI Ethics and Mental Health Research Associate","Remote/Entrepreneurship","Private Practice Therapist","Online Counselling Consultant","Mental Health Content Creator","Corporate Wellness Entrepreneur"]
       },{
-        id: "cost-breakdown",
+        id: "cost",
         title: "What Will It Cost? (Fees & Duration)",
         icon: "DollarSign",
         description: "Educational expenses and course duration.",
@@ -4223,7 +4223,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Market Growth: Indian mental health market growing at 28% CAGR. Explosive demand post-COVID."
         ]
       },{
-        id: "cost-breakdown",
+        id: "cost",
         title: "What Will It Cost? (Fees & Duration)",
         icon: "DollarSign",
         description: "Educational expenses and course duration.",
