@@ -3377,7 +3377,7 @@ export const animalScienceData: CareerPageData = {
         "Senior / Lead Role (10+ yrs): ₹12–35 LPA",
         "Mid-Level Professional (5–8 yrs): ₹6–18 LPA",
         "Junior / Associate (3–5 yrs): ₹4–10 LPA",
-        "Entry Level (0–2 yrs): ₹2.5–6 LPA",
+        "Entry Level (0–2 yrs): ₹2–6 LPA",
         "Note: Dairy sector pays 20–40% higher; skills in precision livestock farming and genetics boost salary by 25–50%."
       ]
     },
