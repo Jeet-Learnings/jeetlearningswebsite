@@ -10007,7 +10007,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹25 –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 –  ₹11 LPA","Entry Level (0–2 yrs): ₹4 –  ₹7 LPA Note: Metros and APICS/CSCP certifications boost pay by 30%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Chennai, Hyderabad, Pune.","Top Industries: E-commerce, FMCG, Manufacturing, Pharmaceuticals, Retail, Logistics.","Global Demand: High in USA, UAE, Germany. Remote AI-planning growing."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹25 –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹12 –  ₹24 LPA","Junior / Associate (3–5 yrs): ₹7 –  ₹11 LPA","Entry Level (0–2 yrs): ₹4 –  ₹7 LPA "," Note: Metros and APICS/CSCP certifications boost pay by 30%.","Where Are the Jobs?","Top Cities: Bengaluru, Mumbai, Delhi-NCR, Chennai, Hyderabad, Pune.","Top Industries: E-commerce, FMCG, Manufacturing, Pharmaceuticals, Retail, Logistics.","Global Demand: High in USA, UAE, Germany. Remote AI-planning growing."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -10909,7 +10909,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Crore –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 LPA –  ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹18 LPA –  ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹16 LPA","Entry Level (0–2 yrs): ₹4.5 LPA –  ₹9 LPA","Note: VLSI and Embedded Systems skills offer 50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Noida, Chennai, Pune, Ahmedabad.","Top Industries: Semiconductors, 6G Telecom, Robotics, Automotive, Defence.","Global Demand: High demand in Taiwan, Germany, USA, Japan."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Crore –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 LPA –  ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹18 LPA –  ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹16 LPA","Entry Level (0–2 yrs): ₹4 LPA –  ₹9 LPA","Note: VLSI and Embedded Systems skills offer 50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Noida, Chennai, Pune, Ahmedabad.","Top Industries: Semiconductors, 6G Telecom, Robotics, Automotive, Defence.","Global Demand: High demand in Taiwan, Germany, USA, Japan."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -11130,7 +11130,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1 Crore –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA –  ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 LPA –  ₹28 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹14 LPA","Entry Level (0–2 yrs): ₹4 LPA –  ₹7.5 LPA","Note: Metros and GeoAI skills offer 30–40% salary premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Noida, Pune, Mumbai, Chennai.","Top Industries: IT, Telecom, Urban Planning, Logistics, Agriculture, Defense.","Global Demand: Remote roles in USA, UAE, Europe; freelance rising."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1 Crore –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA –  ₹65 LPA","Mid-Level Professional (5–8 yrs): ₹15 LPA –  ₹28 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹14 LPA","Entry Level (0–2 yrs): ₹4 LPA –  ₹7LPA","Note: Metros and GeoAI skills offer 30–40% salary premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Noida, Pune, Mumbai, Chennai.","Top Industries: IT, Telecom, Urban Planning, Logistics, Agriculture, Defense.","Global Demand: Remote roles in USA, UAE, Europe; freelance rising."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -11572,7 +11572,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA –  ₹30 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹16 LPA","Entry Level (0–2 yrs): ₹4.5 LPA –  ₹9 LPA","Note: Metros and specialized Domain/Agile skills add 30–50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Mumbai, Pune.","Top Industries: BFSI, IT Services, Healthcare, E-commerce.","Global Demand: Remote roles in USA, Europe, and UAE."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹60 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹30 LPA –  ₹55 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA –  ₹30 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹16 LPA","Entry Level (0–2 yrs): ₹4 LPA","Tier-1 cities and Flutter/React Native skills add 40% premium LPA –  ₹9 LPA","Note: Metros and specialized Domain/Agile skills add 30–50% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Mumbai, Pune.","Top Industries: BFSI, IT Services, Healthcare, E-commerce.","Global Demand: Remote roles in USA, Europe, and UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -11793,7 +11793,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Cr –  ₹3.2 Cr","Senior / Lead Role (10+ yrs): ₹40 LPA –  ₹85 LPA","Mid-Level Professional (5–8 yrs): ₹18 LPA –  ₹38 LPA","Junior / Associate (3–5 yrs): ₹9 LPA –  ₹17 LPA","Entry Level (0–2 yrs): ₹4.5 LPA –  ₹8.5 LPA","Note: Metros and 5G/Edge AI skills add 40% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Mumbai, Gurgaon, Noida.","Top Industries: Manufacturing, Automotive, Healthcare, Smart Cities.","Global Demand: Remote roles in USA, UAE, and Europe."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹1.2 Cr –  ₹3.2 Cr","Senior / Lead Role (10+ yrs): ₹40 LPA –  ₹85 LPA","Mid-Level Professional (5–8 yrs): ₹18 LPA –  ₹38 LPA","Junior / Associate (3–5 yrs): ₹9 LPA –  ₹17 LPA","Entry Level (0–2 yrs): ₹4 LPA –  ₹8 LPA","Note: Metros and 5G/Edge AI skills add 40% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Pune, Mumbai, Gurgaon, Noida.","Top Industries: Manufacturing, Automotive, Healthcare, Smart Cities.","Global Demand: Remote roles in USA, UAE, and Europe."]
       },{
         id: "costs",
         title: "What Will It Cost?",
@@ -12014,7 +12014,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         icon: "TrendingUp",
         description: "Market size, salaries, and industry trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 LPA –  ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA –  ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹15 LPA","Entry Level (0–2 yrs): ₹4.5 LPA –  ₹8 LPA","Note: Tier-1 cities and Flutter/React Native skills add 40% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Pune, Mumbai, Chennai.","Top Industries: Fintech, E-commerce, Healthcare, Gaming, EdTech.","Global Demand: High remote demand in USA, Europe, and UAE."]
+        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹80 LPA –  ₹2.5 Crore","Senior / Lead Role (10+ yrs): ₹35 LPA –  ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹16 LPA –  ₹32 LPA","Junior / Associate (3–5 yrs): ₹8 LPA –  ₹15 LPA","Entry Level (0–2 yrs): ₹4 LPA –  ₹8 LPA","Note : Tier-1 cities and Flutter/React Native skills add 40% premium.","Where Are the Jobs?","Top Cities: Bengaluru, Hyderabad, Gurgaon, Pune, Mumbai, Chennai.","Top Industries: Fintech, E-commerce, Healthcare, Gaming, EdTech.","Global Demand: High remote demand in USA, Europe, and UAE."]
       },{
         id: "costs",
         title: "What Will It Cost?",
