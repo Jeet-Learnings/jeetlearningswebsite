@@ -777,7 +777,7 @@ export const legalServicesUpdateData: Record<string, CareerPageData> = {
           "District Judge: Presiding over district-level cases.",
           "High Court Judge: Hearing appellate cases and constitutional matters.",
           "Supreme Court Judge: Deciding cases of national importance.",
-          "Tribunal Member: Adjudicating specialized disputes (tax, labor, etc.).",
+          "Tribunal Member: Adjudicating specialized disputes (tax labor, etc.).",
            
           "Specialized Roles:",
           "Constitutional Court Judge: Focusing on constitutional law.",

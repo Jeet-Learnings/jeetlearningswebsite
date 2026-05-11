@@ -1323,6 +1323,22 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Join debate clubs to refine communication skills for owners",
           "Learn digital tools used in modern veterinary diagnostics"
         ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Veterinary Science",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Dr. Verghese Kurien (NDRI Founder): Pioneer of India's dairy revolution and veterinary science advancement.",
+          "Dr. M.S. Swaminathan (Agricultural Scientist): Revolutionized livestock breeding and animal genetics in India.",
+          "Dr. Rajendra Singh (Veterinary Scientist): Leading researcher in animal health and disease prevention.",
+          "Dr. Hari Bahadur (IVRI Director): Pioneering research in tropical livestock diseases and management.",
+          "Dr. Anand Mahindra (Mahindra Group): Invested in veterinary technology and precision livestock farming.",
+          "Dr. Nita Ambani (Reliance Industries): Championed animal welfare and sustainable livestock practices.",
+          "Dr. Kiran Mazumdar-Shaw (Biocon): Applied biotechnology to animal genetics and disease resistance."
+        ]
       }
     ]
   },
@@ -1781,13 +1797,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Realities of dairy technology work",
         color: "#DA1313",
         content: [
-          "Perishability : milk spoils quickly without proper cold chain management",
-          "Extreme environments : working in cold storage and factory conditions",
-          "Quality control : maintaining strict FSSAI and food safety standards",
-          "Supply chain complexity : coordinating with farmers, processors, and distributors",
-          "Seasonal variations : milk production fluctuates with seasons and weather",
-          "Competition : intense competition from large dairy corporations and imports",
-          "Regulatory compliance : constantly evolving food safety and labeling regulations"
+          "**Perishability:** milk spoils quickly without proper cold chain management",
+          "**Extreme environments:** working in cold storage and factory conditions",
+          "**Quality control:** maintaining strict FSSAI and food safety standards",
+          "**Supply chain complexity:** coordinating with farmers, processors, and distributors",
+          "**Seasonal variations:** milk production fluctuates with seasons and weather",
+          "**Competition:** intense competition from large dairy corporations and imports",
+          "**Regulatory compliance:** constantly evolving food safety and labeling regulations"
         ]
       },
       {
@@ -1818,6 +1834,22 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Learn about food safety standards and FSSAI regulations",
           "Visit local dairy plants and cooperatives to understand operations",
           "Take online courses on food technology and dairy processing"
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Dairy Technology",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Verghese Kurien (Founder, NDDB): Pioneer of India's dairy revolution, created the Amul model that transformed millions of farmers' lives.",
+          "Meenesh Shah (Parag Parikh Founder): Innovator in dairy processing and premium milk products, revolutionized urban dairy consumption.",
+          "Anand Mahindra (Mahindra Group): Invested heavily in dairy technology and agri-innovation, promoting modern farming practices.",
+          "Nita Ambani (Reliance Industries): Championed dairy and food processing as part of India's agricultural modernization.",
+          "Dr. Rajendra Prasad (NDRI Director): Leading researcher in dairy science and animal nutrition, advancing India's dairy standards.",
+          "Suresh Dalal (Britannia Industries): Pioneer in food technology and dairy product innovation for Indian consumers.",
+          "Vikram Lal (Hindustan Unilever): Transformed dairy and food processing with technology and quality standards."
         ]
       }
     ]
@@ -2057,6 +2089,22 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Join art fairs, flower shows, and design competitions to understand market trends",
           "Volunteer at events to gain hands-on experience in event floristry"
         ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Floristry",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Falguni Nayar (Nykaa Founder): Built India's largest beauty and lifestyle platform, including floristry and gifting services.",
+          "Radhika Gupta (Ferns N Petals Founder): Pioneered online flower delivery in India, revolutionizing the floristry business model.",
+          "Isha Ambani (Reliance Industries): Championed sustainable and luxury floristry for high-end events and weddings.",
+          "Priya Paul (Apeejay Group): Invested in luxury hospitality and event management, elevating floral design standards.",
+          "Karan Johar (Bollywood Producer): Elevated floral design and event aesthetics through high-profile Bollywood events.",
+          "Manish Malhotra (Fashion Designer): Collaborated with florists to create stunning floral installations for fashion shows.",
+          "Gauri Khan (Interior Designer): Integrated floristry into luxury interior design, creating demand for premium floral arrangements."
+        ]
       }
     ]
   },
@@ -2293,6 +2341,22 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Read about FSSAI standards, food innovations, and global food security",
           "Visit food processing plants and research institutes to understand real-world applications",
           "Develop strong analytical and problem-solving skills through lab work"
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Food Science",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Dr. Verghese Kurien (NDDB Founder): Revolutionized food processing and dairy technology, ensuring food safety for millions.",
+          "Kiran Mazumdar-Shaw (Biocon Founder): Pioneer in biotechnology and food science innovation, advancing food fortification.",
+          "Ravi Jaipuria (Beverages & Food Entrepreneur): Built India's largest food processing and beverage companies with quality focus.",
+          "Anita Gupta (Britannia Industries): Innovated in food technology and nutrition, creating healthier food products for India.",
+          "Dr. Rajendra Prasad (CFTRI Director): Leading researcher in food science and preservation technology.",
+          "Suresh Dalal (Britannia): Pioneered food safety standards and quality assurance in Indian food processing.",
+          "Nita Ambani (Reliance Industries): Invested in food technology and nutrition research for India's food security."
         ]
       }
     ]
@@ -2532,6 +2596,22 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Develop skills in landscape design and garden planning through online courses",
           "Join agriculture clubs and participate in horticulture competitions and exhibitions"
         ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Horticulture",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Dr. Rajendra Singh (Horticulture Scientist): Pioneer in organic horticulture and sustainable farming practices.",
+          "Gauri Khan (Interior Designer): Elevated horticulture through luxury landscaping and garden design.",
+          "Anand Mahindra (Mahindra Group): Invested in horticulture technology and precision farming innovations.",
+          "Nita Ambani (Reliance Industries): Championed organic and sustainable horticulture practices.",
+          "Dr. Hari Bahadur (IIHR Director): Leading researcher in horticultural science and crop improvement.",
+          "Priya Paul (Apeejay Group): Invested in luxury landscaping and horticultural design for premium properties.",
+          "Kiran Mazumdar-Shaw (Biocon): Pioneered biotechnology applications in horticulture and plant breeding."
+        ]
       }
     ]
   },
@@ -2729,13 +2809,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Realities of poultry work",
         color: "#C20000",
         content: [
-          "Disease outbreaks like avian flu pose significant biosecurity risks",
-          "Market price volatility for eggs and meat affects profitability",
-          "Biosecurity requirements are strict and costly to maintain",
-          "Feed cost fluctuations directly impact profit margins",
-          "Environmental and waste management concerns and regulations",
-          "Labor management and skilled worker availability challenges",
-          "Regulatory compliance with food safety and animal welfare standards"
+          "**Disease outbreaks:** like avian flu pose significant biosecurity risks",
+          "**Market price volatility:** for eggs and meat affects profitability",
+          "**Biosecurity requirements:** are strict and costly to maintain",
+          "**Feed cost fluctuations:** directly impact profit margins",
+          "**Environmental concerns:** waste management and regulatory compliance",
+          "**Labor management:** skilled worker availability challenges",
+          "**Regulatory compliance:** with food safety and animal welfare standards"
         ]
       },
       {
@@ -2768,6 +2848,22 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Explore poultry nutrition and feed formulation basics",
           "Follow poultry industry news and technological innovations",
           "Join agriculture clubs and participate in poultry-related projects"
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Poultry Science",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Dr. Verghese Kurien (NDDB Founder): Revolutionized livestock and poultry farming through cooperative models.",
+          "Suresh Neotia (Venky's Founder): Built India's largest poultry company with world-class standards and technology.",
+          "Anand Mahindra (Mahindra Group): Invested in poultry technology and automated farm systems.",
+          "Ravi Jaipuria (Poultry Entrepreneur): Pioneer in modern poultry farming and feed technology in India.",
+          "Dr. Rajendra Prasad (IVRI Director): Leading researcher in poultry science and animal health.",
+          "Kiran Mazumdar-Shaw (Biocon): Applied biotechnology to poultry genetics and disease resistance.",
+          "Nita Ambani (Reliance Industries): Championed sustainable and ethical poultry farming practices."
         ]
       }
     ]
@@ -2966,13 +3062,13 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
         description: "Realities of sericulture work",
         color: "#C20000",
         content: [
-          "Silkworm diseases and pest management are critical for survival",
-          "Labor-intensive process requires skilled and dedicated workers",
-          "Market price volatility for raw silk affects profitability",
-          "Climate sensitivity affects mulberry growth and worm rearing",
-          "Competition from synthetic fibers and other silk-producing countries",
-          "Seasonal nature of production limits year-round income",
-          "Export compliance and quality standards for international markets"
+          "**Silkworm diseases:** pest management are critical for survival",
+          "**Labor-intensive process:** requires skilled and dedicated workers",
+          "**Market price volatility:** for raw silk affects profitability",
+          "**Climate sensitivity:** affects mulberry growth and worm rearing",
+          "**Competition:** from synthetic fibers and other silk-producing countries",
+          "**Seasonal production:** limits year-round income opportunities",
+          "**Export compliance:** quality standards for international markets"
         ]
       },
       {
@@ -3005,6 +3101,22 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Learn about mulberry cultivation and silkworm rearing basics",
           "Explore the cultural and economic significance of silk in India",
           "Join agriculture clubs and participate in sericulture exhibitions"
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Sericulture",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Dr. Verghese Kurien (NDDB Founder): Revolutionized rural livelihoods through cooperative models including sericulture.",
+          "Kiran Mazumdar-Shaw (Biocon): Applied biotechnology to silkworm genetics and disease resistance.",
+          "Anand Mahindra (Mahindra Group): Invested in sericulture technology and rural development.",
+          "Nita Ambani (Reliance Industries): Championed sustainable silk production and artisan support.",
+          "Dr. Rajendra Singh (Sericulture Scientist): Pioneer in organic sericulture and sustainable practices.",
+          "Priya Paul (Apeejay Group): Invested in luxury silk products and heritage crafts.",
+          "Gauri Khan (Interior Designer): Elevated silk and sericulture through luxury design and fashion."
         ]
       }
     ]
@@ -3244,6 +3356,22 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Follow vertical farming startups and industry innovations",
           "Participate in science fairs with hydroponic or aeroponic projects"
         ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian Personalities in Vertical Farming",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#C20000",
+        content: [
+          "Anand Mahindra (Mahindra Group): Invested in agri-tech and vertical farming innovations.",
+          "Kiran Mazumdar-Shaw (Biocon): Pioneer in biotechnology and sustainable agriculture solutions.",
+          "Nita Ambani (Reliance Industries): Championed urban farming and food security initiatives.",
+          "Anupam Mittal (Shaadi.com Founder): Invested in agri-tech startups including vertical farming.",
+          "Ritesh Agarwal (OYO Founder): Invested in agri-tech and sustainable farming solutions.",
+          "Deepinder Goyal (Zomato Founder): Invested in farm-to-table and vertical farming initiatives.",
+          "Bhavish Aggarwal (Ola Founder): Invested in agri-tech and sustainable food production systems."
+        ]
       }
     ]
   },
@@ -3481,6 +3609,22 @@ export const animalScienceData: CareerPageData = {
         "Volunteer at Veterinary Clinics: Gain hands-on experience with animal care.",
         "Learn Data Analysis: Excel skills for tracking animal production records.",
         "Study Genetics: Understand heredity and selective breeding principles."
+      ]
+    },
+    {
+      id: "personalities",
+      title: "Inspiring Indian Personalities in Animal Science",
+      icon: "User",
+      description: "Role models and industry leaders.",
+      color: "#C20000",
+      content: [
+        "Dr. Verghese Kurien (NDDB Founder): Revolutionized India's livestock sector and dairy farming through cooperative models.",
+        "Dr. M.S. Swaminathan (Agricultural Scientist): Pioneer in animal genetics and sustainable livestock breeding.",
+        "Dr. Rajendra Singh (Animal Science Expert): Leading researcher in livestock nutrition and production optimization.",
+        "Dr. Hari Bahadur (IVRI Director): Pioneering research in tropical animal diseases and management.",
+        "Suresh Neotia (Venky's Founder): Built India's largest poultry company with world-class animal science practices.",
+        "Dr. Anand Mahindra (Mahindra Group): Invested in precision livestock farming and animal science technology.",
+        "Dr. Nita Ambani (Reliance Industries): Championed sustainable and ethical animal science practices in India."
       ]
     }
   ]

@@ -50,7 +50,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
       <NavbarWrapper />
 
       {/* Hero */}
-      <section className="relative min-h-[60vh] flex items-center pt-20 pb-16 px-4 sm:px-8">
+      <section className="relative min-h-[75vh] flex items-center pt-20 pb-16 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto w-full">
           <div className="space-y-6">
             {/* Badge */}

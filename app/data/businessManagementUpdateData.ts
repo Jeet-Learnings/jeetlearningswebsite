@@ -7,7 +7,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
   bpo: {
     slug: "bpo",
     badge: "The Global Engine for Class 10+",
-    heading: "Business Process Outsourcing (BPO)",
+    heading: "BUSINESS PROCESS OUTSOURCING (BPO)",
     subheading: "Connect the world. Solve problems across continents. Build careers in India's $45B export powerhouse. ₹3L–₹55L+ salaries with 13% CAGR growth.",
     whyCards: [
       { icon: "Globe", title: "$45B Export Value by 2026", description: "India's BPO sector reaching $45B by late 2026. Millions of jobs. Global companies depend on Indian talent.", borderColor: "#10B981" },

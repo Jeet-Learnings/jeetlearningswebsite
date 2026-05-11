@@ -1826,6 +1826,153 @@ export const careerVideos: Record<string, CareerVideo[]> = {
       url: "https://www.youtube.com/embed/5cnYYUp2feU",
     },
   ],
+  apiculture: [
+  {
+    id: 1,
+    title: "Apiculture Career Overview - The Science of Bees",
+    url: "https://www.youtube.com/embed/PYtukML6SPs",
+  },
+],
+aquaculture: [
+  {
+    id: 1,
+    title: "Aquaculture Career Overview - The Future of Food",
+    url: "https://www.youtube.com/embed/YGaFNZzjCXI",
+  },
+],
+florist: [
+  {
+    id: 1,
+    title: "Florist Career Overview - The Art of Flowers",
+    url: "https://www.youtube.com/embed/uXs36DWD36E",
+  },
+],
+horticulture: [
+  {
+    id: 1,
+    title: "Horticulture Career Overview - The Science of Plants",
+    url: "https://www.youtube.com/embed/gajUCaN9MQI",
+  },
+],
+poultry: [
+  {
+    id: 1,
+    title: "Poultry Farming Career Overview - The Science of Birds",
+    url: "https://www.youtube.com/embed/fUok-5AvkCs",
+  },
+],
+sericulture: [
+  {
+    id: 1,
+    title: "Sericulture Career Overview - The Science of Silk",
+    url: "https://www.youtube.com/embed/8gLcMxZwwWg",
+  },
+],
+vertical_farming: [
+  {
+    id: 1,
+    title: "Vertical Farming Career Overview - The Future of Agriculture",
+    url: "https://www.youtube.com/embed/uM6HpIr1Wjk",
+  },
+],
+sound_engineer: [
+  {
+    id: 1,
+    title: "Sound Engineer Career Overview - The Architect of Audio",
+    url: "https://www.youtube.com/embed/uOEItzAF5L8",
+  },
+],
+fashion_technology: [
+  {
+    id: 1,
+    title: "Fashion Technology Career Overview - Where Fashion Meets Innovation",
+    url: "https://www.youtube.com/embed/OlwQKcDY6nU",
+  },
+],
+central_reserve_forces: [
+  {
+    id: 1,
+    title: "Central Reserve Forces Career Overview - The Shield of the Nation",
+    url: "https://www.youtube.com/embed/bSGPQEENYsA",
+  },
+],
+indian_paramilitary_forces: [
+  {
+    id: 1,
+    title: "Indian Paramilitary Forces Career Overview - The Guardians of the Border",
+    url: "https://www.youtube.com/embed/57yjBcQ2uos",
+  },
+],
+indian_secret_services: [
+  {
+    id: 1,
+    title: "Indian Secret Services Career Overview - The Silent Protectors",
+    url: "https://www.youtube.com/embed/1-pojsb7DuI",
+  },
+],
+geographer: [
+  {
+    id: 1,
+    title: "Geographer Career Overview - The Mappers of the World",
+    url: "https://www.youtube.com/embed/5Oj7a2LmVtU",
+  },
+],
+historian: [
+  {
+    id: 1,
+    title: "Historian Career Overview - The Keepers of the Past",
+    url: "https://www.youtube.com/embed/Wz90EWg68XM",
+  },
+],
+home_science: [
+  {
+    id: 1,
+    title: "Home Science Career Overview - The Science of Everyday Life",
+    url: "https://www.youtube.com/embed/ZDhOwlsyVO8",
+  },
+],
+clinical_psychology: [
+  {
+    id: 1,
+    title: "Clinical Psychology Career Overview - The Healers of the Mind",
+    url: "https://www.youtube.com/embed/RCZN8m1EeeA",
+  },
+],
+judiciary: [
+  {
+    id: 1,
+    title: "Judiciary Career Overview - The Pillars of Justice",
+    url: "https://www.youtube.com/embed/Vsoxnr2yL0Q",
+  },
+],
+industrial_design: [
+  {
+    id: 1,
+    title: "Industrial Design Career Overview - The Architects of Everyday Life",
+    url: "https://www.youtube.com/embed/DjEKnCIA6M4",
+  },
+],
+industrial_engineering: [
+  {
+    id: 1,
+    title: "Industrial Engineering Career Overview - The Efficiency Experts",
+    url: "https://www.youtube.com/embed/Qypb_U_iFa8",
+  },
+],
+mechanical_engineering: [
+  {
+    id: 1,
+    title: "Mechanical Engineering Career Overview - The Builders of Everything",
+    url: "https://www.youtube.com/embed/UEEx5AxuyZ0",
+  },
+],
+mentor_and_coach: [
+  {
+    id: 1,
+    title: "Mentor & Coach Career Overview - The Architects of Potential",
+    url: "https://www.youtube.com/embed/fLGzSiVzXDk",
+  },
+],
 };
 
 export function getCareerVideos(careerSlug: string): CareerVideo[] {

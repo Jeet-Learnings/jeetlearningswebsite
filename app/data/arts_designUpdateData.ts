@@ -2311,6 +2311,22 @@ export const arts_designUpdateData: Record<string, CareerPageData> = {
           "New-Age & AI Driven: Emerging roles with technology",
           "Remote/Entrepreneurship: Freelance and startup opportunities"
         ]
+      },
+      {
+        id: "personalities",
+        title: "Inspiring Indian YouTubers & Content Creators",
+        icon: "User",
+        description: "Role models and industry leaders.",
+        color: "#DC2626",
+        content: [
+          "Ranveer Allahbadia (BeerBiceps): Built a massive fitness and lifestyle channel, then expanded to podcasting and media entrepreneurship.",
+          "Carry Minati (Ajey Nagar): Pioneering roast comedy creator on YouTube, built a massive following and expanded to acting.",
+          "Ashish Chanchlani: Comedy content creator with millions of subscribers, known for relatable humor and consistent uploads.",
+          "Bhuvan Bam (BB Ki Vines): Started with short-form comedy, expanded to music and acting, became a multi-platform creator.",
+          "Gaurav Taneja (FitMuscleTV): Built a fitness empire through YouTube, expanded to podcasting and business ventures.",
+          "Harsh Beniwal: Comedy creator who transitioned to acting and music, demonstrating YouTube's power as a launchpad.",
+          "Prajakta Koli (MostlySane): Female comedy creator who built a massive following and expanded to acting and brand partnerships."
+        ]
       }
     ]
   },

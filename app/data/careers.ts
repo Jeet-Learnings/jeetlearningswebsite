@@ -277,6 +277,11 @@ export function getAllCategories() {
 }
 
 export function formatCareerName(slug: string): string {
+  // Special case for BPO - always uppercase
+  if (slug === "bpo") {
+    return "BPO";
+  }
+  
   return slug
     .split("_")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))

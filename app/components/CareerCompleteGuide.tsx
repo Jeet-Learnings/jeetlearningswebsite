@@ -124,8 +124,9 @@ function SectionWho({ section, careerName }: { section: CareerGuideSection; care
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {section.content.map((point, i) => {
             const colonIndex = point.indexOf(":");
-            const title = colonIndex > -1 ? point.substring(0, colonIndex).trim() : point;
-            const description = colonIndex > -1 ? point.substring(colonIndex + 1).trim() : "";
+            const hasColon = colonIndex > -1;
+            const title = hasColon ? point.substring(0, colonIndex).trim() : point;
+            const description = hasColon ? point.substring(colonIndex + 1).trim() : "";
             const color = colors[i % colors.length];
             const Icon = icons[i % icons.length];
 
@@ -145,7 +146,7 @@ function SectionWho({ section, careerName }: { section: CareerGuideSection; care
                   >
                     <Icon className="w-5 h-5" />
                   </div>
-                  <h3 className="text-sm font-bold text-slate-900 leading-snug">
+                  <h3 className={`text-sm leading-snug ${hasColon ? 'font-bold text-slate-900' : 'text-slate-700'}`}>
                     {title}
                   </h3>
                 </div>
@@ -601,8 +602,9 @@ function SectionChallenges({ section, careerName }: { section: CareerGuideSectio
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {section.content.map((point, i) => {
             const colonIndex = point.indexOf(":");
-            const title = colonIndex > -1 ? point.substring(0, colonIndex).trim() : point;
-            const description = colonIndex > -1 ? point.substring(colonIndex + 1).trim() : point;
+            const hasColon = colonIndex > -1;
+            const title = hasColon ? point.substring(0, colonIndex).trim() : point;
+            const description = hasColon ? point.substring(colonIndex + 1).trim() : '';
             const color = alertColors[i % alertColors.length];
 
             return (
@@ -613,27 +615,35 @@ function SectionChallenges({ section, careerName }: { section: CareerGuideSectio
                   borderTop: `3px solid ${color}`,
                 }}
               >
-                {/* Title */}
-                <h3 className="text-lg font-bold text-slate-900 mb-2">
-                  {title}
-                </h3>
-
-                {/* Description */}
-                {isCertificationsSection ? (
-                  <div className="flex gap-2">
-                    <span
-                      className="text-base font-bold flex-shrink-0 leading-relaxed"
-                      style={{ color }}
-                    >
-                      →
-                    </span>
-                    <p className="text-slate-600 text-base leading-relaxed">
-                      {description}
-                    </p>
-                  </div>
+                {/* Only show title as bold if there IS a colon */}
+                {hasColon ? (
+                  <>
+                    <h3 className="text-lg font-bold text-slate-900 mb-2">
+                      {title}
+                    </h3>
+                    {/* Description */}
+                    {isCertificationsSection ? (
+                      <div className="flex gap-2">
+                        <span
+                          className="text-base font-bold flex-shrink-0 leading-relaxed"
+                          style={{ color }}
+                        >
+                          →
+                        </span>
+                        <p className="text-slate-600 text-base leading-relaxed">
+                          {description}
+                        </p>
+                      </div>
+                    ) : (
+                      <p className="text-slate-600 text-base leading-relaxed">
+                        {description}
+                      </p>
+                    )}
+                  </>
                 ) : (
+                  /* No colon - render as plain text without bold */
                   <p className="text-slate-600 text-base leading-relaxed">
-                    {description}
+                    {title}
                   </p>
                 )}
               </div>
@@ -698,7 +708,7 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
 
                 {/* text content */}
                 <div className="flex-1 pt-1">
-                  {highlight && (
+                  {highlight ? (
                     <div>
                       <p className="text-sm font-bold text-slate-900 mb-1">
                         {highlight}
@@ -707,9 +717,8 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
                         {rest}
                       </p>
                     </div>
-                  )}
-                  {!highlight && (
-                    <p className="text-base leading-relaxed font-medium text-slate-800">
+                  ) : (
+                    <p className="text-base leading-relaxed text-slate-700">
                       {point}
                     </p>
                   )}

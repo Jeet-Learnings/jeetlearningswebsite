@@ -653,6 +653,60 @@ export function CareerPageDynamic({
           );
         }
 
+        // ── startnow / skills to build ─────────────────────────────
+        if (section.id === 'startnow') {
+          const skillIcons = [Brain, BookOpen, Code2, Zap, Target, Users, BarChart3, Globe];
+          return (
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Rocket className="w-8 sm:w-10 h-8 sm:h-10 text-purple-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      <TranslatedText as="span">{section.title}</TranslatedText>
+                    </h2>
+                  </div>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    <TranslatedText as="span">{section.description}</TranslatedText>
+                  </p>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
+                  {section.content?.map((item: string, idx: number) => {
+                    const hasColon = item.includes(':');
+                    const colonIdx = item.indexOf(':');
+                    const title = hasColon ? item.substring(0, colonIdx).trim() : item;
+                    const desc = hasColon ? item.substring(colonIdx + 1).trim() : '';
+                    const IconComponent = skillIcons[idx % skillIcons.length];
+                    return (
+                      <div key={idx} className="bg-slate-50 rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-purple-300 hover:shadow-md transition-all">
+                        <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
+                          <div className="w-10 sm:w-11 h-10 sm:h-11 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-purple-600" />
+                          </div>
+                          {hasColon ? (
+                            <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug break-words">
+                              <TranslatedText as="span">{title}</TranslatedText>
+                            </h4>
+                          ) : (
+                            <p className="text-base sm:text-lg font-normal text-slate-700 leading-snug break-words">
+                              <TranslatedText as="span">{title}</TranslatedText>
+                            </p>
+                          )}
+                        </div>
+                        {hasColon && (
+                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-0 sm:pl-0">
+                            <TranslatedText as="span">{desc}</TranslatedText>
+                          </p>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          );
+        }
+
         // ── jobs (locations/industries) ────────────────────────────────
         if (section.id === 'jobs') {
           return (
@@ -687,9 +741,15 @@ export function CareerPageDynamic({
                       >
                         <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-2 sm:mb-3 md:mb-4">
                           <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-green-600 flex-shrink-0 mt-0.5" />
-                          <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 leading-snug break-words">
-                            <TranslatedText as="span">{title?.trim()}</TranslatedText>
-                          </h4>
+                          {hasColon ? (
+                            <h4 className="text-sm sm:text-base md:text-lg font-bold text-slate-900 leading-snug break-words">
+                              <TranslatedText as="span">{title?.trim()}</TranslatedText>
+                            </h4>
+                          ) : (
+                            <p className="text-sm sm:text-base md:text-lg font-normal text-slate-700 leading-snug break-words">
+                              <TranslatedText as="span">{title?.trim()}</TranslatedText>
+                            </p>
+                          )}
                         </div>
                         {hasColon && (
                           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-7 sm:pl-8 md:pl-10 break-words">
@@ -738,9 +798,17 @@ export function CareerPageDynamic({
                       >
                         <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                           <IconComponent className="w-6 h-6 text-red-600 flex-shrink-0 mt-0.5" />
-                          <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
-                            <TranslatedText as="span">{title?.trim()}</TranslatedText>
-                          </h4>
+                          {hasColon ? (
+                            <>
+                              <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
+                                <TranslatedText as="span">{title?.trim()}</TranslatedText>
+                              </h4>
+                            </>
+                          ) : (
+                            <p className="text-sm text-slate-600 leading-relaxed">
+                              <TranslatedText as="span">{title?.trim()}</TranslatedText>
+                            </p>
+                          )}
                         </div>
                         {hasColon && (
                           <p className="text-sm text-slate-600 leading-relaxed pl-9 sm:pl-10">
@@ -985,6 +1053,60 @@ export function CareerPageDynamic({
                             )}
                           </div>
                         </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          );
+        }
+
+        // ── startnow / skills to build ─────────────────────────────
+        if (section.id === 'startnow') {
+          const skillIcons = [Brain, BookOpen, Code2, Zap, Target, Users, BarChart3, Globe];
+          return (
+            <section key={sectionIdx} className="py-12 sm:py-16 md:py-20 bg-white px-3 sm:px-4 md:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-10 sm:mb-12">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                    <Rocket className="w-8 sm:w-10 h-8 sm:h-10 text-purple-600 flex-shrink-0" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 leading-tight">
+                      <TranslatedText as="span">{section.title}</TranslatedText>
+                    </h2>
+                  </div>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-slate-600">
+                    <TranslatedText as="span">{section.description}</TranslatedText>
+                  </p>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
+                  {section.content?.map((item: string, idx: number) => {
+                    const hasColon = item.includes(':');
+                    const colonIdx = item.indexOf(':');
+                    const title = hasColon ? item.substring(0, colonIdx).trim() : item;
+                    const desc = hasColon ? item.substring(colonIdx + 1).trim() : '';
+                    const IconComponent = skillIcons[idx % skillIcons.length];
+                    return (
+                      <div key={idx} className="bg-slate-50 rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-purple-300 hover:shadow-md transition-all">
+                        <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
+                          <div className="w-10 sm:w-11 h-10 sm:h-11 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-purple-600" />
+                          </div>
+                          {hasColon ? (
+                            <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug break-words">
+                              <TranslatedText as="span">{title}</TranslatedText>
+                            </h4>
+                          ) : (
+                            <p className="text-base sm:text-lg !font-normal text-slate-700 leading-snug break-words">
+                              <TranslatedText as="span">{title}</TranslatedText>
+                            </p>
+                          )}
+                        </div>
+                        {hasColon && (
+                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-0 sm:pl-0">
+                            <TranslatedText as="span">{desc}</TranslatedText>
+                          </p>
+                        )}
                       </div>
                     );
                   })}
@@ -1824,28 +1946,35 @@ export function CareerPageDynamic({
                   // Clean trailing colon artifacts like "text.:" or "text.:"
                   const cleaned = item.replace(/\s*:\s*$/, '').trim();
                   const hasColon = cleaned.includes(':');
-                  const colonIdx = cleaned.indexOf(':');
-                  const beforeColon = hasColon ? cleaned.substring(0, colonIdx).trim() : cleaned;
-                  const afterColon = hasColon ? cleaned.substring(colonIdx + 1).trim() : '';
-
-                  // If afterColon is empty, treat the whole thing as a plain paragraph
-                  const isPlain = !hasColon || !afterColon;
-
-                  return (
-                    <div key={idx} className="flex items-start gap-3 bg-white p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-all">
-                      <span className="mt-1.5 w-2 h-2 rounded-full bg-blue-500 flex-shrink-0" />
-                      {isPlain ? (
-                        <p className="text-slate-700 text-sm leading-relaxed">
-                          <TranslatedText as="span">{cleaned}</TranslatedText>
-                        </p>
-                      ) : (
+                  
+                  // REQUIREMENT: Only apply bold formatting if there IS a colon
+                  // Items WITHOUT colons should be rendered as plain text without any bold
+                  if (hasColon) {
+                    // Item WITH colon: Bold before colon, normal after
+                    const colonIdx = cleaned.indexOf(':');
+                    const beforeColon = cleaned.substring(0, colonIdx).trim();
+                    const afterColon = cleaned.substring(colonIdx + 1).trim();
+                    
+                    return (
+                      <div key={idx} className="flex items-start gap-3 bg-white p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-all">
+                        <span className="mt-1.5 w-2 h-2 rounded-full bg-blue-500 flex-shrink-0" />
                         <p className="text-slate-700 text-sm leading-relaxed">
                           <span className="font-semibold text-slate-900"><TranslatedText as="span">{beforeColon}</TranslatedText>: </span>
                           <TranslatedText as="span">{afterColon}</TranslatedText>
                         </p>
-                      )}
-                    </div>
-                  );
+                      </div>
+                    );
+                  } else {
+                    // Item WITHOUT colon: Plain text, NO bold
+                    return (
+                      <div key={idx} className="flex items-start gap-3 bg-white p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-all">
+                        <span className="mt-1.5 w-2 h-2 rounded-full bg-blue-500 flex-shrink-0" />
+                        <p className="text-slate-700 text-sm leading-relaxed">
+                          <TranslatedText as="span">{cleaned}</TranslatedText>
+                        </p>
+                      </div>
+                    );
+                  }
                 })}
               </div>
             </div>
