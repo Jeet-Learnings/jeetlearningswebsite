@@ -99,28 +99,34 @@ export function ActuarialCareerInfographic() {
 
                     <div className="relative grid md:grid-cols-3 gap-8 lg:gap-10">
 
-                        <div className="bg-white/80 p-10 rounded-[2.5rem] shadow-xl border border-indigo-100 text-center flex flex-col items-center hover:shadow-2xl hover:border-indigo-300 transition-all duration-500 hover:-translate-y-2 backdrop-blur-md group">
-                            <div className="w-20 h-20 bg-indigo-50 text-indigo-600 rounded-3xl border border-indigo-100 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-transform shadow-sm">
+                        <div className="bg-white/80 p-10 rounded-[2.5rem] shadow-xl border border-indigo-100 flex items-start gap-6 hover:shadow-2xl hover:border-indigo-300 transition-all duration-500 hover:-translate-y-2 backdrop-blur-md group">
+                            <div className="w-20 h-20 bg-indigo-50 text-indigo-600 rounded-3xl border border-indigo-100 flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-6 transition-transform shadow-sm">
                                 <GraduationCap className="w-10 h-10" />
                             </div>
-                            <h4 className="text-xl font-extrabold text-slate-800 mb-4 tracking-wide">Education & Cert.</h4>
-                            <p className="text-base text-slate-600 leading-relaxed font-medium">Institute of Actuaries of India (IAI), rigorously structured exams, specialized university courses.</p>
+                            <div>
+                                <h4 className="text-xl font-extrabold text-slate-800 mb-4 tracking-wide">Education & Cert.</h4>
+                                <p className="text-base text-slate-600 leading-relaxed font-medium">Institute of Actuaries of India (IAI), rigorously structured exams, specialized university courses.</p>
+                            </div>
                         </div>
 
-                        <div className="bg-white/80 p-10 rounded-[2.5rem] shadow-xl border border-blue-100 text-center flex flex-col items-center hover:shadow-2xl hover:border-blue-300 transition-all duration-500 hover:-translate-y-2 backdrop-blur-md group">
-                            <div className="w-20 h-20 bg-blue-50 text-blue-600 rounded-3xl border border-blue-100 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:-rotate-6 transition-transform shadow-sm">
+                        <div className="bg-white/80 p-10 rounded-[2.5rem] shadow-xl border border-blue-100 flex items-start gap-6 hover:shadow-2xl hover:border-blue-300 transition-all duration-500 hover:-translate-y-2 backdrop-blur-md group">
+                            <div className="w-20 h-20 bg-blue-50 text-blue-600 rounded-3xl border border-blue-100 flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:-rotate-6 transition-transform shadow-sm">
                                 <Briefcase className="w-10 h-10" />
                             </div>
-                            <h4 className="text-xl font-extrabold text-slate-800 mb-4 tracking-wide">Corporate Sector</h4>
-                            <p className="text-base text-slate-600 leading-relaxed font-medium">Insurance companies, consulting firms, risk management, investment banking.</p>
+                            <div>
+                                <h4 className="text-xl font-extrabold text-slate-800 mb-4 tracking-wide">Corporate Sector</h4>
+                                <p className="text-base text-slate-600 leading-relaxed font-medium">Insurance companies, consulting firms, risk management, investment banking.</p>
+                            </div>
                         </div>
 
-                        <div className="bg-white/80 p-10 rounded-[2.5rem] shadow-xl border border-emerald-100 text-center flex flex-col items-center hover:shadow-2xl hover:border-emerald-300 transition-all duration-500 hover:-translate-y-2 backdrop-blur-md group">
-                            <div className="w-20 h-20 bg-emerald-50 text-emerald-600 rounded-3xl border border-emerald-100 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-transform shadow-sm">
+                        <div className="bg-white/80 p-10 rounded-[2.5rem] shadow-xl border border-emerald-100 flex items-start gap-6 hover:shadow-2xl hover:border-emerald-300 transition-all duration-500 hover:-translate-y-2 backdrop-blur-md group">
+                            <div className="w-20 h-20 bg-emerald-50 text-emerald-600 rounded-3xl border border-emerald-100 flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-6 transition-transform shadow-sm">
                                 <Landmark className="w-10 h-10" />
                             </div>
-                            <h4 className="text-xl font-extrabold text-slate-800 mb-4 tracking-wide">Public Policy</h4>
-                            <p className="text-base text-slate-600 leading-relaxed font-medium">Pension reforms, social security, disaster risk financing, public health modeling.</p>
+                            <div>
+                                <h4 className="text-xl font-extrabold text-slate-800 mb-4 tracking-wide">Public Policy</h4>
+                                <p className="text-base text-slate-600 leading-relaxed font-medium">Pension reforms, social security, disaster risk financing, public health modeling.</p>
+                            </div>
                         </div>
 
                     </div>

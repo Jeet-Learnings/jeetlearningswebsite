@@ -59,19 +59,21 @@ export function DayInLifeCarousel({ content, title, description, color }: DayInL
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-slate-50 to-blue-50 border-b border-slate-200">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-6 md:mb-8">
-          <div className="flex items-center justify-center gap-2 mb-2">
+        <div className="mb-6 md:mb-8">
+          <div className="flex items-start gap-3 mb-3">
             <div
-              className="w-10 h-10 rounded-full flex items-center justify-center"
+              className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 mt-1"
               style={{ background: `${color}20`, color }}
             >
               <Clock className="w-5 h-5" />
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900">
-              {title}
-            </h2>
+            <div>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900">
+                {title}
+              </h2>
+            </div>
           </div>
-          <p className="text-slate-600 text-base md:text-lg max-w-2xl mx-auto">
+          <p className="text-slate-600 text-base md:text-lg">
             {description}
           </p>
         </div>

@@ -47,7 +47,7 @@ export default function WhyChooseSection() {
           {features.map((feature, idx) => (
             <div
               key={idx}
-              className={`group relative flex flex-col items-center justify-center text-center p-8 rounded-3xl transition-all duration-700 bg-white border ${feature.active
+              className={`group relative flex items-start gap-4 p-8 rounded-3xl transition-all duration-700 bg-white border ${feature.active
                   ? "border-red-100 shadow-[0_8px_30px_rgb(200,0,0,0.08)]"
                   : "border-slate-100 shadow-sm hover:shadow-xl hover:border-red-50"
                 } hover:scale-[1.02] overflow-hidden ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
@@ -60,7 +60,7 @@ export default function WhyChooseSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-red-50/0 to-red-50/0 group-hover:from-red-50/50 group-hover:to-transparent transition-colors duration-500 pointer-events-none" />
 
               {/* Icon */}
-              <div className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-6 transition-transform duration-500 group-hover:scale-110 shadow-inner ${feature.active ? "bg-red-50" : "bg-slate-50 group-hover:bg-red-50/50"
+              <div className={`w-16 h-16 rounded-2xl flex items-center justify-center flex-shrink-0 transition-transform duration-500 group-hover:scale-110 shadow-inner ${feature.active ? "bg-red-50" : "bg-slate-50 group-hover:bg-red-50/50"
                 }`}>
                 {feature.iconText ? (
                   <span className="font-poppins font-bold text-3xl text-[var(--color-canam-red)]">
@@ -76,7 +76,7 @@ export default function WhyChooseSection() {
               </div>
 
               {/* Label */}
-              <p className="font-inter font-semibold text-slate-800 text-[15px] leading-snug whitespace-pre-line group-hover:text-slate-900 transition-colors z-10">
+              <p className="font-inter font-semibold text-slate-800 text-[15px] leading-snug whitespace-pre-line group-hover:text-slate-900 transition-colors z-10 text-left">
                 {feature.label}
               </p>
             </div>

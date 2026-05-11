@@ -1449,7 +1449,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Senior / Lead Role (10+ yrs): ₹15–40 LPA",
           "Mid-Level Professional (5–8 yrs): ₹8–15 LPA",
           "Junior / Associate (3–5 yrs): ₹4–8 LPA",
-          "Entry Level (0–2 yrs): ₹2.5–5 LPA",
+          "Entry Level (0–2 yrs): ₹2–5 LPA",
           "Note: Coastal states pay more; shrimp export business boosts income; entrepreneurship (fish/shrimp farming) can exceed salaries",
           "Government Support: PMMSY, NFDB, NABARD provide subsidies and loans for aquaculture startups"
         ]
@@ -2682,7 +2682,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Senior / Lead Role (10+ yrs): ₹15–40 LPA",
           "Mid-Level Professional (5–8 yrs): ₹8–15 LPA",
           "Junior / Associate (3–5 yrs): ₹4–8 LPA",
-          "Entry Level (0–2 yrs): ₹2.5–5 LPA",
+          "Entry Level (0–2 yrs): ₹2–5 LPA",
           "Note: Income varies; poultry farm owners earn more; contract farming stable; metro-integrated supply chains pay higher."
         ]
       },
@@ -3250,3 +3250,241 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
 };
 
 
+
+// ─── ANIMAL SCIENCE ───────────────────────────────────────────────────
+export const animalScienceData: CareerPageData = {
+  slug: "animal_science",
+  badge: "🐄 Animal Science & Livestock Management for Class 10+",
+  heading: "Animal Science",
+  subheading: "Master the science of livestock production, animal nutrition, breeding, and welfare. Build a career in dairy, meat production, or animal health management.",
+  whyCards: [
+    { icon: "Briefcase", title: "Growing Demand", description: "India's livestock sector is worth ₹12+ trillion; high demand for skilled professionals.", borderColor: "#10B981" },
+    { icon: "TrendingUp", title: "Career Growth", description: "Multiple pathways from farm management to research and entrepreneurship.", borderColor: "#059669" },
+    { icon: "Globe", title: "Global Opportunities", description: "Expertise in tropical livestock management is globally valued.", borderColor: "#3B82F6" },
+    { icon: "Zap", title: "Innovation", description: "Precision livestock farming using AI, IoT, and genetic technologies.", borderColor: "#F59E0B" }
+  ],
+  quickFacts: [
+    { label: "Duration", detail: "4 Years (B.Sc) or 3 Years (Diploma)", color: "bg-green-100 text-green-700" },
+    { label: "Salary Range", detail: "₹3L–₹50L+", color: "bg-blue-100 text-blue-700" },
+    { label: "Growth", detail: "High Demand in India & Globally", color: "bg-purple-100 text-purple-700" }
+  ],
+  statCards: [
+    { value: "₹12T+", label: "Livestock Sector Value", gradient: "from-green-500 to-green-600" },
+    { value: "300M+", label: "Livestock Population", gradient: "from-blue-500 to-blue-600" }
+  ],
+  guideSections: [
+    {
+      id: "what",
+      title: "What is This Career All About?",
+      icon: "Target",
+      description: "Understanding animal science and livestock management.",
+      color: "#C20000",
+      content: [
+        "Animal Science is the study of domesticated animals and their production, health, nutrition, and welfare.",
+        "It combines biology, chemistry, genetics, and management to optimize livestock productivity.",
+        "Professionals in this field work with cattle, buffalo, goats, sheep, poultry, and aquatic animals.",
+        "India has over 300 million livestock animals; skilled professionals are critical for food security.",
+        "Modern animal science uses precision farming, genetic selection, and sustainable practices.",
+        "Career opportunities span dairy, meat production, animal health, breeding, and research."
+      ]
+    },
+    {
+      id: "dayinlife",
+      title: "A Day in the Life: Priya, Livestock Manager at a Dairy Cooperative",
+      icon: "Clock",
+      description: "Real workflow of an animal science professional.",
+      color: "#DA1313",
+      content: [
+        "6:00 AM –  Morning Health Check: Priya arrives at the dairy farm before sunrise. She conducts a health inspection of 200 dairy cattle, checking for signs of mastitis, lameness, or digestive issues. She uses a mobile app to record each animal's health status and milk production data.",
+        "8:00 AM –  Nutrition Planning: She reviews the feed composition with the farm manager. Based on milk yield data and body condition scores, she adjusts the diet for different groups of cattle. She ensures pregnant cows get extra minerals and lactating cows get optimal protein ratios.",
+        "10:30 AM –  Breeding Decisions: Priya analyzes genetic records and milk production data to identify which cows should be bred with which bulls. She uses AI-powered software to predict offspring traits and milk yield potential. She coordinates with the artificial insemination technician.",
+        "1:00 PM –  Quality Control: She collects milk samples and sends them to the lab for testing—fat content, protein, somatic cell count, and bacterial load. She ensures the farm meets international dairy standards.",
+        "3:30 PM –  Training & Documentation: She conducts a training session for farm workers on proper milking hygiene and animal handling. She updates the farm's digital records and prepares a weekly report on production metrics.",
+        "5:30 PM –  Problem-Solving: A cow shows signs of low milk production. Priya investigates—checking feed quality, water availability, and stress levels. She recommends dietary adjustments and veterinary consultation if needed.",
+        "6:30 PM –  Planning Tomorrow: Before leaving, Priya reviews tomorrow's schedule—vaccinations, breeding cycles, and feed deliveries. She feels satisfied knowing her work ensures nutritious milk for thousands of families."
+      ]
+    },
+    {
+      id: "skills",
+      title: "Is This You? Personality Traits & Skills",
+      icon: "User",
+      description: "Self-assessment for the ideal candidate.",
+      color: "#C20000",
+      content: [
+        "Animal Lover: You genuinely care about animal welfare and health.",
+        "Analytical Mind: You enjoy data analysis, genetics, and nutrition science.",
+        "Problem-Solver: You can troubleshoot health issues and production challenges.",
+        "Attention to Detail: You notice subtle changes in animal behavior or health.",
+        "Resilience: You're comfortable working in farms, handling animals, and working in all weather.",
+        "Communication Skills: You can explain complex concepts to farmers and farm workers."
+      ]
+    },
+    {
+      id: "responsibilities",
+      title: "Key Responsibilities & Workflow",
+      icon: "Briefcase",
+      description: "The complete animal science professional cycle.",
+      color: "#DA1313",
+      content: [
+        "Animal Health Monitoring: Daily health checks, disease prevention, and veterinary coordination.",
+        "Nutrition Management: Formulating balanced diets based on animal requirements and available feed.",
+        "Breeding & Genetics: Selecting animals for breeding to improve productivity and health traits.",
+        "Production Optimization: Maximizing milk, meat, or egg production while maintaining animal welfare.",
+        "Record Keeping: Maintaining detailed records of health, production, breeding, and expenses.",
+        "Quality Control: Ensuring products meet food safety and quality standards.",
+        "Training & Supervision: Teaching farm workers proper animal handling and management practices.",
+        "Research & Innovation: Implementing new technologies and practices to improve efficiency."
+      ]
+    },
+    {
+      id: "education",
+      title: "Career Pathways in India",
+      icon: "Map",
+      description: "Educational journey from Class 10 onwards.",
+      color: "#C20000",
+      content: [
+        "Pathway A: B.Sc Animal Science Route",
+        "Step 1: Complete Class 12th with PCB (Physics, Chemistry, Biology)",
+        "Step 2: Pursue B.Sc Animal Science (SAUs, ICAR institutes, private universities)",
+        "Step 3: Do internships at dairy farms, poultry units, or veterinary clinics",
+        "Step 4: Learn tools — livestock management software, genetic analysis, nutrition planning",
+        "Step 5: Pursue M.Sc or MBA in Animal Husbandry (optional)",
+        "Step 6: Join as Livestock Manager, Dairy Technician, or Animal Nutritionist",
+        "Pathway B: Diploma + Field Entry Route",
+        "Step 1: Complete Class 10th/12th with Science",
+        "Step 2: Pursue Diploma in Animal Husbandry (3 years, state agricultural institutes)",
+        "Step 3: Gain field experience — dairy farms, poultry units, breeding centers",
+        "Step 4: Learn practical skills — animal handling, health monitoring, record keeping",
+        "Step 5: Upgrade through lateral entry to B.Sc (optional)",
+        "Step 6: Work as Junior Livestock Officer, Farm Technician, or Dairy Supervisor",
+        "Pathway C: Veterinary Science Route",
+        "Step 1: Complete Class 12th with PCB",
+        "Step 2: Pursue B.V.Sc & A.H. (Bachelor of Veterinary Science & Animal Husbandry)",
+        "Step 3: Specialize in animal nutrition, reproduction, or production medicine",
+        "Step 4: Pursue M.V.Sc in specialized areas",
+        "Step 6: Work as Veterinarian, Animal Health Specialist, or Research Scientist"
+      ]
+    },
+    {
+      id: "market",
+      title: "Market Snapshot — India 2026",
+      icon: "TrendingUp",
+      description: "Salaries, growth, and opportunities.",
+      color: "#DA1313",
+      content: [
+        "Salary Snapshot (Annual INR)",
+        "CXO / Top Leadership (15+ yrs): ₹30 LPA –  ₹1+ Crore",
+        "Senior / Lead Role (10+ yrs): ₹12–35 LPA",
+        "Mid-Level Professional (5–8 yrs): ₹6–18 LPA",
+        "Junior / Associate (3–5 yrs): ₹4–10 LPA",
+        "Entry Level (0–2 yrs): ₹2.5–6 LPA",
+        "Note: Dairy sector pays 20–40% higher; skills in precision livestock farming and genetics boost salary by 25–50%."
+      ]
+    },
+    {
+      id: "jobs",
+      title: "Where Are the Jobs?",
+      icon: "MapPin",
+      description: "Top cities and industries.",
+      color: "#DA1313",
+      content: [
+        "Top Cities: Pune, Hyderabad, Bengaluru, Delhi-NCR, Ludhiana, Indore, Jaipur",
+        "Top Industries: Dairy Cooperatives, Poultry Companies, Meat Processing, Livestock Research, Agri-Tech, Feed Manufacturing",
+        "Top Companies: Amul, Mother Dairy, ITC, Britannia, Suguna Poultry, Godrej Agrovet, Cargill",
+        "Government Sector: ICAR (Scientist), State Animal Husbandry Departments, NABARD",
+        "Global Demand: High in USA, Australia, Netherlands, Brazil; demand in tropical livestock management and dairy technology"
+      ]
+    },
+    {
+      id: "cost",
+      title: "What Will It Cost?",
+      icon: "CircleDollarSign",
+      description: "Course fees and additional expenses.",
+      color: "#C20000",
+      content: [
+        "Government Institutions: ₹40,000 –  ₹2,00,000 (Total 4-year degree fees)",
+        "Private Institutions: ₹3,00,000 –  ₹10,00,000 (Total 4-year degree fees)",
+        "Duration: 4 Years (B.Sc Animal Science)",
+        "Living/Hostel Costs: ₹6,000 –  ₹12,000 per month",
+        "Additional Costs: Practical training, field visits, certification exams (₹5k–₹15k)"
+      ]
+    },
+    {
+      id: "institutions",
+      title: "Where to Study?",
+      icon: "Building2",
+      description: "Top institutions across India.",
+      color: "#C20000",
+      content: [
+        "Government: Indian Veterinary Research Institute (IVRI) Izatnagar, National Dairy Research Institute (NDRI) Karnal, Tamil Nadu Veterinary and Animal Sciences University, Anand Agricultural University",
+        "Private: Manipal Academy of Higher Education, Amity University, Lovely Professional University, Shoolini University",
+        "Online: IGNOU (Animal Husbandry Programs), Swayam/NPTEL (Livestock Management Courses), Coursera (Animal Science Courses)"
+      ]
+    },
+    {
+      id: "opportunities",
+      title: "Career Opportunities",
+      icon: "Briefcase",
+      description: "Various career roles.",
+      color: "#DA1313",
+      content: [
+        "Conventional: Dairy Farm Manager, Poultry Production Manager, Livestock Officer, Animal Nutritionist, Veterinary Technician",
+        "New-Age & AI Driven: Precision Livestock Farming Specialist, Genetic Selection Analyst, Animal Health Data Scientist, Automated Milking System Technician",
+        "Entrepreneurship: Dairy Cooperative Founder, Poultry Farm Owner, Livestock Feed Manufacturer, Animal Health Product Developer"
+      ]
+    },
+    {
+      id: "challenges",
+      title: "Realistic Challenges",
+      icon: "AlertTriangle",
+      description: "The hard truths of the profession.",
+      color: "#C20000",
+      content: [
+        "Disease Outbreaks: Sudden animal diseases can devastate entire herds and cause financial losses.",
+        "Market Volatility: Milk and meat prices fluctuate based on supply, demand, and global markets.",
+        "Labor Challenges: Finding skilled, reliable farm workers is increasingly difficult.",
+        "Weather Dependency: Extreme heat, cold, or drought affects animal health and productivity.",
+        "Regulatory Compliance: Navigating food safety, animal welfare, and environmental regulations.",
+        "Capital Investment: Setting up modern livestock facilities requires significant upfront investment.",
+        "Emotional Toll: Dealing with animal deaths and health crises can be emotionally challenging.",
+        "Long Working Hours: Livestock care requires early mornings, late nights, and weekend work."
+      ]
+    },
+    {
+      id: "trends",
+      title: "Emerging Trends (2025–2035)",
+      icon: "Sparkles",
+      description: "What's next in animal science.",
+      color: "#DA1313",
+      content: [
+        "Precision Livestock Farming: AI-powered monitoring of individual animal health and productivity.",
+        "Genetic Selection: Advanced genomics for disease-resistant and high-producing animals.",
+        "Sustainable Practices: Reducing methane emissions and improving feed efficiency.",
+        "Alternative Proteins: Lab-grown meat and plant-based alternatives changing the industry.",
+        "Automation: Robotic milking, automated feeding, and climate control systems.",
+        "Blockchain Traceability: Farm-to-consumer tracking for transparency and food safety.",
+        "Climate-Smart Livestock: Breeding animals adapted to changing climate conditions.",
+        "Integrated Farming: Combining livestock with crop production for sustainable systems."
+      ]
+    },
+    {
+      id: "startnow",
+      title: "Start Now (Class 9–12)",
+      icon: "Rocket",
+      description: "Beginning your animal science journey.",
+      color: "#DA1313",
+      content: [
+        "Visit Local Dairy Farms: Understand daily operations and animal care practices.",
+        "Learn Animal Nutrition: Study feed composition and dietary requirements.",
+        "Participate in Science Fairs: Create projects on animal health or breeding.",
+        "Follow Livestock News: Read about dairy industry trends and innovations.",
+        "Volunteer at Veterinary Clinics: Gain hands-on experience with animal care.",
+        "Learn Data Analysis: Excel skills for tracking animal production records.",
+        "Study Genetics: Understand heredity and selective breeding principles."
+      ]
+    }
+  ]
+};
+
+// Add animal_science to the main export
+agricultureUpdateData.animal_science = animalScienceData;

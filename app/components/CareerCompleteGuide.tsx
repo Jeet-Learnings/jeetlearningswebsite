@@ -121,7 +121,7 @@ function SectionWho({ section, careerName }: { section: CareerGuideSection; care
         <SectionHeader section={section} light={false} />
         
         {/* Traits Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-max">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {section.content.map((point, i) => {
             const colonIndex = point.indexOf(":");
             const title = colonIndex > -1 ? point.substring(0, colonIndex).trim() : point;
@@ -132,27 +132,27 @@ function SectionWho({ section, careerName }: { section: CareerGuideSection; care
             return (
               <div
                 key={i}
-                className="p-5 rounded-xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-shadow h-full"
+                className="p-4 rounded-xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
                 style={{
                   borderTop: `3px solid ${color}`,
                 }}
               >
-                {/* Icon and Title */}
-                <div className="flex items-center gap-3 mb-3">
+                {/* Icon and Title - Side by Side */}
+                <div className="flex items-start gap-3 mb-3">
                   <div
-                    className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
+                    className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5"
                     style={{ background: `${color}15`, color }}
                   >
                     <Icon className="w-5 h-5" />
                   </div>
-                  <h3 className="text-lg font-bold text-slate-900">
+                  <h3 className="text-sm font-bold text-slate-900 leading-snug">
                     {title}
                   </h3>
                 </div>
 
                 {/* Description */}
                 {description && (
-                  <p className="text-slate-600 text-base leading-relaxed">
+                  <p className="text-xs text-slate-600 leading-relaxed">
                     {description}
                   </p>
                 )}
@@ -716,19 +716,21 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
 // ─── SHARED HEADER ────────────────────────────────────────────────
 function SectionHeader({ section, light = false }: { section: CareerGuideSection; light?: boolean }) {
   return (
-    <div className="mb-8 text-center px-2">
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-3">
+    <div className="mb-8 px-2">
+      <div className="flex items-start gap-3 mb-3">
         <div
-          className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 shadow-md"
+          className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 shadow-md mt-1"
           style={{ background: section.color ?? "#1E40AF" }}
         >
           <DynamicIcon name={section.icon} className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
         </div>
-        <h2 className={`text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black leading-tight ${light ? "text-white" : "text-slate-900"}`}>
-          {section.title}
-        </h2>
+        <div>
+          <h2 className={`text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black leading-tight ${light ? "text-white" : "text-slate-900"}`}>
+            {section.title}
+          </h2>
+        </div>
       </div>
-      <p className={`text-sm sm:text-base md:text-lg leading-relaxed max-w-3xl mx-auto px-4 ${light ? "text-white/70" : "text-slate-600"}`}>
+      <p className={`text-sm sm:text-base md:text-lg leading-relaxed max-w-3xl px-4 ${light ? "text-white/70" : "text-slate-600"}`}>
         {section.description}
       </p>
     </div>

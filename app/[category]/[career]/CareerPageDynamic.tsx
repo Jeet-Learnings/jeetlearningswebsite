@@ -416,12 +416,14 @@ export function CareerPageDynamic({
                     
                     return (
                       <div key={idx} className="bg-slate-50 p-4 sm:p-5 md:p-6 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all group">
-                        <div className="w-10 sm:w-11 md:w-12 h-10 sm:h-11 md:h-12 bg-indigo-100 rounded-lg sm:rounded-xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition-transform shadow-sm">
-                          <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-indigo-600" />
+                        <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
+                          <div className="w-10 sm:w-11 md:w-12 h-10 sm:h-11 md:h-12 bg-indigo-100 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-sm">
+                            <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-indigo-600" />
+                          </div>
+                          <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-tight">
+                            <TranslatedText as="span">{title}</TranslatedText>
+                          </h4>
                         </div>
-                        <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-1 sm:mb-2 leading-tight">
-                          <TranslatedText as="span">{title}</TranslatedText>
-                        </h4>
                         <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                           <TranslatedText as="span">{desc}</TranslatedText>
                         </p>
@@ -928,11 +930,11 @@ export function CareerPageDynamic({
                     return (
                       <div key={idx} className="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-md transition-all">
                         <div className="flex items-start gap-3 sm:gap-4">
-                          <div className="w-10 sm:w-11 h-10 sm:h-11 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <div className="w-10 sm:w-11 h-10 sm:h-11 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
                             <IconComponent className="w-5 sm:w-6 h-5 sm:h-6 text-indigo-600" />
                           </div>
-                          <div className="flex-1">
-                            <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-1 sm:mb-2">
+                          <div className="flex-1 min-w-0">
+                            <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-1 sm:mb-2 leading-snug break-words">
                               <TranslatedText as="span">{title}</TranslatedText>
                             </h4>
                             {hasColon && (
@@ -1249,11 +1251,11 @@ export function CareerPageDynamic({
                     const IconComponent = jobIcons[idx % jobIcons.length];
                     return (
                       <div key={idx} className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all group">
-                        <div className="flex items-center gap-4 mb-6">
+                        <div className="flex items-start gap-4 mb-6">
                           <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-sm">
                             <IconComponent className="w-6 h-6 text-blue-600" />
                           </div>
-                          <h4 className="text-lg font-bold text-slate-900"><TranslatedText as="span">{type}</TranslatedText></h4>
+                          <h4 className="text-lg font-bold text-slate-900 leading-snug pt-1"><TranslatedText as="span">{type}</TranslatedText></h4>
                         </div>
                         <ul className="space-y-3">
                           {items.map((it, i) => (
@@ -1707,13 +1709,15 @@ export function CareerPageDynamic({
                     return (
                       <div key={idx} className="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-emerald-300 hover:shadow-xl transition-all group flex flex-col justify-between">
                         <div>
-                          <div className="flex items-center justify-between mb-4">
-                            <div className="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 group-hover:scale-110 transition-transform">
+                          <div className="flex items-start gap-3 sm:gap-4 mb-4">
+                            <div className="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 group-hover:scale-110 transition-transform flex-shrink-0">
                               <IconComponent className="w-5 h-5" />
                             </div>
-                            <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Estimate</span>
+                            <div className="flex-1">
+                              <h4 className="text-lg font-bold text-slate-900 tracking-tight leading-snug"><TranslatedText as="span">{label}</TranslatedText></h4>
+                              <span className="text-xs font-bold uppercase tracking-wider text-slate-400 block mt-1">Estimate</span>
+                            </div>
                           </div>
-                          <h4 className="text-lg font-bold text-slate-900 mb-2 tracking-tight leading-snug"><TranslatedText as="span">{label}</TranslatedText></h4>
                           <div className="text-lg text-slate-700 mb-4 tracking-tight"><TranslatedText as="span">{details}</TranslatedText></div>
                         </div>
                       </div>

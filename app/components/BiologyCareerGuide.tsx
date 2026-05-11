@@ -162,19 +162,39 @@ export function BiologyCareerGuide({
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 lg:gap-6">
             <div className="p-3 md:p-4 lg:p-6 rounded-lg bg-white border border-gray-200 hover:shadow-md transition">
-              <h4 className="font-bold text-slate-900 mb-2 text-xs sm:text-sm md:text-base">Government Colleges</h4>
+              <div className="flex items-start gap-3 mb-3">
+                <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0 text-blue-600 font-bold">
+                  🏛️
+                </div>
+                <h4 className="font-bold text-slate-900 text-xs sm:text-sm md:text-base">Government Colleges</h4>
+              </div>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">{cost.government}</p>
             </div>
             <div className="p-3 md:p-4 lg:p-6 rounded-lg bg-white border border-gray-200 hover:shadow-md transition">
-              <h4 className="font-bold text-slate-900 mb-2 text-xs sm:text-sm md:text-base">Private Colleges</h4>
+              <div className="flex items-start gap-3 mb-3">
+                <div className="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0 text-purple-600 font-bold">
+                  🏢
+                </div>
+                <h4 className="font-bold text-slate-900 text-xs sm:text-sm md:text-base">Private Colleges</h4>
+              </div>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">{cost.private}</p>
             </div>
             <div className="p-3 md:p-4 lg:p-6 rounded-lg bg-white border border-gray-200 hover:shadow-md transition">
-              <h4 className="font-bold text-slate-900 mb-2 text-xs sm:text-sm md:text-base">Duration</h4>
+              <div className="flex items-start gap-3 mb-3">
+                <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0 text-green-600 font-bold">
+                  ⏱️
+                </div>
+                <h4 className="font-bold text-slate-900 text-xs sm:text-sm md:text-base">Duration</h4>
+              </div>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">{cost.duration}</p>
             </div>
             <div className="p-3 md:p-4 lg:p-6 rounded-lg bg-white border border-gray-200 hover:shadow-md transition">
-              <h4 className="font-bold text-slate-900 mb-2 text-xs sm:text-sm md:text-base">Living Expenses</h4>
+              <div className="flex items-start gap-3 mb-3">
+                <div className="w-8 h-8 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0 text-orange-600 font-bold">
+                  🏠
+                </div>
+                <h4 className="font-bold text-slate-900 text-xs sm:text-sm md:text-base">Living Expenses</h4>
+              </div>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">{cost.living}</p>
             </div>
           </div>

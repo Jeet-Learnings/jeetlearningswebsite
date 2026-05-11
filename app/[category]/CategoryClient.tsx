@@ -176,8 +176,8 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
 
                     {/* Content */}
                     <div className="p-5 flex-1 flex flex-col">
-                      <div className="flex items-start justify-between gap-3 mb-2">
-                        <h3 className="font-bold text-slate-900 text-base sm:text-lg group-hover:text-blue-600 transition-colors leading-tight">
+                      <div className="flex items-center justify-between gap-3 mb-2">
+                        <h3 className="font-bold text-slate-900 text-base sm:text-lg group-hover:text-blue-600 transition-colors leading-tight flex-1">
                           <TranslatedText as="span">{formatCareerName(career)}</TranslatedText>
                         </h3>
                         <div className="w-8 h-8 rounded-full flex items-center justify-center bg-slate-100 border border-slate-200 group-hover:bg-blue-600 group-hover:border-blue-600 transition-all duration-300 flex-shrink-0">

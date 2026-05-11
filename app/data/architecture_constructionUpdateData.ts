@@ -41,16 +41,16 @@ export const architecture_constructionUpdateData: Record<string, CareerPageData>
       },
       {
         id: "dayinlife",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Architect",
         icon: "Clock",
-        description: "Real workflow of a professional.",
+        description: "Real workflow of an architect.",
         color: "#A78BFA",
         content: [
-          "8:30 AM –  Morning briefing and planning",
-          "10:30 AM –  Core work activities and analysis",
-          "1:30 PM –  Problem-solving and collaboration",
-          "4:00 PM –  Meetings and strategic planning",
-          "6:00 PM –  Review and preparation for next day"
+          "8:30 AM –  Site Visit: Visit construction site to assess progress, review building plans against actual construction, and address any structural concerns.",
+          "10:30 AM –  CAD Design Work: Return to office and work on AutoCAD drawings, creating detailed floor plans, elevations, and sections for new residential project.",
+          "1:30 PM –  Client Meeting: Meet with client to present design concepts, discuss budget constraints, and incorporate feedback into architectural plans.",
+          "4:00 PM –  Specification & Documentation: Prepare detailed specifications for materials, finishes, and building systems, ensuring compliance with building codes.",
+          "6:00 PM –  Team Coordination: Coordinate with structural engineers and contractors, review their drawings, and ensure all disciplines are aligned on the design."
         ]
       },
       {
@@ -195,16 +195,16 @@ export const architecture_constructionUpdateData: Record<string, CareerPageData>
       },
       {
         id: "dayinlife",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Construction Manager",
         icon: "Clock",
-        description: "Real workflow of a professional.",
+        description: "Real workflow of a construction manager.",
         color: "#A78BFA",
         content: [
-          "8:30 AM –  Morning briefing and planning",
-          "10:30 AM –  Core work activities and analysis",
-          "1:30 PM –  Problem-solving and collaboration",
-          "4:00 PM –  Meetings and strategic planning",
-          "6:00 PM –  Review and preparation for next day"
+          "8:30 AM –  Site Inspection: Walk through construction site to inspect work progress, check quality of materials, and ensure safety protocols are being followed.",
+          "10:30 AM –  Coordination Meeting: Meet with subcontractors, suppliers, and workers to discuss daily tasks, resolve issues, and coordinate different trades.",
+          "1:30 PM –  Budget & Schedule Review: Review project budget, track expenses, monitor timeline, and adjust schedules if needed to stay on track.",
+          "4:00 PM –  Quality Control: Inspect completed work, verify compliance with architectural plans and building codes, and document any deficiencies.",
+          "6:00 PM –  Documentation & Planning: Update project logs, prepare reports for stakeholders, and plan next day's activities and resource allocation."
         ]
       },
       {
@@ -349,16 +349,16 @@ export const architecture_constructionUpdateData: Record<string, CareerPageData>
       },
       {
         id: "dayinlife",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Facilities Manager",
         icon: "Clock",
-        description: "Real workflow of a professional.",
+        description: "Real workflow of a facilities manager.",
         color: "#A78BFA",
         content: [
-          "8:30 AM –  Morning briefing and planning",
-          "10:30 AM –  Core work activities and analysis",
-          "1:30 PM –  Problem-solving and collaboration",
-          "4:00 PM –  Meetings and strategic planning",
-          "6:00 PM –  Review and preparation for next day"
+          "8:30 AM –  Facility Inspection: Walk through office building to check HVAC systems, electrical systems, plumbing, and general cleanliness.",
+          "10:30 AM –  Maintenance Planning: Review maintenance schedules, prioritize urgent repairs, and coordinate with maintenance staff and contractors.",
+          "1:30 PM –  Vendor Management: Meet with vendors for equipment servicing, negotiate contracts, and ensure quality of maintenance services.",
+          "4:00 PM –  Safety & Compliance: Conduct safety inspections, ensure building codes compliance, and maintain documentation for regulatory requirements.",
+          "6:00 PM –  Operations Review: Review energy consumption, cost reports, and plan efficiency improvements for next month's operations."
         ]
       },
       {
@@ -503,16 +503,16 @@ export const architecture_constructionUpdateData: Record<string, CareerPageData>
       },
       {
         id: "dayinlife",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Urban Planner",
         icon: "Clock",
-        description: "Real workflow of a professional.",
+        description: "Real workflow of an urban planner.",
         color: "#A78BFA",
         content: [
-          "8:30 AM –  Morning briefing and planning",
-          "10:30 AM –  Core work activities and analysis",
-          "1:30 PM –  Problem-solving and collaboration",
-          "4:00 PM –  Meetings and strategic planning",
-          "6:00 PM –  Review and preparation for next day"
+          "8:30 AM –  Site Analysis: Visit proposed development site to assess current conditions, traffic patterns, and environmental factors affecting planning.",
+          "10:30 AM –  GIS & Data Analysis: Use GIS software to analyze demographic data, land use patterns, and infrastructure capacity for city planning.",
+          "1:30 PM –  Stakeholder Meetings: Meet with city officials, community representatives, and developers to discuss urban development plans and concerns.",
+          "4:00 PM –  Master Plan Development: Create comprehensive urban plans including zoning regulations, transportation networks, and public spaces.",
+          "6:00 PM –  Policy & Documentation: Draft planning policies, prepare reports for city council, and ensure compliance with sustainability and development goals."
         ]
       },
       {

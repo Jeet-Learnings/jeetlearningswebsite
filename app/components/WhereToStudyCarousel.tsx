@@ -35,19 +35,21 @@ export function WhereToStudyCarousel({
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-slate-50 to-indigo-50 border-b border-blue-200">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-6 md:mb-8">
-          <div className="flex items-center justify-center gap-3 mb-3">
+        <div className="mb-6 md:mb-8">
+          <div className="flex items-start gap-3 mb-3">
             <div
-              className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-lg"
+              className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0 mt-1"
               style={{ background: sectionColor }}
             >
               🏫
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900">
-              {title}
-            </h2>
+            <div>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900">
+                {title}
+              </h2>
+            </div>
           </div>
-          <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto font-medium">
+          <p className="text-base md:text-lg text-slate-600 max-w-2xl font-medium">
             {description}
           </p>
         </div>
