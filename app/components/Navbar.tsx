@@ -62,8 +62,8 @@ export default function Navbar() {
             <Link href="/" className="flex-shrink-0 relative group">
               <div className="absolute inset-0 bg-[var(--color-canam-red)] blur-2xl opacity-0 group-hover:opacity-15 transition-opacity duration-500 rounded-full" />
               <Image
-                src="/assets/canam-logo.png"
-                alt="Canam Study Abroad"
+                src="/images/mainlogo.png"
+                alt="Jeet Learnings"
                 width={180}
                 height={96}
                 className={`w-auto object-contain relative z-10 transition-all duration-300 ${
