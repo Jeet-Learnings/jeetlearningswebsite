@@ -40,6 +40,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.jeetlearnings.com"),
   title: "Career Guidance Platform | Jeet Learnings - Find Your Perfect Career Path",
   description:
     "Discover your ideal career with our comprehensive 16-section career architecture. Get personalized guidance, psychometric assessments, DMIT analysis, and expert mentorship. Trusted by 10,000+ students for career planning and development.",
