@@ -64,10 +64,10 @@ export default function Navbar() {
               <Image
                 src="/images/mainlogo.png"
                 alt="Jeet Learnings"
-                width={180}
-                height={96}
+                width={240}
+                height={128}
                 className={`w-auto object-contain relative z-10 transition-all duration-300 ${
-                  isScrolled ? "h-12" : "h-16"
+                  isScrolled ? "h-16" : "h-24"
                 }`}
                 priority
               />

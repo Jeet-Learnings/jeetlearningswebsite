@@ -43,7 +43,11 @@ export const metadata: Metadata = {
   description:
     "From university selection to visa assistance, get expert guidance throughout the application journey and beyond. Personalized services for undergrad, master's, PhD, and MBA aspirants.",
   icons: {
-    icon: "/images/mainlogo.png",
+    icon: {
+      url: "/images/mainlogo.png",
+      sizes: "192x192",
+      type: "image/png",
+    },
   },
 };
 
