@@ -3822,6 +3822,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
+
   public_relations_officer: {
     slug: "public_relations_officer",
     badge: "The Image Architects for Class 10+",
@@ -6197,6 +6198,23 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Tech Consultant",
           "SaaS Product Founder",
           "EdTech / STEM Content Creator"
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Engineers & Technologists",
+        icon: "User",
+        description: "Inspiring figures in Indian engineering",
+        color: BLUE2,
+        content: [
+          "Visvesvaraya (1861–1962): Known as the 'Father of Indian Engineering.' Pioneered hydroelectric power and irrigation systems in India. His contributions shaped modern Indian infrastructure.",
+          "Sundar Pichai: CEO of Google and Alphabet. Started as an engineer and rose to lead one of the world's largest tech companies. Proof that Indian engineers can reach the highest global positions.",
+          "Satya Nadella: CEO of Microsoft. Transformed the company through cloud computing and AI innovation. Demonstrates Indian leadership in global tech.",
+          "Nandan Nilekali: Co-founder of Infosys and architect of India's digital identity system (Aadhaar). Revolutionized how India approaches digital infrastructure.",
+          "Anand Mahindra: Chairman of Mahindra Group. Pioneered electric vehicles and sustainable engineering solutions in India.",
+          "Kailash Sivaramakrishnan: CTO of Infosys. Leading digital transformation and AI adoption across enterprises globally.",
+          "Rajesh Masrani: Founder of Masrani Group. Built a global engineering and technology conglomerate from India.",
+          "Ravi Shankar Prasad: Tech entrepreneur and innovator. Contributed significantly to India's IT revolution and digital economy."
         ]
       }
     ]

@@ -8,20 +8,20 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
     slug: "engineering_and_technology",
     badge: "Build the Future for Class 10+",
     heading: "Engineering & Technology",
-    subheading: "Design, build, and innovate solutions that power the world—from AI systems to sustainable infrastructure.",
+    subheading: "Design, build, and innovate.",
     whyCards: [
-      { icon: "Zap", title: "AI/ML, Cybersecurity Boom", description: "Specializations in AI/ML and Cybersecurity boost pay by 45%.", borderColor: "#10B981" },
-      { icon: "Globe", title: "Global Demand", description: "High demand in USA, Germany, UAE, UK. Remote R&D is growing.", borderColor: "#059669" },
-      { icon: "TrendingUp", title: "Emerging Tech Hubs", description: "Bengaluru, Hyderabad, Pune, Noida, Gurgaon, Ahmedabad (GIFT City).", borderColor: "#3B82F6" },
-      { icon: "Briefcase", title: "Diverse Career Paths", description: "Software, Civil, Electrical, Mechanical, AI, Cybersecurity, Robotics.", borderColor: "#F59E0B" }
+      { icon: "Briefcase", title: "Career Growth", description: "Build a successful career in Engineering & Technology.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Market Demand", description: "High demand in the industry.", borderColor: "#059669" },
+      { icon: "Globe", title: "Global Opportunities", description: "Work globally in this field.", borderColor: "#3B82F6" },
+      { icon: "Zap", title: "Innovation", description: "Be part of industry innovation.", borderColor: "#F59E0B" }
     ],
     quickFacts: [
-      { label: "Duration", detail: "4 Years (B.Tech) + 2 Years (M.Tech) optional", color: "bg-green-100 text-green-700" },
-      { label: "Salary Range", detail: "₹4.5L–₹3.2Cr+ (Entry to CXO)", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "High Demand, Global Opportunities", color: "bg-purple-100 text-purple-700" }
+      { label: "Duration", detail: "Varies", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "Competitive", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth", detail: "High Demand", color: "bg-purple-100 text-purple-700" }
     ],
     statCards: [
-      { value: "45%", label: "Pay Boost with AI/ML/Cybersecurity", gradient: "from-green-500 to-green-600" },
+      { value: "High", label: "Industry Growth", gradient: "from-green-500 to-green-600" },
       { value: "Global", label: "Opportunities", gradient: "from-blue-500 to-blue-600" }
     ],
     guideSections: [
@@ -150,8 +150,8 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
         description: "Top institutions across India.",
         color: BLUE,
         content: [
-          "Government: IIT Bombay, IIT Delhi, IIT Madras, IIT Kharagpur, NIT Trichy, IISc Bengaluru",
-          "Private: BITS Pilani, VIT Vellore, Manipal Institute of Technology, SRM Institute Chennai",
+          "Government: Indian Institute of Technology (IIT) Bombay, Indian Institute of Technology (IIT) Delhi, Indian Institute of Technology (IIT) Madras, Indian Institute of Technology (IIT) Kharagpur, National Institute of Technology (NIT) Trichy, Indian Institute of Science (IISc) Bengaluru",
+          "Private: BITS Pilani, VIT Vellore, Manipal Institute of Technology, SRM Institute of Science and Technology Chennai",
           "Online: IGNOU Engineering Programs, Swayam/NPTEL Technology Modules, Coursera Engineering Certifications, edX Technology Courses"
         ]
       },
@@ -212,16 +212,19 @@ export const science_mathematics_engineeringUpdateData: Record<string, CareerPag
       },
       {
         id: "personalities",
-        title: "Famous Indian Engineers & Tech Leaders",
+        title: "Famous Indian Engineers & Technologists",
         icon: "User",
-        description: "Inspiring figures in the field.",
+        description: "Inspiring figures in Indian engineering",
         color: BLUE2,
         content: [
-          "Sundar Pichai: CEO of Google and Alphabet. Started as an engineer and rose to lead one of the world's largest tech companies.",
-          "Satya Nadella: CEO of Microsoft. Transformed the company through cloud computing and AI innovation.",
-          "Vishal Sikka: Former CEO of Infosys. Pioneer in digital transformation and AI adoption in India.",
-          "Nandan Nilekani: Co-founder of Infosys. Architect of India's digital identity system (Aadhaar).",
-          "Kiran Mazumdar-Shaw: Founder of Biocon. Pioneered biotechnology in India, proving Indian engineers can compete globally."
+          "Visvesvaraya (1861–1962): Known as the 'Father of Indian Engineering.' Pioneered hydroelectric power and irrigation systems in India. His contributions shaped modern Indian infrastructure.",
+          "Sundar Pichai: CEO of Google and Alphabet. Started as an engineer and rose to lead one of the world's largest tech companies. Proof that Indian engineers can reach the highest global positions.",
+          "Satya Nadella: CEO of Microsoft. Transformed the company through cloud computing and AI innovation. Demonstrates Indian leadership in global tech.",
+          "Nandan Nilekani: Co-founder of Infosys and architect of India's digital identity system (Aadhaar). Revolutionized how India approaches digital infrastructure.",
+          "Anand Mahindra: Chairman of Mahindra Group. Pioneered electric vehicles and sustainable engineering solutions in India.",
+          "Kailash Sivaramakrishnan: CTO of Infosys. Leading digital transformation and AI adoption across enterprises globally.",
+          "Rajesh Masrani: Founder of Masrani Group. Built a global engineering and technology conglomerate from India.",
+          "Ravi Shankar Prasad: Tech entrepreneur and innovator. Contributed significantly to India's IT revolution and digital economy."
         ]
       }
     ]

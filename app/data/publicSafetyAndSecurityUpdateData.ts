@@ -352,8 +352,42 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         icon: "TrendingUp",
         description: "Salaries, vacancies, and hiring trends.",
         color: BLUE2,
-        content: ["Salary Snapshot (Annual INR)","CXO / Top Leadership (15+ yrs): ₹75 LPA –  ₹1.8 Crore","Senior / Lead Role (10+ yrs): ₹35 –  ₹70 LPA","Mid-Level Professional (5–8 yrs): ₹18 –  ₹32 LPA","Junior / Associate (3–5 yrs): ₹10 –  ₹17 LPA","Entry Level (0–2 yrs): ₹6 –  ₹9 LPA","Note: 8th Pay Commission and Metros boost pay by 35%.","Where Are the Jobs?","Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Kolkata, Chennai.","Top Industries: Government, Central Agencies, Private Security, Risk Management.","Global Demand: UN Peacekeeping, Interpol, Global Security Consulting.","Top Institutions","Government / Government Funded Coaching Institutes","Sardar Vallabhbhai Patel National Police Academy (SVPNPA), Hyderabad","State Public Service Commission Coaching Centres (across India)","Dr. Ambedkar Centre of Excellence, New Delhi","Jamia Millia Islamia (IAS/IPS Coaching Centre), New Delhi","Private Coaching Institutes","Drishti IAS, New Delhi","Vajirao & Reddy Institute, New Delhi","Rau’s IAS Study Circle, New Delhi","ALS IAS Academy, New Delhi","Online Coaching Institutes","Unacademy (UPSC CSE & State PSC Preparation)","Testbook (Police Exam Preparation Courses)","Byju’s Exam Prep (IPS & State Police Online Coaching)","Adda247 (Sub-Inspector & Constable Exam Preparation)","Career Opportunities","Conventional","IPS officer through UPSC Civil Services Examination","State police officer through State PSC examination","Sub-inspector through SSC or state-level recruitment","Assistant commandant in CAPFs through UPSC CAPF exam","New-Age & AI-Driven","AI-powered crime pattern analysis and prediction specialist","Cyber crime investigation and digital forensics officer","Facial recognition and smart surveillance systems expert","Social media intelligence and open-source data analyst","Remote / Entrepreneurship","Online police exam preparation and mentorship provider","Private investigation and security consultancy founder","Freelance cyber security and digital safety trainer","Law enforcement technology solutions startup entrepreneur"]
-      },{
+        content:  [
+  "Salary Snapshot (Annual INR)",
+  "CXO / Top Leadership (15+ yrs): ₹75 LPA – ₹1.8 Crore",
+  "Senior / Lead Role (10+ yrs): ₹35 – ₹70 LPA",
+  "Mid-Level Professional (5–8 yrs): ₹18 – ₹32 LPA",
+  "Junior / Associate (3–5 yrs): ₹10 – ₹17 LPA",
+  "Entry Level (0–2 yrs): ₹6 – ₹9 LPA",
+  "Note: 8th Pay Commission and Metros boost pay by 35%."
+
+] },
+{
+  id: "jobs",
+  title: "Where Are the Jobs?",
+  icon: "MapPin",
+  description: "Top cities and industries.",
+  color: BLUE,
+  content: [
+    "Top Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Kolkata, Chennai",
+    "Top Industries: Government, Central Agencies, Private Security, Risk Management",
+    "Global Demand: UN Peacekeeping, Interpol, Global Security Consulting"
+  ]
+},
+{
+  id: "opportunities",
+  title: "Career Opportunities",
+  icon: "Briefcase",
+  description: "Diverse paths in police careers.",
+  color: BLUE2,
+  content: [
+    "Conventional Careers: IPS officer through UPSC Civil Services Examination, State police officer through State PSC examination, Sub-inspector through SSC or state-level recruitment, Assistant commandant in CAPFs through UPSC CAPF exam",
+    "New-Age & AI-Driven: AI-powered crime pattern analysis and prediction specialist, Cyber crime investigation and digital forensics officer, Facial recognition and smart surveillance systems expert, Social media intelligence and open-source data analyst",
+    "Remote / Entrepreneurship: Online police exam preparation and mentorship provider, Private investigation and security consultancy founder, Freelance cyber security and digital safety trainer, Law enforcement technology solutions startup entrepreneur"
+  ]
+},
+
+{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -370,15 +404,14 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         id: "institutions",
         title: "Where to Study? (Training Academies)",
         icon: "Building2",
-        description: "Prominent police training institutions.",
+        description: "Premier police training institutions across India.",
         color: BLUE,
         content: [
-          "Sardar Vallabhbhai Patel National Police Academy (SVPNPA), Hyderabad: The premier academy for IPS officers. World-class training in law, tactics, and firing.",
-          "State Police Academies: Moradabad (UP), Madhuban (Haryana), Phillaur (Punjab) -  Historic academies for State officers (DySPs/SIs).",
-          "North Eastern Police Academy (NEPA), Meghalaya: For North East police officers.",
-          "National Industrial Security Academy (NISA), Hyderabad: For CISF officers.",
-          "Central Detective Training Institute (CDTI), Delhi: For advanced investigation training.",
-          "National Forensic Sciences University (NFSU), Gandhinagar: For forensic science training."
+          "Government Academies: Sardar Vallabhbhai Patel National Police Academy (SVPNPA) Hyderabad, Lal Bahadur Shastri National Academy of Administration (LBSNAA) Mussoorie, North Eastern Police Academy (NEPA) Meghalaya, National Industrial Security Academy (NISA) Hyderabad, Central Detective Training Institute (CDTI) Delhi, National Forensic Sciences University (NFSU) Gandhinagar",
+          "State Police Academies: Moradabad (UP), Madhuban (Haryana), Phillaur (Punjab), Belgaum (Karnataka), Nashik (Maharashtra), Jaipur (Rajasthan)",
+          "Police Training Centres: Located in every state for basic constable training (3-6 months), Entry-level training for GD (General Duty) constables",
+          "Coaching Institutes: Drishti IAS New Delhi, Vajirao & Reddy Institute New Delhi, Rau's IAS Study Circle New Delhi, ALS IAS Academy New Delhi, Sriram's IAS New Delhi",
+          "Online Coaching: Unacademy UPSC CSE & State PSC Preparation, Testbook Police Exam Preparation Courses, Byju's Exam Prep IPS & State Police Online Coaching, Adda247 Sub-Inspector & Constable Exam Preparation"
         ]
       },
       {
@@ -591,9 +624,11 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Entry Level (0–2 yrs): ₹7 – ₹11 LPA",
           "Note: 20% Special Security Allowance and 8th Pay boost income.",
           "WHERE ARE THE JOBS?",
-          "Top Cities: Delhi-NCR, Mumbai, Kolkata, border zones, international embassies",
-          "Top Industries: RAW, IB, NTRO, Cybersecurity, Strategic Consulting",
-          "Global Demand: High in Geopolitics, Counter-terrorism, OSINT, Data Privacy"
+          "Strategic Headquarters: New Delhi (Cabinet Secretariat, NSC), Mumbai (Western Command), Kolkata (Eastern Operations)",
+          "Regional Centers: Bengaluru (Tech Intelligence), Hyderabad (SIGINT Hub), Chennai (Maritime Intelligence)",
+          "Border Stations: Srinagar (Kashmir Operations), Jaisalmer (Western Border), Siliguri (Northeast Operations)",
+          "International Postings: Embassies in Washington, London, Beijing, Moscow, Dubai, Singapore",
+          "Technical Hubs: Cyber Security Centers in Pune, Noida, and Bangalore"
         ]
       },
       {
@@ -615,40 +650,42 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Preparation investment before induction.",
         color: BLUE2,
         content: [
-          "Application fees are generally affordable for IB and UPSC channels with category-based exemptions.",
-          "Focused study resources for polity, internal security, and reasoning typically require a moderate budget.",
-          "Optional interview and descriptive preparation coaching can add additional cost.",
-          "Candidates may spend on psychometric and suitability preparation plus baseline medical checks.",
-          "Once selected, government-funded training, travel, and equipment are covered with salaried officer onboarding."
+          "Application Fees: ₹100–₹500 for UPSC/SSC exams with category-based exemptions for SC/ST/OBC.",
+          "Study Resources: Books and study materials typically cost ₹5,000–₹15,000 for comprehensive preparation.",
+          "Coaching Costs: Optional coaching ranges from ₹50,000–₹2,00,000 depending on institute and duration.",
+          "Interview Preparation: Specialized interview coaching costs ₹10,000–₹50,000 for 2-3 months.",
+          "Medical & Documentation: Background verification and medical tests cost ₹5,000–₹10,000.",
+          "Once Selected: Government-funded training, travel, accommodation, and equipment are fully covered with salaried officer onboarding."
         ]
       },
       {
         id: "scholarships",
-        title: "Scholarship and Support Opportunities",
+        title: "Scholarship & Support Opportunities",
         icon: "Award",
         description: "Financial support mechanisms and welfare schemes.",
-        color: BLUE2,
+        color: BLUE,
         content: [
-          "Welfare funds support technical and professional education for children of serving and retired personnel.",
-          "Prime Minister scholarship pathways and related schemes support eligible wards and widows in professional education.",
-          "Merit scholarships at strategic universities can reduce tuition burden in national security programs.",
-          "Special Security Allowance often helps officers finance advanced certifications and ongoing specialization.",
-          "Dedicated grants exist for dependents of martyred officers, including full or near-full education support."
+          "PM Scholarship Scheme (PMSS): For wards of Ex-servicemen and defense personnel (₹2,500–₹3,000/month for professional education).",
+          "UGC-NET JRF: For those pursuing PhD in National Security Studies (₹37,000/month stipend).",
+          "Merit Scholarships: Strategic universities offer fee waivers for candidates pursuing national security programs.",
+          "Special Security Allowance: Officers receive 20% additional allowance that can be used for professional development and certifications.",
+          "Welfare Funds: Intelligence agency welfare funds support education for children of serving and retired personnel.",
+          "Martyr Support: Dedicated grants for dependents of martyred officers including full education support and financial assistance."
         ]
       },
       {
         id: "certifications",
-        title: "Professional Bodies and Licensing",
+        title: "Professional Bodies & Licensing",
         icon: "Award",
         description: "Governance and legal ecosystem for intelligence operations.",
-        color: BLUE,
+        color: BLUE2,
         content: [
-          "Cabinet Secretariat and Ministry of Home Affairs provide top-level governance oversight across major intelligence structures.",
-          "National Security Council framework aligns intelligence outcomes with long-term state strategy and foreign policy.",
-          "UPSC remains the key gateway for Group A officers feeding leadership pipelines in intelligence-linked cadres.",
-          "NTRO anchors technical standards for surveillance, cyber systems, and high-end intelligence technologies.",
-          "NATGRID and joint intelligence coordination bodies integrate multi-source datasets into unified threat assessment pipelines.",
-          "Statutory restrictions and rights frameworks impose strict confidentiality and professional conduct obligations."
+          "Cabinet Secretariat: Provides top-level governance oversight across major intelligence structures and policy frameworks.",
+          "National Security Council (NSC): Aligns intelligence outcomes with long-term state strategy and foreign policy objectives.",
+          "UPSC (Union Public Service Commission): Key gateway for Group A officers feeding leadership pipelines in intelligence-linked cadres.",
+          "NTRO (National Technical Research Organisation): Anchors technical standards for surveillance, cyber systems, and high-end intelligence technologies.",
+          "JIC (Joint Intelligence Committee): Coordinates multi-agency intelligence sharing and strategic assessment.",
+          "Statutory Frameworks: Strict confidentiality and professional conduct obligations under Official Secrets Act and related legislation."
         ]
       },
       {
@@ -658,12 +695,12 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "The hard truths of a shadow profession.",
         color: BLUE2,
         content: [
-          "Selection is exceptionally competitive and opaque, demanding mental resilience and clean background credentials.",
-          "Life in the shadows means maintaining cover stories and living with limited social visibility of your real work.",
-          "Operations are unpredictable with 24x7 readiness, crisis war-room cycles, and sudden movement requirements.",
-          "Sustained exposure to sensitive threats can create psychological load and requires disciplined mental health management.",
-          "Field postings may involve volatile regions and austere conditions without conventional support systems.",
-          "Ethical decisions often carry immediate operational and long-term national consequences."
+          "Exceptional Competitiveness: Selection is highly competitive with opaque criteria, demanding mental resilience and impeccable background credentials.",
+          "Life in Shadows: Maintaining cover stories and living with limited social visibility of your real work and achievements.",
+          "Unpredictable Operations: 24x7 readiness, crisis war-room cycles, and sudden movement requirements without advance notice.",
+          "Psychological Toll: Sustained exposure to sensitive threats and classified information can create significant psychological load requiring disciplined mental health management.",
+          "Austere Field Postings: Volatile regions and austere conditions without conventional support systems or family amenities.",
+          "Ethical Complexity: Decisions often carry immediate operational and long-term national consequences with moral ambiguity."
         ]
       },
       {
@@ -673,11 +710,11 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "How intelligence work is transforming.",
         color: BLUE,
         content: [
-          "Predictive intelligence with AI and ML will shift operations from reaction to preemption at national scale.",
-          "Cognitive warfare and deepfake ecosystems will elevate demand for influence-defense and narrative-security specialists.",
-          "Quantum cryptography adoption will secure top-secret communication against next-generation computation threats.",
-          "Space intelligence and GEOINT roles will expand with high-revisit satellite analysis and border monitoring.",
-          "OSINT and dark-web intelligence will become core pillars for tracking transnational crime and hybrid conflict networks."
+          "Predictive Intelligence: AI and ML will shift operations from reaction to preemption at national scale with real-time threat forecasting.",
+          "Cognitive Warfare: Deepfake ecosystems and information warfare will elevate demand for influence-defense and narrative-security specialists.",
+          "Quantum Cryptography: Adoption of quantum-resistant encryption will secure top-secret communication against next-generation computation threats.",
+          "Space Intelligence: GEOINT roles will expand with high-revisit satellite analysis, space-based surveillance, and border monitoring capabilities.",
+          "OSINT Dominance: Open-source intelligence and dark-web monitoring will become core pillars for tracking transnational crime and hybrid conflict networks."
         ]
       },
       {
@@ -687,13 +724,13 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Early foundations for intelligence careers.",
         color: BLUE2,
         content: [
-          "Strengthen analytical reasoning using logic puzzles, pattern recognition exercises, and structured problem-solving.",
-          "Build linguistic depth through foreign or regional language study for field adaptability and source engagement.",
-          "Develop cybersecurity basics including encryption concepts, digital hygiene, and secure communication principles.",
-          "Practice observation and situational awareness drills to improve memory, detail retention, and anomaly detection.",
-          "Follow geopolitical and national security developments consistently to build strategic context.",
-          "Improve concise report writing because intelligence value depends on clarity and actionable communication.",
-          "Train physical and mental resilience through endurance sports, martial arts, and emotional regulation habits."
+          "Analytical Reasoning: Strengthen through logic puzzles, pattern recognition exercises, and structured problem-solving daily practice.",
+          "Language Proficiency: Build linguistic depth through foreign or regional language study for field adaptability and source engagement.",
+          "Cybersecurity Basics: Develop encryption concepts, digital hygiene, secure communication principles, and basic coding knowledge.",
+          "Observation Skills: Practice situational awareness drills to improve memory, detail retention, and anomaly detection capabilities.",
+          "Geopolitical Awareness: Follow national security developments, international relations, and strategic issues consistently.",
+          "Technical Writing: Improve concise report writing because intelligence value depends on clarity and actionable communication.",
+          "Physical & Mental Resilience: Train through endurance sports, martial arts, meditation, and emotional regulation habits."
         ]
       },
       {
@@ -703,12 +740,12 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Inspirational figures in Indian intelligence history.",
         color: BLUE,
         content: [
-          "R.N. Kao: Founding architect of R&AW who shaped modern Indian external intelligence capability.",
-          "Ajit Doval: Former intelligence veteran and National Security Advisor known for deep operational and strategic roles.",
-          "B. Raman: Influential counter-terror analyst and foundational voice in strategic threat interpretation.",
-          "K. Sankaran Nair: Key leader in strengthening institutional depth and technical expansion during formative decades.",
-          "Ajit Kumar Syal: Decorated intelligence officer associated with high-value domestic HUMINT and insurgency work.",
-          "Vikram Sood: Former R&AW chief and noted author who advanced public understanding of intelligence tradecraft."
+          "R.N. Kao: Founding architect of R&AW (1968) who shaped modern Indian external intelligence capability and established operational excellence standards.",
+          "Ajit Doval: Former intelligence veteran and current National Security Advisor known for deep operational expertise and strategic geopolitical roles.",
+          "B. Raman: Influential counter-terror analyst and foundational voice in strategic threat interpretation and counter-insurgency strategy.",
+          "K. Sankaran Nair: Key leader in strengthening institutional depth and technical expansion during formative decades of Indian intelligence.",
+          "Ajit Kumar Syal: Decorated intelligence officer associated with high-value domestic HUMINT operations and insurgency counter-operations.",
+          "Vikram Sood: Former R&AW chief and noted author who advanced public understanding of intelligence tradecraft and strategic analysis."
         ]
       }
     ]
