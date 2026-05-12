@@ -712,11 +712,11 @@ export const manufacturingUpdateData: Record<string, CareerPageData> = {
         description: "Credentials and professional organizations.",
         color: BLUE,
         content: [
-          "Certifications (The 'Resume Boosters'):",
+        
           "CAD Tools: Certification in SolidWorks, AutoCAD, or CATIA. Essential for design jobs. Cost: ₹5k–₹15k.",
           "Analysis Tools: ANSYS or HyperMesh certification. Proves simulation expertise. Cost: ₹10k–₹20k.",
           "Six Sigma Green Belt: For quality and process improvement roles. Cost: ₹15k–₹25k.",
-          "Professional Bodies:",
+   
           "ASME (American Society of Mechanical Engineers): Student membership is great for networking and access to technical journals.",
           "SAE India (Society of Automotive Engineers): A must-join for car enthusiasts. They organize student competitions like 'Baja SAE' and 'Formula SAE.'",
           "IMechE (Institution of Mechanical Engineers): UK-based but recognized globally. Professional membership after graduation."

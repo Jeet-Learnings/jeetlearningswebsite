@@ -483,11 +483,11 @@ export function CareerPageDynamic({
                     <div key={pIdx} className="bg-white rounded-xl sm:rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col hover:shadow-md transition-shadow">
                       <div className="p-4 sm:p-5 md:p-6 bg-slate-50 border-b border-slate-200 border-t-4 border-blue-500">
                         <div>
-                          <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1.5">
+                          <p className="text-sm sm:text-base font-bold text-blue-600 uppercase tracking-wider mb-1.5">
                             <TranslatedText as="span">{path.title.split(':')[0]?.trim()}</TranslatedText>
                           </p>
                           {path.title.includes(':') && (
-                            <h3 className="text-sm sm:text-base font-bold text-slate-900 leading-snug">
+                            <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-900 leading-snug">
                               <TranslatedText as="span">{path.title.split(':')[1]?.trim()}</TranslatedText>
                             </h3>
                           )}
@@ -1682,9 +1682,9 @@ export function CareerPageDynamic({
                         </div>
                         <ul className="space-y-1.5 sm:space-y-2 pl-0 flex-1 overflow-y-auto">
                           {opps.map((opp, i) => (
-                            <li key={i} className="flex gap-1.5 sm:gap-2 items-start group/item text-slate-600 min-w-0">
+                            <li key={i} className="flex gap-1.5 sm:gap-2 items-start group/item text-slate-900 min-w-0">
                               <span className={`mt-0.5 font-bold text-xs sm:text-sm ${colorClass} flex-shrink-0`}>•</span>
-                              <span className="text-xs sm:text-sm md:text-base font-medium group-hover/item:text-slate-900 transition-colors leading-snug break-words">
+                              <span className="text-xs sm:text-xs md:text-sm font-normal group-hover/item:text-slate-900 transition-colors leading-snug break-words">
                                 <TranslatedText as="span">{opp}</TranslatedText>
                               </span>
                             </li>
@@ -1916,7 +1916,7 @@ export function CareerPageDynamic({
                           </div>
                           <div className="flex gap-3 sm:gap-4">
                             <div className="w-10 flex-shrink-0" />
-                            <div className="text-[15.5px] text-slate-700 mb-4 tracking-tight flex-1 min-w-0 break-words"><TranslatedText as="span">{details}</TranslatedText></div>
+                            <div className="text-[19.8px] text-slate-700 mb-4 tracking-tight flex-1 min-w-0 break-words"><TranslatedText as="span">{details}</TranslatedText></div>
                           </div>
                         </div>
                       </div>

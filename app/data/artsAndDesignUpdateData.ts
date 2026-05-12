@@ -3610,12 +3610,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Kabir, a PR Manager at a top media agency in Mumbai",
         color: BLUE2,
         content: [
-          "09:00 AM –  Kabir scans five different newspapers and Twitter trends. His client, a major tech company, is launching a new phone today. He checks if the 'leaks' he planted yesterday have been picked up by tech blogs.",
-          "10:30 AM –  The Crisis Call. A small controversy has erupted—a tweet by the tech company's CEO was misinterpreted. Kabir jumps into action. He drafts a 'Clarification Statement,' gets it approved by the legal team, and sends it to key journalists to control the narrative. In PR, speed is everything.",
-          "01:00 PM –  Lunch with an Influencer. He meets a popular Tech YouTuber at a cafe in Bandra. They discuss the upcoming phone launch. Kabir isn't paying him; he is pitching the story of why this phone matters. Relationships are his currency.",
-          "03:00 PM –  Event Planning. Kabir heads to a 5-star hotel to oversee the setup for the evening launch event. He checks the stage lighting, the sound system, and the 'goodie bags' for the media. He ensures the 'Photo Wall' is perfectly lit for Instagram.",
-          "05:00 PM –  The Press Conference. The event starts. Kabir is the bridge—he guides journalists to the CEO for interviews, ensures photographers get the right angle, and manages the chaos. He is the invisible hand making sure the event looks effortless.",
-          "08:00 PM –  Wrap Up. The event trends on Twitter. Kabir sends a 'Coverage Report' to the client, showing them all the articles and posts generated today. He heads home, exhausted but buzzing with the adrenaline of a successful launch."
+          "09:00 AM –  Kabir scans five different newspapers and Twitter trends: His client, a major tech company, is launching a new phone today. He checks if the 'leaks' he planted yesterday have been picked up by tech blogs.",
+          "10:30 AM –  The Crisis Call: A small controversy has erupted—a tweet by the tech company's CEO was misinterpreted. Kabir jumps into action. He drafts a 'Clarification Statement,' gets it approved by the legal team, and sends it to key journalists to control the narrative. In PR, speed is everything.",
+          "01:00 PM –  Lunch with an Influencer: He meets a popular Tech YouTuber at a cafe in Bandra. They discuss the upcoming phone launch. Kabir isn't paying him; he is pitching the story of why this phone matters. Relationships are his currency.",
+          "03:00 PM –  Event Planning: Kabir heads to a 5-star hotel to oversee the setup for the evening launch event. He checks the stage lighting, the sound system, and the 'goodie bags' for the media. He ensures the 'Photo Wall' is perfectly lit for Instagram.",
+          "05:00 PM –  The Press Conference: The event starts. Kabir is the bridge—he guides journalists to the CEO for interviews, ensures photographers get the right angle, and manages the chaos. He is the invisible hand making sure the event looks effortless.",
+          "08:00 PM –  Wrap Up: The event trends on Twitter. Kabir sends a 'Coverage Report' to the client, showing them all the articles and posts generated today. He heads home, exhausted but buzzing with the adrenaline of a successful launch."
         ]
       },
       {
@@ -3863,12 +3863,12 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Ananya, a PR Executive at a leading agency in Mumbai",
         color: BLUE2,
         content: [
-          "09:00 AM –  Ananya starts her day with 'Media Monitoring.' She scans 10 newspapers and tracks Twitter trends. 'Great! The Economic Times covered our client's sustainability initiative,' she notes. She clips the article and sends a 'Coverage Report' to the client.",
-          "10:30 AM –  The Pitch. Her client, a FinTech startup, is launching a new app. Ananya calls a journalist from a major tech blog. She doesn't beg for coverage; she sells a story. 'Hi, did you know 40% of Indians struggle with saving? Our founder has a solution...' The journalist agrees to an interview.",
-          "01:00 PM –  Crisis Control. A crisis erupts. A video of a rude delivery partner from her client's company has gone viral. Ananya jumps on a 'War Room' call. She drafts a 'Holding Statement' (an official apology and action plan) to be released immediately to stop the trolling.",
-          "03:00 PM –  Content Creation. The chaos settles. She sits down to write a 'Press Release' for next week's event. Every word must be perfect—journalists hate grammatical errors.",
-          "05:00 PM –  Influencer Coordination. She sends gift hampers to 20 lifestyle influencers for an upcoming campaign. She follows up to ensure they post the unboxing video at the right time.",
-          "07:30 PM –  Networking Event. She heads to a Press Club mixer. It looks like a party, but she is working—building relationships with reporters so they pick up her phone calls next time."
+          "09:00 AM –  Ananya starts her day with 'Media Monitoring.' :She scans 10 newspapers and tracks Twitter trends. 'Great! The Economic Times covered our client's sustainability initiative,' she notes. She clips the article and sends a 'Coverage Report' to the client.",
+          "10:30 AM –  The Pitch: Her client, a FinTech startup, is launching a new app. Ananya calls a journalist from a major tech blog. She doesn't beg for coverage; she sells a story. 'Hi, did you know 40% of Indians struggle with saving? Our founder has a solution...' The journalist agrees to an interview.",
+          "01:00 PM –  Crisis Control: A crisis erupts. A video of a rude delivery partner from her client's company has gone viral. Ananya jumps on a 'War Room' call. She drafts a 'Holding Statement' (an official apology and action plan) to be released immediately to stop the trolling.",
+          "03:00 PM –  Content Creation: The chaos settles. She sits down to write a 'Press Release' for next week's event. Every word must be perfect—journalists hate grammatical errors.",
+          "05:00 PM –  Influencer Coordination: She sends gift hampers to 20 lifestyle influencers for an upcoming campaign. She follows up to ensure they post the unboxing video at the right time.",
+          "07:30 PM –  Networking Event: She heads to a Press Club mixer. It looks like a party, but she is working—building relationships with reporters so they pick up her phone calls next time."
         ]
       },
       {
