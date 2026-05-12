@@ -3,6 +3,7 @@ import Image from "next/image";
 import NavbarWrapper from "@/app/components/NavbarWrapper";
 import Footer from "@/app/components/Footer";
 import PsychometricTestClient from "./PsychometricTestClient";
+import { TranslatedText } from "@/app/components/TranslatedText";
 
 const testFamilies = [
   {
@@ -184,9 +185,9 @@ export default function PsychometricPage() {
               />
             </div>
             <div className="rounded-2xl bg-white border border-slate-200 p-6">
-              <h2 className="text-2xl font-black text-slate-900">Data-Backed Career and Learning Decisions</h2>
+              <h2 className="text-2xl font-black text-slate-900"><TranslatedText as="span">Data-Backed Career and Learning Decisions</TranslatedText></h2>
               <p className="mt-3 text-slate-600 leading-relaxed">
-                Psychometric analysis helps families, students, and professionals replace guesswork with measurable direction across subject choice, career strategy, and work-role fit.
+                <TranslatedText as="span">Psychometric analysis helps families, students, and professionals replace guesswork with measurable direction across subject choice, career strategy, and work-role fit.</TranslatedText>
               </p>
             </div>
           </div>
@@ -194,14 +195,14 @@ export default function PsychometricPage() {
 
         <section className="px-4 sm:px-6 py-14">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-6">Core Assessment Families</h2>
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-6"><TranslatedText as="span">Core Assessment Families</TranslatedText></h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {testFamilies.map((group) => (
                 <article key={group.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-                  <h3 className="text-xl font-extrabold text-slate-900 mb-3">{group.title}</h3>
+                  <h3 className="text-xl font-extrabold text-slate-900 mb-3"><TranslatedText as="span">{group.title}</TranslatedText></h3>
                   <ul className="space-y-2 text-slate-700 list-disc pl-5">
                     {group.points.map((point) => (
-                      <li key={point}>{point}</li>
+                      <li key={point}><TranslatedText as="span">{point}</TranslatedText></li>
                     ))}
                   </ul>
                 </article>
@@ -212,14 +213,14 @@ export default function PsychometricPage() {
 
         <section className="px-4 sm:px-6 pb-14">
           <div className="max-w-6xl mx-auto rounded-2xl border border-slate-200 bg-white p-6 sm:p-8">
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-3">What These Tests Measure</h2>
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-3"><TranslatedText as="span">What These Tests Measure</TranslatedText></h2>
             <p className="text-slate-600 leading-relaxed max-w-3xl mb-6">
-              Good psychometric systems are not only about scores. They evaluate how a person thinks, learns, reacts, solves problems, and performs under constraints.
+              <TranslatedText as="span">Good psychometric systems are not only about scores. They evaluate how a person thinks, learns, reacts, solves problems, and performs under constraints.</TranslatedText>
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {measuredAreas.map((item) => (
                 <div key={item} className="rounded-xl bg-slate-50 border border-slate-200 px-4 py-3 text-slate-700 font-medium">
-                  {item}
+                  <TranslatedText as="span">{item}</TranslatedText>
                 </div>
               ))}
             </div>
@@ -228,12 +229,12 @@ export default function PsychometricPage() {
 
         <section className="px-4 sm:px-6 pb-14">
           <div className="max-w-6xl mx-auto rounded-2xl bg-slate-900 text-slate-100 p-6 sm:p-8">
-            <h2 className="text-2xl sm:text-3xl font-black mb-5">Age and Stage Utility</h2>
+            <h2 className="text-2xl sm:text-3xl font-black mb-5"><TranslatedText as="span">Age and Stage Utility</TranslatedText></h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {ageBuckets.map((bucket) => (
                 <article key={bucket.label} className="rounded-xl border border-white/15 bg-white/5 p-4">
-                  <h3 className="font-bold text-white">{bucket.label}</h3>
-                  <p className="text-sm text-slate-300 mt-1">{bucket.text}</p>
+                  <h3 className="font-bold text-white"><TranslatedText as="span">{bucket.label}</TranslatedText></h3>
+                  <p className="text-sm text-slate-300 mt-1"><TranslatedText as="span">{bucket.text}</TranslatedText></p>
                 </article>
               ))}
             </div>
@@ -242,16 +243,16 @@ export default function PsychometricPage() {
 
         <section className="px-4 sm:px-6 pb-16">
           <div className="max-w-6xl mx-auto rounded-2xl border border-orange-200 bg-orange-50 p-6 sm:p-8">
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">Why This Matters</h2>
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900"><TranslatedText as="span">Why This Matters</TranslatedText></h2>
             <p className="mt-3 text-slate-700 leading-relaxed max-w-3xl">
-              The practical value of psychometric analysis is clarity: clearer study strategies, stronger stream choices, better job-role fit, improved team effectiveness, and more confident long-term planning.
+              <TranslatedText as="span">The practical value of psychometric analysis is clarity: clearer study strategies, stronger stream choices, better job-role fit, improved team effectiveness, and more confident long-term planning.</TranslatedText>
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/contact" className="rounded-full bg-orange-700 text-white px-5 py-2.5 font-semibold hover:bg-orange-800 transition-colors">
-                Start Your Assessment Plan
+                <TranslatedText as="span">Start Your Assessment Plan</TranslatedText>
               </Link>
               <Link href="/dmit" className="rounded-full border border-slate-300 px-5 py-2.5 font-semibold text-slate-700 hover:bg-white transition-colors">
-                Explore DMIT
+                <TranslatedText as="span">Explore DMIT</TranslatedText>
               </Link>
             </div>
           </div>
@@ -261,9 +262,9 @@ export default function PsychometricPage() {
           <div className="max-w-6xl mx-auto rounded-2xl border border-slate-200 bg-white p-6 sm:p-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center mb-8">
               <div>
-                <h2 className="text-2xl sm:text-3xl font-black text-slate-900">Complete Psychometric Guide (Expandable)</h2>
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-900"><TranslatedText as="span">Complete Psychometric Guide (Expandable)</TranslatedText></h2>
                 <p className="mt-3 text-slate-600 leading-relaxed">
-                  Expand each chapter to read the full long-form material for aptitude, IQ, and personality testing.
+                  <TranslatedText as="span">Expand each chapter to read the full long-form material for aptitude, IQ, and personality testing.</TranslatedText>
                 </p>
               </div>
               <div className="relative min-h-[220px] rounded-2xl overflow-hidden border border-slate-200">
@@ -281,17 +282,17 @@ export default function PsychometricPage() {
               {psychometricChapters.map((chapter) => (
                 <details key={chapter.title} className="group rounded-xl border border-slate-200 bg-slate-50 p-5">
                   <summary className="cursor-pointer list-none font-bold text-slate-900 flex items-center justify-between gap-4">
-                    <span>{chapter.title}</span>
+                    <span><TranslatedText as="span">{chapter.title}</TranslatedText></span>
                     <span className="text-slate-400 group-open:rotate-45 transition-transform">+</span>
                   </summary>
                   <div className="mt-4 space-y-3 text-slate-700 leading-relaxed">
                     {chapter.paragraphs?.map((paragraph) => (
-                      <p key={paragraph}>{paragraph}</p>
+                      <p key={paragraph}><TranslatedText as="span">{paragraph}</TranslatedText></p>
                     ))}
                     {chapter.bullets && chapter.bullets.length > 0 && (
                       <ul className="space-y-2 list-disc pl-5">
                         {chapter.bullets.map((bullet) => (
-                          <li key={bullet}>{bullet}</li>
+                          <li key={bullet}><TranslatedText as="span">{bullet}</TranslatedText></li>
                         ))}
                       </ul>
                     )}

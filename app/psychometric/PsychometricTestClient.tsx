@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronRight, CheckCircle, RotateCcw } from "lucide-react";
+import { TranslatedText } from "@/app/components/TranslatedText";
 
 interface Question {
   id: number;
@@ -309,31 +310,31 @@ export default function PsychometricTestClient() {
         <div className="max-w-2xl w-full bg-white rounded-2xl border border-[#EEEEEE] p-8 shadow-lg">
           <div className="text-center mb-8">
             <h1 className="font-poppins font-bold text-[#333333] text-3xl mb-3">
-              Psychometric Assessment Test
+              <TranslatedText as="span">Psychometric Assessment Test</TranslatedText>
             </h1>
             <p className="font-poppins text-[#757575] text-base leading-relaxed">
-              Discover your aptitude, IQ, and personality profile through our comprehensive psychometric test. This assessment takes approximately 10-15 minutes and provides personalized insights for your career and personal development.
+              <TranslatedText as="span">Discover your aptitude, IQ, and personality profile through our comprehensive psychometric test. This assessment takes approximately 10-15 minutes and provides personalized insights for your career and personal development.</TranslatedText>
             </p>
           </div>
 
           <div className="space-y-6 mb-8">
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
-              <h3 className="font-poppins font-bold text-[#333333] mb-3">What You'll Discover:</h3>
+              <h3 className="font-poppins font-bold text-[#333333] mb-3"><TranslatedText as="span">What You'll Discover:</TranslatedText></h3>
               <ul className="space-y-2 font-poppins text-[#757575] text-sm">
-                <li>✓ Your natural aptitude for learning and problem-solving</li>
-                <li>✓ Your cognitive reasoning and IQ profile</li>
-                <li>✓ Your personality traits and behavioral strengths</li>
-                <li>✓ Personalized career and development recommendations</li>
+                <li>✓ <TranslatedText as="span">Your natural aptitude for learning and problem-solving</TranslatedText></li>
+                <li>✓ <TranslatedText as="span">Your cognitive reasoning and IQ profile</TranslatedText></li>
+                <li>✓ <TranslatedText as="span">Your personality traits and behavioral strengths</TranslatedText></li>
+                <li>✓ <TranslatedText as="span">Personalized career and development recommendations</TranslatedText></li>
               </ul>
             </div>
 
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
-              <h3 className="font-poppins font-bold text-[#333333] mb-3">Test Details:</h3>
+              <h3 className="font-poppins font-bold text-[#333333] mb-3"><TranslatedText as="span">Test Details:</TranslatedText></h3>
               <ul className="space-y-2 font-poppins text-[#757575] text-sm">
-                <li>• 15 questions across 3 categories</li>
-                <li>• Multiple choice format</li>
-                <li>• No preparation needed</li>
-                <li>• Instant results and recommendations</li>
+                <li>• <TranslatedText as="span">15 questions across 3 categories</TranslatedText></li>
+                <li>• <TranslatedText as="span">Multiple choice format</TranslatedText></li>
+                <li>• <TranslatedText as="span">No preparation needed</TranslatedText></li>
+                <li>• <TranslatedText as="span">Instant results and recommendations</TranslatedText></li>
               </ul>
             </div>
           </div>
@@ -342,11 +343,11 @@ export default function PsychometricTestClient() {
             onClick={() => setTestStarted(true)}
             className="w-full bg-[#C20000] text-white font-poppins font-bold py-3 rounded-lg hover:bg-[#B30000] transition-colors flex items-center justify-center gap-2"
           >
-            Start Assessment <ChevronRight className="w-5 h-5" />
+            <TranslatedText as="span">Start Assessment</TranslatedText> <ChevronRight className="w-5 h-5" />
           </button>
 
           <p className="font-poppins text-[#AAAAAA] text-xs text-center mt-4">
-            Your responses are confidential and used only for generating your personalized report.
+            <TranslatedText as="span">Your responses are confidential and used only for generating your personalized report.</TranslatedText>
           </p>
         </div>
       </motion.div>
@@ -376,10 +377,10 @@ export default function PsychometricTestClient() {
               <CheckCircle className="w-16 h-16 text-green-500" />
             </div>
             <h1 className="font-poppins font-bold text-[#333333] text-3xl mb-2">
-              Assessment Complete!
+              <TranslatedText as="span">Assessment Complete!</TranslatedText>
             </h1>
             <p className="font-poppins text-[#757575]">
-              Here are your personalized psychometric insights
+              <TranslatedText as="span">Here are your personalized psychometric insights</TranslatedText>
             </p>
           </motion.div>
 
@@ -390,18 +391,18 @@ export default function PsychometricTestClient() {
             transition={{ delay: 0.1 }}
             className="bg-white rounded-2xl border border-[#EEEEEE] p-8 mb-6 text-center"
           >
-            <p className="font-poppins text-[#757575] text-sm mb-2">Overall Assessment Score</p>
+            <p className="font-poppins text-[#757575] text-sm mb-2"><TranslatedText as="span">Overall Assessment Score</TranslatedText></p>
             <div className="text-5xl font-poppins font-bold text-[#C20000] mb-2">
               {overallPercentage}%
             </div>
             <p className="font-poppins text-[#757575]">
-              {overallPercentage >= 80
-                ? "Excellent -  Outstanding potential across all areas"
+              <TranslatedText as="span">{overallPercentage >= 80
+                ? "Excellent - Outstanding potential across all areas"
                 : overallPercentage >= 60
-                ? "Good -  Strong capabilities with room for growth"
+                ? "Good - Strong capabilities with room for growth"
                 : overallPercentage >= 40
-                ? "Average -  Solid foundation with development opportunities"
-                : "Developing -  Focus on targeted skill building"}
+                ? "Average - Solid foundation with development opportunities"
+                : "Developing - Focus on targeted skill building"}</TranslatedText>
             </p>
           </motion.div>
 
@@ -416,13 +417,13 @@ export default function PsychometricTestClient() {
                 className="bg-white rounded-2xl border border-[#EEEEEE] p-6"
               >
                 <h3 className="font-poppins font-bold text-[#333333] text-lg mb-4">
-                  {category.name}
+                  <TranslatedText as="span">{category.name}</TranslatedText>
                 </h3>
 
                 {/* Progress Bar */}
                 <div className="mb-4">
                   <div className="flex justify-between items-center mb-2">
-                    <span className="font-poppins text-[#757575] text-sm">Score</span>
+                    <span className="font-poppins text-[#757575] text-sm"><TranslatedText as="span">Score</TranslatedText></span>
                     <span className="font-poppins font-bold text-[#C20000]">
                       {category.percentage}%
                     </span>
@@ -438,17 +439,17 @@ export default function PsychometricTestClient() {
                 </div>
 
                 <p className="font-poppins text-[#757575] text-sm mb-4">
-                  {category.description}
+                  <TranslatedText as="span">{category.description}</TranslatedText>
                 </p>
 
                 <div className="bg-[#F5F5F5] rounded-lg p-3">
                   <p className="font-poppins font-semibold text-[#333333] text-xs mb-2">
-                    Recommendations:
+                    <TranslatedText as="span">Recommendations:</TranslatedText>
                   </p>
                   <ul className="space-y-1">
                     {category.recommendations.slice(0, 2).map((rec, i) => (
                       <li key={i} className="font-poppins text-[#757575] text-xs">
-                        • {rec}
+                        • <TranslatedText as="span">{rec}</TranslatedText>
                       </li>
                     ))}
                   </ul>
@@ -465,27 +466,27 @@ export default function PsychometricTestClient() {
             className="bg-white rounded-2xl border border-[#EEEEEE] p-8 mb-8"
           >
             <h2 className="font-poppins font-bold text-[#333333] text-2xl mb-6">
-              Your Personalized Insights
+              <TranslatedText as="span">Your Personalized Insights</TranslatedText>
             </h2>
 
             <div className="space-y-6">
               {scores.map((category) => (
                 <div key={category.name} className="border-l-4 border-[#C20000] pl-6">
                   <h3 className="font-poppins font-bold text-[#333333] text-lg mb-2">
-                    {category.name}
+                    <TranslatedText as="span">{category.name}</TranslatedText>
                   </h3>
                   <p className="font-poppins text-[#757575] mb-3">
-                    {category.description}
+                    <TranslatedText as="span">{category.description}</TranslatedText>
                   </p>
                   <div className="bg-[#F5F5F5] rounded-lg p-4">
                     <p className="font-poppins font-semibold text-[#333333] text-sm mb-3">
-                      Recommended Actions:
+                      <TranslatedText as="span">Recommended Actions:</TranslatedText>
                     </p>
                     <ul className="space-y-2">
                       {category.recommendations.map((rec, i) => (
                         <li key={i} className="font-poppins text-[#757575] text-sm flex gap-2">
                           <span className="text-[#C20000]">→</span>
-                          {rec}
+                          <TranslatedText as="span">{rec}</TranslatedText>
                         </li>
                       ))}
                     </ul>
@@ -502,9 +503,9 @@ export default function PsychometricTestClient() {
             transition={{ delay: 0.6 }}
             className="bg-gradient-to-r from-[#C20000] to-[#FF6B6B] rounded-2xl p-8 text-white text-center mb-8"
           >
-            <h3 className="font-poppins font-bold text-2xl mb-3">Next Steps</h3>
+            <h3 className="font-poppins font-bold text-2xl mb-3"><TranslatedText as="span">Next Steps</TranslatedText></h3>
             <p className="font-poppins mb-6">
-              Use these insights to guide your academic and career decisions. Consider consulting with a career counselor to develop a personalized action plan.
+              <TranslatedText as="span">Use these insights to guide your academic and career decisions. Consider consulting with a career counselor to develop a personalized action plan.</TranslatedText>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
@@ -512,13 +513,13 @@ export default function PsychometricTestClient() {
                 className="bg-white text-[#C20000] font-poppins font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors flex items-center justify-center gap-2"
               >
                 <RotateCcw className="w-5 h-5" />
-                Retake Assessment
+                <TranslatedText as="span">Retake Assessment</TranslatedText>
               </button>
               <a
                 href="/contact"
                 className="bg-white/20 border border-white text-white font-poppins font-bold py-3 px-6 rounded-lg hover:bg-white/30 transition-colors"
               >
-                Book Consultation
+                <TranslatedText as="span">Book Consultation</TranslatedText>
               </a>
             </div>
           </motion.div>
@@ -542,7 +543,7 @@ export default function PsychometricTestClient() {
         <div className="mb-8">
           <div className="flex justify-between items-center mb-2">
             <span className="font-poppins text-[#757575] text-sm">
-              Question {currentQuestion + 1} of {questions.length}
+              <TranslatedText as="span">Question</TranslatedText> {currentQuestion + 1} <TranslatedText as="span">of</TranslatedText> {questions.length}
             </span>
             <span className="font-poppins text-[#757575] text-sm">{Math.round(progress)}%</span>
           </div>
@@ -568,17 +569,17 @@ export default function PsychometricTestClient() {
             {/* Category Badge */}
             <div className="mb-6">
               <span className="inline-block bg-[#FFF5F5] text-[#C20000] font-poppins font-semibold text-xs px-3 py-1 rounded-full">
-                {question.category === "aptitude"
+                <TranslatedText as="span">{question.category === "aptitude"
                   ? "Aptitude"
                   : question.category === "iq"
                   ? "IQ & Reasoning"
-                  : "Personality"}
+                  : "Personality"}</TranslatedText>
               </span>
             </div>
 
             {/* Question */}
             <h2 className="font-poppins font-bold text-[#333333] text-xl mb-8">
-              {question.text}
+              <TranslatedText as="span">{question.text}</TranslatedText>
             </h2>
 
             {/* Options */}
@@ -607,7 +608,7 @@ export default function PsychometricTestClient() {
                         <div className="w-2 h-2 bg-white rounded-full" />
                       )}
                     </div>
-                    <span className="text-[#333333]">{option.label}</span>
+                    <span className="text-[#333333]"><TranslatedText as="span">{option.label}</TranslatedText></span>
                   </div>
                 </motion.button>
               ))}
@@ -622,7 +623,7 @@ export default function PsychometricTestClient() {
             disabled={currentQuestion === 0}
             className="flex-1 py-3 px-4 border border-[#EEEEEE] text-[#757575] font-poppins font-semibold rounded-lg hover:bg-[#F5F5F5] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Previous
+            <TranslatedText as="span">Previous</TranslatedText>
           </button>
           <button
             onClick={handleNext}
@@ -631,11 +632,11 @@ export default function PsychometricTestClient() {
           >
             {currentQuestion === questions.length -  1 ? (
               <>
-                Complete <CheckCircle className="w-5 h-5" />
+                <TranslatedText as="span">Complete</TranslatedText> <CheckCircle className="w-5 h-5" />
               </>
             ) : (
               <>
-                Next <ChevronRight className="w-5 h-5" />
+                <TranslatedText as="span">Next</TranslatedText> <ChevronRight className="w-5 h-5" />
               </>
             )}
           </button>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
+import { TranslatedText } from "@/app/components/TranslatedText";
 
 const faqs = [
   {
@@ -40,10 +41,10 @@ export default function FAQSection() {
         <div className={`text-center mb-16 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
           }`}>
           <h2 className="font-poppins text-slate-900 font-bold text-4xl lg:text-5xl mb-4 tracking-tight">
-            Frequently Asked <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-canam-red)] to-[var(--color-canam-red-dark)]">Questions</span>
+            <TranslatedText as="span">Frequently Asked</TranslatedText> <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-canam-red)] to-[var(--color-canam-red-dark)]"><TranslatedText as="span">Questions</TranslatedText></span>
           </h2>
           <p className="font-inter text-slate-500 text-lg">
-            Find answers to the most common questions about our services.
+            <TranslatedText as="span">Find answers to the most common questions about our services.</TranslatedText>
           </p>
         </div>
 
@@ -65,7 +66,7 @@ export default function FAQSection() {
                 >
                   <span className={`font-poppins font-semibold text-base sm:text-lg transition-colors ${isOpen ? "text-[var(--color-canam-red)]" : "text-slate-800 group-hover:text-[var(--color-canam-red)]"
                     }`}>
-                    {faq.question}
+                    <TranslatedText as="span">{faq.question}</TranslatedText>
                   </span>
                   <div className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${isOpen ? "bg-red-50" : "bg-slate-50 group-hover:bg-red-50"
                     }`}>
@@ -90,7 +91,7 @@ export default function FAQSection() {
                   className={`px-6 sm:px-8 transition-all duration-500 ease-in-out font-inter text-slate-600 text-[15px] leading-relaxed ${isOpen ? "opacity-100 max-h-48 pb-6" : "opacity-0 max-h-0 pb-0"
                     }`}
                 >
-                  {faq.answer}
+                  <TranslatedText as="span">{faq.answer}</TranslatedText>
                 </div>
               </div>
             );

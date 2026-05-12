@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronRight, CheckCircle, RotateCcw, Brain, Fingerprint, Zap, Target, Clock, FileText, BarChart3 } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
+import { TranslatedText } from "@/app/components/TranslatedText";
 
 interface Question {
   id: number;
@@ -108,13 +109,13 @@ export default function DMITTestClient() {
         <div className="bg-[#F9F9F9] border-b border-[#EEEEEE] px-4 sm:px-6 md:px-8 py-14 sm:py-20">
           <div className="max-w-3xl mx-auto text-center">
             <span className="inline-block bg-[#FFF5F5] text-[#C20000] text-xs font-semibold px-4 py-1.5 rounded-full mb-5 tracking-wide uppercase">
-              Assessment Tool
+              <TranslatedText>Assessment Tool</TranslatedText>
             </span>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#333333] mb-5 leading-tight">
-              DMIT Assessment Test
+              <TranslatedText as="span">DMIT Assessment Test</TranslatedText>
             </h1>
             <p className="text-[#757575] text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-              Discover your dermatoglyphic profile through our comprehensive assessment. Analyze your fingerprint patterns, brain dominance, learning style, and personality for personalized career insights.
+              <TranslatedText as="span">Discover your dermatoglyphic profile through our comprehensive assessment. Analyze your fingerprint patterns, brain dominance, learning style, and personality for personalized career insights.</TranslatedText>
             </p>
           </div>
         </div>
@@ -132,15 +133,15 @@ export default function DMITTestClient() {
                   <div className="w-10 h-10 bg-[#FFF5F5] rounded-lg flex items-center justify-center mx-auto mb-3">
                     <Icon className="w-5 h-5 text-[#C20000]" />
                   </div>
-                  <p className="font-semibold text-[#333333] text-sm">{label}</p>
-                  <p className="text-[#AAAAAA] text-xs mt-0.5">{sub}</p>
+                  <p className="font-semibold text-[#333333] text-sm"><TranslatedText as="span">{label}</TranslatedText></p>
+                  <p className="text-[#AAAAAA] text-xs mt-0.5"><TranslatedText as="span">{sub}</TranslatedText></p>
                 </div>
               ))}
             </div>
 
             {/* What you'll discover */}
             <div className="border border-[#EEEEEE] rounded-xl p-6 sm:p-8 mb-6 bg-white">
-              <h2 className="font-bold text-[#333333] text-lg mb-5">What You'll Discover</h2>
+              <h2 className="font-bold text-[#333333] text-lg mb-5"><TranslatedText as="span">What You'll Discover</TranslatedText></h2>
               <div className="grid sm:grid-cols-2 gap-3">
                 {[
                   { icon: Fingerprint, color: "#C20000", text: "Fingerprint pattern analysis and cognitive tendencies" },
@@ -152,7 +153,7 @@ export default function DMITTestClient() {
                     <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5" style={{ background: `${color}15` }}>
                       <Icon className="w-4 h-4" style={{ color }} />
                     </div>
-                    <p className="text-[#505050] text-sm leading-snug">{text}</p>
+                    <p className="text-[#505050] text-sm leading-snug"><TranslatedText as="span">{text}</TranslatedText></p>
                   </div>
                 ))}
               </div>
@@ -162,10 +163,10 @@ export default function DMITTestClient() {
               onClick={() => setTestStarted(true)}
               className="w-full bg-[#C20000] hover:bg-[#B30000] text-white font-semibold py-4 rounded-xl transition-colors flex items-center justify-center gap-2 text-base"
             >
-              Start DMIT Assessment <ChevronRight className="w-5 h-5" />
+              <TranslatedText as="span">Start DMIT Assessment</TranslatedText> <ChevronRight className="w-5 h-5" />
             </button>
             <p className="text-[#AAAAAA] text-xs text-center mt-4">
-              Your responses are confidential and used only for generating your personalized DMIT report.
+              <TranslatedText as="span">Your responses are confidential and used only for generating your personalized DMIT report.</TranslatedText>
             </p>
           </div>
         </div>
@@ -192,15 +193,15 @@ export default function DMITTestClient() {
             <div className="w-16 h-16 bg-[#FFF5F5] rounded-full flex items-center justify-center mx-auto mb-5">
               <CheckCircle className="w-8 h-8 text-[#C20000]" />
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-[#333333] mb-2">Assessment Complete</h1>
-            <p className="text-[#757575]">Here are your personalized dermatoglyphic insights</p>
+            <h1 className="text-3xl sm:text-4xl font-bold text-[#333333] mb-2"><TranslatedText as="span">Assessment Complete</TranslatedText></h1>
+            <p className="text-[#757575]"><TranslatedText as="span">Here are your personalized dermatoglyphic insights</TranslatedText></p>
           </div>
 
           {/* Overall score */}
           <div className="bg-white border border-[#EEEEEE] rounded-2xl p-8 mb-6 text-center">
-            <p className="text-[#AAAAAA] text-sm mb-2 uppercase tracking-widest font-semibold">Overall DMIT Score</p>
+            <p className="text-[#AAAAAA] text-sm mb-2 uppercase tracking-widest font-semibold"><TranslatedText as="span">Overall DMIT Score</TranslatedText></p>
             <div className="text-6xl font-bold text-[#C20000] mb-3">{overallPercentage}%</div>
-            <p className="text-[#757575] text-sm">{overallLabel}</p>
+            <p className="text-[#757575] text-sm"><TranslatedText as="span">{overallLabel}</TranslatedText></p>
           </div>
 
           {/* Category scores */}
@@ -214,12 +215,12 @@ export default function DMITTestClient() {
                     <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style={{ background: `${meta.color}15` }}>
                       <Icon className="w-5 h-5" style={{ color: meta.color }} />
                     </div>
-                    <h3 className="font-bold text-[#333333] text-base leading-snug">{cat.name}</h3>
+                    <h3 className="font-bold text-[#333333] text-base leading-snug"><TranslatedText as="span">{cat.name}</TranslatedText></h3>
                   </div>
 
                   <div className="mb-4">
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-[#AAAAAA] text-xs">Score</span>
+                      <span className="text-[#AAAAAA] text-xs"><TranslatedText as="span">Score</TranslatedText></span>
                       <span className="font-bold text-[#C20000] text-sm">{cat.percentage}%</span>
                     </div>
                     <div className="w-full bg-[#EEEEEE] rounded-full h-2 overflow-hidden">
@@ -232,14 +233,14 @@ export default function DMITTestClient() {
                     </div>
                   </div>
 
-                  <p className="text-[#757575] text-xs mb-3">{cat.description}</p>
+                  <p className="text-[#757575] text-xs mb-3"><TranslatedText as="span">{cat.description}</TranslatedText></p>
 
                   <div className="bg-[#F9F9F9] rounded-lg p-3 border border-[#EEEEEE]">
-                    <p className="text-[#333333] text-xs font-semibold mb-2">Key Insights</p>
+                    <p className="text-[#333333] text-xs font-semibold mb-2"><TranslatedText as="span">Key Insights</TranslatedText></p>
                     <ul className="space-y-1">
                       {cat.recommendations.slice(0, 2).map((r, i) => (
                         <li key={i} className="text-[#757575] text-xs flex gap-2">
-                          <span className="text-[#C20000] flex-shrink-0">•</span>{r}
+                          <span className="text-[#C20000] flex-shrink-0">•</span><TranslatedText as="span">{r}</TranslatedText>
                         </li>
                       ))}
                     </ul>
@@ -251,18 +252,18 @@ export default function DMITTestClient() {
 
           {/* Detailed profile */}
           <div className="bg-white border border-[#EEEEEE] rounded-2xl p-6 sm:p-8 mb-6">
-            <h2 className="font-bold text-[#333333] text-xl mb-6">Your Personalized DMIT Profile</h2>
+            <h2 className="font-bold text-[#333333] text-xl mb-6"><TranslatedText as="span">Your Personalized DMIT Profile</TranslatedText></h2>
             <div className="space-y-6">
               {scores.map((cat) => (
                 <div key={cat.name} className="border-l-4 border-[#C20000] pl-5">
-                  <h3 className="font-bold text-[#333333] mb-1">{cat.name}</h3>
-                  <p className="text-[#757575] text-sm mb-3">{cat.description}</p>
+                  <h3 className="font-bold text-[#333333] mb-1"><TranslatedText as="span">{cat.name}</TranslatedText></h3>
+                  <p className="text-[#757575] text-sm mb-3"><TranslatedText as="span">{cat.description}</TranslatedText></p>
                   <div className="bg-[#F9F9F9] rounded-lg p-4 border border-[#EEEEEE]">
-                    <p className="text-[#333333] text-xs font-semibold mb-2">Recommended Actions</p>
+                    <p className="text-[#333333] text-xs font-semibold mb-2"><TranslatedText as="span">Recommended Actions</TranslatedText></p>
                     <ul className="space-y-1.5">
                       {cat.recommendations.map((r, i) => (
                         <li key={i} className="text-[#757575] text-sm flex gap-2">
-                          <span className="text-[#C20000] flex-shrink-0">→</span>{r}
+                          <span className="text-[#C20000] flex-shrink-0">→</span><TranslatedText as="span">{r}</TranslatedText>
                         </li>
                       ))}
                     </ul>
@@ -274,15 +275,15 @@ export default function DMITTestClient() {
 
           {/* CTA */}
           <div className="bg-[#C20000] rounded-2xl p-8 text-white text-center">
-            <h3 className="font-bold text-xl mb-3">Next Steps</h3>
+            <h3 className="font-bold text-xl mb-3"><TranslatedText as="span">Next Steps</TranslatedText></h3>
             <p className="text-white/80 text-sm mb-6 max-w-xl mx-auto leading-relaxed">
-              Use these DMIT insights to guide your academic stream selection, learning strategy, and long-term career planning. Your unique profile is your roadmap to success.
+              <TranslatedText as="span">Use these DMIT insights to guide your academic stream selection, learning strategy, and long-term career planning. Your unique profile is your roadmap to success.</TranslatedText>
             </p>
             <button
               onClick={resetTest}
               className="inline-flex items-center gap-2 px-8 py-3 bg-white text-[#C20000] font-semibold rounded-xl hover:bg-gray-50 transition-colors text-sm"
             >
-              <RotateCcw className="w-4 h-4" /> Retake Assessment
+              <RotateCcw className="w-4 h-4" /> <TranslatedText as="span">Retake Assessment</TranslatedText>
             </button>
           </div>
         </div>
@@ -304,7 +305,9 @@ export default function DMITTestClient() {
         {/* Progress */}
         <div className="mb-8">
           <div className="flex justify-between items-center mb-2">
-            <span className="text-[#757575] text-sm">Question {currentQuestion + 1} of {questions.length}</span>
+            <span className="text-[#757575] text-sm">
+              <TranslatedText as="span">Question</TranslatedText> {currentQuestion + 1} <TranslatedText as="span">of</TranslatedText> {questions.length}
+            </span>
             <span className="text-[#757575] text-sm">{Math.round(progress)}%</span>
           </div>
           <div className="w-full bg-[#EEEEEE] rounded-full h-1.5 overflow-hidden">
@@ -333,13 +336,13 @@ export default function DMITTestClient() {
                 <Icon className="w-4 h-4" style={{ color: meta.color }} />
               </div>
               <span className="text-xs font-semibold uppercase tracking-wide" style={{ color: meta.color }}>
-                {meta.label}
+                <TranslatedText as="span">{meta.label}</TranslatedText>
               </span>
             </div>
 
             {/* Question */}
             <h2 className="font-bold text-[#333333] text-lg sm:text-xl mb-7 leading-snug">
-              {question.text}
+              <TranslatedText as="span">{question.text}</TranslatedText>
             </h2>
 
             {/* Options */}
@@ -362,7 +365,7 @@ export default function DMITTestClient() {
                       }`}>
                         {selected && <div className="w-2 h-2 bg-white rounded-full" />}
                       </div>
-                      <span className="text-[#505050] text-sm leading-snug">{option.label}</span>
+                      <span className="text-[#505050] text-sm leading-snug"><TranslatedText as="span">{option.label}</TranslatedText></span>
                     </div>
                   </button>
                 );
@@ -378,7 +381,7 @@ export default function DMITTestClient() {
             disabled={currentQuestion === 0}
             className="flex-1 py-3 border border-[#EEEEEE] text-[#757575] font-semibold rounded-xl hover:bg-[#F5F5F5] transition-colors disabled:opacity-40 disabled:cursor-not-allowed text-sm"
           >
-            Previous
+            <TranslatedText as="span">Previous</TranslatedText>
           </button>
           <button
             onClick={handleNext}
@@ -386,9 +389,9 @@ export default function DMITTestClient() {
             className="flex-1 py-3 bg-[#C20000] hover:bg-[#B30000] text-white font-semibold rounded-xl transition-colors disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2 text-sm"
           >
             {currentQuestion === questions.length -  1 ? (
-              <><CheckCircle className="w-4 h-4" /> Complete</>
+              <><CheckCircle className="w-4 h-4" /> <TranslatedText as="span">Complete</TranslatedText></>
             ) : (
-              <>Next <ChevronRight className="w-4 h-4" /></>
+              <><TranslatedText as="span">Next</TranslatedText> <ChevronRight className="w-4 h-4" /></>
             )}
           </button>
         </div>
