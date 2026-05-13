@@ -6,6 +6,7 @@ import { useState, useEffect, useRef } from "react";
 import { Menu, X, Phone, Globe } from "lucide-react";
 import { useTranslation } from "@/app/context/TranslationContext";
 import { useTranslatedContent } from "@/app/hooks/useTranslatedContent";
+import { GoogleTranslateButton } from "./GoogleTranslateButton";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -156,13 +157,18 @@ export default function Navbar() {
             {/* Language Toggle & Mobile Menu Button */}
             <div className="flex items-center gap-2">
               {isMounted && (
-                <button
-                  onClick={toggleLanguage}
-                  className="lg:hidden p-2 bg-slate-100 hover:bg-slate-200 rounded-lg transition-all duration-200 border border-slate-300 flex-shrink-0"
-                  title={language === "en" ? "Switch to Hindi" : "Switch to English"}
-                >
-                  <Globe className="w-5 h-5 text-slate-700" />
-                </button>
+                <>
+                  <div className="hidden sm:block">
+                    <GoogleTranslateButton />
+                  </div>
+                  <button
+                    onClick={toggleLanguage}
+                    className="lg:hidden p-2 bg-slate-100 hover:bg-slate-200 rounded-lg transition-all duration-200 border border-slate-300 flex-shrink-0"
+                    title={language === "en" ? "Switch to Hindi" : "Switch to English"}
+                  >
+                    <Globe className="w-5 h-5 text-slate-700" />
+                  </button>
+                </>
               )}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
