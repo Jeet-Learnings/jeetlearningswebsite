@@ -33,8 +33,9 @@ async function loadIndex(): Promise<TranslationIndex> {
   if (!response.ok) {
     throw new Error(`Failed to load index: ${response.status}`);
   }
-  translationIndex = await response.json();
-  return translationIndex;
+  const index = await response.json() as TranslationIndex;
+  translationIndex = index;
+  return index;
 }
 
 /**
