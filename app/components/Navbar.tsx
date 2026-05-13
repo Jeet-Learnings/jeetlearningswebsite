@@ -216,6 +216,12 @@ export default function Navbar() {
         </div>
 
         <div className="p-6 bg-gradient-to-b from-slate-50 to-slate-100 border-t border-slate-200">
+          {isMounted && (
+            <div className="mb-6 sm:hidden">
+              <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-3">Language</p>
+              <GoogleTranslateButton />
+            </div>
+          )}
           <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-3">Need Help?</p>
           <a href="tel:+919670699777" className="flex items-center gap-3 text-slate-800 font-poppins font-bold text-lg mb-6 hover:text-[var(--color-canam-red)] transition-colors">
             <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0">

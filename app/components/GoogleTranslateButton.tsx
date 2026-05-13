@@ -7,27 +7,15 @@ export function GoogleTranslateButton() {
   const [isOpen, setIsOpen] = useState(false);
 
   const languages = [
+    { code: "en", name: "English" },
     { code: "hi", name: "हिंदी (Hindi)" },
-    { code: "es", name: "Español (Spanish)" },
-    { code: "fr", name: "Français (French)" },
-    { code: "de", name: "Deutsch (German)" },
-    { code: "it", name: "Italiano (Italian)" },
-    { code: "pt", name: "Português (Portuguese)" },
-    { code: "ru", name: "Русский (Russian)" },
-    { code: "ja", name: "日本語 (Japanese)" },
-    { code: "ko", name: "한국어 (Korean)" },
-    { code: "zh-CN", name: "中文 (Chinese)" },
-    { code: "ar", name: "العربية (Arabic)" },
-    { code: "bn", name: "বাংলা (Bengali)" },
-    { code: "ta", name: "தமிழ் (Tamil)" },
-    { code: "te", name: "తెలుగు (Telugu)" },
-    { code: "ur", name: "اردو (Urdu)" },
+    { code: "mr", name: "मराठी (Marathi)" },
   ];
 
   const handleTranslate = (langCode: string) => {
     const currentUrl = window.location.href;
-    const translateUrl = `https://translate.google.com/translate?u=${encodeURIComponent(currentUrl)}&hl=en&sl=en&tl=${langCode}`;
-    window.open(translateUrl, "_blank");
+    const translateUrl = `https://translate.google.com/translate?u=${encodeURIComponent(currentUrl)}&hl=en&sl=auto&tl=${langCode}`;
+    window.location.href = translateUrl;
     setIsOpen(false);
   };
 
@@ -36,7 +24,7 @@ export function GoogleTranslateButton() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-slate-100 transition-all duration-200 border border-slate-200 text-xs font-medium"
-        title="Translate page to any language"
+        title="Translate page"
       >
         <Globe className="w-4 h-4 text-slate-600 group-hover:text-[var(--color-canam-red)] transition-colors" />
         <span className="text-slate-600 group-hover:text-[var(--color-canam-red)] transition-colors hidden sm:inline">
