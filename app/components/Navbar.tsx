@@ -3,8 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
-import { Menu, X, Phone, Globe } from "lucide-react";
-import { useTranslation } from "@/app/context/TranslationContext";
+import { Menu, X, Phone } from "lucide-react";
 import { useTranslatedContent } from "@/app/hooks/useTranslatedContent";
 import { GoogleTranslateButton } from "./GoogleTranslateButton";
 
@@ -13,18 +12,6 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  
-  let language: "en" | "hi" = "en";
-  let toggleLanguage: () => void = () => {};
-  
-  try {
-    const translation = useTranslation();
-    language = translation.language;
-    toggleLanguage = translation.toggleLanguage;
-  } catch (error) {
-    // useTranslation hook not available (not wrapped in provider)
-    // This is fine, we'll just use default values
-  }
 
   // Translate navbar items
   const homeText = useTranslatedContent("Home");
@@ -128,19 +115,6 @@ export default function Navbar() {
 
             {/* Contact & CTA */}
             <div className="hidden md:flex items-center gap-2 flex-shrink-0">
-              {isMounted && (
-                <button
-                  onClick={toggleLanguage}
-                  className="group flex items-center gap-1 px-3 py-1.5 rounded-lg hover:bg-slate-100 transition-all duration-200 border border-slate-200"
-                  title={language === "en" ? "Switch to Hindi" : "Switch to English"}
-                >
-                  <Globe className="w-4 h-4 text-slate-600 group-hover:text-[var(--color-canam-red)] transition-colors" />
-                  <span className="text-xs font-semibold text-slate-600 group-hover:text-[var(--color-canam-red)] transition-colors">
-                    {language === "en" ? "हिंदी" : "EN"}
-                  </span>
-                </button>
-              )}
-
               <a href="tel:+919670699777" className="group hidden lg:flex items-center gap-1 px-2 py-1.5 rounded-lg hover:bg-slate-50 transition-all duration-200">
                 <Phone className="w-4 h-4 text-slate-400 group-hover:text-[var(--color-canam-red)] transition-colors flex-shrink-0" />
                 <span className="text-xs font-semibold text-slate-600 group-hover:text-[var(--color-canam-red)] transition-colors whitespace-nowrap">+91 9670699777</span>
@@ -157,18 +131,9 @@ export default function Navbar() {
             {/* Language Toggle & Mobile Menu Button */}
             <div className="flex items-center gap-2">
               {isMounted && (
-                <>
-                  <div className="hidden sm:block">
-                    <GoogleTranslateButton />
-                  </div>
-                  <button
-                    onClick={toggleLanguage}
-                    className="lg:hidden p-2 bg-slate-100 hover:bg-slate-200 rounded-lg transition-all duration-200 border border-slate-300 flex-shrink-0"
-                    title={language === "en" ? "Switch to Hindi" : "Switch to English"}
-                  >
-                    <Globe className="w-5 h-5 text-slate-700" />
-                  </button>
-                </>
+                <div className="hidden sm:block">
+                  <GoogleTranslateButton />
+                </div>
               )}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
