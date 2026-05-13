@@ -4,6 +4,7 @@ import "./globals.css";
 import { TranslationProvider } from "@/app/context/TranslationContext";
 import { GoogleAnalytics } from "@/app/components/GoogleAnalytics";
 import { TranslationLoadingIndicator } from "@/app/components/TranslationLoadingBuffer";
+import { TranslationWrapper } from "@/app/components/TranslationWrapper";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -155,7 +156,9 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${inter.variable} ${fredoka.variable} ${luckiestGuy.variable} ${dmSans.variable} antialiased`}>
         <GoogleAnalytics />
         <TranslationProvider>
-          <LayoutContent>{children}</LayoutContent>
+          <TranslationWrapper>
+            <LayoutContent>{children}</LayoutContent>
+          </TranslationWrapper>
         </TranslationProvider>
       </body>
     </html>
