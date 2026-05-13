@@ -4,6 +4,7 @@ import "./globals.css";
 import { TranslationProvider } from "@/app/context/TranslationContext";
 import { GoogleAnalytics } from "@/app/components/GoogleAnalytics";
 import { TranslationLoadingIndicator } from "@/app/components/TranslationLoadingBuffer";
+import { TranslationLinkInterceptor } from "@/app/components/TranslationLinkInterceptor";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -137,6 +138,7 @@ function LayoutContent({
   return (
     <>
       <TranslationLoadingIndicator />
+      <TranslationLinkInterceptor />
       {children}
     </>
   );

@@ -19,6 +19,7 @@ export function GoogleTranslateButton() {
   const languages = [
     { code: "en", name: "English" },
     { code: "hi", name: "हिंदी (Hindi)" },
+    { code: "mr", name: "मराठी (Marathi)" },
     { code: "es", name: "Español (Spanish)" },
     { code: "fr", name: "Français (French)" },
     { code: "de", name: "Deutsch (German)" },
