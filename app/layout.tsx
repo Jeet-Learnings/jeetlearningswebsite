@@ -3,6 +3,7 @@ import { Poppins, Inter, Fredoka, Luckiest_Guy, DM_Sans } from "next/font/google
 import "./globals.css";
 import { TranslationProvider } from "@/app/context/TranslationContext";
 import { GoogleAnalytics } from "@/app/components/GoogleAnalytics";
+import { TranslationLoadingIndicator } from "@/app/components/TranslationLoadingBuffer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -128,6 +129,19 @@ export const metadata: Metadata = {
   },
 };
 
+function LayoutContent({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <>
+      <TranslationLoadingIndicator />
+      {children}
+    </>
+  );
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -141,7 +155,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${inter.variable} ${fredoka.variable} ${luckiestGuy.variable} ${dmSans.variable} antialiased`}>
         <GoogleAnalytics />
         <TranslationProvider>
-          {children}
+          <LayoutContent>{children}</LayoutContent>
         </TranslationProvider>
       </body>
     </html>

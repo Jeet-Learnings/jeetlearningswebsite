@@ -11,48 +11,72 @@ let translationCache: {
   hi: {},
 };
 
-let isLoaded = false;
+let loadingPromises: {
+  en: Promise<void> | null;
+  hi: Promise<void> | null;
+} = {
+  en: null,
+  hi: null,
+};
+
+let isLoaded: {
+  en: boolean;
+  hi: boolean;
+} = {
+  en: false,
+  hi: false,
+};
 
 // Load translations from JSON files
-async function loadTranslations(): Promise<void> {
-  if (isLoaded) return;
+async function loadTranslations(language: "en" | "hi" = "hi"): Promise<void> {
+  // If already loaded, return immediately
+  if (isLoaded[language]) return;
 
-  try {
-    // Import translations directly
-    const { default: hiData } = await import("@/app/data/translations/hi.json");
-    const { default: enData } = await import("@/app/data/translations/en.json");
-
-    translationCache.en = enData;
-    translationCache.hi = hiData;
-
-    isLoaded = true;
-    console.log("Translations loaded:", { 
-      en: Object.keys(translationCache.en).length, 
-      hi: Object.keys(translationCache.hi).length 
-    });
-  } catch (error) {
-    console.error("Error loading translations:", error);
-    // Fallback to API
-    try {
-      const [enResponse, hiResponse] = await Promise.all([
-        fetch("/api/translations/en"),
-        fetch("/api/translations/hi"),
-      ]);
-
-      if (enResponse.ok) {
-        const enData = await enResponse.json();
-        translationCache.en = enData;
-      }
-      if (hiResponse.ok) {
-        const hiData = await hiResponse.json();
-        translationCache.hi = hiData;
-      }
-
-      isLoaded = true;
-    } catch (fallbackError) {
-      console.error("Error loading translations from API:", fallbackError);
-    }
+  // If currently loading, wait for the promise
+  if (loadingPromises[language]) {
+    return loadingPromises[language];
   }
+
+  // Create a new loading promise
+  const loadPromise = (async () => {
+    try {
+      console.log(`Starting to load ${language} translations...`);
+      
+      if (language === "hi") {
+        const { default: hiData } = await import("@/app/data/translations/hi.json");
+        translationCache.hi = hiData;
+        console.log(`✓ Hindi translations loaded: ${Object.keys(hiData).length} entries`);
+      } else {
+        const { default: enData } = await import("@/app/data/translations/en.json");
+        translationCache.en = enData;
+        console.log(`✓ English translations loaded: ${Object.keys(enData).length} entries`);
+      }
+
+      isLoaded[language] = true;
+    } catch (error) {
+      console.error(`Error loading ${language} translations from JSON:`, error);
+      
+      // Fallback to API
+      try {
+        const endpoint = language === "hi" ? "/api/translations/hi" : "/api/translations/en";
+        const response = await fetch(endpoint);
+
+        if (response.ok) {
+          const data = await response.json();
+          translationCache[language] = data;
+          isLoaded[language] = true;
+          console.log(`✓ ${language} translations loaded from API: ${Object.keys(data).length} entries`);
+        }
+      } catch (fallbackError) {
+        console.error(`Error loading ${language} translations from API:`, fallbackError);
+      }
+    } finally {
+      loadingPromises[language] = null;
+    }
+  })();
+
+  loadingPromises[language] = loadPromise;
+  return loadPromise;
 }
 
 // Get translation from loaded store
@@ -60,7 +84,7 @@ async function getStoredTranslation(
   text: string,
   language: "en" | "hi"
 ): Promise<string | null> {
-  await loadTranslations();
+  await loadTranslations(language);
 
   // Direct lookup -  exact match
   if (translationCache[language][text]) {
@@ -163,12 +187,17 @@ export async function translateBatch(
   texts: string[],
   language: "en" | "hi" = "hi"
 ): Promise<string[]> {
-  const results: string[] = [];
-
-  for (const text of texts) {
-    const translated = await translateText(text, language);
-    results.push(translated);
+  if (language === "en") {
+    return texts;
   }
+
+  // Ensure translations are loaded first
+  await loadTranslations(language);
+
+  // Translate all texts in parallel, but with caching
+  const results = await Promise.all(
+    texts.map(text => translateText(text, language))
+  );
 
   return results;
 }
@@ -177,8 +206,15 @@ export async function translateBatch(
 export async function getAllTranslations(
   language: "en" | "hi"
 ): Promise<TranslationStore> {
-  await loadTranslations();
+  await loadTranslations(language);
   return translationCache[language];
+}
+
+// Preload translations for a language (used for route preloading)
+export async function preloadTranslations(language: "en" | "hi"): Promise<void> {
+  console.log(`Preloading ${language} translations...`);
+  await loadTranslations(language);
+  console.log(`✓ Preload complete for ${language}`);
 }
 
 // Add translation directly to codebase
