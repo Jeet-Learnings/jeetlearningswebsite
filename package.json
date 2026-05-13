@@ -12,13 +12,15 @@
   },
   "dependencies": {
     "framer-motion": "^12.34.3",
+    "libretranslate": "^1.0.1",
     "lucide-react": "^0.408.0",
     "mammoth": "^1.12.0",
     "next": "16.1.6",
     "next-intl": "^4.12.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "ts-morph": "^28.0.0"
+    "ts-morph": "^28.0.0",
+    "zustand": "^5.0.13"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
